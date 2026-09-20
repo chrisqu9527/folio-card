@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "FOLIO · 提示词图鉴",
+      "hasCanvas": false,
+      "bodyTextLen": 7381,
+      "bodyTextHash": "78e6c911cbc78da00a6b7a5521a75270c808c97cc17756fdbbd8e37c1b5c01a5",
+      "bodyTextPrefix": "FOLIO 提示词图鉴 图鉴 创作者 关于 VOL. 02 VOL. 02 — 往期补档 · 2025冬–2026秋 FOLIO",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "FOLIO · 提示词图鉴",
+      "hasCanvas": false,
+      "bodyTextLen": 7334,
+      "bodyTextHash": "2c0b0a08024396fcb68899ffaee348724ad69038b055624838d433b6645835c7",
+      "bodyTextPrefix": "FOLIO 图鉴 创作者 关于 VOL. 02 — 往期补档 · 2025冬–2026秋 FOLIO 提示词图鉴 一份给创作者用",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

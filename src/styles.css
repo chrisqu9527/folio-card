@@ -1,0 +1,102 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #f1ece3;
+  --color-fg: #161412;
+  --color-muted: #6f6a62;
+  --color-subtle: #9a948a;
+  --color-surface: #faf7f1;
+  --color-surface-2: #e7e1d4;
+  --color-accent: #2f3c42;
+  --color-accent-fg: #f1ece3;
+  --color-border: #1614121f;
+  --color-ring: #2f3c42;
+  --color-danger: #8a3a32;
+
+  --font-sans: "IBM Plex Sans", "Noto Sans SC", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Instrument Serif", "Noto Serif SC", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-border: 0 0 0 1px #16141214, 0 1px 2px -1px #1614120f, 0 8px 24px -16px #16141218;
+  --shadow-border-hover: 0 0 0 1px #16141222, 0 10px 28px -18px #16141233, 0 18px 40px -24px #1614121f;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+    font-family: var(--font-serif);
+    letter-spacing: -0.03em;
+    line-height: 1.12;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background: color-mix(in oklab, var(--color-accent) 18%, transparent);
+    color: var(--color-fg);
+  }
+
+  img.media-frame {
+    outline: 1px solid rgb(22 20 18 / 0.1);
+    outline-offset: -1px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.paper-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='.045'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+}
+
+.masthead-rule {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-fg),
+    var(--color-fg) 1px,
+    transparent 1px,
+    transparent 6px
+  );
+  height: 1px;
+}
