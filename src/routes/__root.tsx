@@ -17,7 +17,7 @@ export const Route = createRootRoute({
         name: "description",
         content: "一份持续增补的 AI 创作提示词图鉴。收录图像与视频提示词、风格系统与镜头语言。",
       },
-      { name: "theme-color", content: "#f1ece3" },
+      { name: "theme-color", content: "#09090b" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
@@ -34,7 +34,7 @@ export const Route = createRootRoute({
       <head>
         <HeadContent />
       </head>
-      <body className="paper-grain min-h-screen bg-bg text-fg">
+      <body className="min-h-screen bg-bg text-fg">
         <PreviewHostBridge />
         <AuthProvider>
           <Outlet />

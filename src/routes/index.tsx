@@ -1,9 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CreatorsSection } from "@/components/creators-section";
-import { Hero } from "@/components/hero";
-import { PromptArchive } from "@/components/prompt-archive";
-import { SiteFooter } from "@/components/site-footer";
-import { SiteHeader } from "@/components/site-header";
+import { FolioFeed } from "@/components/folio-feed";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 type Search = {
@@ -23,24 +19,16 @@ function Home() {
 
   return (
     <TooltipProvider delayDuration={200}>
-      <div id="top" className="min-h-screen">
-        <SiteHeader />
-        <main>
-          <Hero />
-          <PromptArchive
-            selectedId={p}
-            onSelect={(id) => {
-              void navigate({
-                search: id ? { p: id } : {},
-                replace: true,
-                resetScroll: false,
-              });
-            }}
-          />
-          <CreatorsSection />
-        </main>
-        <SiteFooter />
-      </div>
+      <FolioFeed
+        selectedId={p}
+        onSelect={(id) => {
+          void navigate({
+            search: id ? { p: id } : {},
+            replace: true,
+            resetScroll: false,
+          });
+        }}
+      />
     </TooltipProvider>
   );
 }

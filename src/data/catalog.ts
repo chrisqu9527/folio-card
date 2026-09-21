@@ -1,6 +1,7 @@
 import { moreEntries } from "./more-entries";
 import { wave3Entries } from "./wave3-entries";
 import { wave4Entries } from "./wave4-entries";
+import { wave5Entries } from "./wave5-entries";
 
 export type Medium = "image" | "video";
 
@@ -788,9 +789,13 @@ B = 右侧少林武僧。成年亚洲男性，光头，强壮精悍，破旧僧�
   },
 ];
 
-export const entries: PromptEntry[] = [...baseEntries, ...moreEntries, ...wave3Entries, ...wave4Entries].sort((a, b) =>
-  b.date.localeCompare(a.date),
-);
+export const entries: PromptEntry[] = [
+  ...baseEntries,
+  ...moreEntries,
+  ...wave3Entries,
+  ...wave4Entries,
+  ...wave5Entries,
+].sort((a, b) => b.date.localeCompare(a.date));
 
 export const creatorById = Object.fromEntries(creators.map((c) => [c.id, c])) as Record<
   string,
