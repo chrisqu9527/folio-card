@@ -1,0 +1,47 @@
+---
+name: folio-style
+description: >
+  按编号复制 FOLIO 图鉴里的图像/视频风格提示词。用户给出编号（16、016、#16、风格16、16号）、
+  或要求列出/搜索某种视觉风格、海报、武侠、人像、短片时使用。
+  Use when someone asks for a FOLIO style number, to copy a numbered visual prompt,
+  or to list/search the FOLIO X prompt atlas by category or keyword.
+---
+
+# FOLIO 风格编号
+
+这是一套已冻结的视觉提示词库，来自公开 X 帖的 FOLIO 图鉴。每条有稳定编号 `001`–`106`。
+提示词原文属于原作者。你的工作是按编号取出原文，方便别人复制，不是改写成你自己的风格。
+
+数据：
+
+- 总库：`data/prompts.json`
+- 单条：`entries/NNN.md`（NNN 为三位编号）
+- 目录：`CATALOG.md`
+- 命令：在本 skill 目录执行 `node scripts/lookup.mjs`
+
+## 用户给了编号
+
+识别 `16`、`016`、`#16`、`No.16`、`风格 16`、`16号`。不足三位时左侧补零。
+
+1. 运行 `node scripts/lookup.mjs 016`。没有 shell 时，直接读 `entries/016.md`。
+2. 把 `---PROMPT---` 与 `---END---` 之间的文字**原样**放进一个代码块。不要润色、不要翻译、不要补「8K、大师作品」。
+3. 代码块下面只加一行出处：`016 · 标题 · 风格名 · 分类 · @handle · 原帖链接`。
+4. 若 `SLOTS` 不是「无」，再加一句：把列出的【槽位】换成用户要的主体，其余句子保持不动。用户已经给了主体时，只替换这些槽位（或明确的主体描述），风格句不动。
+5. 编号不存在就说明范围是 001–106，并建议用 `--search` 找接近的风格。不要编造一条。
+
+多个编号就按编号逐条输出，每条一个代码块。
+
+## 用户要目录或搜索
+
+- 某一类：`node scripts/lookup.mjs --category eastern`，分类 id 也可以用中文名（人像、海报版式、风格系统、东方叙事、电影动作、叙事短片、产品品牌、插画工艺）。
+- 关键词：`node scripts/lookup.mjs --search 武侠`。
+- 全部目录：读 `CATALOG.md`，不要把 106 条全文倒进对话。
+
+回复用短表：编号、风格、标题、作者。问到某一条再展开全文。
+
+## 不要做的事
+
+- 不要改编号，不要把日期重排后重新编号。新内容只追加。
+- 不要删掉原帖链接和作者。
+- 不要把提示词说成你或用户原创。
+- 用户没要改写时，不要输出「优化版」。
