@@ -49,14 +49,27 @@ function printOne(p) {
   );
 }
 
-const args = process.argv.slice(2);
+const argsIn = process.argv.slice(2);
+const mediumAt = argsIn.indexOf("--medium");
+let medium = null;
+const args = argsIn.filter((_, i) => mediumAt < 0 || (i !== mediumAt && i !== mediumAt + 1));
+if (mediumAt >= 0) {
+  const raw = (argsIn[mediumAt + 1] || "").toLowerCase();
+  medium = raw === "image" || raw === "图像" || raw === "图片" ? "image" : raw === "video" || raw === "视频" ? "video" : null;
+  if (!medium) {
+    console.error("--medium image|video");
+    process.exit(1);
+  }
+}
+const pool = medium ? db.prompts.filter((p) => p.medium === medium) : db.prompts;
+
 if (args.length === 0 || args.includes("-h") || args.includes("--help")) {
-  console.log("usage: lookup.mjs <编号> | --list | --category <id|中文名> | --search <词>");
+  console.log("usage: lookup.mjs <编号> | --list | --category <id|中文名> | --search <词> [--medium image|video]");
   process.exit(args.length === 0 ? 1 : 0);
 }
 
 if (args[0] === "--list") {
-  for (const p of db.prompts) console.log(line(p));
+  for (const p of pool) console.log(line(p));
   process.exit(0);
 }
 
@@ -67,7 +80,7 @@ if (args[0] === "--category") {
     console.error("unknown category. use: " + db.categories.map((c) => `${c.id}(${c.name})`).join(", "));
     process.exit(1);
   }
-  for (const p of db.prompts.filter((p) => p.category === cat.id)) console.log(line(p));
+  for (const p of pool.filter((p) => p.category === cat.id)) console.log(line(p));
   process.exit(0);
 }
 
@@ -77,7 +90,7 @@ if (args[0] === "--search") {
     console.error("missing query");
     process.exit(1);
   }
-  const hits = db.prompts.filter((p) =>
+  const hits = pool.filter((p) =>
     [p.no, p.title, p.style, p.kicker, p.excerpt, p.category, catName[p.category], p.creator.name, p.creator.handle, ...p.tags]
       .join("\n")
       .toLowerCase()

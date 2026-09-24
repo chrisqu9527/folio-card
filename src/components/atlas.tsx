@@ -2,23 +2,26 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Check, ChevronLeft, ChevronRight, Copy, ExternalLink, X } from "lucide-react";
 import {
   categoryName,
+  countMedium,
   filterPrompts,
   folio,
   parseNo,
   promptByNo,
   type CategoryId,
   type FolioPrompt,
+  type Medium,
 } from "@/lib/folio";
 
 export function Atlas() {
   const [query, setQuery] = useState("");
+  const [medium, setMedium] = useState<Medium>("image");
   const [category, setCategory] = useState<CategoryId | "all">("all");
   const [selectedNo, setSelectedNo] = useState<string | null>(folio.prompts[0]?.no ?? null);
   const [copied, setCopied] = useState(false);
   const [missing, setMissing] = useState<string | null>(null);
   const detailRef = useRef<HTMLElement>(null);
 
-  const results = useMemo(() => filterPrompts(query, category), [query, category]);
+  const results = useMemo(() => filterPrompts(query, category, medium), [query, category, medium]);
   const selected = results.find((p) => p.no === selectedNo) ?? results[0] ?? null;
 
   useEffect(() => {
@@ -31,6 +34,7 @@ export function Atlas() {
       }
       setMissing(null);
       setQuery(no);
+      setMedium(promptByNo(no)!.medium);
       setCategory("all");
       setSelectedNo(no);
     };
@@ -62,8 +66,15 @@ export function Atlas() {
       return;
     }
     setMissing(null);
+    setMedium(hit.medium);
     setCategory("all");
     setSelectedNo(no);
+  }
+
+  function pickMedium(next: Medium) {
+    setMedium(next);
+    setCopied(false);
+    if (category !== "all" && countMedium(next, category) === 0) setCategory("all");
   }
 
   async function copyPrompt(p: FolioPrompt) {
@@ -96,7 +107,7 @@ export function Atlas() {
             </p>
           </div>
           <p className="max-w-xl text-sm text-muted">
-            输入编号，复制这一套风格。编号已冻结，不会因为以后新增而改写。提示词引自公开帖，作者与原帖留在每条下面。
+            图像和视频分开。输入编号会直接跳到那一条，再复制风格。编号已冻结，不会因为以后新增而改写。
           </p>
           <form
             className="flex flex-col gap-2 sm:flex-row"
@@ -132,12 +143,27 @@ export function Atlas() {
       </header>
 
       <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
-        <div className="flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
+        <div className="grid grid-cols-2 gap-2">
+          <MediumTab
+            active={medium === "image"}
+            onClick={() => pickMedium("image")}
+            label="图像"
+            count={countMedium("image")}
+          />
+          <MediumTab
+            active={medium === "video"}
+            onClick={() => pickMedium("video")}
+            label="视频"
+            count={countMedium("video")}
+          />
+        </div>
+        <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
           <Chip active={category === "all"} onClick={() => setCategory("all")}>
-            全部 {folio.count}
+            全部 {countMedium(medium)}
           </Chip>
           {folio.categories.map((c) => {
-            const n = folio.prompts.filter((p) => p.category === c.id).length;
+            const n = countMedium(medium, c.id);
+            if (n === 0) return null;
             return (
               <Chip key={c.id} active={category === c.id} onClick={() => setCategory(c.id)}>
                 {c.name} {n}
@@ -175,9 +201,6 @@ export function Atlas() {
                           {p.style} · @{p.creator.handle}
                         </span>
                       </span>
-                      <span className="shrink-0 font-mono text-xs text-subtle">
-                        {p.medium === "image" ? "图像" : "视频"}
-                      </span>
                     </button>
                   </li>
                 );
@@ -195,6 +218,31 @@ export function Atlas() {
         </div>
       </div>
     </div>
+  );
+}
+
+function MediumTab({
+  active,
+  onClick,
+  label,
+  count,
+}: {
+  active: boolean;
+  onClick: () => void;
+  label: string;
+  count: number;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`flex h-11 items-center justify-between rounded-md px-4 text-sm ${
+        active ? "bg-accent text-accent-fg" : "bg-surface-2 text-muted"
+      }`}
+    >
+      <span>{label}</span>
+      <span className="font-mono text-xs">{String(count).padStart(2, "0")}</span>
+    </button>
   );
 }
 

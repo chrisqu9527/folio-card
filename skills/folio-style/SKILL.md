@@ -33,9 +33,10 @@ description: >
 
 ## 用户要目录或搜索
 
-- 某一类：`node scripts/lookup.mjs --category eastern`，分类 id 也可以用中文名（人像、海报版式、风格系统、东方叙事、电影动作、叙事短片、产品品牌、插画工艺）。
-- 关键词：`node scripts/lookup.mjs --search 武侠`。
-- 全部目录：读 `CATALOG.md`，不要把 106 条全文倒进对话。
+- 只要图像或只要视频：加上 `--medium image` 或 `--medium video`（中文也可以写 `图像` / `视频`）。编号查询不受这个限制，报号就取那一条。
+- 某一类：`node scripts/lookup.mjs --category eastern`，分类 id 也可以用中文名（人像、海报版式、风格系统、东方叙事、电影动作、叙事短片、产品品牌、插画工艺）。可以再加 `--medium`。
+- 关键词：`node scripts/lookup.mjs --search 武侠`。同样可以加 `--medium`。
+- 全部目录：读 `CATALOG.md`。图像和视频分两段，不要把全文倒进对话。
 
 回复用短表：编号、风格、标题、作者。问到某一条再展开全文。
 

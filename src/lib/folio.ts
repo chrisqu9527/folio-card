@@ -60,16 +60,22 @@ export function promptByNo(no: string): FolioPrompt | undefined {
   return byNo.get(no);
 }
 
-export function filterPrompts(query: string, category: CategoryId | "all"): FolioPrompt[] {
+export function filterPrompts(
+  query: string,
+  category: CategoryId | "all",
+  medium: Medium,
+): FolioPrompt[] {
   const exact = parseNo(query);
   if (exact && query.trim().length > 0 && !query.trim().includes(" ")) {
     const hit = byNo.get(exact);
     if (!hit) return [];
+    if (hit.medium !== medium) return [];
     if (category !== "all" && hit.category !== category) return [];
     return [hit];
   }
   const q = query.trim().toLowerCase();
   return folio.prompts.filter((p) => {
+    if (p.medium !== medium) return false;
     if (category !== "all" && p.category !== category) return false;
     if (!q) return true;
     const hay = [
@@ -87,4 +93,10 @@ export function filterPrompts(query: string, category: CategoryId | "all"): Foli
       .toLowerCase();
     return hay.includes(q);
   });
+}
+
+export function countMedium(medium: Medium, category: CategoryId | "all" = "all"): number {
+  return folio.prompts.filter(
+    (p) => p.medium === medium && (category === "all" || p.category === category),
+  ).length;
 }
