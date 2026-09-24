@@ -3,8 +3,8 @@
   "name": "FOLIO 风格编号",
   "frozenAt": "2026-09-24",
   "snapshot": "folio-card main @ 2026-09-21, date descending",
-  "note": "编号冻结。已有编号永不改写；新提示词只追加到末尾。提示词原文属于各 X 作者，本库只做编号、分类与检索。",
-  "count": 106,
+  "note": "编号 001–106 已冻结，不会因新增而改写。新提示词只追加到末尾。2026-09-24 追加 107–116，提示词原文属于各 X 作者。",
+  "count": 116,
   "categories": [
     {
       "id": "portrait",
@@ -3298,6 +3298,337 @@
       "covers": [
         "/covers/alla-temple.jpg"
       ]
+    },
+    {
+      "id": "vox-swiss-poster",
+      "title": "瑞士主义角色海报",
+      "kicker": "只换角色",
+      "excerpt": "近景肖像切进不对称网格。巨大无衬线字被裁切、被人物挡住，只留一种角色色。",
+      "style": "现代瑞士主义角色海报",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "字体",
+        "角色"
+      ],
+      "medium": "image",
+      "slots": [
+        "角色"
+      ],
+      "creator": {
+        "id": "voxcat",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2102421914979570015",
+      "model": "image2 · 竖版",
+      "notes": "可复用海报模板。只替换角色，输出同一套版式。",
+      "date": "2026-09-22",
+      "covers": [
+        "/covers/vox-swiss-poster.jpg",
+        "/covers/vox-swiss-poster-b.jpg"
+      ],
+      "prompt": "【角色】，保留角色最核心的身份识别、发型轮廓、代表色、服装特征与气质，重新设计为现代瑞士主义角色海报。\n\nModern Swiss Style × International Typographic Style × Oversized Typography × Asymmetric Grid × Editorial Character Poster。\n\n以【角色】的大幅近景肖像作为核心视觉，人物占据画面一侧或从边缘切入，不使用传统居中立绘。采用近距离视角、轻微仰拍或非常规裁切，让头部、肩线与服装形成强烈几何轮廓。\n\n画面由超尺度无衬线字体、大面积留白、严格网格、非对称布局和极少量信息共同构成。巨大英文字母或角色相关文字跨越画面，可被边缘裁切、被人物遮挡，字体本身成为主要图形元素，而不是普通标题。\n\n整体以黑、白、米白、深灰为基础，只保留一种根据角色自动提取的高饱和强调色，用于巨大字体、几何色块或极少量视觉锚点。\n\n人物表现偏高级 Editorial 插画 / 半写实日漫肖像，细节克制，避免复杂背景。允许加入极少量城市建筑摄影碎片、坐标、编号、短句、小字号信息和细线作为次级信息层，但保持大量负空间。\n\n版式强调尺度反差：巨大字体 × 微型文字，人物局部特写 × 大面积空白，纯色色块 × 黑白人物。整体干净、锐利、理性、具有国际主义平面设计和当代文化杂志封面的视觉张力。\n\n文字内容根据【角色】的身份、世界观、能力或性格自动生成，不固定文案。\n\n竖版海报，单人角色。",
+      "no": "107"
+    },
+    {
+      "id": "vox-sunset-glasses",
+      "title": "无框银镜夕阳",
+      "kicker": "短剧捏脸",
+      "excerpt": "超近景正面。无框银镜、水光桃花杏眼，冷白面光撞上金黄夕阳侧逆光。",
+      "style": "短剧胶片捏脸",
+      "category": "portrait",
+      "tags": [
+        "人像",
+        "东方",
+        "短剧"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "voxcat",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2102527862930919666",
+      "model": "图像模型 · 9:16",
+      "notes": "适合做短剧角色：窄长瓜子心形脸、无框银镜、水光桃花杏眼。",
+      "date": "2026-09-22",
+      "covers": [
+        "/covers/vox-sunset-glasses.jpg",
+        "/covers/vox-sunset-glasses-b.jpg"
+      ],
+      "prompt": "9:16竖幅，东方年轻女性正面超近景特写，镜头平视面对人物，构图端正居中舒展，面部几乎填满画面，大特写主导感。\n\n【角色与骨相】\n东方现代知性清冷少女，气质从容灵动。标致小巧的瓜子心形脸，下庭收窄紧致，额头饱满圆润，太阳穴平顺，颧骨完全内收，下巴尖巧微翘，骨肉停匀。极品冷白玉瓷肌，轻薄柔雾微光底妆，通透无瑕。深黑茶色自然层次长发，发丝轻盈随微风轻柔飘散飞扬，额前带有轻薄空气斜碎刘海。鼻梁上架着一副极轻薄透明切边的极简银色无框眼镜；左耳垂佩戴一条极其抢眼奢华的细密银色瀑布金属流苏长耳坠，垂直垂落至肩颈。身穿浅白色宽松纯棉大翻领长袖衬衫，领口大敞开呈深V字领，内搭黑色紧身细螺纹抹胸吊带背心，颈肩锁骨大面积优美留白。\n\n【神态八要素】\n1. 眼神 Eyes：透过清透无框镜片水平直视镜头，瞳孔黑褐明亮通透，双眼皮开扇自然，卧蚕饱满立体，眼神清澈、深情、若有所思，带有一丝歌唱时的从容沉浸感，不呆滞，无散光，无死鱼眼。\n2. 眉毛 Eyebrows：自然黑灰深棕柔雾微弧细秀眉，毛流根根分明，眉身平缓微弯，眉尾自然下垂收尖，隐现于碎发与镜架后，舒展端正。\n3. 脸颊 Cheeks：苹果肌小巧饱满且皮肉紧致平整，面中平顺微饱满，无任何法令纹与冗余线条，眼下轻扫大面积柔嫩膨胀蜜桃粉橘腮红，通透微透血色。\n4. 嘴唇 Lips：小巧微饱满的花瓣果冻唇，上唇呈清晰立体M形带微凸唇珠，下唇圆润微厚饱满多汁，水光西柚蜜桃色，嘴唇微微张开留有一丝透气的齿间微隙，呈现歌唱或说话瞬间的松弛呼吸感，不做刻意嘟唇。\n5. 头部 Head：头部端正垂直居中微带一丝自然生动的侧倾动势，微收下颌，平视镜头，发丝随风飘扬。\n6. 肩膀 Shoulders：双肩沉肩放松，锁骨线条清晰平直，肩膀平稳对称舒展，衬衫大领口自然垂落展现修长颈肩仪态。\n7. 手部 Hands：双手完全不入镜，双手自然垂直垂放于画面外，画面中严禁出现手部遮挡、手拿手机或手拿麦克风动作。\n8. 身体语言 Body：正面自然端站，身姿轻盈舒展，呈现出在微风与夕阳中自由随性、沉浸歌唱的现代文艺女青年松弛感。\n\n【光影与质感】\n正面为柔和均匀的室内冷白微光包裹面部保持清透无杂乱阴影，侧后方斜打入一束浓郁温暖的金黄色晚霞夕阳侧逆光，在飘飞的发丝边缘与金属流苏耳坠上勾勒出一条璀璨的金黄暖光边，形成极致的冷暖撞色。背景大光圈极致虚化柔焦，呈现干净极简的深暗暖调室内空间，彻底消除多余文字弹幕与现代杂物。真实微单超清摄影胶片质感，右下角自然手写微小签名\"voxcat\"。非卡通，非插画，非二次元平涂，非生硬3D渲染。",
+      "no": "108"
+    },
+    {
+      "id": "daai-neo-brutal",
+      "title": "新野蛮主义双拼",
+      "kicker": "人物宠物 IP",
+      "excerpt": "上半保留原图主体，下半用高饱和纯色、强轮廓和硬边界重做成潮流 IP。",
+      "style": "上下双拼风格转译",
+      "category": "system",
+      "tags": [
+        "风格系统",
+        "转绘",
+        "IP"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "daai",
+        "name": "DAAI",
+        "handle": "daaihq",
+        "url": "https://x.com/daaihq"
+      },
+      "sourceUrl": "https://x.com/daaihq/status/2102557986703167537",
+      "model": "GPT Image · 竖版 1:1+1:1",
+      "notes": "比传统野蛮主义更年轻、更数字化，人物和宠物都适合做成潮流品牌视觉。",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/daai-neo-brutal.jpg",
+        "/covers/daai-neo-brutal-b.jpg"
+      ],
+      "prompt": "创作一张竖版上下双拼风格的完整插画，纵向画布上下分区清晰，各占 1:1。整体呈现“上传原图主体 + 新野蛮主义平面重构”的双拼作品，上下部分必须保持同一主体的强关联。\n\n上半部分：以上传原图作为唯一主体参考来源，自动识别人物、猫、狗或其他常见宠物，重点提取主体本身，不把建筑和复杂环境作为主要表现对象。保留人物的脸型、五官、发型、服饰、年龄感和配饰，或宠物的毛色、花纹、耳朵、脸型、体型等识别信息。背景简化处理，主体完整清晰，构图稳定。\n\n下半部分：将同一个主体转化为「Neo Brutalism 新野蛮主义」视觉语言的完整插画。核心风格特征：准确提取该风格最典型的线条、色彩、构成与材质语言，保持统一，不与其他风格混杂。整体原则：采用清晰的几何结构、平面块面与秩序化构图，控制层级和留白。构图采用单一明确主体或一个清晰场景，视觉中心稳定，主体完整不被裁断，背景适度简化并保留呼吸感；线条、色块、明暗、材质和纸面纹理必须服务于同一风格，不混入无关画风。下半部分应体现 Neo Brutalism 常见的高饱和纯色、强轮廓、硬朗边界、简化而直接的图形语言，以及带一点数字时代平面设计感的冲突与幽默，让主体在新野蛮主义体系中被重新定义。画面自然、有手作感和可识别的风格特征，避免 AI 常见的过度光滑、无意义细节堆砌和随机装饰。\n\n整体要求：上下两部分必须保持同一主体的一致性，下半部分是上半部分主体的新野蛮主义设计化版本。除非主题明确要求，否则不生成文字、Logo、水印、边框、UI，不做多图拼接。",
+      "no": "109"
+    },
+    {
+      "id": "anna-travel-split",
+      "title": "旅行手帐对半",
+      "kicker": "上图下绘",
+      "excerpt": "上半原照原封不动，下半变成暖米色纸上的彩铅水彩，两行手写日记字。",
+      "style": "旅行手帐对半转绘",
+      "category": "craft",
+      "tags": [
+        "手帐",
+        "水彩",
+        "双拼"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "anna",
+        "name": "安娜",
+        "handle": "PromptLabCN",
+        "url": "https://x.com/PromptLabCN"
+      },
+      "sourceUrl": "https://x.com/PromptLabCN/status/2102569154071117919",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/anna-travel-split.jpg",
+        "/covers/anna-travel-split-b.jpg"
+      ],
+      "prompt": "做一张高级感纵向旅行手帐海报，上下严格 50/50 分栏。\n\n上半部分：原参考照片完全保留、不做任何改动，构图、建筑、人物、色彩、光线、视角、比例和所有原始细节全部一致。\n\n下半部分：把同一张照片转化成细腻的手绘彩铅加水彩素描，画在暖米色纸张上，要有可见的铅笔笔触、柔和晕染、轻微纸纹、不完美的轮廓线和淡淡的交叉排线。每个主体都要可辨认，且位置和原图完全一致。\n\n在画面上方加一行优雅的手写艺术字：\n“A Day Worth Remembering”\n在画面下方加一行：\n“Little Moments, Lasting Memories”\n\n字迹要像高级旅行日记里自然写出来的，有个人感、优雅、带一点不完美。整体风格：克制、怀旧、精致，旅行杂志美学。不要额外物体，下半部分不要写实照片感，不要改动主体，严格 50/50 版式。",
+      "no": "110"
+    },
+    {
+      "id": "liyue-midautumn",
+      "title": "月下清梦",
+      "kicker": "中秋封面",
+      "excerpt": "巨大金色月轮压在上半，女子与小玉兔坐在白色高台边，留出标题区。",
+      "style": "东方禅意中秋海报",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "东方",
+        "节日"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "liyue",
+        "name": "李岳",
+        "handle": "liyue_ai",
+        "url": "https://x.com/liyue_ai"
+      },
+      "sourceUrl": "https://x.com/liyue_ai/status/2102677759038496809",
+      "model": "GPT Image 2.5 · 9:16",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/liyue-midautumn.jpg"
+      ],
+      "prompt": "主题方向：东方禅意极简中秋封面海报\n风格分支：中秋梦感女性向\n主体内容：一位古风女子坐在白色高台边，身旁一只小玉兔安静陪伴\n情绪母题：梦感、团圆、治愈\n场景与意象：巨大金色月轮、白色高台、玉兔、女子、孔雀蓝夜空\n构图与空间：9:16 竖版构图，月轮位于上半部分偏中，人物与玉兔位于下方，顶部和右侧保留完整标题区\n色彩控制：珍珠白作为高明度基底，香槟金用于月轮和局部边缘光，孔雀蓝用于夜空大色块，玉兔保持干净暖白；避免整图发蓝或月色过黄\n光线与质感：柔亮月光，细腻平面海报感，画面清透，低灰度\n画幅比例：9:16\n补充要求：玉兔要简洁可爱但不幼态，整体要有中秋梦感和爆款封面气质，画面留白处配上合适的文字",
+      "no": "111"
+    },
+    {
+      "id": "larus-type-space",
+      "title": "字与人共享空间",
+      "kicker": "时装编辑",
+      "excerpt": "人不要站在字旁边。折射、破框、叠字或走进巨型字体，一种机制就够。",
+      "style": "高定时装编辑海报",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "时装",
+        "字体"
+      ],
+      "medium": "image",
+      "slots": [
+        "TITLE",
+        "SUBJECT",
+        "CORE VISUAL DEVICE",
+        "ACCENT COLOR",
+        "MOOD"
+      ],
+      "creator": {
+        "id": "larus",
+        "name": "Larus Canus",
+        "handle": "MrLarus",
+        "url": "https://x.com/MrLarus"
+      },
+      "sourceUrl": "https://x.com/MrLarus/status/2102756484475990402",
+      "model": "GPT Images 2.5 · 9:16",
+      "notes": "四种空间关系：光学折射、冲破实体框、粗字加图形叠层、走进巨型字体。",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/larus-type-space.jpg",
+        "/covers/larus-type-space-b.jpg"
+      ],
+      "prompt": "Create a 9:16 vertical high fashion editorial poster.\n\nTITLE: [TITLE]\nSUBJECT: [SUBJECT]\nCORE VISUAL DEVICE: [CORE VISUAL DEVICE]\nACCENT COLOR: [ACCENT COLOR]\nMOOD: [MOOD]\n\nBuild the composition around the interaction between portrait photography and typography. The model should not simply stand beside the text. Make the typography physically participate in the image through overlap, masking, cropping, refraction, depth, foreground and background separation, or spatial interruption.\n\nUse one strong visual mechanism per poster and make it immediately readable at thumbnail size.\n\nCreate a clear editorial hierarchy:\n\n1. One oversized display title as the main graphic anchor\n2. The fashion portrait as the primary photographic subject\n3. A few meaningful editorial captions and credits\n4. One controlled graphic or physical intervention\n\nUse refined fashion typography, combining high contrast serif, condensed sans serif, modern grotesk, or subtle handwritten lettering. Large type can extend beyond the canvas and be partially hidden by the model. Small text should stay minimal, precise and meaningful rather than filling the page with random words.\n\nUse an asymmetric editorial grid, bold cropping, generous negative space and strong scale contrast. Allow the model, type and graphic elements to move between foreground, middle ground and background.\n\nKeep the palette restrained. Use mostly neutral tones such as ivory, soft gray, black or muted blue, with only one dominant accent color.\n\nThe portrait should feel like real fashion photography with natural skin texture, realistic fabric, believable hair and refined studio lighting. Avoid glossy CGI skin, excessive retouching and generic commercial modeling poses.\n\nThe final result should feel like an independent fashion magazine, experimental editorial campaign or art directed fashion poster, not a social media template.\n\nAvoid meaningless filler text, excessive decoration, numbered labels, Vol or Issue numbering, sparkle symbols, random logos, cluttered layouts, cheap gradients and repetitive poster formulas.",
+      "no": "112"
+    },
+    {
+      "id": "vigo-acid-jolt",
+      "title": "酸黄直闪拼贴",
+      "kicker": "VISUAL OS 055",
+      "excerpt": "暖色直闪人像，一两块钝边照片碎片，再压上巨大的酸黄圆角字。",
+      "style": "酸黄直闪拼贴海报",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "拼贴",
+        "字体"
+      ],
+      "medium": "image",
+      "slots": [
+        "MAIN_TEXT",
+        "SECONDARY_TEXT",
+        "PORTRAIT SUBJECT & EXPRESSIVE GESTURE",
+        "ISOLATED DETAIL IN RECTANGULAR CUTOUT",
+        "HAND-DRAWN STROKE FOLLOWING ACTION",
+        "DARK-FIELD ENVIRONMENT & WARM FLASH TONES"
+      ],
+      "creator": {
+        "id": "vigo",
+        "name": "Vigo Zhao",
+        "handle": "VigoCreativeAI",
+        "url": "https://x.com/VigoCreativeAI"
+      },
+      "sourceUrl": "https://x.com/VigoCreativeAI/status/2102767442262982909",
+      "model": "9:16",
+      "notes": "VISUAL OS 055。示例：LET IT RING、CARVE A LINE、MAKE ROOM、LOOK AGAIN。",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/vigo-acid-jolt.jpg",
+        "/covers/vigo-acid-jolt-b.jpg"
+      ],
+      "prompt": "Create a finished portrait-led editorial poster, 9:16, full bleed. Acid jolt photo collage, warm low-fi flash photography, blunt layered photo fragments, oversized acid-yellow rounded typography.\n\nA large, intimate, warm-toned flash photograph of a human subject or dynamic gesture against a dark espresso or blue-black background. Honest skin texture, natural flash highlights, visible low-fi grain, and paper-edge tactile contrast.\n\nLayer 1 to 2 blunt rectangular or trapezoid photo fragments across or beside the main subject, isolating a key detail (hand, prop, wheel, lens, or texture) with subtle real physical paper edges.\n\nOne dominant all-caps headline rendered in massive, heavy, rounded sans-serif letters in vibrant lemon/acid yellow (#F0E900). Letters press boldly into the photo layers while remaining 100% readable. Add 1 to 2 loose, hand-drawn yellow marker strokes interacting directly with the subject's gesture or action.\n\nHeadline: \"[MAIN_TEXT]\"\nSecondary line: \"[SECONDARY_TEXT]\"\nSubject & Action: [PORTRAIT SUBJECT & EXPRESSIVE GESTURE]\nCollage Fragment: [ISOLATED DETAIL IN RECTANGULAR CUTOUT]\nYellow Marker Gesture: [HAND-DRAWN STROKE FOLLOWING ACTION]\nSetting & Palette: [DARK-FIELD ENVIRONMENT & WARM FLASH TONES]\n\nPlace secondary copy as small, clean uppercase text near a quiet border. No logos, no brand marks, no QR codes, no app UI, no vector-only art, no glossy 3D, no heavy grunge, no unreadable pseudo-copy.",
+      "no": "113"
+    },
+    {
+      "id": "larus-old-house",
+      "title": "老房子午后",
+      "kicker": "生活肖像",
+      "excerpt": "旧楼梯、旧厨房、窗边或旧卧室。45–50mm，窗光，皮肤和木头都要有用过的痕迹。",
+      "style": "旧宅环境肖像",
+      "category": "portrait",
+      "tags": [
+        "人像",
+        "胶片",
+        "室内"
+      ],
+      "medium": "image",
+      "slots": [
+        "old staircase / rustic kitchen / window corner / old bedroom",
+        "color + summer dress style",
+        "natural seated pose / leaning / turning / getting up",
+        "quiet / elegant / intimate / cinematic"
+      ],
+      "creator": {
+        "id": "larus",
+        "name": "Larus Canus",
+        "handle": "MrLarus",
+        "url": "https://x.com/MrLarus"
+      },
+      "sourceUrl": "https://x.com/MrLarus/status/2102791913426350148",
+      "model": "9:16",
+      "notes": "四组场景：楼梯、旧厨房、窗边、旧卧室。不要拍成复古酒店或棚拍。",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/larus-old-house.jpg",
+        "/covers/larus-old-house-b.jpg"
+      ],
+      "prompt": "Create a highly realistic 9:16 portrait of an adult East Asian woman inside an old lived-in house.\n\nScene: 【old staircase / rustic kitchen / window corner / old bedroom】\nDress: 【color + summer dress style】\nPose: 【natural seated pose / leaning / turning / getting up】\nMood: 【quiet / elegant / intimate / cinematic】\n\nThe house should feel genuinely aged and inhabited, with worn wood, faded plaster walls, old furniture, soft curtains, subtle imperfections, and believable everyday details. Avoid luxury vintage hotels or staged retro studios.\n\nThe woman is elegant and feminine, with a slim waist, long natural legs, and a naturally fuller upper body. Keep realistic human proportions and graceful curves without exaggeration.\n\nSkin realism is essential: visible pores, slight uneven skin tone, tiny natural imperfections, subtle texture, realistic joints and skin folds, and natural highlights. No plastic skin, waxy texture, CGI look, or heavy beauty retouching.\n\nUse natural loose dark hair with real strands, flyaways, slight irregularity, and soft volume. Avoid overly perfect or wig-like hair.\n\nCapture a candid, lived-in moment rather than a fashion pose. Her body should show believable weight, balance, hand support, fabric tension, and natural interaction with the furniture or architecture.\n\nUse soft directional window light, slightly darker ambient interiors, approximately 45–50mm environmental portrait photography, natural perspective, subtle depth of field, muted colors, gentle film-like grain, and realistic camera texture.\n\nColor palette: aged wood brown, faded gray-green walls, ivory fabric, muted summer dress colors, and natural warm skin tones.\n\nThe final image should feel like a real photographer quietly captured a beautiful woman spending a summer afternoon inside an old house: intimate, elegant, cinematic, imperfect, and unmistakably human.\n\nAvoid: AI beauty face, excessive skin smoothing, exaggerated body proportions, distorted hands or feet, broken hair, deformed furniture, glossy CGI lighting, fashion studio lighting, over-sharpening, heavy filters, or staged commercial posing.",
+      "no": "114"
+    },
+    {
+      "id": "vox-id-photo",
+      "title": "清雅证件照",
+      "kicker": "影棚头肩",
+      "excerpt": "窄鹅蛋脸、细长杏眼、影棚正面柔光。浅灰底，头肩端正，不要古装和头纱。",
+      "style": "影棚证件照",
+      "category": "portrait",
+      "tags": [
+        "人像",
+        "证件照"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "voxcat",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2102818263638102376",
+      "model": "GPT Image 2.5 · 9:16",
+      "date": "2026-09-23",
+      "covers": [
+        "/covers/vox-id-photo.jpg",
+        "/covers/vox-id-photo-b.jpg"
+      ],
+      "prompt": "9:16竖幅。东方成年女性正面证件照，影棚人像摄影，近景特写，镜头与眼睛平齐；人物端正面对相机，头部不偏转、不仰俯，双眼平视镜头，脸部居中并占据画面主要区域，肩部仅少量入镜，呈现标准、清晰的证件照构图。\n\n气质清雅、沉静、端庄、略带疏离感，像一位克制而坚韧的古典女性；神情自然平静，眼神清醒而坚定，不带夸张情绪，不做妩媚摆拍感、甜妹感或凌厉攻击感。\n\n脸型为偏长的窄鹅蛋脸，脸长略大于脸宽，额头至颧部线条舒展，下半脸逐渐收窄。额头中等偏高、轮廓平顺，发际线自然；太阳穴平滑不凹陷，颧弓略高但不向两侧突出；苹果肌平顺，仅有轻微饱满感。面中比例略长，鼻基底自然，法令区干净；下颌线纤细流畅但轮廓清楚，下颌角柔和弱化；下巴中等偏长、尖圆收口，不过分锐利。整体骨相清瘦、立体而柔和，避免夸张削骨感。\n\n眉毛为深棕黑色，眉形偏直而略有弧度，眉峰不高，眉尾细长自然收束，眉头保留轻微毛流，眉眼距离适中。眼睛为细长杏眼，横向眼裂较长、纵向开合适中，左右自然对称；内眼角清晰，外眼角轻微上扬，上眼皮线条干净，双眼皮窄而自然，下眼睑平顺，卧蚕不突出，深色瞳孔比例自然。目光平静、专注、克制，带一点坚毅感，不空洞、不瞪视。睫毛纤长自然，不做浓密夸张的扇形睫毛。鼻梁细直、山根清晰但不过高，鼻背顺滑，鼻头小巧且略圆，鼻尖收束自然，鼻翼窄而匀称，鼻孔不外露，正面中轴端正。嘴唇中等偏薄，唇峰清楚但不尖锐，上唇略薄于下唇，唇线自然，嘴角平直放松，不抿嘴、不微笑、不露齿。\n\n皮肤为冷调自然白肤色，保留细腻真实的皮肤纹理；底妆轻薄均匀、柔雾干净，不遮成平面。面中、鼻梁与眼下只有轻微提亮，高光克制；鼻侧和颧侧用柔和阴影体现自然骨点，下颌修容清淡，不做强烈阴影，不做惨白、油亮或塑料磨皮质感。\n\n妆容为清淡、端正的证件照妆感。眼妆使用低饱和灰棕色轻轻加深睫毛根部，眼线细而贴近眼缘，眼尾只顺着眼型微微延长，不画明显上扬粗眼线；下眼睑保持干净，卧蚕不刻意强调。眉妆自然整齐，保留眉毛纹理；腮红极淡或不明显；唇妆为低饱和玫瑰豆沙色，柔雾质地，唇边清晰自然，不做浓艳红唇或玻璃唇。\n\n头发为黑色或深黑棕色，发际线自然，采用简洁偏分并整齐收至耳后，发丝顺滑，发量自然；额头、眉眼、颧部、耳朵和下颌轮廓完整清楚，不留遮眼刘海，不保留参考图中的头纱、复杂头饰与垂坠装饰。耳饰不佩戴，避免遮挡面部或分散注意力。\n\n服饰为简洁深色或中性色上衣，领口端正、结构简单，肩颈区域整洁；不使用古装、礼服、刺绣、披帛或复杂装饰，整体符合正式影棚证件照的克制感。\n\n使用影棚柔和正面主光，辅以轻微两侧补光，额头、眼睛、鼻梁与嘴唇清晰可见，面部受光均匀，阴影浅而自然。背景为纯净浅灰或灰蓝色无缝背景，画面色调中性偏冷，肤色自然，整体呈现真实相机拍摄的清晰证件照质感，不使用戏剧化轮廓光、电影滤镜或强烈景深。\n\n画面仅呈现人物正面头肩证件照，不加入侧脸、仰头、闭眼、手部、动作、场景道具、海报排版或任何额外文字；保持五官比例自然，不拉长鼻子，不扩大眼睛，不收窄脸宽过度，不尖削下巴，不制造不对称五官，不添加头纱和复杂饰品。非卡通，非插画，非二次元，非夸张三维渲染。\n\n在画面右下角加入低调的专属签名“voxcat”，使用小型自然手写英文签名，颜色为浅灰白色，尺寸较小，不遮挡人像；同时在衣领边缘加入极淡的“voxcat”暗纹，不放置在脸部区域。",
+      "no": "115"
+    },
+    {
+      "id": "vigo-sweat-lockup",
+      "title": "汗水软焦锁标",
+      "kicker": "VISUAL OS 056",
+      "excerpt": "一张汗湿的近景运动照，中间只压一组白字锁标。近处的眼睛清楚，手臂糊在镜头前。",
+      "style": "运动软焦锁标海报",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "运动",
+        "字体"
+      ],
+      "medium": "image",
+      "slots": [
+        "WORD ONE",
+        "WORD TWO",
+        "SIMPLE ORIGINAL WHITE SYMBOL",
+        "SPORT, WARDROBE, ENVIRONMENT",
+        "BODILY STATE + PHYSICAL EVIDENCE",
+        "BLURRED ARM / HAND / PROP CLOSE TO LENS"
+      ],
+      "creator": {
+        "id": "vigo",
+        "name": "Vigo Zhao",
+        "handle": "VigoCreativeAI",
+        "url": "https://x.com/VigoCreativeAI"
+      },
+      "sourceUrl": "https://x.com/VigoCreativeAI/status/2102995598886543443",
+      "model": "9:16",
+      "notes": "VISUAL OS 056。示例：TRUE MOTION、STILL MOVING、DEEP CURRENT、RAW ASCENT。",
+      "date": "2026-09-24",
+      "covers": [
+        "/covers/vigo-sweat-lockup.jpg",
+        "/covers/vigo-sweat-lockup-b.jpg"
+      ],
+      "prompt": "Create a finished premium sports campaign poster, 9:16, full bleed. Intimate film-like sports photography, extreme close-up, strong selective focus, one bold white logo lockup at the center.\n\nAn adult athlete shot from arm's length, canted off-axis, caught in one felt bodily moment: exertion, breath, water, heat or recovery. Real sweat beads, flushed skin, damp hair, irregular water drops.\n\nMoody, slightly underexposed sunlight: warm amber skin highlights, deep natural shadow, muted blue sky or water, gentle bloom on wet highlights, fine restrained grain. Only the nearer eye and a small patch of skin are sharp; a near arm or hand melts into soft blur across the lower foreground, and the background falls away.\n\nOne tightly joined white lockup: a simple original logo placed directly left of a two-line heavy italic sans-serif wordmark in title case, first word stacked above the second. The lockup spans about 60 to 66% of canvas width (38 to 44% for 16:9) and overlaps the lower cheek, chin and upper body at the optical center. Keep the key eye readable. The photo continues behind it.\n\nWordmark: \"[WORD ONE] [WORD TWO]\"\nLogo: [SIMPLE ORIGINAL WHITE SYMBOL]\nAthlete & Setting: [SPORT, WARDROBE, ENVIRONMENT]\nFelt Moment: [BODILY STATE + PHYSICAL EVIDENCE]\nNear Foreground: [BLURRED ARM / HAND / PROP CLOSE TO LENS]\n\nNo other text, no subtitle, no footer, no side copy panel, no glitch, no neon or colored gel light, no HDR, no plastic skin, no uniform fake sweat, no evenly sharp clinical look.",
+      "no": "116"
     }
   ]
 }
