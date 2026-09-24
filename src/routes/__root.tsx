@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "FOLIO · 提示词图鉴";
+const APP_NAME = "FOLIO 编号";
 const FONT_HREF =
   "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@500;600&display=swap";
 
@@ -15,7 +15,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       {
         name: "description",
-        content: "一份持续增补的 AI 创作提示词图鉴。收录图像与视频提示词、风格系统与镜头语言。",
+        content: "FOLIO 风格编号库。输入编号，复制对应的图像或视频提示词。",
       },
       { name: "theme-color", content: "#09090b" },
     ],

@@ -33,6 +33,7 @@ function printOne(p) {
       `STYLE ${p.style}`,
       `CATEGORY ${catName[p.category]} (${p.category})`,
       `MEDIUM ${p.medium}`,
+      p.covers?.length ? `COVERS ${p.covers.join(" ")}` : "",
       `CREATOR ${p.creator.name} @${p.creator.handle}`,
       `SOURCE ${p.sourceUrl}`,
       p.model ? `MODEL ${p.model}` : "",

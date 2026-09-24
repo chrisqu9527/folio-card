@@ -1,5 +1,5 @@
 {
-  "title": "FOLIO / 提示词图鉴",
+  "title": "FOLIO 编号",
   "card": "custom",
-  "description": "公开 AI 图像与视频提示词图鉴。瀑布流浏览，详情页播放并复制提示词。"
+  "description": "输入编号，看风格图，复制对应的图像或视频提示词。"
 }
