@@ -7,21 +7,27 @@ import {
   folio,
   parseNo,
   promptByNo,
+  useName,
   type CategoryId,
   type FolioPrompt,
   type Medium,
+  type UseId,
 } from "@/lib/folio";
 
 export function Atlas() {
   const [query, setQuery] = useState("");
   const [medium, setMedium] = useState<Medium>("image");
   const [category, setCategory] = useState<CategoryId | "all">("all");
+  const [scene, setScene] = useState<UseId | "all">("all");
   const [selectedNo, setSelectedNo] = useState<string | null>(folio.prompts[0]?.no ?? null);
   const [copied, setCopied] = useState(false);
   const [missing, setMissing] = useState<string | null>(null);
   const detailRef = useRef<HTMLElement>(null);
 
-  const results = useMemo(() => filterPrompts(query, category, medium), [query, category, medium]);
+  const results = useMemo(
+    () => filterPrompts(query, category, medium, scene),
+    [query, category, medium, scene],
+  );
   const selected = results.find((p) => p.no === selectedNo) ?? results[0] ?? null;
 
   useEffect(() => {
@@ -35,6 +41,7 @@ export function Atlas() {
       setMissing(null);
       setQuery(no);
       setMedium(promptByNo(no)!.medium);
+      setScene(promptByNo(no)!.use ?? "all");
       setCategory("all");
       setSelectedNo(no);
     };
@@ -67,14 +74,22 @@ export function Atlas() {
     }
     setMissing(null);
     setMedium(hit.medium);
+    setScene(hit.use ?? "all");
     setCategory("all");
     setSelectedNo(no);
   }
 
   function pickMedium(next: Medium) {
     setMedium(next);
+    setScene("all");
     setCopied(false);
     if (category !== "all" && countMedium(next, category) === 0) setCategory("all");
+  }
+
+  function pickScene(next: UseId | "all") {
+    setScene(next);
+    setCopied(false);
+    if (category !== "all" && countMedium("video", category, next) === 0) setCategory("all");
   }
 
   async function copyPrompt(p: FolioPrompt) {
@@ -157,12 +172,24 @@ export function Atlas() {
             count={countMedium("video")}
           />
         </div>
+        {medium === "video" ? (
+          <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
+            <Chip active={scene === "all"} onClick={() => pickScene("all")}>
+              全部场景 {countMedium("video")}
+            </Chip>
+            {folio.uses.map((u) => (
+              <Chip key={u.id} active={scene === u.id} onClick={() => pickScene(u.id)}>
+                {u.name} {countMedium("video", "all", u.id)}
+              </Chip>
+            ))}
+          </div>
+        ) : null}
         <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
           <Chip active={category === "all"} onClick={() => setCategory("all")}>
-            全部 {countMedium(medium)}
+            全部 {countMedium(medium, "all", scene)}
           </Chip>
           {folio.categories.map((c) => {
-            const n = countMedium(medium, c.id);
+            const n = countMedium(medium, c.id, scene);
             if (n === 0) return null;
             return (
               <Chip key={c.id} active={category === c.id} onClick={() => setCategory(c.id)}>
@@ -198,6 +225,7 @@ export function Atlas() {
                       <span className="min-w-0 flex-1">
                         <span className={`block truncate text-base ${on ? "text-fg" : ""}`}>{p.title}</span>
                         <span className="mt-0.5 block truncate text-xs text-subtle">
+                          {p.use ? `${useName[p.use]} · ` : ""}
                           {p.style} · @{p.creator.handle}
                         </span>
                       </span>
@@ -320,7 +348,8 @@ function PromptSheet({
         </div>
       ) : null}
       <p className="mt-4 font-mono text-xs tracking-widest text-subtle uppercase">
-        {prompt.no} · {categoryName[prompt.category]} · {prompt.medium === "image" ? "图像" : "视频"}
+        {prompt.no} · {prompt.use ? `${useName[prompt.use]} · ` : ""}
+        {categoryName[prompt.category]} · {prompt.medium === "image" ? "图像" : "视频"}
       </p>
       <h2 className="mt-2 text-3xl text-fg">{prompt.title}</h2>
       <p className="mt-2 text-sm text-muted">{prompt.style}</p>

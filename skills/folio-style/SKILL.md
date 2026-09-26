@@ -33,10 +33,10 @@ description: >
 
 ## 用户要目录或搜索
 
-- 只要图像或只要视频：加上 `--medium image` 或 `--medium video`（中文也可以写 `图像` / `视频`）。编号查询不受这个限制，报号就取那一条。
+- 视频按场景：`node scripts/lookup.mjs --use 预告片`。场景 id 或中文名都可以：预告片 trailer、游戏 game、广告 ad、产品宣传 product、社交短视频 social、叙事短片 short、动作展示 action、可换模板 template。图像没有场景。可以和 `--medium video` 一起用。
 - 某一类：`node scripts/lookup.mjs --category eastern`，分类 id 也可以用中文名（人像、海报版式、风格系统、东方叙事、电影动作、叙事短片、产品品牌、插画工艺）。可以再加 `--medium`。
 - 关键词：`node scripts/lookup.mjs --search 武侠`。同样可以加 `--medium`。
-- 全部目录：读 `CATALOG.md`。图像和视频分两段，不要把全文倒进对话。
+- 全部目录：读 `CATALOG.md`。图像按风格分，视频按场景分，不要把全文倒进对话。视频条目若有 `USE`，出处里带上场景名。
 
 回复用短表：编号、风格、标题、作者。问到某一条再展开全文。
 

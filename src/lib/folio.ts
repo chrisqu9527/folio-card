@@ -12,6 +12,16 @@ export type CategoryId =
 
 export type Medium = "image" | "video";
 
+export type UseId =
+  | "trailer"
+  | "game"
+  | "ad"
+  | "product"
+  | "social"
+  | "short"
+  | "action"
+  | "template";
+
 export type FolioPrompt = {
   no: string;
   id: string;
@@ -22,6 +32,7 @@ export type FolioPrompt = {
   category: CategoryId;
   tags: string[];
   medium: Medium;
+  use?: UseId;
   covers: string[];
   slots: string[];
   creator: { id: string; name: string; handle: string; url: string };
@@ -33,18 +44,22 @@ export type FolioPrompt = {
 };
 
 export type Category = { id: CategoryId; name: string; blurb: string };
+export type UseCase = { id: UseId; name: string; blurb: string };
 
 export const folio = db as {
   version: number;
   count: number;
   note: string;
   categories: Category[];
+  uses: UseCase[];
   prompts: FolioPrompt[];
 };
 
 export const categoryName = Object.fromEntries(
   folio.categories.map((c) => [c.id, c.name]),
 ) as Record<CategoryId, string>;
+
+export const useName = Object.fromEntries(folio.uses.map((u) => [u.id, u.name])) as Record<UseId, string>;
 
 const byNo = new Map(folio.prompts.map((p) => [p.no, p]));
 
@@ -64,19 +79,23 @@ export function filterPrompts(
   query: string,
   category: CategoryId | "all",
   medium: Medium,
+  use: UseId | "all" = "all",
 ): FolioPrompt[] {
+  const scene = medium === "video" ? use : "all";
   const exact = parseNo(query);
   if (exact && query.trim().length > 0 && !query.trim().includes(" ")) {
     const hit = byNo.get(exact);
     if (!hit) return [];
     if (hit.medium !== medium) return [];
     if (category !== "all" && hit.category !== category) return [];
+    if (scene !== "all" && hit.use !== scene) return [];
     return [hit];
   }
   const q = query.trim().toLowerCase();
   return folio.prompts.filter((p) => {
     if (p.medium !== medium) return false;
     if (category !== "all" && p.category !== category) return false;
+    if (scene !== "all" && p.use !== scene) return false;
     if (!q) return true;
     const hay = [
       p.no,
@@ -85,6 +104,7 @@ export function filterPrompts(
       p.kicker,
       p.excerpt,
       categoryName[p.category],
+      p.use ? useName[p.use] : "",
       p.creator.name,
       p.creator.handle,
       ...p.tags,
@@ -95,8 +115,16 @@ export function filterPrompts(
   });
 }
 
-export function countMedium(medium: Medium, category: CategoryId | "all" = "all"): number {
+export function countMedium(
+  medium: Medium,
+  category: CategoryId | "all" = "all",
+  use: UseId | "all" = "all",
+): number {
+  const scene = medium === "video" ? use : "all";
   return folio.prompts.filter(
-    (p) => p.medium === medium && (category === "all" || p.category === category),
+    (p) =>
+      p.medium === medium &&
+      (category === "all" || p.category === category) &&
+      (scene === "all" || p.use === scene),
   ).length;
 }
