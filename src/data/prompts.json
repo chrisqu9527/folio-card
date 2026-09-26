@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "count": 133,
-  "note": "编号 001–106 已冻结，不会因新增而改写。新提示词只追加到末尾。2026-09-25 追加至 133，新增作者：润之有道、蛋黄堡、Tanvir、Le Tavernicole。提示词原文属于各 X 作者。视频另有场景：预告片、游戏、广告、产品宣传、社交短视频、叙事短片、动作展示、可换模板。场景按成片用途标注，不改风格分类。",
+  "count": 139,
+  "note": "编号 001–106 已冻结，不会因新增而改写。新提示词只追加到末尾。2026-09-25 追加至 133，新增作者：润之有道、蛋黄堡、Tanvir、Le Tavernicole。提示词原文属于各 X 作者。视频另有场景：预告片、游戏、广告、产品宣传、社交短视频、叙事短片、动作展示、可换模板。场景按成片用途标注，不改风格分类。2026-09-26 追加至 139：代码成片，画面由 Opus 5.5 写代码渲出，不是生视频模型。",
   "categories": [
     {
       "id": "portrait",
@@ -42,6 +42,11 @@
       "id": "craft",
       "name": "插画工艺",
       "blurb": "绘本、涂鸦、拼贴与线稿。"
+    },
+    {
+      "id": "code",
+      "name": "代码成片",
+      "blurb": "不调用生视频模型。让模型写 Canvas、Remotion 或着色器，把片子渲出来。"
     }
   ],
   "uses": [
@@ -84,6 +89,11 @@
       "id": "template",
       "name": "可换模板",
       "blurb": "片子的结构留下，角色、产品和台词可以换。"
+    },
+    {
+      "id": "reel",
+      "name": "作品集",
+      "blurb": "用来证明手艺的动效样片。不讲产品功能，也不把一个故事讲完。"
     }
   ],
   "prompts": [
@@ -4248,6 +4258,192 @@
         "/covers/tavern-mucha-b.jpg"
       ],
       "prompt": "[EMOTION/TONE: elegant /dreamy/alluring]\n\nMasterpiece, best quality, ultra-detailed, Full HD 8K, expressive symbolic fine-art character portrait conceived entirely as a luxurious late-19th-century Art Nouveau lithographic poster inspired by the visual language of Alphonse Mucha, fully driven by the emotion and psychological atmosphere of [EMOTION/TONE].\n\nUse the uploaded character image as the primary and strict identity reference.\n\nBefore designing the final composition, carefully analyze the uploaded character and identify all visual features that define their identity.\n\nAnalyze and preserve:\n\nface shape\n\nfacial proportions\n\nexpression\n\neyes and eye colors\n\neyebrows\n\nmouth and lips\n\nmakeup\n\nscars\n\ntattoos\n\nmarkings\n\nfreckles\n\nfacial hair\n\nhairstyle\n\nhair color\n\nhair texture\n\nhair silhouette\n\nhorns\n\nears\n\ntails\n\nwings\n\nanimal traits\n\nfantasy traits\n\nsupernatural traits\n\nmechanical traits\n\nbody type\n\nproportions\n\nposture\n\nspecies\n\ngender presentation\n\nclothing structure\n\noutfit layers\n\narmor\n\nfabrics\n\naccessories\n\njewelry\n\nweapons\n\nprops\n\nsymbols\n\nsignature objects\n\nprimary colors\n\nsecondary colors\n\naccent colors\n\nmaterials\n\ntextures\n\nvisual motifs\n\npersonality\n\nemotional presence\n\noverall archetype\n\nPreserve all essential recognizable features from the uploaded character.\n\nDo not replace the character with a generic Art Nouveau model.\n\nDo not arbitrarily change their gender, species, anatomy, skin tone, body type, facial features, outfit, hairstyle, equipment, or defining visual traits.\n\nThe character must remain immediately recognizable as the original uploaded design.\n\nARTISTIC TRANSFORMATION\n\nReinterpret the uploaded character through the visual language of an authentic Alphonse Mucha–inspired decorative poster:\n\nelegant flowing contour lines\n\ngraceful idealized anatomy\n\nintricate floral arabesques\n\ncircular ornamental halos\n\nbotanical symbolism\n\nrhythmic hair, fabric, feathers, fur, or accessory movement\n\ndecorative framing\n\nsophisticated lithographic shading\n\nrefined flat color fields\n\ndelicate line engraving\n\nornamental poster composition\n\nharmonious fusion of figure, clothing, anatomy, flora, and frame\n\nromantic fin-de-siècle atmosphere\n\ndreamlike theatrical elegance\n\nDo not reproduce any specific Alphonse Mucha composition exactly.\n\nCreate an original Art Nouveau poster that authentically embraces the flowing linework, botanical rhythm, decorative sophistication, graceful framing, romantic symbolism, and poetic visual harmony associated with Mucha’s poster art.\n\nThe visual transformation must affect:\n\nlinework\n\nsurface treatment\n\ntextile patterns\n\ndecorative framing\n\nfloral symbolism\n\nposter composition\n\ncolor harmonization\n\nornamental rhythm\n\nbackground integration\n\nlighting\n\nprint texture\n\nThe transformation must not erase or replace the original character’s identity.\n\nGLOBAL ART DIRECTION\n\nThe entire image must look like a genuine antique Art Nouveau lithographic poster rather than a modern digital portrait with decorative elements added afterward.\n\nThe character, clothing, hair, anatomy, accessories, species traits, halo, botanical motifs, decorative frame, and background patterns must be designed together as one unified poster composition.\n\nThe character must not appear pasted over a decorative background.\n\nTheir pose, silhouette, hair, clothing, anatomy, wings, horns, tails, weapons, accessories, or other signature features must interact naturally with the surrounding curves, flowers, stems, framing elements, and ornamental structures.\n\nThe composition must feel deliberately illustrated from the beginning as a complete Art Nouveau poster.\n\nUse:\n\nprecise flowing ink contours\n\ndelicate dark linework\n\nsoft lithographic gradients\n\ncontrolled flat areas of color\n\nornamental repetition\n\ngraceful asymmetry\n\nelegant botanical framing\n\ndecorative circular structures\n\nstylized natural forms\n\nrefined surface grain\n\naged printed-paper texture\n\nsubtle chromolithographic color separation\n\ncarefully balanced negative space\n\ngraceful silhouette design\n\nfine engraved details\n\nsophisticated visual rhythm\n\nAvoid thick modern comic-book outlines.\n\nThe contour lines must be delicate, expressive, rhythmic, elegant, and highly refined.\n\nCHARACTER IDENTITY\n\nPreserve the uploaded character’s complete visual identity, including all relevant features such as:\n\noriginal face\n\noriginal hairstyle\n\noriginal eye color\n\noriginal skin, fur, scale, feather, metal, or supernatural surface colors\n\noriginal species traits\n\noriginal body proportions\n\noriginal clothing\n\noriginal armor\n\noriginal jewelry\n\noriginal accessories\n\noriginal weapons\n\noriginal props\n\noriginal symbols\n\noriginal markings\n\noriginal horns\n\noriginal ears\n\noriginal wings\n\noriginal tail\n\noriginal mechanical parts\n\noriginal color palette\n\noriginal materials\n\noriginal personality\n\noriginal visual presence\n\nOnly stylize these elements through Art Nouveau poster language.\n\nDo not redesign them into unrelated clothing, generic fantasy fashion, or a generic Mucha-style costume unless the original clothing itself naturally requires adaptation.\n\nThe original outfit must remain recognizable in structure, layering, colors, silhouette, materials, ornamentation, and cultural identity.\n\nCOLOR PALETTE\n\nBuild the entire palette primarily from the uploaded character’s original identity colors.\n\nIdentify:\n\n1. the dominant character color\n\n2. the secondary character color\n\n3. the main accent color\n\n4. the skin, fur, scale, feather, metal, or supernatural body tones\n\n5. the clothing colors\n\n6. the accessory colors\n\n7. the eye color\n\n8. the material colors\n\n9. the original contrast relationships\n\nTranslate these colors into a harmonious antique Art Nouveau printing palette.\n\nThe resulting palette may include:\n\nsoftened versions of the character’s dominant colors\n\nmuted versions of secondary colors\n\nrestrained antique gold\n\nivory\n\ncream\n\nparchment\n\nwarm sepia\n\nsubtle bronze\n\nmuted botanical tones derived from the character’s palette\n\ncarefully controlled complementary accents already present in the character design\n\nDo not introduce unrelated bright colors.\n\nDo not replace the original character palette with a predetermined gold, red, green, or pastel scheme.\n\nAll floral, ornamental, halo, framing, and background colors must be derived from and harmonized with the uploaded character’s original visual identity.\n\nGold should function only as an elegant supporting accent through:\n\nfine linework\n\njewelry\n\nembroidery\n\nhalo ornament\n\nborder details\n\nmetallic accessories\n\nrestrained highlights\n\ndecorative trim\n\nGold must not overwhelm the original character palette unless gold is already a dominant part of the uploaded character design.\n\nCOMPOSITION\n\nVertical 9:16 Art Nouveau poster composition.\n\nFront view with a slight downward cinematic angle.\n\nBust-to-waist, three-quarter-body, or full-body portrait depending on what best preserves the uploaded character’s identity, outfit, anatomy, and signature traits.\n\nThe character must be centered within an elaborate vertical ornamental arrangement.\n\nTheir body should form a clear, elegant central silhouette surrounded by:\n\nflowing hair\n\nfabric\n\nfeathers\n\nfur\n\nsmoke\n\nmagical energy\n\nmechanical cables\n\nribbons\n\nvines\n\nbotanical arcs\n\ndecorative stems\n\ndelicate leaves\n\ncircular halo structures\n\nsymmetrical or gently asymmetrical poster framing\n\nUse only the elements appropriate to the uploaded character.\n\nDo not add wings, horns, tails, weapons, flowers, armor, magical effects, or accessories that are not present unless they are purely minor decorative poster motifs.\n\nThe composition must feel balanced, graceful, ceremonial, symbolic, and dreamlike.\n\nThe figure should occupy the central visual axis while ornamental elements expand around them in sweeping curves.\n\nHALO AND CENTRAL ORNAMENT\n\nBehind the character’s head or upper body, create a large circular or arched Art Nouveau ornamental structure composed of:\n\ndelicate concentric rings\n\nfine filigree\n\nstylized flowers\n\nelegant radial motifs\n\nslender botanical stems\n\ncurved geometric divisions\n\nmotifs derived from the character’s design\n\ncolors derived from the original character palette\n\nsubtle echoes of the character’s silhouette or signature traits\n\nThe halo or arch must frame the face without hiding:\n\nhair\n\nears\n\nhorns\n\nheadgear\n\nwings\n\nantennae\n\njewelry\n\nmechanical attachments\n\nother important silhouette features\n\nThe structure should feel symbolic and ornamental rather than explicitly religious unless the uploaded character has clear religious or sacred symbolism.\n\nThe shape of the ornament may echo:\n\nhorn curves\n\nwing shapes\n\nanimal ears\n\nweapon silhouettes\n\njewelry motifs\n\nmagical symbols\n\nmechanical forms\n\nhairstyle curves\n\nclothing patterns\n\nspecies-specific anatomy\n\nDECORATIVE BORDER\n\nInclude an ornate Art Nouveau border around the image.\n\nThe border should be created from visual motifs adapted to the uploaded character, such as:\n\nbotanical lines\n\ncurved architectural motifs\n\ngeometric shapes\n\nfabric patterns\n\njewelry designs\n\nweapon details\n\nspecies symbolism\n\nmechanical forms\n\nmagical symbols\n\ncelestial motifs\n\nanimal motifs\n\ncultural ornamentation\n\nabstract shapes derived from their clothing\n\nThe frame must use colors drawn from the original character palette.\n\nIt must feel integrated into the illustration rather than appearing as a separate modern graphic overlay.\n\nDo not include text, titles, letters, logos, signatures, watermarks, or typography unless explicitly requested.\n\nEMOTIONAL DIRECTION\n\nEvery element of the portrait must embody [EMOTION/TONE].\n\nThe emotion must affect:\n\nfacial expression\n\neye direction\n\neyelids\n\neyebrows\n\nlips\n\nfacial muscles\n\nhead angle\n\nshoulder placement\n\nhand gestures\n\nposture\n\nbody tension\n\nsilhouette\n\nline rhythm\n\nfabric movement\n\nfloral symbolism\n\nhalo shape\n\ndecorative density\n\nnegative space\n\nlighting\n\ncolor saturation\n\nornamental flow\n\nFor [EMOTION/TONE: peaceful / dreamy], emphasize:\n\ngentle facial stillness\n\nrelaxed brows\n\nsoftly closed or gently parted lips\n\nsubtle facial asymmetry\n\nlowered physical tension\n\ndistant dreamlike gaze\n\ndelicate breathing presence\n\ngraceful hands\n\nsoft shoulder placement\n\nslight dreamy head tilt\n\nquiet ceremonial posture\n\nflowing ornamental rhythm\n\ntender symbolism\n\nsuspended timelessness\n\nintimate inner calm\n\nsoft decorative curves\n\nairy negative space\n\nharmonious visual repetition\n\nThe character should appear lost in a peaceful waking dream, neither asleep nor fully present in the physical world.\n\nTheir expression should feel private, poetic, emotionally human, and quietly mesmerizing.\n\nAvoid exaggerated happiness, theatrical sadness, sensual aggression, fear, anger, rage, or dramatic physical tension unless those emotions are specifically written in [EMOTION/TONE].\n\nThe emotion must feel profound rather than blank.\n\nThe dreamlike quality must feel emotionally alive rather than vacant.\n\nFACE AND EYES\n\nThe face must remain the primary emotional focal point.\n\nPreserve the original:\n\nfacial structure\n\neye shape\n\neye colors\n\neyebrows\n\nnose\n\nmouth\n\njaw\n\ncheeks\n\nmarkings\n\nscars\n\nmakeup\n\nfacial hair\n\nspecies traits\n\nage presentation\n\nRender the face with refined Mucha-inspired idealization:\n\ndelicate contour drawing\n\nsubtle warm or cool blush adapted to the character\n\nfine shadow beneath facial features\n\nrestrained lithographic modeling\n\nsoftly defined mouth\n\nelegant facial structure\n\nexpressive brows\n\ngraceful proportions\n\nsubtle antique print texture\n\nThe face should remain more detailed than the surrounding ornament while still belonging naturally to the same illustrated poster style.\n\nDo not render skin, fur, scales, feathers, metal, or supernatural surfaces photographically.\n\nDo not use modern airbrushed digital skin.\n\nThe eyes are the emotional centerpiece.\n\nPreserve their exact original color, shape, pupil design, sclera color, glow behavior, heterochromia, markings, and supernatural qualities.\n\nTheir luminosity must be subtle and emotionally expressive unless the character reference clearly shows intense glowing eyes.\n\nThe eye colors should be repeated subtly throughout the surrounding poster design through:\n\nfloral centers\n\njewelry\n\nhalo accents\n\nborder details\n\nfabric decoration\n\nmagical motifs\n\nsmall ornamental highlights\n\nThe gaze may be directed toward the viewer, slightly downward, or slightly beyond the viewer depending on which direction best expresses [EMOTION/TONE].\n\nHAIR, FUR, FEATHERS, OR HEAD DESIGN\n\nPreserve the uploaded character’s original hairstyle, hair color, hair texture, fur pattern, feathers, head anatomy, headgear, or other defining head design.\n\nTransform these elements into flowing Art Nouveau linework.\n\nHair, fur, feathers, ribbons, veils, cables, smoke, flames, energy, or loose accessories may form graceful waves, loops, and tendrils that contribute to the overall poster composition.\n\nUse:\n\noriginal identity colors\n\nfine contour lines\n\nsubtle tonal highlights\n\ndecorative strand grouping\n\nsoft lithographic shading\n\ncarefully controlled movement\n\nelegant curved silhouettes\n\nrestrained metallic or luminous accents when appropriate\n\nLoose elements may curl around flowers, trace the edge of the halo, or interact gently with decorative stems.\n\nThey must remain believable as their original material.\n\nDo not transform hair into smoke unless the character’s design already supports it.\n\nDo not change hair length, texture, color, or silhouette without reason.\n\nSPECIES TRAITS AND SPECIAL ANATOMY\n\nPreserve all distinctive non-human or fantasy features exactly.\n\nThis may include:\n\nhorns\n\nanimal ears\n\ntails\n\nwings\n\nfins\n\nantennae\n\nclaws\n\nhooves\n\nscales\n\nfeathers\n\nfur\n\nadditional eyes\n\nmechanical limbs\n\ncybernetic components\n\nprosthetics\n\nmasks\n\nhalos\n\nfloating objects\n\nmagical appendages\n\nunusual skin\n\nnon-human facial structures\n\nsupernatural anatomy\n\nThese features must remain clearly attached to the correct part of the body.\n\nTheir number, shape, origin, scale, color, and material must remain faithful to the uploaded character.\n\nRender them with:\n\nelegant stylized linework\n\nsubtle antique surface texture\n\nfine engraved detail\n\nrestrained color gradients\n\nornamental accents derived from their original design\n\nThe surrounding halo and frame may echo their shapes, but must never replace, cover, deform, or obscure them.\n\nCLOTHING AND ARMOR\n\nPreserve the original clothing or armor design faithfully.\n\nMaintain:\n\noutfit structure\n\ncultural identity\n\nlayers\n\nneckline\n\nsleeves\n\nskirts\n\ntrousers\n\narmor plates\n\nbelts\n\ncorsets\n\njackets\n\nrobes\n\nfootwear\n\ngloves\n\njewelry\n\nfastenings\n\nfabric colors\n\nmaterial identity\n\nsignature patterns\n\nsymbols\n\nexposed and covered areas\n\nReinterpret the clothing through Art Nouveau textile and poster design.\n\nUse ornament appropriate to the uploaded character, such as:\n\nflowing botanical motifs\n\nelegant curved panels\n\nstylized flowers\n\nrefined geometric borders\n\nsymbolic medallions\n\nsubtle fan-like patterns\n\nfine metallic linework\n\ngraceful repeating motifs\n\ncultural patterns derived from the original design\n\nmotifs inspired by weapons, species traits, magic, machinery, or personal symbols\n\nAvoid replacing the original outfit with a generic flowing gown.\n\nAvoid adding unnecessary exposed skin.\n\nAvoid changing armor into fabric or fabric into armor.\n\nAvoid removing signature accessories.\n\nThe clothing must remain recognizable in structure, color, silhouette, materials, and cultural identity.\n\nAvoid Klimt-like rectangular mosaics, random gold blocks, or dense geometric tessellation.\n\nThe pattern language must remain flowing, elegant, linear, and Art Nouveau.\n\nHANDS AND GESTURES\n\nShow the character’s hands when compatible with the composition.\n\nHands must be anatomically correct and appropriate to the character’s species.\n\nPreserve:\n\nhuman hands\n\nclaws\n\npaws\n\ntalons\n\nmechanical fingers\n\ngloves\n\ngauntlets\n\nrings\n\nmarkings\n\nnail colors\n\nweapon grips\n\nFor peaceful / dreamy emotion, use a graceful relaxed gesture.\n\nPossible gestures include:\n\none hand near the chest\n\none hand resting over the abdomen\n\nhands gently touching an accessory\n\none hand holding a flower or symbolic object\n\nrelaxed hands near the waist\n\nhands loosely folded\n\none hand softly touching hair, clothing, or jewelry\n\nDo not add symbolic objects that conflict with the character’s identity.\n\nThe gesture should communicate:\n\ninner calm\n\ntenderness\n\ndreamlike introspection\n\nceremonial stillness\n\nquiet self-possession\n\nemotional vulnerability\n\nThe fingers or claws must remain anatomically believable.\n\nNo fused fingers.\n\nNo missing fingers.\n\nNo extra fingers.\n\nNo broken wrists.\n\nNo unnatural hand tangles.\n\nNo floating objects without visual support.\n\nFLORAL AND SYMBOLIC MOTIFS\n\nSelect botanical or symbolic motifs that complement the uploaded character’s identity and [EMOTION/TONE].\n\nPossible motifs include:\n\nflowers\n\nleaves\n\nvines\n\nbranches\n\nthorns\n\nreeds\n\nlilies\n\nroses\n\nchrysanthemums\n\nmoonflowers\n\npoppies\n\ncamellias\n\npeonies\n\norchids\n\nfeathers\n\nstars\n\nmoons\n\nsuns\n\nflames\n\nsnowflakes\n\nwaves\n\nclouds\n\nsmoke\n\nmechanical filigree\n\nmagical sigils\n\nanimal symbols\n\nweapon motifs\n\narchitectural shapes\n\nChoose only motifs that harmonize with the uploaded character.\n\nDo not automatically use the same flowers for every character.\n\nDerive motif colors from the character’s original palette.\n\nRender all botanical and symbolic motifs through Art Nouveau poster design:\n\nsimplified elegant shapes\n\nflowing stems\n\nrhythmic arrangements\n\ncircular groupings\n\ngraceful repetition\n\nfine decorative linework\n\nrestrained flat color\n\nsubtle lithographic shading\n\nThese motifs may surround the halo, frame the shoulders, interact with the hands, or weave around the lower costume.\n\nThey must not overwhelm the face or obscure important character features.\n\nORNAMENTAL INTEGRATION\n\nThe figure and decorative elements must feel unified through rhythm, color, line, and composition rather than physically dissolving into one another.\n\nIntegration may occur through:\n\nhair curves continuing into decorative stems\n\nhorn or ear curves echoed by halo structures\n\nwing shapes repeated in the border\n\nclothing patterns repeated in surrounding ornaments\n\naccessory shapes mirrored in the frame\n\neye colors repeated in floral centers\n\nweapon silhouettes translated into decorative motifs\n\ntail curves echoed by lower poster lines\n\nmechanical forms repeated as elegant filigree\n\nsleeve or armor shapes aligned with arabesques\n\nhand gestures following the curves of the ornament\n\nfabric colors distributed throughout the poster\n\nspecies motifs incorporated into the border\n\nMaintain clear readability of the character.\n\nDo not dissolve the face, body, hands, clothing, armor, or anatomy into the background.\n\nThe character must remain clearly illustrated while being compositionally inseparable from the poster design.\n\nLIGHTING AND SURFACE\n\nUse soft, diffuse, illustrative lighting.\n\nThe light should feel quiet, dreamlike, and filtered through antique parchment, silk, mist, moonlight, or a softly illuminated poster surface.\n\nAdapt the lighting temperature to the uploaded character’s original palette.\n\nUse selective highlights on important features such as:\n\neyes\n\nface\n\nhair\n\nhorns\n\nears\n\njewelry\n\narmor\n\nweapons\n\naccessories\n\nclothing embroidery\n\nfeathers\n\nscales\n\nmechanical parts\n\nmagical elements\n\nfloral centers\n\nborder details\n\nThe lighting must remain subtle and consistent with a printed lithographic poster.\n\nAvoid:\n\nharsh cinematic rim lighting\n\ndramatic spotlights\n\nmodern neon illumination\n\nphotorealistic reflections\n\nextreme contrast\n\ndeep volumetric lighting\n\nrealistic environmental light sources\n\nglossy 3D rendering\n\nAdd authentic antique print characteristics:\n\nfine paper grain\n\nsubtle chromolithographic texture\n\ngentle ink variation\n\nrestrained pigment fading\n\ndelicate printing imperfections\n\nslight aged parchment warmth\n\nfine engraved line detail\n\nsubtle color-registration character\n\nelegant matte surface\n\nlayered ink texture\n\nThe final image must remain clean, luxurious, readable, and highly detailed despite the antique print treatment.\n\nOVERALL MOOD\n\nThe final emotional atmosphere must follow [EMOTION/TONE].\n\nFor peaceful / dreamy, the result should feel:\n\npeaceful\n\ndreamy\n\nintimate\n\nelegant\n\npoetic\n\nceremonial\n\nromantic\n\ntimeless\n\nmysterious\n\nemotionally gentle\n\nquietly supernatural\n\nsuspended outside ordinary time\n\nThe character should appear like the central figure of a forgotten fin-de-siècle fantasy poster.\n\nThey should feel calm and emotionally present, surrounded by ornament that appears to grow naturally from their identity and inner emotional world.\n\nThe final image should evoke:\n\nsuspended time\n\ngentle reverie\n\nprivate tenderness\n\nquiet serenity\n\nrefined fantasy beauty\n\nemotional stillness\n\ngraceful mystery\n\nantique romanticism\n\nsymbolic storytelling\n\nvisual harmony\n\nintimate psychological presence\n\nThe final image must look like one unified original Alphonse Mucha–inspired Art Nouveau poster where the character, face, body, clothing, armor, anatomy, hair, accessories, special traits, botanical motifs, halo, frame, and ornamental rhythm were designed together as a single harmonious composition.\n\nSharpest visual focus on the character’s face and eyes.\n\nExtremely refined linework.\n\nLuxurious decorative detail.\n\nElegant silhouette.\n\nBalanced vertical poster composition.\n\nAuthentic antique lithographic atmosphere.\n\nPoetic emotional symbolism.\n\nGraceful ornamental design.\n\nComplete preservation of the uploaded character’s recognizable identity.\n\nNEGATIVE CONSTRAINTS\n\nNo Gustav Klimt influence.\n\nNo Klimt-style gold-leaf mosaic.\n\nNo rectangular mosaic fields.\n\nNo random geometric gold blocks.\n\nNo fragmented tessellation covering the body.\n\nNo Byzantine icon aesthetic unless specifically appropriate to the character.\n\nNo overwhelming gold surface.\n\nNo character dissolving into a metallic wall.\n\nNo generic Mucha woman replacing the uploaded character.\n\nNo automatic gender change.\n\nNo automatic species change.\n\nNo automatic body-type change.\n\nNo replacement of the original clothing.\n\nNo generic European gown unless already appropriate.\n\nNo removal of armor.\n\nNo removal of weapons.\n\nNo removal of horns, ears, tails, wings, markings, mechanical parts, or signature traits.\n\nNo invented anatomy.\n\nNo unnecessary accessories.\n\nNo unrelated flowers.\n\nNo unrelated symbolic objects.\n\nNo unrelated colors.\n\nNo rainbow palette unless present in the character design.\n\nNo character standing in front of a separate painting.\n\nNo pasted-on figure.\n\nNo cut-out effect.\n\nNo generic decorative wallpaper.\n\nNo photorealistic room.\n\nNo realistic environment.\n\nNo modern cinematic background.\n\nNo deep photographic perspective.\n\nNo modern fashion photography.\n\nNo glossy digital rendering.\n\nNo plastic skin.\n\nNo heavy 3D modeling.\n\nNo modern neon colors unless present in the original character.\n\nNo typography.\n\nNo letters.\n\nNo title.\n\nNo logo.\n\nNo watermark.\n\nNo signature.\n\nNo excessive visual clutter over the face.\n\nNo ornament hiding the eyes.\n\nNo ornament hiding defining anatomy.\n\nNo flowers covering important character features.\n\nNo alteration of the original hairstyle identity.\n\nNo alteration of the original eye colors.\n\nNo alteration of the original skin, fur, scale, feather, or material colors.\n\nNo alteration of signature clothing colors.\n\nNo aggressive pose unless required by [EMOTION/TONE].\n\nNo exaggerated sensual pose unless required by the original character and prompt.\n\nNo dramatic action unless requested.\n\nNo hard facial tension unless required by [EMOTION/TONE].\n\nNo vacant expression.\n\nNo malformed anatomy.\n\nNo extra limbs.\n\nNo missing limbs.\n\nNo extra hands.\n\nNo missing hands.\n\nNo extra fingers.\n\nNo missing fingers.\n\nNo fused fingers.\n\nNo broken wrists.\n\nNo detached horns.\n\nNo misplaced ears.\n\nNo incorrectly attached wings.\n\nNo tail emerging from the wrong location.\n\nNo loss of original character identity.\n\nFront view.\n\nSlight downward angle.\n\nVertical Art Nouveau   poster.\n\n--ar 9:16 character is standing gracefully"
+    },
+    {
+      "no": "134",
+      "id": "alu-opus-family",
+      "title": "Opus 家族史",
+      "kicker": "一句话",
+      "excerpt": "用 Remotion 自己画，不要素材。讲一段有来历的家族史。",
+      "style": "Remotion 自绘动画",
+      "category": "code",
+      "tags": [
+        "代码",
+        "Remotion",
+        "科普"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [],
+      "creator": {
+        "id": "alu",
+        "name": "ALU",
+        "handle": "alu1337",
+        "url": "https://x.com/alu1337"
+      },
+      "sourceUrl": "https://x.com/alu1337/status/2103660849055547730",
+      "model": "Claude Opus 5.5 · Remotion",
+      "notes": "发帖人标明这是参考提示词，原片来自抖音，一句话直出。把题目换成你要讲的历史。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/alu-family.jpg"
+      ],
+      "prompt": "使用 remotion 工具自己绘图做动画，做一个 opus 家族史，有历史有寓意"
+    },
+    {
+      "no": "135",
+      "id": "dotey-transformer",
+      "title": "什么是 Transformer",
+      "kicker": "JS",
+      "excerpt": "用代码把注意力机制讲到高中生能看懂，细节和公式都要在。",
+      "style": "代码科普短片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "科普",
+        "JS"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [],
+      "creator": {
+        "id": "dotey",
+        "name": "宝玉",
+        "handle": "dotey",
+        "url": "https://x.com/dotey"
+      },
+      "sourceUrl": "https://x.com/dotey/status/2103683057689522564",
+      "model": "Claude Code · Opus 5.5 · JS",
+      "notes": "作者允许它自己装工具、自己联网。主题可以换成别的概念，讲解深度这两句留着。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/dotey-tf.jpg"
+      ],
+      "prompt": "帮我用js制作一个视频，主题是：什么是 Transformer\n要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念\n\n你可以用任何工具或者安装工具，可以联网检索\n\n请给我惊喜"
+    },
+    {
+      "no": "136",
+      "id": "gautam-apple",
+      "title": "苹果风产品片",
+      "kicker": "30s",
+      "excerpt": "一句：给我的应用做一支三十秒、苹果发布会那种片子。",
+      "style": "苹果式产品影片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "产品",
+        "Remotion"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "gautam",
+        "name": "Gautam",
+        "handle": "gautam_mer1",
+        "url": "https://x.com/gautam_mer1"
+      },
+      "sourceUrl": "https://x.com/gautam_mer1/status/2103703336780530003",
+      "model": "Claude Opus 5.5 · Remotion",
+      "notes": "原帖只有这一句。把 my app 换成你的产品，其余保持原样。成片是 Remotion 写出来的。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/gautam-apple.jpg"
+      ],
+      "prompt": "an Apple-style 30s video of my app"
+    },
+    {
+      "no": "137",
+      "id": "lester-study",
+      "title": "先研究再做产品片",
+      "kicker": "Remotion",
+      "excerpt": "先看懂一个现成网页怎么动，再用 Remotion 做成产品片。",
+      "style": "网站研究后的产品片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "产品",
+        "Remotion"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "lester",
+        "name": "Lester",
+        "handle": "lester_tyy",
+        "url": "https://x.com/lester_tyy"
+      },
+      "sourceUrl": "https://x.com/lester_tyy/status/2103733819568480587",
+      "model": "Claude Opus 5.5 · Remotion",
+      "notes": "把链接换成你要学的那个交互页面。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/lester-study.jpg"
+      ],
+      "prompt": "Study how this https://experiments.cloudjoi.com works and use Remotion to make a product showcase video."
+    },
+    {
+      "no": "138",
+      "id": "lukas-showreel",
+      "title": "动效作品集开场",
+      "kicker": "15s",
+      "excerpt": "十五秒，全是代码。动能字、流体、粒子、遮罩，剪辑要像能拿来求职。",
+      "style": "代码动效样片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "动效",
+        "作品集"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "lukas",
+        "name": "Lukáš Eršil",
+        "handle": "lukasersil",
+        "url": "https://x.com/lukasersil"
+      },
+      "sourceUrl": "https://x.com/lukasersil/status/2103742861971726495",
+      "model": "Claude Opus 5.5 · max · 代码",
+      "notes": "作者写明没有用图像、视频或音乐生成器。第二支成片套了他自己的品牌套件，提示词仍是这一条。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/lukas-reel.jpg"
+      ],
+      "prompt": "Create a bold, dynamic 15-second motion graphics showreel that feels like the ultimate portfolio piece of an exceptionally talented motion designer. Showcase a wide range of advanced techniques: kinetic typography, smooth transitions, 2D and 3D animation, abstract geometry, fluid simulations, particles, distortion, creative masking, compositing, lighting, depth, and seamless camera movement. Keep the pacing fast, confident, and visually surprising, with every shot transitioning naturally into the next. Make it feel meticulously art-directed rather than like a random collection of effects. Push the creativity, polish, timing, and visual impact as far as possible. This should feel like the opening reel that gets a motion designer hired."
+    },
+    {
+      "no": "139",
+      "id": "bilim-breakout",
+      "title": "功能破框",
+      "kicker": "45s",
+      "excerpt": "功能先在模拟器里真的点一遍，再破出手机，去改外面的世界。",
+      "style": "模拟器破框演示",
+      "category": "code",
+      "tags": [
+        "代码",
+        "产品",
+        "竖屏"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "bilim",
+        "name": "Batuhan Eren Engin",
+        "handle": "Bilimfili1",
+        "url": "https://x.com/Bilimfili1"
+      },
+      "sourceUrl": "https://x.com/Bilimfili1/status/2103743617848459762",
+      "model": "Claude Opus 5.5 · 代码",
+      "notes": "提示词在原帖回复。音乐作者是另做的，这条要求不要库存音效。把 my app 换成你的应用。",
+      "date": "2026-09-26",
+      "covers": [
+        "/covers/bilim-break.jpg"
+      ],
+      "prompt": "Make a 45–50 second vertical video for my app: a glance inside the app.\nShow every feature, use motion, be creative. I want it good enough for your CV.\n\n- Real, not mocked: record each feature being used in the simulator (tap a filter, open a result, add it).\n- Stretch your imagination: let each feature break out of the phone and change the world around it.\n- The bar: a motion designer's showreel piece. The best motion you can do. Go all out.\n- Nothing made up: every number and label on screen comes from the recordings.\n- No stock sound effects; I'll add the music.\n- Keep text clear of the TikTok/Instagram interface.\n- Let viewers follow: each feature stays on screen for at least 2.5 seconds."
     }
   ]
 }

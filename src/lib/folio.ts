@@ -8,7 +8,8 @@ export type CategoryId =
   | "cinema"
   | "story"
   | "object"
-  | "craft";
+  | "craft"
+  | "code";
 
 export type Medium = "image" | "video";
 
@@ -20,7 +21,8 @@ export type UseId =
   | "social"
   | "short"
   | "action"
-  | "template";
+  | "template"
+  | "reel";
 
 export type FolioPrompt = {
   no: string;

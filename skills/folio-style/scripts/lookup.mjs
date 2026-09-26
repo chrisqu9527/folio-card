@@ -98,7 +98,7 @@ if ((medium || scene) && args.length === 0) {
 }
 
 if (args.length === 0 || args.includes("-h") || args.includes("--help")) {
-  console.log("usage: lookup.mjs <编号> | --list | --category <id|中文名> | --search <词> [--medium image|video] [--use 预告片|游戏|广告|产品宣传|社交短视频|叙事短片|动作展示|可换模板]");
+  console.log("usage: lookup.mjs <编号> | --list | --category <id|中文名> | --search <词> [--medium image|video] [--use 预告片|游戏|广告|产品宣传|社交短视频|叙事短片|动作展示|可换模板|作品集]");
   process.exit(args.length === 0 ? 1 : 0);
 }
 
