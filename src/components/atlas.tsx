@@ -79,17 +79,28 @@ export function Atlas() {
     setSelectedNo(no);
   }
 
+  function clearBrowse() {
+    setQuery("");
+    setMissing(null);
+    setCopied(false);
+  }
+
   function pickMedium(next: Medium) {
     setMedium(next);
     setScene("all");
-    setCopied(false);
+    clearBrowse();
     if (category !== "all" && countMedium(next, category) === 0) setCategory("all");
   }
 
   function pickScene(next: UseId | "all") {
     setScene(next);
-    setCopied(false);
+    clearBrowse();
     if (category !== "all" && countMedium("video", category, next) === 0) setCategory("all");
+  }
+
+  function pickCategory(next: CategoryId | "all") {
+    setCategory(next);
+    clearBrowse();
   }
 
   async function copyPrompt(p: FolioPrompt) {
@@ -185,14 +196,14 @@ export function Atlas() {
           </div>
         ) : null}
         <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
-          <Chip active={category === "all"} onClick={() => setCategory("all")}>
+          <Chip active={category === "all"} onClick={() => pickCategory("all")}>
             全部 {countMedium(medium, "all", scene)}
           </Chip>
           {folio.categories.map((c) => {
             const n = countMedium(medium, c.id, scene);
             if (n === 0) return null;
             return (
-              <Chip key={c.id} active={category === c.id} onClick={() => setCategory(c.id)}>
+              <Chip key={c.id} active={category === c.id} onClick={() => pickCategory(c.id)}>
                 {c.name} {n}
               </Chip>
             );
@@ -202,7 +213,11 @@ export function Atlas() {
         <div className="mt-4 grid min-w-0 items-start gap-6 lg:grid-cols-2">
           <ul className="order-2 min-w-0 divide-y divide-border border-y border-border lg:order-1">
             {results.length === 0 ? (
-              <li className="py-10 text-sm text-muted">没有符合的风格。换一个编号，或清掉筛选。</li>
+              <li className="py-10 text-sm text-muted">
+                {query.trim()
+                  ? `没有和「${query.trim()}」相符的。清掉搜索再看这一组。`
+                  : "没有符合的风格。清掉筛选。"}
+              </li>
             ) : (
               results.map((p) => {
                 const on = p.no === selected?.no;
