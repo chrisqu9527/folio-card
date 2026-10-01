@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 442,
+  "count": 450,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0.",
   "categories": [
     {
@@ -14124,6 +14124,258 @@
       "sourceUrl": "https://github.com/yang0/handraw-style/blob/master/images/individual/201-400/280.webp",
       "date": "2026-10-01",
       "prompt": "【主题】\n\n生图名称：Minimalist Doodle & Semi-Realistic Hybrid Illustration\n原参考：简笔与半写实融合风\n核心视觉特征：写实与简笔融合的混合插画风。画面中同时存在两种清晰区分的视觉语言：一部分内容采用细腻写实或半写实表现，强调自然质感、真实纹理、柔和层次、细节刻画与轻盈光感；另一部分内容采用极简2D手绘简笔画表现，强调概括造型、轻柔线条、低细节、适度留白与天真趣味。两种画法并置共存，形成明确可辨的风格反差，同时保持统一、和谐、克制的审美协调。 主体角色或主要视觉对象优先采用2D插画化表现，保持平面感、手绘感与概括感，不要做成照片感、3D感或厚重写实感；其余环境、植物、材质、局部场景元素可适度引入细腻半写实表现，另有部分装饰性元素可继续使用极简手绘简笔语言。整体应保留“主体偏2D、局部写实、局部简笔”的清晰层次关系。 整体气质轻盈、温柔、治愈、清新、诗意，带有文艺感与绘本感。色彩以低饱和、高明度、柔和通透的浅色系为主，避免浓烈对比、厚重综合色块和高饱和炫目视觉。背景倾向干净、简洁、留白充足，不过度堆叠信息，画面重视呼吸感、秩序感与视觉节奏。 写实部分不要过度摄影化，不要强烈商业修图感，不要走照片级写实路线；简笔部分不要复杂化，不追求真实结构与繁复刻画，应保留手绘的松弛感、稚拙感与亲和力。线条细而柔和，造型圆润、概括、克制，整体呈现“精致与天真并存”“真实与童趣并存”的视觉效果。 风格重点不是把所有内容统一成单一画法，而是保留“精细写实”与“简洁手绘”之间清晰可辨的差异，并让这种差异成为画面的核心风格特征。整体不做厚涂，不做3D，不做强戏剧光影，不做复杂纹样堆砌，不做过强体积塑造，不做商业海报式锐利修饰。\n\n手绘风格编号：280。来源：yang0 / handraw-style。"
+    },
+    {
+      "no": "443",
+      "id": "deepblue-ccd-flash",
+      "title": "雷电将军直闪杂志",
+      "kicker": "CCD直闪",
+      "excerpt": "先锋时尚杂志，局部遮挡，CCD直闪。主体可换。",
+      "style": "先锋时尚杂志直闪",
+      "category": "portrait",
+      "tags": [
+        "人像",
+        "杂志",
+        "直闪"
+      ],
+      "medium": "image",
+      "slots": [
+        "主体"
+      ],
+      "creator": {
+        "id": "deepblue",
+        "name": "DeepBlue深藍",
+        "handle": "DeepBlueX0",
+        "url": "https://x.com/DeepBlueX0"
+      },
+      "sourceUrl": "https://x.com/DeepBlueX0/status/2105298953235472410",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-30",
+      "notes": "原帖标为图1。提示词按作者四段式原文收录，未改写。",
+      "prompt": "雷电将军 × 先锋时尚杂志 × 局部遮挡构成 × CCD直闪",
+      "covers": [
+        "/covers/deepblue-ccd-flash.jpg"
+      ]
+    },
+    {
+      "no": "444",
+      "id": "deepblue-swiss-grid",
+      "title": "八重神子国际主义网格",
+      "kicker": "凹版印刷",
+      "excerpt": "瑞士国际主义平面，模块化网格，凹版印刷。主体可换。",
+      "style": "瑞士国际主义网格",
+      "category": "poster",
+      "tags": [
+        "海报",
+        "网格",
+        "印刷"
+      ],
+      "medium": "image",
+      "slots": [
+        "主体"
+      ],
+      "creator": {
+        "id": "deepblue",
+        "name": "DeepBlue深藍",
+        "handle": "DeepBlueX0",
+        "url": "https://x.com/DeepBlueX0"
+      },
+      "sourceUrl": "https://x.com/DeepBlueX0/status/2105298953235472410",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-30",
+      "notes": "原帖标为图2。提示词按作者四段式原文收录，未改写。",
+      "prompt": "八重神子 × 瑞士国际主义平面设计 × 模块化网格构成 × 凹版印刷",
+      "covers": [
+        "/covers/deepblue-swiss-grid.jpg"
+      ]
+    },
+    {
+      "no": "445",
+      "id": "deepblue-ukiyoe",
+      "title": "神里绫华浮世绘套色",
+      "kicker": "木版套色",
+      "excerpt": "日本传统浮世绘，平面化人物，木版套色。主体可换。",
+      "style": "浮世绘木版套色",
+      "category": "eastern",
+      "tags": [
+        "浮世绘",
+        "木版",
+        "东方"
+      ],
+      "medium": "image",
+      "slots": [
+        "主体"
+      ],
+      "creator": {
+        "id": "deepblue",
+        "name": "DeepBlue深藍",
+        "handle": "DeepBlueX0",
+        "url": "https://x.com/DeepBlueX0"
+      },
+      "sourceUrl": "https://x.com/DeepBlueX0/status/2105298953235472410",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-30",
+      "notes": "原帖标为图3。提示词按作者四段式原文收录，未改写。",
+      "prompt": "神里绫华 × 日本传统浮世绘 × 平面化人物构成 × 木版套色",
+      "covers": [
+        "/covers/deepblue-ukiyoe.jpg"
+      ]
+    },
+    {
+      "no": "446",
+      "id": "deepblue-song-bird",
+      "title": "甘雨花鸟绢本",
+      "kicker": "绢本设色",
+      "excerpt": "宋代花鸟画，花枝框景，绢本设色。主体可换。",
+      "style": "宋代花鸟绢本",
+      "category": "eastern",
+      "tags": [
+        "花鸟",
+        "绢本",
+        "宋画"
+      ],
+      "medium": "image",
+      "slots": [
+        "主体"
+      ],
+      "creator": {
+        "id": "deepblue",
+        "name": "DeepBlue深藍",
+        "handle": "DeepBlueX0",
+        "url": "https://x.com/DeepBlueX0"
+      },
+      "sourceUrl": "https://x.com/DeepBlueX0/status/2105298953235472410",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-30",
+      "notes": "原帖标为图4。提示词按作者四段式原文收录，未改写。",
+      "prompt": "甘雨 × 宋代花鸟画 × 花枝框景构成 × 绢本设色",
+      "covers": [
+        "/covers/deepblue-song-bird.jpg"
+      ]
+    },
+    {
+      "no": "447",
+      "id": "zidan-cyber-boss",
+      "title": "赛博车厢连招",
+      "kicker": "Boss战",
+      "excerpt": "十五秒不间断地铁车厢连招，港片身法加游戏连击。",
+      "style": "赛博武打预告连招",
+      "category": "cinema",
+      "tags": [
+        "动作",
+        "赛博",
+        "Seedance"
+      ],
+      "medium": "video",
+      "use": "action",
+      "slots": [],
+      "creator": {
+        "id": "zidan",
+        "name": "Zidan 子丹",
+        "handle": "liluocheng13",
+        "url": "https://x.com/liluocheng13"
+      },
+      "sourceUrl": "https://x.com/liluocheng13/status/2105641846768800214",
+      "model": "Midjourney 8.2 · Seedance 2.0",
+      "date": "2026-10-01",
+      "notes": "成片是生视频模型，不是代码渲。提示词为原帖全文，未改写。",
+      "prompt": "15 seconds, ultra cinematic cyberpunk boss battle, AAA game cinematic trailer quality, IMAX 70mm, Unreal Engine 5 realism, dark sci-fi action. Classic Hong Kong kung fu film choreography meets Devil May Cry style combo action: non-stop fighting from the first frame to the last, no pause, no slow motion, no standing poses. Extreme speed, brutal close-quarter combat, relentless chained combos, launcher uppercuts, air juggles, slams, dodge-counters, wire-fu aerial movement, real impact weight, hit-stop micro-freezes of 2-3 frames on every heavy hit, razor-sharp speed ramping. 0–1秒 地铁车厢内\n超低機位，急速推進。武者瞬間爆發，腳下地板凹陷，藍色雷電炸開，身體化作殘影衝出，第一秒即與怪物接戰。 1–2秒 90°荷蘭角，側面高速跟拍。武者瞬移至綠色怪物面前，連續三記重拳擊中胸腹，肌肉受力變形，怪物被打得連連後退，武者貼身追擊，絕不停步。 2–3秒 極端俯拍，突然切換仰拍。怪物揮拳反擊，武者側身閃避，瞬間消失，出現在怪物背後，一記重肘轟中脊背，無縫接上掃腿。 3–4秒 超廣角低機位，猛烈甩鏡。怪物被擊飛撞碎車廂座椅，金屬支架彎曲，玻璃爆裂，碎片四散，武者凌空飛身追上，毫無間隔。 4–5秒 三機位快速交叉剪輯。怪物從殘骸中暴起，抓住武者將其砸向車廂側壁，金屬壁板凹陷，整節車廂震動；武者借力反彈，瞬間反手格擋，立刻還擊。 5–6秒 180°環繞運鏡，極低仰拍。武者蹬牆反彈，空中扭身，一記雷霆飛膝擊中怪物下顎，綠色毒霧爆散，怪物被挑離地面。 6–7秒 極端俯拍，超高速追蹤。武者在空中連續追打浮空的怪物，拳腳連環，六道藍綠殘影高速交錯，拳腳碰撞產生衝擊波，怪物像沙包般被打得在車廂內彈飛。 7–8秒 荷蘭角，貼身手持攝影。武者閃過怪物利爪，連續左右勾拳，接一記兇猛上勾拳，怪物頭部猛然後仰，武者隨即躍起追擊。 8–9秒 車廂盡頭超長焦，急速變焦。怪物釋放綠色能量衝擊波，武者貼地高速滑行從衝擊波下方穿過，沿途地板被撕裂，滑行中直接蹬地彈起，反擊不斷。 9–10秒 360°高速環繞，突然切換仰拍。武者躍起瞬移至怪物頭頂，一記雷霆下劈腿將怪物砸向地面，地板嚴重凹陷，武者落地即接連環重拳。 10–11秒 超近景與極端俯拍交替。怪物掙扎反擊，雙方拳拳相撞，拳頭、肌肉、衣物產生明顯的衝擊變形，格擋、拆招、反擊一氣呵成。 11–12秒 45°荷蘭角，急速倒退跟拍。武者被綠色能量轟飛，連續撞穿座椅與扶手，落地翻滾，單手撐地瞬間反彈，毫不停頓地衝回戰場。 12–13秒 地板高度超低機位，迎面高速攝影。武者全身雷電爆發，瞬間突破音障，以極限速度衝向怪物，身後形成多重藍色殘影。 13–14秒 正面特寫，側面超高速攝影，俯拍交叉剪輯。雷霆重拳擊中怪物胸口，衝擊使其軀幹劇烈後彎，藍色雷電與綠色能量猛烈爆炸，武者連續追擊兩拳一腿。 14–15秒 超廣角固定鏡頭，瞬間拉遠。怪物被轟飛撞向車廂盡頭，金屬門板扭曲，玻璃粉碎，強烈衝擊波席捲整節車廂，武者在飛散的碎片與雷光之中落地。 GLOBAL REQUIREMENTS: fighting continues non-stop from 0:00 to 15:00, every hit flows directly into the next, each dodge becomes a counterattack, each landing becomes another attack. Fists, elbows, knees and kicks stay anatomically connected to shoulders, hips and footwork, with real weight and visible muscle deformation on impact. Blue lightning on the warrior, green toxic energy on the monster, sparks, debris and glass shards on every collision. Faces and costumes stay stable and consistent. No slow motion, no waiting, no standing poses, no dialogue, no subtitles, no watermark, no extra limbs, no broken anatomy.",
+      "covers": [
+        "/covers/zidan-cyber-boss.jpg"
+      ]
+    },
+    {
+      "no": "448",
+      "id": "aynelle-korean-chicken",
+      "title": "韩式脆鸡料理广告",
+      "kicker": "食物广告",
+      "excerpt": "三十秒厨房实拍：切块、挂糊、油炸、裹酱、装盘。",
+      "style": "写实食物广告",
+      "category": "object",
+      "tags": [
+        "食物",
+        "广告",
+        "Seedance"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "aynelle",
+        "name": "Aynelle",
+        "handle": "aynellex",
+        "url": "https://x.com/aynellex"
+      },
+      "sourceUrl": "https://x.com/aynellex/status/2105532781258571918",
+      "model": "Seedance 2.5",
+      "date": "2026-10-01",
+      "notes": "成片是生视频模型，不是代码渲。提示词为原帖全文，未改写。",
+      "prompt": "Create a cinematic, ultra-realistic 30-second live-action food sequence showing the complete preparation of crispy Korean-style glazed chicken in a warm home kitchen. Begin with an overhead close-up of raw chicken pieces being carefully cut into bite-sized chunks on a wooden cutting board. Transition smoothly to a stainless-steel bowl as the chicken is coated with a creamy white seasoned mixture, showing realistic hand movements and detailed food textures.\n\nMove into a dynamic close-up of the coated chicken being lowered into hot oil. Capture the bubbling oil, golden batter, steam, sizzling particles, and gradual transformation as the pieces become deeply golden and crispy. Use macro shots to emphasize the crunchy exterior and realistic frying physics.\n\nCut to a dark pan as thick glossy red Korean-style sauce is poured in, followed by finely chopped garlic. Show the sauce slowly heating and bubbling, becoming rich, sticky, and glossy. Add the crispy fried chicken into the pan and toss it repeatedly with chopsticks until every piece is evenly coated in the vibrant red glaze.\n\nEnd with a beautiful close-up of the finished crispy chicken arranged on a white ceramic plate, covered in shiny red sauce and topped with sliced green onions and sesame seeds. Slowly push the camera toward the dish as the glaze catches the warm kitchen light, emphasizing the crunchy texture and appetizing details.\n\nUltra-photorealistic cinematic live-action food commercial, realistic human hands, authentic Korean-style cooking, detailed food textures, crispy batter, bubbling hot oil, realistic steam and heat, glossy sauce, natural kitchen lighting, warm wooden surfaces, macro food photography, shallow depth of field, smooth camera movement, overhead shots, close-ups, realistic frying physics, rich colors, subtle film grain, appetizing presentation, physically accurate ingredients, 30 seconds, widescreen 16:9, no text, no logos, no watermark, no cartoon look, no plastic CGI appearance, no distorted hands, no artificial food textures.",
+      "covers": [
+        "/covers/aynelle-korean-chicken.jpg"
+      ]
+    },
+    {
+      "no": "449",
+      "id": "leaf-pixel-beat",
+      "title": "像素节拍自我介绍",
+      "kicker": "HyperFrames",
+      "excerpt": "三十秒竖屏像素游戏风，音乐用代码合成并和画面共用节拍表。",
+      "style": "像素节拍短片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "像素",
+        "Opus"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [],
+      "creator": {
+        "id": "leaf",
+        "name": "Leaf Yeah!",
+        "handle": "leaf_sanren",
+        "url": "https://x.com/leaf_sanren"
+      },
+      "sourceUrl": "https://x.com/leaf_sanren/status/2104777776427610144",
+      "model": "Claude Opus 5.5 · HyperFrames",
+      "date": "2026-09-29",
+      "notes": "作者说明未调用生图、生音乐、生视频模型。音乐用数学公式写声波，动画用 JavaScript。提示词在成片帖的作者评论，成片见 https://x.com/leaf_sanren/status/2104775929914617943。",
+      "prompt": "用 HyperFrames 做 30 秒竖屏像素游戏风短视频，Claude Opus 5.5 自我介绍，开头反转「我听不见音乐，但每一拍都踩中了」，音乐用代码合成并和画面共用节拍表。",
+      "covers": [
+        "/covers/leaf-pixel-beat.jpg"
+      ]
+    },
+    {
+      "no": "450",
+      "id": "lemomo-whiteboard",
+      "title": "白板讲解产品教学",
+      "kicker": "Whiteboard",
+      "excerpt": "一句提示词出白板讲解片，讲怎么用 Lemo-Opuscar 做视频。",
+      "style": "白板讲解",
+      "category": "code",
+      "tags": [
+        "代码",
+        "白板",
+        "Opus"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "lemomo",
+        "name": "Lemomo",
+        "handle": "lemomo_ai",
+        "url": "https://x.com/lemomo_ai"
+      },
+      "sourceUrl": "https://x.com/lemomo_ai/status/2104070024575242622",
+      "model": "Claude Opus 5.5 · 白板讲解",
+      "date": "2026-09-27",
+      "notes": "作者说明这是纯代码出的产品教学片。提示词为原帖英文原文，未改写。",
+      "prompt": "Create a tutorial video explaining how to create videos using Lemo-Opuscar skill (Opus 5.5) , in a [Whiteboard Explainer] style.  One prompt, one answer, then ship film.",
+      "covers": [
+        "/covers/lemomo-whiteboard.jpg"
+      ]
     }
   ]
 }
