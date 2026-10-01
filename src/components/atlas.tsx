@@ -39,7 +39,7 @@ import {
   type UseId,
 } from "@/lib/folio";
 
-type SortOrder = "recommended" | "latest" | "number";
+type SortOrder = "collected" | "recommended" | "latest" | "number";
 const REPO_URL = "https://github.com/chrisqu9527/folio-card";
 
 export function Atlas() {
@@ -48,7 +48,7 @@ export function Atlas() {
   const [category, setCategory] = useState<CategoryId | "all">("all");
   const [scene, setScene] = useState<UseId | "all">("all");
   const [selected, setSelected] = useState<FolioPrompt | null>(null);
-  const [sort, setSort] = useState<SortOrder>("recommended");
+  const [sort, setSort] = useState<SortOrder>("collected");
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [compact, setCompact] = useState(true);
   const [helpOpen, setHelpOpen] = useState(false);
@@ -64,6 +64,7 @@ export function Atlas() {
     const matches = filterPrompts(query, category, medium, scene).filter(
       (p) => !onlyFavorites || favoriteIds.includes(p.id),
     );
+    if (sort === "collected") matches.sort((a, b) => Number(b.no) - Number(a.no));
     if (sort === "latest")
       matches.sort((a, b) => b.date.localeCompare(a.date) || Number(b.no) - Number(a.no));
     if (sort === "number") matches.sort((a, b) => Number(a.no) - Number(b.no));
@@ -320,6 +321,7 @@ export function Atlas() {
               <div className="folio-sort" aria-label="排序方式">
                 {(
                   [
+                    ["collected", "收录"],
                     ["recommended", "推荐"],
                     ["latest", "最新"],
                     ["number", "编号"],
