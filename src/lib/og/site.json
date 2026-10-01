@@ -1,5 +1,6 @@
 {
-  "title": "FOLIO 编号",
+  "title": "C叔风格库",
   "card": "custom",
-  "description": "输入编号，看风格图，复制对应的图像或视频提示词。"
+  "description": "图像/视频提示词编号库。输入编号，看风格图，复制对应的图像或视频提示词。",
+  "color": "f6f3eb"
 }

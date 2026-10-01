@@ -1,5 +1,30 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { Check, ChevronLeft, ChevronRight, Copy, ExternalLink, X } from "lucide-react";
+import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import {
+  ArrowUpRight,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  CircleHelp,
+  Copy,
+  Film,
+  Github,
+  Heart,
+  Home,
+  Image as ImageIcon,
+  LayoutGrid,
+  RotateCcw,
+  Search,
+  Shuffle,
+} from "lucide-react";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { useFavorites } from "@/lib/favorites";
+import { brand } from "@/lib/brand";
 import {
   categoryName,
   countMedium,
@@ -14,95 +39,106 @@ import {
   type UseId,
 } from "@/lib/folio";
 
+type SortOrder = "recommended" | "latest" | "number";
+const REPO_URL = "https://github.com/chrisqu9527/folio-card";
+
 export function Atlas() {
   const [query, setQuery] = useState("");
   const [medium, setMedium] = useState<Medium>("image");
   const [category, setCategory] = useState<CategoryId | "all">("all");
   const [scene, setScene] = useState<UseId | "all">("all");
-  const [selectedNo, setSelectedNo] = useState<string | null>(folio.prompts[0]?.no ?? null);
+  const [selected, setSelected] = useState<FolioPrompt | null>(null);
+  const [sort, setSort] = useState<SortOrder>("recommended");
+  const [onlyFavorites, setOnlyFavorites] = useState(false);
+  const [compact, setCompact] = useState(true);
+  const [helpOpen, setHelpOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const [missing, setMissing] = useState<string | null>(null);
-  const detailRef = useRef<HTMLElement>(null);
+  const [hydrated, setHydrated] = useState(false);
+  const savedIds = useFavorites((state) => state.ids);
+  const toggleFavorite = useFavorites((state) => state.toggle);
+  const favoriteIds = useMemo(() => (hydrated ? savedIds : []), [hydrated, savedIds]);
+  const columns = useColumnCount(compact);
 
-  const results = useMemo(
-    () => filterPrompts(query, category, medium, scene),
-    [query, category, medium, scene],
-  );
-  const selected = results.find((p) => p.no === selectedNo) ?? results[0] ?? null;
+  const results = useMemo(() => {
+    const matches = filterPrompts(query, category, medium, scene).filter(
+      (p) => !onlyFavorites || favoriteIds.includes(p.id),
+    );
+    if (sort === "latest")
+      matches.sort((a, b) => b.date.localeCompare(a.date) || Number(b.no) - Number(a.no));
+    if (sort === "number") matches.sort((a, b) => Number(a.no) - Number(b.no));
+    return matches;
+  }, [query, category, medium, scene, sort, onlyFavorites, favoriteIds]);
+  const masonry = useMemo(() => {
+    const groups: FolioPrompt[][] = Array.from({ length: columns }, () => []);
+    results.forEach((p, index) => groups[index % columns].push(p));
+    return groups;
+  }, [results, columns]);
 
   useEffect(() => {
+    setHydrated(true);
     const fromHash = () => {
-      const no = parseNo(decodeURIComponent(window.location.hash.replace("#", "")));
-      if (!no) return;
-      if (!promptByNo(no)) {
-        setMissing(no);
+      let no: string | null;
+      try {
+        no = parseNo(decodeURIComponent(window.location.hash.slice(1)));
+      } catch {
         return;
       }
-      setMissing(null);
+      if (!no) return;
+      const hit = promptByNo(no);
       setQuery(no);
-      setMedium(promptByNo(no)!.medium);
-      setScene(promptByNo(no)!.use ?? "all");
-      setCategory("all");
-      setSelectedNo(no);
+      setMissing(hit ? null : no);
+      if (hit) {
+        setMedium(hit.medium);
+        setCategory("all");
+        setScene("all");
+        setOnlyFavorites(false);
+        setSelected(hit);
+      }
     };
     fromHash();
     window.addEventListener("hashchange", fromHash);
     return () => window.removeEventListener("hashchange", fromHash);
   }, []);
+  useEffect(() => {
+    setCopied(false);
+  }, [selected?.no]);
 
   function choose(p: FolioPrompt) {
-    setSelectedNo(p.no);
-    setMissing(null);
-    const url = `${window.location.pathname}${window.location.search}#${p.no}`;
-    window.history.replaceState(null, "", url);
-    detailRef.current?.scrollIntoView({ block: "nearest" });
+    setSelected(p);
+    window.history.replaceState(
+      null,
+      "",
+      `${window.location.pathname}${window.location.search}#${p.no}`,
+    );
   }
-
-  function onQuery(value: string) {
-    setQuery(value);
-    setCopied(false);
-    const no = parseNo(value);
-    if (!no) {
-      setMissing(null);
-      return;
-    }
-    const hit = promptByNo(no);
-    if (!hit) {
-      setMissing(no);
-      setSelectedNo(null);
-      return;
-    }
-    setMissing(null);
-    setMedium(hit.medium);
-    setScene(hit.use ?? "all");
-    setCategory("all");
-    setSelectedNo(no);
+  function closeDetail() {
+    setSelected(null);
+    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}`);
   }
-
-  function clearBrowse() {
+  function resetFilters() {
     setQuery("");
+    setCategory("all");
+    setScene("all");
+    setOnlyFavorites(false);
     setMissing(null);
-    setCopied(false);
   }
-
   function pickMedium(next: Medium) {
     setMedium(next);
-    setScene("all");
-    clearBrowse();
-    if (category !== "all" && countMedium(next, category) === 0) setCategory("all");
+    resetFilters();
   }
-
-  function pickScene(next: UseId | "all") {
-    setScene(next);
-    clearBrowse();
-    if (category !== "all" && countMedium("video", category, next) === 0) setCategory("all");
+  function onQuery(value: string) {
+    setQuery(value);
+    const no = parseNo(value);
+    const hit = no ? promptByNo(no) : undefined;
+    setMissing(no && !hit ? no : null);
+    if (hit) {
+      setMedium(hit.medium);
+      setCategory("all");
+      setScene("all");
+      setOnlyFavorites(false);
+    }
   }
-
-  function pickCategory(next: CategoryId | "all") {
-    setCategory(next);
-    clearBrowse();
-  }
-
   async function copyPrompt(p: FolioPrompt) {
     try {
       await navigator.clipboard.writeText(p.prompt);
@@ -112,345 +148,548 @@ export function Atlas() {
       area.setAttribute("readonly", "");
       document.body.appendChild(area);
       area.select();
-      document.execCommand("copy");
+      const success = document.execCommand("copy");
       area.remove();
+      if (!success) return;
     }
     setCopied(true);
-    window.setTimeout(() => setCopied(false), 1600);
+    window.setTimeout(() => setCopied(false), 1800);
   }
 
   return (
-    <div className="min-h-screen">
-      <header className="border-b border-border">
-        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-6 sm:px-6 lg:py-8">
-          <div className="flex items-end justify-between gap-4">
-            <div>
-              <p className="font-mono text-xs tracking-widest text-subtle uppercase">FOLIO / X prompt atlas</p>
-              <h1 className="mt-2 text-4xl text-fg sm:text-5xl">风格编号</h1>
-            </div>
-            <p className="hidden text-right font-mono text-xs text-subtle sm:block">
-              {String(folio.count).padStart(3, "0")} frozen
-            </p>
-          </div>
-          <p className="max-w-xl text-sm text-muted">
-            图像和视频分开。输入编号会直接跳到那一条，再复制风格。编号已冻结，不会因为以后新增而改写。
-          </p>
-          <form
-            className="flex flex-col gap-2 sm:flex-row"
-            onSubmit={(e) => {
-              e.preventDefault();
-              if (selected) void copyPrompt(selected);
+    <div className="folio-app">
+      <h1 className="sr-only">{brand.name}</h1>
+      <aside className="folio-rail" aria-label="主要导航">
+        <button
+          className="folio-logo"
+          onClick={() => {
+            pickMedium("image");
+            closeDetail();
+          }}
+          aria-label={`${brand.name}首页`}
+          title={brand.name}
+        >
+          <img src={brand.mark} alt="" width={44} height={44} />
+        </button>
+        <nav>
+          <button
+            className={`rail-button ${!onlyFavorites && medium === "image" ? "is-active" : ""}`}
+            aria-label="图像风格库"
+            title="图像风格"
+            onClick={() => pickMedium("image")}
+          >
+            <Home />
+          </button>
+          <button
+            className={`rail-button ${!onlyFavorites && medium === "video" ? "is-active" : ""}`}
+            aria-label="视频风格库"
+            title="视频风格"
+            onClick={() => pickMedium("video")}
+          >
+            <Film />
+          </button>
+          <button
+            className={`rail-button ${onlyFavorites ? "is-active" : ""}`}
+            aria-label="我的收藏"
+            title="我的收藏"
+            onClick={() => {
+              setOnlyFavorites(true);
+              setQuery("");
+              setCategory("all");
+              setScene("all");
+              setMissing(null);
             }}
           >
-            <label className="sr-only" htmlFor="folio-q">
-              编号或关键词
-            </label>
-            <input
-              id="folio-q"
-              value={query}
-              onChange={(e) => onQuery(e.target.value)}
-              inputMode="search"
-              autoComplete="off"
-              placeholder="输入编号，例如 016"
-              className="h-12 w-full rounded-md border border-border bg-surface px-4 font-mono text-base text-fg outline-none placeholder:text-subtle focus:border-accent"
-            />
+            <Heart />
+          </button>
+        </nav>
+        <div className="folio-rail-bottom">
+          <button className="rail-button" aria-label="使用指南" onClick={() => setHelpOpen(true)}>
+            <CircleHelp />
+          </button>
+        </div>
+      </aside>
+      <div className="folio-workspace">
+        <header className="folio-topbar">
+          <button
+            className="folio-mobile-brand"
+            aria-label={`${brand.name}首页`}
+            onClick={() => {
+              pickMedium("image");
+              closeDetail();
+            }}
+          >
+            <img src={brand.mark} alt="" width={32} height={32} />
+            <span>{brand.shortName}</span>
+          </button>
+          <nav className="folio-categories" aria-label="风格分类">
             <button
-              type="submit"
-              disabled={!selected}
-              className="h-12 shrink-0 rounded-md bg-accent px-5 text-sm font-medium text-accent-fg disabled:opacity-40"
+              className={category === "all" ? "is-active" : ""}
+              onClick={() => {
+                setCategory("all");
+                setQuery("");
+                setMissing(null);
+              }}
             >
-              {copied ? "已复制" : "复制这条"}
+              全部
             </button>
-          </form>
-          {missing ? (
-            <p className="font-mono text-sm text-danger">没有 {missing}。编号范围是 001–{String(folio.count).padStart(3, "0")}。</p>
-          ) : null}
-        </div>
-      </header>
-
-      <div className="mx-auto max-w-6xl px-4 py-4 sm:px-6">
-        <div className="grid grid-cols-2 gap-2">
-          <MediumTab
-            active={medium === "image"}
-            onClick={() => pickMedium("image")}
-            label="图像"
-            count={countMedium("image")}
-          />
-          <MediumTab
-            active={medium === "video"}
-            onClick={() => pickMedium("video")}
-            label="视频"
-            count={countMedium("video")}
-          />
-        </div>
-        {medium === "video" ? (
-          <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
-            <Chip active={scene === "all"} onClick={() => pickScene("all")}>
-              全部场景 {countMedium("video")}
-            </Chip>
-            {folio.uses.map((u) => (
-              <Chip key={u.id} active={scene === u.id} onClick={() => pickScene(u.id)}>
-                {u.name} {countMedium("video", "all", u.id)}
-              </Chip>
-            ))}
+            {folio.categories
+              .filter((c) => countMedium(medium, c.id, scene) > 0)
+              .map((c) => (
+                <button
+                  key={c.id}
+                  className={category === c.id ? "is-active" : ""}
+                  onClick={() => {
+                    setCategory(c.id);
+                    setQuery("");
+                    setMissing(null);
+                  }}
+                >
+                  {c.name}
+                </button>
+              ))}
+          </nav>
+          <div className="folio-header-actions">
+            <a
+              className="icon-button"
+              href={REPO_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub 开源仓库"
+            >
+              <Github />
+            </a>
+            <button className="solid-button" onClick={() => setHelpOpen(true)}>
+              使用指南
+            </button>
           </div>
-        ) : null}
-        <div className="mt-3 flex w-full min-w-0 max-w-full flex-nowrap gap-2 overflow-x-auto pb-2">
-          <Chip active={category === "all"} onClick={() => pickCategory("all")}>
-            全部 {countMedium(medium, "all", scene)}
-          </Chip>
-          {folio.categories.map((c) => {
-            const n = countMedium(medium, c.id, scene);
-            if (n === 0) return null;
-            return (
-              <Chip key={c.id} active={category === c.id} onClick={() => pickCategory(c.id)}>
-                {c.name} {n}
-              </Chip>
-            );
-          })}
-        </div>
-
-        <div className="mt-4 grid min-w-0 items-start gap-6 lg:grid-cols-2">
-          <ul className="order-2 min-w-0 divide-y divide-border border-y border-border lg:order-1">
-            {results.length === 0 ? (
-              <li className="py-10 text-sm text-muted">
-                {query.trim()
-                  ? `没有和「${query.trim()}」相符的。清掉搜索再看这一组。`
-                  : "没有符合的风格。清掉筛选。"}
-              </li>
-            ) : (
-              results.map((p) => {
-                const on = p.no === selected?.no;
-                return (
-                  <li key={p.no}>
-                    <button
-                      type="button"
-                      onClick={() => choose(p)}
-                      className={`flex w-full min-w-0 items-center gap-3 py-3 text-left ${on ? "text-fg" : "text-muted"}`}
-                    >
-                      <img
-                        src={p.covers[0]}
-                        alt=""
-                        loading="lazy"
-                        className="size-14 shrink-0 rounded-sm object-cover"
-                      />
-                      <span className={`w-10 shrink-0 font-mono text-sm ${on ? "text-accent" : "text-subtle"}`}>
-                        {p.no}
-                      </span>
-                      <span className="min-w-0 flex-1">
-                        <span className={`block truncate text-base ${on ? "text-fg" : ""}`}>{p.title}</span>
-                        <span className="mt-0.5 block truncate text-xs text-subtle">
-                          {p.use ? `${useName[p.use]} · ` : ""}
-                          {p.style} · @{p.creator.handle}
-                        </span>
-                      </span>
-                    </button>
-                  </li>
-                );
-              })
-            )}
-          </ul>
-
-          <article ref={detailRef} className="order-1 min-w-0 lg:sticky lg:top-4 lg:order-2">
-            {selected ? (
-              <PromptSheet key={selected.no} prompt={selected} copied={copied} onCopy={() => void copyPrompt(selected)} />
-            ) : (
-              <p className="rounded-lg border border-border bg-surface p-6 text-sm text-muted">选一条，或输入编号。</p>
-            )}
-          </article>
-        </div>
+        </header>
+        <main className="folio-main">
+          <section className="folio-toolbar" aria-label="搜索与筛选">
+            <div className="folio-medium-tabs" aria-label="媒体类型">
+              <button
+                className={medium === "image" ? "is-active" : ""}
+                aria-pressed={medium === "image"}
+                onClick={() => pickMedium("image")}
+              >
+                <ImageIcon />
+                图像风格
+              </button>
+              <button
+                className={medium === "video" ? "is-active" : ""}
+                aria-pressed={medium === "video"}
+                onClick={() => pickMedium("video")}
+              >
+                <Film />
+                视频风格
+              </button>
+            </div>
+            <form
+              className="folio-search"
+              onSubmit={(e) => {
+                e.preventDefault();
+                if (results[0]) choose(results[0]);
+              }}
+            >
+              <Search aria-hidden="true" />
+              <label className="sr-only" htmlFor="folio-q">
+                搜索编号、风格或作者
+              </label>
+              <input
+                id="folio-q"
+                value={query}
+                onChange={(e) => onQuery(e.target.value)}
+                placeholder="搜索编号、风格或作者"
+                inputMode="search"
+                autoComplete="off"
+              />
+              <span className="folio-result-count" aria-live="polite">
+                共 {results.length} 个
+              </span>
+            </form>
+            <div className="folio-controls">
+              <button
+                className={`icon-button ${onlyFavorites ? "is-active" : ""}`}
+                aria-label={onlyFavorites ? "查看全部风格" : "只看收藏"}
+                aria-pressed={onlyFavorites}
+                title={onlyFavorites ? "查看全部风格" : "只看收藏"}
+                onClick={() => setOnlyFavorites((v) => !v)}
+              >
+                <Heart />
+              </button>
+              <div className="folio-sort" aria-label="排序方式">
+                {(
+                  [
+                    ["recommended", "推荐"],
+                    ["latest", "最新"],
+                    ["number", "编号"],
+                  ] as const
+                ).map(([value, label]) => (
+                  <button
+                    key={value}
+                    className={sort === value ? "is-active" : ""}
+                    aria-pressed={sort === value}
+                    onClick={() => setSort(value)}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              <button
+                className="icon-button"
+                aria-label="重置筛选"
+                title="重置筛选"
+                onClick={resetFilters}
+              >
+                <RotateCcw />
+              </button>
+              <button
+                className={`icon-button ${compact ? "is-active" : ""}`}
+                aria-label={compact ? "切换宽松布局" : "切换紧凑布局"}
+                aria-pressed={compact}
+                title={compact ? "切换宽松布局" : "切换紧凑布局"}
+                onClick={() => setCompact((v) => !v)}
+              >
+                <LayoutGrid />
+              </button>
+            </div>
+          </section>
+          {medium === "video" && (
+            <nav className="folio-scenes" aria-label="视频用途">
+              <button
+                className={scene === "all" ? "is-active" : ""}
+                onClick={() => {
+                  setScene("all");
+                  setCategory("all");
+                  setQuery("");
+                  setMissing(null);
+                }}
+              >
+                全部场景
+              </button>
+              {folio.uses.map((u) => (
+                <button
+                  key={u.id}
+                  className={scene === u.id ? "is-active" : ""}
+                  onClick={() => {
+                    setScene(u.id);
+                    setCategory("all");
+                    setQuery("");
+                    setMissing(null);
+                  }}
+                >
+                  {u.name}
+                </button>
+              ))}
+            </nav>
+          )}
+          {results.length ? (
+            <div
+              className="folio-masonry"
+              style={{ "--folio-columns": columns } as CSSProperties}
+              aria-label="风格图鉴"
+            >
+              {masonry.map((group, column) => (
+                <div className="folio-column" key={column}>
+                  {group.map((p, index) => (
+                    <StyleCard
+                      key={p.no}
+                      prompt={p}
+                      eager={index < 2}
+                      favorite={favoriteIds.includes(p.id)}
+                      onOpen={() => choose(p)}
+                      onFavorite={() => toggleFavorite(p.id)}
+                    />
+                  ))}
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="folio-empty" role="status">
+              <Search />
+              <h2>
+                {missing
+                  ? `没有编号 ${missing}`
+                  : onlyFavorites
+                    ? "这里还没有收藏"
+                    : "没有找到匹配的风格"}
+              </h2>
+              <p>
+                {missing
+                  ? `已有编号为 001–${String(folio.count).padStart(3, "0")}。试试其他编号。`
+                  : onlyFavorites
+                    ? "点击图片旁的爱心，把喜欢的风格留在这里。"
+                    : "换一个关键词，或清除筛选再看看。"}
+              </p>
+              <button className="solid-button" onClick={resetFilters}>
+                查看全部风格
+              </button>
+            </div>
+          )}
+        </main>
+        <footer className="folio-bottom-bar">
+          <div className="folio-footer-brand">
+            <img src={brand.mark} alt="" width={40} height={40} />
+            <div>
+              <strong>
+                {brand.name} · {folio.count} 个已编号风格
+              </strong>
+              <p>原始提示词与作者来源，一起保留。</p>
+            </div>
+          </div>
+          <button
+            className="solid-button"
+            disabled={!results.length}
+            onClick={() => choose(results[Math.floor(Math.random() * results.length)])}
+          >
+            <Shuffle />
+            随机看一条
+          </button>
+        </footer>
       </div>
+      <Dialog
+        open={selected !== null}
+        onOpenChange={(open) => {
+          if (!open) closeDetail();
+        }}
+      >
+        <DialogContent className="folio-detail-dialog">
+          {selected && (
+            <PromptSheet
+              key={selected.no}
+              prompt={selected}
+              favorite={favoriteIds.includes(selected.id)}
+              onFavorite={() => toggleFavorite(selected.id)}
+              copied={copied}
+              onCopy={() => void copyPrompt(selected)}
+            />
+          )}
+        </DialogContent>
+      </Dialog>
+      <Dialog open={helpOpen} onOpenChange={setHelpOpen}>
+        <DialogContent className="folio-help-dialog">
+          <DialogTitle>把喜欢的风格，带到你的创作里</DialogTitle>
+          <DialogDescription>{brand.name} · 图像与视频提示词编号库</DialogDescription>
+          <ol>
+            <li>
+              <strong>先看图。</strong>按分类或视频用途浏览，也可以搜索风格和作者。
+            </li>
+            <li>
+              <strong>记住编号。</strong>输入 016、#16 或“风格16”，就能找到同一条。
+            </li>
+            <li>
+              <strong>复制原文。</strong>打开图片，复制提示词；有【槽位】时，只替换主体。
+            </li>
+          </ol>
+          <p>提示词和预览图归原作者。每条保留来源链接。收藏保存在当前浏览器。</p>
+          <a
+            className="solid-button"
+            href={`${REPO_URL}/tree/main/skills/folio-style`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Github />
+            获取 FOLIO Skill
+            <ArrowUpRight />
+          </a>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
 
-function MediumTab({
-  active,
-  onClick,
-  label,
-  count,
-}: {
-  active: boolean;
-  onClick: () => void;
-  label: string;
-  count: number;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`flex h-11 items-center justify-between rounded-md px-4 text-sm ${
-        active ? "bg-accent text-accent-fg" : "bg-surface-2 text-muted"
-      }`}
-    >
-      <span>{label}</span>
-      <span className="font-mono text-xs">{String(count).padStart(2, "0")}</span>
-    </button>
-  );
+function useColumnCount(compact: boolean) {
+  const [count, setCount] = useState(4);
+  useEffect(() => {
+    const update = () => {
+      const width = window.innerWidth;
+      const base = width >= 1500 ? 5 : width >= 1100 ? 4 : width >= 760 ? 3 : 2;
+      setCount(compact ? base : Math.max(2, base - 1));
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, [compact]);
+  return count;
 }
 
-function Chip({
-  active,
-  onClick,
-  children,
+function StyleCard({
+  prompt: p,
+  eager,
+  favorite,
+  onOpen,
+  onFavorite,
 }: {
-  active: boolean;
-  onClick: () => void;
-  children: ReactNode;
+  prompt: FolioPrompt;
+  eager: boolean;
+  favorite: boolean;
+  onOpen: () => void;
+  onFavorite: () => void;
 }) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`h-10 shrink-0 rounded-full px-3 text-sm ${
-        active ? "bg-accent text-accent-fg" : "bg-surface-2 text-muted"
-      }`}
-    >
-      {children}
-    </button>
+    <article className="folio-card" data-no={p.no}>
+      <button className="folio-card-cover" onClick={onOpen} aria-label={`查看 ${p.no} ${p.title}`}>
+        <img src={p.covers[0]} alt={p.title} loading={eager ? "eager" : "lazy"} decoding="async" />
+        <span className="folio-card-number">{p.no}</span>
+        {p.medium === "video" && (
+          <span className="folio-video-marker">
+            <Film />
+            视频
+          </span>
+        )}
+      </button>
+      <div className="folio-card-info">
+        <div className="folio-card-meta">
+          <span>
+            {categoryName[p.category]}
+            {p.use ? ` · ${useName[p.use]}` : ""}
+          </span>
+          <span>{p.covers.length} 张</span>
+        </div>
+        <button className="folio-card-title" onClick={onOpen}>
+          {p.title}
+        </button>
+        <div className="folio-card-credit">
+          <span>@{p.creator.handle}</span>
+          <button
+            className={`folio-favorite ${favorite ? "is-active" : ""}`}
+            aria-label={`${favorite ? "取消收藏" : "收藏"} ${p.no}`}
+            aria-pressed={favorite}
+            onClick={onFavorite}
+          >
+            <Heart />
+          </button>
+        </div>
+      </div>
+    </article>
   );
 }
 
 function PromptSheet({
-  prompt,
+  prompt: p,
+  favorite,
+  onFavorite,
   copied,
   onCopy,
 }: {
   prompt: FolioPrompt;
+  favorite: boolean;
+  onFavorite: () => void;
   copied: boolean;
   onCopy: () => void;
 }) {
   const [frame, setFrame] = useState(0);
-  const [open, setOpen] = useState(false);
-  const covers = prompt.covers;
-  const src = covers[frame] ?? covers[0];
-
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
-      if (e.key === "ArrowRight") setFrame((n) => (n + 1) % covers.length);
-      if (e.key === "ArrowLeft") setFrame((n) => (n - 1 + covers.length) % covers.length);
-    };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [open, covers.length]);
-
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const src = p.covers[frame] ?? p.covers[0];
+  function next(delta: number) {
+    setFrame((n) => (n + delta + p.covers.length) % p.covers.length);
+  }
   return (
-    <div className="rounded-lg border border-border bg-surface p-5">
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="relative block w-full overflow-hidden rounded-md bg-bg"
-      >
-        <img src={src} alt={prompt.title} className="max-h-96 w-full object-contain" />
-        <span className="absolute right-3 bottom-3 rounded-full bg-bg/80 px-3 py-1 font-mono text-xs text-fg">
-          预览 {frame + 1}/{covers.length}
-        </span>
-      </button>
-      {covers.length > 1 ? (
-        <div className="mt-2 flex gap-2">
-          {covers.map((cover, i) => (
-            <button
-              key={cover}
-              type="button"
-              onClick={() => setFrame(i)}
-              className={`overflow-hidden rounded-sm ${i === frame ? "ring-2 ring-accent" : "opacity-60"}`}
-            >
-              <img src={cover} alt="" className="size-14 object-cover" />
+    <div className="folio-detail-layout">
+      <div className="folio-detail-gallery">
+        <Dialog open={previewOpen} onOpenChange={setPreviewOpen}>
+          <DialogTrigger asChild>
+            <button className="folio-detail-image" aria-label="放大图片">
+              <img src={src} alt={p.title} />
+              <span>
+                查看原图 · {frame + 1}/{p.covers.length}
+              </span>
             </button>
-          ))}
-        </div>
-      ) : null}
-      <p className="mt-4 font-mono text-xs tracking-widest text-subtle uppercase">
-        {prompt.no} · {prompt.use ? `${useName[prompt.use]} · ` : ""}
-        {categoryName[prompt.category]} · {prompt.medium === "image" ? "图像" : "视频"}
-      </p>
-      <h2 className="mt-2 text-3xl text-fg">{prompt.title}</h2>
-      <p className="mt-2 text-sm text-muted">{prompt.style}</p>
-      <p className="mt-3 text-sm text-fg">{prompt.excerpt}</p>
-      <div className="mt-4 flex flex-wrap gap-2">
-        <button
-          type="button"
-          onClick={onCopy}
-          className="inline-flex h-11 items-center gap-2 rounded-md bg-accent px-4 text-sm font-medium text-accent-fg"
-        >
-          {copied ? <Check className="size-4" /> : <Copy className="size-4" />}
-          {copied ? "已复制风格" : "复制提示词"}
-        </button>
-        <a
-          href={prompt.sourceUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="inline-flex h-11 items-center gap-2 rounded-md border border-border px-4 text-sm text-fg"
-        >
-          <ExternalLink className="size-4" />
-          原帖 @{prompt.creator.handle}
-        </a>
-      </div>
-      {prompt.slots.length > 0 ? (
-        <p className="mt-4 text-sm text-muted">
-          可替换：{prompt.slots.map((s) => `【${s}】`).join("、")}。只换槽位，其余句子留着。
-        </p>
-      ) : null}
-      <pre className="mt-4 max-h-96 overflow-auto rounded-md bg-bg p-4 font-sans text-sm leading-relaxed whitespace-pre-wrap text-fg">
-        {prompt.prompt}
-      </pre>
-      {prompt.notes ? <p className="mt-4 text-sm text-muted">{prompt.notes}</p> : null}
-      <p className="mt-4 font-mono text-xs text-subtle">
-        {prompt.creator.name}
-        {prompt.model ? ` · ${prompt.model}` : ""} · {prompt.date}
-      </p>
-      {open ? (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-bg/95 p-4"
-          role="dialog"
-          aria-modal="true"
-          aria-label={`${prompt.title} 图片预览`}
-          onClick={() => setOpen(false)}
-        >
-          <button
-            type="button"
-            onClick={() => setOpen(false)}
-            className="absolute top-4 right-4 inline-flex size-11 items-center justify-center rounded-full bg-surface text-fg"
-            aria-label="关闭预览"
+          </DialogTrigger>
+          <DialogContent
+            className="folio-lightbox"
+            onKeyDown={(e) => {
+              if (e.key === "ArrowRight") next(1);
+              if (e.key === "ArrowLeft") next(-1);
+            }}
           >
-            <X className="size-4" />
+            <DialogTitle className="sr-only">{p.title} 图片预览</DialogTitle>
+            <DialogDescription className="sr-only">
+              使用左右方向键切换图片，按 Escape 关闭。
+            </DialogDescription>
+            <img src={src} alt={p.title} />
+            {p.covers.length > 1 && (
+              <>
+                <button
+                  className="lightbox-prev icon-button"
+                  aria-label="上一张"
+                  onClick={() => next(-1)}
+                >
+                  <ChevronLeft />
+                </button>
+                <button
+                  className="lightbox-next icon-button"
+                  aria-label="下一张"
+                  onClick={() => next(1)}
+                >
+                  <ChevronRight />
+                </button>
+              </>
+            )}
+          </DialogContent>
+        </Dialog>
+        {p.covers.length > 1 && (
+          <div className="folio-thumbnails">
+            {p.covers.map((cover, i) => (
+              <button
+                key={cover}
+                className={i === frame ? "is-active" : ""}
+                aria-label={`查看样张 ${i + 1}`}
+                aria-pressed={i === frame}
+                onClick={() => setFrame(i)}
+              >
+                <img src={cover} alt={`${p.title} 样张 ${i + 1}`} />
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+      <div className="folio-detail-copy">
+        <p className="folio-detail-kicker">
+          {p.no} / {categoryName[p.category]} · {p.medium === "image" ? "图像" : "视频"}
+          {p.use ? ` · ${useName[p.use]}` : ""}
+        </p>
+        <DialogTitle>{p.title}</DialogTitle>
+        <DialogDescription>{p.style}</DialogDescription>
+        <p className="folio-detail-excerpt">{p.excerpt}</p>
+        <div className="folio-detail-actions">
+          <button className="solid-button" onClick={onCopy}>
+            {copied ? <Check /> : <Copy />}
+            {copied ? "已复制提示词" : "复制提示词"}
           </button>
-          {covers.length > 1 ? (
-            <button
-              type="button"
-              aria-label="上一张"
-              onClick={(e) => {
-                e.stopPropagation();
-                setFrame((n) => (n - 1 + covers.length) % covers.length);
-              }}
-              className="absolute left-3 inline-flex size-11 items-center justify-center rounded-full bg-surface text-fg"
-            >
-              <ChevronLeft className="size-5" />
-            </button>
-          ) : null}
-          <img
-            src={src}
-            alt={prompt.title}
-            onClick={(e) => e.stopPropagation()}
-            className="max-h-full max-w-full object-contain"
-          />
-          {covers.length > 1 ? (
-            <button
-              type="button"
-              aria-label="下一张"
-              onClick={(e) => {
-                e.stopPropagation();
-                setFrame((n) => (n + 1) % covers.length);
-              }}
-              className="absolute right-3 inline-flex size-11 items-center justify-center rounded-full bg-surface text-fg"
-            >
-              <ChevronRight className="size-5" />
-            </button>
-          ) : null}
+          <button
+            className={`icon-button ${favorite ? "is-active" : ""}`}
+            aria-label={favorite ? "取消收藏" : "收藏风格"}
+            aria-pressed={favorite}
+            onClick={onFavorite}
+          >
+            <Heart />
+          </button>
         </div>
-      ) : null}
+        <div className="folio-prompt-heading">
+          <strong>原始提示词</strong>
+          <span>{p.model ?? "原帖原文"}</span>
+        </div>
+        <pre className="folio-prompt-text">{p.prompt}</pre>
+        {p.slots.length > 0 && (
+          <p className="folio-detail-note">
+            可替换：{p.slots.map((s) => `【${s}】`).join("、")}。只换槽位，其余句子保留。
+          </p>
+        )}
+        {p.notes && <p className="folio-detail-note">{p.notes}</p>}
+        <div className="folio-detail-source">
+          <div>
+            <strong>{p.creator.name}</strong>
+            <span>
+              @{p.creator.handle} · {p.date}
+            </span>
+          </div>
+          <a href={p.sourceUrl} target="_blank" rel="noreferrer">
+            查看原帖
+            <ArrowUpRight />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

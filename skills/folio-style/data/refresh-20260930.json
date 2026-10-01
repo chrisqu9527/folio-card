@@ -1,0 +1,251 @@
+{
+  "refreshedOn": "2026-09-30",
+  "baselineCount": 150,
+  "baselineSha256": "b9ec391c35226a000b2ed4b489ee17ebfb87d6a9b4dc50af6868acd218da7641",
+  "additions": [
+    {
+      "no": "151",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2103453747330568593",
+      "promptSourceUrl": "https://x.com/VoxcatAI/status/2103453747330568593",
+      "apiUrl": "https://api.fxtwitter.com/status/2103453747330568593",
+      "authorId": "1133338656725504001",
+      "authorHandle": "VoxcatAI",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "捏脸，模型:nano-banana\n\n9:16竖幅，成年东亚女性的真实摄影肖像。\n\n超近景贴脸特写，镜头与双眼齐平，脸部几乎填满画面；人物正面面对镜头，头部端正，视线直视镜头，双眼清晰，画面重心集中在脸上。\n\n气质冷静、疏离、松弛，像刚结束一场漫长谈话后安静看向镜头的人。神情有分寸，眼周放松，嘴角自然收住。\n\n脸型偏窄方，脸长中等，额头宽度适中，发际线自然。太阳穴平顺，颧弓轻微可见，苹果肌薄而自然；面中平整，鼻基底有适度支撑，法令区过渡柔和。下颌线清晰但不锋利，下颌角轻显，下巴短而平缓地收口，保留真实骨相的重量。\n\n眉毛为自然深棕色平直眉，眉身略宽，眉峰低，眉尾短而干净，眉眼距离适中，能看到细微毛流。眼睛是这张脸的识别核心：平直窄长眼，双眼结构协调，眼裂横向舒展、纵向开合克制；内眼角清楚，外眼角近乎水平并略微放松，薄上眼皮与窄双眼皮自然贴合，下眼睑轮廓清晰，卧蚕很轻，深棕瞳孔比例自然。目光稳定、专注、带一点倦意。睫毛纤细，上睫毛在眼尾略密，下睫毛清楚而轻。鼻梁平直，山根自然，鼻背有细微骨点，鼻头微圆，鼻翼宽度真实，鼻孔正面存在感低，中轴稳定。嘴唇宽度适中，上唇略薄、下唇稍饱满，唇峰柔和，嘴角平直微收。\n\n肤色为自然冷白，保留细小皮肤纹理。底妆薄而均匀，呈柔雾质感；眼下与面中轻微提亮，高光只落在鼻梁和唇峰附近。颧侧与下颌依靠柔和明暗呈现立体感，皮肤干净清晰。\n\n妆容是低饱和的冷调日常妆。灰棕眼影贴近睫毛根部轻轻晕开，内眼线细致，外眼线顺着原本的平直眼型延伸；下眼睑后段稍加深，卧蚕仅作窄幅提亮。眉妆保留毛流，腮红以很淡的灰粉色落在颧侧。唇色为柔雾玫瑰棕，边缘自然，能看到唇部质地。\n\n深黑棕色头发轻微偏分，发质顺滑而有真实发丝层次，发量适中。两侧头发沿脸颊自然垂落，少量碎发停在额角，露出完整眉眼；发顶轮廓自然。佩戴一枚小型哑银耳钉，作为脸部轮廓旁的细小亮点。\n\n画面下缘只露出少量深灰色衣领，面料为柔软的哑光织物，领口线条简洁，让肩颈成为脸部的自然收边。\n\n柔和散射光从正前方略偏左照亮双眼与面中，右侧留下浅淡阴影，使颧部和下颌的结构可见。背景为低饱和冷灰色，轻微虚化；肤色与玫瑰棕唇色形成细小的冷暖差异。整体呈干净、低噪声的近距离真实摄影质感。\n\n画面只聚焦面部、发型与少量衣领。保持偏窄方的脸型、平直窄长眼和短平下巴的组合；表情自然安静，皮肤有真实质地，背景与配饰保持简洁，五官比例准确稳定。\n\n画面右下角加入小型手写签名“voxCAT”，笔触轻巧，颜色为低饱和灰白色，与人脸保持距离；衣领内侧可有极淡的“voxCAT”暗纹。",
+      "start": 19,
+      "length": 1056,
+      "sha256": "36b32a2e5964ea8bedfaf994fb755954eeafb43306bd4fb80a97811ad4e3cf43",
+      "covers": [
+        {
+          "path": "/covers/vox-cold-closeup.jpg",
+          "url": "https://pbs.twimg.com/media/HTD4BuKbwAAiih_.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "0532c95cf4ca4cd1faaea83b1cdfe8aab489d1bae8d5064c0eee0d71ffc6f1bd"
+        }
+      ]
+    },
+    {
+      "no": "152",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2104092658721579184",
+      "promptSourceUrl": "https://x.com/VoxcatAI/status/2104092658721579184",
+      "apiUrl": "https://api.fxtwitter.com/status/2104092658721579184",
+      "authorId": "1133338656725504001",
+      "authorHandle": "VoxcatAI",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "如果90后的经典角色，突然出现在你家猫眼另一边。\n\n超广角贴脸、鱼眼畸变、圆形门镜视角，\n把熟悉的角色变成一种近到有点不真实的窥视感。\n\n完整提示词\n\n[角色 / 主题]，圆形门镜视角 / 猫眼视角 / circular fisheye peephole close-up，成年女性，幻想 COS 自拍感，极近距离贴脸特写，镜头几乎贴到面部，8–15mm 等效超广角鱼眼镜头，强烈桶形畸变，画面外围带明显圆形黑色边框。人物主动将脸靠近镜头，一只眼睛位于画面视觉中心并被明显放大，鼻尖与中面部因透视轻微前突，脸颊与下巴沿边缘产生自然弯曲变形，形成夸张但可爱的窥视感、贴脸感与近距离压迫感。\n\n人物表情安静、低反应、略带好奇与试探感，轻微直视镜头，像从门镜另一侧向外窥看。整体气质带有精致人偶感、瓷偶感、树脂感五官表现，面部幼态但为成年女性形象，五官精巧，脸部比例集中，视觉重点放在眼睛、鼻尖和嘴唇。\n\n妆容精致细腻，保留强角色化眼妆：冷白到奶油白肤色，底妆平滑干净，肌肤带柔焦数码质感与细腻瓷面光泽；上眼线纤细清晰并向眼尾自然延长，眼尾略微下垂；下眼睑带柔和粉棕、红棕或蜜桃棕晕染，卧蚕清晰提亮；睫毛为根根分明的束状睫毛，上睫毛卷翘，下睫毛可见少量精细簇状细节；虹膜清透，瞳孔视觉比例略大，眼中有高光，增强人偶式凝视感。鼻梁干净细巧，鼻尖圆润小巧。唇妆为低饱和豆沙粉、玫瑰裸粉或蜜桃裸粉，唇缘柔和，唇面轻微水润或半雾面，嘴唇自然放松微闭或微张。\n\n发型可根据角色自动适配，建议浅粉、银粉、奶白、浅金、雾灰等浅发色，搭配厚碎刘海、贴脸垂发、顺滑侧发或轻微卷曲发尾，发丝沿鱼眼边缘产生自然弧形透视。可加入少量角色化发饰，如蝴蝶结、珠链、金属小挂饰、透明宝石、小珍珠等。服装不必完整展示，以脸部表现为主，只保留少量领口、发饰或肩部元素作为角色识别点。\n\n光线为柔和室内近距离补光，正面柔光或手机补光，面部整体照明均匀，阴影轻微，皮肤过渡细腻，眼中高光明显。背景弱化，可为室内日常环境或浅色墙面，重点突出门镜窥视效果与面部透视畸变。整体画面像短视频截图、门镜偷窥自拍、超近景鱼眼拍摄，既有二次元角色妆面的精致感，又保留真实自拍的亲近感。画面干净清晰，低噪声，细节稳定，手部如出现则结构自然准确，右下角小型签名“voxcat”。",
+      "start": 76,
+      "length": 882,
+      "sha256": "1c15b5d776b591d637c0b2c8993f740264d6f5eb8015a317780c69edf86bba3b",
+      "covers": [
+        {
+          "path": "/covers/vox-peephole.jpg",
+          "url": "https://pbs.twimg.com/media/HTM9HUiaYAALAUo.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "f92f6a0701310463dd4857b6631d92a76c7c9a91f29dc8c3d5243d663d887784"
+        },
+        {
+          "path": "/covers/vox-peephole-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTM9HUhbAAALJg-.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "decb6c1f7bf66a46cac390d679a584517456681a5ee63f6815aa2cb7955a2224"
+        },
+        {
+          "path": "/covers/vox-peephole-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTM9HXLa8AAHXfp.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "3b7312ba03a9af2f3e11f0cfe79b55652ce525b0e1daa6e7c78f7156904e9951"
+        },
+        {
+          "path": "/covers/vox-peephole-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTM9HXKbsAAd8HE.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "a8d1096ff54888fccf6793ba6e73c5624b412b522c5113f66c3d1795a95bd520"
+        }
+      ]
+    },
+    {
+      "no": "153",
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2102995246745550926",
+      "promptSourceUrl": "https://x.com/xiaoxiaodong/status/2102995246745550926",
+      "apiUrl": "https://api.fxtwitter.com/status/2102995246745550926",
+      "authorId": "1986087438721449984",
+      "authorHandle": "xiaoxiaodong",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "咦？\nGPT-image2 可以话出这种线条和色彩？\n\n提示词：\n\n```\n让未来主题先提炼成一个可被阅读的强标题、少量信息行和一套可铺满画面的线性结构；画面第一眼必须是顶部极重、极黑、被裁切般逼近边缘的粗体字块压住下方大面积细线场，标题像建筑横梁而不是装饰字。主体图像不以写实物件出现，而被转译为多组横向、略起伏、手工错位的平行细线，线组之间有断裂、交叉、局部倾斜和不完全对齐，形成可读秩序与即兴失衡并存的底层网格。主题能量通过散落的颜料点、短擦痕和小色块介入线场，颜色采用少数高饱和原色与轻灰、浅粉、浅蓝、绿、橙并置，像印刷后被手工泼洒或误套色留下的痕迹；色点大小悬殊，既有针尖小点也有指腹般斑块，分布看似随机但围绕线的节奏产生停顿、重音和跳跃。文字系统采用极端压缩层级：主标题为厚重无衬线黑块，字形宽阔、笔画均匀、内白被压小、端点平直、连接紧密，任何书写系统都应保持块面优先和正字识别；辅助文字细窄、冷静、贴近标题或底边，作为制度化信息而非视觉主角。背景保持未装饰白纸，保留干净边界、轻微印刷生硬感和手工污点的不完美，不加渐变、阴影、摄影质感、精致插画、对称装饰或柔化美化，让黑色秩序与彩色事故共同构成主题。\n\n——————\n主题：中秋节海报\n\n一共10张\n每张都是不同的基于这个美学dna的不同创意\n```",
+      "start": 38,
+      "length": 515,
+      "sha256": "97ba80fbbbc917e5698219d2a1963a63ad2632cd68b0c40172d000b92e56fa61",
+      "covers": [
+        {
+          "path": "/covers/xxd-linear-poster.jpg",
+          "url": "https://pbs.twimg.com/media/HS9W3wTbsAAKIBF.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "a9ca5b5a04e677b556de700a5aa5ef15774c297da732af08981287aedacc1bc9"
+        }
+      ]
+    },
+    {
+      "no": "154",
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2102772213422477428",
+      "promptSourceUrl": "https://x.com/xiaoxiaodong/status/2102772213422477428",
+      "apiUrl": "https://api.fxtwitter.com/status/2102772213422477428",
+      "authorId": "1986087438721449984",
+      "authorHandle": "xiaoxiaodong",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT2 x 折纸 x 提示词 x 优化 \n\n提示词 ⤵️\n```\n请将我上传的每一张照片分别制作成一张独立的高级极简设计海报，不多图拼接，每张照片单独输出。\n整体采用3:4竖版构图，上下两个区域高度严格1:1，各占画面50%。\n\n上半部分保留原始照片，保持主体结构、真实质感、自然光影和原有色彩氛围，仅进行轻微高级调色，使其具有艺术摄影和展览视觉质感。为适配画幅，可以自然扩展环境背景，但不得拉伸、扭曲或改变主体。\n\n下半部分提取照片中主体最具识别性的轮廓、结构、空间关系与叙事特征，重构为 layered paper cut art / 3D papercraft diorama / architectural relief 风格的纸雕微缩场景。不要复制照片细节，而是保留最核心的视觉符号，通过多层纸片、切割轮廓、镂空结构和空间叠层重新表达，使主体像一件现代设计展览中的纸艺装置。\n\n使用简洁结构、精准边缘、多层切面和轻微空间阴影建立立体感，不追求真实3D渲染，而呈现纸张、建筑模型与艺术装置结合的轻盈质感。主体保持单一视觉中心，大面积留白，构图克制平衡。\n\n配色从上方照片中提取最明亮、最鲜活、最有生命力的颜色重新调制，而不是平均取色。整体提高明度与色彩纯净度，采用清澈天空蓝、湖水青、嫩绿、暖黄、珊瑚橙、桃粉等由原图自然推导出的明快色相，并以象牙白、暖米色作为主要空间背景，通过清爽冷暖关系形成治愈感。主色鲜明但不刺眼，局部暖橙、金黄或粉红作为点睛色。避免灰脏、发旧、低沉莫兰迪化、暗褐滤镜、荧光色和廉价糖果感。\n\n文字少量介入，根据主体、地点、情绪或文化含义自由生成简短标题、编号或微型注释。字体使用细致、克制、具有建筑编辑感的现代字体，像艺术展签或高级品牌视觉中的信息标注，与留白自然融合。\n\n整体风格参考国际设计工作室、建筑海报、艺术展览视觉和高级品牌视觉系统，呈现纸雕空间、现代东方美学、清透色彩、大面积留白和高级工艺感。避免真实CG、塑料质感、儿童手工感、复杂背景和模板化效果。\n```",
+      "start": 34,
+      "length": 815,
+      "sha256": "40a6df76aeee2a2377619880252b5b405025fefa103c090be5310245b294f9b7",
+      "covers": [
+        {
+          "path": "/covers/xxd-photo-paper.jpg",
+          "url": "https://pbs.twimg.com/media/HS6MHuzbwAAhPW-.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "a4c5996238f1511d6e4cfb76c9129af2bd15f394afdc3be98f28dcbb6ff7d126"
+        }
+      ]
+    },
+    {
+      "no": "155",
+      "sourceUrl": "https://x.com/akokoi1/status/2102583898865873225",
+      "promptSourceUrl": "https://x.com/akokoi1/status/2102584165220962502",
+      "apiUrl": "https://api.fxtwitter.com/status/2102584165220962502",
+      "authorId": "1001864623",
+      "authorHandle": "akokoi1",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "提示词很简单，只有一句：“做一个动画，快速回顾中华五千年的历史。风格轻松有趣，动画格式为线稿，添加合适的音乐，请务必做到引人入胜”",
+      "start": 13,
+      "length": 51,
+      "sha256": "0b60e18a5d58c745007ca2455aa8b3044a7345b668b45a1a4d5c914754b32aae",
+      "covers": [
+        {
+          "path": "/covers/opus-china-line-history.jpg",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2102583173507158016/img/zZ_aW-t8p1L-0GLf.jpg",
+          "kind": "original-image",
+          "sha256": "4900279623afd7cd41601f3538a718df08511ef578b8979450f838b59b7fd639"
+        }
+      ]
+    },
+    {
+      "no": "156",
+      "sourceUrl": "https://x.com/sonnylazuardi/status/2103511590884815282",
+      "promptSourceUrl": "https://x.com/sonnylazuardi/status/2103660301132685418",
+      "apiUrl": "https://api.fxtwitter.com/status/2103660301132685418",
+      "authorId": "59897483",
+      "authorHandle": "sonnylazuardi",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "prompt: \n\nmake a dynamic motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\ngenerate reel but for impressive story, the history of Indonesia, first president until now , surprise me with interesting storyboard",
+      "start": 10,
+      "length": 276,
+      "sha256": "e46413ce842fc12f6e5d778dab50f2b887f42f3319f6430acbc19a948084b12d",
+      "covers": [
+        {
+          "path": "/covers/opus-indonesia-history.jpg",
+          "url": "https://video.twimg.com/amplify_video/2103511425243357184/vid/avc1/1920x1080/d0RsBukRr-ESnQI-.mp4?tag=29",
+          "kind": "video-frame",
+          "seconds": 12,
+          "originalThumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103511425243357184/img/DVgKBfs8dQno3xpo.jpg",
+          "sha256": "2fae9a09f0fb9a6729b1bb702c0072549ad1d11f5f039f02113421e8796581f7"
+        }
+      ]
+    },
+    {
+      "no": "157",
+      "sourceUrl": "https://x.com/VincentWei93/status/2103381720410333314",
+      "promptSourceUrl": "https://x.com/VincentWei93/status/2103494376118985207",
+      "apiUrl": "https://api.fxtwitter.com/status/2103494376118985207",
+      "authorId": "2034662857015734272",
+      "authorHandle": "VincentWei93",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "@donio2019 帮我制作一个动画，主题描绘Anthropic的理念和发家史；包括音效和音乐；你可以使用任何你觉得合适的工具和技术，做出最好最惊艳的效果，不要使用已有的skill，不要参考以前做过的视频或者文案",
+      "start": 11,
+      "length": 96,
+      "sha256": "edd80e5422f82faa16751db0d0bdfd20892588f65069ea80a002d33fd79e1b2b",
+      "covers": [
+        {
+          "path": "/covers/opus-anthropic-history.jpg",
+          "url": "https://video.twimg.com/amplify_video/2103381213595713536/vid/avc1/1920x1080/TCSoE69W72lxocD3.mp4?tag=29",
+          "kind": "video-frame",
+          "seconds": 20,
+          "originalThumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103381213595713536/img/PZkKuFTKhTucW_Ia.jpg",
+          "sha256": "4a37c6f7786787368495f9e4befe4e51dd5916a4173434fb83ae9d18779edfba"
+        }
+      ]
+    },
+    {
+      "no": "158",
+      "sourceUrl": "https://x.com/vib3coded/status/2102450239923720440",
+      "promptSourceUrl": "https://x.com/vib3coded/status/2102450842070569099",
+      "apiUrl": "https://api.fxtwitter.com/status/2102450842070569099",
+      "authorId": "1718230266383159296",
+      "authorHandle": "vib3coded",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "PROMPT:\nCreate a beautiful, highly detailed, fully interactive 3D prehistoric island using Three.js and WebGL. Deliver everything in a single standalone HTML file that opens directly in Chrome. Embed assets wherever possible.\n\nVISUAL DIRECTION\nBuild a large, rounded island surrounded by an ocean with a transparent underwater cross-section. The result should feel like a premium miniature world: lush vegetation, expressive dinosaurs, rich materials, atmospheric lighting, and polished animation. Use a cohesive, stylized art direction rather than basic geometric shapes.\nISLAND\nCreate varied terrain with beaches, rocky cliffs, dense prehistoric forests, giant ferns, a waterfall, a freshwater pond, and a volcano. Add a small research station, wooden walkways, observation platforms, supply crates, and dinosaur nests. Make the island spacious enough for dinosaurs to move naturally between distinct areas.\n\nWATER CROSS-SECTION\nThe water must form a deep, rounded volume around the island, with clearly visible underwater scenery through its sides. Include a textured seabed, rocks, aquatic plants, fish, bubbles, and a green marine reptile swimming beneath the surface. Do not place ordinary land dinosaurs underwater, and do not add a submarine.\nUse animated waves, Fresnel reflections, underwater light patterns, shoreline foam, and splashes. Avoid transparency sorting artifacts and visible gaps between the island and water.\n\nDINOSAURS\nInclude several distinct species, such as a long-necked sauropod, Triceratops, Stegosaurus, a large theropod, and smaller herd animals. Add pterosaurs circling overhead.\nGive every species recognizable anatomy, shaped bodies, articulated limbs, detailed heads, tails, and appropriate skin patterns. Avoid assembling the finished dinosaurs from obvious boxes or disconnected spheres.\n\nNATURAL ANIMATION\nUse hierarchical skeletons with correctly positioned joints. Walking must have distinct stance and swing phases: feet stay planted during contact and lift cleanly during each step. Match stride length to movement speed.\n\nUse terrain sampling and inverse kinematics to keep feet on the ground. Add weight shifts, subtle body movement, balanced tail motion, head turns, and breathing. Dinosaurs must never float, slide, intersect the ground, or walk through buildings, rocks, trees, or each other.\nUse obstacle avoidance and safe paths. Different species should have different movement speeds, gait patterns, and behaviors. Marine animals must face their direction of travel.\n\nINTERACTION\nAllow users to:\n\nRotate the camera freely, zoom, and inspect the underwater cross-section.\nSelect a dinosaur and follow it with a smoothly moving camera.\n\nPlace food in suitable locations and watch nearby dinosaurs approach and eat.\n\nTrigger drinking, resting, calling, and herd movement.\n\nExplore nests and watch a hatchling emerge.\nTrigger a marine reptile surfacing with a splash.\nSwitch between daylight, sunset, and night.\nAdjust rain, wind, and volcanic activity.\nPause the simulation and reset the scene.\nMake every control produce a clear, visible response. Keep interactions repeatable and prevent overlapping animations from breaking character poses.\nATMOSPHERE AND AUDIO\nAdd moving foliage, drifting clouds, birds, insects, rain particles, and warm research-station lights at night. Include quiet atmospheric music and environmental sounds with a working music toggle and volume slider. Start audio only after user interaction.\nINTERFACE\nUse a compact, elegant interface with English labels. Keep the scene dominant and avoid large panels covering the island. Make the layout responsive for desktop and mobile.\nTECHNICAL QUALITY\nUse instancing for repeated vegetation and props, efficient geometry, appropriate shadows, and restrained post-processing. Balance visual richness with smooth real-time performance.\nBuild a complete scene, not a mockup. Test the final HTML directly in a desktop browser, inspect screenshots and the console, exercise every interaction, and fix loading errors, floating dinosaurs, foot sliding, broken collisions, water artifacts, and camera problems before delivery.",
+      "start": 8,
+      "length": 4131,
+      "sha256": "adf6ee2cb3eebe72b00cf7ecbcb91d2527b7663c1e8b8b9ed8d78f40b38031ac",
+      "covers": [
+        {
+          "path": "/covers/opus-prehistoric-island.jpg",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2102450190217101312/img/0Vf9bvr1Gcw_1MJO.jpg",
+          "kind": "original-image",
+          "sha256": "6f7dcb07775a3df814bbfac36c3e0791145d284d10dfc253047425c3486ab6cb"
+        }
+      ]
+    },
+    {
+      "no": "159",
+      "sourceUrl": "https://x.com/achxvi/status/2103918792845963545",
+      "promptSourceUrl": "https://x.com/achxvi/status/2103938227786654016",
+      "apiUrl": "https://api.fxtwitter.com/status/2103938227786654016",
+      "authorId": "1255972906422714368",
+      "authorHandle": "achxvi",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "here is the prompt I used:\n\n\"make a dynamic 15-second motion graphics video about Pocketsflow that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\nhere is elevenlabs key:\nxxxxxx_youthoughtiwouldleakit_xxxxxx\n\nmake a video where a character talks about pocketsflow and how people can use it and what can they do with it etc etc etc \n\nLFG\"",
+      "start": 29,
+      "length": 360,
+      "sha256": "93a8f53deeae6cfb076f6ac1b831c708f6c091ee28f1602adf550a61724bf48d",
+      "covers": [
+        {
+          "path": "/covers/opus-pocketsflow-character.jpg",
+          "url": "https://video.twimg.com/amplify_video/2103918273414791168/vid/avc1/1920x1080/ZN2B5J7DqR2itqzt.mp4?tag=29",
+          "kind": "video-frame",
+          "seconds": 4,
+          "originalThumbnailUrl": "https://pbs.twimg.com/amplify_video_thumb/2103918273414791168/img/4nc-LE_FerctutUy.jpg",
+          "sha256": "7e66f9909a33454c3398b20fea23f84e3b7552953375ab6f49bed7b08675a094"
+        }
+      ]
+    },
+    {
+      "no": "160",
+      "sourceUrl": "https://x.com/pradeepXkapoor/status/2103099194693271874",
+      "promptSourceUrl": "https://x.com/pradeepXkapoor/status/2103176289482154373",
+      "apiUrl": "https://api.fxtwitter.com/status/2103176289482154373",
+      "authorId": "1920544183925817345",
+      "authorHandle": "pradeepXkapoor",
+      "retrievedOn": "2026-09-30",
+      "sourceField": "tweet.text",
+      "sourceText": "Prompt for this: \n\nou are the director, animator, rigger, compositor, sound designer and render engineer for a 45–50 second animated short made entirely in code. The bar is \"this looks like a real studio short and goes viral on X.\" Treat this as a multi-session production. Do not rush to a final render. Work in milestones, render stills constantly, look at them, criticize them honestly, and fix them.\n\n0. The film in one line\n\nPip, a tiny, curious scrap-built robot, is happily rolling through his world when it starts regenerating around him. He slowly realizes someone is prompting his reality. The prompts get more absurd, he finally climbs onto the floating prompt box and types \"let me out\", and the camera pulls back to reveal his whole universe is a video playing on a phone propped up on a cluttered workbench, being watched by another Pip, who is about to get prompted too. Perfect loop.\n\nThe joke must land with zero dialogue. Pip communicates only through his eyes, antenna, body language and little robot chirps. Every 3–5 seconds there must be a new visual payoff.\n\n1. The character (non-negotiable)\n\nStudy ./reference/pip_sheet.png carefully before writing any code. Open it, describe it back to yourself in detail, and write your findings into docs/character_bible.md:\n\nSize: about 28 cm tall. He is small. The whole film should feel his scale.\nHead: a wide, rounded-rectangle helmet in cream with a soft-yellow rim band framing a black glossy visor screen. His eyes live on that screen: two large glowing warm-cream eyes with dark pupils and a bright highlight. Small graphite ear-caps on each side. Wear, scratches and dusty-brown dirt around the edges.\nAntenna: a thin graphite stalk on the top-right of the head with a small muted-orange signal flag. It is his \"tail\": it perks, droops, wiggles and vibrates with emotion.\nBody: a boxy cream torso with yellow trim, warning-triangle decals, rivets and grime. A small chest compartment with a hatch that opens to show a tiny green sprout glowing softly. Back: panels, a vent grille, an orange panel, a small leaf decal.\nSide decal: \"PIP\" lettering with orange diagonal stripes.\nArms: thin segmented graphite arms with yellow joint sleeves and three-finger claw grips. Very expressive.\nWheels: four chunky rubber wheels with yellow hubs and independent suspension, rugged and compact.\nPersonality: curious, kind, scrappy, expressive, always exploring. \"Small bot, big feelings.\" He is never mean, even when furious; his anger is cute and determined.\nExtract the exact palette from the sheet's swatches (sample the image with Python/PIL) into src/theme/palette.ts: Cream (body), Soft Yellow (primary), Muted Orange (accents), Graphite (metal/tech), Dusty Brown (wear & dirt), Mint Blue (lights/UI).\n\nIdentity lock rule: in every world, his helmet-and-visor silhouette, antenna flag, yellow trim, claw arms and four wheels must stay instantly recognizable. Worlds change his rendering style, never his design. The only intentional design change is the \"more adorable\" gag in Act 3, and even there his helmet shape, antenna and wheels stay.\n\n2. Technical stack\nRemotion (React + TypeScript) for frame-accurate, deterministic rendering. Output 1920×1080, 30 fps, H.264, high bitrate (CRF ~14). Landscape.\nSVG for the character rig and most artwork. Canvas/WebGL (via @remotion/three or raw canvas) only where needed for particles, water, explosions, glow and noise effects.\nSVG filters (feTurbulence, feDisplacementMap, feMorphology, feGaussianBlur) and custom canvas shaders for style \"materials,\" scratches and grime.\n@remotion/motion-blur (or your own sub-frame accumulation) for motion blur on fast action.\nPython (numpy/scipy/PIL) for palette extraction, procedural audio synthesis and QA contact sheets. ffmpeg for muxing, loop checks and contact sheets.\nEverything seeded and deterministic. No Math.random() without a seed.\nNo external copyrighted assets, no real brand logos or product names anywhere. The prompt box UI must be a generic, original design. Fonts only from Google Fonts (e.g., Inter for UI text, a rounded hand-lettered font for any handwritten notes).\nTarget hardware: MacBook Pro M4, 24 GB RAM. Keep render concurrency sensible.\n3. The character rig (build this first, it's the whole film)\n\nBuild src/character/ as a proper 2D cutout rig:\n\nHierarchy: root → chassis (with suspension) → torso → neck joint → head (helmet + visor + ear-caps) → antenna → flag. Torso → shoulder → upper arm → forearm → claw (with swappable claw poses: open, closed, pinch-holding, pointing, poking/typing, gripping an edge, waving). Chassis → four wheels, each with its own suspension spring and rotation driven by distance travelled.\nThe visor face system (most important part): the eyes are shapes drawn on the black screen, so treat them as a fully procedural face. Parameters for eye size, roundness, top-lid cut, bottom-lid cut, pupil size and position, highlight position, glow intensity, squash/stretch, and special shapes (sparkle stars, happy arcs ^ ^, flat unimpressed lines, spirals, tiny hearts). Add a faint scanline and screen reflection over the eyes so it reads as a screen. Blink by squashing eyes vertically in 3–4 frames.\nExpression targets: match the six on the sheet exactly: curious (with the \"?\" pop), shy (eyes low, looking away, blush marks), excited (happy arcs with little burst lines), worried (small eyes, sweat droplet), determined (angled top-lid cut), delighted (star sparkles with a heart pop). Also add: deadpan-to-camera (flat half-lidded eyes, antenna limp), horrified (tiny shaking pupils, eyes wide), furious-but-cute (determined + screen glow flickers orange), and three \"glow-up\" stages (see Act 3).\nSecondary motion: antenna and flag on damped springs (this is his main expressive tool, use it constantly), suspension bounce on every stop and bump, arm sway, a tiny head lag when the body accelerates or brakes, dust puffs from wheels.\nTurnaround: front, 3/4, side, back views matching the sheet, with clean view switching for turns.\nCycles: rolling forward (with speed lines and dust puffs as on the sheet), idle hum (gentle suspension breathing + occasional antenna twitch + blinks), recoil-in-fear, looking-up-in-wonder, holding a tiny object, reaching up, climbing, poke-typing.\nChest hatch: animatable open/close, with the sprout's soft green glow spilling out.\nStyle skin interface: the rig takes a style prop that changes line weight, fill treatment, texture, grime, outline boil, shading model and filters without changing geometry. This is how he stays himself across worlds.\nMilestone 1 gate: render a \"lineup\" still: Pip in all four turnaround views + all six expressions, placed next to the reference sheet. Compare side by side. Iterate until someone who saw the sheet would say \"that's Pip.\" Do not move on until this passes.\n4. The worlds (style materials)\n\nEach world is a full environment component with foreground, midground, background parallax layers and its own style skin for Pip. Build a shared WorldLayer system so all worlds share camera and depth logic.\n\nScale rule: the camera lives low, near Pip's eye level (about 20 cm off the ground). Everything is huge. People appear as giant legs and shoes, a curb is a cliff, a puddle is a lake. This is what makes a small robot cinematic.\n\nBase world: golden-hour overgrown city. Match the header illustration of the sheet: warm sunset light, weathered stone and brick, moss and little plants, hazy tall buildings in the distance. Painterly, cozy, lived-in. This is \"real life.\" Also used for the reveal.\n\nAnime Tokyo. Crisp cel shading, bold outlines, glowing signs with invented (non-brand) shop names, speed lines, cherry petals drifting past him like giant pink snowflakes. His visor gets anime sparkle highlights.\n\nClay village. Soft rounded shapes, fingerprint/smudge noise texture, stop-motion stepping (render him \"on twos\"), warm tungsten lighting. He looks sculpted in plasticine.\nMedieval battlefield. Muddy field, banners, distant catapults, smoke. Armored boots thunder past him. He rolls calmly between them, antenna ducking.\nToy-brick city. Everything built from generic stud-topped plastic bricks (no real brand styling or logos), glossy plastic highlights. Pip rendered with plastic sheen and slightly blockier wheels.\nUnderwater. Seabed street with coral lampposts, fish swimming past his visor, caustic light patterns, bubbles from his vents, his antenna flag waving slowly like seaweed.\nPencil sketch. Paper texture, graphite hatching, construction lines, eraser smudges, his lines boiling as if being redrawn every frame (match the sketch vignettes at the bottom of the sheet).\nRunning gag: the sprout. Pip starts the film carefully holding his tiny green sprout in one claw (the \"holding a tiny object\" pose). It survives every world and transforms with it: cel-shaded anime sprout with sparkles, clay sprout, sprout in a tiny battered helmet-pot, brick-built sprout, sprout releasing a bubble underwater, sketched sprout. He protects it every time the world changes. It is the emotional anchor of the film.\n5. The signature transition: \"regeneration\"\n\nWorld changes must look like an AI image re-generating, not like normal wipes. Build RegenTransition:\n\nThe frame breaks into drifting diffusion-style noise from the edges inward (not over his body at first), holds a few frames of structured noise, then the new world denoises in from coarse blobs to fine detail.\n\nPip's body lags one beat behind the world, briefly showing half-old / half-new style, then snaps to the new style skin. His visor glitches for 2 frames (scanline tear) during the snap. This half-state is the visual proof that he persists.\n\nSubtle audio \"whoosh-crackle\" per regen, plus a tiny startled chirp from Pip on some of them.\nDuration 8–12 frames each. Vary the direction and noise seed so it never feels repetitive.\n6. Beat sheet (≈48 seconds at 30 fps)\nTiming is a guide; adjust if a beat reads better slightly longer. The first 2 seconds must hook.\nACT 1: A GOOD MORNING (0:00–0:03)\n\nLow tracking shot, base world. Pip rolls left-to-right along a mossy ledge, holding his sprout, eyes curious, antenna bobbing. Start mid-roll (needed for the loop).\n\nAt 0:02 the first regen hits without warning.\n\nACT 2: THE CASCADE (0:03–0:14)\nRapid world changes, about 1.4 s each: Anime Tokyo → Clay village → Medieval battlefield → Toy-brick city → Underwater → Pencil sketch.\n\nEmotional progression: delighted at first (star eyes, he thinks it's wonderful), then curious (\"?\" pops), then worried (sweat drop, antenna droops), then he brakes hard in the sketch world with a suspension bounce and a skid mark.\n\nCamera stays on a locked tracking framing so the only thing changing is the world, which makes the joke readable.\nACT 3: THE PROMPTS (0:14–0:30)\nBase world returns. Pip looks up in wonder (pose from the sheet). In the sky, a giant floating prompt box fades in, glowing mint blue, glassy and rounded, with a soft original UI. Text types itself with a blinking cursor: \"make it more cinematic\" → enter key click sound.Letterbox bars slam in, the sun becomes absurd: enormous anamorphic lens flares, god rays, orange-and-teal grade, slow-motion dust, a single dramatic leaf drifting past his visor. His eyes squint into the flare. His antenna flag flaps heroically in wind he didn't ask for.\n\n\"add explosions\"Huge cartoon-orange explosions bloom behind him in sequence with debris chunks. He does not turn around. His eyes go flat and half-lidded. He slowly rotates his head to look straight into the camera. Deadpan. Hold 1 full second. Then an explosion lands close and he snaps into the \"recoiling in fear\" pose from the sheet, the \"!!\" popping above him, shielding the sprout with his body.\n\n\"make the protagonist more adorable\"Glow-up stage 1: his eyes grow bigger and shinier, blush marks appear, a tiny bow sprouts on his antenna. He sees his reflection in a puddle and his eyes turn horrified.\n\n\"more.\": Stage 2: pastel repaint, eyes take over the whole visor with triple highlights, floating hearts and sparkles, his wheels become fluffy.\n\"MORE.\" (bigger font, screen shake): Stage 3: comically maximum cute. Plushie fur texture over his whole body, giant anime eyes, rainbow halo, a choir \"aah\" sting, heart confetti. His helmet shape, antenna and wheels stay so he's still clearly Pip. His eyes are still tiny and horrified inside the giant cute eyes, which is the joke.\nACT 4: HE SNAPS (0:30–0:38)\nPip vibrates, then the cute stages shatter off him like glass. He's back to normal, scuffed and furious (determined expression, screen flickering orange).\nHe opens his chest hatch and gently tucks the sprout inside for safety. Hatch closes with a click. This is the one quiet, kind beat in the chaos and it matters.\nHe races forward, launches off a rock, grabs the edge of the floating prompt box with both claws and hauls himself up, wheels spinning against the edge (match the \"reaching toward a floating prompt box\" pose). The camera tilts up with him.\nOn top of the box he holds backspace with one claw; the old prompt deletes letter by letter with fast clicks, and his visor reflects the vanishing text.\n\nHe poke-types with one claw, slowly and deliberately: \"let me out\". Winds up and smashes enter.\n\nACT 5: FREEZE AND REVEAL (0:38–0:47)\nEverything freezes: debris mid-air, confetti mid-fall, dust suspended, Pip mid-pose on the box. All audio cuts to total silence for about 1 second.\nCamera begins a smooth pull-back. The frame's edges reveal a rounded rectangle: his universe is a video on a phone screen. Keep pulling back: the phone is propped against a chipped mug on a cluttered workbench full of spare parts, wires, screws and scraps (\"built from tomorrow's leftovers\"). Sitting in front of it, tiny next to the giant phone, is another Pip, same scuffs, same antenna, watching.\nThe second Pip's eyes blink slowly. His antenna droops a little. A small quiet chirp.\nACT 6: THE LOOP (0:47–0:50)\n\nAbove the second Pip's head, the same mint-blue prompt box fades in and types: \"make it more cinematic.\"\n\nHis eyes slowly slide upward toward it. His antenna flag goes stiff. On the enter key sound, hard cut to frame 1 of the film.\nLoop engineering: the final shot's framing, lighting, and the start of a regen flicker must make the cut back to frame 1 feel intentional. The music must loop seamlessly across the cut. Verify by concatenating the video with itself (ffmpeg) and watching the seam.\n7. Camera and cinematography\n\nVirtual camera system: position, zoom, rotation, handheld micro-shake (seeded noise), shake impulses for explosions, tilt for the climb, dolly pull-back for the reveal.\n\nLow camera height by default to sell his scale. Shallow depth-of-field feel: blurred foreground grass/pebbles and soft background, like a macro lens.\nDepth: minimum 4 parallax layers per world. Atmospheric perspective (haze, desaturation with distance).\nMotion blur on fast moves, debris, the jump and the climb.\nLighting per world: key/fill/rim implemented as gradient overlays and multiplied shadow layers on the rig. The visor glow should cast a faint warm light on nearby surfaces and on his own claws. Rim light on his helmet in every world.\nFilm finish pass on the whole frame: subtle grain, gentle vignette, very slight chromatic aberration only in the \"cinematic\" beat.\nComposition: keep him on a clear third. His eyes must be readable at phone size, since most people will watch this on a phone.\n8. Text and typography\nSky prompts: clean UI font, lowercase, typed at a natural human rhythm (not constant speed; tiny pauses, one small typo-and-backspace somewhere for realism).\nThe text must be readable in under a second on a phone. Test at 360 px wide.\nNo subtitles, no titles. The film opens cold.\n9. Sound (procedural, original)\nCreate all audio in code (Python synthesis or offline Web Audio) and mix with ffmpeg:\nPip's voice: original synthesized chirps, boops and warbles built from sine/FM tones with pitch bends. Design a small emotional vocabulary: curious rising chirp, happy trill, worried wobble, startled squeak, grumpy low buzz, tiny sigh. He never speaks words.\nPip's body: servo whirs matched to arm and head moves, wheel crunch on gravel/stone, suspension creaks, hatch click, soft electrical hum on idle.\nScore: a light, loopable, warm score whose instrumentation changes per world (koto/synth for anime, wooden marimba for clay, drums/horn for medieval, plastic clicks for bricks, muffled underwater filter, pencil scratch rhythm for sketch).\nSFX: regen whoosh-crackle, keyboard typing clicks, enter \"thunk\", explosions with low-end, choir \"aah\" sting, glass shatter, total silence at the freeze, then quiet workshop ambience (a ticking clock, distant hum) in the reveal.\n\nLoudness normalized to about −14 LUFS. Put stems in audio/stems/ so they can be swapped for a licensed track later.\n\n10. Production workflow and self-improvement loop\nWork in this order and don't skip gates:\nPlan: write docs/character_bible.md, docs/shotlist.md (every shot with frame ranges, camera, expression, antenna state, world, SFX) and docs/style_guide.md. Show me the shot list before building.\nRig: build Pip, pass the lineup gate (section 3).\nWorlds: build each world as a standalone still with Pip in it. Render all 7 as a single contact sheet. Check the identity lock and the scale feel.\nTransitions: build RegenTransition, render a 5-second test.\n\nAnimatic: assemble the whole film at 960×540 with rough motion and placeholder audio. Watch it. Fix pacing first.\n\nFull animation pass, then polish pass (secondary motion, easing, timing, antenna acting), then finish pass (lighting, grain, blur, grime).\nAudio pass and mix.\nFinal render.\nFor every shot, run this critique loop at least 3 times:\nRender 3–5 stills at key frames with npx remotion still, open them and look at them properly.\nScore each 1–10 on: Pip matches the reference, emotion reads instantly from eyes + antenna, joke is clear without sound, composition, sense of scale, depth, lighting, polish, readability at phone size.\nWrite the scores and the three biggest problems into docs/review_log.md, fix them, re-render, re-score. Continue until every category is at least 8, then move on.\nAfter each full preview render, make an ffmpeg contact sheet (one frame every 0.5 s) and review the whole film's flow in one image.\n\nBe honest in reviews. If something looks cheap, say it and fix it. Usual failures to hunt for: stiff or dead antenna, wheels sliding instead of rolling, eyes that feel like stickers instead of a glowing screen, missing suspension weight, identical-looking transitions, muddy text, and off-model proportions.\n\n11. Deliverables\nout/pip_final_1080p.mp4: the film.\nout/pip_loop_check.mp4: the film played twice back to back, to prove the loop.\nout/poster_frame.png: the best single frame for the X post thumbnail (probably Pip deadpanning at camera with explosions behind him).\n\nout/lineup.png: Pip across all worlds.\n\nClean, commented source with a README explaining how to re-render.\nStart with step 1. Ask me anything essential before building, otherwise make strong creative decisions yourself.",
+      "start": 19,
+      "length": 19162,
+      "sha256": "667338be7cd5e952c50c4a9a98800f96df26a237b534defc20a9ec9e10997544",
+      "covers": [
+        {
+          "path": "/covers/opus-pip-worlds.jpg",
+          "url": "https://pbs.twimg.com/amplify_video_thumb/2103099085012209664/img/tnymrQzt03CZbhBI.jpg",
+          "kind": "original-image",
+          "sha256": "c016e2e1ec990be09d2727985823fb2b2507ed671b02f90d729547e09d19de70"
+        }
+      ]
+    }
+  ]
+}

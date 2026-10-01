@@ -3,3 +3,8 @@ node_modules/
 .github_repo
 .env
 .env.*
+.tanstack/
+.vercel/output/
+reconciliation-evidence/
+screenshots/folio-*.png
+screenshots/folio-interactions.json

@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-01",
+  "remoteCommit": "c45a9961c3e551d10666d2ecb6624416b15d4af1",
+  "baselineCount": 150,
+  "policy": "Keep published remote entry numbers. Move two unpublished local collisions to appended numbers. Preserve all original 001-150 records.",
+  "renumbered": [
+    {
+      "oldLocalNo": "153",
+      "no": "161",
+      "id": "xxd-linear-poster"
+    },
+    {
+      "oldLocalNo": "155",
+      "no": "162",
+      "id": "opus-china-line-history"
+    }
+  ],
+  "additions": [
+    {
+      "no": "153",
+      "sourceUrl": "https://x.com/azed_ai/status/2104526554374267368",
+      "authorHandle": "azed_ai",
+      "retrievedOn": "2026-10-01",
+      "sourceText": "Prompt share: Stitched Stop-Motion World\n\n💬 Prompt:\nA stop-motion scene featuring a whimsical sculpture of a [subject], handcrafted from layered fabric scraps, felt, yarn, and stitched textiles, positioned on a handmade [object/element], visible seams and embroidery, soft tactile textures, slightly imperfect shapes, playful proportions, charming folk-art character design, miniature handcrafted scenery, cozy stop-motion animation aesthetic\n\nTry it and share yours ✨",
+      "start": 53,
+      "length": 390,
+      "sha256": "aa8f5f30df93aa9a7c0d0b5c0e91994afe3f10407bce364dbc478d1e6a878d13",
+      "covers": [
+        {
+          "url": "https://pbs.twimg.com/media/HTTHvI2aoAAr99E.jpg?name=orig",
+          "path": "/covers/azed-stitched-world.jpg",
+          "kind": "original-image",
+          "sha256": "35e2a7da49b459a2d9b73b19cd6c89aaeb7ea9ecb1efca5cf7ac57d8952aae67"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HTTHvXLaYAAqifK.jpg?name=orig",
+          "path": "/covers/azed-stitched-world-2.jpg",
+          "kind": "original-image",
+          "sha256": "8ac7af2b9419528c7ec6be34d1e02d5c69ea5a359909a5683662d799ae5904d9"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HTTHvo4bEAA9xxS.jpg?name=orig",
+          "path": "/covers/azed-stitched-world-3.jpg",
+          "kind": "original-image",
+          "sha256": "272b7e1aa529f180ebf4d93f6b9b486d934e7ebae069ad19776c22cf3d1419b1"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HTTHv4Xa4AAm6oN.jpg?name=orig",
+          "path": "/covers/azed-stitched-world-4.jpg",
+          "kind": "original-image",
+          "sha256": "4ec4d2464d8f1cf3ff24e5d5555080ddd15562597458b3664036d503e0e07e25"
+        }
+      ]
+    },
+    {
+      "no": "155",
+      "sourceUrl": "https://x.com/CharaspowerAI/status/2105311751055036894",
+      "authorHandle": "CharaspowerAI",
+      "retrievedOn": "2026-10-01",
+      "sourceText": "This is what 15 seconds of pure pixel-art chaos looks like. ⚡️\nA ninja infiltrates a cybernetic pagoda, dodges robot samurai, then deletes the boss in one silent strike.\n\nFast. Clean. Addictive.\nFull Seedance prompt below 👇\nA pixel-art ninja infiltrates a cybernetic pagoda during a red digital eclipse while laser guards and robotic samurai patrol the rooftops, he wall-runs across glowing signs, disappears into shadow pixels, deflects bullets with a short blade and leaps through a rotating security gate before confronting a gigantic armored shogun powered by a pulsing reactor core; premium pixel-art action, dense 16-bit-meets-modern-detail aesthetic, layered neon city backgrounds, fast frame-by-frame combat, motion-smear sprites, sharp silhouette design, magenta and crimson lighting, white blade flashes, glitch particles and electric sparks, aggressive arcade atmosphere, ending with the ninja slicing through the reactor in one silent diagonal strike as the entire pagoda freezes for one beat and then collapses into cascading digital fragments.",
+      "start": 225,
+      "length": 833,
+      "sha256": "30a3f121217bf5f0380b2361650c3e37a8a976893ac1e5eddcdf19ad027b5c22",
+      "covers": [
+        {
+          "url": "https://pbs.twimg.com/ext_tw_video_thumb/2105311721283866624/pu/img/uE423jwOSHvr4sL2.jpg",
+          "path": "/covers/charas-pixel-ninja.jpg",
+          "kind": "original-video-thumbnail",
+          "sha256": "fe363fde620b4136e2a9335fdc9b63bedd42e711881af3029b9feb4f7e226d0a"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 一套编好号的 AI 图像 / 视频风格库。风格来自公开的 X 帖，提示词原文归原作者。这里做的是编号、分类、预览和复制。
 
-当前 **156** 条。`001`–`106` 已冻结，不会改号。新风格只追加在后面。
+当前 **162** 条。`001`–`106` 已冻结，不会改号。新风格只追加在后面。
 
 ## 可以做什么
 
@@ -61,6 +61,10 @@ node skills/folio-style/scripts/lookup.mjs --search 武侠
 没有的编号会说明范围，不会现编一条。
 
 ## 数据在哪
+
+唯一可编辑主数据是 `skills/folio-style/data/prompts.json`。修改后运行 `npm run data:sync`，自动生成网站 JSON、单条 Markdown、目录和数量说明；运行 `npm run data:check` 核对一致性。不要单独编辑导出文件。开发和构建前也会自动同步，GitHub Actions 会检查遗漏。
+
+2026-10-01 的[版本统一说明](docs/version-reconciliation.md)记录了本地与远端编号冲突的处理；[MCP 与网页后台方案](docs/mcp-web-admin-plan.md)说明下一步如何共用主数据。当前仍是浏览／复制网站和本地 Skill，MCP 服务与管理后台尚未实现。
 
 | 路径 | 是什么 |
 | --- | --- |
