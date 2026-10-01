@@ -1,8 +1,8 @@
 # FOLIO 风格编号目录
 
-共 162 条。图像按风格分类，视频再按场景用途分开。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
+共 442 条。图像按风格分类，视频再按场景用途分开。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
 
-# 图像（90）
+# 图像（370）
 
 ## 人像（10）
 
@@ -135,6 +135,293 @@
 | 129 | 稚拙手绘涂鸦 | 稚拙涂鸦 | @xiaoxiaodong01 |
 | 131 | 微缩橱窗对景 | 微缩橱窗纪念物 | @Hamburgerai |
 | 153 | 针线布偶定格 | 针线布偶世界 | @azed_ai |
+
+## 手绘（280）
+
+yang0 手绘风格图鉴。生图名称和视觉特征按原文保留，只换主题。
+
+| 编号 | 风格 | 标题 | 作者 |
+| --- | --- | --- | --- |
+| 163 | Gemma Correll | Playful Deadpan Doodle | @yang0 |
+| 164 | Saul Steinberg | Conceptual Continuous-Line Editorial | @yang0 |
+| 165 | Jean-Jacques Sempé | Fine-Line Urban Miniature | @yang0 |
+| 166 | James Thurber | Awkward Minimal Ink Cartoon | @yang0 |
+| 167 | Shel Silverstein | Childlike Free-Line Humor | @yang0 |
+| 168 | Edward Gorey | Victorian Crosshatch Gothic Cartoon | @yang0 |
+| 169 | Ronald Searle | Frenetic Scratch-Ink Caricature | @yang0 |
+| 170 | Roz Chast | Nervous Urban Notebook Cartoon | @yang0 |
+| 171 | Lynda Barry | Raw Zine Diary Cartoon | @yang0 |
+| 172 | Tom Gauld | Geometric Literary Deadpan | @yang0 |
+| 173 | David Shrigley | Deliberately Bad Absurd Doodle | @yang0 |
+| 174 | Christoph Niemann | Minimal Visual-Pun Editorial | @yang0 |
+| 175 | Jean Jullien | Bold Flat Everyday Satire | @yang0 |
+| 176 | Mr Bingo | Handwritten British Anti-Inspiration Cartoon | @yang0 |
+| 177 | Brian Rea | Soft Relationship Editorial Line Art | @yang0 |
+| 178 | Rubyetc | Raw Emotional Internet Doodle | @yang0 |
+| 179 | Sarah Andersen | Black-and-White Reaction Diary Cartoon | @yang0 |
+| 180 | Poorly Drawn Lines / Reza Farazmand | Minimal Deadpan Dialogue Cartoon | @yang0 |
+| 181 | The Oatmeal / Matthew Inman | Explosive Webcomic Exaggeration | @yang0 |
+| 182 | Allie Brosh | Low-Fi Frenzy Cartoon | @yang0 |
+| 183 | Mari Andrew | Watercolor Handwritten Life Notes | @yang0 |
+| 184 | Sally Nixon | Flat Everyday Women Lifestyle | @yang0 |
+| 185 | Agathe Sorlet | Warm Minimal Female Line Cartoon | @yang0 |
+| 186 | Jean-Michel Tixier | Geometric Fashion Deadpan | @yang0 |
+| 187 | Gary Larson | One-Panel Absurd Social Cartoon | @yang0 |
+| 188 | Sergio Aragonés | Dense Silent Physical Comedy | @yang0 |
+| 189 | R. Crumb | Underground Crosshatched Grotesque Cartoon | @yang0 |
+| 190 | Daniel Clowes | Retro Detached American Comic | @yang0 |
+| 191 | Chris Ware | Geometric Diagrammatic Narrative | @yang0 |
+| 192 | Adrian Tomine | Clean Urban Solitude Comic | @yang0 |
+| 193 | Marjane Satrapi | High-Contrast Black-White Memoir Cartoon | @yang0 |
+| 194 | Joann Sfar | Loose French Improvised Ink | @yang0 |
+| 195 | Charles M. Schulz | Minimal Newspaper Comic | @yang0 |
+| 196 | Bill Watterson | Elastic Sunday Strip | @yang0 |
+| 197 | Matt Groening | Bold Pop Satire Cartoon | @yang0 |
+| 198 | Quentin Blake | Loose Ink-and-Wash Storybook | @yang0 |
+| 199 | Tove Jansson | Nordic Fine-Line Whimsy | @yang0 |
+| 200 | Richard Scarry | Busy Anthropomorphic Everyday World | @yang0 |
+| 201 | Arnold Lobel | Warm Vintage Line-and-Wash | @yang0 |
+| 202 | Maurice Sendak | Crosshatched Wild Storybook | @yang0 |
+| 203 | Dr. Seuss | Bendy Absurd Storybook | @yang0 |
+| 204 | Beatrix Potter | Naturalist Watercolor Animal Storybook | @yang0 |
+| 205 | E. H. Shepard | Classic Pen-and-Light-Wash Storybook | @yang0 |
+| 206 | Satoshi Kitamura | Quirky Ink-and-Watercolor Tale | @yang0 |
+| 207 | Oliver Jeffers | Minimal Poetic Picturebook Doodle | @yang0 |
+| 208 | Chris Haughton | Bold Geometric Picturebook | @yang0 |
+| 209 | Jon Klassen | Muted Deadpan Picturebook | @yang0 |
+| 210 | Carson Ellis | Folk-Line Decorative Storybook | @yang0 |
+| 211 | Shaun Tan | Dreamlike Surreal Storybook | @yang0 |
+| 212 | Lane Smith | Layered Vintage Storybook Collage | @yang0 |
+| 213 | Peter de Sève | Expressive Character Sketch Cartoon | @yang0 |
+| 214 | Jean Giraud / Moebius | Dreamlike Clean-Line Sci-Fi Figure | @yang0 |
+| 215 | Hergé | European Clear-Line Adventure Figure | @yang0 |
+| 216 | Joost Swarte | Geometric European Clear-Line Figure | @yang0 |
+| 217 | Jon Burgerman | Chaotic Color Doodle Crowd | @yang0 |
+| 218 | Hattie Stewart | Pop Magazine Doodle Overlay | @yang0 |
+| 219 | Andy Rementer | Retro Geometric City Cartoon | @yang0 |
+| 220 | Olimpia Zagnoli | Minimal Bold-Color Fashion Geometry | @yang0 |
+| 221 | Malika Favre | High-Contrast Negative-Space Figure | @yang0 |
+| 222 | Noma Bar | Negative-Space Visual-Pun Graphic | @yang0 |
+| 223 | Mary Blair | Midcentury Geometric Fairytale | @yang0 |
+| 224 | Charley Harper | Ultra-Geometric Nature Character | @yang0 |
+| 225 | Saul Bass | Rough Cut-Paper Modernist Graphic | @yang0 |
+| 226 | Paul Rand | Playful Modernist Collage Character | @yang0 |
+| 227 | Milton Glaser | Retro Pop Editorial Figure | @yang0 |
+| 228 | Seymour Chwast | Bold Retro Advertising Cartoon | @yang0 |
+| 229 | Push Pin Studios | Decorative Retro Commercial Illustration | @yang0 |
+| 230 | Henri Matisse cut-outs | Freeform Cut-Paper Figure | @yang0 |
+| 231 | Jean Cocteau line drawing | Poetic Single-Line Figure | @yang0 |
+| 232 | Pablo Picasso line drawings | Abstract Continuous-Line Figure | @yang0 |
+| 233 | Keith Haring | Bold Kinetic Street-Pictogram | @yang0 |
+| 234 | Jean-Michel Basquiat | Raw Symbolic Graffiti Figure | @yang0 |
+| 235 | Raymond Pettibon | Punk Ink-and-Text Editorial | @yang0 |
+| 236 | George Condo drawing | Grotesque Classical-Comic Portrait | @yang0 |
+| 237 | Henri de Toulouse-Lautrec | Flat Belle-Époque Poster Figure | @yang0 |
+| 238 | Egon Schiele drawing | Angular Expressive Figure Line | @yang0 |
+| 239 | Jean Dubuffet | Raw Art-Brut Figure | @yang0 |
+| 240 | Paul Klee | Poetic Geometric Symbol Figure | @yang0 |
+| 241 | Joan Miró | Biomorphic Symbolic Character | @yang0 |
+| 242 | Alexander Calder drawings | Fluid Single-Line Motion Figure | @yang0 |
+| 243 | Tom Haugomat | Cinematic Grainy Flat-Shape Illustration | @yang0 |
+| 244 | Blexbolex | Retro Silkscreen Geometric Figure | @yang0 |
+| 245 | Yuko Shimizu | Dynamic East-Asian Ink Editorial | @yang0 |
+| 246 | Tatsuro Kiuchi | Quiet Low-Saturation Japanese Editorial | @yang0 |
+| 247 | Yu Nagaba | Minimal Fashion Line Figure | @yang0 |
+| 248 | Noritake | Cool Minimal Black-and-White Figure | @yang0 |
+| 249 | Ryohei Yanagihara | Showa Retro Commercial Cartoon | @yang0 |
+| 250 | Chihiro Iwasaki | Airy Transparent Watercolor Figure | @yang0 |
+| 251 | Machiko Hasegawa | Showa Everyday Family Comic | @yang0 |
+| 252 | Shigeru Mizuki | Folklore Monster Ink Cartoon | @yang0 |
+| 253 | Osamu Tezuka | Classic Rounded Manga Character | @yang0 |
+| 254 | Yoshitomo Nara | Rebellious Big-Head Deadpan Figure | @yang0 |
+| 255 | Hisashi Eguchi | 80s Clean-Line Urban Pop Girl | @yang0 |
+| 256 | Yuko Higuchi | Ornate Strange Botanical Ink | @yang0 |
+| 257 | きくちあつこ | Fashion Diary Sketch Girl | @yang0 |
+| 258 | しまだなな | Loose Deadpan Everyday Sketch | @yang0 |
+| 259 | のなか海 | Yuru-Surreal Minimal Everyday Cartoon | @yang0 |
+| 260 | tomatomayu | Notebook Lifestyle Doodle | @yang0 |
+| 261 | 鈴芽とろ | Cute Essay-Manga Everyday | @yang0 |
+| 262 | うめじろう | Rough Gag-Manga Reaction | @yang0 |
+| 263 | ASUMINA | Clean Young-Lifestyle Manga Line | @yang0 |
+| 264 | モチダちひろ | Friendly Girl-Diary Cartoon | @yang0 |
+| 265 | YAGI | Minimal Absurd Short-Gag Cartoon | @yang0 |
+| 266 | むらたさき | Warm Slightly-Strange Everyday Line | @yang0 |
+| 267 | よこみねさやか | Fast Family-Essay Sketch | @yang0 |
+| 268 | おべとも | Minimal Quirky Motion Character | @yang0 |
+| 269 | そとこ / Sotoko | Elegant Sparse-Line Girl | @yang0 |
+| 270 | yasuna | Delicate Emotional Female Line | @yang0 |
+| 271 | オガワナツミ | Pop-Culture Minimal Figure | @yang0 |
+| 272 | Mira Lou | Modern Editorial Female Line | @yang0 |
+| 273 | ソウノナホ | Soft Magazine Line-and-Wash | @yang0 |
+| 274 | Appy | Minimal Daily-Life Girl Line | @yang0 |
+| 275 | reism・i | Transparent Watercolor Magazine Figure | @yang0 |
+| 276 | 北澤平祐 | Playful Marker Fairytale Character | @yang0 |
+| 277 | 白根ゆたんぽ | Loose Pop Advertising Girl | @yang0 |
+| 278 | 藍にいな / Ai Niina | Transparent Emotional Youth Illustration | @yang0 |
+| 279 | 山中玲奈 | Warm Lifestyle Magazine Figure | @yang0 |
+| 280 | はまふぐ | Soft Empathy Social Comic | @yang0 |
+| 281 | Nah | High-Saturation Gen-Z Fashion Girl | @yang0 |
+| 282 | misato. | Soft Dreamy Animated Illustration | @yang0 |
+| 283 | min² | Pastel Yami-Kawaii Girly | @yang0 |
+| 284 | A.YAMI | Tokyo Street Graphic Girl | @yang0 |
+| 285 | めめんち | Mystic Fashion Character Graphic | @yang0 |
+| 286 | 卤猫 | Gentle Nature Dreambook Illustration | @yang0 |
+| 287 | Tango / 高幼军 | Minimal Black-White Visual-Pun Cartoon | @yang0 |
+| 288 | 呼葱觅蒜 | Elongated New-Chinese Minimal Figure | @yang0 |
+| 289 | Victo Ngai / 倪传婧 | Dense East-Asian Fantasy Editorial | @yang0 |
+| 290 | Oamul Lu | Seasonal Travel Watercolor Diary | @yang0 |
+| 291 | 吴和平 Luo | Blue-Orange Grainy Chinese Editorial | @yang0 |
+| 292 | 方块阿兽 | Cinematic Saturated Story Illustration | @yang0 |
+| 293 | 特浓 TN | Modern New-Guofeng Flat-Line Illustration | @yang0 |
+| 294 | 奇舫社 | Decorative Guochao Character Illustration | @yang0 |
+| 295 | 唐意 TY | Ornate Flowing Eastern Fantasy Figure | @yang0 |
+| 296 | CAA 陈思佚 | Soft Chinese Watercolor Atmosphere | @yang0 |
+| 297 | 李旻 | Contemporary Chinese Cultural Editorial | @yang0 |
+| 298 | 伊吹五月 | Freehand Ink-Wash Ancient Figure | @yang0 |
+| 299 | 早稻 ZAODAO | Wild Ink Eastern Weirdness | @yang0 |
+| 300 | 眠狼 | Elegant Soft Ink Ancient Figure | @yang0 |
+| 301 | loli武士 | Refined Eastern Line-Art Character | @yang0 |
+| 302 | 古戈力 | Modern Eastern Fantasy Character | @yang0 |
+| 303 | 夏达 | Elegant Historical Manga Line | @yang0 |
+| 304 | 黑色禁药 | Ornate Dark-Fantasy Figure | @yang0 |
+| 305 | 杉泽 | Mythic Bestiary Ink Character | @yang0 |
+| 306 | Lost7 | Blue-Gray Dream Narrative Figure | @yang0 |
+| 307 | 牛轰轰 | Expressive Girl-Life Internet Comic | @yang0 |
+| 308 | 郭斯特 | Minimal Youth Emotion Comic | @yang0 |
+| 309 | 几米 / Jimmy Liao | Poetic Urban Dreambook Illustration | @yang0 |
+| 310 | 朱德庸 | Minimal Adult Relationship Satire | @yang0 |
+| 311 | 阿梗 | Delicate Eastern Female Comic | @yang0 |
+| 312 | 寂地 | Dreamy Youth Picturebook Color | @yang0 |
+| 313 | 伟大的安妮 | Internet Girl-Life Story Comic | @yang0 |
+| 314 | 使徒子 | Fast-Paced Chinese Meme Comic | @yang0 |
+| 315 | Golo 高佬 | Free-Line Urban Youth Comic | @yang0 |
+| 316 | 插画师卷耳 | Contemporary Urban-Tech Character Illustration | @yang0 |
+| 317 | Editorial Doodle / 社论涂鸦 | Editorial Doodle | @yang0 |
+| 318 | Loose Ink / 松散墨线 | Loose Ink | @yang0 |
+| 319 | Conceptual Line Drawing / 概念线描 | Conceptual Line Drawing | @yang0 |
+| 320 | New Yorker 单格社论漫画 | Classic Magazine Single-Panel Cartoon | @yang0 |
+| 321 | 法式 Café Sketch | French Café Sketch | @yang0 |
+| 322 | 日系脱力线稿漫画 | Japanese Deadpan Loose-Line Cartoon | @yang0 |
+| 323 | 日系手帐 Doodle | Japanese Notebook Doodle | @yang0 |
+| 324 | 日系杂志随笔插画 | Japanese Magazine Essay Illustration | @yang0 |
+| 325 | 日系脱线四格漫画风 | Japanese Offbeat Four-Panel Cartoon | @yang0 |
+| 326 | 韩系 Lifestyle Doodle | Korean Lifestyle Doodle | @yang0 |
+| 327 | 韩系黑线红点 Editorial | Korean Black-Line Red-Accent Editorial | @yang0 |
+| 328 | Indie Zine 粗糙手绘 | Indie Zine Rough Drawing | @yang0 |
+| 329 | Risograph / 双色孔版手绘 | Two-Color Risograph Drawing | @yang0 |
+| 330 | Crayon Editorial / 蜡笔社论 | Crayon Editorial | @yang0 |
+| 331 | Colored Pencil Diary / 彩铅日记 | Colored Pencil Diary | @yang0 |
+| 332 | Brush Pen Cartoon / 毛笔漫画 | Brush-Pen Cartoon | @yang0 |
+| 333 | One-Line Character / 单线人物画 | One-Line Character | @yang0 |
+| 334 | Naive Folk Cartoon / 稚拙民间漫画 | Naive Folk Cartoon | @yang0 |
+| 335 | Primitive Marker Cartoon / 粗马克笔人物 | Primitive Marker Cartoon | @yang0 |
+| 336 | Dry Brush Editorial / 干笔社论 | Dry-Brush Editorial | @yang0 |
+| 337 | Ink + Flat Spot Color / 墨线点色 | Ink with Flat Spot Color | @yang0 |
+| 338 | Notebook Margin Cartoon / 课本边角漫画 | Notebook Margin Cartoon | @yang0 |
+| 339 | Deadpan Doodle / 冷脸涂鸦 | Deadpan Doodle | @yang0 |
+| 340 | Awkward Cute / 怪尴尬手绘 | Awkward Cute | @yang0 |
+| 341 | Heta-Uma / ヘタウマ | Heta-Uma | @yang0 |
+| 342 | 昭和レトロ少女 | Showa Retro Girl Illustration | @yang0 |
+| 343 | 平成ガールズ日記 | Heisei Girls Diary Illustration | @yang0 |
+| 344 | 透明水彩淡彩 | Airy Transparent Watercolor | @yang0 |
+| 345 | Copic Pastel | Copic Pastel | @yang0 |
+| 346 | 喫茶店 Retro Sketch | Kissaten Retro Sketch | @yang0 |
+| 347 | 小红书奶油手绘 | Creamy Social-Media Doodle | @yang0 |
+| 348 | 小红书高饱和涂鸦 | High-Saturation Social Doodle | @yang0 |
+| 349 | 韩国高饱和涂鸦 | Korean High-Saturation Pop Doodle | @yang0 |
+| 350 | 中式复古连环画 | Chinese Retro Lianhuanhua | @yang0 |
+| 351 | 新国潮工笔扁平 | New-Guochao Flat Gongbi | @yang0 |
+| 352 | 敦煌新插画 | Modern Dunhuang Illustration | @yang0 |
+| 353 | 宋画淡彩现代化 | Modernized Song-Dynasty Light Color | @yang0 |
+| 354 | 新中式水墨小人 | New-Chinese Tiny Ink Figures | @yang0 |
+| 355 | 广式早茶国潮 | Cantonese Dim-Sum Guochao | @yang0 |
+| 356 | 海派月份牌 Retro | Shanghai Calendar-Poster Retro | @yang0 |
+| 357 | 民国广告画再设计 | Republic-Era Advertising Redesign | @yang0 |
+| 358 | 油画棒治愈手绘 | Oil-Pastel Healing Illustration | @yang0 |
+| 359 | 儿童蜡笔稚拙风 | Childlike Crayon Naive Style | @yang0 |
+| 360 | 黑白钢笔冷幽默 | Black-White Pen Deadpan Humor | @yang0 |
+| 361 | 红蓝双色孔版 / Riso 国潮 | Red-Blue Riso Guochao | @yang0 |
+| 362 | Mid-century Deadpan Ink Mascot | Mid-century Deadpan Ink Mascot | @yang0 |
+| 363 | 阿梗 | Delicate Youth Narrative Comic | @yang0 |
+| 364 | 寂地 | Dreamy Emotional Picturebook Comic | @yang0 |
+| 365 | 夏达 | Classical Chinese Fine-Line Manga | @yang0 |
+| 366 | 呼葱觅蒜 | Faceless New-Chinese Figure Illustration | @yang0 |
+| 367 | 白茶 | Chinese Pet Deadpan Cartoon | @yang0 |
+| 368 | 慕容引刀 | Philosophical Minimal Dog Cartoon | @yang0 |
+| 369 | Tango | Minimal Visual-Pun Cartoon | @yang0 |
+| 370 | 黄海 | Conceptual Eastern Film Poster Design | @yang0 |
+| 371 | 张旺 | Digital Chinese Gongbi Fantasy | @yang0 |
+| 372 | 熊亮 | Contemporary Chinese Ink Picturebook | @yang0 |
+| 373 | 早稻 | Wild Chinese Ink Fantasy Comic | @yang0 |
+| 374 | 门小雷 | Hong Kong Urban Female Comic Illustration | @yang0 |
+| 375 | 卤猫 | Gentle Seasonal Nature Illustration | @yang0 |
+| 376 | 天朝羽 | Warm Nostalgic Everyday Picturebook | @yang0 |
+| 377 | 左手韩 | Realistic Absurdist Webcomic | @yang0 |
+| 378 | 聂峻 | Beijing Hutong Watercolor Graphic Novel | @yang0 |
+| 379 | OscarAI | Stylized 3D Cartoon Personality | @yang0 |
+| 380 | OscarAI | Quirky 60s-70s Retro Storybook Illustration | @yang0 |
+| 381 | OscarAI | Charming Vintage Storybook Illustration | @yang0 |
+| 382 | OscarAI | Stylized Graphic 2D Animation Character | @yang0 |
+| 383 | OscarAI | Tactile Felt & Knitted 3D Puppet | @yang0 |
+| 384 | OscarAI | Mid-Century Poetic Ink & Watercolor Storybook | @yang0 |
+| 385 | OscarAI | Whimsical Watercolor Die-Cut Sticker Cartoon | @yang0 |
+| 386 | OscarAI | Retro 70s Tactile Wool & Clay Stop-Motion Puppet | @yang0 |
+| 387 | OscarAI | Textured Cut-Paper Collage Storybook | @yang0 |
+| 388 | OscarAI | Painterly Gouache Animation Storybook | @yang0 |
+| 389 | Ahmed | Deadpan Stylized 3D Urban Character | @yang0 |
+| 390 | OscarAI | Scandinavian Folk-Art Naive Storybook | @yang0 |
+| 391 | OscarAI | Minimalist Organic Pastel Editorial | @yang0 |
+| 392 | OscarAI | Vintage Ink & Watercolor Comic Storybook | @yang0 |
+| 393 | Ahmed | Chic Urban Editorial Motion Character | @yang0 |
+| 394 | OscarAI | Fuzzy Plush Toy 3D Character | @yang0 |
+| 395 | OscarAI | Warm Gouache & Colored Pencil Storybook Character | @yang0 |
+| 396 | OscarAI | Chunky Knit Mohair Stop-Motion Puppet | @yang0 |
+| 397 | OscarAI | Edwardian Vintage Ink Fashion Editorial | @yang0 |
+| 398 | OscarAI | Stylized 3D Animation Feature Character | @yang0 |
+| 399 | OscarAI | Chubby Pastel Knitted Toy 3D Character | @yang0 |
+| 400 | OscarAI | Quirky Fantasy Sketchbook Character Concept | @yang0 |
+| 401 | OscarAI | Late-80s Cyberpunk Dark OVA Cel Anime | @yang0 |
+| 402 | 素漆螺钿插画风 | Pale Lacquer & Raden Decorative Illustration | @yang0 |
+| 403 | OscarAI | Classic 60s-70s Xerox Cel Animation | @yang0 |
+| 404 | 当代戏曲漫画插画风 | Contemporary Peking Opera Comic Illustration | @yang0 |
+| 405 | OscarAI | Loose Ink & Gouache Storybook Studio | @yang0 |
+| 406 | OscarAI | Medieval Dark Fantasy Ink & Ochre Illustration | @yang0 |
+| 407 | OscarAI | Classic 80s-90s Heroic Fantasy Cel Anime | @yang0 |
+| 408 | OscarAI | Vintage 70s European Comic Animation Cel | @yang0 |
+| 409 | OscarAI | Modern Cinematic 2D Character Animation | @yang0 |
+| 410 | OscarAI | Tactile Soft 3D Claymation & Storybook Character | @yang0 |
+| 411 | OscarAI | Tactile Papercraft & Fabric 3D Cartoon | @yang0 |
+| 412 | Shinyi | Stylized Cinematic Action-Comedy Character | @yang0 |
+| 413 | 儿童蜡笔手绘绘本 | Charming Children Crayon Storybook | @yang0 |
+| 414 | なっくす | Soft Crayon & Sumi-e Cat Storybook | @yang0 |
+| 415 | James Yeung | Minimalist Poetic Sempé Ink Doodle | @yang0 |
+| 416 | 几米 | Jimmy Liao Whimsical & Poetic Storybook Watercolor | @yang0 |
+| 417 | midlibrary | Modern Minimalist Sumi-e & Red Gouache Illustration | @yang0 |
+| 418 | 丰子恺 | Feng Zikai Literati Brushwork & Whimsical Ink Sketch | @yang0 |
+| 419 | 中国奇谭·鹅鹅鹅 | Airy Chinese Ink Fantasy Animation | @yang0 |
+| 420 | yang02010 | Minimalist Atmospheric Storybook & Vast Scale Contrast | @yang0 |
+| 421 | 梵高 | Van Gogh Expressive Impasto Oil Painting | @yang0 |
+| 422 | 日系超萌1.5头身Q版 | Japanese Kawaii Mini Chibi 2D Illustration | @yang0 |
+| 423 | OscarAI | Charming 2D Animation Feature Character Visdev | @yang0 |
+| 424 | South Park | South Park Animation Style | @yang0 |
+| 425 | Patapon Remastered | Patapon Remastered | @yang0 |
+| 426 | Don’t Starve | Don't Starve Animation Style | @yang0 |
+| 427 | Cartoon Saloon | Cartoon Saloon Animation Style | @yang0 |
+| 428 | 森系儿童插画 | Forest Children Storybook Illustration | @yang0 |
+| 429 | 小林漫画 | Kobayashi Manga Minimal Ink Style | @yang0 |
+| 430 | 当代人文水墨漫画 | Contemporary Literati Ink Cartoon | @yang0 |
+| 431 | 社会主义现实主义宣传画 | Socialist Realist Propaganda Poster | @yang0 |
+| 432 | 中国农民画 | Chinese Farmers Painting | @yang0 |
+| 433 | 八九十年代中国课本插图风 | 1980s-1990s Chinese Textbook Illustration | @yang0 |
+| 434 | 纸雕 | Paper Sculpture Illustration | @yang0 |
+| 435 | 手撕纸拼贴风 | Hand-Torn Paper Collage Illustration | @yang0 |
+| 436 | 手绘火柴人漫画 | Hand-Drawn Stick Figure Cartoon | @yang0 |
+| 437 | 复古 Risograph 与丝网印刷插画 | Vintage Risograph and Silkscreen Print Illustration | @yang0 |
+| 438 | 清透扁平插画 | Clean Airy Flat Vector Illustration | @yang0 |
+| 439 | 中国老式手工木偶定格动画风 | Vintage Chinese Handmade Puppet Stop-Motion Animation | @yang0 |
+| 440 | VOX 折纸3D立体拼贴动画 | Vox 3D Origami Collage Animation | @yang0 |
+| 441 | 极简手绘 | Minimalist 2D Hand-Drawn Doodle | @yang0 |
+| 442 | 简笔与半写实融合风 | Minimalist Doodle & Semi-Realistic Hybrid Illustration | @yang0 |
 
 # 视频（72）
 

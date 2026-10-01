@@ -9,6 +9,7 @@ export type CategoryId =
   | "story"
   | "object"
   | "craft"
+  | "handraw"
   | "code";
 
 export type Medium = "image" | "video";
