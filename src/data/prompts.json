@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "count": 450,
+  "count": 456,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0.",
   "categories": [
     {
@@ -14375,6 +14375,197 @@
       "prompt": "Create a tutorial video explaining how to create videos using Lemo-Opuscar skill (Opus 5.5) , in a [Whiteboard Explainer] style.  One prompt, one answer, then ship film.",
       "covers": [
         "/covers/lemomo-whiteboard.jpg"
+      ]
+    },
+    {
+      "no": "451",
+      "id": "suxiaole-picturebook",
+      "title": "生活照片绘本转绘",
+      "kicker": "Picture book",
+      "excerpt": "一张生活照转成暖纸绘本插画，视角、姿势和衣服不另编。",
+      "style": "当代绘本生活转绘",
+      "category": "craft",
+      "tags": [
+        "绘本",
+        "转绘",
+        "粉彩"
+      ],
+      "medium": "image",
+      "slots": [
+        "MAIN TITLE",
+        "SMALL NOTE 1",
+        "SMALL NOTE 2"
+      ],
+      "creator": {
+        "id": "ai_suxiaole",
+        "name": "苏乐",
+        "handle": "ai_suxiaole",
+        "url": "https://x.com/ai_suxiaole"
+      },
+      "sourceUrl": "https://x.com/ai_suxiaole/status/2106000660626063521",
+      "model": "生活照转绘",
+      "date": "2026-10-02",
+      "notes": "提示词为原帖回复全文，未改写。标题槽位仅在用户给出原文时启用。",
+      "prompt": "Use the uploaded photograph as the sole source for the subject, identity, pose, expression, clothing, accessories, important objects, camera angle, framing, location, season, weather, lighting, and narrative theme.\n\nTransform the entire photograph into one standalone contemporary picture-book lifestyle illustration on warm textured paper. Output only the completed illustration—not the source photograph, not a before-and-after comparison, not a top-and-bottom layout, not a split screen, and not a collage.\n\nPreserve the source image’s camera viewpoint and composition. If the photograph uses a high angle, low angle, close-up, overhead view, or unusual perspective, retain that perspective and its foreshortening. Preserve the original visible body range and crop. Do not zoom out, expand the scene, or invent body parts outside the photograph.\n\nPreserve the main subject’s recognizable identity anchors: hairstyle silhouette, hair length and color, approximate face shape, apparent age, expression category, gaze direction, clothing categories, dominant garment colors, visible patterns, footwear, bag, glasses, jewelry, hat, hood, and other distinctive accessories. Preserve the original pose, hand gesture, arm position, leg position, body orientation, and interaction with the environment.\n\nRedesign the person as a charming contemporary picture-book character with moderate stylization. Use a softly simplified face, expressive but not excessively enlarged eyes, delicate eyebrows, a small simplified nose, a clearly readable mouth, warm rosy cheeks, and graceful facial contours. Preserve enough hairstyle, face-shape, expression, and accessory information for the character to remain recognizably connected to the source person.\n\nDo not trace the photograph mechanically. Simplify and reorganize facial details into a coherent illustrated language while preserving the original emotional tone. A smile, wink, pout, serious expression, surprise, or other distinctive expression must remain recognizable.\n\nRender the hair with flowing groups of fine ink, colored-pencil, and dry-pastel strokes. Preserve its approximate length, curl pattern, parting, volume, direction, and movement. Avoid both photorealistic individual strands and a flat plastic hair shape.\n\nRender clothing and accessories with broad matte color regions, loose sketch lines, dry-brush edges, and visible colored-pencil or oil-pastel texture. Preserve the major garment layers, silhouettes, color relationships, recognizable patterns, bag placement, footwear, and important accessories. Simplify minor seams and hardware without replacing the outfit.\n\nMedium and surface:\ncombine matte gouache, oil pastel, wax crayon, colored pencil, dry ink, and distressed screen-print texture. Use slightly broken contours, uneven pigment coverage, visible paper grain, scattered speckles, rubbed edges, subtle print misregistration, dry-brush gaps, and handmade irregularity. The result should look drawn and printed on fibrous paper rather than digitally airbrushed.\n\nDerive the palette from the uploaded photograph. Preserve its dominant colors and emotional temperature, then translate them into a slightly muted, warm, print-friendly palette. Do not impose autumn orange, yellow leaves, dark pavement, or any other seasonal palette unless those elements are supported by the source image.\n\nInfer the environmental theme exclusively from the source:\n- spring scenes may use fresh greens, blossoms, pale sunlight, and airy decorative marks;\n- summer scenes may use clear blues, bright vegetation, warm light, water, or lively saturated accents;\n- autumn scenes may use ochre, rust, dry leaves, and warm dark ground;\n- winter scenes may use cool gray-blue, snow, bare branches, knit textures, and soft indoor light;\n- indoor scenes should preserve their actual domestic, café, office, bedroom, or studio atmosphere;\n- urban, seaside, forest, travel, celebration, and everyday-life scenes should retain their own recognizable contextual motifs.\n\nThese examples are conditional, not mandatory. Never change the source season, location, weather, or activity merely to fit a predetermined theme.\n\nSimplify the environment into large readable graphic shapes while retaining the scene-defining elements needed to understand the location and action. Translate existing plants, flowers, snow, water, clouds, architecture, furniture, street markings, seasonal objects, or ground textures into the same handmade illustration language. Remove irrelevant photographic clutter.\n\nUse decorative motifs only when they are already present or logically supported by the source environment. For example, use leaves for a leafy street, flowers for a garden, waves for a seaside scene, snowflakes for a snowy setting, stars for a nighttime scene, or small household motifs for an indoor memory. Do not add autumn leaves to unrelated scenes.\n\nKeep the main subject as the clear focal point, occupying approximately the same visual importance as in the source. Create contrast using the source-derived background colors rather than automatically using a black background. Background shapes may be dark or light depending on what best preserves the original atmosphere and separates the subject.\n\nOptional companion-animal module:\nPreserve an animal if one is already present in the source. Add a new small companion animal only when the user explicitly requests one. Render it in the same gouache, pastel, and printed-paper style. Do not insert a default cat.\n\nOptional typography module:\nAdd lettering only when the user supplies exact text.\n\nMain title:\n[MAIN TITLE]\n\nSmall note 1:\n[SMALL NOTE 1]\n\nSmall note 2:\n[SMALL NOTE 2]\n\nRender the main title as loose hand-painted lettering with naturally uneven strokes. Render secondary notes as smaller handwritten text. Choose lettering colors from the image palette so they remain readable but secondary to the subject. Add no more than two small hearts, underlines, stars, leaves, flowers, or similar marks, and only when they match the source theme.\n\nUse only the exact supplied wording. Do not infer the season from the title, translate the text, rewrite it, or invent captions. If no wording is supplied, omit all typography.\n\nFinish the artwork with a subtly distressed printed-paper treatment: worn pigment, scattered grain, small flecks, dry-brushed transitions, and naturally broken marks near portions of the perimeter. This should feel like handmade printing on paper, not a picture frame, Polaroid, torn-paper collage, or decorative border.\n\nOverall aesthetic:\na warm contemporary picture-book lifestyle illustration, editorial memory poster, matte gouache, colored pencil, oil pastel, distressed screen printing, tactile paper grain, expressive character drawing, source-derived colors, handmade warmth, and moderate visual sweetness.\n\nAvoid: retaining photographic regions, comparison layouts, fixed autumn styling, automatic orange leaves, changing the source season, changing the location, changing the weather, pasted photo faces, photorealistic skin, smooth digital gradients, glossy 3D rendering, clean vector art, extreme chibi proportions, giant sparkling eyes, generic replacement faces, changed hairstyle, changed outfit, changed pose, invented limbs, expanded framing, random animals, unrelated decorations, excessive environmental motifs, invented text, fake signatures, logos, social-media marks, or watermarks.\n\nReplace the entire uploaded photograph with the illustrated artwork. Return exactly one full-frame illustration. Do not display, reproduce, embed, or retain the source photograph anywhere in the final output.",
+      "covers": [
+        "/covers/suxiaole-picturebook.jpg"
+      ]
+    },
+    {
+      "no": "452",
+      "id": "dotey-ink-tea",
+      "title": "茶与慢生活水墨页",
+      "kicker": "Ink slide",
+      "excerpt": "参考图管风格，正文只写标题。宣纸、水墨留白和侘寂。",
+      "style": "水墨侘寂幻灯",
+      "category": "poster",
+      "tags": [
+        "水墨",
+        "宣纸",
+        "幻灯"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "dotey",
+        "name": "宝玉",
+        "handle": "dotey",
+        "url": "https://x.com/dotey"
+      },
+      "sourceUrl": "https://x.com/dotey/status/2105775463624810788",
+      "model": "Manus · 参考图风格",
+      "date": "2026-10-01",
+      "notes": "已有作者的新风格：水墨侘寂幻灯，不是先前条目。提示词为原帖图2完整提示词，未改写。",
+      "prompt": "Create a professional presentation slide with the following content:\n\n标题‘茶与慢生活’，副标题‘留一点时间，给一杯茶’。设计需遵循参考图中的风格：安静、内敛、侘寂，使用水墨极简风格和水墨留白，背景为宣纸纹理。文字应居中、清晰。\n\nHierarchy & Layout Guidance:\n- Lead with the most important narrative element (headline / metric) and follow with supporting copy in clear sections\n- Any charts should reflect real data provided in the content prompt and stay faithful to the described sources\n- Arrange imagery and copy so the viewer can scan left-to-right or top-to-bottom; avoid vertical stacking of charts/images\n\nVisual Direction:\n- Professional and clean\n- Follow the style of the previous slide image (if provided) for visual continuity\n\nRequirements:\n- Professional presentation layout with clear visual hierarchy\n- Text must be clearly readable with appropriate contrast against the background\n- Include title area and content area as appropriate\n- Maintain consistent style suitable for a professional presentation\n- High quality, publication-ready visual design\n- All text should be sharp and legible\n- Keep all essential text comfortably inside the frame; avoid placing text at the very edges\n- Balance visual elements with whitespace so the slide feels clean and not cluttered",
+      "covers": [
+        "/covers/dotey-ink-tea.jpg"
+      ]
+    },
+    {
+      "no": "453",
+      "id": "mafi-apple-showreel",
+      "title": "苹果风产品介绍片",
+      "kicker": "Showreel",
+      "excerpt": "一句提示词出 20 秒苹果式产品介绍动效，产品名可换。",
+      "style": "苹果式产品介绍动效",
+      "category": "code",
+      "tags": [
+        "代码",
+        "产品",
+        "Opus"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [
+        "제품이름",
+        "제품 설명"
+      ],
+      "creator": {
+        "id": "chungmuromafia",
+        "name": "Mafi",
+        "handle": "chungmuromafia",
+        "url": "https://x.com/chungmuromafia"
+      },
+      "sourceUrl": "https://x.com/chungmuromafia/status/2105675998109065701",
+      "model": "Claude Opus 5.5 · 代码成片",
+      "date": "2026-10-01",
+      "notes": "作者说明用 Opus 5.5 做产品介绍片。提示词为原帖英文原文，未改写。",
+      "prompt": "make a dynamic 20-second apple showreel style motion graphics video about introducing {제품이름} that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.\n\n{제품이름}: {제품 설명}",
+      "covers": [
+        "/covers/mafi-apple-showreel.jpg"
+      ]
+    },
+    {
+      "no": "454",
+      "id": "notdwd-frame-launch",
+      "title": "逐帧发布片",
+      "kicker": "Frame by frame",
+      "excerpt": "桌面、窗口和标语全部按帧表用代码渲，不是生视频模型。",
+      "style": "逐帧桌面发布片",
+      "category": "code",
+      "tags": [
+        "代码",
+        "发布片",
+        "Opus"
+      ],
+      "medium": "video",
+      "use": "product",
+      "slots": [],
+      "creator": {
+        "id": "notdwd",
+        "name": "dawood46",
+        "handle": "notdwd",
+        "url": "https://x.com/notdwd"
+      },
+      "sourceUrl": "https://x.com/notdwd/status/2105968913796526285",
+      "model": "Claude Opus 5.5 · HTML 逐帧",
+      "date": "2026-10-02",
+      "notes": "作者说明成片每一帧都是代码。提示词为原帖可复制全文，未改写。",
+      "prompt": "<inputs> Ask me for: my product name, a logo (or draw a simple mark), my brand colours (or pull them from the logo), five app names for a Mac dock, the name of my chat app, the line a user types into its composer, a 7-word headline about the problem, two \"Zero ___\" words, two \"Every ___.\" lines, the closing line, and a music track. If I skip any, use these defaults: product \"Frame by Frame\" (an AI motion-video course); a viewfinder mark (four corner brackets around a bold \"FF\" and a four-point sparkle top-right) in a navy rounded-square badge; dock apps Murmur (coral chat), Loupe (amber camera), Folio (paper notes), Cache (teal files), Stacks (sky boards); composer line \"make a launch video for my app\"; headline \"Your launch video takes too many weeks.\"; \"Zero keyframes\" → \"Zero timeline\"; \"Every camera move.\" / \"Every transition.\"; closing line \"All in one prompt\"; and new synthesized music at 100.4 BPM. </inputs> <direction> A 20 second 16:9 launch film, 1920x1080 stage rendered at 3840x2160, frame numbers at 29.97 fps (f0–f596). Mac-desktop-to-brand story with a premium SaaS-ad feel: warm off-white, navy and sky blue, real photo wallpapers, crisp UI. Motion law for EVERY entrance and settle: p(n) = 1 − 0.61·0.78^(n−1). That is 39% of the distance on the first frame, then the remainder decays 22% per frame. Fast snap, soft landing. Exits do the opposite: they accelerate about 1.5× per frame into the cut, and the next shot starts already moving the same way. Background and UI always ride separate cameras. Zooms are crisp (no blur). Whips stay crisp too unless stated. Palette: page #F3F1EE, ink #121212, navy #294376, blues #42699D #5A82B4 #769CC2, teal #57D0B4, sky #7CC9E4. Type: Inter 400/500/600. No purple, violet or magenta anywhere. Story: a dock grows on a sunset desktop → the cursor clicks app after app (chat, video call, board), whip after whip → every window flies onto the desktop at once → the desktop shrinks into a laptop under \"Your launch video takes too many weeks.\" → \"Zero keyframes\" rolls to \"Zero timeline\" over a living blue colour field → the logo spins in and the wordmark washes on → the product's own chat app types the request and sends it → split screens: \"Every camera move.\" / \"Every transition.\" → \"All in one prompt\" over the field → the badge → the ink end mark. Banned: crossfades, ease-in-out on any measured move, smoothing keyframes, frozen frames (except the final hold), real public figures, stock UI kits, Math.random, copying any real brand's words. </direction> <structure> Coordinates are px on the 1920x1080 stage. Music grid: eighth notes every 8.97 frames, phase 0.433 s. Hard cuts at f52, 76, 94, 118, 153, 188, 225, 246, 281, 335, 357, 419, 509, 548, 570: keep these exact frames. S1 f0–51, dock on the desktop: Wallpaper: a calm sunset photo (still water, distant islands), softened 3 px, on its own camera. Camera scale 1.0 (f0) → 1.15 (f1) → 1.25 (f2) → 1.33 (f3) → 1.45 (f5) → 1.57 (f8) → 1.66 (f12) → 1.74 (f18) → 1.77 (f23), jump to 1.87 on f24, hold. Camera x (screen px of the scene origin): 0 → −473 (f6) → −627 (f12) → −680 (f18) → −645 (f23) → −735 (f24) → −520 (f30) → −480 (f36) → −466 (f42). f43–51 y whips −480 → −481 → −486 → −492 → −507 → −523 (accelerating). Dock: a frosted pill (white 14%, backdrop blur 18, 1.2 px rim at white 32%, radius 26% of height) at scene x663–1387, y468–632 (f0: a smaller empty pill x632–1288, y490–596). Five 120 px squircle icons (radius 22.5%, soft shadow) with centres at x754 + 135.4·i, y550. Icons pop on f1, 3, 4, 6, 7. Every icon after the first lands 18 px right and settles in 2 frames. The dock rides its own camera at 0.75× the wallpaper's scale until f23, then exactly 1.0 from f24. In the f43–51 whip it leads the wallpaper by up to 50 px. Cursor: black macOS arrow with white outline, 25 px tall at scene scale. f0 at screen (1686,728), off-screen right f2–14, re-enters f15 at (1800,782) decelerating to the icon-1 lower-right edge (1003,617) by f37. Click f36–44: the icon scales to 0.83 (origin 50% 80%) by f40 and back by f45. The cursor shrinks 12% with it. A 5 px white running dot appears under the icon at f40 and is full size by f42. S2 f52–75, chat app: A huge white window, radius 24, wide soft shadow, cropped by the frame: right edge x1713, bottom y997 at f52. Chat list x0–500: rows 134 px tall, cut-off circular avatars, name 27 px/600, preview 25 px grey, time right-aligned. Selected row #F1EFEC. Thread x501–1713: pale dotted background. Incoming bubbles are white from x523–533; outgoing bubbles are pale coral #FFE1D6 ending at x1690. 25.5 px text, radius 14, small grey times, coral double ticks. Composer bar y897–997: \"+\", a 61 px pill input, emoji, mic. The whole window scrolls up 203 px: −137 (f53), −175 (f55), −193 (f58), −201 (f62), −203 (f66). At f56 a new outgoing bubble \"Works best.\" pops from its bottom-right corner: scale 0.47 (f56), 0.86 (f58), 1 (f60). f66–75: whip left −12, −24, −48, −62, −85 px (accelerating). S3 f76–93: the same dock and wallpaper at scale 1.87. The camera settles left −117, −143, −154 … −168 (f85). The cursor clicks icon 2 at f84 (same click curve). f85–93: whip down −6, −14, −38, −107 px. S4 f94–117, video call: A dark window 1286x648 (radius 14, #1C1C1E) on the plain page at x317, rising y391 → 326 → 300 → 280 → 265 → 253 → 244 → 236 → 228 → 226 → 223 → 220 → 219 → 218. Inside: a top bar with traffic lights and an amber shield; five 137x76 participant tiles from x292 with name tags; a speaker tile 826x464 at (230,120) with a 2 px amber border holding a black-and-white stock portrait (never a real person); a toolbar y590–650 with 10 labelled icons, an amber \"Present\" and a red \"Leave\". f106–117: slides left −1, −2, −2, −2, −3, −4, −4, −6, −9, −12, −21 px per frame. S5 f118–152: the dock at scale 1.87; the camera pans x −92, −196, −329, −400, −438, −459, −469 (f139); the cursor travels to icon 5 and clicks at f138. f136–152: zoom 1.0 → 0.90 accelerating, x +100. S6 f153–187, desktop fills: The wallpaper zooms out on its own camera (1.12 → 1.0 by f175). The windows layer keeps x fixed and glides up: offset 166, 117, 94, 78, 65, 54, 45, 37, 31, 25, 20, 16, 12, 9, 6, 4, 2, 1, 0 (f171). Final rects: chat 652x552 at (310,143); call 954x482 at (486,252); notes 818x465 at (690,206); files (dark) 555x394 at (216,374); board 712x425 at (985,155). Fly-ins start at +150 px x and +300 px y with rotateX 58°, rotateY −28°, scale 0.82, perspective 1600 and origin bottom-centre. Progress per frame: call 0 (f153), .3, .7, .9, .97, 1 (f158); notes f156→160 (.3, .65, .9, 1); files f159→163; board f163→168. The dock rises 90 px with an ease-out f153–158 and sits at x730–1190, y945–1031 with 72 px icons at an 89 px pitch. Menu bar 42 px, translucent navy, drops in f164–166: \"⌘ [App] File Edit View Go Window Help\", \"12:43 PM\" right. f176–187: the whole desktop pulls out on scale 0.98 → 0.70, accelerating, and gets a 14 px rounded screen edge. S7 f188–224, laptop: The desktop becomes the screen (590x398 inside a 610x418 black bezel) of a silver laptop (762 wide; a deck trapezoid 882 wide below). One camera scales the laptop and the headline together: laptop x0..x1 = 375..1556 (f188), 490..1436 (f191), 541..1383 (f195), 568..1354 (f200), 577..1344 (f204), 579..1341 (f207), bottom y821. Headline 64 px, letter-spacing −0.03em, word gap 48 px, centred on x954, cap top y220 in the settled layout. Words pop at f191, 194, 198, 201, 204, 208, 211, each fading in over 2 frames. Colours: launch #4F78CF, takes #2C3550, too #7CC9E4, many #57D0B4, weeks. #294376, the rest #4B4A4A. f210–224: the laptop's left edge 578 → 577 → 574 → 568 → 557 → 544 → 516 (accelerating), with everything riding it. S8 f225–280, \"Zero\": Colour field everywhere from here: a horizontal ramp #57D0B4 (0) → #7CC9E4 (.28) → #7AA6E6 (.5) → #4F78CF (.74) → #2C428F (1) under a soft wavy top edge (gaussian σ ≈ 65 px). The edge sits around y650–860 here, with crests drifting 2–8 px per frame. f225–245: the giant word, cap height 542 px, navy #294376, cap top y314, left edge 634 → 479 → 421 → 382 → 353 → 330 → 311 → 290 → 266 → 230 → 152 (every 2 frames). The field washes the bottom of the letters. f246: cut to a small line, 94 px, −0.058em, cap top y495. Left edge 1080, 921, 853, 810, 778, 754, 735, 720, 708, 698, 690, 683, 678, 675, 672, 671, 670, 669. f250: \" keyframes\" appears whole (not typed). f262–266: slot roll. The old word moves −1, −4, −8, −16, −32 px and fades; the new word \"timeline\" comes from +44, +20, 0 (f267). Blur = |offset|/14. f267–280: the line shrinks into the centre: width 644 → 627 (f272) → 597 (f276) → 546 (f279) → 502 (f280). S9 f281–334, logo: Badge 218 px (radius 22.5%, navy gradient #2B477C → #78A0C6, a 45% white ring, white glyph) centred at (956,533). Rotation per frame: −90, −64, −52, −43, −36, −30, −25, −21, −18, −15, −12, −10, −8, −6, −5, −3, −2, −1, 0 (f300). Scale per frame: 1.96, 1.68, 1.53, 1.43, 1.36, 1.29, 1.24, 1.19, 1.15, 1.12, 1.09, 1.07, 1.05 … 1.0. f299–319: the badge slides left so badge + 33 px gap + wordmark centre on x960. Slide progress: 0, .06, .15, .35, .66, .82, .90, .95, .98, 1. Wordmark 88 px Inter 600, −0.02em, appears whole at f301 at 55% opacity, full by f303. A colour wash crosses it left→right over 22 frames: each letter goes teal → sky → blue → cornflower in 2-frame steps, then ink #16181D. f321–334: the lockup rises 0 → −5 → −16 → −28 → −44 → −73 px (accelerating). S10 f335–356, hero app: The product's own chat app, 1006x715, radius 12: title bar: navy #1F3566, nav icons, a \"Search [Product]\" pill; an 86 px navy rail: logo badge, Home/DMs/Activity/Later/Options, \"+\" circle, avatar; a channel list panel #EEF2F8, 196 px: workspace name, channels, DMs with greyscale avatars, apps; a white pane with \"# general\", a date pill, three messages with reactions and reply threads, and a composer with a blue send button #42699D. Over an aerial ocean photo on its own camera (scale 1 → 0.85, ease-out). Window top-left per 3 frames: (457,340), (457,252), (457,220), (455,202), (451,191), (442,185), (423,182), (364,182) at f356. S11 f357–418, composer close-up: The window at scale 2.97, top fixed (window local y → screen y·2.97 − 1357). x: the avatar status dot (local x58) sits at screen 271 → 172 → 140 → 121 → 101 (f382). Typing \"make a launch video for my app\" from f359 at ~1.4 chars per frame, caret on. f383–389: accelerating whip left (steps grow −20, −25, −32, −41, −54, −78, then the big final leap) landing the send button (local x943) at screen x1745 (f389), 1548 (f391), 1387 (f395), 1292 (f400), 1231 (f405), 1134 (f410), 788 (f418). Press f403–405: the button brightens to 155% with an 18 px glow, then releases over 5 frames. S12 f419–508, split: White page. An ocean card holds the app window (window x 404 → 321 → 272 → 241 → 220 → 207 → 200 → 199 (f442) → 206 → 214 → 227 → 246 → 283 (f460), y182). The card's right edge is the panel boundary at x1649 (f419) → 1469 → 1401 → 1359 → 1331 → 1313 → 1302 → 1297 (f440), then back out to 1369 (f458). Text 52 px Inter, −0.03em, left = card right + 90, cap top y513: \"Every camera move.\" types f422–434. f461–478: the card (1380 wide) slides right, left edge 53, 132, 346, 399, 432, 457, 477, 494, 508, 520, 531, 540, 548, 555, 562, 567, 572, 576 → 596 (f488), pushing the old line off-frame. \"Every transition.\" types 1 char per frame from f466 in the new left panel at x128. f491–508: everything rises 0 → −2 → −6 → −12 → −21 → −35 → −59 → −120 px. S13 f509–547, closing line: The full colour field (top edge around y80–410, a bowl shape, drifting). \"All in one prompt\" 88 px white, left edge fixed at x665, cap top 700 (f510) → 668 → 644 → 624 → 606 → 588 → 571 (f516) → 536 (f520) → 508 (f526) → 499 (f530) → 495 (f534). About 1 letter per frame. The newest 1–3 letters are dark navy #0C1A36, turning white on the next frame. Complete and all white by f527. S14 f548–569: page #F3F1EE, the badge 190 px centred, still. S15 f570–596: the ink version of the badge (#121212 square, white glyph, no ring) 220 px centred. Final hold (the only frozen stretch). </structure> <build> 1. One HTML page drawn by seek(t) as a pure function of the frame number. No CSS transitions, no timers, no Math.random (seeded hashes only). Shots register as {f0, f1, render(F)}. 2. Every value comes from keyframe tables kf(F, [[f, value], ...]) or per-frame lookup tables with linear interpolation. Never smooth these tables. 3. Separate camera transforms per layer (wallpaper, dock/windows, cursor). Cursor = one SVG macOS arrow reused everywhere. The colour field is an SVG path through 33 edge points per frame with a gaussian blur, filled by the ramp gradient. 4. Before rendering, scan every table for one-frame outliers and bad first/last values. A single bad number is a visible glitch, so block the render if any exist. 5. Sound: new music at 100.4 BPM. Airy pad 0–9 s, then the groove from f270 (kick, clap on 2 and 4, hats on eighths, bass, plucked arp), fullest 12.5–14.5 s, fading under the end mark. SFX (synthesized): whoosh f0; pops f1, 3, 4, 6, 7, 56, 549; clicks f39, 84, 138, 403; whips f46, 70, 88, 112, 182, 243, 331, 381, 459, 498; fly-in whooshes f152, 155, 158, 162; snap f164; word ticks f191, 194, 198, 201, 204, 208, 211, 250; thump f225; impact f281, f510; sparkle f301; typing ticks f359–381, 422–434, 466–479, 510–526; chime f570. Master to −14 LUFS, true peak −1 dBTP. 6. Render with Playwright at deviceScaleFactor 2, one screenshot per frame after fonts and images load. Encode H.264 yuv420p at 30000/1001 and mux the audio without -shortest (it drops the last frames). Count the frames: 597. </build> <gotchas> Measure text only after the fonts load. A longer product name makes the S9 lockup wider. Keep it centred on x960 and slide the badge further left. Busy, high-texture wallpapers strobe on the whips: use a calm photo and soften it, don't add blur. The window fly-in start pose must be close (+150, +300). Far-away starts make windows pop in late. The first letter at f510 must flash navy too. A frozen field at f509–510 reads as a glitch, so keep the edge drifting every frame. Faces must match names, and no avatar can show a backing layer. Run a motion critic and a design critic (separate agents, default stance reject) and fix what they find before showing me. </gotchas> <start> Ask me for the inputs. Then show me 4 stills (f40 the dock click, f170 the full desktop, f300 the logo, f530 the closing line) before you render the full film. </start>",
+      "covers": [
+        "/covers/notdwd-frame-launch.jpg"
+      ]
+    },
+    {
+      "no": "455",
+      "id": "madmax-aaa-rumble",
+      "title": "末日奇幻军团过场",
+      "kicker": "AAA fantasy",
+      "excerpt": "硬切连接的巨型军团、骨架生物和肉搏，AAA 奇幻过场。",
+      "style": "AAA 奇幻战争过场",
+      "category": "cinema",
+      "tags": [
+        "奇幻",
+        "过场",
+        "动作"
+      ],
+      "medium": "video",
+      "use": "action",
+      "slots": [],
+      "creator": {
+        "id": "MadMax_Series",
+        "name": "MadMax",
+        "handle": "MadMax_Series",
+        "url": "https://x.com/MadMax_Series"
+      },
+      "sourceUrl": "https://x.com/MadMax_Series/status/2105312487327334547",
+      "model": "Opus 5.5 · Seedance 2.5",
+      "date": "2026-09-30",
+      "notes": "成片是生视频模型，不是代码渲。提示词为原帖全文，未改写。",
+      "prompt": "全片生物、面部近景、建筑和远景统一为明显电脑生成的高品质AAA奇幻游戏过场动画，使用数字雕刻脸模、经过美术设计的材质光影与成束头发，不混入实拍演员，不采用2D动画、赛璐璐描边或普通gameplay。整体是由连续硬切连接的末日奇幻战争蒙太奇：巨型军团推进、远超军团尺度的骨架生物显露、城内两只巨人短暂肉搏，最后切到另一只猿形巨人的咆哮蓄能；不同生物保持各自身份，不把这些切镜做成同一角色连续变形。环境与色彩：密集的中世纪半木构城市，红褐瓦顶、深棕木梁、浅米色墙面、窄石街、烟囱、尖顶塔楼与高耸外围石墙；所有普通房屋、街道和塔楼都远小于巨人，战斗者的腰胸高过附近屋顶，巨型军团更高，远处骨架生物又远超整个军团。厚重灰褐烟云和橙金逆光覆盖城市，浮尘、碎瓦和蒸汽形成多层纵深；开头为浓重焦褐尘雾，中段为暖金天空照亮的城内废墟，结尾为巨大圆形金色逆光与翻卷云雾，保持同一末日暖金色系。A巨型军团：多排无发的超巨大成年男性化人形生物，宽肩厚胸、深红肌束与浅象牙腱膜、深陷眼窝和清楚齿列，肋部及肩胸表面具有连续雕刻组织；这是生物本来的完整外观，不是新鲜伤口，没有流血。它们空手、无衣甲，前后排列有真实纵深，头肩与步幅略有差异，沿同一个方向持续缓慢行进，身体周围蒸汽升腾，脚下带起尘浪，不是静止观众或重复粘贴的同一人。B骨架巨构：军团后方仅有一个远比它们庞大的非人骨架生命体，浅褐象牙色中央脊柱高耸，两侧大量狭长弧形肋骨向外展开再向下弯曲，像覆盖军团上空的巨大骨架穹顶，肋弓之间有真实空隙，不是翅膀或建筑。前部低悬着一张狭长的红褐骨质面孔，深眼窝、尖长耳、露齿下颌，黑色长发成束垂落在面部两侧，头部通过颈部连接同一骨架，不是独立漂浮的头。最初眼睛暗，随后两眼亮起翠绿色光。C黑发硬拳巨人：中段肉搏主角之一，强健修长的人形非人生物，棕褐皮肤与清楚胸腹肌束，肩背宽而腰收，长深棕黑发、尖耳、强下颌与齿列，双眼翠绿发光。两只拳头及下段前臂覆盖浅灰白色粗糙硬化结晶，晶层依附真实拳指与腕部，仍是同一双手，不是手持石块或拳套武器；肘关节以上保留原本肌肉形态。D浅金骨甲巨人：另一名肉搏者，体量与C接近但更宽厚，短浅色头发、浅金色眼光，脸、胸、背、肩和四肢有层叠浅金褐色生物骨甲，深褐肌束连接甲片之间，甲片是身体的一部分，不是穿戴金属盔甲。空手，两臂与头部全程完整，肩颈逸出薄蒸汽。E黑鬃猿形巨人：末段独立角色，厚重黑褐毛发覆盖巨大肩背与极长双臂，躯干前倾，腿较短且强健，沉重猿人面孔、后梳深色头发、突出眉弓、尖耳与猩红眼睛，嘴中有成排尖齿。它与C、D和B是不同生物；长臂、黑毛与红眼始终保留。0.00–2.20秒：立即从浓重橙褐烟尘中的略倾斜近中景开始，前景破碎屋脊、墙板与石块遮住画面下部，数名A的巨大无发头颅与肩胸从废墟后方逼近，后面还能看见更大的模糊肋骨轮廓。摄影机沿废墟缓慢侧移，近处残墙与碎片快速横过，远处头颅较慢移动形成尺度与parallax；蒸汽和尘流不断穿过它们面前。2.20–4.20秒：切到接近地面的斜侧宽景，整排A从画面近侧延伸到远处，宽肩、长臂与肌束胸腹从烟中显出，身体随沉重步伐交替起伏，手臂自然摆动。摄影机沿军团方向缓慢退移，前景滚动尘浪，后排继续推进，不能让军团站定摆姿势。4.20–7.20秒：硬切正面低角极宽景，A的前排头肩横贯画面下方，B的巨大中央骨架与两侧肋弓在它们后方高高耸起。镜头缓慢上仰并略微前推，烟云先遮住上部结构再被气流拨开，低悬长发面孔位于中央骨架下方。两次短促金色闪电在远后方云层中亮起，瞬间照亮肋骨边缘、云团与军团轮廓后迅速衰退，闪电不是射向士兵的攻击，也不把已有生物变成其他形态。7.20–9.60秒：切B低悬面孔的正面紧近景，巨大的弧形肋骨仍在头后形成连续背景。黑发束垂在两颊旁，尖耳向外，头部微微抬正；先保留深暗眼窝，随后两眼由暗变为清晰翠绿光，视线凝向前方。烟和小尘粒持续通过镜头，不让脸冻结，不添加对白或眼部光束。9.60–11.60秒：以烟雾中的硬切转入另一片城内街区，低角正面中全景，C从灰褐尘幕中向前迈步显露，双拳低垂，胸腹与肩背随步伐运动，两侧较小塔楼和红瓦屋顶明确显示巨人尺度。镜头略向前接近，翠绿眼光透过黑发可见，两只浅灰硬化拳和前臂同时保持清晰；这不是B缩小成人形，也不复制出第二个C。11.60–12.40秒：突切向上仰拍的云天，一具蜷曲的巨大人形轮廓处于金色分叉闪电和近圆形发光蒸汽团中央，身体向下坠近，一臂抬过头侧，一膝收起。电弧沿周围空气和身体轮廓分叉，强光短暂压暗背景。只展示这个有实体身体的空中电光片段，不插入小人长大或从C体内分裂出的过程。12.40–13.20秒：切城内贴石街的倾斜低机位，远处房屋之间D已处于落地后的低蹲，石块和瓦片被震起，贴地尘浪沿街涌向镜头；落地位置与尘浪源点一致。高墙和红瓦屋顶上方可见一艘遥远的浅色长椭圆飞艇，缓慢漂移，不发射、不爆炸。镜头随地面冲击短震，屋顶和瓦片为巨人尺寸参照。13.20–14.20秒：切贴近D侧面的快速跟拍，D从低姿势向前冲出，躯干前倾、双脚交替蹬地、弯肘摆臂，肩颈蒸汽向后拖；浅金骨甲保持固定在同一身体上，双手空着，背景瓦屋和烟囱迅速后移。14.20–15.00秒：切C略低角胸上近景，C迅速转头、转肩看向冲来的D，长黑发被甩向一侧，翠绿眼睛锁定对手，下颌绷紧，身体开始转髋迎击；镜头贴近其面部短促跟转，不停下来重新对峙。15.00–16.00秒：切街道低位双人宽景，C在screen-left，D在screen-right，两者在小型房屋之间快速缩短距离。C踩稳前脚、后脚抓地，右肩和右髋向后蓄力，右侧硬化拳明显拉到身后，左臂在前方保持平衡；D继续向C压近并抬臂，瓦片和灰尘从两者脚边翻起。完整看见脚底支撑、转髋与拳头准备，不出现瞬移换边。16.00–17.40秒：摄影机快速贴过C肩侧并跟随右臂前送，C由后脚蹬地、髋部旋转带动肩和右侧硬化拳，沿单一清楚弧线打向D面侧。黑发向后甩，眼部转动带出极短翠绿拖光而不是激光；拳头逼近时短暂放慢以看清轨迹，随后清楚接触D脸侧骨甲。接触产生紧凑粉尘、小硬质碎屑与少量火星，D的头和肩先受力偏转，再带动上半身后仰。拳臂没有穿过头颅，没有血或断裂肢体，摄影机在接触瞬间短促震动。17.40–18.50秒：顺接倾斜的D近中景，他的头、肩和胸甲沿第一拳的力量方向扭转后退，两臂被甩开后开始重新收拢，脚下在瓦砾间调整支撑。镜头随上半身退移，下方红瓦屋顶保持远小于他，C仍在同一侧近处，不把这一反应剪成新变身或完全倒地。18.50–20.40秒：切回较宽的双人侧面构图，C再次把右侧硬化拳抬高至头上方形成威胁，另一只硬化拳处于较低前方。D向前顶身并抬起弯曲前臂试图反击或格挡；C迅速降低头肩、上身前折并侧转，近前的另一只硬化拳顺身体运动斜向压入D面侧。保持两条手臂独立可读，实际接触位于D脸部，不能让C双拳同时穿入同一点。D再次头肩后偏、双臂抬起，少量火星与尘屑散开；这一接触后的身体折转短暂减速，头发、尘粒与碎瓦继续运动。结束在两者仍然交锋的动作中，不补摔投、C飞离地面、倒地追打或宣布胜负。20.40–23.00秒：直接硬切新地点的正面远景，E独自立于巨大圆形金色逆光前，厚云与蒸汽在身体周围涌动。它低头弓背，两条极长手臂垂近膝下，双腿分开支撑，肩背随深沉呼吸缓慢起伏；金光勾出黑毛轮廓，烟流从肩后卷过。摄影机缓慢接近，不把圆形逆光变成击中身体的火球，不让C或D变成E。23.00–25.00秒：切E正面略低角胸上近景，黑褐毛发覆盖两侧巨大肩膀，猿人面孔逐渐从阴影中抬起，猩红双眼看向摄影机方向，鼻翼与嘴角绷紧，颈肩向前压。暖金光扫过眉骨、尖耳和面部结构，嘴开始张开，露出尖齿，保持同一张脸和同一毛发分布。25.00–30.00秒：镜头继续推近E的脸，它向前探头、张大嘴发出持续无语言咆哮，肩胸和下颌随呼气震动。口腔与下颌前方逐渐聚起一团紧凑金白光核，先是小亮点，再变成更亮的球状能量；细小分叉电丝在嘴边、近处空气和毛发前缘跳动，照亮牙齿、下颌、黑毛与附近尘雾。红眼、齿列和嘴的外轮廓仍然可读，光核固定在张开的嘴部附近，不出现在手心、胸口或额头。30秒结束在咆哮与光核持续增强的活画面，尚未射出任何光束、炮弹或火球，不新增被击中的目标，不加黑场、定格或片尾。节奏与连续性：军团与巨大骨架段缓慢沉重但持续运动，眼睛点亮前后的等待紧凑；闪电降临、落地、冲锋、转身迎击与连续两次拳击快速衔接，局部减速只用于看清拳击接近及第二次接触后的力量传递，不全局慢放、不长时间停在摆拳姿态。军团、骨架巨构、两名肉搏者和猿形巨人是不同主体；用明确硬切切换段落，不随镜头更换生物外观。两只硬化拳始终属于C同一双手，D的浅金骨甲始终属于D身体，E始终黑毛红眼；没有手持武器、交换甲片、多余肢体或融合手臂。所有建筑始终是人类城市的正常尺度，巨人腿部可被屋顶、街墙与烟尘遮住但身体不中断，接触产生的尘屑从真实受力点散开，碎石受重力下落，烟雾与蒸汽持续流动，骨架与肌束属于完整幻想生物设计，不添加血液、伤口或肢解。严格禁止背景音乐：全片任何时段均不得生成背景音乐、电影配乐、音乐音轨、旋律、节奏性打击乐、合唱、歌曲、音乐性持续音或音调性氛围铺底。仅允许与画面同步且物理上属于场景的画内声（diegetic audio）：巨型脚步与地面低沉震动、风穿过残墙、瓦砾滚动、蒸汽嘶鸣、建筑受压和碎石坠落、短促闪电爆鸣、落地冲击、急速奔跑与空气掠过、两次清楚的硬化拳撞击骨甲、碰撞处细碎硬质碎屑、粗重呼吸，以及结尾持续的非语言兽吼和口边不规则电弧噼啪声。巨响之间保留真实风声和烟尘空间，不把脚步、拳击或电弧编排成鼓点；能量声音只随可见电弧变化，不生成持续音乐低音。无对白、无旁白、无可懂喊词、无歌曲、无字幕；不得用脉冲声、管弦乐重击、旋律化音效设计或节奏性音效填补没有音乐的空缺。出现任何背景音乐或配乐即判定为不合格。music=0; no_music=1; strict_no_music=1; audio=diegetic_only; 原生满幅，无黑边、屏幕文字、标题、可读徽章、标识、播放器控件、界面、水印或片尾卡。",
+      "covers": [
+        "/covers/madmax-aaa-rumble.jpg"
+      ]
+    },
+    {
+      "no": "456",
+      "id": "xiaoer-cyanotype",
+      "title": "蓝晒植物卡点",
+      "kicker": "Cyanotype",
+      "excerpt": "蓝晒植物随曲子生长、切换，最后收成一张完整构图。",
+      "style": "蓝晒植物卡点",
+      "category": "code",
+      "tags": [
+        "代码",
+        "蓝晒",
+        "卡点"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "xiaoerzhan",
+        "name": "小耳 Jane",
+        "handle": "xiaoerzhan",
+        "url": "https://x.com/xiaoerzhan"
+      },
+      "sourceUrl": "https://x.com/xiaoerzhan/status/2105313046360936742",
+      "model": "Claude Opus 5.5 · 蓝晒卡点",
+      "date": "2026-09-30",
+      "notes": "作者说明画面由音乐驱动、用 Opus 5.5 卡点。提示词为原帖回复全文，未改写。",
+      "prompt": "用蓝晒风格给我这支曲子制作一首mv\n要求植物是生长的姿态\n植物可以包含蕨类植物，普通树叶\n让画面有切换\n让最后给一副完整的完美构图\n画面必须跟音乐完美卡点\n植物的生长要有细节的展现\n先去做一些调研\n请开始给我这个完美的蓝晒mv 吧",
+      "covers": [
+        "/covers/xiaoer-cyanotype.jpg"
       ]
     }
   ]
