@@ -8,7 +8,7 @@
   },
   "scripts": {
     "data:sync": "node scripts/sync-folio-data.mjs",
-    "data:check": "node scripts/check-folio-data.mjs",
+    "data:check": "node scripts/check-folio-data.mjs && node scripts/check-folio-refresh.mjs",
     "data:check:reconciliation": "node scripts/check-folio-data.mjs --verify-reconciliation",
     "predev": "npm run data:sync",
     "prebuild": "npm run data:sync",

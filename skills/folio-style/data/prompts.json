@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 456,
+  "count": 471,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags.",
   "categories": [
     {
@@ -16836,6 +16836,518 @@
       "scenarios": [
         "feeling",
         "story"
+      ]
+    },
+    {
+      "no": "457",
+      "id": "x-2106205609112879495",
+      "title": "山谷双重曝光自我肖像",
+      "kicker": "双重曝光",
+      "excerpt": "以同一人的近景与全身像叠出个人介绍画面。",
+      "style": "笔触双重曝光",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "双重曝光",
+        "身份保持"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "DilshadAI1",
+        "name": "Dilshad Hussain",
+        "handle": "DilshadAI1",
+        "url": "https://x.com/DilshadAI1"
+      },
+      "sourceUrl": "https://x.com/DilshadAI1/status/2106205609112879495",
+      "model": "GPT Image 2 / Nano Banana Pro / Gemini / Grok",
+      "date": "2026-10-03",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Keep the same features of the attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nfeaturing a young South Asian man with green eyes and a well-groomed beard. In the foreground, he is shown full-body, dressed in a green linen casual suit, leaning casually against a stone ledge, with a gold necklace and a watch. His eyes are green. Overlaid in the background is a large, close-up portrait of his face, with his striking green eyes as a focus. The entire composition has a dreamlike, brushstroke texture, set against a backdrop of a blurred mountain valley at dusk, creating a artistic and nostalgic atmosphere.",
+      "covers": [
+        "/covers/x-2106205609112879495.jpg"
+      ]
+    },
+    {
+      "no": "458",
+      "id": "x-2106043544846602330",
+      "title": "粉云时装观测室",
+      "kicker": "超现实",
+      "excerpt": "用棉花云、粉雾与夸张外套构思一组时装视觉。",
+      "style": "粉色实景超现实",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "超现实",
+        "时装",
+        "JSON"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "timedoctor_nft",
+        "name": "timedoctor.eth",
+        "handle": "timedoctor_nft",
+        "url": "https://x.com/timedoctor_nft"
+      },
+      "sourceUrl": "https://x.com/timedoctor_nft/status/2106043544846602330",
+      "model": "Gemini Nano Banana Pro",
+      "date": "2026-10-02",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "{\n  \"vibe_title_en\": \"The Weightless Surrealism of Pink Illusions\",\n  \"master_prompt\": \"A high-budget practical surrealist editorial shot. The Protagonist, captured in a Three-Quarter Editorial waist-up mid-shot. The subject's body is angled at 45 degrees, but the head is turned directly to the camera, anchored by a piercing, tranquil, and dissociative gaze. The Protagonist wears an avant-garde, massively oversized, bubbled-texture magenta couture puffer coat that is intentionally draped off one shoulder, revealing highly detailed, hyper-realistic bare skin, natural pores, and collarbone underneath. The setting is a surreal, monochromatic magenta observation chamber. The floor is engulfed in dense, rolling pink dry-ice fog. Suspended at various heights around the subject are hyper-realistic, fluffy cloud-like formations physically crafted from dyed raw organic cotton and spun sugar, hanging by invisible ultra-fine wires. The scene is illuminated by tall, vertical, diffused magenta luminescent pillars (NO NEON) that cast a soft but directional glow. A crisp, neutral-white overhead key light isolates the face, highlighting micro-details of the skin and the textural weave of the coat, while the background clouds glow with internal reflections. Shot on Hasselblad H6D-100c with a 50mm prime lens at f/1.4, creating a shallow depth of field that renders foreground cotton clouds slightly out of focus. Kodak Portra 400 film stock, authentic skin textures, natural imperfections, cinematic volumetric haze, tactile physical effects.\",\n  \"meta\": {\n    \"intent\": \"Editorial Surrealism\",\n    \"priorities\": \"Tactile Textures, Monochromatic Depth, High-End Practical Effects\",\n    \"device_profile\": \"High-Resolution Display\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Three-Quarter Editorial, Waist-up\",\n    \"layout\": \"Center-anchored face, asymmetrical framing with suspended clouds\",\n    \"camera_angle\": \"Eye-level, straight on to face, body at 45 degrees\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Protagonist\",\n    \"demographics\": \"Ageless, universal features\",\n    \"face\": \"Symmetrical, neutral, highly textured with visible pores and natural micro-imperfections\",\n    \"hair\": \"Pulled back cleanly, out of the face\",\n    \"body\": \"Body angled at 45-degrees, one bare shoulder exposed\",\n    \"expression\": \"Tranquil dissociation, piercing direct eye contact\",\n    \"pose\": \"Waist-up mid-shot, frozen in a subtle lean, one shoulder dropped\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Avant-garde oversized puffer coat\",\n        \"material\": \"Quilted, bubbled-texture synthetic silk\",\n        \"color\": \"Bubblegum magenta\",\n        \"fit\": \"Massive, disproportionate, draped off one shoulder\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Minimalist stud earring\",\n        \"color\": \"Translucent pink\",\n        \"material\": \"Resin\",\n        \"brand_style\": \"Avant-garde subtle\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"Monochromatic surreal observation room\",\n    \"surfaces\": \"Reflective floor entirely hidden by dense rolling fog\",\n    \"depth\": \"Shallow depth of field, background pillars fading into pink haze\",\n    \"atmosphere\": \"Thick volumetric pink dry-ice fog, floating raw-cotton clouds\",\n    \"lens_interaction\": \"Soft specular highlights on foreground out-of-focus floating cotton\"\n  },\n  \"lighting\": {\n    \"key\": \"Crisp neutral-white softbox overhead-angled\",\n    \"fill\": \"Ambient magenta glow from clouds and floor fog\",\n    \"rim\": \"Strong vertical magenta edge light from luminescent pillars\",\n    \"shadows\": \"Soft, color-tinted pink shadows wrapping around the face\",\n    \"color_temperature\": \"4000K (Key) mixed with deep magenta ambient gels\",\n    \"sensor_flare\": \"None, clean high-contrast edges\"\n  },\n  \"camera\": {\n    \"lens_type\": \"Prime\",\n    \"focal_length\": \"50mm\",\n    \"aperture\": \"f/1.4\",\n    \"focus\": \"Tack-sharp on the eyes and skin pores\",\n    \"sensor_format\": \"Medium Format (Hasselblad H6D-100c)\",\n    \"perspective_distortion\": \"None, classic portrait compression\"\n  },\n  \"post_processing\": {\n    \"color\": \"Monochromatic magenta dominance with natural skin tones meticulously preserved\",\n    \"tonality\": \"High contrast in the focal plane, soft atmospheric fade in the background\",\n    \"texture\": \"Kodak Portra 400 film grain, microscopic skin details\",\n    \"digital_sharpening\": \"None, pure optical sharpness\",\n    \"chromatic_aberration\": \"Minimal, only on extreme out-of-focus background pillars\"\n  },\n  \"negative_specifications\": [\n    \"Neon signs\",\n    \"digital illustration\",\n    \"3D render\",\n    \"cartoon\",\n    \"full body shot\",\n    \"cluttered street\",\n    \"rooftop\",\n    \"library\",\n    \"flat lighting\",\n    \"plastic skin\",\n    \"AI smoothing\",\n    \"overly vibrant neon\"\n  ]\n}",
+      "covers": [
+        "/covers/x-2106043544846602330.jpg",
+        "/covers/x-2106043544846602330-2.jpg",
+        "/covers/x-2106043544846602330-3.jpg",
+        "/covers/x-2106043544846602330-4.jpg"
+      ]
+    },
+    {
+      "no": "459",
+      "id": "x-2106031986003615843",
+      "title": "居家沙发暖光写真",
+      "kicker": "居家",
+      "excerpt": "把居家的穿搭与放松时刻做成温暖生活照片。",
+      "style": "自然生活方式摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "居家",
+        "自然光"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "aynelle",
+        "name": "Aynelle",
+        "handle": "aynellex",
+        "url": "https://x.com/aynellex"
+      },
+      "sourceUrl": "https://x.com/aynellex/status/2106031986003615843",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-02",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Create a photorealistic high-quality lifestyle portrait of a beautiful young adult woman relaxing on a soft neutral sofa in a cozy modern home. She has long, naturally wavy dark-brown hair, warm fair-to-light olive skin, expressive brown eyes, soft natural makeup, subtle rosy cheeks, and a gentle confident smile. She rests her cheek naturally on one hand while looking directly into the camera.\n\nShe wears an oversized cream-white textured knit sweater, light-wash relaxed-fit jeans, delicate small gold earrings, and a thin gold necklace with a tiny pendant. Natural elegant styling, minimal accessories.\n\nWarm late-afternoon sunlight enters from the side, creating soft highlights on her hair and natural skin texture. Background includes a beige sofa, neutral walls, a small vase of white flowers, books, cushions, and a dark doorway, all softly blurred with shallow depth of field.\n\nPhotography: realistic DSLR photography, 50mm lens, f/1.8, soft natural window light, subtle cinematic tones, realistic skin pores, detailed hair strands, natural fabric texture, realistic proportions, gentle shadows, professional lifestyle editorial photography, authentic candid feeling, high dynamic range, sharp eyes, 4K detail.\n\nNegative prompt: plastic skin, excessive retouching, artificial face, distorted hands, extra fingers, deformed anatomy, blurry eyes, CGI, cartoon, illustration, oversaturated colors, text, logo, watermark.",
+      "covers": [
+        "/covers/x-2106031986003615843.jpg"
+      ]
+    },
+    {
+      "no": "460",
+      "id": "x-2106019421063889140",
+      "title": "银色花瓣礼服角色",
+      "kicker": "服装设计",
+      "excerpt": "为人物构思银色花瓣礼服与未来感摄影环境。",
+      "style": "雕塑时装摄影",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "服装设计",
+        "身份保持"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "Elvorya",
+        "name": "Elvorya",
+        "handle": "Elvorya",
+        "url": "https://x.com/Elvorya"
+      },
+      "sourceUrl": "https://x.com/Elvorya/status/2106019421063889140",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-02",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Use the reference image as the identity reference only. Preserve the girl’s exact facial identity, facial structure, eyes, nose, lips, skin tone, and recognizable features with no identity drift. Create a full-body fashion editorial photograph, showing her completely from head to toe, with both feet visible.\n\nA striking young woman standing confidently in an otherworldly luxury fashion studio, wearing an avant-garde sculptural gown made from flowing translucent silver fabric and delicate metallic petals, asymmetric silhouette, architectural shoulders, subtle crystal embellishments, elegant high-fashion styling, sleek dark hair, minimal silver jewelry, natural confident expression. The fabric gently moves with a soft breeze. Reflective black floor, geometric architectural shadows, sophisticated futuristic atmosphere, premium haute couture editorial, realistic fabric texture, natural skin pores and fine facial details, realistic hands and fingers, anatomically correct proportions, photorealistic photography, full-body composition, camera positioned at eye level and far enough away to capture the entire body without cropping, 85mm fashion photography, soft directional studio lighting, ultra-detailed, 8K, luxury magazine aesthetic, same reference face, consistent identity, no face alteration.\n\nNegative prompt:\nidentity drift, different face, altered facial features, face morphing, cropped head, cropped feet, half-body, close-up, distorted anatomy, elongated limbs, bad proportions, extra fingers, malformed hands, duplicate limbs, plastic skin, over-smoothed skin, CGI, cartoon, unrealistic fabric, blurry face, asymmetrical eyes, low resolution, text, logo, watermark.",
+      "covers": [
+        "/covers/x-2106019421063889140.jpg"
+      ]
+    },
+    {
+      "no": "461",
+      "id": "x-2105683448715485557",
+      "title": "棋王与个人形象",
+      "kicker": "双重曝光",
+      "excerpt": "用人物与巨大棋王表达策略、领导力和个人气质。",
+      "style": "棋子叠影肖像",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "opinion"
+      ],
+      "medium": "image",
+      "tags": [
+        "双重曝光",
+        "领导力"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "JamilAI55",
+        "name": "Muhammad Jamil",
+        "handle": "JamilAI55",
+        "url": "https://x.com/JamilAI55"
+      },
+      "sourceUrl": "https://x.com/JamilAI55/status/2105683448715485557",
+      "model": "作者列出 GPT Image 2 / Nano Banana Pro / Gemini / Grok",
+      "date": "2026-10-01",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "CONCEPT — EXACT: A layered composite — a massive faded close-up ghost portrait fills the upper background blending into a dark marble-textured backdrop, and a smaller sharp full-color standing portrait of the same man stands in the foreground beside a giant oversized black chess king piece, strategic power-and-leadership theme.\n\nBACKGROUND GHOST PORTRAIT — EXACT: Large faded close-up portrait, head turned slightly, calm intense composed gaze, short neat hair, light beard, blending into the dark grey-black marble texture so it reads as a subtle tonal overlay.\n\nMAIN SUBJECT — FOREGROUND — EXACT: Standing pose beside a giant black marble chess king piece taller than himself, one hand resting on top of the chess piece's crown, other hand tucked into the trouser pocket, calm confident composed gaze toward camera.\n\nMAIN SUBJECT IDENTITY LOCK: Foreground face must match the ghost portrait exactly — same jaw width, cheek fullness, beard density, nose shape, and lip shape, with natural head-to-body proportion.\n\nBODY: Medium-tan skin tone, lean build, confident composed standing posture.\n\nOUTFIT: Black tailored double-breasted overcoat over a black turtleneck, black tailored trousers, black leather dress shoes, silver wristwatch.\n\nPROP DETAIL — EXACT: An oversized black marble chess king piece with intricate carved detailing standing beside the subject, smaller white and black chess pieces scattered across a checkered marble floor in the foreground.\n\nBACKGROUND — EXACT: Dark grey-black marble hall with soft veining texture, subtle checkered marble floor pattern, dramatic empty space suggesting scale and power.\n\nLIGHTING — EXACT: Single dramatic side-key light, deep shadow across half the marble hall, crisp highlight along the chess piece's carved edges and the subject's jawline.\n\nCOLOR GRADE — EXACT: Deep charcoal-and-black dominant palette throughout, cool marble-grey undertones, natural warm skin tone providing the only contrast, dramatic high-end editorial power-portrait color grading with ultra-detailed 8K sharpness.\n\nShot on Sony A7R IV, 50mm f/1.8 — foreground subject and chess piece tack sharp with fabric and stone detail crisp, background ghost portrait softly blended. Ultra photorealistic — zero AI artifacts, no watermark.\n\nIMPORTANT — Use ONLY my uploaded face reference image for the facial structure and identity in BOTH the ghosted background portrait AND the full-color foreground standing figure. My face must remain EXACTLY the same as my real appearance with zero identity change. Preserve my exact hairstyle, hairline, forehead shape, eyebrows, eye shape, nose structure, lips, beard density, moustache style, jawline, skin tone, facial texture, masculine proportions, and all natural imperfections exactly as shown in the uploaded image. Do NOT beautify, cartoonize, smooth skin, feminize, or replace my face with a random celebrity or model face. Identity preservation is the highest priority for both instances of my likeness in this composite.\n\nGnrat ratio 3:4",
+      "covers": [
+        "/covers/x-2105683448715485557.jpg"
+      ]
+    },
+    {
+      "no": "462",
+      "id": "x-2105652507347214654",
+      "title": "海上花藤霓虹场景",
+      "kicker": "参考图",
+      "excerpt": "用参考图构思海上平台、花藤与紫蓝夜景。",
+      "style": "花藤夜景转绘",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "medium": "image",
+      "tags": [
+        "参考图",
+        "夜景"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "WorldEverett",
+        "name": "Everett World",
+        "handle": "WorldEverett",
+        "url": "https://x.com/WorldEverett"
+      },
+      "sourceUrl": "https://x.com/WorldEverett/status/2105652507347214654",
+      "model": "Nano Banana Pro · 需 Midjourney 参考图",
+      "date": "2026-10-01",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "recreate the image, but her face is slightly behind vines and flowers on a platform on the ocean with secessionist lamps around it. Various camera angles, neon intense light in violet and blue, night time",
+      "covers": [
+        "/covers/x-2105652507347214654.jpg"
+      ]
+    },
+    {
+      "no": "463",
+      "id": "x-2105279612041285907",
+      "title": "粉色天鹅心意卡",
+      "kicker": "心形",
+      "excerpt": "让两只天鹅的脖颈组成心形，表达浪漫与祝福。",
+      "style": "粉青互补色摄影",
+      "category": "feeling",
+      "scenarios": [
+        "feeling"
+      ],
+      "medium": "image",
+      "tags": [
+        "心形",
+        "天鹅",
+        "祝福"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "Picsart",
+        "name": "Picsart",
+        "handle": "Picsart",
+        "url": "https://x.com/Picsart"
+      },
+      "sourceUrl": "https://x.com/Picsart/status/2105279612041285907",
+      "model": "作者未明确模型",
+      "date": "2026-09-30",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "A surreal, hyper-realistic photo manipulation of two vibrant hot-pink swans (bubblegum-magenta pink, hex ~ #F542A4 to #FF69B4). Their long necks are elegantly intertwined, crossing over each other to form a heart-like shape. The swans turn their heads away from each other in perfect mirrored symmetry, heads gracefully bowed downward. Each swan has the anatomy of a mute swan: a bright pink beak matching its plumage, the characteristic black facial mask, a black knob at the base of the bill, and small dark eyes. The feathers are richly detailed, soft, and fluffy, fully saturated in intense pink with lighter pink highlights on the breast and body. No white or orange tones appear anywhere on the birds. Their large, rounded bodies overlap and fill the bottom half of the frame, shot close-up from a slightly low angle so the birds dominate the composition.\n\nBackground: a moody, painterly deep teal-blue sky (dark petrol blue to turquoise, hex ~ #0E5A73 to #1B7A96), darkest and most saturated at the top and gradually lightening toward the horizon. Soft, wispy white-grey clouds streak horizontally across the middle and lower background. The sky has a textured, brushed, cinematic quality, like a hand-painted or heavily color-graded photograph. A faint dark horizon with a small patch of pale light shows at the very bottom, between the swans' bodies.\n\nStyle and mood: dreamlike and romantic, with bold color grading built on a strong pink-against-teal complementary palette. Fine-art photography aesthetic, ultra-sharp feather detail, soft diffused lighting, symmetrical composition, Valentine's love theme.\n\nColor constraints: the swans must be a uniform vivid hot pink (around \n#FF4FA3), and the sky must stay deep teal-blue (around \n#12617E) with soft white clouds. Do not shift the palette.\n\nNegative: no white feathers, no orange beaks, no text, no watermark, no extra birds, no asymmetry.",
+      "covers": [
+        "/covers/x-2105279612041285907.jpg"
+      ]
+    },
+    {
+      "no": "464",
+      "id": "x-2105051745303114040",
+      "title": "日常物件变地标",
+      "kicker": "建筑设计",
+      "excerpt": "从物体的结构、表面和机制推导建筑外形与用途。",
+      "style": "物体驱动建筑概念",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "knowledge"
+      ],
+      "medium": "image",
+      "tags": [
+        "建筑设计",
+        "结构"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2105051745303114040",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-29",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "2x2 grid, do this for 4 different random objects. Concept: Turn objects into a landmark building that could exist.\n\n1. ANALYZE INPUT (Massing & Structure):\n\nMass: (Monolithic/Fragmented/Stacked/Spindly)\n\nSurface: (Reflective/Porous/Layered/Patterned)\n\nMechanism: (Static/Kinetic/Modular)\n\n2. AUTO-SELECT BUILDING TYPE:\n\nIF Monolithic + Stone-like → Museum\n\nIF Reflective + Aerodynamic → Skyscraper\n\nIF Modular + Stacked → Housing complex\n\nIF Porous + Organic → Botanical conservatory\n\nIF Kinetic + Mechanical → Transit hub\n\n3. EXECUTE:\nGolden-hour exterior render, people for scale, plausible materials, cinematic wide lens.",
+      "covers": [
+        "/covers/x-2105051745303114040.jpg"
+      ]
+    },
+    {
+      "no": "465",
+      "id": "x-2104937619419537834",
+      "title": "博斯普鲁斯旅行留影",
+      "kicker": "旅行",
+      "excerpt": "保留人物身份，制作海峡边的旅行纪念照片。",
+      "style": "金色时刻旅行肖像",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "旅行",
+        "身份保持"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "aynelle",
+        "name": "Aynelle",
+        "handle": "aynellex",
+        "url": "https://x.com/aynellex"
+      },
+      "sourceUrl": "https://x.com/aynellex/status/2104937619419537834",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-29",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Create an ultra-photorealistic cinematic travel portrait using the uploaded reference image for the woman’s facial identity. Preserve her recognizable facial features, blue-green eyes, natural skin texture, blonde hair in a soft messy updo with loose face-framing strands, and realistic proportions.\n\nPlace her standing beside the Bosphorus waterfront in Istanbul during a beautiful golden-hour sunset. She is wearing an elegant deep red sleeveless midi/maxi frock with a fitted bodice and softly flowing skirt. She holds one single fresh red rose naturally in both hands. No handbag, no shoulder bag, no suitcase.\n\nShe stands beside an ornate black wrought-iron waterfront railing, looking gently toward the camera with a calm, natural, romantic expression. Behind her, show the Bosphorus with realistic ferries, shimmering water, Istanbul’s historic skyline, large domes and slender minarets, warm waterfront buildings, and elegant vintage street lamps.\n\nWet stone pavement with subtle reflections, warm sunset rays, soft dramatic clouds, natural atmospheric haze, realistic wind movement in her hair and dress.\n\nPhotography: luxury travel editorial, photorealistic live-action look, natural skin pores and texture, realistic hands and fingers, 85mm lens, shallow depth of field, cinematic bokeh, soft golden backlight, realistic fabric texture, natural body proportions, high dynamic range, sophisticated color grading, vertical 9:16 composition.\n\nNegative prompt: face distortion, identity drift, extra fingers, malformed hands, duplicate rose, handbag, purse, suitcase, CGI, cartoon, illustration, plastic skin, excessive makeup, artificial body proportions, text, subtitles, logo, watermark.",
+      "covers": [
+        "/covers/x-2104937619419537834.jpg"
+      ]
+    },
+    {
+      "no": "466",
+      "id": "x-2105870617593757697",
+      "title": "雾玻璃后的角色壁纸",
+      "kicker": "壁纸",
+      "excerpt": "把喜欢的角色转成玻璃后若隐若现的真人壁纸。",
+      "style": "冷凝玻璃近景",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "concept"
+      ],
+      "medium": "image",
+      "tags": [
+        "壁纸",
+        "角色转译",
+        "玻璃"
+      ],
+      "slots": [
+        "角色"
+      ],
+      "creator": {
+        "id": "voxcat",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2105870617593757697",
+      "model": "GPT Image（作者标注）",
+      "date": "2026-10-02",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "【角色】的成年真人版本，保留角色最具辨识度的发型、发色、眼睛、面部气质与标志性身份特征，整体转译为自然真实的人像摄影。\n\n人物位于一整块布满冷凝水汽的玻璃后方，从玻璃外侧拍摄。玻璃占据整个前景，覆盖大量真实细密的水珠、凝结水滴、纵向滑落水痕与不均匀雾气，具有明显湿润透明质感。\n\n人物身体与轮廓大部分被起雾玻璃模糊、柔化和轻微折射，仅面部前方有一小块被手掌擦开的不规则透明区域，使双眼、鼻梁、嘴唇与微表情清晰露出；透明区域边缘保留手掌擦拭留下的自然雾痕与水汽边界。\n\n人物贴近玻璃，直视镜头，表情自然、柔和、略带好奇与亲近感，可随机出现轻笑、害羞、委屈、发呆、轻微脸红或调皮的微表情。脸部保持真实皮肤纹理与真人五官，不进行卡通化。\n\n冷灰蓝、银白、雾白色调，阴天窗边般柔和自然光，低饱和、安静、湿润、朦胧。玻璃前景水珠清晰锐利，人物后景柔化，仅擦开的脸部区域相对清楚，形成明显的“清晰玻璃水珠 × 模糊真人 × 局部清晰面孔”三层空间关系。\n\n极简构图，大面积雾玻璃占据画面，人物位于中央或略偏下，不设置复杂环境与道具。超写实摄影，浅景深，真实玻璃折射与水珠高光，安静、治愈、私密、梦幻的手机壁纸视觉，9:16。",
+      "covers": [
+        "/covers/x-2105870617593757697.jpg",
+        "/covers/x-2105870617593757697-2.jpg",
+        "/covers/x-2105870617593757697-3.jpg",
+        "/covers/x-2105870617593757697-4.jpg"
+      ]
+    },
+    {
+      "no": "467",
+      "id": "x-2105719426628587910",
+      "title": "合影变乐高纪念照",
+      "kicker": "合影",
+      "excerpt": "把合影中的每个人转成乐高人仔，保留关系与原环境。",
+      "style": "场景保留玩具转绘",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "合影",
+        "乐高",
+        "身份保持"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2105719426628587910",
+      "model": "GPT Image 2",
+      "date": "2026-10-01",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Transform every visible person in the uploaded image into a realistic LEGO-style minifigure while preserving the original environment, background, composition, lighting, and relationships. Create exactly one separate minifigure for every visible person. Preserve each person’s recognizable identity, expression, hairstyle, hair color, skin tone, proportions, pose, position, clothing, accessories, and held objects.\n\nFORMAT LOCK\n\nVertical 3:4 composition. Show every minifigure fully from head to toe without cropping. Preserve the original group arrangement and perspective. Extend the environment naturally only when needed for the 3:4 frame.\n\nSTYLE TRANSFER\n\nConvert only the people into authentic LEGO-style minifigures. Use realistic molded plastic, cylindrical heads, block-shaped torsos, standard arms and hands, short legs, printed facial features, detailed printed clothing, and molded plastic hairpieces matching each person’s hairstyle. Keep the figures seamlessly integrated into the original photograph.\n\nDETAIL & COLOR\n\nAccurately reproduce each person’s original clothing colors, patterns, layers, sleeves, collars, pants, skirts, shoes, jewelry, glasses, hats, bags and other visible accessories as LEGO prints or molded elements. Preserve original skin tones and facial expressions. Realistic plastic reflections, subtle seams, fine printed details and natural contact shadows.\n\nCOMPOSITION LOCK\n\nKeep the original location, architecture, scenery, furniture, objects, colors, textures, perspective, depth, weather, atmosphere and time of day unchanged. Do not redesign or simplify the background. Preserve all existing objects in their original positions. Objects held or worn by people may be converted into LEGO-style accessories while maintaining their original appearance and color.\n\nSTYLE\n\nPhotorealistic LEGO-style minifigure transformation, premium 3D toy photography, realistic molded plastic, subtle glossy finish, physically accurate reflections, natural lighting, cinematic detail, seamless integration with the original scene.\n\nNEGATIVE PROMPT\n\nNo changed background, studio backdrop, LEGO environment, added bricks, removed objects, extra people, missing people, duplicates, merged figures, generic characters, altered outfits, invented accessories, identity loss, wrong hairstyles, cropped bodies, missing limbs, oversized heads, realistic human bodies, real hair, real fabric, anime, cartoon exaggeration, CGI-looking environment, floating figures, excessive reflections, harsh shadows, blur, low resolution, text, logos, watermark.",
+      "covers": [
+        "/covers/x-2105719426628587910.jpg",
+        "/covers/x-2105719426628587910-2.jpg"
+      ]
+    },
+    {
+      "no": "468",
+      "id": "x-2105677071854837766",
+      "title": "照片变留白纸本插画",
+      "kicker": "照片转绘",
+      "excerpt": "把生活照片转成适合纪念和赠送的留白手绘插画。",
+      "style": "手工纸本混合绘画",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "feeling"
+      ],
+      "medium": "image",
+      "tags": [
+        "照片转绘",
+        "手工纸",
+        "留白"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2105677071854837766",
+      "model": "GPT Image 2",
+      "date": "2026-10-01",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Transform the uploaded photograph into a minimalist, premium handmade editorial paper illustration. Use the photo strictly as reference and preserve the subject’s recognizable identity, facial features, hairstyle, facial hair, skin tone, body proportions, clothing, pose, expression, hands, umbrella and key recognizable details. Generate ONLY the illustration on a clean paper background.\n\nFORMAT LOCK\n\nVertical 3:4 canvas. Small centered subject occupying approximately 15–25% of the canvas. Generous warm negative space. Do not crop important parts of the subject.\n\nSTYLE TRANSFER\n\nReinterpret the photograph as a sophisticated handmade watercolor, acrylic, colored-pencil and ink illustration. Preserve recognition while simplifying the image into a refined contemporary editorial artwork. Avoid photorealism and polished digital-vector aesthetics.\n\nDETAIL & COLOR\n\nDelicate imperfect ink outlines, loose watercolor washes, restrained acrylic shapes, dry-brush marks, rough pigment edges, subtle colored-pencil texture and natural paint imperfections. Warm ivory handmade paper with visible grain and fibers. Use a restrained palette of deep navy blue, muted dark green, natural skin tones and warm brown/ochre, with subtle blue and green environmental shapes.\n\nCOMPOSITION LOCK\n\nKeep the subject small, centered and fully readable. Preserve the wavy dark hair, facial features and gentle smile, light facial hair, navy sweater, pale shirt collar, green umbrella, umbrella shaft, curved wooden handle, hand and ring. Simplify the environment aggressively into only a few loose painted shapes. Maintain a calm gallery-like composition with abundant clean negative space.\n\nSTYLE\n\nQuiet, poetic, minimal, refined, warm, contemporary handmade editorial illustration. Premium art-book aesthetic, tactile paper surface, organic edges, subtle pigment variation and authentic traditional craftsmanship.\n\nNEGATIVE PROMPT\n\nNo photograph, photorealism, split-screen, collage, top-and-bottom layout, second panel, photographic half, detailed background, oversized subject, large illustration, digital vector art, glossy CGI, 3D, anime, cartoon exaggeration, excessive detail, chaotic colors, typography, text, letters, words, numbers, logos, symbols, watermark or signature",
+      "covers": [
+        "/covers/x-2105677071854837766.jpg",
+        "/covers/x-2105677071854837766-2.jpg"
+      ]
+    },
+    {
+      "no": "469",
+      "id": "x-2104727282690748464",
+      "title": "苔藓山谷香水广告",
+      "kicker": "产品摄影",
+      "excerpt": "用瓶中微缩山谷、折射和冷暖光介绍香水产品。",
+      "style": "玻璃香氛产品摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "concept"
+      ],
+      "medium": "image",
+      "tags": [
+        "产品摄影",
+        "香水",
+        "玻璃"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "plex233",
+        "name": "Dry Seven",
+        "handle": "plex233",
+        "url": "https://x.com/plex233"
+      },
+      "sourceUrl": "https://x.com/plex233/status/2104727282690748464",
+      "model": "GPT Image（作者标注）",
+      "date": "2026-09-29",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "巨型圆润的淡绿色透明玻璃香水瓶，内部封存一座微缩苔藓山谷、盆景古树、岩石与细小瀑布。置于被水覆盖的粗野主义清水混凝土空间，左上方冷色天光穿过建筑开口，右后方夕阳形成暖色轮廓光；玻璃产生真实折射、焦散、微小水滴与高光畸变，水面形成自然倒影。低机位产品摄影，主体偏右构图，大面积负空间，真实光学景深，高端香氛广告质感，无文字、无 Logo、无塑料 CGI 感。",
+      "covers": [
+        "/covers/x-2104727282690748464.jpg"
+      ]
+    },
+    {
+      "no": "470",
+      "id": "x-2104527263265919477",
+      "title": "老年伴侣起舞",
+      "kicker": "伴侣",
+      "excerpt": "用一对伴侣的舞蹈与拍摄动作讲述亲密生活。",
+      "style": "温暖三维角色场景",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "story",
+        "memory"
+      ],
+      "medium": "image",
+      "tags": [
+        "伴侣",
+        "舞蹈",
+        "三维动画"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "DuaFatimaAi",
+        "name": "Dua Fatima",
+        "handle": "DuaFatimaAi",
+        "url": "https://x.com/DuaFatimaAi"
+      },
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104527263265919477",
+      "model": "GPT Image 2",
+      "date": "2026-09-28",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Create a cinematic, heartwarming 3D animated scene of an elderly couple playfully dancing together inside a cozy vintage home hallway.\n\nAn elderly woman with white hair tied in a messy bun, round glasses, expressive eyes, and a warm playful smile is dancing toward her husband. She wears a colorful patterned cardigan over a light blouse, a dark green knee-length skirt, and brown ankle boots. Her body language is joyful and energetic.\n\nAn elderly man with fluffy white hair and glasses is kneeling playfully while holding up a smartphone, recording or photographing his wife. He wears a cream long-sleeve shirt, a colorful knitted patterned sweater vest, dark brown trousers, and oversized dark shoes. His expression is affectionate, amused, and full of joy.\n\nThe setting is a warm, narrow vintage hallway with wooden flooring, beige walls, classic doorways, a hanging ceiling lamp casting soft warm golden light, and subtle home details in the background. The couple is the clear focal point.\n\nPixar-inspired high-end 3D animation aesthetic, charming exaggerated elderly character proportions, expressive facial features, realistic fabric and hair details, cinematic composition, soft depth of field, warm ambient lighting, natural shadows, cozy nostalgic atmosphere, detailed wooden floor reflections, volumetric light, slightly low camera angle, full-body framing, vertical 9:16 composition, ultra-detailed, polished animated movie quality, photorealistic 3D rendering.",
+      "covers": [
+        "/covers/x-2104527263265919477.jpg"
+      ]
+    },
+    {
+      "no": "471",
+      "id": "x-2104377831581253709",
+      "title": "分层沙拉备餐说明",
+      "kicker": "备餐",
+      "excerpt": "把沙拉材料与层次摆清楚，可用于食谱说明和产品展示。",
+      "style": "透明罐食品摄影",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "medium": "image",
+      "tags": [
+        "备餐",
+        "食材清单",
+        "食品摄影"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "DuaFatimaAi",
+        "name": "Dua Fatima",
+        "handle": "DuaFatimaAi",
+        "url": "https://x.com/DuaFatimaAi"
+      },
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104377831581253709",
+      "model": "GPT Image 2",
+      "date": "2026-09-28",
+      "notes": "提示词截取自作者原帖完整正文，未翻译或改写；模型为作者标注，未独立复现。",
+      "prompt": "Create a photorealistic lifestyle food photography scene featuring four clear glass meal-prep jars arranged on a clean light-colored kitchen countertop. Each jar has a natural bamboo wooden lid with a white sealing ring.\n\nThe jars contain beautifully layered Mexican-inspired chicken salads, with clearly separated colorful layers from bottom to top: diced cucumber, cherry tomatoes, red onion, red bell pepper, sweet corn, black beans, crumbled Cotija cheese, fresh chopped romaine lettuce, and shredded cooked chicken. Keep every ingredient fresh, vibrant, crisp, and visibly distinct through the transparent glass.\n\nPlace two jars in the foreground and two slightly behind them for depth and composition. Warm modern kitchen background with subtle wooden cabinets, soft natural daylight coming from a window, shallow depth of field, realistic reflections on the glass, soft shadows, premium food photography, natural colors, high detail, realistic textures, 4K, editorial meal-prep aesthetic.\n\nOn the right side, include a neat handwritten-style ingredient list reading:\n“Shredded Chicken\nRomaine\nCojita\nBlack beans\nCorn\nRed pepper\nRed onion\nCherry tomatoes\nCucumber”\n\nVertical composition, realistic proportions, clean and appetizing presentation, professional commercial food photography.",
+      "covers": [
+        "/covers/x-2104377831581253709.jpg"
       ]
     }
   ],

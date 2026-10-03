@@ -14,5 +14,6 @@ jobs:
         with:
           node-version: "22"
       - run: node scripts/check-folio-data.mjs
+      - run: node scripts/check-folio-refresh.mjs
       - run: node --test scripts/folio-sync.test.mjs
       - run: node --experimental-strip-types --test scripts/folio-scenarios.test.mjs

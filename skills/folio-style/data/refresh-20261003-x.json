@@ -1,0 +1,829 @@
+{
+  "retrievedOn": "2026-10-03",
+  "baselineCount": 456,
+  "baselineSha256": "23e54549e58a0bd48d6f60f12d4e888ffe43dbbc5d6ba9fa10c0905b68fb20ea",
+  "scope": "Manual source-index refresh; original X posts fetched through FxTwitter. Not a complete author or X timeline scan.",
+  "indexes": [
+    {
+      "name": "nano",
+      "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "commit": "4b5da2cab20bbb2a43f1e4b27a9ac6e4435fc3e5",
+      "contentSha256": "237181aff7c03b54083b479241e7a57ed547078ca55494576df1c8316755d947"
+    },
+    {
+      "name": "gpt-image",
+      "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+      "commit": "9e88b5362369fa651bc8da29c0da05e2a59473dd",
+      "contentSha256": "2beb51ff82a5a3a6f297ad13c65c9339a82668bbe6b03af616c1d6281a3bd8e4"
+    },
+    {
+      "name": "video",
+      "repo": "opusvideo/awesome-claude-video",
+      "commit": "e2be0c32a098caaeed3a839ff9e53ddaf22a82ae",
+      "contentSha256": "a603e8d7992d2ab6dff35ddad4f46c9c4365a533ed81296e7cae95cbf158cc5d"
+    },
+    {
+      "name": "nano-secondary",
+      "repo": "ZeroLu/awesome-nanobanana-pro",
+      "commit": "e7d8886efd743a6821ee90e2d32377ac90b227ea",
+      "contentSha256": "6a05464e40d046f4d78ee79e9dbc975b43db605a35b736b9fe1a73e1b6cf122f"
+    }
+  ],
+  "additions": [
+    {
+      "no": "457",
+      "id": "x-2106205609112879495",
+      "sourceUrl": "https://x.com/DilshadAI1/status/2106205609112879495",
+      "authorHandle": "DilshadAI1",
+      "authorId": "765581170310516736",
+      "tweetId": "2106205609112879495",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-03T02:12:03.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nPrompt: Keep the same features of the attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nfeaturing a young South Asian man with green eyes and a well-groomed beard. In the foreground, he is shown full-body, dressed in a green linen casual suit, leaning casually against a stone ledge, with a gold necklace and a watch. His eyes are green. Overlaid in the background is a large, close-up portrait of his face, with his striking green eyes as a focus. The entire composition has a dreamlike, brushstroke texture, set against a backdrop of a blurred mountain valley at dusk, creating a artistic and nostalgic atmosphere.\"",
+      "start": 117,
+      "length": 690,
+      "sha256": "717203d4253052508e8ec5e330ff428a93870c04a8a2a8c6c46f50a46825fd82",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106205609112879495.jpg",
+          "url": "https://pbs.twimg.com/media/HTq-v_absAA_fS_.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "15b74c24f3f02802b31c9106677ec87d0e9258e64182d02ba78c776b4bad1a0c",
+          "size": 323473
+        }
+      ]
+    },
+    {
+      "no": "458",
+      "id": "x-2106043544846602330",
+      "sourceUrl": "https://x.com/timedoctor_nft/status/2106043544846602330",
+      "authorHandle": "timedoctor_nft",
+      "authorId": "1412103217945714695",
+      "tweetId": "2106043544846602330",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-02T15:28:04.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Shailene Woodley - Gemini Nano Banana Pro\n\nPrompt:\n{\n  \"vibe_title_en\": \"The Weightless Surrealism of Pink Illusions\",\n  \"master_prompt\": \"A high-budget practical surrealist editorial shot. The Protagonist, captured in a Three-Quarter Editorial waist-up mid-shot. The subject's body is angled at 45 degrees, but the head is turned directly to the camera, anchored by a piercing, tranquil, and dissociative gaze. The Protagonist wears an avant-garde, massively oversized, bubbled-texture magenta couture puffer coat that is intentionally draped off one shoulder, revealing highly detailed, hyper-realistic bare skin, natural pores, and collarbone underneath. The setting is a surreal, monochromatic magenta observation chamber. The floor is engulfed in dense, rolling pink dry-ice fog. Suspended at various heights around the subject are hyper-realistic, fluffy cloud-like formations physically crafted from dyed raw organic cotton and spun sugar, hanging by invisible ultra-fine wires. The scene is illuminated by tall, vertical, diffused magenta luminescent pillars (NO NEON) that cast a soft but directional glow. A crisp, neutral-white overhead key light isolates the face, highlighting micro-details of the skin and the textural weave of the coat, while the background clouds glow with internal reflections. Shot on Hasselblad H6D-100c with a 50mm prime lens at f/1.4, creating a shallow depth of field that renders foreground cotton clouds slightly out of focus. Kodak Portra 400 film stock, authentic skin textures, natural imperfections, cinematic volumetric haze, tactile physical effects.\",\n  \"meta\": {\n    \"intent\": \"Editorial Surrealism\",\n    \"priorities\": \"Tactile Textures, Monochromatic Depth, High-End Practical Effects\",\n    \"device_profile\": \"High-Resolution Display\"\n  },\n  \"frame\": {\n    \"aspect\": \"4:5\",\n    \"composition\": \"Three-Quarter Editorial, Waist-up\",\n    \"layout\": \"Center-anchored face, asymmetrical framing with suspended clouds\",\n    \"camera_angle\": \"Eye-level, straight on to face, body at 45 degrees\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Protagonist\",\n    \"demographics\": \"Ageless, universal features\",\n    \"face\": \"Symmetrical, neutral, highly textured with visible pores and natural micro-imperfections\",\n    \"hair\": \"Pulled back cleanly, out of the face\",\n    \"body\": \"Body angled at 45-degrees, one bare shoulder exposed\",\n    \"expression\": \"Tranquil dissociation, piercing direct eye contact\",\n    \"pose\": \"Waist-up mid-shot, frozen in a subtle lean, one shoulder dropped\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Avant-garde oversized puffer coat\",\n        \"material\": \"Quilted, bubbled-texture synthetic silk\",\n        \"color\": \"Bubblegum magenta\",\n        \"fit\": \"Massive, disproportionate, draped off one shoulder\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Minimalist stud earring\",\n        \"color\": \"Translucent pink\",\n        \"material\": \"Resin\",\n        \"brand_style\": \"Avant-garde subtle\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"Monochromatic surreal observation room\",\n    \"surfaces\": \"Reflective floor entirely hidden by dense rolling fog\",\n    \"depth\": \"Shallow depth of field, background pillars fading into pink haze\",\n    \"atmosphere\": \"Thick volumetric pink dry-ice fog, floating raw-cotton clouds\",\n    \"lens_interaction\": \"Soft specular highlights on foreground out-of-focus floating cotton\"\n  },\n  \"lighting\": {\n    \"key\": \"Crisp neutral-white softbox overhead-angled\",\n    \"fill\": \"Ambient magenta glow from clouds and floor fog\",\n    \"rim\": \"Strong vertical magenta edge light from luminescent pillars\",\n    \"shadows\": \"Soft, color-tinted pink shadows wrapping around the face\",\n    \"color_temperature\": \"4000K (Key) mixed with deep magenta ambient gels\",\n    \"sensor_flare\": \"None, clean high-contrast edges\"\n  },\n  \"camera\": {\n    \"lens_type\": \"Prime\",\n    \"focal_length\": \"50mm\",\n    \"aperture\": \"f/1.4\",\n    \"focus\": \"Tack-sharp on the eyes and skin pores\",\n    \"sensor_format\": \"Medium Format (Hasselblad H6D-100c)\",\n    \"perspective_distortion\": \"None, classic portrait compression\"\n  },\n  \"post_processing\": {\n    \"color\": \"Monochromatic magenta dominance with natural skin tones meticulously preserved\",\n    \"tonality\": \"High contrast in the focal plane, soft atmospheric fade in the background\",\n    \"texture\": \"Kodak Portra 400 film grain, microscopic skin details\",\n    \"digital_sharpening\": \"None, pure optical sharpness\",\n    \"chromatic_aberration\": \"Minimal, only on extreme out-of-focus background pillars\"\n  },\n  \"negative_specifications\": [\n    \"Neon signs\",\n    \"digital illustration\",\n    \"3D render\",\n    \"cartoon\",\n    \"full body shot\",\n    \"cluttered street\",\n    \"rooftop\",\n    \"library\",\n    \"flat lighting\",\n    \"plastic skin\",\n    \"AI smoothing\",\n    \"overly vibrant neon\"\n  ]\n}",
+      "start": 51,
+      "length": 4838,
+      "sha256": "02dbb8d42e7bf1c3f4a1f3bb70ecbef161b68b4dd3211bea49ea809127de2d3e",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106043544846602330.jpg",
+          "url": "https://pbs.twimg.com/media/HTorcSkXkAAjguB.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "769c9c52269c2d99147f89a0fc2fc7b9e17cd3be87feae2e00b03a97d7292f7c",
+          "size": 329137
+        },
+        {
+          "path": "/covers/x-2106043544846602330-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTorcMMXMAAwjP3.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "fd15e7c16ba1d8e1a5cb74573af8990c9a63e07937ec4aaac04f2784949469f7",
+          "size": 270227
+        },
+        {
+          "path": "/covers/x-2106043544846602330-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTorcMyWUAAS9e1.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "603d61caa2b0b9ec77ad6c8d6a822304789602e2ac0a617250c87f40e1313b07",
+          "size": 309754
+        },
+        {
+          "path": "/covers/x-2106043544846602330-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTorcMGWEAAm4NH.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "5f30be871dadc60c6690ec4fa06cbe6369b234331f49be15f06186a5ebc50c41",
+          "size": 327175
+        }
+      ]
+    },
+    {
+      "no": "459",
+      "id": "x-2106031986003615843",
+      "sourceUrl": "https://x.com/aynellex/status/2106031986003615843",
+      "authorHandle": "aynellex",
+      "authorId": "2072509036701044736",
+      "tweetId": "2106031986003615843",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-02T14:42:08.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana pro \n\nPrompt:Prompt:\n\nCreate a photorealistic high-quality lifestyle portrait of a beautiful young adult woman relaxing on a soft neutral sofa in a cozy modern home. She has long, naturally wavy dark-brown hair, warm fair-to-light olive skin, expressive brown eyes, soft natural makeup, subtle rosy cheeks, and a gentle confident smile. She rests her cheek naturally on one hand while looking directly into the camera.\n\nShe wears an oversized cream-white textured knit sweater, light-wash relaxed-fit jeans, delicate small gold earrings, and a thin gold necklace with a tiny pendant. Natural elegant styling, minimal accessories.\n\nWarm late-afternoon sunlight enters from the side, creating soft highlights on her hair and natural skin texture. Background includes a beige sofa, neutral walls, a small vase of white flowers, books, cushions, and a dark doorway, all softly blurred with shallow depth of field.\n\nPhotography: realistic DSLR photography, 50mm lens, f/1.8, soft natural window light, subtle cinematic tones, realistic skin pores, detailed hair strands, natural fabric texture, realistic proportions, gentle shadows, professional lifestyle editorial photography, authentic candid feeling, high dynamic range, sharp eyes, 4K detail.\n\nNegative prompt: plastic skin, excessive retouching, artificial face, distorted hands, extra fingers, deformed anatomy, blurry eyes, CGI, cartoon, illustration, oversaturated colors, text, logo, watermark.",
+      "start": 34,
+      "length": 1428,
+      "sha256": "d14d92f54ae4fa8f5df99ed388a382825f541e5563fe1f74c864a4920a77ff90",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106031986003615843.jpg",
+          "url": "https://pbs.twimg.com/media/HTog6qDbcAA-QGA.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "0aabc1927f86d808da324d36265c62c0fd2c395557dcadd103207d30157605ec",
+          "size": 280283
+        }
+      ]
+    },
+    {
+      "no": "460",
+      "id": "x-2106019421063889140",
+      "sourceUrl": "https://x.com/Elvorya/status/2106019421063889140",
+      "authorHandle": "Elvorya",
+      "authorId": "2074093269785751553",
+      "tweetId": "2106019421063889140",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-02T13:52:12.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana Pro\n\nPrompt:\nUse the reference image as the identity reference only. Preserve the girl’s exact facial identity, facial structure, eyes, nose, lips, skin tone, and recognizable features with no identity drift. Create a full-body fashion editorial photograph, showing her completely from head to toe, with both feet visible.\n\nA striking young woman standing confidently in an otherworldly luxury fashion studio, wearing an avant-garde sculptural gown made from flowing translucent silver fabric and delicate metallic petals, asymmetric silhouette, architectural shoulders, subtle crystal embellishments, elegant high-fashion styling, sleek dark hair, minimal silver jewelry, natural confident expression. The fabric gently moves with a soft breeze. Reflective black floor, geometric architectural shadows, sophisticated futuristic atmosphere, premium haute couture editorial, realistic fabric texture, natural skin pores and fine facial details, realistic hands and fingers, anatomically correct proportions, photorealistic photography, full-body composition, camera positioned at eye level and far enough away to capture the entire body without cropping, 85mm fashion photography, soft directional studio lighting, ultra-detailed, 8K, luxury magazine aesthetic, same reference face, consistent identity, no face alteration.\n\nNegative prompt:\nidentity drift, different face, altered facial features, face morphing, cropped head, cropped feet, half-body, close-up, distorted anatomy, elongated limbs, bad proportions, extra fingers, malformed hands, duplicate limbs, plastic skin, over-smoothed skin, CGI, cartoon, unrealistic fabric, blurry face, asymmetrical eyes, low resolution, text, logo, watermark.",
+      "start": 25,
+      "length": 1689,
+      "sha256": "a4dd170017cc7b0b1a6ebbc9fdc513e6a24204f400d722a2a483b8f719b233ce",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106019421063889140.jpg",
+          "url": "https://pbs.twimg.com/media/HToVf2ZaYAAoxOT.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "82260a78eb0046b920317e3f4db638b401671b0a70007dc74a9227c4a2b5acae",
+          "size": 98057
+        }
+      ]
+    },
+    {
+      "no": "461",
+      "id": "x-2105683448715485557",
+      "sourceUrl": "https://x.com/JamilAI55/status/2105683448715485557",
+      "authorHandle": "JamilAI55",
+      "authorId": "1365717899810385925",
+      "tweetId": "2105683448715485557",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-01T15:37:10.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nCONCEPT — EXACT: A layered composite — a massive faded close-up ghost portrait fills the upper background blending into a dark marble-textured backdrop, and a smaller sharp full-color standing portrait of the same man stands in the foreground beside a giant oversized black chess king piece, strategic power-and-leadership theme.\n\nBACKGROUND GHOST PORTRAIT — EXACT: Large faded close-up portrait, head turned slightly, calm intense composed gaze, short neat hair, light beard, blending into the dark grey-black marble texture so it reads as a subtle tonal overlay.\n\nMAIN SUBJECT — FOREGROUND — EXACT: Standing pose beside a giant black marble chess king piece taller than himself, one hand resting on top of the chess piece's crown, other hand tucked into the trouser pocket, calm confident composed gaze toward camera.\n\nMAIN SUBJECT IDENTITY LOCK: Foreground face must match the ghost portrait exactly — same jaw width, cheek fullness, beard density, nose shape, and lip shape, with natural head-to-body proportion.\n\nBODY: Medium-tan skin tone, lean build, confident composed standing posture.\n\nOUTFIT: Black tailored double-breasted overcoat over a black turtleneck, black tailored trousers, black leather dress shoes, silver wristwatch.\n\nPROP DETAIL — EXACT: An oversized black marble chess king piece with intricate carved detailing standing beside the subject, smaller white and black chess pieces scattered across a checkered marble floor in the foreground.\n\nBACKGROUND — EXACT: Dark grey-black marble hall with soft veining texture, subtle checkered marble floor pattern, dramatic empty space suggesting scale and power.\n\nLIGHTING — EXACT: Single dramatic side-key light, deep shadow across half the marble hall, crisp highlight along the chess piece's carved edges and the subject's jawline.\n\nCOLOR GRADE — EXACT: Deep charcoal-and-black dominant palette throughout, cool marble-grey undertones, natural warm skin tone providing the only contrast, dramatic high-end editorial power-portrait color grading with ultra-detailed 8K sharpness.\n\nShot on Sony A7R IV, 50mm f/1.8 — foreground subject and chess piece tack sharp with fabric and stone detail crisp, background ghost portrait softly blended. Ultra photorealistic — zero AI artifacts, no watermark.\n\nIMPORTANT — Use ONLY my uploaded face reference image for the facial structure and identity in BOTH the ghosted background portrait AND the full-color foreground standing figure. My face must remain EXACTLY the same as my real appearance with zero identity change. Preserve my exact hairstyle, hairline, forehead shape, eyebrows, eye shape, nose structure, lips, beard density, moustache style, jawline, skin tone, facial texture, masculine proportions, and all natural imperfections exactly as shown in the uploaded image. Do NOT beautify, cartoonize, smooth skin, feminize, or replace my face with a random celebrity or model face. Identity preservation is the highest priority for both instances of my likeness in this composite.\n\nGnrat ratio 3:4",
+      "start": 109,
+      "length": 3012,
+      "sha256": "694f42c31c5d6977fec0cf3ecde7cb652ea04c0a322518980d3b9e5a766d78e6",
+      "scenarios": [
+        "identity",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105683448715485557.jpg",
+          "url": "https://pbs.twimg.com/media/HTjj2GiaAAAsLf-.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "caf8e32082d96fd731f5601525406a7bed44d0336958644cb60e022be8c6787a",
+          "size": 209151
+        }
+      ]
+    },
+    {
+      "no": "462",
+      "id": "x-2105652507347214654",
+      "sourceUrl": "https://x.com/WorldEverett/status/2105652507347214654",
+      "authorHandle": "WorldEverett",
+      "authorId": "1487407800078712836",
+      "tweetId": "2105652507347214654",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-01T13:34:13.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana Pro prompt(with the Midjourney image reference): \nrecreate the image, but her face is slightly behind vines and flowers on a platform on the ocean with secessionist lamps around it. Various camera angles, neon intense light in violet and blue, night time",
+      "start": 62,
+      "length": 204,
+      "sha256": "cbe4d1e27447ff6a3fc9305cb3d8ae0eafe7d09c3d47ba296c2b8b1932a0bfce",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105652507347214654.jpg",
+          "url": "https://pbs.twimg.com/media/HTjGvrUW0AAyYyP.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "216e9b327aa681f725b4bbdcac9be369f88a443bb078e3ddb816cdd7aa5431c6",
+          "size": 105173
+        }
+      ]
+    },
+    {
+      "no": "463",
+      "id": "x-2105279612041285907",
+      "sourceUrl": "https://x.com/Picsart/status/2105279612041285907",
+      "authorHandle": "Picsart",
+      "authorId": "448641255",
+      "tweetId": "2105279612041285907",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-30T12:52:28.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Prompt: A surreal, hyper-realistic photo manipulation of two vibrant hot-pink swans (bubblegum-magenta pink, hex ~ #F542A4 to #FF69B4). Their long necks are elegantly intertwined, crossing over each other to form a heart-like shape. The swans turn their heads away from each other in perfect mirrored symmetry, heads gracefully bowed downward. Each swan has the anatomy of a mute swan: a bright pink beak matching its plumage, the characteristic black facial mask, a black knob at the base of the bill, and small dark eyes. The feathers are richly detailed, soft, and fluffy, fully saturated in intense pink with lighter pink highlights on the breast and body. No white or orange tones appear anywhere on the birds. Their large, rounded bodies overlap and fill the bottom half of the frame, shot close-up from a slightly low angle so the birds dominate the composition.\n\nBackground: a moody, painterly deep teal-blue sky (dark petrol blue to turquoise, hex ~ #0E5A73 to #1B7A96), darkest and most saturated at the top and gradually lightening toward the horizon. Soft, wispy white-grey clouds streak horizontally across the middle and lower background. The sky has a textured, brushed, cinematic quality, like a hand-painted or heavily color-graded photograph. A faint dark horizon with a small patch of pale light shows at the very bottom, between the swans' bodies.\n\nStyle and mood: dreamlike and romantic, with bold color grading built on a strong pink-against-teal complementary palette. Fine-art photography aesthetic, ultra-sharp feather detail, soft diffused lighting, symmetrical composition, Valentine's love theme.\n\nColor constraints: the swans must be a uniform vivid hot pink (around \n#FF4FA3), and the sky must stay deep teal-blue (around \n#12617E) with soft white clouds. Do not shift the palette.\n\nNegative: no white feathers, no orange beaks, no text, no watermark, no extra birds, no asymmetry.\n\nRemix idea: Try a different animal pair, like flamingos, horses, giraffes, or cats curling their tails into a heart. Recolor the feathers in lavender, chrome silver, or black against a sunset sky.",
+      "start": 8,
+      "length": 1903,
+      "sha256": "87b5c3d5a11c97abab546bb23ba168a5228c206836f70fe5d89564394925ad8d",
+      "scenarios": [
+        "feeling"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105279612041285907.jpg",
+          "url": "https://pbs.twimg.com/media/HTd0pXWXIAA6-YK.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "96e8ddb2e8b38c1ab2ff160ef8c870bb4853cbfec4edb3b580052f252dcb7686",
+          "size": 117071
+        }
+      ]
+    },
+    {
+      "no": "464",
+      "id": "x-2105051745303114040",
+      "sourceUrl": "https://x.com/Gdgtify/status/2105051745303114040",
+      "authorHandle": "Gdgtify",
+      "authorId": "2732179914",
+      "tweetId": "2105051745303114040",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-29T21:47:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Turning random objects into buildings.  Nano Banana Pro. \n\n2x2 grid, do this for 4 different random objects. Concept: Turn objects into a landmark building that could exist.\n\n1. ANALYZE INPUT (Massing & Structure):\n\nMass: (Monolithic/Fragmented/Stacked/Spindly)\n\nSurface: (Reflective/Porous/Layered/Patterned)\n\nMechanism: (Static/Kinetic/Modular)\n\n2. AUTO-SELECT BUILDING TYPE:\n\nIF Monolithic + Stone-like → Museum\n\nIF Reflective + Aerodynamic → Skyscraper\n\nIF Modular + Stacked → Housing complex\n\nIF Porous + Organic → Botanical conservatory\n\nIF Kinetic + Mechanical → Transit hub\n\n3. EXECUTE:\nGolden-hour exterior render, people for scale, plausible materials, cinematic wide lens.",
+      "start": 59,
+      "length": 624,
+      "sha256": "660bc60dc9942f844cfa4df6f5fc24e1f9bf2e8906538aece4aeee6b6ef14e07",
+      "scenarios": [
+        "concept",
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105051745303114040.jpg",
+          "url": "https://pbs.twimg.com/media/HTRW_GWWEAAnc7S.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "1b279891a7bdef10b871d978e6404ca152c2b7e05253dd1df29d6adff75f5064",
+          "size": 207179
+        }
+      ]
+    },
+    {
+      "no": "465",
+      "id": "x-2104937619419537834",
+      "sourceUrl": "https://x.com/aynellex/status/2104937619419537834",
+      "authorHandle": "aynellex",
+      "authorId": "2072509036701044736",
+      "tweetId": "2104937619419537834",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-29T14:13:30.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana pro \n\nPrompt:Create an ultra-photorealistic cinematic travel portrait using the uploaded reference image for the woman’s facial identity. Preserve her recognizable facial features, blue-green eyes, natural skin texture, blonde hair in a soft messy updo with loose face-framing strands, and realistic proportions.\n\nPlace her standing beside the Bosphorus waterfront in Istanbul during a beautiful golden-hour sunset. She is wearing an elegant deep red sleeveless midi/maxi frock with a fitted bodice and softly flowing skirt. She holds one single fresh red rose naturally in both hands. No handbag, no shoulder bag, no suitcase.\n\nShe stands beside an ornate black wrought-iron waterfront railing, looking gently toward the camera with a calm, natural, romantic expression. Behind her, show the Bosphorus with realistic ferries, shimmering water, Istanbul’s historic skyline, large domes and slender minarets, warm waterfront buildings, and elegant vintage street lamps.\n\nWet stone pavement with subtle reflections, warm sunset rays, soft dramatic clouds, natural atmospheric haze, realistic wind movement in her hair and dress.\n\nPhotography: luxury travel editorial, photorealistic live-action look, natural skin pores and texture, realistic hands and fingers, 85mm lens, shallow depth of field, cinematic bokeh, soft golden backlight, realistic fabric texture, natural body proportions, high dynamic range, sophisticated color grading, vertical 9:16 composition.\n\nNegative prompt: face distortion, identity drift, extra fingers, malformed hands, duplicate rose, handbag, purse, suitcase, CGI, cartoon, illustration, plastic skin, excessive makeup, artificial body proportions, text, subtitles, logo, watermark.",
+      "start": 25,
+      "length": 1697,
+      "sha256": "b19127455253ee65b09a24795dd6de5639903d79e3e246375e62ee573f044f9f",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104937619419537834.jpg",
+          "url": "https://pbs.twimg.com/media/HTY9mWLaQAAm0JS.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "c5e7f71eb4cb6b06e6bece9b100b930ec0e4190cceab306206f9e4279b337d2c",
+          "size": 261746
+        }
+      ]
+    },
+    {
+      "no": "466",
+      "id": "x-2105870617593757697",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2105870617593757697",
+      "authorHandle": "VoxcatAI",
+      "authorId": "1133338656725504001",
+      "tweetId": "2105870617593757697",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-02T04:00:55.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "模型gpt-image\n提示词👇\n\n【角色】的成年真人版本，保留角色最具辨识度的发型、发色、眼睛、面部气质与标志性身份特征，整体转译为自然真实的人像摄影。\n\n人物位于一整块布满冷凝水汽的玻璃后方，从玻璃外侧拍摄。玻璃占据整个前景，覆盖大量真实细密的水珠、凝结水滴、纵向滑落水痕与不均匀雾气，具有明显湿润透明质感。\n\n人物身体与轮廓大部分被起雾玻璃模糊、柔化和轻微折射，仅面部前方有一小块被手掌擦开的不规则透明区域，使双眼、鼻梁、嘴唇与微表情清晰露出；透明区域边缘保留手掌擦拭留下的自然雾痕与水汽边界。\n\n人物贴近玻璃，直视镜头，表情自然、柔和、略带好奇与亲近感，可随机出现轻笑、害羞、委屈、发呆、轻微脸红或调皮的微表情。脸部保持真实皮肤纹理与真人五官，不进行卡通化。\n\n冷灰蓝、银白、雾白色调，阴天窗边般柔和自然光，低饱和、安静、湿润、朦胧。玻璃前景水珠清晰锐利，人物后景柔化，仅擦开的脸部区域相对清楚，形成明显的“清晰玻璃水珠 × 模糊真人 × 局部清晰面孔”三层空间关系。\n\n极简构图，大面积雾玻璃占据画面，人物位于中央或略偏下，不设置复杂环境与道具。超写实摄影，浅景深，真实玻璃折射与水珠高光，安静、治愈、私密、梦幻的手机壁纸视觉，9:16。",
+      "start": 19,
+      "length": 506,
+      "sha256": "ddf5c0dda7849b7bfe40a2d00a7368a33c5b95d84b645c2d61e31d0c0a61e2b1",
+      "scenarios": [
+        "feeling",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105870617593757697.jpg",
+          "url": "https://pbs.twimg.com/media/HTmOKIAaQAAqXMK.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "c67ac7154acd5c90122d631c4a0af66074682c5513d74baf64b029a2b6d8426c",
+          "size": 328127
+        },
+        {
+          "path": "/covers/x-2105870617593757697-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTmOKFNbgAEKOFz.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "7659eb5c32a4f92a8819813661089dbcc0e8b43c50a42338b2949d019964cdba",
+          "size": 334549
+        },
+        {
+          "path": "/covers/x-2105870617593757697-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTmOKFPbcAEZu4a.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "17a0ee9bde4521e4aa0ab47b4afb15c66ec1bd4b5d4ceb77b9407489a69f296c",
+          "size": 343259
+        },
+        {
+          "path": "/covers/x-2105870617593757697-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTmOKIBa8AA-fNd.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "891ebe9e06540fee0433b01686e19eef551966a17ac0bab3841746ed8c062474",
+          "size": 294863
+        }
+      ]
+    },
+    {
+      "no": "467",
+      "id": "x-2105719426628587910",
+      "sourceUrl": "https://x.com/visualaiclub/status/2105719426628587910",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "tweetId": "2105719426628587910",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-01T18:00:08.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUPLOAD A REFERENCE IMAGE BEFORE GENERATING.\n\nMAIN PROMPT\n\nTransform every visible person in the uploaded image into a realistic LEGO-style minifigure while preserving the original environment, background, composition, lighting, and relationships. Create exactly one separate minifigure for every visible person. Preserve each person’s recognizable identity, expression, hairstyle, hair color, skin tone, proportions, pose, position, clothing, accessories, and held objects.\n\nFORMAT LOCK\n\nVertical 3:4 composition. Show every minifigure fully from head to toe without cropping. Preserve the original group arrangement and perspective. Extend the environment naturally only when needed for the 3:4 frame.\n\nSTYLE TRANSFER\n\nConvert only the people into authentic LEGO-style minifigures. Use realistic molded plastic, cylindrical heads, block-shaped torsos, standard arms and hands, short legs, printed facial features, detailed printed clothing, and molded plastic hairpieces matching each person’s hairstyle. Keep the figures seamlessly integrated into the original photograph.\n\nDETAIL & COLOR\n\nAccurately reproduce each person’s original clothing colors, patterns, layers, sleeves, collars, pants, skirts, shoes, jewelry, glasses, hats, bags and other visible accessories as LEGO prints or molded elements. Preserve original skin tones and facial expressions. Realistic plastic reflections, subtle seams, fine printed details and natural contact shadows.\n\nCOMPOSITION LOCK\n\nKeep the original location, architecture, scenery, furniture, objects, colors, textures, perspective, depth, weather, atmosphere and time of day unchanged. Do not redesign or simplify the background. Preserve all existing objects in their original positions. Objects held or worn by people may be converted into LEGO-style accessories while maintaining their original appearance and color.\n\nSTYLE\n\nPhotorealistic LEGO-style minifigure transformation, premium 3D toy photography, realistic molded plastic, subtle glossy finish, physically accurate reflections, natural lighting, cinematic detail, seamless integration with the original scene.\n\nNEGATIVE PROMPT\n\nNo changed background, studio backdrop, LEGO environment, added bricks, removed objects, extra people, missing people, duplicates, merged figures, generic characters, altered outfits, invented accessories, identity loss, wrong hairstyles, cropped bodies, missing limbs, oversized heads, realistic human bodies, real hair, real fabric, anime, cartoon exaggeration, CGI-looking environment, floating figures, excessive reflections, harsh shadows, blur, low resolution, text, logos, watermark.",
+      "start": 82,
+      "length": 2564,
+      "sha256": "17ec5d818ffe9686884419ae7248b1290da65012a3ff621835a2731f11a0cd1e",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105719426628587910.jpg",
+          "url": "https://pbs.twimg.com/media/HTkEn86W8AABt_B.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "73ff11900e33db5392fff5bea2dd36ee79ea8ee84dd487d29f9c06b8a12499be",
+          "size": 177601
+        },
+        {
+          "path": "/covers/x-2105719426628587910-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTkEn84WoAAn0GI.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "df0e051da036cbea0934059c3c5f07ba8f191761545f8cb2900d6f76b7476a63",
+          "size": 234191
+        }
+      ]
+    },
+    {
+      "no": "468",
+      "id": "x-2105677071854837766",
+      "sourceUrl": "https://x.com/visualaiclub/status/2105677071854837766",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "tweetId": "2105677071854837766",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-10-01T15:11:50.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUpload a reference image before generating.\n\nMAIN PROMPT\n\nTransform the uploaded photograph into a minimalist, premium handmade editorial paper illustration. Use the photo strictly as reference and preserve the subject’s recognizable identity, facial features, hairstyle, facial hair, skin tone, body proportions, clothing, pose, expression, hands, umbrella and key recognizable details. Generate ONLY the illustration on a clean paper background.\n\nFORMAT LOCK\n\nVertical 3:4 canvas. Small centered subject occupying approximately 15–25% of the canvas. Generous warm negative space. Do not crop important parts of the subject.\n\nSTYLE TRANSFER\n\nReinterpret the photograph as a sophisticated handmade watercolor, acrylic, colored-pencil and ink illustration. Preserve recognition while simplifying the image into a refined contemporary editorial artwork. Avoid photorealism and polished digital-vector aesthetics.\n\nDETAIL & COLOR\n\nDelicate imperfect ink outlines, loose watercolor washes, restrained acrylic shapes, dry-brush marks, rough pigment edges, subtle colored-pencil texture and natural paint imperfections. Warm ivory handmade paper with visible grain and fibers. Use a restrained palette of deep navy blue, muted dark green, natural skin tones and warm brown/ochre, with subtle blue and green environmental shapes.\n\nCOMPOSITION LOCK\n\nKeep the subject small, centered and fully readable. Preserve the wavy dark hair, facial features and gentle smile, light facial hair, navy sweater, pale shirt collar, green umbrella, umbrella shaft, curved wooden handle, hand and ring. Simplify the environment aggressively into only a few loose painted shapes. Maintain a calm gallery-like composition with abundant clean negative space.\n\nSTYLE\n\nQuiet, poetic, minimal, refined, warm, contemporary handmade editorial illustration. Premium art-book aesthetic, tactile paper surface, organic edges, subtle pigment variation and authentic traditional craftsmanship.\n\nNEGATIVE PROMPT\n\nNo photograph, photorealism, split-screen, collage, top-and-bottom layout, second panel, photographic half, detailed background, oversized subject, large illustration, digital vector art, glossy CGI, 3D, anime, cartoon exaggeration, excessive detail, chaotic colors, typography, text, letters, words, numbers, logos, symbols, watermark or signature",
+      "start": 82,
+      "length": 2265,
+      "sha256": "d1d6b6e7c69e45addb932138982cf3830bff5a8decb59bfb4cd7849920fde22b",
+      "scenarios": [
+        "memory",
+        "feeling"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105677071854837766.jpg",
+          "url": "https://pbs.twimg.com/media/HTjeIdvW0AAc0PU.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "f43cde8416808f80e8c4265edf775fd65f860e18dd987672bf241bcb1e4da01b",
+          "size": 152565
+        },
+        {
+          "path": "/covers/x-2105677071854837766-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTjeIddWMAAvirh.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "bbb667bc9431d3b8dd2faf9526f7a774f860db601ad7750af0e45f3e96c32c0f",
+          "size": 132069
+        }
+      ]
+    },
+    {
+      "no": "469",
+      "id": "x-2104727282690748464",
+      "sourceUrl": "https://x.com/plex233/status/2104727282690748464",
+      "authorHandle": "plex233",
+      "authorId": "2077682033804169216",
+      "tweetId": "2104727282690748464",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-29T00:17:42.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "今天试了一个很实用的 GPT Image 技巧：别堆“8K、masterpiece、cinematic”这种形容词，直接规定光从哪里来、材质怎么响应光、镜头怎么看主体。\n\nPrompt：\n\n巨型圆润的淡绿色透明玻璃香水瓶，内部封存一座微缩苔藓山谷、盆景古树、岩石与细小瀑布。置于被水覆盖的粗野主义清水混凝土空间，左上方冷色天光穿过建筑开口，右后方夕阳形成暖色轮廓光；玻璃产生真实折射、焦散、微小水滴与高光畸变，水面形成自然倒影。低机位产品摄影，主体偏右构图，大面积负空间，真实光学景深，高端香氛广告质感，无文字、无 Logo、无塑料 CGI 感。\n\n关键不是让 AI “画得更高级”，而是把构图、光源方向、材质响应、镜头语言直接交代清楚。OpenAI 最新的 GPT Image 提示指南也明确建议把 subject、composition、lighting、texture 和 constraints 具体化，而非依赖模糊的风格词。",
+      "start": 95,
+      "length": 178,
+      "sha256": "11344de11fbe761c20d2005261adc26cf58533f12a73e38e9d98267432470feb",
+      "scenarios": [
+        "promotion",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104727282690748464.jpg",
+          "url": "https://pbs.twimg.com/media/HTV-TXZaYAEmkbb.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "e90decaf8f75ab845fbf586ff8fb7ec9a5ac09980e27dfd243b5439ad2e81eb5",
+          "size": 224584
+        }
+      ]
+    },
+    {
+      "no": "470",
+      "id": "x-2104527263265919477",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104527263265919477",
+      "authorHandle": "DuaFatimaAi",
+      "authorId": "2009261034830483456",
+      "tweetId": "2104527263265919477",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-28T11:02:54.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gpt image 2 via chat gpt \n\nPrompt \n\nCreate a cinematic, heartwarming 3D animated scene of an elderly couple playfully dancing together inside a cozy vintage home hallway.\n\nAn elderly woman with white hair tied in a messy bun, round glasses, expressive eyes, and a warm playful smile is dancing toward her husband. She wears a colorful patterned cardigan over a light blouse, a dark green knee-length skirt, and brown ankle boots. Her body language is joyful and energetic.\n\nAn elderly man with fluffy white hair and glasses is kneeling playfully while holding up a smartphone, recording or photographing his wife. He wears a cream long-sleeve shirt, a colorful knitted patterned sweater vest, dark brown trousers, and oversized dark shoes. His expression is affectionate, amused, and full of joy.\n\nThe setting is a warm, narrow vintage hallway with wooden flooring, beige walls, classic doorways, a hanging ceiling lamp casting soft warm golden light, and subtle home details in the background. The couple is the clear focal point.\n\nPixar-inspired high-end 3D animation aesthetic, charming exaggerated elderly character proportions, expressive facial features, realistic fabric and hair details, cinematic composition, soft depth of field, warm ambient lighting, natural shadows, cozy nostalgic atmosphere, detailed wooden floor reflections, volumetric light, slightly low camera angle, full-body framing, vertical 9:16 composition, ultra-detailed, polished animated movie quality, photorealistic 3D rendering.",
+      "start": 36,
+      "length": 1474,
+      "sha256": "f7870b7a7fd85a1b9767cf7fe36f5fe3abfed67065dd5ec41f4d65774e30bb7b",
+      "scenarios": [
+        "feeling",
+        "story",
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104527263265919477.jpg",
+          "url": "https://pbs.twimg.com/media/HTTIMXYWIAAFY-M.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "2769ceb4a2db55c9ea3782ea58344d74fe752a0b456cdea2da3e86cdaf103456",
+          "size": 57196
+        }
+      ]
+    },
+    {
+      "no": "471",
+      "id": "x-2104377831581253709",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104377831581253709",
+      "authorHandle": "DuaFatimaAi",
+      "authorId": "2009261034830483456",
+      "tweetId": "2104377831581253709",
+      "retrievedOn": "2026-10-03",
+      "publishedAt": "2026-09-28T01:09:07.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gpt image 2 via chat gpt \n\nPrompt \n\nCreate a photorealistic lifestyle food photography scene featuring four clear glass meal-prep jars arranged on a clean light-colored kitchen countertop. Each jar has a natural bamboo wooden lid with a white sealing ring.\n\nThe jars contain beautifully layered Mexican-inspired chicken salads, with clearly separated colorful layers from bottom to top: diced cucumber, cherry tomatoes, red onion, red bell pepper, sweet corn, black beans, crumbled Cotija cheese, fresh chopped romaine lettuce, and shredded cooked chicken. Keep every ingredient fresh, vibrant, crisp, and visibly distinct through the transparent glass.\n\nPlace two jars in the foreground and two slightly behind them for depth and composition. Warm modern kitchen background with subtle wooden cabinets, soft natural daylight coming from a window, shallow depth of field, realistic reflections on the glass, soft shadows, premium food photography, natural colors, high detail, realistic textures, 4K, editorial meal-prep aesthetic.\n\nOn the right side, include a neat handwritten-style ingredient list reading:\n“Shredded Chicken\nRomaine\nCojita\nBlack beans\nCorn\nRed pepper\nRed onion\nCherry tomatoes\nCucumber”\n\nVertical composition, realistic proportions, clean and appetizing presentation, professional commercial food photography.",
+      "start": 36,
+      "length": 1293,
+      "sha256": "0220568049d6cf6f23499a2dbe20447f83b58127f5b8786fdb0b255b92e8032f",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104377831581253709.jpg",
+          "url": "https://pbs.twimg.com/media/HTRAdKCaAAAL1LT.jpg?name=orig",
+          "kind": "original-image",
+          "sha256": "3cdf50f6accb928b5cfebd56457d68bd54bb0f95ad45e83a2a759de8a2735d59",
+          "size": 114058
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "sourceUrl": "https://x.com/affan_imran/status/2104229202543378706",
+      "reason": "原帖只有菜单介绍，没有提示词原文。"
+    },
+    {
+      "sourceUrl": "https://x.com/kabumira862571/status/2105639047188369796",
+      "reason": "原帖只有作品标题，没有提示词原文。"
+    },
+    {
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2104962263367221257",
+      "reason": "原帖仅指向外部仓库，本批未读取完整外部提示词。"
+    }
+  ],
+  "checkedCandidates": [
+    {
+      "tweetId": "2104229202543378706",
+      "sourceUrl": "https://x.com/affan_imran/status/2104229202543378706",
+      "authorHandle": "affan_imran",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2104377831581253709",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104377831581253709",
+      "authorHandle": "DuaFatimaAi",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2104527263265919477",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104527263265919477",
+      "authorHandle": "DuaFatimaAi",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2104727282690748464",
+      "sourceUrl": "https://x.com/plex233/status/2104727282690748464",
+      "authorHandle": "plex233",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2104936510046794177",
+      "sourceUrl": "https://x.com/Elvorya/status/2104936510046794177",
+      "authorHandle": "Elvorya",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2104937619419537834",
+      "sourceUrl": "https://x.com/aynellex/status/2104937619419537834",
+      "authorHandle": "aynellex",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2104962263367221257",
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2104962263367221257",
+      "authorHandle": "xiaoxiaodong",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105051745303114040",
+      "sourceUrl": "https://x.com/Gdgtify/status/2105051745303114040",
+      "authorHandle": "Gdgtify",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105138843116863845",
+      "sourceUrl": "https://x.com/MianYassine/status/2105138843116863845",
+      "authorHandle": "MianYassine",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105145613625037081",
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2105145613625037081",
+      "authorHandle": "aytacaltintepe",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105235981553353199",
+      "sourceUrl": "https://x.com/JamilAI55/status/2105235981553353199",
+      "authorHandle": "JamilAI55",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105279612041285907",
+      "sourceUrl": "https://x.com/Picsart/status/2105279612041285907",
+      "authorHandle": "Picsart",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105291987851305247",
+      "sourceUrl": "https://x.com/aynellex/status/2105291987851305247",
+      "authorHandle": "aynellex",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105294550449414185",
+      "sourceUrl": "https://x.com/Elvorya/status/2105294550449414185",
+      "authorHandle": "Elvorya",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105330944752091192",
+      "sourceUrl": "https://x.com/Rabia_69x/status/2105330944752091192",
+      "authorHandle": "Rabia_69x",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105453823070454183",
+      "sourceUrl": "https://x.com/Rabia_69x/status/2105453823070454183",
+      "authorHandle": "Rabia_69x",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105496423970029640",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2105496423970029640",
+      "authorHandle": "CyberTotal2026",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105559740197810552",
+      "sourceUrl": "https://x.com/DaniaSafvi/status/2105559740197810552",
+      "authorHandle": "DaniaSafvi",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105572027645977038",
+      "sourceUrl": "https://x.com/ZarnishNael/status/2105572027645977038",
+      "authorHandle": "ZarnishNael",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105633074348536291",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2105633074348536291",
+      "authorHandle": "CyberTotal2026",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105639047188369796",
+      "sourceUrl": "https://x.com/kabumira862571/status/2105639047188369796",
+      "authorHandle": "kabumira862571",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105652507347214654",
+      "sourceUrl": "https://x.com/WorldEverett/status/2105652507347214654",
+      "authorHandle": "WorldEverett",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105677071854837766",
+      "sourceUrl": "https://x.com/visualaiclub/status/2105677071854837766",
+      "authorHandle": "visualaiclub",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105683448715485557",
+      "sourceUrl": "https://x.com/JamilAI55/status/2105683448715485557",
+      "authorHandle": "JamilAI55",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105719426628587910",
+      "sourceUrl": "https://x.com/visualaiclub/status/2105719426628587910",
+      "authorHandle": "visualaiclub",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105785327600144601",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2105785327600144601",
+      "authorHandle": "CyberTotal2026",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105870617593757697",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2105870617593757697",
+      "authorHandle": "VoxcatAI",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2105871614512607509",
+      "sourceUrl": "https://x.com/AiwithLariab/status/2105871614512607509",
+      "authorHandle": "AiwithLariab",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105881201257206211",
+      "sourceUrl": "https://x.com/Lianaalane/status/2105881201257206211",
+      "authorHandle": "Lianaalane",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105883539879125215",
+      "sourceUrl": "https://x.com/flutterwhat/status/2105883539879125215",
+      "authorHandle": "flutterwhat",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105895502181261608",
+      "sourceUrl": "https://x.com/ayzalnooor24521/status/2105895502181261608",
+      "authorHandle": "ayzalnooor24521",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105896803975462957",
+      "sourceUrl": "https://x.com/ZarnishNael/status/2105896803975462957",
+      "authorHandle": "ZarnishNael",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105897710918242518",
+      "sourceUrl": "https://x.com/nawalsehar/status/2105897710918242518",
+      "authorHandle": "nawalsehar",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2105918957786144973",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2105918957786144973",
+      "authorHandle": "CyberTotal2026",
+      "code": 200,
+      "hasImage": true,
+      "selected": false
+    },
+    {
+      "tweetId": "2106019421063889140",
+      "sourceUrl": "https://x.com/Elvorya/status/2106019421063889140",
+      "authorHandle": "Elvorya",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2106031986003615843",
+      "sourceUrl": "https://x.com/aynellex/status/2106031986003615843",
+      "authorHandle": "aynellex",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2106043544846602330",
+      "sourceUrl": "https://x.com/timedoctor_nft/status/2106043544846602330",
+      "authorHandle": "timedoctor_nft",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    },
+    {
+      "tweetId": "2106205609112879495",
+      "sourceUrl": "https://x.com/DilshadAI1/status/2106205609112879495",
+      "authorHandle": "DilshadAI1",
+      "code": 200,
+      "hasImage": true,
+      "selected": true
+    }
+  ]
+}

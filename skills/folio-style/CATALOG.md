@@ -1,10 +1,10 @@
 # FOLIO 风格编号目录
 
-共 456 条。图像与视频都按人们要完成的事分类；同一条可用于多个场景，各类数量不可相加。风格、形式和制作工具保留为检索信息。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
+共 471 条。图像与视频都按人们要完成的事分类；同一条可用于多个场景，各类数量不可相加。风格、形式和制作工具保留为检索信息。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
 
-# 图像（376）
+# 图像（391）
 
-## 展示自己（20）
+## 展示自己（27）
 
 让别人认识你：个人头像、职业形象、自我介绍和求职作品展示。
 
@@ -30,8 +30,15 @@
 | 269 | そとこ / Sotoko | Elegant Sparse-Line Girl | @yang0 |
 | 342 | 昭和レトロ少女 | Showa Retro Girl Illustration | @yang0 |
 | 385 | OscarAI | Whimsical Watercolor Die-Cut Sticker Cartoon | @yang0 |
+| 457 | 笔触双重曝光 | 山谷双重曝光自我肖像 | @DilshadAI1 |
+| 458 | 粉色实景超现实 | 粉云时装观测室 | @timedoctor_nft |
+| 459 | 自然生活方式摄影 | 居家沙发暖光写真 | @aynellex |
+| 460 | 雕塑时装摄影 | 银色花瓣礼服角色 | @Elvorya |
+| 461 | 棋子叠影肖像 | 棋王与个人形象 | @JamilAI55 |
+| 465 | 金色时刻旅行肖像 | 博斯普鲁斯旅行留影 | @aynellex |
+| 467 | 场景保留玩具转绘 | 合影变乐高纪念照 | @visualaiclub |
 
-## 记录生活（55）
+## 记录生活（60）
 
 留下旅行、家庭、宠物和日常片段，把照片变成可珍藏的记忆。
 
@@ -92,8 +99,13 @@
 | 405 | OscarAI | Loose Ink & Gouache Storybook Studio | @yang0 |
 | 432 | 中国农民画 | Chinese Farmers Painting | @yang0 |
 | 451 | 当代绘本生活转绘 | 生活照片绘本转绘 | @ai_suxiaole |
+| 459 | 自然生活方式摄影 | 居家沙发暖光写真 | @aynellex |
+| 465 | 金色时刻旅行肖像 | 博斯普鲁斯旅行留影 | @aynellex |
+| 467 | 场景保留玩具转绘 | 合影变乐高纪念照 | @visualaiclub |
+| 468 | 手工纸本混合绘画 | 照片变留白纸本插画 | @visualaiclub |
+| 470 | 温暖三维角色场景 | 老年伴侣起舞 | @DuaFatimaAi |
 
-## 表达心意（88）
+## 表达心意（92）
 
 向某个人传递祝福、感谢、思念和陪伴，或分享自己的心情。
 
@@ -187,8 +199,12 @@
 | 422 | 日系超萌1.5头身Q版 | Japanese Kawaii Mini Chibi 2D Illustration | @yang0 |
 | 451 | 当代绘本生活转绘 | 生活照片绘本转绘 | @ai_suxiaole |
 | 452 | 水墨侘寂幻灯 | 茶与慢生活水墨页 | @dotey |
+| 463 | 粉青互补色摄影 | 粉色天鹅心意卡 | @Picsart |
+| 466 | 冷凝玻璃近景 | 雾玻璃后的角色壁纸 | @VoxcatAI |
+| 468 | 手工纸本混合绘画 | 照片变留白纸本插画 | @visualaiclub |
+| 470 | 温暖三维角色场景 | 老年伴侣起舞 | @DuaFatimaAi |
 
-## 讲清知识（15）
+## 讲清知识（17）
 
 让一个概念、一段历史、一组信息或操作过程更容易被理解。
 
@@ -209,8 +225,10 @@
 | 440 | VOX 折纸3D立体拼贴动画 | Vox 3D Origami Collage Animation | @yang0 |
 | 441 | 极简手绘 | Minimalist 2D Hand-Drawn Doodle | @yang0 |
 | 442 | 简笔与半写实融合风 | Minimalist Doodle & Semi-Realistic Hybrid Illustration | @yang0 |
+| 464 | 物体驱动建筑概念 | 日常物件变地标 | @Gdgtify |
+| 471 | 透明罐食品摄影 | 分层沙拉备餐说明 | @DuaFatimaAi |
 
-## 介绍产品（67）
+## 介绍产品（69）
 
 让别人了解商品、服务、应用或品牌，看到特点、效果和使用方法。
 
@@ -283,6 +301,8 @@
 | 443 | 先锋时尚杂志直闪 | 雷电将军直闪杂志 | @DeepBlueX0 |
 | 444 | 瑞士国际主义网格 | 八重神子国际主义网格 | @DeepBlueX0 |
 | 452 | 水墨侘寂幻灯 | 茶与慢生活水墨页 | @dotey |
+| 469 | 玻璃香氛产品摄影 | 苔藓山谷香水广告 | @plex233 |
+| 471 | 透明罐食品摄影 | 分层沙拉备餐说明 | @DuaFatimaAi |
 
 ## 发布消息（68）
 
@@ -359,7 +379,7 @@
 | 443 | 先锋时尚杂志直闪 | 雷电将军直闪杂志 | @DeepBlueX0 |
 | 444 | 瑞士国际主义网格 | 八重神子国际主义网格 | @DeepBlueX0 |
 
-## 表达观点（74）
+## 表达观点（75）
 
 把观察、态度和生活感悟变成可分享的画面，用幽默、对照或隐喻说清想法。
 
@@ -439,8 +459,9 @@
 | 440 | VOX 折纸3D立体拼贴动画 | Vox 3D Origami Collage Animation | @yang0 |
 | 441 | 极简手绘 | Minimalist 2D Hand-Drawn Doodle | @yang0 |
 | 442 | 简笔与半写实融合风 | Minimalist Doodle & Semi-Realistic Hybrid Illustration | @yang0 |
+| 461 | 棋子叠影肖像 | 棋王与个人形象 | @JamilAI55 |
 
-## 讲述故事（216）
+## 讲述故事（218）
 
 用人物、动作与场景讲一个故事，制作故事画面、分镜或连续影像。
 
@@ -662,8 +683,10 @@
 | 439 | 中国老式手工木偶定格动画风 | Vintage Chinese Handmade Puppet Stop-Motion Animation | @yang0 |
 | 445 | 浮世绘木版套色 | 神里绫华浮世绘套色 | @DeepBlueX0 |
 | 446 | 宋代花鸟绢本 | 甘雨花鸟绢本 | @DeepBlueX0 |
+| 462 | 花藤夜景转绘 | 海上花藤霓虹场景 | @WorldEverett |
+| 470 | 温暖三维角色场景 | 老年伴侣起舞 | @DuaFatimaAi |
 
-## 构思角色与世界（149）
+## 构思角色与世界（155）
 
 为角色、游戏、动画或空间寻找形象，试出人物设定和世界的样子。
 
@@ -818,6 +841,12 @@
 | 439 | 中国老式手工木偶定格动画风 | Vintage Chinese Handmade Puppet Stop-Motion Animation | @yang0 |
 | 445 | 浮世绘木版套色 | 神里绫华浮世绘套色 | @DeepBlueX0 |
 | 446 | 宋代花鸟绢本 | 甘雨花鸟绢本 | @DeepBlueX0 |
+| 458 | 粉色实景超现实 | 粉云时装观测室 | @timedoctor_nft |
+| 460 | 雕塑时装摄影 | 银色花瓣礼服角色 | @Elvorya |
+| 462 | 花藤夜景转绘 | 海上花藤霓虹场景 | @WorldEverett |
+| 464 | 物体驱动建筑概念 | 日常物件变地标 | @Gdgtify |
+| 466 | 冷凝玻璃近景 | 雾玻璃后的角色壁纸 | @VoxcatAI |
+| 469 | 玻璃香氛产品摄影 | 苔藓山谷香水广告 | @plex233 |
 
 # 视频（80）
 
