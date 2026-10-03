@@ -26,6 +26,7 @@ function fixture(t) {
         title: "样本",
         style: "布艺",
         category: "craft",
+        scenarios: ["craft"],
         medium: "image",
         tags: ["手作"],
         slots: ["SUBJECT"],

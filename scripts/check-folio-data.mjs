@@ -16,9 +16,18 @@ execFileSync(process.execPath, [resolve(root, "scripts/sync-folio-data.mjs"), "-
 });
 if (process.argv.includes("--verify-reconciliation")) {
   assert.equal(
-    hash(JSON.stringify(db.prompts.slice(0, refresh.baselineCount))),
+    hash(
+      JSON.stringify(
+        db.prompts
+          .slice(0, refresh.baselineCount)
+          .map(({ scenarios: _scenarios, visualCategory, ...p }) => ({
+            ...p,
+            category: visualCategory ?? p.category,
+          })),
+      ),
+    ),
     refresh.baselineSha256,
-    "Original 001-150 records changed during reconciliation",
+    "Original 001-150 content changed beyond scenario metadata",
   );
 }
 const byId = new Map(db.prompts.map((p) => [p.id, p]));

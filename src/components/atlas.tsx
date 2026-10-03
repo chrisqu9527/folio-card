@@ -32,6 +32,7 @@ import {
   folio,
   parseNo,
   promptByNo,
+  scenarioNames,
   useName,
   type CategoryId,
   type FolioPrompt,
@@ -223,7 +224,7 @@ export function Atlas() {
             <img src={brand.mark} alt="" width={32} height={32} />
             <span>{brand.shortName}</span>
           </button>
-          <nav className="folio-categories" aria-label="风格分类">
+          <nav className="folio-categories" aria-label="应用场景">
             <button
               className={category === "all" ? "is-active" : ""}
               onClick={() => {
@@ -235,11 +236,13 @@ export function Atlas() {
               全部
             </button>
             {folio.categories
-              .filter((c) => countMedium(medium, c.id, scene) > 0)
+              .filter((c) => c.id === category || countMedium(medium, c.id, scene) > 0)
               .map((c) => (
                 <button
                   key={c.id}
                   className={category === c.id ? "is-active" : ""}
+                  title={c.blurb}
+                  aria-pressed={category === c.id}
                   onClick={() => {
                     setCategory(c.id);
                     setQuery("");
@@ -294,13 +297,13 @@ export function Atlas() {
             >
               <Search aria-hidden="true" />
               <label className="sr-only" htmlFor="folio-q">
-                搜索编号、风格或作者
+                搜索场景、编号、风格或作者
               </label>
               <input
                 id="folio-q"
                 value={query}
                 onChange={(e) => onQuery(e.target.value)}
-                placeholder="搜索编号、风格或作者"
+                placeholder="搜索场景、编号、风格或作者"
                 inputMode="search"
                 autoComplete="off"
               />
@@ -356,33 +359,38 @@ export function Atlas() {
               </button>
             </div>
           </section>
+          <p className="folio-scenario-note">
+            {category === "all"
+              ? "你想用画面做什么？按上方场景找灵感，也可以搜索具体的风格。"
+              : folio.categories.find((c) => c.id === category)?.blurb}
+          </p>
           {medium === "video" && (
-            <nav className="folio-scenes" aria-label="视频用途">
+            <nav className="folio-scenes" aria-label="视频形式">
               <button
                 className={scene === "all" ? "is-active" : ""}
                 onClick={() => {
                   setScene("all");
-                  setCategory("all");
                   setQuery("");
                   setMissing(null);
                 }}
               >
-                全部场景
+                全部形式
               </button>
-              {folio.uses.map((u) => (
-                <button
-                  key={u.id}
-                  className={scene === u.id ? "is-active" : ""}
-                  onClick={() => {
-                    setScene(u.id);
-                    setCategory("all");
-                    setQuery("");
-                    setMissing(null);
-                  }}
-                >
-                  {u.name}
-                </button>
-              ))}
+              {folio.uses
+                .filter((u) => u.id === scene || countMedium(medium, category, u.id) > 0)
+                .map((u) => (
+                  <button
+                    key={u.id}
+                    className={scene === u.id ? "is-active" : ""}
+                    onClick={() => {
+                      setScene(u.id);
+                      setQuery("");
+                      setMissing(null);
+                    }}
+                  >
+                    {u.name}
+                  </button>
+                ))}
             </nav>
           )}
           {results.length ? (
@@ -474,7 +482,8 @@ export function Atlas() {
           <DialogDescription>{brand.name} · 图像与视频提示词编号库</DialogDescription>
           <ol>
             <li>
-              <strong>先看图。</strong>按分类或视频用途浏览，也可以搜索风格和作者。
+              <strong>先选用途。</strong>
+              从你要完成的事出发找图；同一条可以用于多个场景。视频还能按形式细选。
             </li>
             <li>
               <strong>记住编号。</strong>输入 016、#16 或“风格16”，就能找到同一条。
@@ -653,6 +662,7 @@ function PromptSheet({
         </p>
         <DialogTitle>{p.title}</DialogTitle>
         <DialogDescription>{p.style}</DialogDescription>
+        <p className="folio-detail-excerpt">适用场景：{scenarioNames(p)}</p>
         <p className="folio-detail-excerpt">{p.excerpt}</p>
         <div className="folio-detail-actions">
           <button className="solid-button" onClick={onCopy}>

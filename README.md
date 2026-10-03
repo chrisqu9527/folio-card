@@ -9,8 +9,8 @@
 - **报编号就复制风格。** `016`、`#16`、`风格 16`、`16号` 都指向同一条。复制出来的是原帖提示词，不改写、不补「8K、大师作品」。
 - **先看图，再决定用不用。** 每条带原帖封面。网站上点大图可以放大；有多张参考图时可以切换。
 - **图像和视频分开。** 网站顶部两套入口。Skill 用 `--medium image` 或 `--medium video`。报编号仍然直接跳到那一条。
-- **视频再按场景找。** 预告片、游戏、广告、产品宣传、社交短视频、叙事短片、动作展示、可换模板、作品集。这是按成片用途分的，和上面的风格分类不是一回事。Skill 用 `--use 预告片`。代码成片用 `--category 代码成片`。
-- **按类找，或按词搜。** 十个分类：人像、海报版式、风格系统、东方叙事、电影动作、叙事短片、产品品牌、插画工艺、手绘、代码成片。也可以搜「武侠」「字体」「证件照」。代码成片是 Opus 5.5 写 Canvas 或 Remotion 渲出来的，不是生视频模型。
+- **先选要完成的事。** 展示自己、记录生活、表达心意、讲清知识、介绍产品、发布消息、表达观点、讲述故事、构思角色与世界。图像与视频共用这九个应用场景，一条可适合多个场景。
+- **再找喜欢的表现方式。** 人像、海报、水墨、手绘、字体、代码等保留在风格和标签中。视频形式可用 `--use 预告片` 等进一步细选。代码成片是写 Canvas 或 Remotion 渲出来的，不是生视频模型。
 - **只换主体，留下风格。** 带【槽位】的条目，换槽位里的角色、标题或场景，其余句子保持不动。
 - **给 Agent 当 skill 用。** 装上之后，对话里直接报编号。也有一条命令行，不经过聊天也能查。
 
@@ -54,7 +54,7 @@ ln -s "$PWD/folio-card/skills/folio-style" ~/.codex/skills/folio-style
 
 ```bash
 node skills/folio-style/scripts/lookup.mjs 016
-node skills/folio-style/scripts/lookup.mjs --category poster
+node skills/folio-style/scripts/lookup.mjs --category knowledge
 node skills/folio-style/scripts/lookup.mjs --search 武侠
 ```
 
@@ -66,14 +66,14 @@ node skills/folio-style/scripts/lookup.mjs --search 武侠
 
 2026-10-01 的[版本统一说明](docs/version-reconciliation.md)记录了本地与远端编号冲突的处理；[MCP 与网页后台方案](docs/mcp-web-admin-plan.md)说明下一步如何共用主数据。当前仍是浏览／复制网站和本地 Skill，MCP 服务与管理后台尚未实现。
 
-| 路径 | 是什么 |
-| --- | --- |
-| [skills/folio-style](skills/folio-style) | 给 Agent 的 skill |
-| [skills/folio-style/data/prompts.json](skills/folio-style/data/prompts.json) | 总库，机器可读 |
-| [skills/folio-style/entries](skills/folio-style/entries) | 一条一个 markdown |
-| [skills/folio-style/CATALOG.md](skills/folio-style/CATALOG.md) | 人类目录 |
-| [public/covers](public/covers) | 预览图 |
-| [src/data/prompts.json](src/data/prompts.json) | 网站用的同一份库 |
+| 路径                                                                         | 是什么            |
+| ---------------------------------------------------------------------------- | ----------------- |
+| [skills/folio-style](skills/folio-style)                                     | 给 Agent 的 skill |
+| [skills/folio-style/data/prompts.json](skills/folio-style/data/prompts.json) | 总库，机器可读    |
+| [skills/folio-style/entries](skills/folio-style/entries)                     | 一条一个 markdown |
+| [skills/folio-style/CATALOG.md](skills/folio-style/CATALOG.md)               | 人类目录          |
+| [public/covers](public/covers)                                               | 预览图            |
+| [src/data/prompts.json](src/data/prompts.json)                               | 网站用的同一份库  |
 
 ## 编号规则
 
@@ -85,4 +85,4 @@ node skills/folio-style/scripts/lookup.mjs --search 武侠
 
 提示词和预览图来自各位作者的公开帖，版权归原作者。FOLIO 只做索引和引用，每条都保留原帖链接和署名。不要把这些提示词说成自己写的。
 
-163–442 来自 [yang0/handraw-style](https://github.com/yang0/handraw-style)。分类为手绘，作者记 yang0。生图名称和视觉特征按原文保留。使用须保留原作者署名和仓库链接。
+163–442 来自 [yang0/handraw-style](https://github.com/yang0/handraw-style)，作者记 yang0。手绘保留为风格标签，应用场景根据条目的表达特点推荐。生图名称和视觉特征按原文保留。使用须保留原作者署名和仓库链接。

@@ -8,19 +8,21 @@
 
 仓库已公开：[chrisqu9527/folio-card](https://github.com/chrisqu9527/folio-card)。给人看的说明在仓库根目录 [README](../../README.md)。
 
-## 分类
+## 应用场景
 
-| id | 分类 | 做什么 |
-| --- | --- | --- |
-| portrait | 人像 | 脸、气质、胶片与角色肖像 |
-| poster | 海报版式 | 海报、字体、网格与编辑设计 |
-| system | 风格系统 | 可套用的风格转译、双拼与图鉴程序 |
-| eastern | 东方叙事 | 武侠、仙侠、神话与国风 |
-| cinema | 电影动作 | 运镜、战斗、片头与运动影像 |
-| story | 叙事短片 | 日常、喜剧、恐怖、爱情与微缩故事 |
-| object | 产品品牌 | 商品、时装、包装、航拍与品牌板 |
-| craft | 插画工艺 | 绘本、涂鸦、拼贴与线稿 |
-| code | 代码成片 | Opus 写 Canvas、Remotion 或着色器，不调用生视频模型 |
+先选用户要完成的事；一条可适用于多个场景。风格、形式、工具和发布渠道不作为一级分类。
+
+| id           | 场景           | 做什么                                                               |
+| ------------ | -------------- | -------------------------------------------------------------------- |
+| identity     | 展示自己       | 让别人认识你：个人头像、职业形象、自我介绍和求职作品展示。           |
+| memory       | 记录生活       | 留下旅行、家庭、宠物和日常片段，把照片变成可珍藏的记忆。             |
+| feeling      | 表达心意       | 向某个人传递祝福、感谢、思念和陪伴，或分享自己的心情。               |
+| knowledge    | 讲清知识       | 让一个概念、一段历史、一组信息或操作过程更容易被理解。               |
+| promotion    | 介绍产品       | 让别人了解商品、服务、应用或品牌，看到特点、效果和使用方法。         |
+| announcement | 发布消息       | 让别人注意到活动、发布、节日安排或一项主张，读到关键信息。           |
+| opinion      | 表达观点       | 把观察、态度和生活感悟变成可分享的画面，用幽默、对照或隐喻说清想法。 |
+| story        | 讲述故事       | 用人物、动作与场景讲一个故事，制作故事画面、分镜或连续影像。         |
+| concept      | 构思角色与世界 | 为角色、游戏、动画或空间寻找形象，试出人物设定和世界的样子。         |
 
 目录见 [CATALOG.md](CATALOG.md)。全文在 `entries/001.md` 这种单文件里，机器可读总库是 [data/prompts.json](data/prompts.json)。
 
@@ -37,17 +39,17 @@ skills/folio-style
 
 - `016` — 复制这一条风格
 - `风格 42` — 同上
-- `列出东方叙事` — 只看这一类的编号
+- `列出讲清知识` — 只看这一类的编号
 - `搜索 字体` — 按标题、风格、标签找
 
 本地也可以不经过 Agent：
 
 ```bash
 node skills/folio-style/scripts/lookup.mjs 016
-node skills/folio-style/scripts/lookup.mjs --category poster
+node skills/folio-style/scripts/lookup.mjs --category knowledge
 node skills/folio-style/scripts/lookup.mjs --search 武侠
 ```
 
 ## 记录里有什么
 
-`no` 编号、`style` 风格名、`category` 分类、`title`、`prompt` 原文、`slots` 可替换槽位、`covers` 预览图、作者与原帖、媒介（图像 / 视频）、标签、可选的模型备注和作者后记。
+`no` 编号、`style` 风格名、`category` 主要场景、`scenarios` 适用场景、`title`、`prompt` 原文、`slots` 可替换槽位、`covers` 预览图、作者与原帖、媒介（图像 / 视频）、标签、可选的模型备注和作者后记。

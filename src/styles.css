@@ -324,6 +324,11 @@
   align-items: center;
   gap: 10px;
 }
+.folio-scenario-note {
+  margin: 0 0 16px;
+  color: var(--color-muted);
+  font-size: 14px;
+}
 .folio-scenes {
   display: flex;
   gap: 8px;

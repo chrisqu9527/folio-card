@@ -11,6 +11,11 @@ const read = (path) => readFileSync(resolve(root, path), "utf8").replace(/\r\n/g
 const db = JSON.parse(read(canonical));
 const check = process.argv.includes("--check");
 const categories = Object.fromEntries(db.categories.map((c) => [c.id, c.name]));
+assert.equal(
+  new Set(db.categories.map((c) => c.id)).size,
+  db.categories.length,
+  "Duplicate scenario ID",
+);
 const uses = Object.fromEntries(db.uses.map((u) => [u.id, u.name]));
 assert.equal(db.count, db.prompts.length, "Canonical count differs from records");
 assert.equal(new Set(db.prompts.map((p) => p.no)).size, db.count, "Duplicate number");
@@ -18,6 +23,10 @@ assert.equal(new Set(db.prompts.map((p) => p.id)).size, db.count, "Duplicate ID"
 for (const [index, p] of db.prompts.entries()) {
   assert.equal(p.no, String(index + 1).padStart(3, "0"), "Number order changed");
   assert.ok(categories[p.category], `Unknown category ${p.no}`);
+  assert.ok(Array.isArray(p.scenarios) && p.scenarios.length > 0, `Missing scenarios ${p.no}`);
+  assert.equal(p.scenarios[0], p.category, `Primary scenario differs ${p.no}`);
+  assert.equal(new Set(p.scenarios).size, p.scenarios.length, `Duplicate scenario ${p.no}`);
+  for (const id of p.scenarios) assert.ok(categories[id], `Unknown scenario ${p.no}: ${id}`);
   assert.ok(["image", "video"].includes(p.medium));
   if (p.medium === "video") assert.ok(uses[p.use], `Missing video use ${p.no}`);
   assert.ok(p.prompt.trim() && p.creator.handle && p.sourceUrl && p.covers.length);
@@ -47,6 +56,7 @@ function renderEntry(p) {
     `style: ${q(p.style)}`,
     `category: ${p.category}`,
     `category_name: ${categories[p.category]}`,
+    `scenarios: ${q(p.scenarios)}`,
     `medium: ${p.medium}`,
     ...(p.use ? [`use: ${p.use}`] : []),
     `creator: ${q(p.creator.name)}`,
@@ -62,7 +72,7 @@ function renderEntry(p) {
     `# ${p.no} · ${p.title}`,
     "",
     `- 风格：${p.style}`,
-    `- 分类：${categories[p.category]}`,
+    `- 应用场景：${p.scenarios.map((id) => categories[id]).join("、")}`,
     `- 媒介：${p.medium === "image" ? "图像" : "视频"}`,
     ...(p.use ? [`- 场景：${uses[p.use]}`] : []),
     `- 作者：${p.creator.name} [@${p.creator.handle}](${p.creator.url})`,
@@ -87,7 +97,7 @@ function renderCatalog() {
   const lines = [
     "# FOLIO 风格编号目录",
     "",
-    `共 ${db.count} 条。图像按风格分类，视频再按场景用途分开。编号 001–106 已冻结；107 起只追加。复制时读 \`entries/NNN.md\`，不要改写提示词。`,
+    `共 ${db.count} 条。图像与视频都按人们要完成的事分类；同一条可用于多个场景，各类数量不可相加。风格、形式和制作工具保留为检索信息。编号 001–106 已冻结；107 起只追加。复制时读 \`entries/NNN.md\`，不要改写提示词。`,
     "",
   ];
   const table = (items) => {
@@ -102,16 +112,16 @@ function renderCatalog() {
   const videos = db.prompts.filter((p) => p.medium === "video");
   lines.push(`# 图像（${images.length}）`, "");
   for (const category of db.categories) {
-    const items = images.filter((p) => p.category === category.id);
+    const items = images.filter((p) => p.scenarios.includes(category.id));
     if (!items.length) continue;
     lines.push(`## ${category.name}（${items.length}）`, "", category.blurb, "");
     table(items);
   }
   lines.push(`# 视频（${videos.length}）`, "");
-  for (const use of db.uses) {
-    const items = videos.filter((p) => p.use === use.id);
+  for (const category of db.categories) {
+    const items = videos.filter((p) => p.scenarios.includes(category.id));
     if (!items.length) continue;
-    lines.push(`## ${use.name}（${items.length}）`, "", use.blurb, "");
+    lines.push(`## ${category.name}（${items.length}）`, "", category.blurb, "");
     table(items);
   }
   return lines.join("\n");

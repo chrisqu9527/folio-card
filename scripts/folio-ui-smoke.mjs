@@ -11,6 +11,8 @@ const url = checkedUrl(process.argv[2] ?? "http://127.0.0.1:8080/");
 const db = JSON.parse(readFileSync(new URL("../src/data/prompts.json", import.meta.url), "utf8"));
 const out = new URL("../screenshots/", import.meta.url);
 const screenshotDir = fileURLToPath(out);
+const outputPrefix = process.env.FOLIO_SMOKE_PREFIX ?? "folio";
+assert.match(outputPrefix, /^[a-z0-9-]+$/);
 const clipboardText = (text) => text.replace(/\r\n/g, "\n");
 mkdirSync(out, { recursive: true });
 const errors = [];
@@ -28,7 +30,7 @@ try {
     if (msg.type() === "error") errors.push(msg.text());
   });
   const cards = page.locator(".folio-card");
-  const query = page.getByRole("textbox", { name: "搜索编号、风格或作者" });
+  const query = page.getByRole("textbox", { name: "搜索场景、编号、风格或作者" });
   const waitCount = (n) =>
     page.waitForFunction((count) => document.querySelectorAll(".folio-card").length === count, n);
   const noOverflow = async () =>
@@ -47,15 +49,36 @@ try {
   await waitCount(imageCount);
   await page.waitForFunction(() => document.querySelectorAll(".folio-column").length === 5);
   await noOverflow();
-  await page.screenshot({ path: join(screenshotDir, "folio-wide.png"), animations: "disabled" });
+  await page.screenshot({
+    path: join(screenshotDir, `${outputPrefix}-wide.png`),
+    animations: "disabled",
+  });
   checks.push("desktop: five-column gallery, all image entries, no overflow");
 
   await page
-    .getByRole("navigation", { name: "风格分类" })
-    .getByRole("button", { name: "海报版式", exact: true })
+    .getByRole("navigation", { name: "应用场景" })
+    .getByRole("button", { name: "表达心意", exact: true })
     .click();
-  await waitCount(db.prompts.filter((p) => p.medium === "image" && p.category === "poster").length);
-  checks.push("category filter");
+  await waitCount(
+    db.prompts.filter((p) => p.medium === "image" && p.scenarios.includes("feeling")).length,
+  );
+  assert.ok(
+    (await cards.evaluateAll((items) => items.map((item) => item.dataset.no))).includes("110"),
+  );
+  checks.push("scenario filter includes secondary uses");
+  for (const category of db.categories) {
+    await page
+      .getByRole("navigation", { name: "应用场景" })
+      .getByRole("button", { name: category.name, exact: true })
+      .click();
+    const expected = db.prompts.filter(
+      (p) => p.medium === "image" && p.scenarios.includes(category.id),
+    );
+    await waitCount(expected.length);
+    const actual = await cards.evaluateAll((items) => items.map((item) => item.dataset.no).sort());
+    assert.deepEqual(actual, expected.map((p) => p.no).sort());
+  }
+  checks.push("all nine image scenarios match their actual record sets");
   await query.fill("完全不存在的风格_xyz");
   await waitCount(0);
   assert.equal(await page.getByText("没有找到匹配的风格", { exact: true }).isVisible(), true);
@@ -68,13 +91,17 @@ try {
     await page.getByRole("link", { name: "查看原帖" }).getAttribute("href"),
     numbered.sourceUrl,
   );
+  await page.bringToFront();
   await page.getByRole("button", { name: "复制提示词", exact: true }).click();
   await page.getByRole("button", { name: "已复制提示词", exact: true }).waitFor();
   assert.equal(
     clipboardText(await page.evaluate(() => navigator.clipboard.readText())),
     numbered.prompt,
   );
-  await page.screenshot({ path: join(screenshotDir, "folio-detail.png"), animations: "disabled" });
+  await page.screenshot({
+    path: join(screenshotDir, `${outputPrefix}-detail.png`),
+    animations: "disabled",
+  });
   await page.keyboard.press("Escape");
   checks.push("number lookup, exact original prompt, author link, real clipboard copy");
 
@@ -106,10 +133,35 @@ try {
   await page.getByRole("button", { name: "视频风格", exact: true }).click();
   await waitCount(db.prompts.filter((p) => p.medium === "video").length);
   await page
-    .getByRole("navigation", { name: "视频用途" })
+    .getByRole("navigation", { name: "视频形式" })
     .getByRole("button", { name: "预告片", exact: true })
     .click();
   await waitCount(db.prompts.filter((p) => p.medium === "video" && p.use === "trailer").length);
+  await page.getByRole("button", { name: "全部形式", exact: true }).click();
+  await page
+    .getByRole("navigation", { name: "应用场景" })
+    .getByRole("button", { name: "讲清知识", exact: true })
+    .click();
+  await waitCount(
+    db.prompts.filter((p) => p.medium === "video" && p.scenarios.includes("knowledge")).length,
+  );
+  await page
+    .getByRole("navigation", { name: "视频形式" })
+    .getByRole("button", { name: "产品宣传", exact: true })
+    .click();
+  await waitCount(
+    db.prompts.filter(
+      (p) => p.medium === "video" && p.scenarios.includes("knowledge") && p.use === "product",
+    ).length,
+  );
+  assert.equal(
+    await page
+      .getByRole("navigation", { name: "应用场景" })
+      .getByRole("button", { name: "讲清知识", exact: true })
+      .getAttribute("aria-pressed"),
+    "true",
+  );
+  checks.push("video intent remains selected when intersected with format");
   await page.getByRole("button", { name: "图像风格", exact: true }).click();
   await waitCount(imageCount);
   await page.getByRole("button", { name: "最新", exact: true }).click();
@@ -131,7 +183,14 @@ try {
       "utf8",
     ),
   );
-  for (const added of db.prompts.slice(refresh.baselineCount)) {
+  const samples = db.prompts.filter(
+    (p) =>
+      (Number(p.no) > refresh.baselineCount && Number(p.no) <= 162) ||
+      ["163", "191", "290", "431", "433", "442", "443", "449", "450", "451", "454", "456"].includes(
+        p.no,
+      ),
+  );
+  for (const added of samples) {
     await page.getByRole("button", { name: "重置筛选", exact: true }).click();
     await page
       .getByRole("button", {
@@ -152,6 +211,7 @@ try {
       const img = document.querySelector(".folio-detail-image img");
       return img?.complete && img.naturalWidth > 0;
     });
+    await page.bringToFront();
     await page.getByRole("button", { name: "复制提示词", exact: true }).click();
     await page.getByRole("button", { name: "已复制提示词", exact: true }).waitFor();
     assert.equal(
@@ -161,7 +221,7 @@ try {
     await page.keyboard.press("Escape");
   }
   checks.push(
-    "all added entries: exact number lookup, original prompt, source link, decoded cover and clipboard",
+    "representative entries across collections: exact lookup, original prompt, source, cover and clipboard",
   );
   await page.getByRole("button", { name: "图像风格", exact: true }).click();
   await page.getByRole("button", { name: "重置筛选", exact: true }).click();
@@ -179,7 +239,18 @@ try {
     true,
   );
   await noOverflow();
-  await page.screenshot({ path: join(screenshotDir, "folio-phone.png"), animations: "disabled" });
+  await page
+    .getByRole("navigation", { name: "应用场景" })
+    .getByRole("button", { name: "构思角色与世界", exact: true })
+    .click();
+  await waitCount(
+    db.prompts.filter((p) => p.medium === "image" && p.scenarios.includes("concept")).length,
+  );
+  await noOverflow();
+  await page.screenshot({
+    path: join(screenshotDir, `${outputPrefix}-phone.png`),
+    animations: "disabled",
+  });
   await query.fill("016");
   await waitCount(1);
   await cards.locator(".folio-card-cover").click();
@@ -189,6 +260,7 @@ try {
     el.scrollTop = el.scrollHeight;
   });
   assert.equal(await scrollBox.evaluate((el) => el.scrollTop > 0), true);
+  await page.bringToFront();
   await page.getByRole("button", { name: "复制提示词", exact: true }).click();
   await page.getByRole("button", { name: "已复制提示词", exact: true }).waitFor();
   assert.equal(
@@ -196,7 +268,7 @@ try {
     numbered.prompt,
   );
   await page.screenshot({
-    path: join(screenshotDir, "folio-phone-detail.png"),
+    path: join(screenshotDir, `${outputPrefix}-phone-detail.png`),
     animations: "disabled",
   });
   await noOverflow();
@@ -219,7 +291,7 @@ try {
   );
   assert.deepEqual(errors, []);
   writeFileSync(
-    new URL("folio-interactions.json", out),
+    new URL(`${outputPrefix}-interactions.json`, out),
     JSON.stringify({ ok: true, url, checks, errors }, null, 2),
   );
   console.log(JSON.stringify({ ok: true, checks, errors }, null, 2));
