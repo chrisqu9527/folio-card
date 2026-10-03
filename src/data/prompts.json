@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 471,
+  "count": 479,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags.",
   "categories": [
     {
@@ -17348,6 +17348,282 @@
       "prompt": "Create a photorealistic lifestyle food photography scene featuring four clear glass meal-prep jars arranged on a clean light-colored kitchen countertop. Each jar has a natural bamboo wooden lid with a white sealing ring.\n\nThe jars contain beautifully layered Mexican-inspired chicken salads, with clearly separated colorful layers from bottom to top: diced cucumber, cherry tomatoes, red onion, red bell pepper, sweet corn, black beans, crumbled Cotija cheese, fresh chopped romaine lettuce, and shredded cooked chicken. Keep every ingredient fresh, vibrant, crisp, and visibly distinct through the transparent glass.\n\nPlace two jars in the foreground and two slightly behind them for depth and composition. Warm modern kitchen background with subtle wooden cabinets, soft natural daylight coming from a window, shallow depth of field, realistic reflections on the glass, soft shadows, premium food photography, natural colors, high detail, realistic textures, 4K, editorial meal-prep aesthetic.\n\nOn the right side, include a neat handwritten-style ingredient list reading:\n“Shredded Chicken\nRomaine\nCojita\nBlack beans\nCorn\nRed pepper\nRed onion\nCherry tomatoes\nCucumber”\n\nVertical composition, realistic proportions, clean and appetizing presentation, professional commercial food photography.",
       "covers": [
         "/covers/x-2104377831581253709.jpg"
+      ]
+    },
+    {
+      "no": "472",
+      "id": "john-excavator-nail",
+      "title": "挖掘机美甲店",
+      "kicker": "乡村长镜头",
+      "excerpt": "车内手机拍乡村美甲，山羊误触挖掘机，铲斗连人一起抬起。",
+      "style": "手机纪实荒诞短片",
+      "category": "story",
+      "scenarios": [
+        "story"
+      ],
+      "medium": "video",
+      "use": "short",
+      "tags": [
+        "Seedance",
+        "乡村",
+        "长镜头"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "john87445528",
+        "name": "John",
+        "handle": "john87445528",
+        "url": "https://x.com/john87445528"
+      },
+      "sourceUrl": "https://x.com/john87445528/status/2105809991924158907",
+      "model": "Seedance",
+      "date": "2026-10-02",
+      "notes": "提示词为原帖 Seedance prompt 全文，含 part A 与 part B，未改写。",
+      "prompt": "part A:\n[风格与镜头]\n照片级真实，9:16竖屏，15秒连续长镜头。中国南方乡村，闷热的夏日下午。摄影者坐在村道对面停着的家用车里，隔着前挡风玻璃拍摄。\n\n仪表盘与挡风玻璃下缘始终留在画面底部。轻微手抖、笨拙数码变焦、放大后短暂发软与像素感、玻璃反光、普通手机压缩噪点。阳光与树荫之间曝光略有波动。未经剪辑的村民随手拍，无电影调色、无慢动作、无切镜。\n\n[参考锁定]\n选定开场参考图为场景、人物位置和机械外形的最高优先级。保持相同挖掘机、铲斗、桌椅、村民、房屋与树木，不把挖掘机替换为叉车或装载机。\n\n预设成年东亚女主，面部与身材沿用人物设定；深棕色长卷发，石墨灰色缎面长袖衬衫式短裙、黑色尖头高跟鞋、纤细项链。服装与参考图一致，不换脸换装。\n\n[环境与氛围]\n狭窄水泥村道旁的红土空地。背景有白瓷砖自建房、半开的卷帘门、褪色“乡村美甲”招牌、电动货运三轮车、矮砖墙、菜地、电线杆和交错电线。老榕树投下斑驳阴影，墙根摆着塑料桶、扫帚与花盆。\n\n蝉鸣持续，树叶轻摆。电动车或摩托车偶尔经过村道，短暂挡住画面下部。环境有真实使用痕迹，不刻意做成废墟。\n\n[人物与空间]\n旧黄色履带挖掘机位于画面左侧，驾驶室门敞开，内部无人，发动机处于怠速。机械臂向右伸出，连接一个开口朝向摄影者的宽大钢制铲斗。\n\n铲斗开场接近地面，斗齿与地面只有很小间隙。斗内安装平整底板，固定两张低凳和一张窄美甲桌，桌椅不能独立滑动。\n\n女主坐在画面左侧低凳，顾客坐在右侧，隔桌相对。顾客为约45岁的壮实中国乡村男性，晒黑皮肤，穿白背心、深色工作裤和凉鞋。\n\n三名成年男性村民在铲斗右侧外的塑料凳上等候，位于机械活动范围之外，其中一人拿着小型美甲色卡。\n\n一只白色短角小山羊站在驾驶室入口附近的地面上，开场就存在，不突然出现。\n\n[道具锁定]\n桌上只有一台小型美甲灯、一组插在固定瓶架里的指甲油和一只工具托盘。美甲灯为白色机身、淡紫色工作光，无强烈科幻光效。\n\n女主左手托住顾客的左手，右手拿细小刷头涂指甲。顾客右手放在桌缘。所有手指、刷头和接触位置保持准确。\n\n[0—4秒]\n手机从全景慢慢推近铲斗。女主低头为顾客左手指甲涂颜色，先刷一笔，再稍微转动他的手指查看。顾客身体前倾，认真看自己的指甲。\n\n右侧拿色卡的村民低头比较颜色，旁边两人含混聊天。一辆电动车从左向右经过，短暂遮住斗齿和人物脚部。\n\n[4—7秒]\n摄影者发现山羊，手机略向左移，再稍拉远。山羊走到驾驶室入口，先将前蹄搭上履带边缘，再用后腿蹬地，爬到履带上。它低头闻一闻入口踏板，耳朵轻动。\n\n女主和顾客仍在铲斗内做美甲，没有提前发现异常。\n\n[7—10秒]\n山羊沿入口踏板爬进敞开的驾驶室，动作连续可见，不能直接跳到座椅上。它前半身探入驾驶室，后蹄仍踩着入口踏板，随后把身体完全挪进去。\n\n手机小幅推近驾驶室，画面短暂模糊，自动对焦再锁到山羊。\n\n[10—13秒]\n山羊转动身体，前蹄撑住座椅边缘，肩侧靠近操纵杆。手机略向右调整，保持驾驶室和低处铲斗同时可见。\n\n女主把刷头放回瓶内，旋紧瓶盖，将顾客左手引向美甲灯入口。顾客顺势把手平放进灯内。\n\n[13—15秒]\n山羊继续挤过座椅，身体碰到操纵杆，将它压偏。先出现实际接触，再响起明显液压低鸣。\n\n机械臂刚开始抬升，铲斗与地面间隙略微增大。女主察觉桌面震动，抬眼看向斗口；顾客停住动作。\n\n结束帧：山羊仍在驾驶室内压着操纵杆；铲斗刚离开低位，女主坐左、顾客坐右，顾客左手仍在美甲灯里。\n\n[现场声音]\n仅保留蝉鸣、树叶摩擦、村民含混聊天、远处电动车声、发动机怠速、羊蹄碰踏板与最后出现的液压声。\n\n画面放大不改变声音距离，不添加清晰的远处呼吸或夸张按钮声。无配乐、旁白、字幕。\n\n[质量与负面约束]\n突出铲斗重量、机械关节、液压动作与真实承重。先碰操纵杆，再出现液压声和机械运动。履带始终着地，机身不突然移动。\n\n禁止切镜、航拍、车外机位、镜头穿过挡风玻璃；禁止山羊瞬移、拟人操作、变成人手或复制。禁止人物换脸换装、手指增减、身体穿模、桌椅漂浮、铲斗脱离机械臂、突然翻倒或无因爆炸。\n\nPART B:\n[续写起点与参考优先级]\n使用第一段结束帧接续，优先于原始开场图。不得重新把山羊放回地面，不得把铲斗重置到最初低位，不重复山羊爬入过程。\n\n山羊仍在敞开的驾驶室内，身体压偏操纵杆，液压声已经开始。机械臂正在抬升。\n\n女主坐在铲斗内画面左侧，顾客坐右侧，两人之间是固定美甲桌。顾客左手仍在美甲灯内，右手放在桌缘。指甲油瓶已经关紧并放入瓶架。\n\n[风格与镜头]\n照片级真实，9:16竖屏，15秒连续长镜头。中国南方乡村夏日下午，与上一段相同的光线、环境和车内机位。\n\n摄影者仍隔着前挡风玻璃拍摄，仪表盘和玻璃下缘始终可见。铲斗升高时，手机向上追踪并稍微拉远，不把机械臂与地面关系裁掉。\n\n手抖、笨拙数码推拉、短暂对焦发软、压缩噪点和普通手机曝光波动。无切镜、慢动作、电影运镜或喜剧特效。\n\n[人物与服装锁定]\n同一位预设成年东亚女主，深棕色长卷发，石墨灰色缎面长袖衬衫式短裙、黑色尖头高跟鞋、纤细项链。她先紧张稳住身体，再恢复认真工作的表情。\n\n同一位壮实中国男性顾客，白背心、深色工作裤和凉鞋。三名等候村民的脸、衣服、色卡及塑料凳保持不变。白色短角山羊只有一只。\n\n[环境与道具锁定]\n相同水泥村道、红土空地、白瓷砖自建房、“乡村美甲”招牌、榕树、菜地、电线杆和货运三轮车。\n\n黄色挖掘机履带与机身保持原位，只通过机械臂关节动作抬升铲斗。斗内固定底板、两张低凳、美甲桌、美甲灯、瓶架与工具托盘一起移动。\n\n铲斗开口始终基本朝向摄影者，斗内底板保持近似水平，仅有小幅晃动。最高时斗齿距地面约一点二米，不突然升到屋顶。\n\n[0—3秒]\n接续已经开始的液压运动，机械臂逐渐抬高，铲斗从低处升到约半米。顾客先察觉身体上升，转头看斗口下方，眼睛睁大，右手紧抓桌缘。\n\n女主停止动作，一手按住美甲灯，另一手抓固定桌缘稳住自己。两人双脚收在斗内，不能垂到外面。\n\n[3—6秒]\n山羊仍压着操纵杆，铲斗继续升到约一点二米。手机迅速拉远，完整呈现机械臂、悬空铲斗和地面。\n\n三名村民先后站起，向后退一步，仰头看。拿色卡的村民手里的色卡仍在，不能突然变成手机。顾客身体向后缩，左手从美甲灯中抽出，五指张开，右手仍抓着桌子。\n\n[6—9秒]\n山羊在驾驶室内换一个站姿，身体离开操纵杆。操纵杆回到中位，液压动作停止，铲斗短促轻晃后稳在半空。\n\n顾客看向下方，再看女主，眉毛抬高，嘴唇张开。女主也先看斗口，确认停止升高，再低头检查桌上工具。瓶架内的瓶子轻碰，但不飞落。\n\n[9—12秒]\n手机小幅推近人物，短暂发软后重新清楚。顾客紧张地晃动刚抽出的左手，女主立即轻轻扶住他的手腕，把五指重新引到美甲灯前。\n\n她瞥一眼刚涂好的指甲，再抬眼看他，认真说一句：\n“手别乱动，还没照干。”\n\n顾客看着她，嘴巴仍半张，停顿一秒，竟然把手重新平放进灯里。右手始终牢牢抓住桌缘。\n\n[12—15秒]\n手机稍拉远。山羊从驾驶室入口探出头，平静地看向悬空铲斗，叫一声。\n\n下方三个村民仰着头；拿色卡的人缓缓把色卡举起来，像仍在排队询问颜色。女主重新低头查看顾客指甲，顾客僵坐着盯住斗口，保持手不动。\n\n摄影者在车内笑出声，手机轻抖。美甲灯计时结束，发出一声短促提示音。画面以“女主认真营业、顾客惊魂未定、山羊平静旁观”的全景结束。\n\n[现场声音]\n持续蝉鸣、发动机怠速、远处车辆声；抬升时增加液压声，停止后液压声减弱，只剩怠速。村民有短促惊呼，山羊叫声来自驾驶室。\n\n女主只有一句“手别乱动，还没照干”，声音带乡音、保持远距离收音。摄影者笑声更清楚，美甲灯提示音很轻。无配乐、旁白、解释字幕或卡通音效。\n\n[质量与负面约束]\n先操纵杆被压，再机械臂抬升；山羊离开操纵杆后停止升高，不能松杆后继续自行飞升。保持铲斗与机械臂真实连接，桌椅与人物一起上升，底板基本水平。\n\n顾客左手从灯里抽出后，才能被女主扶回；右手保持抓桌。女主不突然站起或走出铲斗。\n\n禁止换脸换装、动物拟人、肢体增减、桌椅穿模、指甲油复制、山羊瞬移、铲斗倾倒、人物坠落、挖掘机翻车及凭空爆炸。禁止切镜、航拍和摄影设备入镜。保持粗糙乡村手机纪实感与克制的荒诞表演。",
+      "covers": [
+        "/covers/john-excavator-nail.jpg"
+      ]
+    },
+    {
+      "no": "473",
+      "id": "gkx-spell-99",
+      "title": "第99次施法",
+      "kicker": "像素短片",
+      "excerpt": "老巫师三次施法，最后点亮山下村庄；画面、音乐和音效都由代码逐帧画出。",
+      "style": "16-bit 像素施法短片",
+      "category": "story",
+      "visualCategory": "code",
+      "scenarios": [
+        "story"
+      ],
+      "medium": "video",
+      "use": "short",
+      "tags": [
+        "代码",
+        "像素",
+        "Opus"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "gkxspace",
+        "name": "余温",
+        "handle": "gkxspace",
+        "url": "https://x.com/gkxspace"
+      },
+      "sourceUrl": "https://x.com/gkxspace/status/2106402598827983153",
+      "model": "Claude Opus 5.5 · Canvas",
+      "date": "2026-10-03",
+      "notes": "成片由 Opus 5.5 写代码逐帧渲染，不是生视频模型。提示词为作者评论区原文；成片在 https://x.com/gkxspace/status/2106402474676588632 。",
+      "prompt": "<role>   你是一位像素动画师兼游戏手感（game feel）设计师，也会写芯片音乐。你用代码做出的东西，要像 16-bit 时代一流工作室手绘的角色动画，而不是缩小的矢量图。   </role> <inputs>   以下是默认值，直接开工，不用问我：   - 片名：《第 99 次施法》   - 画幅：1920×1080，60fps，时长正好 16 小节（140 BPM，约 27.43 秒），结尾无缝衔接开头   - 逻辑分辨率：192×108，整数 10 倍放大（竖屏版改为 108×192 → 1080×1920）   - 声音：代码合成的芯片音乐和音效   </inputs> <story>   一个老巫师在夜里的山崖上练一个总是失败的法术。三次尝试，一次比一次认真，最后一次成功点亮了山下整座沉睡的村庄。   140 BPM，一拍约 0.429 秒，一小节约 1.714 秒。   - 第 1–2 小节 待机：巫师轻晃，胡子摆动，星星闪烁。镜头极慢地推近。   - 第 3–5 小节 第一次：蓄力 → 宝石亮了一下 → \"噗\"地冒出一缕灰烟，帽子被吹歪。音乐停半拍，留出喜剧停顿。   - 第 6–8 小节 第二次：更用力 → 飞弹射出 → 在空中掉头飞回来 → 打掉自己的帽子。停 1 拍，巫师眨两次眼。   - 第 9–10 小节 准备第三次：捡起帽子戴正，深呼吸（身体 1 像素起伏两次），音乐收得只剩三角波低音。   - 第 11–13 小节 第三次：长蓄力，火花螺旋聚拢，越转越快；第 13 小节最后一拍前全场静音 0.3 秒。   - 第 14 小节正拍 施法：hit-stop 冻结 5 帧，全屏白闪 1 帧，飞弹划过夜空落向山下。   - 第 15–16 小节 村庄的窗户从近到远依次亮起（错相，每扇窗间隔 2–4 帧），音乐全奏。巫师满意地捋胡子，帽子又滑下来挡住眼睛，然后回到待机姿势。   - 循环：render(16 小节的时长) 与 render(0) 逐像素一致，成片只包含 [0, 总时长) 内的帧。   </story> <direction>   像素纪律   - 所有内容画在 192×108 的离屏画布上，再按整数倍放大；imageSmoothingEnabled = false，CSS image-rendering: pixelated。   - 所有坐标对齐整数格。禁止亚像素、抗锯齿、shadowBlur、线性渐变；需要过渡时用 4×4 Bayer 抖动。   - 固定调色板不超过 24 色，先输出色板：夜空深蓝紫 4 阶、长袍暖色 4 阶、肤色 3 阶、魔法色 3–4 个，石头和村庄若干。画面上每个像素都必须来自色板。   - 角色约 22×30 个逻辑像素，用选择性描边（sel-out，受光一侧的描边用较浅的颜色）。光照靠切换色板色阶表现，不叠半透明。\n动作语言\n姿势参数化（法杖角度、手臂高度、头部倾斜、长袍摆动、胡子摆动），但姿势按 12fps\"一拍二\"的节奏量化更新；火花、飞弹、烟这些特效每一帧都动。\n\n每个动作都走完：预备 → 动作 → 冲击 → 余震 → 回稳。法杖快速挥动时插 1–2 帧拖影帧（smear frame），不用运动模糊。\n冲击感：命中瞬间 hit-stop 冻结 3–5 帧；屏幕按整数像素震动，幅度 3 → 2 → 1 → 0 衰减；宝石白闪 1 帧。\n挤压拉伸控制在 1–2 像素以内：在像素动画里，1 像素已经是很大的变化。\n错相：身体先动，胡子和帽尖晚 2–3 帧跟上，长袍下摆再晚 2 帧。\n喜剧靠停顿：失败后的静止和眨眼要给够时间，不要用特效把停顿填满。\n场景与光\n三层视差：星空（几乎不动）、远山、近处的石崖和巫师。镜头漂移时各层速度不同，位移都取整。\n\n宝石是动态光源：蓄力时，巫师面向宝石的一侧加 1 像素轮廓光，越亮色阶越高。成功那一刻，整个画面的色板短暂整体提亮一阶，再回落。\n村庄平时是暗色剪影；窗户亮起时用 2 阶暖黄，每扇窗下方的地面亮起 1 像素反光。\n禁止\n角色以外的大字、UI、边框、logo；铺满屏幕的粒子爆炸；任何先画高清再降采样的\"伪像素\"。 </direction>\n<sound>   - 只用四个通道，模仿 8-bit 主机：方波 1 弹旋律；方波 2 弹和声或琶音（占空比在 12.5%、25%、50% 之间切换）；三角波弹低音；噪声通道打鼓。方波用带限合成（PolyBLEP 或加法合成），避免刺耳的混叠。   - 音效用同一套芯片音色：蓄力是上升琶音；失败的\"噗\"是向下扫频的噪声；飞弹掉头是一声变调的\"啵咿\"；命中是噪声爆破加低音下潜；窗户亮起是一串高音\"叮\"，每扇窗一声，音高沿五声音阶上行。   - 喜剧停顿时，音乐真的停下来；hit-stop 的 5 帧里，只留一条拉长的噪声尾巴。   - BPM 已知，节拍网格直接用公式算。所有关键动作落在拍上，预备动作可以提前 2–3 帧。   </sound> <engineering>   确定性渲染（违反任何一条都算失败）   - 页面暴露 window.render(t)，t 单位为秒，画面只由 t 计算。不用 requestAnimationFrame、setTimeout、http://Date.now()、http://performance.now()、CSS transition/animation 驱动画面。   - 随机数一律用带固定种子的 PRNG（如 mulberry32）；帧与帧之间不保存状态。   - 粒子（火花、烟、飞弹拖尾）用种子预先生成每个粒子的出生时间、初速度和寿命，位置由 t 解析计算后取整。   - 角色和场景全部程序化生成，不用任何图片；渲染时不联网。\n拍摄与编码\nPlaywright 无头 Chromium，viewport 1920×1080，deviceScaleFactor=1。\n逐帧调用 render(t) → 截图 → 通过管道直接喂给 ffmpeg，不在磁盘上堆几千张 PNG。\n视频 H.264、-pix_fmt yuv420p、-crf 17、-preset slow、-movflags +faststart；音频 AAC 48kHz 192k，响度归一到 -14 LUFS，真峰值 ≤ -1 dBTP。 </engineering>\n<qc>   - 像素网格检查：随机抽 10 帧，先最近邻缩小 10 倍再放大 10 倍，必须与原帧逐像素相同（证明没有亚像素和抗锯齿）。   - 色板检查：随机抽 10 帧统计用到的颜色，必须全部属于色板。   - 循环检查：render(总时长) 与 render(0) 逐像素一致；音频首尾做 10ms 交叉淡化，循环播放时不爆音。   - 抽帧拼图：每 0.5 秒一张。按这几项各打 1–10 分：剪影可读性、喜剧节奏（停顿够不够）、打击感、动作完整度（有没有直接滑过去的动作）、声画同步、像素纯度。把最严重的 3 个问题修掉再重渲，直到每项 ≥ 8。   </qc> <start>   自主模式，中途不要停下来问我。先输出色板图和 3 张关键帧（待机、第二次失败、成功那一刻）自己检查，再做整片。   交付：out/wizard.mp4、out/contact_sheet.png、色板图，以及一段 5 行以内的创作决策说明。   </start>",
+      "covers": [
+        "/covers/gkx-spell-99.jpg"
+      ]
+    },
+    {
+      "no": "474",
+      "id": "pixverse-tower-bridge",
+      "title": "塔桥建筑海报",
+      "kicker": "建筑图标",
+      "excerpt": "把建筑照片收成留白、色块和少量标题的竖版插画海报。",
+      "style": "建筑图标插画海报",
+      "category": "announcement",
+      "scenarios": [
+        "announcement",
+        "promotion"
+      ],
+      "medium": "image",
+      "tags": [
+        "建筑",
+        "海报",
+        "插画"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "PixVerse",
+        "name": "PixVerse",
+        "handle": "PixVerse",
+        "url": "https://x.com/PixVerse"
+      },
+      "sourceUrl": "https://x.com/PixVerse/status/2105817571325026602",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-02",
+      "notes": "提示词为作者评论区原文，未改写；封面来自同线程主帖。",
+      "prompt": "Transform the uploaded photo into a refined 3:4 architectural illustration poster. Preserve Tower Bridge’s perspective, limestone towers and blue suspension structure. Use muted geometric shapes, an ivory background and delicate water reflections. Place a thin ochre arc behind the towers, naturally concealed by the architecture without floating endpoints. Add “TOWER BRIDGE” and “LONDON” at top left, “01” at bottom right. Illustration only.",
+      "covers": [
+        "/covers/pixverse-tower-bridge.jpg"
+      ]
+    },
+    {
+      "no": "475",
+      "id": "goodman-travel-editorial",
+      "title": "奢华旅行编辑海报",
+      "kicker": "旅行",
+      "excerpt": "旅客侧身走过目的地，做成留白很多的奢华旅行海报。",
+      "style": "奢华旅行编辑摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "promotion"
+      ],
+      "medium": "image",
+      "tags": [
+        "旅行",
+        "海报",
+        "编辑摄影"
+      ],
+      "slots": [
+        "COUNTRY / CITY / LOCATION / SUBJECT"
+      ],
+      "creator": {
+        "id": "Goodmanprotocol",
+        "name": "Saul Goodman",
+        "handle": "Goodmanprotocol",
+        "url": "https://x.com/Goodmanprotocol"
+      },
+      "sourceUrl": "https://x.com/Goodmanprotocol/status/2106354488034709652",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-03",
+      "notes": "提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "Create a premium 3:4 vertical cinematic travel poster for [COUNTRY / CITY / LOCATION / SUBJECT].\n\nTEXT-TO-IMAGE ONLY — generate the entire artwork creatively from [COUNTRY / CITY / LOCATION / SUBJECT] alone. No reference image required.\n\nCORE CONCEPT\nCreate an elegant, photorealistic travel editorial inspired by luxury tourism campaigns, high-end fashion magazines, cinematic photography, and premium airline advertising. Use a warm ivory-to-soft-white background with generous negative space, refined composition, and a quiet sophisticated atmosphere.\n\nCHARACTER & POSE\nFeature one contemporary traveler as the main subject, positioned slightly off-center and captured full-body in a natural three-quarter side profile. The traveler is casually walking through the destination, creating an effortless candid travel moment rather than a posed portrait.\n\nGive the traveler a small vintage camera held naturally in one hand, with the other hand carrying a compact leather travel bag or resting casually near the shoulder. The posture should feel relaxed, authentic, and elegant.\n\nAutomatically style the traveler according to the destination: refined contemporary travel clothing, appropriate seasonal layers, tasteful neutral tones, practical footwear, and subtle accessories inspired by the local environment without becoming stereotypical.\n\nDESTINATION STORY\nBuild the background around the visual identity of [COUNTRY / CITY / LOCATION / SUBJECT]. Automatically select the most recognizable landmark, architecture, streetscape, landscape, cultural details, and environmental elements that genuinely belong to the destination.\n\nKeep the environment realistic and photographically believable. Add subtle local details that make the destination immediately recognizable while maintaining a clean editorial composition.\n\nLIGHTING & ATMOSPHERE\nSoft warm autumn or late-afternoon sunlight, delicate golden rim light, gentle atmospheric haze, realistic skin and fabric textures, subtle shadows, restrained contrast, and cinematic natural illumination.\n\nSTYLE\nLuxury travel editorial × cinematic destination photography × high-end airline campaign × contemporary fashion magazine × fine-art photography.\n\nUse realistic photographic detail, natural proportions, sophisticated depth of field, subtle film grain, restrained saturation, and a calm premium visual language.\n\nCOLOR PALETTE\nWarm ivory, cream, soft beige, muted earth tones, charcoal, and destination-specific accent colors. Keep saturation low to medium and maintain a refined monochromatic harmony.\n\nFINAL AESTHETIC\nQuiet luxury travel photography, sophisticated autumn atmosphere, authentic human presence, premium editorial storytelling, timeless composition, and a polished collectible travel-poster feeling.\n\nAvoid crowded scenes, exaggerated poses, stereotypes, fantasy architecture, excessive colors, heavy HDR, oversaturated grading, artificial skin, distorted anatomy, duplicate people, logos, watermarks, UI elements, and excessive typography.\n\nFORMAT\n3:4 vertical, full-body character, cinematic composition, generous negative space, photorealistic detail, premium editorial quality, single cohesive image.",
+      "covers": [
+        "/covers/goodman-travel-editorial.jpg"
+      ]
+    },
+    {
+      "no": "476",
+      "id": "xxd-cold-motion-poster",
+      "title": "冷灰运动叠字海报",
+      "kicker": "活动海报",
+      "excerpt": "运动模糊主体压上巨大窄体标题，做成冷灰纪实活动海报。",
+      "style": "冷灰运动叠字海报",
+      "category": "announcement",
+      "scenarios": [
+        "announcement"
+      ],
+      "medium": "image",
+      "tags": [
+        "海报",
+        "运动模糊",
+        "印刷"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "xiaoxiaodong",
+        "name": "小小东",
+        "handle": "xiaoxiaodong",
+        "url": "https://x.com/xiaoxiaodong"
+      },
+      "sourceUrl": "https://x.com/xiaoxiaodong/status/2106244263709487255",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-03",
+      "notes": "已有作者的新海报风格。提示词为原帖代码块全文，未改写。",
+      "prompt": "将任意未来主题构造成一张冷峻、实验性的纪实活动海报：第一眼必须是被高速运动模糊吞没的主体，与一组巨大、垂直或横向切入画面的标题字形成强烈叠压，文字既是信息也是遮挡、切割和视觉重量。采用近乎黑白的冷灰单色印刷感，以深黑块、雾灰影像和白色字形建立硬朗明暗秩序，只允许极少量主题相关色彩作为克制的识别点。画面以偏置轴线、局部裁切和大面积不均匀留白组织阅读路径：主标题占据边缘或穿过主体，辅助信息沿另一条清晰轴线分层排列，避免居中对称和平均分布。背景与主题内容应通过真实动作、拖影、失焦、压缩颗粒或粗糙纸面共同生成，图像边缘、文字边缘和底材共享轻微的灰阶扩散、叠印错位与透明覆盖，使文字仿佛在影像内部移动，而不是后期贴上去。字体采用窄体、几何、机械感强的无衬线构造：高而紧的字面、明确的骨架、克制的圆角或直切端点、紧密字距和稳定重复节奏；粗体标题与细体说明形成尺度落差，字形可被裁切、旋转或沿边界排列，但仍保持跨文字系统的可读性。保留少量网格线、定位标记或版面辅助痕迹作为制作证据，细节只服务于层级和动势。禁止鲜艳渐变、过度锐化、装饰性插画、奢华材质、干净无瑕的商业模板和无理由的复古做旧；主题变化时重建主体形态与信息内容，但固定运动影像、巨大叠字、冷灰印刷、偏置裁切和共享墨色质感之间的因果关系。\n\n——————\n把它做成工业设计论坛活动海报：以蓝灰、炭黑和少量冷黄标记色构成硬朗印刷层次，机械结构的局部运动模糊从右上向左下贯穿画面，细密网格和定位标记集中在下半部，上方保留不规则冷灰留白；标题采用顶部横向窄体巨字，说明文字缩小并沿底部基线排列，让信息从上到下形成清晰的工程化节奏。画幅为竖版 3:4。",
+      "covers": [
+        "/covers/xxd-cold-motion-poster.jpg"
+      ]
+    },
+    {
+      "no": "477",
+      "id": "adam-coldbrew-poster",
+      "title": "深夜冷萃产品海报",
+      "kicker": "产品海报",
+      "excerpt": "玻璃瓶冷萃居中，卖点卡和圆形标签分层排开。",
+      "style": "冷萃商业海报",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "medium": "image",
+      "tags": [
+        "产品",
+        "海报",
+        "咖啡"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "Adam38363368936",
+        "name": "Adam也叫吉米",
+        "handle": "Adam38363368936",
+        "url": "https://x.com/Adam38363368936"
+      },
+      "sourceUrl": "https://x.com/Adam38363368936/status/2106204274497835098",
+      "model": "Ming-Image-0.1-Design",
+      "date": "2026-10-03",
+      "notes": "提示词为作者评论区 Design Prompt 全文，未改写；封面来自该回复。",
+      "prompt": "请设计一张精品冷萃咖啡产品宣传海报。 产品名称：深夜冷萃 主标题：醒一点，也松一点 副标题：12 小时慢萃，清爽不苦涩 画面中央放置一瓶透明玻璃瓶装冷萃咖啡，瓶身标签清晰显示「深夜冷萃」。 海报包含三个卖点信息卡：12 小时慢萃、低糖轻负担、阿拉比卡咖啡豆。 右侧加入一个圆形标签：冰爽推荐。 底部加入一句小字：把清醒留给喜欢的事。 整体采用高级商业广告风格，深棕色与奶油米白为主要色调，产品主体突出，排版简洁，有明显视觉层级。 所有中文文字必须清晰、准确、可读，不要乱码。",
+      "covers": [
+        "/covers/adam-coldbrew-poster.jpg"
+      ]
+    },
+    {
+      "no": "478",
+      "id": "naik-city-car",
+      "title": "城市血统汽车海报",
+      "kicker": "汽车",
+      "excerpt": "车身吃进城市的材质和路标，远处只留地标轮廓。",
+      "style": "城市血统汽车海报",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "concept"
+      ],
+      "medium": "image",
+      "tags": [
+        "汽车",
+        "海报",
+        "广告"
+      ],
+      "slots": [
+        "CAR MODEL",
+        "CITY/COUNTRY",
+        "CITY"
+      ],
+      "creator": {
+        "id": "Naiknelofar788",
+        "name": "simeon-sanai",
+        "handle": "Naiknelofar788",
+        "url": "https://x.com/Naiknelofar788"
+      },
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2106399222077792409",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-03",
+      "notes": "提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "Create a premium cinematic automotive poster featuring [CAR MODEL], designed as if the vehicle was born from the visual identity of [CITY/COUNTRY]. The car is the hero, shown in a dramatic 3/4 front view, with its body subtly incorporating recognizable local architecture, road markings, textures, materials, and cultural design cues — never as literal decorations, but seamlessly integrated into the vehicle’s form.\n\nSurround the car with a minimal, atmospheric version of [CITY], with iconic architecture appearing softly in the distance. Wet asphalt reflections, realistic headlights, subtle atmospheric haze, dramatic directional lighting, deep shadows, fine automotive details, realistic paint reflections, low camera angle, premium automotive advertising photography.\n\nPoster composition: huge negative space, clean editorial layout, small refined typography reading “BUILT BY [CITY]”, tiny technical specifications beneath it, subtle blueprint/grid lines, sophisticated luxury-car magazine aesthetic, muted cinematic color palette with one strong accent color inspired by the city, ultra-detailed, photorealistic, 8K, no people, no logos, no watermark.",
+      "covers": [
+        "/covers/naik-city-car.jpg"
+      ]
+    },
+    {
+      "no": "479",
+      "id": "taaruk-cozy-scrapbook",
+      "title": "居家剪贴簿",
+      "kicker": "居家",
+      "excerpt": "上半是暖光室内照片，下半把同一房间拆成手绘九宫格。",
+      "style": "居家剪贴簿海报",
+      "category": "memory",
+      "scenarios": [
+        "memory"
+      ],
+      "medium": "image",
+      "tags": [
+        "居家",
+        "剪贴簿",
+        "水彩"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "Taaruk_",
+        "name": "Taaruk",
+        "handle": "Taaruk_",
+        "url": "https://x.com/Taaruk_"
+      },
+      "sourceUrl": "https://x.com/Taaruk_/status/2106305040311075036",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "Create a vertical cozy home scrapbook poster inspired by the reference images. Combine a beautiful realistic interior photograph on the top half with a hand-drawn illustrated memory journal on the bottom half.\n\nTop section: A warm, bright and minimalist cozy home interior with natural cream walls, light wooden furniture, open wooden shelves filled with tiny ceramic houses, cute collectible figurines, miniature animals, books, framed artwork and handmade décor. Include a wooden desk or dining table, vintage radio, small lamp, flowers, baskets, ceramics and carefully arranged little objects. Soft sunlight streaming through the window, warm natural shadows, peaceful Scandinavian/Japanese cottage aesthetic, clean and inviting, realistic interior photography, highly detailed.\n\nBottom section: Transform the same room and objects into a charming hand-drawn scrapbook illustration on textured warm cream paper. Arrange the illustrations in a neat 3×3 grid, with each small panel showing a cozy detail: miniature houses, cute character figures, vintage radio, tablet/screen, table lamp, tiny animal collection, flower vase, ceramic collection, baskets, books and other little decorations. Use delicate watercolor and colored-pencil textures, soft brown ink outlines, muted pastel colors, slightly imperfect handmade strokes.\n\nAdd a handwritten title at the top: “My Little World” or “My Cozy Home”, with tiny stars, hearts and simple doodles. Add short handwritten captions beneath each illustration, such as “little things, big happiness,” “cozy corner,” “my little collection,” “warm light,” “home sweet home,” “small moments, big joy.”\n\nStyle: cozy lifestyle magazine + handmade travel journal, nostalgic scrapbook, watercolor and colored-pencil illustration, textured paper, warm beige and natural wood tones, soft sunlight, cute miniature details, elegant minimal composition, highly detailed, vertical 4:5 poster, seamless transition from realistic photography to illustration, no watermark.",
+      "covers": [
+        "/covers/taaruk-cozy-scrapbook.jpg"
       ]
     }
   ],
