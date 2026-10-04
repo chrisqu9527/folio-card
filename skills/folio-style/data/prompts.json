@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 479,
+  "count": 487,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags.",
   "categories": [
     {
@@ -17624,6 +17624,288 @@
       "prompt": "Create a vertical cozy home scrapbook poster inspired by the reference images. Combine a beautiful realistic interior photograph on the top half with a hand-drawn illustrated memory journal on the bottom half.\n\nTop section: A warm, bright and minimalist cozy home interior with natural cream walls, light wooden furniture, open wooden shelves filled with tiny ceramic houses, cute collectible figurines, miniature animals, books, framed artwork and handmade décor. Include a wooden desk or dining table, vintage radio, small lamp, flowers, baskets, ceramics and carefully arranged little objects. Soft sunlight streaming through the window, warm natural shadows, peaceful Scandinavian/Japanese cottage aesthetic, clean and inviting, realistic interior photography, highly detailed.\n\nBottom section: Transform the same room and objects into a charming hand-drawn scrapbook illustration on textured warm cream paper. Arrange the illustrations in a neat 3×3 grid, with each small panel showing a cozy detail: miniature houses, cute character figures, vintage radio, tablet/screen, table lamp, tiny animal collection, flower vase, ceramic collection, baskets, books and other little decorations. Use delicate watercolor and colored-pencil textures, soft brown ink outlines, muted pastel colors, slightly imperfect handmade strokes.\n\nAdd a handwritten title at the top: “My Little World” or “My Cozy Home”, with tiny stars, hearts and simple doodles. Add short handwritten captions beneath each illustration, such as “little things, big happiness,” “cozy corner,” “my little collection,” “warm light,” “home sweet home,” “small moments, big joy.”\n\nStyle: cozy lifestyle magazine + handmade travel journal, nostalgic scrapbook, watercolor and colored-pencil illustration, textured paper, warm beige and natural wood tones, soft sunlight, cute miniature details, elegant minimal composition, highly detailed, vertical 4:5 poster, seamless transition from realistic photography to illustration, no watermark.",
       "covers": [
         "/covers/taaruk-cozy-scrapbook.jpg"
+      ]
+    },
+    {
+      "no": "480",
+      "id": "ultimax-ui-morph",
+      "title": "同一形状换状态",
+      "kicker": "代码动效",
+      "excerpt": "一个形状按节拍变成按钮、播放器和图表，全程由代码逐帧渲染。",
+      "style": "节拍驱动 UI 形变样片",
+      "category": "identity",
+      "visualCategory": "code",
+      "scenarios": [
+        "identity"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "tags": [
+        "代码",
+        "动效",
+        "Opus"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "ultimaxbt",
+        "name": "ultima",
+        "handle": "ultimaxbt",
+        "url": "https://x.com/ultimaxbt"
+      },
+      "sourceUrl": "https://x.com/ultimaxbt/status/2106761276454064147",
+      "model": "Claude Opus 5.5 · HTML/Playwright",
+      "date": "2026-10-04",
+      "notes": "成片由 Opus 5.5 写代码逐帧渲染，不是生视频模型。提示词为原帖可复制全文，未改写。",
+      "prompt": "<inputs>\nAsk me for: 8 to 12 UI states the shape should turn into (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), a pure black-and-white palette or one accent color, and a royalty-free track around 120 BPM (e.g. from Mixkit, free for commercial use).\n</inputs>\n\n<direction>\nDribbble-level UI motion. One shape, no cuts: each state is the same element changing size, radius and color, while its content swaps with a quick blur. A cursor triggers every change through actual clicks and drags. Use a light warm-gray canvas, black-and-white components and one clean UI font (Geist). Springs throughout, with only a slight overshoot. Zoom the camera so each state fills the frame. Match the final frame to the first for a seamless loop.\nBanned: bouncy easing, particle bursts, glows, gradients on UI chrome, inconsistent icon strokes, dead time, anything that feels like a template.\n</direction>\n\n<structure>\n120 BPM, 7 bars, with an action on every beat.\nButton → loader → check → dynamic island → music player with a play/pause morph → scrub the progress bar → it turns into a volume slider that stretches when dragged past max → a toggle switches on the beat → its knob becomes a liquid tab indicator → the tabs expand into a chart that draws itself, with a tooltip on hover → it folds into ⌘K → type to filter → enter → toast → back to the button.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Compute every style from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form step responses for springs. If a value changes target multiple times, add one spring for each change so it remains a pure function of time.\n3. Give the tab indicator’s two edges separate springs, letting the leading edge stretch ahead of the trailing one. Use the same approach for the toggle knob.\n4. Make drags direct: while the cursor is held down, calculate the value from its position. On release, spring back from that position.\n5. Analyze the song with numpy to find the beat grid and begin on a downbeat. Position each UI sound using its measured peak.\n6. Render with Playwright: 4 subframes per frame, blended with ffmpeg tmix for motion blur at 60fps.\n7. Render one frame per beat before the full render. Fix anything off-grid, cramped or difficult to read.\n</build>\n\n<gotchas>\nDon’t use will-change on anything the camera scales, or the text will look blurry. Text swapping inside a morphing container needs separate enter and exit timing to avoid overlap. Make the final frame identical to the first—including cursor position and speed—or the loop will stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the state list on the beat grid before writing any code.\n</start>",
+      "covers": [
+        "/covers/ultimax-ui-morph.jpg"
+      ]
+    },
+    {
+      "no": "481",
+      "id": "rossa-glass-launch",
+      "title": "液态玻璃发布片",
+      "kicker": "代码发布",
+      "excerpt": "字标、照片和玻璃界面在一条连续镜头里互相长出来，由代码渲染。",
+      "style": "液态玻璃产品发布片",
+      "category": "promotion",
+      "visualCategory": "code",
+      "scenarios": [
+        "promotion"
+      ],
+      "medium": "video",
+      "use": "product",
+      "tags": [
+        "代码",
+        "发布",
+        "Opus"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "rossaxbt",
+        "name": "testarossa",
+        "handle": "rossaxbt",
+        "url": "https://x.com/rossaxbt"
+      },
+      "sourceUrl": "https://x.com/rossaxbt/status/2106758817161597021",
+      "model": "Claude Opus 5.5 · HTML/Playwright",
+      "date": "2026-10-04",
+      "notes": "成片由 Opus 5.5 写代码逐帧渲染，不是生视频模型。提示词为原帖可复制全文，未改写。",
+      "prompt": "<inputs>\nAsk me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free track around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).\n</inputs>\n\n<direction>\nAn Apple-keynote-style launch film, 2D only, in one continuous take. Each scene grows out of the last: no fades, blurs or cuts. Objects transform instead. Text rises from a mask line, icons spring up from zero, bars draw across the screen, pages push forward, and a black shape fills the frame before shrinking into the next scene. Use a warm off-white canvas, black UI and iOS 26 liquid glass over the photos. Archivo (wdth 125, weight 800) for the wordmark, Geist for the UI. A cursor triggers every change with actual clicks, drags and long-presses. Zoom the camera screen-studio style so each moment fills the square, and scale the cursor with it.\nBanned: crossfades, blur-ins, brightness \"developing\", 3D flips, particles, glows, holds longer than 1s, anything that feels like a template.\n</direction>\n\n<structure>\n120 BPM, 54 beats, with something happening on every beat.\nOpen: the wordmark compresses into its own period like an accordion. The dot expands into a black pill, and a label rises inside it. Click: six iris blades close over the label, then snap open onto a photo. The circle turns into a square and shrinks. A grid unfolds behind it like a paper map (center, plus, corners), rearranges into a bento, and a click zooms into one tile, landing right on the drop.\nGlass: a glass word appears letter by letter, then melts into a droplet that stretches into a glass toolbar. The adjust icon turns it into a slider. Dragging changes the photo lighting from day to golden hour (two aligned shots), while the held knob becomes a glass lens. It rises into a glass orb, the next photo opens inside it as a circle, and the orb grows into a lock screen with glass clock digits, a date and a home bar that stretches into a glass music player.\nStage: the lock screen pulls back to reveal a phone, with the bezel growing from the screen edge. The Dynamic Island stretches like liquid, pinches off, flies across and expands into a Mac window that rolls up like a blind. Long-press the wallpaper and drag it onto a Safari tab. The page pushes in; when you drop the image, it becomes the hero of a landing page. Scroll: the hero transforms into a framed print on a product card, with the mat and molding growing from the photo's edge. Choose a frame color (it paints across) and a size, then the nav button flies down and becomes \"Order print\".\nOrder: one black shape keeps changing: Ordered ✓ → Printing % → On its way (a van on a route) → Delivered ✓.\nWall: the delivered circle expands until black fills the frame, holds for one beat, then shrinks into the framed print hanging in the real wall footage. The same iris opens onto the print and closes again. The frame fills the screen, contracts into the pill → the dot → the letters spring back out on the returning beat. Last frame = first frame.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Compute every style from time inside an async seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form step responses for springs. When a value has multiple targets, add one spring per change so it remains a pure function of time.\n3. Liquid glass: each glass element keeps its own clone of the scene behind it. Filter that clone with an SVG feImage displacement map (a rounded-rect distance field) through three feDisplacementMaps at slightly different scales for chromatic edges, then add a rim light. For glass letters, use a canvas distance field per glyph to create the map, mask and highlights.\n4. Goo: apply blur and an alpha threshold, then composite the source on top so the glass stays sharp inside.\n5. Iris: place 6 blades around a hexagonal aperture. Each blade uses its two vertices, both edge extensions and the SHORT arc between them.\n6. Wordmark squeeze: move every letter toward the dot by the same factor and adjust its drawn width to match (narrow the wdth axis, scale the rest), keeping the letters in contact.\n7. Footage: re-encode it all-intra (ffmpeg -g 1), load it as a blob URL and await \"seeked\" before drawing each frame.\n8. Sound: use a downloaded SFX for every event (Mixkit), never synthesized, and position each by its measured peak. Start the song on a downbeat: land the zoom on the drop, place the wall in the breakdown and bring back the wordmark with the beat. Loudnorm to -14 LUFS.\n9. Render with Playwright: blend 4 subframes per frame using ffmpeg tmix at 60fps. Check one frame per beat, then look for single-frame pops (frame-difference spikes 3x higher than their neighbours).\n</build>\n\n<gotchas>\nbackdrop-filter: url() misreads displacement maps in Chromium, so clone the scene instead. A flood needs to extend beyond the corners and take about 0.3s; otherwise, half the screen changes in a single frame. A child set to visibility: visible can show through a hidden parent, so use inherit. Text swapping inside a morphing shape needs its own mask. python http.server can't range-seek video, so use the blob URL.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and 4 stills (open, glass, stage, wall) before writing the full film.\n</start>",
+      "covers": [
+        "/covers/rossa-glass-launch.jpg"
+      ]
+    },
+    {
+      "no": "482",
+      "id": "dreamy-droplet-macro",
+      "title": "水珠微距",
+      "kicker": "微距",
+      "excerpt": "眼睛、鼻尖和嘴唇被水珠打断，焦点停在皮肤纹理上。",
+      "style": "水珠微距肖像",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "微距",
+        "水珠",
+        "肖像"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "dreamydigiarts",
+        "name": "dreamy digital arts",
+        "handle": "dreamydigiarts",
+        "url": "https://x.com/dreamydigiarts"
+      },
+      "sourceUrl": "https://x.com/dreamydigiarts/status/2106338480976511189",
+      "model": "Nano Banana 2",
+      "date": "2026-10-03",
+      "notes": "提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "{\n\"title\": \"Ultra-Realistic Close-Up Portrait with Water Droplets\",\n\"intent\": \"Capture an extreme macro portrait emphasizing skin texture, moisture, and emotion.\",\n\"subjects\": [\n{\n\"role\": \"person\",\n\"gender\": \"unspecified\",\n\"focus_area\": \"eye, nose, and lips\",\n\"expression\": \"intense and contemplative\",\n\"details\": {\n\"skin_texture\": \"highly detailed with visible pores and droplets\",\n\"eye_color\": \"greenish-blue with reflective highlights\",\n\"hair\": \"dark, wet strands partially covering face\",\n\"lips\": \"slightly parted, glossy with water\"\n}\n}\n],\n\"environment\": {\n\"setting\": \"dark, intimate close-up scene\",\n\"lighting\": \"soft directional light creating reflections and high contrast on wet skin\",\n\"color_palette\": [\"warm flesh tones\", \"cool reflections\", \"deep shadows\"],\n\"background\": \"out of focus, neutral tone\"\n},\n\"camera\": {\n\"type\": \"macro lens\",\n\"lens\": \"100mm f/2.8 macro\",\n\"aperture\": \"f/4.0\",\n\"focus\": \"on eye and droplets\",\n\"white_balance\": \"neutral daylight\",\n\"exposure\": \"well-balanced highlights and midtones\"\n},\n\"style\": {\n\"look\": \"hyperrealistic, cinematic\",\n\"mood\": \"intense and immersive\",\n\"post_processing\": \"sharp detail enhancement, controlled specular highlights\"\n},\n\"output\": {\n\"aspect_ratio\": \"9:16\",\n\"format\": \"photo-realistic macro shot\",\n\"quality\": \"ultra high resolution\"\n}\n}",
+      "covers": [
+        "/covers/dreamy-droplet-macro.jpg"
+      ]
+    },
+    {
+      "no": "483",
+      "id": "blesstiger-gold-drift",
+      "title": "酒红漂浮金饰",
+      "kicker": "超现实时装",
+      "excerpt": "酒红鱼尾礼服停在深红色背景里，珍珠和金饰对称漂浮。",
+      "style": "超现实漂浮金饰时装",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "时装",
+        "超现实",
+        "静物"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "blesstiger",
+        "name": "blesstiger",
+        "handle": "blesstiger",
+        "url": "https://x.com/blesstiger"
+      },
+      "sourceUrl": "https://x.com/blesstiger/status/2106767855874429258",
+      "model": "",
+      "date": "2026-10-04",
+      "notes": "提示词为原帖 Prompt 全文，未改写。标题行的字母编号不算提示词。",
+      "prompt": "surrealist style, A surrealist high-fashion editorial composite against a deep burgundy dark red background. Center: a slender woman with slicked-back dark hair dancing in a dynamic pose, wearing a floor-length burgundy sequined mermaid gown with sparkling embellishments and a low open back, paired with gold stiletto high heels. Floating scattered around her in a surreal arrangement: multiple lustrous white and cream pearls of varying sizes, dark green and black pearls, a golden standing rabbit figurine, a small golden seated rabbit, a gold Saturn-like planet with rings, a gold medallion coin with a classical face profile, a ridged golden shell ornament, a golden teardrop pear-shaped pendant with a leaf, two small golden Buddha head sculptures, and a chunky twisted gold chain necklace at the bottom. Studio lighting with soft highlights on pearls and metallic gold objects, rich dark crimson backdrop, elegant fashion photography aesthetic with floating objects arranged symmetrically around the dancing figure., high quality, professional, 4k, highly detailed, intricate details, rich composition, no text, no words, no letters, no characters, no watermark, no signature, 1:1 aspect ratio",
+      "covers": [
+        "/covers/blesstiger-gold-drift.jpg"
+      ]
+    },
+    {
+      "no": "484",
+      "id": "ishiro-burrito-last-meal",
+      "title": "最后一餐",
+      "kicker": "叙事短片",
+      "excerpt": "沉船后的两人仍握着手，其中一人把墨西哥卷饼当成临终一餐。",
+      "style": "冷海沉船反差短片",
+      "category": "story",
+      "scenarios": [
+        "story"
+      ],
+      "medium": "video",
+      "use": "short",
+      "tags": [
+        "短片",
+        "对白",
+        "Seedance"
+      ],
+      "slots": [],
+      "creator": {
+        "id": "ishirogen_ai",
+        "name": "Ishiro Gen",
+        "handle": "ishirogen_ai",
+        "url": "https://x.com/ishirogen_ai"
+      },
+      "sourceUrl": "https://x.com/ishirogen_ai/status/2106415337818505389",
+      "model": "Seedance 2.5",
+      "date": "2026-10-03",
+      "notes": "提示词为原帖 PROMPT 全文，未改写。",
+      "prompt": "REFERENCE LOCK\n@image1 = Character A, the woman.\n@image2 = Character B, the man.\nPreserve both references exactly: facial identity, hairstyle, proportions, complete clothing, and accessories. Ignore only original backgrounds, poses, framing, and text.\nAllow realistic seawater, frost, cold-induced pallor, and fatigue without changing their underlying identities. Exactly two adults. No redesign, age changes, duplication, or outfit replacement.\nSETTING\n\nNorth Atlantic Ocean, late night, 1912. A massive passenger ship has just sunk.\n\nDark freezing ocean water, floating wooden debris, broken ship fragments, thin sea ice, and cold mist. Cold blue moonlight reflects naturally across the water. No modern objects.\nA lies on a large floating wooden wreckage panel at screen-left. B remains half-submerged at screen-right, with his left forearm supported on its near edge.\n\nA’s right hand tightly holds B’s left hand. Her knuckles are turning white. His fingers are pale bluish-purple from the cold. Small ice crystals and seawater remain visible on their skin.\n\nB holds one partially eaten burrito in his right hand, its lower half wrapped in plain, unmarked paper. It remains above water until his final descent.\n\nMaintain one uninterrupted progression of weather, lighting, wetness, frost, physical weakness, and prop condition.\n\nSHOT 1 — 0–3s | AN UNEXPECTED PRIORITY\n\nStable medium close two-shot showing their faces, connected hands, the wreckage edge, and the burrito.\n\nBegin already holding hands.\n\nB takes one small bite and slowly chews while trying to control his trembling jaw.\n\nHis skin is pale from extreme cold. His breathing is shallow, and his eyelids are heavy. His eyes remain gentle and focused on A between brief glances at the food.\n\nA watches the burrito with exhausted disbelief. Her expression stays serious.\n\nSmall waves move against B’s soaked clothing and the wooden panel. Neither smiles or laughs.\nSHOT 2 — 3–6s | THE QUESTION\n\nCut to A’s close-up, with B softly blurred at screen-right.\n\nA looks from the burrito to B and quietly asks:\n\n“Why are you still eating that burrito?”\n\nNatural British English: tired, puzzled, and dryly matter-of-fact.\n\nA remains lying on the wreckage. Her grip stays tight below the frame. No shouting or additional dialogue.\n\nSHOT 3 — 6–15s | HIS LAST MEAL\n\nCut to B’s close-up at A’s eye level. Maintain this angle throughout the shot.\n6–10s:\nB finishes chewing, makes one difficult swallow, and takes a shallow breath.\n\nHis jaw trembles slightly. His eyelids remain heavy, and his gaze toward A is gentle but painful.\n\nB lowers the burrito just below his chin. His mouth closes before speaking.\n\n10–15s:\nAfter a brief pause, B quietly answers:\n\n“But it’s my last meal before I die.”\n\nNatural British English. His voice is low, hoarse, weak, and matter-of-fact, with one small natural breath.\n\nHe means the sentence sincerely. No grin, wink, laughter, or dramatic emphasis on “die.”\nHold his pale face and exhausted gaze after the answer.\n\nSHOT 4 — 15–18s | ONE MORE BITE\n\nCut to a medium close two-shot.\nB takes a second small bite from the same bitten edge and slowly chews. His right hand trembles slightly but keeps the food above water.\n\nA looks at the burrito, then back into B’s face. Her disbelief begins giving way to concern.\n\nTheir hands remain connected. Show her whitening knuckles and his cold, discoloured fingers.\n\nB’s left forearm remains supported against the wreckage. Small waves pass naturally around his chest.\nSHOT 5 — 18–23s | NOTICING THE CHANGE\n\nCut to A’s close-up, with B softly blurred at screen-right.\n\nA holds B’s gaze. After one slow blink, her expression becomes quieter and more vulnerable as she notices his weakening breath and heavy eyelids.\n\nHer exhausted disbelief disappears. Tears gather along her lower eyelids, and her breathing catches briefly.\n\nHer lips remain closed. A stays lying on the panel and continues holding B’s hand below the crop.\n\nNo smile, dialogue, or theatrical crying.\nSHOT 6 — 23–25s | THE LAST SMALL BITE\n\nCut to B’s close-up.\n\nB takes one very small final bite, then lowers the burrito away from his mouth.\n\nHis jaw trembles. His breathing is shallow, his eyelids become heavier, and his skin remains pale from extreme cold.\n\nHis eyes stay gentle and focused on A, carrying pain and exhaustion. His right hand begins lowering as strength fades.\n\nNo dialogue, comic expression, or sudden collapse.\n\nSHOT 7 — 25–27.5s | THE HANDS LET GO\nCut to an extreme close-up of A’s right hand holding B’s left at the wreckage edge.\n\nFill the composition with their connected fingers, wet skin, small ice crystals, and dark water. Keep A’s white knuckles and B’s pale bluish-purple fingers clearly readable.\n\nAs B’s body gradually sinks deeper, his left forearm slides from the wet wooden edge. Their hands remain connected for a brief moment.\n\nHis fingers tremble and slowly lose strength. One finger at a time, his grip loosens and slips from hers.\n\nA tries to maintain contact without pulling sharply. His fingertips slide across her palm until the final finger loses contact.\n\nShow the exact moment their hands separate.\n\nB’s hand lowers into the water. A’s empty hand remains suspended above it for a brief beat.\nNo abrupt release or exaggerated splash.\n\nSHOT 8 — 27.5–30s | THE EMPTY HAND\n\nCut immediately to a tight close-up of A’s face, with her empty right hand visible near the lower edge.\n\nA looks downward toward the place where B is sinking. She freezes as the separation registers.\n\nHer brows draw together slightly. Her lower lip trembles, and one restrained breath catches in her throat.\n\nA slowly closes her empty hand into a loose fist and brings it to her lips, trying desperately to contain her grief.\n\nKeep her face and hand clearly focused. One tear rolls naturally down her cheek.\nShe does not scream, speak, or jump into the water.\n\nA tiny lifeboat light moves through the fog in the softly blurred distant background.\n\nB continues descending off-camera, with the same burrito remaining in his right hand.\n\nCut at exactly 30 seconds while A’s breathing, tears, water, and distant light continue moving. No fade to black.\n\nCAMERA & PERFORMANCE\n\nExactly eight shots connected by clean cuts. Preserve matching eyelines and the established camera axis.\n\nPrioritise facial close-ups and the extreme close-up of separating hands. Maintain uninterrupted close-ups during 6–15s and 18–23s. No wide shots or camera pull-backs.\n\nUse restrained handheld breathing, shallow depth of field, realistic skin texture, cold desaturated blue lighting, and subtle film grain. No beauty lighting.\n\nB’s weakness progresses continuously: slight jaw trembling, shallow breathing, one difficult swallow, heavy eyelids, extreme-cold pallor, and a gentle but painful gaze.\n\nHumour comes from the burrito’s absurd importance and B’s sincere answer. Neither character performs the joke or laughs.\nThe ending contains genuine grief. A does not deliberately release B. Keep finger separation gradual, anatomically clear, and visible.\n\nPreserve clothing, frost, wetness, wreckage position, hand assignments, and progressively eaten food across every cut.\n\nAUDIO\n\nNo music.\n\nOnly two dialogue turns, each spoken exactly once in natural British English with accurate lip sync:\n\nA: “Why are you still eating that burrito?”\nB: “But it’s my last meal before I die.”\n\nOnly the speaking character articulates words. No additional speech after B’s answer.\n\nPreserve ocean movement, cold wind, faint ice cracking, wet clothing, paper rustling, quiet chewing, trembling breath, subtle teeth chattering, water around their separating hands, and A’s restrained breath catching.\n\nUse verified public-domain/CC0 assets for added ambience and sound effects.\n\nNo narration, singing, laughter, dramatic stingers, or exaggerated drowning sounds.\n\nNEGATIVE\n\nNo modern objects, branded packaging, extra burritos, restored bite marks, regenerating food, hand switching, premature hand separation, deliberate release, wrist pulling, obscured finger separation, fused fingers, extra limbs, body clipping, identity drift, outfit changes, changing wreckage, sudden recovery, rescue arrival, instant sinking, violent struggling, exaggerated splashes, jumping into the water, smiling, laughter, screaming, theatrical sobbing, blood, gore, unrealistic water physics, wide shots, camera pull-back, orbit, rapid zoom, slow motion, anime, CGI appearance, subtitles, text, logos, or watermark.\n\nFINAL LOCK\n\nExactly 30 seconds in one sequence. Two reference characters, three small bites, two British-English dialogue lines, and one continuous handhold until the final separation.\n\nA remains on the wreckage. B gradually weakens and sinks. Prioritise the close-up of his fingers slipping away, followed by A’s sad expression and clenched hand against her lips.\n\nPreserve the 1912 North Atlantic setting, both complete reference outfits, the single burrito, and the distant lifeboat light.\n\nNo music or on-screen text.",
+      "covers": [
+        "/covers/ishiro-burrito-last-meal.jpg"
+      ]
+    },
+    {
+      "no": "485",
+      "id": "nexora-theme-couture",
+      "title": "主题高定棚拍",
+      "kicker": "高定",
+      "excerpt": "一个主题长成整套手工高定棚拍：衣服、巨型道具和背景同一套视觉语言。",
+      "style": "主题高定棚拍",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "medium": "image",
+      "tags": [
+        "高定",
+        "棚拍",
+        "超现实"
+      ],
+      "slots": [
+        "THEME"
+      ],
+      "creator": {
+        "id": "frametheory058",
+        "name": "Nexora",
+        "handle": "frametheory058",
+        "url": "https://x.com/frametheory058"
+      },
+      "sourceUrl": "https://x.com/frametheory058/status/2106743807245201568",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-04",
+      "notes": "提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "Create ONE extraordinary ultra-photorealistic avant-garde fashion editorial photograph inspired by surreal theatrical couture and handcrafted fantasy studio photography.\n\nSUBJECT:\nA striking adult female fashion model photographed as a real human being. Elegant elongated proportions, sophisticated editorial presence, unusual but believable beauty, natural facial anatomy, realistic skin texture, visible pores, subtle imperfections, individual hair strands and authentic human detail. Her expression is calm, slightly strange, mysterious and fashion-forward rather than smiling.\n\nCONCEPT:\nBuild the entire photograph around [THEME].\n\nTransform the theme into a complete couture universe rather than simply placing decorative objects around the model. The clothing, hairstyle, makeup, footwear, pose, oversized prop, furniture and studio environment should all share the same visual language.\n\nCreate one unforgettable oversized practical centerpiece related to [THEME], approximately comparable in scale to the model. It must appear physically constructed for a real fashion shoot — fabric, painted wood, papier-mâché, rope, satin, leather, plaster or other believable handcrafted materials — with seams, stitching, folds, slight wear and tactile surface detail.\n\nFASHION:\nDesign an original couture outfit with exaggerated sculptural proportions and immaculate tailoring. Use architectural shoulders, unusual silhouettes, corsetry, puffed or balloon forms, oversized bows, gathered fabric, dramatic hosiery and custom sculptural footwear where appropriate.\n\nThe garment must feel like a one-off creation made by an experimental couture atelier, not cosplay, Halloween clothing or a generic fantasy costume.\n\nThe styling should be eccentric and surreal but still sophisticated enough for a major high-fashion editorial.\n\nHAIR & MAKEUP:\nCreate highly art-directed editorial hair that complements the concept: geometric shapes, sculptural forms, short graphic cuts, exaggerated bows or controlled theatrical styling.\n\nUse conceptual runway makeup with carefully placed graphic details around the eyes and cheeks while retaining realistic skin. Makeup should feel professionally applied to a real model, never painted CGI skin.\n\nCOMPOSITION:\nFull-body vertical fashion portrait.\nThe entire outfit and footwear are visible.\nModel positioned in an unusual editorial pose — seated, leaning, balancing, extending one leg, interacting naturally with the oversized prop or suspended installation.\n\nUse intentional negative space and strong graphic geometry.\n\nThe giant prop should create a bold silhouette around or behind the model without hiding her face.\n\nSET DESIGN:\nPhotograph everything inside a real constructed studio set.\n\nUse a seamless or lightly textured hand-painted backdrop in a sophisticated muted color palette. Add only a few carefully selected practical objects that reinforce the theme.\n\nThe environment should feel like an expensive physical fashion set built by set designers, not a digitally generated fantasy world.\n\nAllow subtle imperfections: slightly worn painted wood, fabric wrinkles, visible stitching, handmade edges, aged surfaces and realistic contact shadows.\n\nCOLOR:\nUse an art-directed limited palette of approximately 3–4 colors.\n\nCombine muted vintage tones with one stronger accent color. Avoid random rainbow colors, oversaturation and modern neon aesthetics.\n\nLIGHTING:\nLarge diffused studio key light from approximately 45 degrees, soft directional fill, subtle falloff toward the background and delicate separation around the model.\n\nRealistic shadows underneath shoes, furniture and props.\nNo excessive rim lighting.\nNo glowing fantasy illumination.\n\nThe lighting should resemble an expensive medium-format editorial photographed inside a physical studio.\n\nCAMERA:\nFull-frame / medium-format fashion photography aesthetic,\napproximately 50–85mm perspective,\ncamera around waist-to-chest height,\nminimal perspective distortion,\nsharp focus on model and principal prop,\nfine textile and skin detail,\nsubtle optical softness,\nnatural depth,\nhigh dynamic range.\n\nIMAGE CHARACTER:\nSurreal.\nWhimsical.\nSlightly uncanny.\nTheatrical.\nRetro-European fashion editorial.\nHandcrafted.\nPlayful but sophisticated.\nMuseum-worthy couture photography.\n\nThe viewer should initially wonder whether this was an elaborate real-world fashion set rather than an AI-generated image.\n\nREALISM PRIORITY:\n100% photographic appearance.\nReal adult human anatomy.\nReal skin.\nNatural hands and fingers.\nCorrect limbs.\nPhysically plausible interaction between body, clothing, furniture and props.\nAuthentic fabric tension and gravity.\nRealistic stitching and material thickness.\nReal contact shadows.\nBelievable weight and scale.\n\nPreserve tiny imperfections that make physical photography convincing.\n\nAvoid glossy CGI rendering, plastic skin, doll-like facial texture, generic AI beauty, excessive facial symmetry, fake depth of field, floating objects, malformed hands, extra fingers, duplicated limbs, impossible joints, melted fabrics, random accessories, meaningless decorations, cheap costume appearance, excessive background clutter, text, logos or watermark.\n\nFINAL RESULT:\nAn original surreal couture campaign image that feels photographed for an experimental international fashion magazine — strange enough to stop scrolling immediately, yet polished, tactile and believable enough to look like an expensive real-world editorial production.",
+      "covers": [
+        "/covers/nexora-theme-couture.jpg"
+      ]
+    },
+    {
+      "no": "486",
+      "id": "voxcat-gouache-visdev",
+      "title": "夜色水粉视开",
+      "kicker": "视开",
+      "excerpt": "角色被收成块面剪影，丢进高彩夜色植被里，做成动画视觉开发分镜。",
+      "style": "夜色水粉视觉开发",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "medium": "image",
+      "tags": [
+        "水粉",
+        "视觉开发",
+        "角色"
+      ],
+      "slots": [
+        "角色 / 作品",
+        "角色",
+        "作品"
+      ],
+      "creator": {
+        "id": "VoxcatAI",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2106774092796084346",
+      "model": "",
+      "date": "2026-10-04",
+      "notes": "已有作者的新风格。提示词为原帖 Prompt 全文，未改写。",
+      "prompt": "【角色 / 作品】，现代动画视觉开发 × contemporary animation visdev × 绘本式角色插画 × digital gouache × 厚涂水粉感 × 环境叙事插画 × 电影分镜感。\n\n如果填写【角色】，将角色转译为简化、块面化、动画视觉开发风格；如果填写【作品】，选择 4–6 位核心角色统一转译进同一套视觉系统。\n\n保留核心身份：\n发型轮廓、发色、眼睛主色、脸部特征、角色主色、服装大轮廓、标志配饰、武器 / 头饰 / 身份符号。\n\n角色造型：\nsimplified character shapes × compact anatomy × oversized head × short limbs × iconic silhouette × shape language over anatomy。\n不做标准日漫 Q 版，不做写实解剖，不做复杂 3D 建模。\n\n介质：\ndigital gouache × opaque painterly blocking × dry-brush texture × scumbling × broken-color brushwork × matte pigment surface × visible brush texture。\n\n笔触：\n大色块铺陈 × 干刷破边 × 擦涂 × 破色并置 × 松散背景笔触 × 清晰主体边缘。\n角色相对清楚，环境更松、更块面化，形成 edge hierarchy。\n\n色彩：\nhigh-chroma nocturne palette × ultramarine × teal × viridian × magenta × coral red × warm yellow × cream。\n冷色大场域 + 暖色高亮点，强烈 complementary color staging。\n\n光影：\ncolor-script lighting × stylized cinematic lighting × non-photorealistic light × warm-cool separation。\n光线服务于角色识别和情绪，不追求真实摄影物理光。\n\n环境：\nstylized foliage masses × simplified forest / grass / sky / night environment × foreground framing × midground action zone × atmospheric background。\n植物、云层、草丛、树影全部块面化、图形化、概括化。\n\n构图：\ncinematic environment composition × character-in-environment storytelling × low / eye-level / slight high angle random × medium shot / full body / wide shot random × strong foreground-midground-background layering。\n\n氛围：\n梦幻、童话、冒险、神秘、夜游、轻奇幻、安静、温暖、微危险感，根据角色自动匹配。\n\n背景优先使用：\n深蓝夜空、青绿森林、玫红暮色、珊瑚红云层、荧光草地、深色植被、少量萤火或星点。\n\n整体：\nanimation visdev × digital gouache × simplified character design × nocturne color script × broken brush texture × cinematic environment storytelling × painterly children’s illustration × high-chroma atmospheric scene。\n\n画面清晰但不数码锐化，\n角色身份明确，\n笔触可见，\n环境有绘画感，\n不是 3D，\n不是 cel shading，\n不是光滑数字厚涂。\n\n除右下角极小“voxcat”签名外，不出现其他文字。",
+      "covers": [
+        "/covers/voxcat-gouache-visdev.jpg"
+      ]
+    },
+    {
+      "no": "487",
+      "id": "vigo-one-line-poster",
+      "title": "一线海报",
+      "kicker": "几何海报",
+      "excerpt": "动作把身体比例拉变形，一句大写标题落在空白纸袋里。",
+      "style": "点彩几何角色海报",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "announcement"
+      ],
+      "medium": "image",
+      "tags": [
+        "海报",
+        "几何",
+        "点彩"
+      ],
+      "slots": [
+        "CAPTION",
+        "SUBJECT",
+        "ACTION"
+      ],
+      "creator": {
+        "id": "VigoCreativeAI",
+        "name": "Vigo Zhao",
+        "handle": "VigoCreativeAI",
+        "url": "https://x.com/VigoCreativeAI"
+      },
+      "sourceUrl": "https://x.com/VigoCreativeAI/status/2106750732120551545",
+      "model": "",
+      "date": "2026-10-04",
+      "notes": "已有作者的新风格。提示词为作者同帖回复原文，未改写。封面来自 https://x.com/VigoCreativeAI/status/2106750602718105872 。",
+      "prompt": "Create one finished 9:16 editorial character poster on edge-to-edge off-white paper.\n\nA few large asymmetric geometric body shapes; the action reshapes the body's proportions. Tiny black cut-paper facial marks, no outlines.\n\nPalette: hot pink #F553D2, warm red #F42726, cobalt #293EA1, emerald #13785D, near-black, off-white #F3F1EB.\n\nFine stochastic ink stipple inside saturated and black shapes, darker grain in overlaps, crisp silhouette edges, soft dark-to-color spray gradients at folds. Matte, flat, no 3D.\n\nText: \"[CAPTION]\" once, small bold black uppercase grotesk, in an empty paper pocket. No other text.\n\nSubject: [SUBJECT]\nAction: [ACTION]\n\nNo extra fingers or limbs, no realistic skin, no busy background, no logos.",
+      "covers": [
+        "/covers/vigo-one-line-poster.jpg"
       ]
     }
   ],
