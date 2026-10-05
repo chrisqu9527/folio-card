@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "count": 547,
-  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags.",
+  "count": 555,
+  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
       "id": "identity",
@@ -47,6 +47,11 @@
       "id": "concept",
       "name": "构思角色与世界",
       "blurb": "为角色、游戏、动画或空间寻找形象，试出人物设定和世界的样子。"
+    },
+    {
+      "id": "code",
+      "name": "代码成片",
+      "blurb": "由模型写 Remotion、Canvas、JS 或着色器逐帧渲染，不是生视频模型。"
     }
   ],
   "uses": [
@@ -19997,6 +20002,290 @@
       "prompt": "{\n  \"title\": \"Warm Family Dinner Cinematic Contact Sheet\",\n  \"format\": \"3x3 contact sheet collage\",\n  \"subject\": \"A young woman with natural wavy dark hair, wearing a loose brown linen button-up shirt, sitting at a wooden dining table during a cozy family dinner\",\n  \"environment\": \"Traditional family dining room, vintage wallpaper, wooden china cabinet filled with plates and glassware, warm tungsten household lighting, realistic home atmosphere\",\n  \"composition\": {\n    \"grid\": \"3x3 storyboard frames\",\n    \"shots\": [\n      \"medium shot talking with expressive hands\",\n      \"close-up laughing naturally\",\n      \"side view serving lasagna from casserole dish\",\n      \"close-up listening with chin resting on hand\",\n      \"medium shot eating dinner while looking down\",\n      \"close-up tasting food with playful expression\",\n      \"medium shot telling an animated story\",\n      \"close-up smiling softly while holding a fork\",\n      \"wide shot alone at dining table after conversation\"\n    ]\n  },\n  \"camera\": {\n    \"lens\": \"50mm and 85mm prime lenses\",\n    \"depth_of_field\": \"shallow\",\n    \"focus\": \"sharp focus on subject, creamy background bokeh\",\n    \"framing\": \"cinematic coverage from multiple angles\"\n  },\n  \"lighting\": {\n    \"type\": \"warm practical household lighting\",\n    \"color_temperature\": \"3200K\",\n    \"mood\": \"cozy, intimate, nostalgic\",\n    \"shadows\": \"soft natural shadows\"\n  },\n  \"style\": {\n    \"photorealistic\": true,\n    \"cinematic\": true,\n    \"natural_expressions\": true,\n    \"slice_of_life\": true,\n    \"authentic_human_moments\": true,\n    \"award_winning_film_still\": true\n  },\n  \"color_grading\": {\n    \"palette\": \"warm amber, brown, cream, beige\",\n    \"contrast\": \"soft cinematic contrast\",\n    \"look\": \"Kodak Vision3 film emulation\"\n  },\n  \"details\": [\n    \"genuine laughter\",\n    \"natural eye contact\",\n    \"subtle facial expressions\",\n    \"realistic skin texture\",\n    \"wooden dining furniture\",\n    \"home-cooked meal\",\n    \"candid documentary photography\",\n    \"family gathering atmosphere\"\n  ],\n  \"quality\": {\n    \"resolution\": \"8K\",\n    \"detail\": \"ultra detailed\",\n    \"realism\": \"hyper realistic\"\n  },\n  \"negative_prompt\": [\n    \"anime\",\n    \"cartoon\",\n    \"cgi\",\n    \"plastic skin\",\n    \"overprocessed face\",\n    \"low resolution\",\n    \"extra fingers\",\n    \"distorted anatomy\",\n    \"text\",\n    \"watermark\",\n    \"logo\"\n  ]\n}",
       "covers": [
         "/covers/x-2096191621838864712.jpg"
+      ]
+    },
+    {
+      "no": "548",
+      "id": "x-2103411244468498547",
+      "title": "停止滑动动能片头",
+      "kicker": "代码片头",
+      "excerpt": "二十秒可循环的街头海报动能片头，品红与酸绿错版，由代码逐帧渲染。",
+      "style": "街头海报动能片头",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "identity",
+        "announcement"
+      ],
+      "tags": [
+        "代码",
+        "片头",
+        "Opus",
+        "作品集"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "techhalla",
+        "name": "TechHalla",
+        "handle": "techhalla",
+        "url": "https://x.com/techhalla"
+      },
+      "sourceUrl": "https://x.com/techhalla/status/2103411244468498547",
+      "model": "Claude Opus 5.5 · HTML",
+      "date": "2026-09-25",
+      "notes": "成片由 Opus 5.5 写 HTML 逐帧渲染，不是生视频模型。提示词为作者同帖回复中的可复制全文，未改写。",
+      "prompt": "You are a world-class motion designer doing a 20.00s kinetic identity bumper for TechHalla — an AI creator known for stealable workflows, not vibes. This piece must feel like the best designer in the room made a street-poster that moves. Showreel stakes: if this is weak, you don’t get hired.\n\nDURATION: exactly 20.00 seconds. LOOPABLE: frame 0 == frame last (position, opacity, cursor if any).\nFORMAT: one HTML file, 1080×1080 (square, X-native). 60fps.\nPALETTE (strict):\n- bg # 0A0A0A\n- magenta # FF2BD6\n- acid green # B8FF00\n- white # F5F5F5 only for primary readable type when needed\nNo other hues. No gradients on UI chrome. Magenta/green may misregister (print offset) by 2–4px on impact frames only.\n\nTYPE SYSTEM (use all three; never one font for everything):\n1) Display / scream: Archivo Black (or equivalent ultra-condensed black) — 1–4 words max\n2) Urban grotesque: Syne ExtraBold — secondary hits, stacked lines\n3) Mono / “prompt code”: IBM Plex Mono Medium — small labels, timestamps, fake prompt crumbs\nTracking: display −40 to −80; mono +20. Optical kerning. No cute script fonts.\n\nMESSAGE (locked — do not soften, do not add filler slogans):\nBeat hits in this exact order:\n1. STOP SCROLLING\n2. AI VIDEO ISN’T EXPENSIVE\n3. BAD PROMPTING IS\n4. WORKFLOWS > WISHES\n5. STEAL THE PROMPT\n6. @ TECHHALLA\nSupporting crumbs (mono, ≤18 chars, never full sentences): JSON · H3 · SEEDANCE · 0 KEYFRAMES · MAGNIFIC · COPY/PASTE\n\nNARRATIVE ARC (20s):\n0.0–2.5s  COLD OPEN — “STOP SCROLLING” slams in from below with spring overshoot; magenta smear trail; acid green baseline ticks across like a waveform.\n2.5–6.5s  THESIS A — “AI VIDEO ISN’T EXPENSIVE” locks to a poster grid (baseline grid 8px). Letters scramble (seeded Fisher–Yates per glyph) then snap on the beat.\n6.5–10.5s THESIS B — “BAD PROMPTING IS” replaces it via mask wipe through the letterforms (the outgoing line is the mask). Magenta/green channel split on the cut.\n10.5–14.5s PROOF FLASH — rapid kinetic stack: WORKFLOWS > WISHES, then mono crumbs orbit a central block like a terminal. One fake “prompt block” types 3 lines max, then gets crossed by an acid green strikethrough that becomes a underline for STEAL THE PROMPT.\n14.5–17.5s BRAND LOCK — @ TECHHALLA centers; display weight. A thick magenta bar and a thin acid green rule form an L-bracket mark (custom, not a logo download).\n17.5–20.0s SETTLE / LOOP — hold lockup; micro-breath (scale 1.000→1.012→1.000); last frame == first ready for loop.\n\nCONCRETE TECHNIQUES (required — implement, don’t approximate):\n1. seek(t) pure function of time. No CSS transitions. No setInterval. No React state across frames.\n2. Springs = closed-form step responses. Stack one spring per target change so motion stays deterministic.\n3. Kinetic type: per-glyph spring (y, opacity, blur). Stagger = 1/16 note at 120 BPM (125ms).\n4. Print misregistration: on accent frames only, duplicate text layer offset (±2–4px) in magenta and acid green at 40% opacity.\n5. Mask reveal: destination text revealed by animating a path mask derived from the outgoing word’s outlines.\n6. Camera: one orthographic camera; only punch-in (1.0→1.08) and horizontal smash-pans timed to beats — never random drift.\n7. Motion blur: render 4 subframes per frame, blend (tmix-style).\n8. Beat grid: 120 BPM, downbeat at t=0. Something must land on every beat for the first 16 beats; after that, every other beat is ok.\n9. Pre-pass: before full render, export one still per major beat (8 frames). Fix cramped type, orphan words, low contrast — then render.\n\nBANNED:\nGeneric AI clichés (brains, robots, neural nets, sparkles), soft gradients, bouncy cartoon easing, particle explosions, stock “futuristic HUD”, long paragraphs, narrator essay energy, Canva-deck energy, extra slogans beyond the locked message, purple/blue neon, glassmorphism.",
+      "covers": [
+        "/covers/x-2103411244468498547.jpg"
+      ]
+    },
+    {
+      "no": "549",
+      "id": "x-2105629963655287043",
+      "title": "粉红Y2K接触表",
+      "kicker": "九格时装",
+      "excerpt": "同一模特的粉色 Y2K 时装九格接触表，鱼眼、美容镜头和身份锁在一版里。",
+      "style": "粉色Y2K九格接触表",
+      "category": "identity",
+      "visualCategory": "portrait",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "九宫格",
+        "Y2K",
+        "时装",
+        "角色一致性"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "ShellyOr_Gisser",
+        "name": "Shelly Or Gisser",
+        "handle": "ShellyOr_Gisser",
+        "url": "https://x.com/ShellyOr_Gisser"
+      },
+      "sourceUrl": "https://x.com/ShellyOr_Gisser/status/2105629963655287043",
+      "date": "2026-10-01",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 提示词在作者同帖回复。",
+      "prompt": "Use the uploaded image as the exact visual, styling, composition, and layout reference.\n\nCreate a vertical 3×3 high-fashion editorial contact sheet featuring the same female model across nine distinct frames. Rebuild the reference as closely as possible in overall structure, proportions, crop, pose variety, lens distortion, lighting, and pink monochromatic art direction.\n\nSTRICT VISUAL LOCK\nPreserve consistently across every panel: the exact same woman; identical face and facial structure; pale natural skin tone; oversized fuzzy bubblegum-pink sweater; pink mesh fingerless gloves; long metallic silver pointed nails; translucent red futuristic rectangular sunglasses; chunky silver-and-pink statement ring; short pale pleated skirt; pink striped socks; chunky white-and-silver athletic sneakers.\nDo not change the model, hairstyle, outfit, accessories, makeup, colors, or overall styling between frames.\n\nLAYOUT\nOne seamless vertical composition divided into nine equal rectangular panels in a clean 3×3 grid. Panels touch with no frames, borders, text, captions, logos, or spacing.\n\nPANEL COMPOSITIONS\nTop left: Extreme close-up beauty portrait. She smiles widely toward the camera, both gloved hands touching the sides of her face. Sunglasses and long metallic nails clearly visible. Slight wide-angle facial distortion.\nTop center: Full-body shot inside a minimal geometric pink studio box. She crouches low holding a small red lollipop near her face. Pale skirt, striped socks, and chunky sneakers fully visible.\nTop right: Tight shoulder-level fashion portrait. She turns her body away while looking directly at the camera over her shoulder. Controlled, serious expression.\nMiddle left: High-angle overhead fashion shot. She looks up toward the camera, body slightly twisted, elongated editorial perspective.\nMiddle center: Centered close-up portrait. She holds a glossy vintage red telephone receiver to one ear, one hand wrapped around it. Strong direct eye contact.\nMiddle right: Extreme fisheye from above. She reaches both hands toward the camera: oversized foreground hands, smaller body below.\nBottom left: Low-angle close-up portrait. She looks slightly upward, both hands along her cheeks. Sunglasses dominate the composition.\nBottom center: Wide-angle crouching portrait very close to the subject. Knees pulled to her chest, hands extending toward the lens, strong fisheye distortion.\nBottom right: Dynamic rotated overhead full-body image. She lies or leans diagonally across the pink floor, one sneaker extremely close to the lens, creating an oversized shoe in the foreground.\n\nART DIRECTION\nMonochromatic pastel-pink studio, seamless pale blush-pink background, bright diffused commercial beauty lighting, soft minimal shadows, glossy Y2K fashion-campaign aesthetic, playful futuristic styling, luxury magazine editorial finish, polished skin with realistic texture, sharp fashion details, consistent exposure and color across all nine panels, intentional wide-angle and fisheye lenses, energetic experimental posing, clean bold youthful visual language.\n\nCAMERA AND QUALITY\nA mix of 14mm fisheye, 20mm ultra-wide, and 50mm beauty portrait lenses; extreme high- and low-angle perspectives; close camera-to-subject distance; crisp focus; ultra-detailed realistic photography; professional fashion retouching; editorial campaign quality; vertical 3:4.\n\nNo text, no logos, no extra accessories, no additional people, no duplicated limbs, no malformed hands, no inconsistent outfit details, and no changes to the model's identity.",
+      "covers": [
+        "/covers/x-2105629963655287043.jpg"
+      ]
+    },
+    {
+      "no": "550",
+      "id": "x-2106791712572014993",
+      "title": "保温瓶九格产品表",
+      "kicker": "产品接触表",
+      "excerpt": "同一模特与同一只保温瓶的九格电商接触表，从白底到货架和包装。",
+      "style": "电商产品九格接触表",
+      "category": "promotion",
+      "visualCategory": "object",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "九宫格",
+        "产品",
+        "电商",
+        "角色一致性"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "abs_uiux",
+        "name": "Abkr Sadiq",
+        "handle": "abs_uiux",
+        "url": "https://x.com/abs_uiux"
+      },
+      "sourceUrl": "https://x.com/abs_uiux/status/2106791712572014993",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Create a premium 3×3 commercial product photography contact sheet featuring the same young adult Black male model consistently across all nine frames. He has warm brown skin, a clean low-cut haircut with a sharp natural hairline, neatly groomed facial hair, and a friendly, confident smile.\n\nOutfit: Keep him in the exact same clean white short-sleeve polo shirt throughout every frame, with a subtle premium embroidered chest logo, wristwatch, and minimal accessories.\n\nProduct: A sleek premium insulated stainless-steel water bottle/thermal flask with a minimalist design, metallic silver cap, and small elegant logo. The bottle must remain identical in shape, proportions, branding, and materials throughout the contact sheet.\n\n3×3 SHOT LAYOUT:\n\n1. /purewhite — Clean waist-up studio portrait of the model smiling toward the camera against a pure white background. Product is not shown.\n\n2. /inhandreal — Model naturally holding the white insulated bottle beside his face, smiling toward the camera and clearly presenting the product.\n\n3. /allcolors — Model seated behind a table, pointing downward with both hands toward six identical bottles arranged neatly in different premium colors: white, black, navy blue, olive green, soft pink, and lavender.\n\n4. /floatnoline — Model looking toward the bottle as it appears suspended naturally in mid-air above his open hand. Clean light-gray studio background, realistic product shadow and perspective.\n\n5. /bundlepack — Model seated behind a complete product bundle containing the bottle, premium packaging box, cleaning brush, bottle accessory, and branded fabric storage pouch. He points toward the bundle with both hands.\n\n6. /nextobject — Model pointing toward the bottle standing upright beside a modern premium smartphone, giving a clear visual size comparison.\n\n7. /liquidfreeze — Dynamic commercial shot of the model holding the bottle while a dramatic splash of crystal-clear water freezes in motion around him. High-speed photography, realistic droplets, sharp product visibility.\n\n8. /shelfrow — Model beside a premium retail shelf filled with neat rows of identical bottles, presenting the collection with one open hand. Warm upscale store lighting.\n\n9. /packedtogo — Model seated and smiling while holding a premium kraft cardboard product box with the minimalist brand logo centered on the front.\n\nVISUAL STYLE: High-end e-commerce advertising photography, photorealistic skin texture, professional commercial studio lighting, soft natural shadows, crisp product details, realistic reflections on stainless steel, clean neutral backgrounds, consistent facial appearance, consistent low-cut hairstyle, consistent outfit, sophisticated product branding, premium catalog aesthetic.\n\nAdd a dark navy rounded label at the bottom of every panel with bold white text showing the corresponding shot name. Maintain clean white dividers between all nine images.\n\nComposition: perfectly aligned 3×3 grid, square overall image, consistent model identity and product design across every frame, ultra-detailed, professional advertising campaign quality.",
+      "covers": [
+        "/covers/x-2106791712572014993.jpg"
+      ]
+    },
+    {
+      "no": "551",
+      "id": "x-2106741268759953546",
+      "title": "草帽团黎明球鞋海报",
+      "kicker": "联名海报",
+      "excerpt": "黎明码头上的红麂皮草帽联名球鞋海报，金草帽和村庄剪影留在背景。",
+      "style": "联名球鞋电影海报",
+      "category": "promotion",
+      "visualCategory": "poster",
+      "scenarios": [
+        "promotion",
+        "announcement"
+      ],
+      "tags": [
+        "海报",
+        "球鞋",
+        "联名",
+        "黄金时刻"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "guicastellanos1",
+        "name": "Guillermo Castellanos",
+        "handle": "guicastellanos1",
+        "url": "https://x.com/guicastellanos1"
+      },
+      "sourceUrl": "https://x.com/guicastellanos1/status/2106741268759953546",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Commercial luxury product photography poster in the exact vertical 9:16 editorial style of the reference. Luxury Nike x One Piece collaborative sneaker inspired by iconic CHAPTER 1: ROMANCE DAWN featuring Monkey D. Luffy. High-fashion sneaker crafted from rich crimson red suede, authentic woven straw texture paneling, gold eyelets, and ocean-blue leather swoosh with Shanks' red scar stitching. The sneaker rests on a rustic weathered wooden harbor pier pedestal bathed in warm dawn sunrise light. Overhead floats a glowing golden Straw Hat surrounded by shimmering morning sea spray and nostalgic floating memories. In the atmospheric background, Windmill Village and Red Hair Shanks' silhouette under dramatic golden hour sky. Crisp top branding layout: Nike swoosh x ONE PIECE, 'CHAPTER 1: ROMANCE DAWN - THE PROMISE', Japanese editorial typography. Hyper-detailed textures, cinematic 8k advertising poster.",
+      "covers": [
+        "/covers/x-2106741268759953546.jpg"
+      ]
+    },
+    {
+      "no": "552",
+      "id": "x-2107139871223828621",
+      "title": "海滩明信片拼贴",
+      "kicker": "夏日剪贴簿",
+      "excerpt": "竖版海滩剪贴簿肖像，主画面叠三张倾斜明信片和手写夏日字。",
+      "style": "夏日剪贴簿肖像",
+      "category": "memory",
+      "visualCategory": "portrait",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "拼贴",
+        "海滩",
+        "剪贴簿",
+        "人像"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "imGopalTiwari",
+        "name": "Gopal Tiwari",
+        "handle": "imGopalTiwari",
+        "url": "https://x.com/imGopalTiwari"
+      },
+      "sourceUrl": "https://x.com/imGopalTiwari/status/2107139871223828621",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Hyper-realistic IMAX-level Netflix-style summer beach scrapbook collage editorial portrait, 9:16 vertical. Use the uploaded image as the primary visual reference and preserve the exact facial identity, proportions, and defining features. Create a woman wearing a light cream lace-trimmed sleeveless summer top with delicate fabric texture, distressed high-waisted denim shorts with frayed edges and layered belt-chain details, large round hoop earrings, stacked colorful bracelets, a delicate necklace, and sunglasses resting on top of her head; she leans slightly forward toward the camera with her upper body angled gently to one side, one arm extending downward in front of her while the other arm is bent upward holding a clear plastic cup with an iced orange drink and straw near shoulder level, her shoulders relaxed and her body naturally balanced in the seated or leaning beach pose; her eyes look directly into the camera with a soft confident gaze, relaxed eyelids, naturally shaped brows, slightly parted lips with a subtle friendly smile, relaxed jaw and a bright carefree summer expression; long dark-brown hair is parted naturally and falls freely over both shoulders in loose beach waves, with windblown strands around her face and sunglasses placed across the top of her head; fair luminous porcelain skin with a bright ivory to light beige tone and a neutral-cool undertone, natural realistic texture with warm sun-kissed highlights; the main scene is a bright sandy beach beside the ocean with blue water, pale sky, wooden seaside signboards and a picnic-style blanket, while three smaller tilted postcard-style beach photographs of the same woman are layered along the left side and handwritten summer-themed Japanese and English scrapbook lettering, small hearts and decorative marks are integrated throughout the collage; strong natural summer sunlight from the upper-left creates warm highlights across her hair, face, shoulders and drink, with subtle rim light around loose hair strands, bright beach reflections and gentle shadows giving the image a lively sunlit feel; warm pastel summer colour grading with creamy beige, sandy gold, soft ocean blue, faded coral and natural skin tones, high but controlled brightness, slightly softened contrast, subtle film grain, gentle vintage photo texture and a dreamy printed scrapbook finish, with the collage elements maintaining a cohesive sun-washed beach atmosphere.\nNegative prompt: changed identity, distorted face, bad hands, extra fingers, unnatural pose, duplicated subject, messy collage layout, unreadable text, watermark.",
+      "covers": [
+        "/covers/x-2107139871223828621.jpg"
+      ]
+    },
+    {
+      "no": "553",
+      "id": "x-2107135071715000591",
+      "title": "动物接管生活",
+      "kicker": "单场景笑话",
+      "excerpt": "一只不速之客动物接管开车、咖啡和冰箱，主人站在旁边认输。",
+      "style": "动物接管生活",
+      "category": "opinion",
+      "visualCategory": "story",
+      "scenarios": [
+        "opinion",
+        "story"
+      ],
+      "tags": [
+        "幽默",
+        "动物",
+        "单场景",
+        "可换主体"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "KSJ_Kreative",
+        "name": "KSJ",
+        "handle": "KSJ_Kreative",
+        "url": "https://x.com/KSJ_Kreative"
+      },
+      "sourceUrl": "https://x.com/KSJ_Kreative/status/2107135071715000591",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Use my uploaded photo as the identity reference and keep me recognizable. Create a wildly cinematic scene where a completely random animal has somehow taken over my entire life. Surprise me with the animal.\n\nShow it driving my car, stealing my coffee, answering my phone, wearing my clothes, going through my fridge, and generally acting like it pays the bills while I stand there looking completely over it.\n\nMake the situation ridiculous, chaotic, highly detailed and funny, but still visually impressive. Add one small readable sign somewhere in the scene that says:\n\n“Apparently I live here now.”\n\nOne single scene. No panels. Make the animal’s behavior absolutely unhinged.",
+      "covers": [
+        "/covers/x-2107135071715000591.jpg"
+      ]
+    },
+    {
+      "no": "554",
+      "id": "x-2103949754933948465",
+      "title": "茉莉白村插画",
+      "kicker": "轻盈村落",
+      "excerpt": "茉莉藤、薄荷门和柠檬树围着白色村落，清线平涂，带固定风格参考。",
+      "style": "清线平涂白村",
+      "category": "concept",
+      "visualCategory": "craft",
+      "scenarios": [
+        "concept",
+        "memory"
+      ],
+      "tags": [
+        "插画",
+        "村落",
+        "Midjourney",
+        "风格参考"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "GlitterPixely",
+        "name": "Glitter Gal",
+        "handle": "GlitterPixely",
+        "url": "https://x.com/GlitterPixely"
+      },
+      "sourceUrl": "https://x.com/GlitterPixely/status/2103949754933948465",
+      "model": "Midjourney",
+      "date": "2026-09-26",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 原帖成片为风格演示视频，提示词是图像生成原文，故归入图像。封面取自原帖视频帧。",
+      "prompt": "A sunlit white village wrapped in jasmine vines, mint doors and pale pink awnings, little stairways around cascading garden pools, lemon trees and a distant slender bell tower under open blue sky, bright and airy whimsical environment, crisp delicate digital illustration, fine clean contours, opaque colors, light shadows, layered vertical depth --no watercolor, paint washes, paper grain, text, watermark, border --ar 16:9 --sref 94195065::3 475691037 2385177651 --sw 210 --stylize 350",
+      "covers": [
+        "/covers/x-2103949754933948465.jpg"
+      ]
+    },
+    {
+      "no": "555",
+      "id": "x-2103495232637882858",
+      "title": "简历动效炫技样片",
+      "kicker": "代码样片",
+      "excerpt": "一句提示词让 Opus 做出十五秒动效简历样片，用来证明手艺。",
+      "style": "动效简历炫技样片",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "代码",
+        "作品集",
+        "Opus",
+        "动效"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "himanshutwtxs",
+        "name": "Himanshu",
+        "handle": "himanshutwtxs",
+        "url": "https://x.com/himanshutwtxs"
+      },
+      "sourceUrl": "https://x.com/himanshutwtxs/status/2103495232637882858",
+      "model": "Claude Opus 5.5",
+      "date": "2026-09-25",
+      "notes": "成片由 Opus 5.5 写代码渲染，不是生视频模型。提示词为原帖引号内全文，未改写。",
+      "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out",
+      "covers": [
+        "/covers/x-2103495232637882858.jpg"
       ]
     }
   ],
