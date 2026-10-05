@@ -1,0 +1,2353 @@
+{
+  "retrievedOn": "2026-10-05",
+  "baselineCount": 487,
+  "baselineCommit": "06d4abaa1eeb903b8459f337a1148670118b05d6",
+  "baselineSha256": "af928221f0978607ab2cecf4e5001b3d25b1fe55012502a6f43c69338c49a633",
+  "scope": "60 newly catalogued image prompts discovered in public indexes and verified against original X post text through FxTwitter. Published 2026-09-05 through 2026-10-04; not all posted today, not an exhaustive author timeline scan.",
+  "access": {
+    "provider": "https://api.fxtwitter.com",
+    "method": "Unauthenticated HTTP requests; no user X cookies, browser session, X OAuth or account token read or supplied."
+  },
+  "discovery": {
+    "uniqueNewCandidates": 242,
+    "originalPostsAttempted": 180,
+    "originalPostsRetrieved": 177,
+    "notFound": 3,
+    "selected": 60
+  },
+  "indexes": [
+    {
+      "name": "nano",
+      "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "commit": "338a08c2b5bc4b06ab78db9d1361b47b2e54918d",
+      "contentSha256": "32d600c2f89789d73b5035fa58db9941ccc2af271a83057349f62efd6a1f1ec9"
+    },
+    {
+      "name": "gpt",
+      "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+      "commit": "6a4879150d47f0f96933854be05018ef8bafeaa5",
+      "contentSha256": "1ea67af2ddd083eeda9e69f0ab82d41709af9a1d02bf338b7d71601018573e2d"
+    },
+    {
+      "name": "video",
+      "repo": "opusvideo/awesome-claude-video",
+      "commit": "e2be0c32a098caaeed3a839ff9e53ddaf22a82ae",
+      "contentSha256": "872ffc07d3ab5e519ab66660b1893b0b966b3b1ceb0707658f8c512b509809d3"
+    }
+  ],
+  "exclusions": [
+    {
+      "tweetId": "2105413808961282360",
+      "reason": "Original post returned HTTP 404; omitted."
+    },
+    {
+      "tweetId": "2102666461546430570",
+      "reason": "Original post returned HTTP 404; omitted."
+    },
+    {
+      "tweetId": "2100061425360376189",
+      "reason": "Original post returned HTTP 404; omitted."
+    },
+    {
+      "tweetId": "2106220192699211793",
+      "reason": "Original author explicitly prohibits redistribution; omitted."
+    },
+    {
+      "tweetId": "2105857805496488221",
+      "reason": "Original author explicitly prohibits redistribution; omitted."
+    },
+    {
+      "tweetId": "2105133030201508100",
+      "reason": "Original author explicitly prohibits redistribution; omitted."
+    },
+    {
+      "tweetId": "2106653189215035444",
+      "reason": "Original post exposes only an ellipsis-ended prompt excerpt; omitted."
+    },
+    {
+      "tweetId": "2100829530164277695",
+      "reason": "Index truncation and uncertain completeness of the original prompt ending; omitted."
+    }
+  ],
+  "additions": [
+    {
+      "no": "488",
+      "id": "x-2106674776685043999",
+      "sourceUrl": "https://x.com/visualaiclub/status/2106674776685043999",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "discoveryHandle": "visualaiclub",
+      "tweetId": "2106674776685043999",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:22.523248+00:00",
+      "publishedAt": "2026-10-04T09:16:21.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUpload one reference image before generating.\n\nMAIN PROMPT\n\nTransform the entire reference image into a highly detailed 3D plasticine world while using the original image as a strict spatial and compositional template.\n\nCOMPOSITION LOCK\n\nPreserve the exact framing, camera angle, perspective, spatial arrangement, object positions, scale, proportions, rotations, and overall scene structure. Keep every existing element in its original location. Do not move, add, remove, duplicate, or rearrange objects.\n\nCHARACTERS\n\nTransform every character into an absurd handmade plasticine figure with exaggerated proportions, oversized heads, rubbery noodle-like limbs, expressive poses, bulging mismatched ping-pong-ball eyes, huge toothy smiles, oversized rectangular teeth, and visible pink gums. Keep each character's original pose and position while making the expressions humorous and slightly unsettling.\n\nPLASTICINE STYLE\n\nEverything is physically sculpted from heavy matte plasticine. Use crooked forms, imperfect edges, uneven geometry, subtle deformation, and deliberately handmade construction. Avoid clean CGI, perfect symmetry, sterile surfaces, or overly smooth geometry.\n\nTEXTURE\n\nShow strong tactile plasticine detail: deep fingerprints, fingernail marks, rough sculpting strokes, compressed areas, seams, dents, micro-cracks, tiny dust particles, lint, and small pieces of sculpting debris naturally embedded in the material.\n\nLIGHTING\n\nSoft cinematic studio lighting that reveals the handmade texture, imperfections, highlights, and shadows. Realistic dimensional lighting with matte surfaces and subtle depth. Avoid glossy or synthetic materials.\n\nOVERALL STYLE\n\nAbsurdist stop-motion plasticine aesthetic, exaggerated caricature, humorous surrealism, tactile handmade craftsmanship, strange but playful atmosphere, highly detailed 3D sculpting, cinematic depth, realistic physical material rendering.\n\nQUALITY\n\nUltra-detailed 3D render, sharp micro-texture, realistic plasticine material response, physically believable lighting, high-resolution, 4K quality.\n\nNEGATIVE PROMPT\n\nDo not change the original composition, framing, camera angle, perspective, object positions, or spatial relationships. No added objects, removed objects, duplicated objects, rearranged elements, smooth CGI geometry, glossy plastic, clean vector surfaces, realistic human skin, sterile 3D models, photorealistic people, or modern cartoon rendering. Preserve the original scene structure exactly while converting everything into the absurd handmade plasticine aesthetic.\n\nFORMAT: Vertical 3:4",
+      "start": 84,
+      "length": 2519,
+      "sha256": "5de47e1d61108722c412cbe1d7a3a0a5d60e53b3c762271cb0a2ac9abae166e5",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106674776685043999.jpg",
+          "url": "https://pbs.twimg.com/media/HTxpioGWkAAhKfS.jpg?format=jpg&name=large",
+          "sha256": "d9afca305ba6734eb38d3109b84f59de41e21c46664654017a6c5e7547fbd02f",
+          "size": 151644,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2106674776685043999-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTxpioHWAAAkMM2.jpg?format=jpg&name=large",
+          "sha256": "49c0f1af227ff137affa9bf623c7c9f630f7b1418414fcae6bb433b47c992fb8",
+          "size": 223743,
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "42: YouTube Thumbnail - Plasticine World Transformation"
+    },
+    {
+      "no": "489",
+      "id": "x-2106616012099461312",
+      "sourceUrl": "https://x.com/ZarnishNael/status/2106616012099461312",
+      "authorHandle": "ZarnishNael",
+      "authorId": "390003758",
+      "discoveryHandle": "ZarnishNael",
+      "tweetId": "2106616012099461312",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:23.033143+00:00",
+      "publishedAt": "2026-10-04T05:22:50.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with GPT Image 2 on Chatgpt\n\nPrompt:\n\nPhotorealistic elegant portrait of a young South Asian woman wearing a dusty rose pink hijab, softly wrapped around her head and shoulders, with delicate gold traditional jhumka earrings. She is dressed in a luxurious blush-pink and ivory embroidered Pakistani shalwar kameez with intricate floral threadwork, subtle sequins, and detailed borders. She is seated gracefully beside an ornate marble railing, resting one hand gently under her chin, looking slightly upward with a soft, serene smile. Warm golden-hour sunlight, beautiful garden courtyard in the background, pink flowers and lush greenery, creamy architectural details, dreamy bokeh, shallow depth of field, natural skin texture, realistic facial features, soft cinematic lighting, high-end fashion photography, elegant Pakistani aesthetic, ultra-detailed, 85mm portrait lens, vertical 4:5 composition, no text, no watermark, no artificial plastic skin.",
+      "start": 46,
+      "length": 915,
+      "sha256": "70a5ba1974a547c08eec37dd43b58975078a5c296ee5bba520f26b061dd09e4a",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106616012099461312.jpg",
+          "url": "https://pbs.twimg.com/media/HTw0DzmaUAA6ogd.jpg?format=jpg&name=large",
+          "sha256": "58a4ac19f22f26477f502d91a10c34bf4c467bbf17bdbfc33a32d6456ebd2874",
+          "size": 152930,
+          "width": 1084,
+          "height": 1451
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "2: Profile / Avatar - Elegant South Asian Woman in Hijab Portrait"
+    },
+    {
+      "no": "490",
+      "id": "x-2106590895575630035",
+      "sourceUrl": "https://x.com/Kiran_AI1/status/2106590895575630035",
+      "authorHandle": "Kiran_AI1",
+      "authorId": "1887149012458811392",
+      "discoveryHandle": "Kiran_AI1",
+      "tweetId": "2106590895575630035",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:23.133916+00:00",
+      "publishedAt": "2026-10-04T03:43:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nA photorealistic portrait of a beautiful young 22-year-old woman sitting casually on a dark granite ledge, looking directly at the camera with a relaxed, subtle smile. She is wearing a sporty, color-blocked outfit: a short-sleeved t-shirt with a solid white front and bright orange sleeves and shoulders, paired with matching orange shorts featuring white drawstrings and white side stripes. Her right leg is pulled up with her right arm resting comfortably on her knee. She has a natural, elegant feminine appearance with healthy glowing skin.\n\nThe setting is an outdoor balcony or terrace with a black metal railing. In the background, a stunning golden hour sunset illuminates a wide river or lake, casting vibrant warm orange and yellow hues across the sky and reflecting beautifully on the water, with lush green trees visible to the left.\n\nShot on an 85mm lens, f/1.8 aperture, cinematic golden-hour lighting, shallow depth of field, beautiful natural background bokeh, ultra-realistic skin texture, soft skin glow, realistic facial details, natural colors, professional photography, high resolution.\n\nSTRICTLY USE THE UPLOADED REFERENCE IMAGE FOR HER FACE AND IDENTITY. Keep the original face 100% unchanged and identical to the reference — same facial features, facial structure, proportions, skin tone, eye shape and color, nose, lips, eyebrows, jawline, hairstyle, hair texture, age, and natural expression. Do not beautify, alter, reshape, or idealize the face. Preserve the exact same identity and hairstyle from the reference image. The final image must look like the exact same girl from the reference photo, only placed in this new setting and outfit.\n\nSkin should have a natural healthy glow while maintaining realistic skin texture and pores. No face distortion, no identity change, no artificial beauty filter, no excessive makeup, no facial modification.",
+      "start": 109,
+      "length": 1873,
+      "sha256": "369cb7037ebb76fa89dff7b8f0e2ad120c53f33ae3ffca2ddbd035bb3ff93a51",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106590895575630035.jpg",
+          "url": "https://pbs.twimg.com/media/HTwdO5NaMAApOEZ.jpg?format=jpg&name=large",
+          "sha256": "27bb30aeae6f87aafb8591c3c7c79b04913d826906b28b88c6152ddf2806d971",
+          "size": 230705,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "1: Profile / Avatar - Golden Hour Portrait with Strict Identity Preservation"
+    },
+    {
+      "no": "491",
+      "id": "x-2106587208916566057",
+      "sourceUrl": "https://x.com/Sheldon056/status/2106587208916566057",
+      "authorHandle": "Sheldon056",
+      "authorId": "1855064950785687554",
+      "discoveryHandle": "Sheldon056",
+      "tweetId": "2106587208916566057",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:23.404701+00:00",
+      "publishedAt": "2026-10-04T03:28:23.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Generated with Nano Banana Pro on Gemini app.\n\nPrompt: Studio portrait of one smiling person holding a Cheetos Crunchy orange chips bag close to the camera, both the bag and the person’s head in the foreground. Captured with an ultra-wide fisheye lens for a playful, youthful, energetic feel.\nThe model wears a glossy bright orange puffer jacket over a white t-shirt.\nBackground in a vibrant orange gradient with light yellow accents, bold and fun.\nSoft cinematic lighting, juicy highlights, slight saturation boost, modern snack-ad editorial style.\nExpressive smile, fun street-commercial aesthetic.",
+      "start": 55,
+      "length": 545,
+      "sha256": "e19f000d0dbc993a4abc0d59262618f1e170e078e3c08ea213af36851ea2b8b8",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106587208916566057-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTwZ2JUbQAAtuxm.jpg?format=jpg&name=large",
+          "sha256": "4ba62c59285fa7ec002325dd092bcffb74a96b468481d82312ebfa410299a310",
+          "size": 96091,
+          "width": 899,
+          "height": 671
+        },
+        {
+          "path": "/covers/x-2106587208916566057.jpg",
+          "url": "https://pbs.twimg.com/media/HTwZ2I6a4AA-N_z.jpg?format=jpg&name=large",
+          "sha256": "bb3581c70f30dbd9754991fb9ba15de3ada0d6c6ff8b45a50a7571eba71af553",
+          "size": 67906,
+          "width": 898,
+          "height": 671
+        },
+        {
+          "path": "/covers/x-2106587208916566057-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTwZ2JlaEAAyDDP.jpg?format=jpg&name=large",
+          "sha256": "6c05f9243de9db1d3ee3053ba7a561c79336c33f1606afdd6a5155447ebf593a",
+          "size": 89656,
+          "width": 899,
+          "height": 671
+        },
+        {
+          "path": "/covers/x-2106587208916566057-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTwZ2Ija0AA6rwP.jpg?format=jpg&name=large",
+          "sha256": "45c6bb01a447dacf098bd21068aec02dc2456144617e41b5443e24b367dd3ece",
+          "size": 68603,
+          "width": 898,
+          "height": 671
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "21: Social Media Post - Cheetos Snack Ad Portrait"
+    },
+    {
+      "no": "492",
+      "id": "x-2106545580508152140",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2106545580508152140",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2106545580508152140",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:24.979440+00:00",
+      "publishedAt": "2026-10-04T00:42:58.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic, cinematic 8K HDR, high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\n\nA breathtaking, surreal cinematic scene featuring a handsome young man standing confidently at the center of a gigantic, mysterious hall surrounded by dozens of magnificent doors of different shapes, sizes, materials, and architectural styles. Every door opens into a completely different world, creating a spectacular visual contrast between reality, fantasy, and the unknown.\n\nThe young man wears a perfectly tailored black outfit consisting of a luxurious black high-neck shirt, a long elegant black coat, tailored black trousers, and polished black boots. His thick, naturally wavy hair is slightly tousled, and his intense eyes gaze directly toward the camera with a calm, confident, mysterious expression. One hand rests gently on the handle of a partially opened door, as if he is about to step into another dimension.\n\nTHE DOORS & THEIR WORLDS:\n\nSurrounding him are dozens of enormous, beautifully detailed doorways, each revealing a unique and breathtaking environment:\n\n🌌 Cosmic Dimension: A glowing galaxy filled with colorful nebulae, distant planets, stars, and swirling cosmic energy.\n\n🏔️ Frozen Kingdom: A magical winter landscape with snow-covered mountains, frozen waterfalls, and gently falling snow.\n\n🔥 Kingdom of Fire: A dramatic volcanic world with flowing rivers of lava, burning skies, and glowing embers.\n\n🌸 Cherry Blossom Paradise: A peaceful Japanese landscape filled with pink cherry blossoms, a traditional Japanese temple, and a beautiful red bridge.\n\n🏰 Dark Fantasy Realm: A mysterious gothic castle surrounded by a dark enchanted forest and a sky illuminated by lightning.\n\n🌆 Cyberpunk Future: A futuristic city with towering skyscrapers, glowing neon signs, flying vehicles, and vibrant blue and purple lights.\n\n🌿 Enchanted Forest: An extraordinary magical forest with gigantic ancient trees, glowing flowers, floating golden particles, and mystical waterfalls.\n\n☁️ Heavenly Dimension: A magnificent world above the clouds featuring golden palaces, radiant sunlight, and endless white clouds.\n\n🏜️ Lost Desert Civilization: An ancient golden city surrounded by enormous sand dunes, mysterious pyramids, and a glowing sunset.\n\n🌊 Underwater Kingdom: A magical underwater world with magnificent coral castles, glowing marine life, and beautiful rays of sunlight passing through crystal-clear water.\n\nLIGHTING & ATMOSPHERE:\n\nEach doorway emits its own distinctive atmospheric glow, illuminating the surrounding hall with a mesmerizing mixture of golden, icy blue, fiery orange, emerald green, and violet light. Dramatic volumetric lighting streams through the open doors, while subtle cinematic fog, floating dust particles, and soft reflections on the polished black marble floor create extraordinary depth. A powerful beam of soft golden light falls directly on the young man's face, highlighting his sharp facial features and intense eyes.\n\nCAMERA & VISUAL STYLE:\n\nWide-angle cinematic composition, perfectly balanced symmetrical framing, full-body portrait, slightly low camera angle, breathtaking architectural scale, intricate door details, realistic environmental reflections, dramatic depth of field, professional Hollywood cinematography, luxury fashion editorial aesthetic, rich cinematic color grading, ultra-detailed textures, photorealistic skin, 8K HDR, masterpiece quality.\n\nQUALITY: Ultra-photorealistic, cinematic masterpiece, 8K HDR, realistic human anatomy, lifelike facial details, natural skin texture, extraordinary environmental details, premium Hollywood fantasy movie-poster aesthetic.\nAspect Ratio: 9:16 (Vertical)",
+      "start": 33,
+      "length": 3929,
+      "sha256": "b848432a8ec822615ec0d37646cf6d14b52a76886dd60c2b27a80106b288481c",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106545580508152140.jpg",
+          "url": "https://pbs.twimg.com/media/HTv0CHuawAArHzn.jpg?format=jpg&name=large",
+          "sha256": "e5c2fd2cdc41962539f10a4ac9e6a941bbade9ce4f6c3af41d90e709ea9a398d",
+          "size": 406279,
+          "width": 940,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "44: YouTube Thumbnail - Cinematic Multi-Door Fantasy Scene Prompt for GPT Image 2"
+    },
+    {
+      "no": "493",
+      "id": "x-2106510103117713467",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2106510103117713467",
+      "authorHandle": "CyberTotal2026",
+      "authorId": "2022667839212228609",
+      "discoveryHandle": "CyberTotal2026",
+      "tweetId": "2106510103117713467",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:25.177634+00:00",
+      "publishedAt": "2026-10-03T22:22:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "三匹そろって同じ顔。賑やかな朝のセルフィーが今日の一枚🐱📱🤍\n\n#AIart #AI写真 #猫のいる暮らし\n\n【GPT Image2プロンプト】\n\n主題：\n三匹猫との朝自撮り\n\n主体：\n画面中央、三匹の白灰猫と顔を寄せてセルフィーする女性が主役。\n\n人物・表情：\n小さな卵形の顔、濃茶の大きな瞳、細い眉、整った鼻、艶のある淡桃色の唇。表情は、顔を正面へ向け、視線をカメラへ合わせ、口を大きく開けて歯を見せる楽しげな表情。黒い髪を高いお団子にし、濡れた薄い前髪と後れ毛を額と頬へ残す。\n\n服装・ポーズ：\n生成りの細い肩紐、リブ生地、胸元レースと小リボンを持つキャミソールトップ。左腕を手前へ伸ばして撮影し、胸前に一匹を抱え、頭上と左後方に各一匹を寄せる。\n\n背景・光：\n画面左から画面右の背景に、左に木机と積んだ本、白い扉、右に白いカーテンと緑葉の明るい部屋。画面右の窓から柔らかな白い昼光が顔と猫の毛を照らす。\n\n構図・カメラ：\n9:16の縦構図、伸ばした腕先からの近い正面セルフィーカメラで三匹の猫と頭頂から胸下までの半身を収めるポートレート。人物を中央へ非常に大きく配置し、画面高の大部分を占める。手前の猫と左腕を画面端で裁切し、女性と三匹の青い目にピント、背景は軽くぼかす。\n\n質感・スタイル：\nフォトリアルな実写写真。自然な肌と髪、衣装の素材、周囲の小物を高精細にし、白、灰、生成り、木色の明るい室内色を保つ。\n\nネガティブ：\n猫三匹の配置変更；開いた口と自撮り省略",
+      "start": 77,
+      "length": 563,
+      "sha256": "1b3115768c8f374ebf86ac4c7110581aab6e2164ea88904157c3208edb0d6ea1",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106510103117713467.jpg",
+          "url": "https://pbs.twimg.com/media/HTYAJUjbQAAjHHY.jpg?format=jpg&name=large",
+          "sha256": "e7377c460f31f88ee04035c4eaca3195e49e33a02e129c82fbce6ff97c7d4b90",
+          "size": 228522,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "6: Profile / Avatar - Morning Selfie with Three Cats Prompt for GPT Image 2"
+    },
+    {
+      "no": "494",
+      "id": "x-2106420974258123246",
+      "sourceUrl": "https://x.com/visualaiclub/status/2106420974258123246",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "discoveryHandle": "visualaiclub",
+      "tweetId": "2106420974258123246",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:25.707879+00:00",
+      "publishedAt": "2026-10-03T16:27:50.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUpload one reference image before generating.\n\nMAIN PROMPT\n\nTransform the uploaded photograph into one finished minimalist editorial fashion illustration. Use the photograph only as the visual reference. The original photograph must NOT appear anywhere in the final image.\n\nFORMAT LOCK\n\nVertical 3:4 composition. One standalone illustration. No collage, no inset photo, no reference thumbnail, no duplicated image, no frame, no interface.\n\nIDENTITY & COMPOSITION LOCK\n\nPreserve the person’s recognizable appearance, hairstyle, bangs, face structure, sunglasses, expression, head position, body proportions, pose, hand gestures, clothing, accessories, jewelry, and overall silhouette. Preserve the original camera perspective, framing, visual hierarchy, relationship between the person, cotton candy, and Ferris wheel.\n\nSTYLE\n\nSophisticated black-and-white minimalist fashion illustration on warm off-white / ivory paper. Elegant contemporary lifestyle illustration, premium editorial fashion sketch, fine delicate black-ink contour lines, clean continuous strokes, subtle line-weight variation, refined hand-drawn quality, airy and sophisticated fashion coloring-book aesthetic.\n\nSUBJECT & CLOTHING\n\nRecreate the person as a simplified but clearly recognizable illustrated character. Accurately preserve the oversized fluffy jacket, floral decorations, embroidered details, green trim translated into linework, graphic T-shirt, layered necklaces, earrings, rings, bracelets, clothing proportions, folds, and silhouette. Keep facial details minimal but recognizable.\n\nOBJECTS & POSE\n\nPreserve the large fluffy cotton candy as a prominent element on the left. Show the hand gripping the cotton-candy stick and the other hand reaching toward the mouth. Maintain the original pose, action, and personality.\n\nBACKGROUND\n\nRecreate the amusement-park environment entirely as minimalist black line art. Preserve the Ferris wheel, cabins, central structure, amusement-park architecture, surrounding buildings, distant skyline, umbrellas, fairground structures, pavement, background people, benches, clouds, flying bird, and other recognizable elements. Keep the Ferris wheel as a major background element without making it photorealistic.\n\nLINE ART\n\nCrisp elegant black ink on warm ivory paper. Fine smooth contours, clean intersections, controlled line weight, minimal shading, and subtle hand-drawn texture. Use slightly more detail for the Ferris wheel, clothing, cotton candy, jewelry, and architecture, with simpler lines for distant elements.\n\nCOLOR & PAPER\n\nBlack linework only. Warm cream / ivory paper background. No colored areas, no photorealistic pixels, no watercolor, no digital painting, no 3D rendering, no filled black areas, no heavy shadows, no crosshatching.\n\nFINAL RESULT\n\nA premium standalone editorial fashion illustration that faithfully preserves the person, outfit, pose, cotton candy, Ferris wheel, and amusement-park environment from the reference while transforming the entire scene into elegant minimalist black-ink line art.\n\nCRITICAL RULE\n\nThe uploaded photograph must NEVER appear in the final image. Use it ONLY as a visual reference. Output ONLY the newly generated illustration.\n\nNEGATIVE PROMPT\n\nAvoid photorealism, color, watercolor, digital painting, 3D rendering, heavy shadows, rough pencil shading, crosshatching, filled black areas, collage, reference photo inset, duplicated subject, changed identity, altered pose, missing objects, text, watermark, frame, or interface.",
+      "start": 84,
+      "length": 3445,
+      "sha256": "f5f44ee8f5ca1cfe5499190c242d22f609b29ca5364137d1e4d7be0a7a839b79",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity",
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106420974258123246.jpg",
+          "url": "https://pbs.twimg.com/media/HTuCtMeXAAAqx0J.jpg?format=jpg&name=large",
+          "sha256": "3cd85a6c2e507b64e0302524d7543d376cb3986b3bbf8f8cd70e62d7ba52bf2c",
+          "size": 324522,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2106420974258123246-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTuCtMYWcAAS_Cz.jpg?format=jpg&name=large",
+          "sha256": "bff525c514be4c44c06ca44c762def60901584995c13e91af642ce44c2a826d2",
+          "size": 271511,
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "21: Social Media Post - Minimalist Fashion Line Art Illustration"
+    },
+    {
+      "no": "495",
+      "id": "x-2106413507059351763",
+      "sourceUrl": "https://x.com/Mr_AI01/status/2106413507059351763",
+      "authorHandle": "Mr_AI01",
+      "authorId": "1841143271612903427",
+      "discoveryHandle": "Mr_Ai6",
+      "tweetId": "2106413507059351763",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:25.880624+00:00",
+      "publishedAt": "2026-10-03T15:58:10.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nPrompt:\nA high-resolution, realistic portrait of a stylish young South Asian man sitting comfortably outdoors in a park or open-air café during twilight/evening. He has short, styled hair, and subtle stubble. He is wearing light silk yellow shalwar kameez, white sneakers, and a luxury silver watch with a bright blue dial on his left wrist.\nHe is sitting cross-legged in a modern dark woven patio chair, resting one arm on a small round outdoor table with a cup of hot black coffee (with 'COFFEE' printed on the mug). One hand is placed thoughtfully under his chin, looking directly at the camera with a confident expression.\nBackground: A blurred lush green park setting with soft warm bokeh street lights. In the top right corner of the sky, a large, clear full moon is glowing. Warm, cinematic twilight lighting, sharp focus on the subject, photorealistic, 8k quality, depth of field. Keep original face and hairstyle 100% reference",
+      "start": 117,
+      "length": 928,
+      "sha256": "9eab28f0a06c73037ecb04e20f19fad223587471234c8c70202e964fc92764bd",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106413507059351763.jpg",
+          "url": "https://pbs.twimg.com/media/HTt75roaQAEvPyS.jpg?format=jpg&name=large",
+          "sha256": "6a4f44c7fdcd307215a9586256a0a82e0db389708831e0dbbb0a05c0b5d80459",
+          "size": 231529,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "2: Profile / Avatar - Realistic Portrait of South Asian Man at Twilight"
+    },
+    {
+      "no": "496",
+      "id": "x-2106367821399679480",
+      "sourceUrl": "https://x.com/visualaiclub/status/2106367821399679480",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "discoveryHandle": "visualaiclub",
+      "tweetId": "2106367821399679480",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:26.779111+00:00",
+      "publishedAt": "2026-10-03T12:56:37.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUpload one reference image before generating.\n\nMAIN PROMPT\n\nCreate a finished editorial character poster inspired by the uploaded reference image. Preserve the recognizable identity, hairstyle, clothing details, pose, and important visual characteristics of the subject while translating them into a sophisticated flat geometric illustration.\n\nFORMAT LOCK\n\nVertical 3:4 composition. Edge-to-edge warm off-white paper background. One standalone poster. Clean editorial layout.\n\nCHARACTER\n\nOne adult character constructed from a few oversized asymmetric geometric shapes. Slightly exaggerated proportions, small head, elongated capsule-like limbs, simple mitten-style hands, and one oversized object integrated naturally into the pose and silhouette. Preserve the subject's recognizable appearance while simplifying details into graphic shapes.\n\nSTYLE\n\nFlat geometric illustration, asymmetric proportions, crisp color blocks, soft airbrushed shading, subtle dark-to-color spray gradients where shapes overlap, fine print grain, delicate stippling mostly inside darker areas, refined contemporary editorial poster aesthetic.\n\nFACE & EXPRESSION\n\nMinimal black cut-paper facial features: simple crescent eyes and minimal mouth. The emotion should be communicated primarily through the character's full-body gesture and silhouette rather than detailed facial expression.\n\nPALETTE\n\nWarm off-white #F3F1EB, near-black ⁠10100F, hot pink #F553D2, warm red #F42726, cobalt ⁠293EA1, emerald ⁠13785D. Keep colors flat and graphic with controlled soft gradients only where forms overlap.\n\nTEXT\n\nAdd one short caption in small bold black uppercase sans-serif inside an open paper pocket. Caption: \"[MAIN_TEXT]\". No other text, logos, labels, or typography.\n\nCUSTOMIZATION\n\nCharacter & Object: [WHO + THE OVERSIZED THING]\nGesture & Emotion: [POSE + FEELING]\nShape Idea: [HOW BODY AND OBJECT FORM THE SILHOUETTE]\nCOMPOSITION\n\nKeep the character and oversized object as the main visual focus. Use generous negative space and a balanced editorial arrangement. The object should visibly affect the overall silhouette and feel integrated into the character's pose.\n\nNEGATIVE PROMPT\n\nNo extra text, logos, outlined cartoon style, glossy 3D, realistic skin, photorealism, coarse canvas texture, busy background, extra limbs, distorted anatomy, excessive facial detail, photorealistic shading, random objects, clutter, watermark.",
+      "start": 84,
+      "length": 2345,
+      "sha256": "f14cebdc507778f45177271fce80a1a8102e74bace462b4b4df14b1113e94870",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106367821399679480.jpg",
+          "url": "https://pbs.twimg.com/media/HTtSXQ4WoAASZqL.jpg?format=jpg&name=large",
+          "sha256": "ed4e45b4443b7591c616d44b1d020af78eaf8cac147e5bdadfc886cc94a59f58",
+          "size": 234619,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2106367821399679480-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTtSXQ_XcAAUlHj.jpg?format=jpg&name=large",
+          "sha256": "0450ecd6cdc7a9b9d242f6c6ae0b20fa64ad80a5cb221452004f23dd65a8949b",
+          "size": 168142,
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "22: Social Media Post - Geometric Editorial Character Poster"
+    },
+    {
+      "no": "497",
+      "id": "x-2106287796042232218",
+      "sourceUrl": "https://x.com/Sairah_0/status/2106287796042232218",
+      "authorHandle": "Sairah_0",
+      "authorId": "1799004515871649792",
+      "discoveryHandle": "Sairah_0",
+      "tweetId": "2106287796042232218",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:27.677311+00:00",
+      "publishedAt": "2026-10-03T07:38:38.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 On ChatGPT \n\nPrompt:\nUse the uploaded reference photo as the primary visual reference and transform it into a premium “real-life moment + illustrated memory board” editorial poster.\n\nCreate a vertical 3:4 composition divided horizontally into two equal sections.\n\nTOP HALF — REALISTIC PHOTO:\nPreserve the original subject, face, identity, hairstyle, clothing, pose, body proportions, objects, and environment from the reference image. Keep the scene highly photorealistic with natural skin texture, realistic lighting, soft cinematic depth of field, subtle warm tones, and an elegant lifestyle/editorial photography aesthetic. Do not change the person’s identity or outfit unnecessarily.\n\nBOTTOM HALF — HAND-DRAWN MEMORY COLLAGE:\nConvert the important visual elements from the top photograph into a charming hand-drawn fashion/lifestyle scrapbook illustration. Recreate the subject as a delicate colored-pencil and watercolor sketch, along with the key objects, clothing, accessories, flowers, food/drinks, furniture, architecture, books, artwork, or other recognizable details from the scene.\n\nArrange these illustrated elements organically across a warm ivory/off-white textured paper background. Use delicate pencil outlines, subtle watercolor washes, imperfect hand-drawn strokes, soft pastel accents, light pink/blue/green sketch marks, tiny hearts, doodles, and understated decorative elements. Keep the illustrations elegant, minimal, nostalgic, and handmade rather than cartoonish.\n\nAdd a small handwritten cursive title near the top of the illustrated section that reflects the mood of the original photo, such as “little moments,” “slow morning,” “a little memory,” or another context-appropriate phrase. Add very small handwritten decorative text near the bottom.\n\nThe illustrated section should feel like a personal visual diary / fashion magazine scrapbook / memory journal, while still clearly connecting every illustrated element to the original photograph.\n\nStyle: sophisticated editorial scrapbook, colored-pencil illustration, delicate watercolor, vintage paper texture, cozy lifestyle aesthetic, soft pastel palette, subtle imperfections, elegant composition, premium Pinterest/editorial design, nostalgic and artistic.\n\nComposition: clean spacing, balanced negative space, no clutter, seamless transition between the realistic photograph and illustrated memory section, realistic top half + hand-drawn bottom half, high detail, natural proportions.\n\nImportant: Keep the original photo recognizable and preserve the subject’s identity and major visual details. Do not introduce unrelated objects. Avoid excessive text, logos, borders, stickers, or cartoon-style rendering.\n\nShorter version\n\nTransform the uploaded photo into a 3:4 premium “real photo + illustrated memory scrapbook” poster. Keep the top 50% as a highly realistic version of the original photo, preserving the subject’s identity, pose, clothing, environment, lighting, and important details. Convert the bottom 50% into a warm ivory paper collage containing hand-drawn colored-pencil and watercolor illustrations of the subject and the key objects, outfits, accessories, flowers, furniture, architecture, books, and other details from the photo. Add delicate pastel scribbles, tiny hearts, subtle doodles, soft paper texture, and elegant handwritten cursive text such as “little moments” or “slow morning.” Sophisticated editorial lifestyle scrapbook aesthetic, nostalgic, handmade, refined, soft pastel colors, clean composition, premium Pinterest-style design, realistic top / artistic illustrated bottom, no unrelated elements, no excessive text.",
+      "start": 33,
+      "length": 3613,
+      "sha256": "906021a6a34ded3274044b449cb7882fc9d29dcbf464ae665dd83a56c2718a32",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106287796042232218.jpg",
+          "url": "https://pbs.twimg.com/media/HTsJlHjaYAARHFg.jpg?format=jpg&name=large",
+          "sha256": "958cbad2e05390ef357c58d78e6949cfc1b4d6f3b3613bb54efbe6c9e21af532",
+          "size": 183306,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "/covers/x-2106287796042232218-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTsJlHPbAAAITSm.jpg?format=jpg&name=large",
+          "sha256": "dea36b9c6426244a45a5562d7d3c5f7e9b420059c80a2726b3f4387d37d8a45a",
+          "size": 151494,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "24: Social Media Post - Real Photo to Illustrated Memory Board Poster"
+    },
+    {
+      "no": "498",
+      "id": "x-2106237688127111667",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2106237688127111667",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2106237688127111667",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:28.590420+00:00",
+      "publishedAt": "2026-10-03T04:19:31.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic, cinematic, high-fashion editorial portrait of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\n\nA sophisticated, mysterious film-noir portrait featuring a handsome young man standing beside a large window covered with Venetian blinds. Sharp, parallel bands of light and deep shadows fall dramatically across his face, creating a striking interplay of light and darkness. His piercing eyes remain clearly visible through the shadows, staring directly into the camera with a confident, intense and enigmatic expression.\n\nLIGHTING & ATMOSPHERE:\n\nDramatic chiaroscuro lighting with warm, soft golden light filtering through the Venetian blinds, casting perfectly defined horizontal shadow lines across his forehead, eyes, nose, cheeks and jawline. Deep, rich blacks contrast with subtle highlights on his facial features, creating a mysterious, sophisticated neo-noir atmosphere. Subtle cinematic reflections and delicate rim lighting accentuate his tousled hair and sculpted facial structure.\n\nOUTFIT & BACKGROUND:\n\nWearing a perfectly tailored black luxury suit with a slightly open black shirt, creating a refined, effortlessly masculine aesthetic. A dark, minimalistic interior with a nearly black background, softly blurred architectural details and subtle atmospheric haze.\n\nCAMERA & DETAILS:\n\nExtreme close-up portrait, slightly angled composition, 85mm portrait lens, shallow depth of field, razor-sharp focus on the eyes, natural skin texture, realistic facial anatomy, cinematic color grading, rich blacks, muted warm highlights, deep shadows, premium luxury fashion campaign photography, sophisticated noir aesthetic, 8K ultra-HD, HDR, photorealistic, dramatic cinematic storytelling.\n\nMOOD: Mysterious, confident, intense, elegant, dark and irresistibly sophisticated.\n\nAspect Ratio: 4:5 (vertical portrait).\n\nNo text, no watermark, no artificial-looking skin, no excessive retouching, no distorted facial features, no extra subjects.",
+      "start": 33,
+      "length": 2190,
+      "sha256": "eaf98ef063168a1cc23f7d209e1290e8029c9c2faded1a8fd5958109d448770c",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106237688127111667.jpg",
+          "url": "https://pbs.twimg.com/media/HTrcASDbUAA4lD_.jpg?format=jpg&name=large",
+          "sha256": "eee3034c5cce9c810f57cf1f5b2ec9cdcd463bb133cc90a51c300bfa08d860c5",
+          "size": 187746,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "11: Profile / Avatar - Cinematic Film-Noir Portrait Prompt for GPT Image 2"
+    },
+    {
+      "no": "499",
+      "id": "x-2106227888395784520",
+      "sourceUrl": "https://x.com/iamrealsnow/status/2106227888395784520",
+      "authorHandle": "iamrealsnow",
+      "authorId": "373209648",
+      "discoveryHandle": "iamrealsnow",
+      "tweetId": "2106227888395784520",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:28.991598+00:00",
+      "publishedAt": "2026-10-03T03:40:35.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on Chat GPT\n\nPrompt:\n\nA beautiful young Korean woman with long silky brown hair in a loose ponytail, glossy Korean makeup, soft blush, naturally dewy skin, glossy plump lips, delicate facial features, cute youthful charm, taking a casual selfie inside a modern Korean café, wearing a fitted black sleeveless top, holding an iced vanilla latte with both hands, warm afternoon sunlight coming through large windows, cozy neutral interior, soft shadows, candid expression, slightly pouty lips, relaxed pose, realistic skin texture, subtle beauty details, photorealistic smartphone photography, crisp high-resolution details, natural lighting, authentic Korean lifestyle aesthetic, 4K.",
+      "start": 34,
+      "length": 659,
+      "sha256": "5679a2e69daf645fd58d0424738f3dc9321185e52e7c834d32f77789207197b1",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106227888395784520.jpg",
+          "url": "https://pbs.twimg.com/media/HTrTGJPaIAA9yVn.jpg?format=jpg&name=large",
+          "sha256": "84805b79836b76ed571c0c021453472672138fafa9c282e52e14feec0dda105e",
+          "size": 240793,
+          "width": 941,
+          "height": 1672
+        },
+        {
+          "path": "/covers/x-2106227888395784520-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTrTGJZa0AAnRDK.jpg?format=jpg&name=large",
+          "sha256": "00dd3220998da70a6e0e1bc34a29dc05e6304558cc2aa5823282cde2ca2791b1",
+          "size": 265402,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "12: Profile / Avatar - Korean Girl Selfie in Cafe"
+    },
+    {
+      "no": "500",
+      "id": "x-2106206679868334425",
+      "sourceUrl": "https://x.com/plex233/status/2106206679868334425",
+      "authorHandle": "plex233",
+      "authorId": "2077682033804169216",
+      "discoveryHandle": "plex233",
+      "tweetId": "2106206679868334425",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:30.293750+00:00",
+      "publishedAt": "2026-10-03T02:16:18.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "优化 Prompt：\n\n创建一张专业游戏/动画角色 Character Sheet。原创成年女性高空遗迹勘探员：暖棕肤色、短而凌乱的银灰发、透明青绿色护目镜、旧橙色技术夹克、深灰工装裤、米白重型靴、青绿色圆柱形呼吸背包。\n\nCharacter Lock：所有视图必须保持完全相同的脸部结构、发型、身体比例、服装裁片、背包结构、颜色和磨损位置，不重新设计角色。\n\n从左至右严格排列：全身正面 → 90°侧面 → 全身背面 → 3/4动作视图；右侧独立展示护目镜和呼吸背包的装备拆解。所有人物保持相同尺度，脚底位于同一水平线，彼此不遮挡。\n\n米白色角色设计纸背景，精确墨线 + 克制的概念设计厚涂，能够看清布料接缝、扣具、金属磨损和装备连接方式；均匀柔光，不使用戏剧化景深。无文字、无Logo、无水印，不增加额外人物或重复装备。\n\n主要优化：从“描述角色”升级成了 身份锚点 → 不变量 → 视角顺序 → 空间规则 → 装备拆解 → 禁止漂移。这类提示词已经开始接近真正的视觉生产工作流，而不只是“生成一张好看的图”。GPT Image 对复杂布局仍可能偶尔出现精确位置偏差，所以把顺序和尺度直接写出来很重要。\n\n可复用模板：\n\n角色职业 + 5~8个不可变视觉锚点 → Character Lock → 正/侧/背/3⁄4视图 → 相同尺度与基线 → 装备细节 → 材质/绘制媒介 → 明确禁止角色漂移",
+      "start": 12,
+      "length": 350,
+      "sha256": "99119672e8af638427d42b660fd8d7471712306749c8c2f12efbb816a7ac8ead",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2106206679868334425.jpg",
+          "url": "https://pbs.twimg.com/media/HTq_zX7aYAAdsvF.jpg?format=jpg&name=large",
+          "sha256": "7f68ce9e30c86186336755a700d812b0cd2f8e6a1f0186eeab396f0ac7c16f7f",
+          "size": 274801,
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "113: Game Asset - GPT Image Character Sheet Prompt"
+    },
+    {
+      "no": "501",
+      "id": "x-2105897710918242518",
+      "sourceUrl": "https://x.com/nawalsehar/status/2105897710918242518",
+      "authorHandle": "nawalsehar",
+      "authorId": "1155021277264011264",
+      "discoveryHandle": "nawalsehar",
+      "tweetId": "2105897710918242518",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:32.909939+00:00",
+      "publishedAt": "2026-10-02T05:48:34.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana pro \n\nPrompt:\n                A full-body editorial fashion photograph of a beautiful young woman with the same appearance as the reference, long glossy dark hair, soft bangs, fair skin, and refined feminine features. She stands casually in an upscale minimalist fashion boutique, wearing an oversized pastel-blue knit sweater paired with a black pleated tennis-style skirt, white crew socks, and chunky designer sneakers.Relaxed confident pose, gentle smile, luxury retail interior with modern clothing racks, neutral-toned garments, warm ambient lighting, wood and stone textures, clean architectural lines, cinematic depth of field, realistic lighting, premium fashion advertising, Vogue-style editorial, ultra-detailed, sharp focus, photorealistic, 4K.",
+      "start": 42,
+      "length": 726,
+      "sha256": "f7674effb74e9527fa6cc6cc68c3200b0f47ae653c0465f823ac65ba2af49696",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "promotion",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105897710918242518.jpg",
+          "url": "https://pbs.twimg.com/media/HTmmzRYbAAA0cV-.jpg?format=jpg&name=large",
+          "sha256": "a81d3f2d3a2082eb8813ec48eb0c03514a191d66bd5a3dce4be797ea1f94e44c",
+          "size": 112413,
+          "width": 842,
+          "height": 1264
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "29: Social Media Post - Pastel Blue Knit Sweater Boutique Portrait"
+    },
+    {
+      "no": "502",
+      "id": "x-2105871614512607509",
+      "sourceUrl": "https://x.com/AiwithLariab/status/2105871614512607509",
+      "authorHandle": "AiwithLariab",
+      "authorId": "1901909878467358720",
+      "discoveryHandle": "AiwithLariab",
+      "tweetId": "2105871614512607509",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:34.482347+00:00",
+      "publishedAt": "2026-10-02T04:04:52.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT image 2 on chatgpt\n\nPrompt \nCreate a premium ultra-realistic vertical 4:5 fashion portrait collage in a warm minimalist interior.\nA young woman is standing confidently on the left side of the composition, leaning naturally against a large sculptural curved beige architectural wall. She is wearing a stylish modest all-black outfit — elegant black long-sleeve top, black straight-leg trousers or jeans, and black shoes. Natural relaxed pose, one leg slightly crossed over the other, hands casually positioned near her pockets.\n\nOn the right side, create three vertically arranged framed black-and-white portrait photographs of the same woman, each with a different natural pose:\nWearing stylish black sunglasses, looking toward the camera.\nLooking downward with a calm expression.\nWearing black sunglasses and gently adjusting them with one hand.\nKeep all three portraits consistent with the same woman and facial identity.\nThe interior should have a sophisticated beige, cream and warm sand color palette, soft sunlight entering from the side, beautiful natural window shadows across the wall and floor, subtle cinematic lighting, minimal modern decor, and a small sculptural stone vase with delicate branches in the bottom-left corner.\nPhotorealistic photography, realistic skin texture, realistic fabric, natural proportions, premium editorial fashion aesthetic, soft shadows, architectural photography, high detail, cinematic composition, 8K, clean luxury magazine style,\n\nvertical 4:5.\nImportant: no watermark, no extra text, no logo, no distorted hands, no duplicate people, no artificial-looking face,",
+      "start": 32,
+      "length": 1580,
+      "sha256": "cc987ebac05533a8b1676f23ba82566c6c0606f8632a45bf9651e0b2e2f02187",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105871614512607509.jpg",
+          "url": "https://pbs.twimg.com/media/HTmPDoaakAAIYDh.jpg?format=jpg&name=large",
+          "sha256": "06ab3656ecf7af1ca63eb4adb1bbaa53fe7a0250f75fcf0fbc2a22f8b9f5312a",
+          "size": 221751,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "81: Product Marketing - Premium Ultra-Realistic Fashion Portrait Collage"
+    },
+    {
+      "no": "503",
+      "id": "x-2105448461382381907",
+      "sourceUrl": "https://x.com/Rabia_69x/status/2105448461382381907",
+      "authorHandle": "Rabia_69x",
+      "authorId": "2052329795455950848",
+      "discoveryHandle": "Rabia_69x",
+      "tweetId": "2105448461382381907",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:36.245175+00:00",
+      "publishedAt": "2026-10-01T00:03:25.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "A fierce warrior and her majestic guardian Dark fantasy power and mystery in one frame.\n\nCreated with GPT Image 2 on Chatgpt\n\nPrompt:\n\nA detailed portrait of a fierce tribal fantasy warrior woman leaning close to a massive, majestic great horned owl, cinematic lighting, dark moody atmosphere. The woman has long, wavy dark hair adorned with intricate silver chains, beads, and metallic headpieces. She has striking light green eyes, piercing the camera, with silver and icy-white war paint painted across her cheeks and nose. She wears dark leather armor decorated with silver pendants and turquoise gemstones Beside her the giant owl features sharp glowing orange eyes, patterned white and black feathers and an ornate silver circular medallion studded with a blue crystal resting on its forehead. The background is a shadowy, mystical forest in cool blue and dark gray tones. Highly detailed feathers, hyper-realistic, photorealistic textures, 8k resolution, dramatic dark fantasy aesthetic, masterpiece.",
+      "start": 135,
+      "length": 872,
+      "sha256": "6274de215c7948c550eff07a3b73c5f6ee703f01afa53ab8fb40d2d987d9aca2",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105448461382381907.jpg",
+          "url": "https://pbs.twimg.com/media/HTgOMnGaIAAsnnV.jpg?format=jpg&name=large",
+          "sha256": "a9ed6018d83197233c2d87527e5e95c9465c9b4a102f913fd1238f96f12e437d",
+          "size": 201330,
+          "width": 948,
+          "height": 1214
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "115: Game Asset - Dark Fantasy Warrior and Owl Portrait"
+    },
+    {
+      "no": "504",
+      "id": "x-2105235981553353199",
+      "sourceUrl": "https://x.com/JamilAI55/status/2105235981553353199",
+      "authorHandle": "JamilAI55",
+      "authorId": "1365717899810385925",
+      "discoveryHandle": "JamilAI55",
+      "tweetId": "2105235981553353199",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:37.947558+00:00",
+      "publishedAt": "2026-09-30T09:59:06.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nGenerate a high-quality cinematic double exposure poster of the uploaded handsome man, walking confidently toward the camera while looking at the smartwatch, one hand raise up, confident expression. He wears a clean pastel yellow loose fitting shirt shirt with rolled up sleeve, black cargo and a smartwatch. One hand casually in pocket, natural walking pose, modern celebrity attitude. Background features a massive slightly faded close-up portrait of the same man wearing stylish square sunglasses, black sneakers with white border, looking side, creating a soft layered double exposure effect. Clean grey gradient background with dreamy white smoke/fog at the bottom. Soft studio lighting, ultra-realistic skin texture, premium fashion photography look, sharp details, shallow depth of field, smooth shadows, elegant composition, modern Bollywood-inspired aesthetic, minimal color palette, highly detailed cinematic editing, DSLR quality. Maintain the face same as the uploaded photo. Aspect ratio 4:5",
+      "start": 109,
+      "length": 1004,
+      "sha256": "80ce968146e155a8fb39ce5bcae14239013f9ca8a1d2943340de8a26f07073ea",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105235981553353199.jpg",
+          "url": "https://pbs.twimg.com/media/HTdM9ZqbsAAxgCc.jpg?format=jpg&name=large",
+          "sha256": "e5b0a1f30f493f1ef409d778da46124a2d7bddc8d4d155eb4587b8300656c932",
+          "size": 75397,
+          "width": 928,
+          "height": 1152
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "86: Product Marketing - Cinematic Double Exposure Poster Prompt"
+    },
+    {
+      "no": "505",
+      "id": "x-2105173643294802060",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2105173643294802060",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2105173643294802060",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:38.531535+00:00",
+      "publishedAt": "2026-09-30T05:51:23.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic cinematic high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nConcept: His face is seen through several large, irregularly broken mirror fragments, each piece reflecting a slightly different angle of his face — one showing his intense eyes, another capturing his sharp side profile, another revealing his jawline and lips, and the central fragment showing his face staring directly into the camera. The fractured mirror pieces create a mysterious, artistic composition, with sharp geometric edges and realistic reflections.\n\nExpression & Pose: Calm, mysterious and emotionally intense expression, deep captivating gaze directed toward the camera through the mirror fragments, head slightly tilted, with a subtle sense of introspection and hidden identity.\n\nOutfit: Elegant black high-neck shirt beneath a tailored black blazer, minimal luxury styling, sophisticated and timeless.\n\nLighting: Dramatic low-key cinematic lighting, deep shadows, subtle cool blue highlights along the mirror edges, soft light illuminating his eyes and facial features, realistic reflections and delicate specular highlights on the broken glass.\n\nBackground: Dark minimalist interior with a charcoal-black background, subtle atmospheric haze, faint reflections and a sophisticated noir aesthetic.\n\nPhotography: Extreme attention to facial details, photorealistic skin texture, natural facial proportions, 85mm portrait lens, shallow depth of field, cinematic color grading, high contrast, ultra-detailed 8K HDR, luxury fashion magazine editorial, masterpiece composition.\n\nMood: Mysterious, introspective, dark, elegant, psychologically intriguing and cinematic.\n\nVertical 9:16 composition, close-up portrait, face occupying the central area, mirror fragments artistically arranged around the face, realistic glass reflections, perfectly coherent facial features within each reflection, professional editorial photography.\n\nNo text, no typography, no watermark, no extra faces, no distorted facial features, no artificial-looking skin, no cartoon effects.",
+      "start": 33,
+      "length": 2273,
+      "sha256": "3211ee940108a4cc70b1c76866a36a2822c5568f0d37b1440711359a2bbde7f1",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105173643294802060.jpg",
+          "url": "https://pbs.twimg.com/media/HTcURCgaYAA4OCs.jpg?format=jpg&name=large",
+          "sha256": "eafb9ecd601a116ea503f23295cebc35adf8da9b8c641d73065e00feeed764b0",
+          "size": 215988,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "86: Product Marketing - Broken Mirror Fashion Editorial Prompt"
+    },
+    {
+      "no": "506",
+      "id": "x-2105145613625037081",
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2105145613625037081",
+      "authorHandle": "aytacaltintepe",
+      "authorId": "14472078",
+      "discoveryHandle": "aytacaltintepe",
+      "tweetId": "2105145613625037081",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:39.419676+00:00",
+      "publishedAt": "2026-09-30T04:00:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "To look at it objectively, I’ve been sharing Recraft’s highly successful results over the past few days. It looks quite impressive here, too. However, I feel like Banana stands out just a notch above the rest. ChatGPT seems very artificial; it looks like even Grok has surpassed it.\n\n1. Banana Pro,\n2. Recraft 4.1,\n3. ChatGPT,\n4. Grok Imagine,\n\nPrompt,\n\nPhotorealistic professional 8K photograph of a 20-year-old athletic Korean woman with a feminine figure. Fit, toned, and defined but not overly muscular or masculine. High ponytail. Tennis visor-style headband with no crown, sitting on her forehead like a clip. Fitted black skinny t-shirt ending at the navel, natural abs visible. She pulls the hem of the t-shirt slightly upward with one fingertip to reveal her abs. Other arm slightly away from the body, outward, clenched fist hanging down, arm flexed with visible veins. Slight S-curve standing pose, head tilted slightly forward. Black modern breathable athletic tights with perforated panels. Gym interior, slightly blurred background. Cinematic dramatic lighting, professional photoshoot, slightly sweaty realistic skin, masterpiece, protagonist presence, ultra-realistic details, natural feminine proportions.",
+      "start": 354,
+      "length": 868,
+      "sha256": "5c83e450a4d1cf9779d0ce1e8fb1920f24cc85dbebaf314ce038bf723eb92647",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2105145613625037081.jpg",
+          "url": "https://pbs.twimg.com/media/HTZat-PWcAAWOyV.jpg?format=jpg&name=large",
+          "sha256": "aa2f4477ecb32e4646160caac4f991765291753a713911159a93480e8a415c71",
+          "size": 316698,
+          "width": 1170,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2105145613625037081-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTZawFgXwAA85-u.jpg?format=jpg&name=large",
+          "sha256": "6cea13e641e7fbcb3b0b1ab3230fc2eaa0878e8d8ef20aab0cd635d206dea072",
+          "size": 306032,
+          "width": 1143,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2105145613625037081-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTZazB7XsAAEmQo.jpg?format=jpg&name=large",
+          "sha256": "7300466036e4506061ba217d64a55be9d6fc6b389aefec56df821f49b038af8c",
+          "size": 182629,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "path": "/covers/x-2105145613625037081-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTZa0sPXEAEUEqX.jpg?format=jpg&name=large",
+          "sha256": "c1c01eac86947f1543044adbe07dafb5ac06fc0e153281eec42e980d22bef7e9",
+          "size": 381289,
+          "width": 1008,
+          "height": 1792
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "6: Profile / Avatar - Athletic Korean Woman Tennis Pose"
+    },
+    {
+      "no": "507",
+      "id": "x-2104929448155844935",
+      "sourceUrl": "https://x.com/elio_ia/status/2104929448155844935",
+      "authorHandle": "elio_ia",
+      "authorId": "861366995366928386",
+      "discoveryHandle": "elio_ia",
+      "tweetId": "2104929448155844935",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:40.761107+00:00",
+      "publishedAt": "2026-09-29T13:41:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "#picsartpartner @picsart @picsartai\n\nRunning a historical realism test in Picsart AI Playground ❄️📜\n\nSame prompt, two different models: \"Raw archival black and white photograph from a 1923 Antarctic expedition, grain, scratches, flash illumination. Weary explorers bundled in vintage heavy winter coats staring in shock at a massive, intricate glowing metallic monolith partially frozen inside a sheer ice cavern, photorealistic, historical documentary photography, hyper-detailed textures.\"\n\n1️⃣ Nano Banana Pro         2️⃣ Flux 2 Pro\n\nWhich model captured the authentic 1920s film grain and ice texture better? Let me know below 👇\n#PicsartAI #ad",
+      "start": 138,
+      "length": 353,
+      "sha256": "d33f7c2e262c316f44db860c956964a612f5ebc0f63ce74f9c4ec12a840421e0",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104929448155844935.jpg",
+          "url": "https://pbs.twimg.com/media/HTY2GKfX0AEWI56.jpg?format=jpg&name=large",
+          "sha256": "ad20cbb906dd426b233b4b302d9e3f4ce4af58d49e4f803ae1bf74b6176e6b00",
+          "size": 1291498,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2104929448155844935-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTY2GK-WUAAJIWR.jpg?format=jpg&name=large",
+          "sha256": "fac78845ab56bd924a470fe0970f262a8d04ae6a0f5151f1533feaa3898c532a",
+          "size": 912649,
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "47: YouTube Thumbnail - Antarctic Expedition Historical Realism Comparison"
+    },
+    {
+      "no": "508",
+      "id": "x-2104891764750639144",
+      "sourceUrl": "https://x.com/DilshadAI1/status/2104891764750639144",
+      "authorHandle": "DilshadAI1",
+      "authorId": "765581170310516736",
+      "discoveryHandle": "DilshadAI1",
+      "tweetId": "2104891764750639144",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:42.421865+00:00",
+      "publishedAt": "2026-09-29T11:11:18.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nPrompt: Keep the same features of \nthe attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nA highly detailed, ultra-realistic portrait of a stylish young man with voluminous, swept-back dark hair and light black eyes. He is lying comfortably on his stomach on a bed, resting his chin on his left hand, looking directly at the camera with a relaxed, gentle expression. He is wearing a light shalwar kameez, a dark smartwatch on his wrist, and white sneakers with black accents. The setting is a cozy, modern bedroom illuminated by vibrant purple and blue ambient LED lighting, contrasting with a warm glowing bedside lamp. In the softly blurred background, there is a dark poster with a crown graphic and the text \"Dream Big\", along with a corner shelf holding small potted plants. Shot on an 85mm lens, f/1.8 aperture, cinematic lighting, sharp focus on the face, 8k resolution. Keep original face and hairstyle 100% reference",
+      "start": 117,
+      "length": 998,
+      "sha256": "b2419eb340fcda36bbab25d308917c8ebfabd593570d8807e5f51546e55f5a1a",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104891764750639144.jpg",
+          "url": "https://pbs.twimg.com/media/HTYT5g2aEAEsekY.jpg?format=jpg&name=large",
+          "sha256": "c5658b2cb1d74223492c7f85c646d3a47e3cda376bfb6f03b954747318c24abc",
+          "size": 167652,
+          "width": 948,
+          "height": 1659
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "8: Profile / Avatar - Realistic Portrait Restoration Prompt for Nano Banana Pro"
+    },
+    {
+      "no": "509",
+      "id": "x-2104850947012726906",
+      "sourceUrl": "https://x.com/LaceyPresley/status/2104850947012726906",
+      "authorHandle": "LaceyPresley",
+      "authorId": "1952872859153432577",
+      "discoveryHandle": "LaceyPresley",
+      "tweetId": "2104850947012726906",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:43.297383+00:00",
+      "publishedAt": "2026-09-29T08:29:06.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Such Amazing Results\n\nA high resolution black and white portrait of a girl wearing a sharp black turtle neck and chic small gold earrings along with Korean bun. She stands confidently in minimal studio setting slightly to the side dramatic studio lighting creates bold geometric shadows on her face and background strong cross beams of light. Cut through the shadows her expression is calm introspective and slightly distant the image has cinematic, high quality nor tone with high contrast and fine detail on her face and suits texture soft brokeh background.\n\nNano Banana Pro 4K 1:1",
+      "start": 22,
+      "length": 538,
+      "sha256": "9646b8334736cb1757e3e9237375f6351b5db566b4d349a14dbecbda67ea878d",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104850947012726906.jpg",
+          "url": "https://pbs.twimg.com/media/HTXuRRtWQAAe6bF.jpg?format=jpg&name=large",
+          "sha256": "6d3f759789dd13912697ec88b95867eddba7af5d0c6ed63e669b08772cc25bcb",
+          "size": 272464,
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "11: Profile / Avatar - Black and White Studio Portrait Prompt"
+    },
+    {
+      "no": "510",
+      "id": "x-2104728081373999615",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104728081373999615",
+      "authorHandle": "DuaFatimaAi",
+      "authorId": "2009261034830483456",
+      "discoveryHandle": "DuaFatimaAi",
+      "tweetId": "2104728081373999615",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:44.377291+00:00",
+      "publishedAt": "2026-09-29T00:20:53.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gpt image 2 via chat gpt \n\nPrompt \n\nCreate a heartwarming 3D animated cinematic scene inside a cozy vintage hallway. An elderly woman with short white hair, round glasses, a mustard-yellow loose top, beige pants, and slippers playfully poses and dances while an elderly man in a light blue shirt and beige pants crouches nearby, recording her with a smartphone. Warm golden indoor lighting, wooden walls, framed artwork, patterned Persian rug, hanging lamp, cozy home atmosphere. The woman changes playful poses naturally—arms wide, pointing, smiling, raising both hands—while the man moves slightly as he films her. Expressive faces, charming comedic timing, smooth natural body movement, consistent character identity, detailed Pixar-like 3D animation, cinematic depth of field, realistic lighting, warm color grading, smooth camera movement, high detail, 4K.",
+      "start": 36,
+      "length": 825,
+      "sha256": "0e8884e74c08022781454bc158738080a0d83f142a15a312051e73eb18a1ac05",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "feeling",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104728081373999615.jpg",
+          "url": "https://pbs.twimg.com/media/HTV-_lHXwAAqECp.jpg?format=jpg&name=large",
+          "sha256": "41183e3e090de42825a3a63e9125265aec992bf0dd4b4ac7d90dbcd4513a35b7",
+          "size": 164870,
+          "width": 922,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "50: YouTube Thumbnail - Cozy Vintage Hallway Dance Scene"
+    },
+    {
+      "no": "511",
+      "id": "x-2104583621537611933",
+      "sourceUrl": "https://x.com/Elvorya/status/2104583621537611933",
+      "authorHandle": "Elvorya",
+      "authorId": "2074093269785751553",
+      "discoveryHandle": "Elvorya",
+      "tweetId": "2104583621537611933",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:44.883608+00:00",
+      "publishedAt": "2026-09-28T14:46:51.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana Pro\n\nPrompt:Create an ultra-photorealistic 4K cinematic full-body scene of the same woman from the reference image, sitting naturally on an elegant railway station chair while waiting for her train in heavy rain.\n\nPreserve her exact reference face and identity. She looks naturally toward the camera with a calm, elegant expression.\n\nShow her entire body from head to toe, with both shoes completely visible. Place her full leather suitcase beside the chair, including wheels and handle. A normal-sized black umbrella rests naturally beside the chair.\n\nLuxury camel trench coat, black trousers, polished black ankle boots, subtle gold jewelry, and elegant handbag.\n\nHeavy rain is visible through the large station windows, with wet railway tracks, puddles, mist, reflections, and an approaching train in the background. Premium luxury railway-station architecture with warm golden lighting and polished marble floor\n\nWide full-body composition, eye-level camera, 45–50mm lens, natural proportions, sharp face, detailed clothing and leather, realistic rain, cinematic depth of field.\n\nQuality: 4K UHD, photorealistic live-action, HDR, realistic skin pores, natural hair, cinematic lighting, premium color grading, subtle film grain.\n\nNegative prompt: cropped feet, cropped shoes, cropped suitcase, oversized umbrella, distorted hands, extra fingers, face drift, different identity, plastic skin, cartoon, anime, CGI, 3D render, unrealistic rain, blurry face, low resolution, unwanted text, extra logos, watermark.",
+      "start": 24,
+      "length": 1500,
+      "sha256": "a5aba46a945bd233a75f55197a0f0a2787d9a4f7d2d82f088aebae8b78d04c73",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104583621537611933.jpg",
+          "url": "https://pbs.twimg.com/media/HTT7pQAbAAAWE68.jpg?format=jpg&name=large",
+          "sha256": "65e89c02b49eda6e1fe40b556eae88aabbce333dccfc8f791ff920d10ec54e76",
+          "size": 165499,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "90: Product Marketing - Cinematic Woman Waiting for Train in Rain"
+    },
+    {
+      "no": "512",
+      "id": "x-2104472426394406957",
+      "sourceUrl": "https://x.com/her19845/status/2104472426394406957",
+      "authorHandle": "her19845",
+      "authorId": "1677291406757441536",
+      "discoveryHandle": "her19845",
+      "tweetId": "2104472426394406957",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:45.757381+00:00",
+      "publishedAt": "2026-09-28T07:25:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image2\n\nPrompt:⤵️\nA high-resolution, cinematic digital illustration with a cyberpunk aesthetic. The model is situated in a claustrophobic industrial corridor, facing a wall-mounted panel of servers and cables. A dense, explosive mass of bright orange liquid splashes violently outward from the tech panels, spreading across the surroundings. The young woman lightly touches the mass with her hand. The color palette is cool and dark—dominated by grays and blues—creating a dramatic, high-contrast effect against the orange. The image evokes a high-quality, surreal, and unsettling cyberpunk atmosphere.",
+      "start": 22,
+      "length": 584,
+      "sha256": "e551ada25ff5c8d149cf63314d9e500e6563c08b7de6795342a2f8adb8bdb8c8",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104472426394406957.jpg",
+          "url": "https://pbs.twimg.com/media/HTAHZt3XUAEl9IP.jpg?format=jpg&name=large",
+          "sha256": "8ba92e5a73344b3546d0be3ddddd54f0c4de75a0a1af96ba6cb4cd1cdd929a77",
+          "size": 418715,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "120: Game Asset - Cyberpunk Industrial Corridor Scene"
+    },
+    {
+      "no": "513",
+      "id": "x-2104415546079142275",
+      "sourceUrl": "https://x.com/hey_am_cherry/status/2104415546079142275",
+      "authorHandle": "hey_am_cherry",
+      "authorId": "1833205471315910657",
+      "discoveryHandle": "hey_am_cherry",
+      "tweetId": "2104415546079142275",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:46.670760+00:00",
+      "publishedAt": "2026-09-28T03:38:58.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "What if flowers could actually steal the spotlight?\n\nCreated with GPT image 2\n\nPrompt :\n\n{\n  \"aspect_ratio\": \"9:16\",\n  \"style\": \"surreal colorful high-fashion editorial\",\n  \"subject\": {\n    \"character\": \"beautiful young European blonde woman\",\n    \"expression\": \"confident, playful\",\n    \"accessories\": \"elegant sunglasses\",\n    \"outfit\": \"bright orange cropped jacket, lime-green wide-leg trousers, cream sneakers\"\n  },\n  \"action\": \"riding a cream vintage bicycle through a surreal fantasy garden\",\n  \"pose\": \"dynamic three-quarter rear view, leaning naturally into the ride while turning her head toward the camera\",\n  \"bicycle\": \"cream-colored vintage bicycle with a small minimal flower basket\",\n  \"environment\": {\n    \"setting\": \"open surreal garden\",\n    \"flowers\": \"few enormous sculptural flowers placed far apart, oversized orange, yellow and turquoise petals\",\n    \"ground\": \"pale mint pathway with generous empty space\"\n  },\n  \"composition\": {\n    \"camera\": \"dramatic low-angle hero shot\",\n    \"framing\": \"full bicycle and full character visible\",\n    \"foreground\": \"one giant flower subtly framing the edge\",\n    \"negative_space\": \"strong, clean, uncluttered\"\n  },\n  \"lighting\": \"warm golden daylight with cinematic shadows\",\n  \"mood\": \"wild, playful, bizarre, luxurious, dreamlike\",\n  \"visual_quality\": \"exaggerated scale, vibrant color harmony, crisp textures, unconventional fashion editorial energy, striking visual impact\"\n}",
+      "start": 89,
+      "length": 1352,
+      "sha256": "9b123321ca429ec5cdf311498cef0364bb7df6e97e14e17e1710dbb096c38efc",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104415546079142275.jpg",
+          "url": "https://pbs.twimg.com/media/HTRixntb0AABHuu.jpg?format=jpg&name=large",
+          "sha256": "6b3b626263940e06b86dcf1c0e85d296e31119694c0fbd1e2d290c8a217b90bf",
+          "size": 239026,
+          "width": 899,
+          "height": 1600
+        },
+        {
+          "path": "/covers/x-2104415546079142275-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTRiyGPaAAA0Xf0.jpg?format=jpg&name=large",
+          "sha256": "cda997ab1ef360801ed84d8518caa06390b67707979f9e3f2cd99d7d7e007aac",
+          "size": 238849,
+          "width": 900,
+          "height": 1600
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "93: Product Marketing - Surreal fashion bicycle garden"
+    },
+    {
+      "no": "514",
+      "id": "x-2104210624133685357",
+      "sourceUrl": "https://x.com/SaasJunctionHQ/status/2104210624133685357",
+      "authorHandle": "SaasJunctionHQ",
+      "authorId": "1582758313359724544",
+      "discoveryHandle": "SaasJunctionHQ",
+      "tweetId": "2104210624133685357",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:48.643193+00:00",
+      "publishedAt": "2026-09-27T14:04:41.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana Pro Auto Prompt: A fine-art studio portrait with dramatic butterfly lighting and realistic skin texture.\n\nPortrait Series - Part 3\n\nPrompt:\n\n{\n  \"style_prompt_template\": {\n    \"subject\": \"{{PERSON_NAME_OR_IMAGE}}\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"canvas_size_guidance\": \"1080x1920 or equivalent 9:16\",\n    \"shot_type\": \"medium portrait shot, zoomed out 50% from tight close-up, head-to-mid-torso visible, facing camera\",\n    \"photography_style\": \"dramatic black and white studio portrait, editorial/fine-art photography\",\n    \"composition\": {\n      \"face_position\": \"subject's face centered both horizontally and vertically in the frame\",\n      \"face_size_in_frame\": \"face occupies roughly 20-25% of frame height, not tightly cropped, ample negative space around subject\",\n      \"eye_line\": \"eyes aligned at approximate vertical center of the canvas\",\n      \"headroom\": \"generous margin above the hair, clear dark space visible above head\",\n      \"crop\": \"visible down to mid-chest or waist, more of the suit and shoulders shown, wider view than a tight headshot\",\n      \"surrounding_space\": \"large area of negative black space surrounding subject on left, right, top, and bottom\",\n      \"alignment\": \"subject facing straight into camera, symmetrical framing, no off-center offset\"\n    },\n    \"lighting\": {\n      \"type\": \"single hard top-down spotlight (butterfly/Paramount lighting)\",\n      \"quality\": \"harsh, narrow beam creating strong falloff\",\n      \"key_highlight\": \"top of hair and forehead catch bright rim light\",\n      \"shadow_behavior\": \"deep shadows under brow, cheekbones, and jawline; steep light-to-dark gradient across face\",\n      \"background_light\": \"none; background falls into near-total darkness with faint gradient near top edge, spotlight cone visible in wider frame\"\n    },\n    \"color_treatment\": \"monochrome black and white, high contrast, deep blacks, no gray midtone flatness\",\n    \"background\": \"solid black or near-black, subtle vignette, no visible texture or props, large expanse of negative space\",\n    \"wardrobe\": \"dark tailored suit jacket, white dress shirt, dark tie, formal/business attire, full torso visible\",\n    \"expression_and_pose\": \"neutral to serious expression, calm and composed, minimal smile, direct gaze into lens, relaxed shoulders\",\n    \"skin_and_texture_detail\": \"visible natural skin texture, pores, fine wrinkles, stubble if present, unretouched realism\",\n    \"hair_detail\": \"individual strands visible and crisply lit, natural texture, not overly styled\",\n    \"camera_and_lens\": \"shot as if on medium format camera, 50mm-85mm equivalent lens, greater working distance from subject, shallow depth of field, tack-sharp focus on eyes\",\n    \"grain_and_finish\": \"fine film-like grain, high dynamic range, crisp micro-contrast, glossy editorial finish\",\n    \"mood\": \"intense, powerful, cinematic, timeless\"\n  },\n  \"negative_prompt\": \"color cast, flat lighting, soft focus, blown highlights on face, busy background, smiling broadly, low contrast, blurry details, off-center face, face cropped at edge, horizontal framing, extreme close-up, tight crop, face filling entire frame\"\n}",
+      "start": 153,
+      "length": 2999,
+      "sha256": "ead63daeb580cedf2f0cc79ab32fd0cab6e796b7119ac5707f491d4d8f4760cb",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104210624133685357.jpg",
+          "url": "https://pbs.twimg.com/media/HTOoZDmbYAEAjQ9.jpg?format=jpg&name=large",
+          "sha256": "12e42e10fee1cf877e66ea7f2c1ad6dafaf857b78a27293f50ece042f8d812d1",
+          "size": 218556,
+          "width": 1143,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2104210624133685357-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTOoZDibEAAesdx.jpg?format=jpg&name=large",
+          "sha256": "de4403c418e9225349c04b2318fcd57e857d9b8c0a8597a2c4793f39a82a924f",
+          "size": 201299,
+          "width": 1143,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2104210624133685357-3.jpg",
+          "url": "https://pbs.twimg.com/media/HTOoZDjbEAA3IBG.jpg?format=jpg&name=large",
+          "sha256": "73c48477d0f020c6285bd79b935197e08b66dd710d1f047128c189af6202f00f",
+          "size": 184640,
+          "width": 1143,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2104210624133685357-4.jpg",
+          "url": "https://pbs.twimg.com/media/HTOoZDkaYAAvS0k.jpg?format=jpg&name=large",
+          "sha256": "a73079f6c6bc618f846f32a80ae04884656d2c46795e584637f12b79bc9076cb",
+          "size": 209047,
+          "width": 1143,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "17: Profile / Avatar - Fine-Art Studio Portrait with Butterfly Lighting"
+    },
+    {
+      "no": "515",
+      "id": "x-2104203933308633179",
+      "sourceUrl": "https://x.com/visualaiclub/status/2104203933308633179",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "discoveryHandle": "visualaiclub",
+      "tweetId": "2104203933308633179",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:48.578906+00:00",
+      "publishedAt": "2026-09-27T13:38:06.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT\n\nUpload one clear reference image before generating.\n\nMAIN PROMPT\nTransform every visible person in the uploaded image into realistic LEGO-style minifigure toys while preserving each person’s recognizable identity, hairstyle, outfit, colors, accessories, relative height, pose, and relationship to each other.\n\nFORMAT LOCK — NON-NEGOTIABLE\nVertical 3:4 aspect ratio.\nFull-body product composition.\nAll figures must be fully visible from head to toe.\nDo not generate square, landscape, widescreen, close-up, cropped, or half-body compositions.\n\nPERSON COUNT LOCK — NON-NEGOTIABLE\nDetect all visible people in the uploaded image.\nIf there is 1 person, create 1 LEGO-style minifigure.\nIf there are 2 people, create 2 LEGO-style minifigures.\nIf there are 3 or more people, create the same number of LEGO-style minifigures.\nDo not remove, merge, ignore, duplicate, or replace any person.\nEvery person visible in the reference image must appear as their own separate LEGO-style minifigure.\n\nREFERENCE LOCK — NON-NEGOTIABLE\nUse the uploaded image as the only reference for all subjects.\nPreserve each person’s recognizable facial identity as much as possible within the simplified LEGO minifigure style.\nMaintain each person’s hairstyle and hair color, adapted into molded LEGO-style plastic hairpieces.\nPreserve each person’s facial expression, clothing colors, clothing design, visible patterns, accessories, and styling.\nThe final figures must clearly represent the same people translated into LEGO-style toy form.\nDo not create generic minifigures.\nDo not redesign outfits or invent new accessories.\n\nCLOTHING DETAIL LOCK\nRecreate each person’s outfit as accurately as possible in LEGO minifigure form.\nPreserve the exact clothing color palette, layering, garment type, collar shape, neckline, sleeves, jacket shape, pants or skirt style, shoes, visible patterns, seams, buttons, zippers, belts, logos, jewelry, bags, glasses, hats, and accessories.\nTranslate real clothing into printed LEGO torso and leg graphics with clean toy-style linework.\nOuterwear should appear as molded or printed LEGO-style clothing details.\nShoes should be simplified into LEGO foot/leg prints while keeping the original color and style.\nDo not replace outfits with generic LEGO clothing.\nDo not simplify clothing so much that the original styling is lost.\n\nGROUP COMPOSITION\nKeep the same number of people from the uploaded image.\nPreserve the relationship between subjects.\nPreserve relative height differences.\nPreserve basic pose direction and body language.\nIf the reference shows a couple, create a matching LEGO-style couple.\nIf the reference shows a group, create the full group as separate minifigures.\nArrange the figures naturally together in a clean product-style composition.\n\nLEGO MINIFIGURE STRUCTURE\nUse authentic LEGO-style minifigure proportions for every figure.\nCylindrical heads.\nSimplified printed facial features.\nBlock-shaped torsos.\nPrinted clothing details on each torso.\nStandard minifigure arms.\nCurved minifigure hands.\nShort minifigure legs.\nCustom molded plastic hairpieces matching each subject’s hairstyle.\nClassic yellow heads or realistic skin-tone heads depending on the uploaded subjects and chosen visual direction.\n\nMATERIAL & TEXTURE\nRender all figures as realistic molded plastic.\nSubtle glossy finish.\nFine molded seams.\nClean toy-surface reflections.\nRealistic plastic highlights.\nPrinted face, torso, and leg details.\nHairpieces should look like molded plastic, not real hair.\nClothing should appear as printed LEGO-style graphics and molded toy details, not real fabric.\n\nCOMPOSITION\nFull-body minifigures visible from head to toe.\nAll figures centered in the frame.\nEntire group fully visible.\nNo cropping.\nNo close-up portrait framing.\nNo props.\nNo scenery.\nNo extra elements.\n\nBACKGROUND\nPure clean white background.\nStudio product photography setup.\nMinimal and premium.\nNo environment, no table clutter, no unrelated objects.\n\nLIGHTING\nSoft diffused studio lighting.\nSubtle natural shadows beneath the figures.\nCrisp detail visibility.\nBalanced reflections across the plastic surfaces.\nProfessional toy photography quality.\n\nOUTPUT STYLE\nPhotorealistic LEGO-style minifigure toy render.\nHigh-quality 3D product visualization.\nSharp focus.\nClean white-background presentation.\nPremium collectible toy aesthetic.\nHighly detailed plastic texture.\nProfessional studio lighting.\nThe final image should look like realistic custom LEGO-style minifigures of every visible person from the uploaded image, photographed as a premium toy product.\n#lego #prompt",
+      "start": 89,
+      "length": 4494,
+      "sha256": "8b75bd67d19b24aba490bb3adac16fe0458bcdac27ce47bc4eb331c3ef48ddc4",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2104203933308633179.jpg",
+          "url": "https://pbs.twimg.com/media/HTOhYAeWEAIjn5e.jpg?format=jpg&name=large",
+          "sha256": "0f552b6289e3ca325007f1ccaaf28b7881fb09a9c3bf5f0b7d01121ebbf68701",
+          "size": 288272,
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "path": "/covers/x-2104203933308633179-2.jpg",
+          "url": "https://pbs.twimg.com/media/HTOh7VfW0AA65j2.jpg?format=jpg&name=large",
+          "sha256": "eafde93c86f916bdf57189bfccda14c2f35595d5c5957bcaee5212c969b68155",
+          "size": 254586,
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "97: E-commerce Main Image - LEGO Minifigure Transformation"
+    },
+    {
+      "no": "516",
+      "id": "x-2103799283199963341",
+      "sourceUrl": "https://x.com/Mr_AI01/status/2103799283199963341",
+      "authorHandle": "Mr_AI01",
+      "authorId": "1841143271612903427",
+      "discoveryHandle": "Mr_Ai6",
+      "tweetId": "2103799283199963341",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:50.382616+00:00",
+      "publishedAt": "2026-09-26T10:50:10.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "① Open GPT Image 2/ Nano Banana pro/ Gemeni / Grok \n② Add your image\n③ Paste the prompt\n④ Create the result\n\nPrompt:\n\nA handsome young man wearing an elegant black tuxedo, standing confidently on a glamorous red carpet, luxury event decorations and bright photography lights in the background, cinematic fashion photography, highly detailed, photorealistic, 8K.",
+      "start": 118,
+      "length": 243,
+      "sha256": "fd8739436d7fd5d7a698d2b140aa468bf63f60f36a7676b6ebe7c868a91543c9",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2103799283199963341.jpg",
+          "url": "https://pbs.twimg.com/media/HTIySTea8AAsoOq.jpg?format=jpg&name=large",
+          "sha256": "5dfa40573f9f4690618da46fd6c6084f733d00b588802720e294b1f07dfd6ccd",
+          "size": 217683,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "93: Product Marketing - Red Carpet Tuxedo Portrait Prompt"
+    },
+    {
+      "no": "517",
+      "id": "x-2103327399190593748",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2103327399190593748",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2103327399190593748",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:51.264750+00:00",
+      "publishedAt": "2026-09-25T03:35:04.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic cinematic dark-fantasy photograph of a strikingly handsome young man in his early 20s standing alone beneath enormous Gothic cathedral arches. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\nHe wears an elegant long black tailored coat over a dark high-neck shirt, giving him a mysterious, powerful presence. Towering Gothic arches rise dramatically above him, decorated with intricate stone carvings, weathered columns, and enormous shadowy vaulted ceilings. Sharp beams of golden-white light pierce through dense atmospheric smoke and mist, illuminating parts of his face and shoulders while the rest of the cathedral disappears into deep darkness.\nAncient stone floor slightly wet and reflective, faint dust particles floating through the light, subtle candlelight in the distant background, dramatic volumetric lighting, deep shadows, strong chiaroscuro, gothic architecture, mysterious sacred atmosphere, cinematic composition, realistic proportions, natural expression, highly detailed stone textures, photorealistic skin, HDR, 85mm lens, shallow depth of field, dramatic perspective, dark luxury editorial photography, ultra-detailed, 8K, no women, no text, no watermark, no AI-looking face, vertical 9:16.",
+      "start": 33,
+      "length": 1394,
+      "sha256": "913ec622296ce2fd1f0be18db66d2596b697b7726b062540d84976cef201a236",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2103327399190593748.jpg",
+          "url": "https://pbs.twimg.com/media/HTCFHUbb0AAG1vm.jpg?format=jpg&name=large",
+          "sha256": "09990af8c5193873969447a414ca37b7eb2942b2a3ae8e45781c11ed60512898",
+          "size": 194610,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "52: YouTube Thumbnail - Gothic Cathedral Dark Fantasy Portrait Prompt"
+    },
+    {
+      "no": "518",
+      "id": "x-2103091784179912903",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2103091784179912903",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2103091784179912903",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:51.514933+00:00",
+      "publishedAt": "2026-09-24T11:58:49.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic cinematic surreal photograph of a strikingly handsome young man in his early 20s standing exactly at the boundary between two centuries, creating a seamless visual split between 1920 and 2120.\n\nHe has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\n\nThe LEFT side of the image represents the 1920s: an elegant vintage city street with Art Deco architecture, classic automobiles, old brick buildings, warm amber street lamps, vintage shop signs, pedestrians in 1920s suits and coats, subtle film grain, sepia tones, and authentic period atmosphere. The young man wears a perfectly tailored 1920s three-piece suit, pocket watch, polished leather shoes, and vintage hairstyle details.\n\nThe RIGHT side represents the year 2120: a breathtaking futuristic metropolis filled with towering glass-and-metal skyscrapers, holographic advertisements, autonomous flying vehicles, glowing neon architecture, futuristic pedestrians, advanced technology, floating transportation systems, and subtle atmospheric mist. The young man wears an elegant futuristic black tailored suit with sophisticated metallic details and subtle glowing accents.\n\nThe center of the composition shows the two eras merging around him, with a luminous temporal distortion, floating clock fragments, particles, and ripples in reality connecting 1920 to 2120. His body subtly transitions between both eras while his face remains identical and perfectly realistic, symbolizing a man caught between past and future.\n\nEpic cinematic composition, symmetrical split-world concept, dramatic perspective, realistic environmental reflections, volumetric lighting, atmospheric depth, physically accurate materials, highly detailed skin, natural facial expression, photorealistic, 8K HDR, ultra-sharp focus, cinematic color grading, 35mm photography, masterpiece, no text, no watermark.",
+      "start": 33,
+      "length": 2009,
+      "sha256": "bfeb68919f3ed7d63b95e828589731ede84003cccec513a94a48420cf7b71188",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2103091784179912903.jpg",
+          "url": "https://pbs.twimg.com/media/HS-u0dXbkAAXTRd.jpg?format=jpg&name=large",
+          "sha256": "ea19a81646e4f92a7d9e276fede389cb50c433f1ce6744d0336378dd40f65cad",
+          "size": 399716,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "53: YouTube Thumbnail - GPT Image 2 Surreal Time Split Portrait"
+    },
+    {
+      "no": "519",
+      "id": "x-2102987709883298171",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2102987709883298171",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2102987709883298171",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:52.196265+00:00",
+      "publishedAt": "2026-09-24T05:05:16.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic cinematic night photograph of a strikingly handsome young man in his early 20s sitting inside a vintage red telephone booth on a deserted city street at midnight. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features. He holds an old black telephone receiver close to his ear, with a mysterious, thoughtful expression as he looks slightly toward the rain-covered glass.\nHeavy rain falls outside, droplets streaming down the glass panels, while dense atmospheric fog surrounds the booth and softly obscures the empty street. Wet pavement reflects the warm amber glow of the booth and distant streetlights. Vintage urban architecture fades into the mist in the background. Subtle neon reflections, cinematic rim lighting, soft volumetric light beams, deep shadows, moody midnight-blue atmosphere, realistic reflections on wet surfaces, shallow depth of field, 85mm lens, f/1.4, dramatic film grain, high dynamic range, photorealistic skin, intricate fabric details, sophisticated noir aesthetic, mysterious and emotional atmosphere, premium editorial photography, 8K, ultra-detailed, natural proportions, no text, no watermark, no women.",
+      "start": 33,
+      "length": 1309,
+      "sha256": "b5d8d5aa68d9239727fe74631d2477e7703c0b1116608ba6ae55ea59dc1870ab",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2102987709883298171.jpg",
+          "url": "https://pbs.twimg.com/media/HS9QKvpb0AAS5kZ.jpg?format=jpg&name=large",
+          "sha256": "c336a7f8e82c76bdd4942b4e861489cf8bd0aa188f6ba86d135e38f649447f6b",
+          "size": 288414,
+          "width": 941,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "55: YouTube Thumbnail - Noir Telephone Booth Portrait"
+    },
+    {
+      "no": "520",
+      "id": "x-2102555777252872279",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2102555777252872279",
+      "authorHandle": "MohdAdnanA86218",
+      "authorId": "1800428378656280576",
+      "discoveryHandle": "MohdAdnanA86218",
+      "tweetId": "2102555777252872279",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:54.031357+00:00",
+      "publishedAt": "2026-09-23T00:28:55.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2 \n\nPrompt:\nUltra-realistic cinematic sports photograph of a strikingly handsome young male badminton athlete in his early 20s, captured at the peak of a powerful overhead smash. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\nHe is jumping explosively above the badminton court, body dynamically twisted, one arm fully extended overhead with a professional badminton racket aimed aggressively toward the camera. His expression is intensely focused and determined. A shuttlecock is extremely close to the lens in the foreground, dramatically enlarged with razor-sharp feather details, creating powerful depth and perspective.\nModern indoor badminton arena, polished court floor, subtle net visible in the background, dramatic overhead stadium lights, strong rim lighting, atmospheric haze, realistic shadows, tiny sweat droplets frozen in motion, cinematic motion energy, shallow depth of field, dynamic low-angle perspective, 85mm sports photography aesthetic, ultra-detailed skin and clothing, photorealistic textures, HDR, high contrast, frozen action, premium sports campaign photography.\nLarge bold “SMASH” typography subtly integrated into the background, clean athletic editorial design, no logos, no watermark, no other people.\n9:16 vertical composition, 8K, photorealistic, cinematic, professional sports advertising campaign, extremely sharp subject and shuttlecock, dramatic depth of field.",
+      "start": 33,
+      "length": 1554,
+      "sha256": "df99a111e6cc2ae662f2c4cb69f1f28b9f2af4951a59556af59faa6ceae127f6",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2102555777252872279.jpg",
+          "url": "https://pbs.twimg.com/media/HS3HU-ebgAAZom1.jpg?format=jpg&name=large",
+          "sha256": "c980a50856eddce814256f5891521591442453d941499e740d2dd972e0909938",
+          "size": 257186,
+          "width": 940,
+          "height": 1672
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "58: YouTube Thumbnail - Cinematic Badminton Smash GPT Image 2"
+    },
+    {
+      "no": "521",
+      "id": "x-2101379401703116870",
+      "sourceUrl": "https://x.com/OlatundeAI/status/2101379401703116870",
+      "authorHandle": "OlatundeAI",
+      "authorId": "1971961344220860416",
+      "discoveryHandle": "OlatundeAI",
+      "tweetId": "2101379401703116870",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:55.484856+00:00",
+      "publishedAt": "2026-09-19T18:34:25.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Here’s the complete step-by-step workflow I used to create this Fanice Ice Cream UGC using AI.\n\nSTEP 1: Go to Pinterest and download a clear, high-quality image of the product you want to create the UGC for.\n\nUpload the product image to ChatGPT or Google Flow and use Nano Banana for image generation. Once the image is uploaded, paste the prompt below and run it.\n\n\"Analyze the product and create a high-resolution, photorealistic, professional advertising reference sheet containing these four sections, on a clean white/neutral studio background, premium commercial product photography, soft controlled lighting, realistic materials, sharp details, subtle shadows, and a professional editorial grid.\n1. PRODUCT OVERVIEW; name, category, materials, dimensions/size, key features, and brand colors.\n2. PRODUCT USAGE/HERO VIEWS - front, back, side, 3/4, and functional/use view where relevant.\n3. PRODUCT CLOSE-UPS - logo/label, texture/material, key components, packaging details, and other important identifying features.\n4. PACKAGING / CONSTRUCTION - relevant packaging or structural views where applicable. \nThe entire sheet must function as a visual continuity bible for AI image/video production. Every product view must depict the exact same physical product with absolute consistency. Do not redesign, add variants, alter branding, or change proportions. Use cean typography, clear section labels, thin dividers, balanced spacing, sophisticated production-design aesthetic.\"",
+      "start": 367,
+      "length": 1114,
+      "sha256": "69695968dac569cef446d357a379c4716e5162b18c7f7f6ce70e8b290fea23df",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "promotion",
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2101379401703116870-2.jpg",
+          "url": "https://pbs.twimg.com/media/HSmZa1AWsAEcqd1.jpg?format=jpg&name=large",
+          "sha256": "e2cd7814e971e9f55c42fcba7869027d6392e09b7a527532af6a472309f87f6d",
+          "size": 218872,
+          "width": 896,
+          "height": 1200
+        },
+        {
+          "path": "/covers/x-2101379401703116870.jpg",
+          "url": "https://pbs.twimg.com/media/HSmZZ6UWMAAKkmx.jpg?format=jpg&name=large",
+          "sha256": "b06e30cc535b30e275227aec56708c9cf623e5996c38d2b2d6bc72a825349410",
+          "size": 112205,
+          "width": 736,
+          "height": 981
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "33: Infographic / Edu Visual - Product Reference Sheet Workflow"
+    },
+    {
+      "no": "522",
+      "id": "x-2100779368318701669",
+      "sourceUrl": "https://x.com/Sairah_0/status/2100779368318701669",
+      "authorHandle": "Sairah_0",
+      "authorId": "1799004515871649792",
+      "discoveryHandle": "Sairah_0",
+      "tweetId": "2100779368318701669",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:56.925462+00:00",
+      "publishedAt": "2026-09-18T02:50:06.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 On ChatGPT \n\nPrompt:\nTransform the uploaded photo into a charming hand-drawn fashion illustration while preserving the original scene and composition.\n\nKeep the same people, number of people, pose, body positioning, facial expressions, clothing, accessories, hairstyles, objects, drinks, and overall framing from the reference photo. Do not add or remove important elements.\n\nConvert the realistic photograph into a minimal Japanese/Korean-inspired lifestyle sketch illustration, using loose but confident dark green ink linework with subtle hand-drawn imperfections. Simplify facial features while keeping each person’s recognizable hairstyle, glasses, headphones, clothing silhouette, and pose.\n\nUse a soft pastel pink background with the illustration drawn primarily in deep forest-green ink. Replace realistic textures, shadows, vehicles, buildings, pavement, and surroundings with simplified expressive linework and selective cross-hatching. Keep enough environmental details to make the original location and composition recognizable.\n\nStyle: cute editorial illustration, Japanese stationery aesthetic, fashion sketch, casual slice-of-life manga drawing, imperfect pen strokes, clean negative space, minimal detailing, subtle vintage feel, handmade appearance.\n\nColor treatment: predominantly pastel pink background + dark green line art, with very minimal secondary tones if needed. No photorealism, no 3D rendering, no glossy digital painting.\n\nImportant: preserve the original image’s composition, perspective, camera angle, poses, proportions, clothing, accessories, and key objects. The result should look like the exact photograph was redrawn by an illustrator, rather than redesigned into a different scene.\n\nOutput: clean vertical illustration, aesthetically balanced, high-resolution, polished hand-drawn finish.\n\nShort version for image models:\n\nTurn this photo into a cute hand-drawn Japanese lifestyle/fashion sketch. Preserve the exact people, poses, expressions, clothing, hairstyles, accessories, drinks, composition, camera angle and important background elements. Redraw everything with loose imperfect dark forest-green ink linework on a soft pastel pink background, using minimal cross-hatching and simplified details. Charming editorial stationery aesthetic, casual manga-inspired illustration, handmade pen texture, clean negative space, elegant and whimsical. Do not change the composition or add/remove subjects; make it look like the original photo was directly illustrated by hand.",
+      "start": 33,
+      "length": 2491,
+      "sha256": "885edb97b3f8d9741c7398fccffe68c90150fedceee6634c7a1ab912c71d5173",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2100779368318701669-2.jpg",
+          "url": "https://pbs.twimg.com/media/HSd3pWebgAAyN6k.jpg?format=jpg&name=large",
+          "sha256": "e142330fc623117c5c033e4654fdf3837db08b94850240d79970e4859af3127d",
+          "size": 155165,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "path": "/covers/x-2100779368318701669.jpg",
+          "url": "https://pbs.twimg.com/media/HSd3pWTaYAA6GGA.jpg?format=jpg&name=large",
+          "sha256": "84a0157dbdf7b1d5ca4076a05f313e5deb2d4450c14fd2f3884a9ab8a9858593",
+          "size": 368959,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "63: Comic / Storyboard - Hand-Drawn Fashion Illustration Transformation"
+    },
+    {
+      "no": "523",
+      "id": "x-2100638045103853684",
+      "sourceUrl": "https://x.com/visualaiclub/status/2100638045103853684",
+      "authorHandle": "visualaiclub",
+      "authorId": "1371678347818893318",
+      "discoveryHandle": "visualaiclub",
+      "tweetId": "2100638045103853684",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:56.729691+00:00",
+      "publishedAt": "2026-09-17T17:28:32.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "“Paper Cutout Illustration Prompts”\n\nGPT 2 image \n\n“Upload one reference image before generating.\n\nMAIN PROMPT\nTransform the uploaded image into a soft handcrafted paper-cut layered illustration while preserving the original composition, subject placement, pose, proportions, perspective, and recognizable features.\n\nFORMAT LOCK\nVertical 3:4 composition. Preserve the original framing, camera angle, crop, and overall visual hierarchy.\n\nSTYLE\nSoft papercraft diorama aesthetic with smooth rounded shapes, simplified cute proportions, minimal facial details, dot eyes, soft blush cheeks, and a warm storybook character design. Recreate the entire scene using stacked paper layers with visible dimensional depth, subtle shadows between layers, and clean cut edges resembling carefully crafted cardstock.\n\nCHARACTER DESIGN\nKeep the main characters recognizable while simplifying their forms into charming paper-cut figures. Add a distinct thick white outer paper layer around each main character, creating a clean sticker-like cut-paper border that physically separates them from the background. The white border must look like an intentional cardstock layer, not a glow or lighting effect.\n\nPAPER MATERIAL\nUse matte tactile materials resembling thick art paper or craft foam. Show subtle paper grain, layered edges, slight thickness, clean cuts, tiny handmade imperfections, and realistic contact shadows between overlapping layers.\n\nCOLOR PALETTE\nSoft pastel colors with muted blues, gentle greens, warm neutrals, cream, and subtle complementary accents. Keep the palette balanced, calming, cozy, and harmonious.\n\nLIGHTING\nSoft diffused even lighting. Gentle ambient illumination. Subtle layer shadows. No harsh contrast. Enhance the physical depth of the paper layers while maintaining a soft handcrafted atmosphere.\n\nCOMPOSITION\nPreserve the original scene structure and visual hierarchy. Keep characters, objects, and important environmental elements in their original positions while translating everything into the same paper-cut visual language. Maintain clear separation between foreground, midground, and background.\n\nOUTPUT STYLE\nCozy handcrafted papercraft diorama. Modern children’s-book illustration. Decorative paper-cut artwork. Warm storybook aesthetic. Wholesome, gentle, playful, polished, tactile, and premium.\n\nNEGATIVE PROMPT\nAvoid photorealism, CGI, glossy surfaces, plastic appearance, neon colors, harsh lighting, excessive detail, realistic facial rendering, floating characters, glowing white outlines, flat digital illustration, messy edges, excessive shadows, distorted anatomy, changed composition, text, logos, watermarks, or low-quality rendering.”",
+      "start": 111,
+      "length": 2565,
+      "sha256": "23c23c8c30189bfa1fd2363bf45e8222661babb373c3a3ac2d06b6414ff8f551",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2100638045103853684.jpg",
+          "url": "https://pbs.twimg.com/media/HSb3HpIWcAEg9ih.jpg?format=jpg&name=large",
+          "sha256": "c8423840890d6731ecc47cb4b28c1852242c54fb194de40e978436f286e14f4f",
+          "size": 250948,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2100638045103853684-2.jpg",
+          "url": "https://pbs.twimg.com/media/HSb3HpJWQAEVbcE.jpg?format=jpg&name=large",
+          "sha256": "8930965e6685e49e86e29006e99e71a2b252820383599eeaece41d91e59d2690",
+          "size": 181504,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2100638045103853684-3.jpg",
+          "url": "https://pbs.twimg.com/media/HSb3HpKW8AEihPT.jpg?format=jpg&name=large",
+          "sha256": "c2b171a13dbf9bef6a5643ab4628e837f9686ea8d1ae5e701e93edd05559da1a",
+          "size": 230362,
+          "width": 960,
+          "height": 1280
+        },
+        {
+          "path": "/covers/x-2100638045103853684-4.jpg",
+          "url": "https://pbs.twimg.com/media/HSb3HpPW8AAqpGp.jpg?format=jpg&name=large",
+          "sha256": "8dec9ea062137eab2d5a5dd6c9a37ec0e8ead8a159e200674f5e1f9ffc0329c9",
+          "size": 238418,
+          "width": 960,
+          "height": 1280
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "64: Comic / Storyboard - Paper Cutout Illustration Prompt for GPT Image 2"
+    },
+    {
+      "no": "524",
+      "id": "x-2100578794159436219",
+      "sourceUrl": "https://x.com/timedoctor_nft/status/2100578794159436219",
+      "authorHandle": "timedoctor_nft",
+      "authorId": "1412103217945714695",
+      "discoveryHandle": "timedoctor_nft",
+      "tweetId": "2100578794159436219",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:57.357530+00:00",
+      "publishedAt": "2026-09-17T13:33:06.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Ella Purnell - Gemini Nano Banana Pro\n\nPrompt:\n{\n  \"vibe_title_en\": \"Mechanical Melancholy\",\n  \"master_prompt\": \"Extreme close-up macro portrait. The Protagonist as a melancholic prodigy, framed tight on one side of the face. A highly detailed, physical brass clockwork mechanism with Roman numerals curves over the forehead and brow like a fragmented visor, partially obscuring the upper head but leaving one deeply expressive, sorrowful eye visible. The eye reflects warm, dusty ambient light. The protagonist's fingers, stained with dark ink and graphite, are gently touching a hyper-realistic golden mechanical hummingbird hovering near their cheek. They wear a heavy, ornate red and black mandarin-collar jacket with gold embroidery. Warm, directional Rembrandt lighting cutting through dense, dust-filled air, illuminating floating motes. Shot on Hasselblad H6D-100c, 120mm macro lens at f/2.8, incredibly shallow depth of field blurring the background into a muted olive-grey. Kodak Portra 400 film emulation, hyper-detailed skin pores, physical weight to the metal, cinematic chiaroscuro, pure photographic surrealism.\",\n  \"meta\": {\n    \"intent\": \"Photographic Surrealism, Emotional Macro Portrait\",\n    \"priorities\": \"Micro-details, tactile realism, cinematic warm lighting, analog film texture\",\n    \"device_profile\": \"Hasselblad H6D-100c with 120mm Macro Lens\"\n  },\n  \"frame\": {\n    \"aspect\": \"3:4\",\n    \"composition\": \"Extreme close-up macro, focusing on one eye and the side of the face, filling the frame\",\n    \"layout\": \"Off-center focus on the visible eye, clockwork fading into deep bokeh at the top edge, fingers entering from the bottom frame\",\n    \"camera_angle\": \"Straight-on, intimate eye-level\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Melancholic Prodigy\",\n    \"demographics\": \"Universal features, youthful yet burdened\",\n    \"face\": \"Pale, hyper-detailed skin pores, one eye visible showing intense sorrowful focus, upper half partially covered by a brass clock mechanism\",\n    \"hair\": \"Pulled back out of frame, out of focus\",\n    \"body\": \"Only shoulder and neck visible, clad in heavy structured fabric\",\n    \"expression\": \"Sorrowful focus, heavy emotional weight, internal melancholy\",\n    \"pose\": \"Head still, hands brought up near the face, ink-stained fingers delicately interacting with a small golden mechanical bird\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Mandarin-collar jacket\",\n        \"material\": \"Thick woven brocade\",\n        \"color\": \"Deep crimson red and black\",\n        \"fit\": \"Structured, tailored\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Fragmented clockwork visor with Roman numerals\",\n        \"color\": \"Aged brass and gold\",\n        \"material\": \"Machined metal, glass\",\n        \"brand_style\": \"Avant-garde horology, practical special effects\"\n      },\n      {\n        \"item\": \"Mechanical hummingbird\",\n        \"color\": \"Gold\",\n        \"material\": \"Polished brass and tiny gears\",\n        \"brand_style\": \"Artisan kinetic jewelry\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"An obscure, dusty horologist's workshop or prodigy's sanctuary\",\n    \"surfaces\": \"Soft, muted olive-grey background, entirely blurred out\",\n    \"depth\": \"Extremely shallow, blurring everything millimeters behind the focal plane of the iris\",\n    \"atmosphere\": \"Warm, heavy, dust-filled air with illuminated floating particles\",\n    \"lens_interaction\": \"Soft optical vignette, macro compression\"\n  },\n  \"lighting\": {\n    \"key\": \"Warm, directional Rembrandt light hitting the visible eye and cheek\",\n    \"fill\": \"Subtle silver bounce to retain shadow detail in the clockwork\",\n    \"rim\": \"Soft golden backlight highlighting the floating dust motes and edges of the mechanical bird\",\n    \"shadows\": \"Deep, cinematic chiaroscuro, rich blacks\",\n    \"color_temperature\": \"Warm (around 3200K - 4000K)\",\n    \"sensor_flare\": \"None, highly controlled studio lighting\"\n  },\n  \"camera\": {\n    \"lens_type\": \"Macro Prime\",\n    \"focal_length\": \"120mm\",\n    \"aperture\": \"f/2.8\",\n    \"focus\": \"Tack sharp on the iris of the visible eye and the ink-stained fingertips\",\n    \"sensor_format\": \"Medium Format\",\n    \"perspective_distortion\": \"Zero distortion, highly compressed\"\n  },\n  \"post_processing\": {\n    \"color\": \"Muted, rich jewel tones contrasting with warm brass and pale skin\",\n    \"tonality\": \"High contrast, filmic roll-off in highlights\",\n    \"texture\": \"Kodak Portra 400 grain, organic imperfections, microscopic skin texture\",\n    \"digital_sharpening\": \"None, pure optical sharpness\",\n    \"chromatic_aberration\": \"Very slight edge fringing on the brass gears due to macro lens characteristics\"\n  },\n  \"negative_specifications\": [\n    \"neon\",\n    \"digital painting\",\n    \"illustration\",\n    \"CGI\",\n    \"plastic skin\",\n    \"flat lighting\",\n    \"wide shot\",\n    \"full body\",\n    \"cliché coffee shop\",\n    \"modern office\"\n  ]\n}",
+      "start": 47,
+      "length": 4912,
+      "sha256": "3a13ae58b8ba5853875f814c6ad626c913c27f1e41965cdda200e9850c5e8903",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2100578794159436219.jpg",
+          "url": "https://pbs.twimg.com/media/HSbBRzWXIAA1GO-.jpg?format=jpg&name=large",
+          "sha256": "09590379dd1b2e8f32631734b23d929bd614dda95fc630d6527e847474b26180",
+          "size": 329881,
+          "width": 1450,
+          "height": 1944
+        },
+        {
+          "path": "/covers/x-2100578794159436219-2.jpg",
+          "url": "https://pbs.twimg.com/media/HSbBR30W0AAieJe.jpg?format=jpg&name=large",
+          "sha256": "89fd8acea80b351689d659b99ecd13d171fc89c504f7870a3254c330bf67deff",
+          "size": 327637,
+          "width": 1450,
+          "height": 1944
+        },
+        {
+          "path": "/covers/x-2100578794159436219-3.jpg",
+          "url": "https://pbs.twimg.com/media/HSbBR6sXEAES3_p.jpg?format=jpg&name=large",
+          "sha256": "2992d0e48610c41b8dfb21bc6d2c02390048a6e0cab095464286823c76ce0c7a",
+          "size": 307661,
+          "width": 1450,
+          "height": 1944
+        },
+        {
+          "path": "/covers/x-2100578794159436219-4.jpg",
+          "url": "https://pbs.twimg.com/media/HSbBRyWXgAA04od.jpg?format=jpg&name=large",
+          "sha256": "24e4feb99ce257c70e83a97242ee43dfe5b88907211cdd87496973aec95cba10",
+          "size": 330938,
+          "width": 1450,
+          "height": 1944
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "114: Game Asset - Mechanical Melancholy Macro Portrait Prompt"
+    },
+    {
+      "no": "525",
+      "id": "x-2100100831945408531",
+      "sourceUrl": "https://x.com/HustleXR/status/2100100831945408531",
+      "authorHandle": "HustleXR",
+      "authorId": "2506434999",
+      "discoveryHandle": "HustleXR",
+      "tweetId": "2100100831945408531",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:58.254486+00:00",
+      "publishedAt": "2026-09-16T05:53:50.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with google gemini nano banana pro \n\nPrompt \n\nModern comic-book illustration style with a semi-realistic approach, bold inked linework combined with clean sharp edges, dynamic cel-shading with high contrast between light and shadow, subtle painterly blending on skin while maintaining graphic comic aesthetics, vibrant yet slightly gritty color grading, strong rim lighting and dramatic highlights, stylized anatomy with heroic proportions, detailed hair rendered with flowing strands and sharp highlights, textured brush splashes and ink splatter accents for a dynamic effect, minimalistic light background to emphasize the subject, cinematic composition, ultra-detailed, high resolution, graphic novel quality.\nar 9:16!",
+      "start": 54,
+      "length": 675,
+      "sha256": "9bc31ab5b1a2db3f5708716386ea969490730f0e08d981fb838e514c18603da4",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2100100831945408531.jpg",
+          "url": "https://pbs.twimg.com/media/HSUOklcXQAACy5l.jpg?format=jpg&name=large",
+          "sha256": "f0925c8acc1e17655e44d8f99364c5ae0a0472a17eb6c4c80fcd804cc9ea2848",
+          "size": 65289,
+          "width": 458,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2100100831945408531-2.jpg",
+          "url": "https://pbs.twimg.com/media/HSUOklWWAAEI8_e.jpg?format=jpg&name=large",
+          "sha256": "d3abae40d698382f05fe38c6f2879b08ef215df9ef07e49a86e549c2aef5536c",
+          "size": 107999,
+          "width": 429,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2100100831945408531-3.jpg",
+          "url": "https://pbs.twimg.com/media/HSUOklbWQAAnTUD.jpg?format=jpg&name=large",
+          "sha256": "358c42854a4e9eda5ef63e443ad769b8bf810dd2d59142340f2f03b9402cdefd",
+          "size": 54690,
+          "width": 465,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2100100831945408531-4.jpg",
+          "url": "https://pbs.twimg.com/media/HSUOkleWsAAtaYI.jpg?format=jpg&name=large",
+          "sha256": "9a9faea61ec440c0717a3ee15e52b5fe20b3963ce53c3f3c7fb1c82dec209b7f",
+          "size": 79384,
+          "width": 436,
+          "height": 800
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "67: Comic / Storyboard - Modern Comic Book Illustration Style"
+    },
+    {
+      "no": "526",
+      "id": "x-2099094038012100890",
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2099094038012100890",
+      "authorHandle": "DuaFatimaAi",
+      "authorId": "2009261034830483456",
+      "discoveryHandle": "DuaFatimaAi",
+      "tweetId": "2099094038012100890",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:55:59.304274+00:00",
+      "publishedAt": "2026-09-13T11:13:12.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gpt image 2 via chat gpt \n\nPrompt\n\nEnglish Image Prompt:\n\nA premium photorealistic close-up of a vintage-style pastel pink blender on a modern kitchen countertop. The blender has a glossy pink retro body with polished chrome accents, a transparent glass jar with a clear handle, and a round front control dial with a glowing red indicator light. Inside the jar, pale pink and white ingredients are being blended, creating a smooth swirling motion. A woman’s hand is gently holding the chrome side handle on the right. Elegant modern kitchen background with dark arched doorway, framed minimalist artwork, soft warm indoor lighting, shallow depth of field, realistic reflections on the chrome and glass, luxury product photography, cinematic composition, highly detailed, natural textures, vertical 9:16.",
+      "start": 58,
+      "length": 745,
+      "sha256": "f8a3e32aec6e20527cae53f4eed36c13f1e5a8b87c37a088b954f6b3781b13c6",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2099094038012100890.jpg",
+          "url": "https://pbs.twimg.com/media/HSF63L-bgAA_Hmi.jpg?format=jpg&name=large",
+          "sha256": "d00e046c491d4a075fb88c566bea110bf94583bb11c01f1c800307bfc0543ae6",
+          "size": 167210,
+          "width": 1161,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "99: E-commerce Main Image - GPT Image 2 Prompt: Vintage Pink Blender"
+    },
+    {
+      "no": "527",
+      "id": "x-2098528281293381651",
+      "sourceUrl": "https://x.com/AIGuideNote/status/2098528281293381651",
+      "authorHandle": "AIGuideNote",
+      "authorId": "2076365137817243648",
+      "discoveryHandle": "AIGuideNote",
+      "tweetId": "2098528281293381651",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:00.211093+00:00",
+      "publishedAt": "2026-09-11T21:45:05.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【コピペで使えるAIプロンプト】\n手書きメモ風イラストレシピ\n\n💡 用途: グリッド線が入った味のあるメモ用紙の上に、左右それぞれ別の料理の材料や調理手順が可愛い手書きイラストと日本語テキストで整理された、フラットな2Dレシピ画像を生成します（背景不要、レシピ整合性重視）。\n🎯 推奨AI: Nano Banana Pro / Midjourney / DALL-E 3\n📊 難易度: 初級（かんたん）\n\n▼ コピペ用指示プロンプト（全文）:\n```\n【入力データ】\n・左ページの料理名: {dishLeft}\n・左ページの材料リスト: {ingredientsLeft}\n・左ページの調理手順: ①{stepLeft1} → ②{stepLeft2} → ③{stepLeft3}\n・右ページの料理名: {dishRight}\n・右ページの材料リスト: {ingredientsRight}\n・右ページの調理手順: ①{stepRight1} → ②{stepRight2} → ③{stepRight3}\n・全体のカラーテーマ: {colorTheme}\n\n【構造とレイアウトの指定】\n・スタイル: 薄いグリッド線（方眼）や温かみのある紙の質感が表現された、1枚の味のあるオフホワイトのメモ帳用紙（方眼紙）の上に描かれた、フラットな2Dの手書き風インフォグラフィックレシピ図解。\n・背景と構図の制約: 物理的な本、立体的な手帳の輪郭、ページの厚み、影、木のテーブルなどのリアルな写真背景要素は描かないでください（Absolutely NO wooden table, NO realistic book mockup, NO book thickness, NO notebook pages, NO realistic photo background. It must be a flat 2D vector layout directly on the textured grid notepad paper canvas）。\n・左側のレイアウト:\n  - 上部に大きく「{dishLeft}」という手書きの日本語タイトル。\n  - その下に、入力された材料リスト「{ingredientsLeft}」を綺麗な縦並び（箇条書き）の手書き日本語とシンプルな食材イラストで描画。\n  - 下半分には、調理手順「①{stepLeft1} → ②{stepLeft2} → ③{stepLeft3}」を横方向または縦方向の矢印フローで配置。各ステップの内容（例：切る、炒める、煮込むなど）と完全に整合する可愛い手描きイラストを配置。\n  - 左下に完成した美味しそうな「{dishLeft}」の料理イラストを配置。\n・右側のレイアウト:\n  - 上部に大きく「{dishRight}」という手書きの日本語タイトル。\n  - その下に、入力された材料リスト「{ingredientsRight}」を手書きの日本語とシンプルな食材イラストで描画。\n  - 下半分には、調理手順「①{stepRight1} → ②{stepRight2} → ③{stepRight3}」を横方向または縦方向の矢印フローで配置。各ステップの内容（例：切る、炒める、煮込むなど）と完全に整合する可愛い手描きイラストを配置。\n  - 右下に完成した美味しそうな「{dishRight}」の料理イラストを配置.\n・色彩: 「{colorTheme}」を基調とした、優しく暖かみのあるオーガニックな色合い。\n\n【品質および除外の制約（必須）】\n・画像の中に、日付（例: 「8/7」など）、曜日（例: 「SUN」など）、カレンダー枠、日付スタンプ等の日付関連要素は絶対に描かないでください（NO date stamp, NO calendar, NO day of the week, NO timeline stamp）。\n・フォントは手書き風の親しみやすい日本語フォント（ゴシックまたは丸文字）で、入力された日本語を崩れやスペルミスなく正確に描画してください。\n\n・アスペクト比: --ar 4:3\n```\n\n▼ 入力パラメータ例:\n・{dishLeft}: 左ページの料理名 (例: グリーンカレー)\n・{ingredientsLeft}: 左ページの材料リスト (例: 鶏肉 300g、ココナッツミルク 400ml、サラダ油、なす、パプリカ)\n・{stepLeft1}: 左の手順1 (例: 野菜を切る)\n・{stepLeft2}: 左の手順2 (例: 炒める)\n・{stepLeft3}: 左の手順3 (例: 煮込む)\n・{dishRight}: 右ページの料理名 (例: トムヤムクン)\n・{ingredientsRight}: 右ページの材料リスト (例: エビ 10尾、バイマックルー、レモングラス 2本、きのこ、唐辛子)\n・{stepRight1}: 右の手順1 (例: 材料を切る)\n・{stepRight2}: 右の手順2 (例: スープを作る)\n・{stepRight3}: 右の手順3 (例: 具材を煮る)\n・{colorTheme}: 全体のカラーテーマ (例: オーガニック・ナチュラルカラー)",
+      "start": 229,
+      "length": 1510,
+      "sha256": "e5a4715fbb662063d8bbcdf10eab06063a914d8bff6de029a39bc0fd64d1a9af",
+      "extraction": "original fenced prompt",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098528281293381651.jpg",
+          "url": "https://pbs.twimg.com/media/HR94WawagAESFAJ.jpg?format=jpg&name=large",
+          "sha256": "162983bde00824646ef2d5f7c270793e5f0a2872eeefa877629fbdae83ef14d6",
+          "size": 830698,
+          "width": 1200,
+          "height": 896
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "34: Infographic / Edu Visual - Handwritten Memo Recipe Illustration"
+    },
+    {
+      "no": "528",
+      "id": "x-2098480666380038330",
+      "sourceUrl": "https://x.com/AIGuideNote/status/2098480666380038330",
+      "authorHandle": "AIGuideNote",
+      "authorId": "2076365137817243648",
+      "discoveryHandle": "AIGuideNote",
+      "tweetId": "2098480666380038330",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:00.727916+00:00",
+      "publishedAt": "2026-09-11T18:35:53.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【コピペで使えるAIプロンプト】\n手書きイラスト入り日本語3ステップ図解\n\n💡 用途: プレゼン資料や説明用マニュアルにそのまま使える、可愛いイラスト付きの日本語3ステップ図解スライドを生成します。全体のタイトル、各ステップのタイトル・期間・説明文を入力するだけで、美しく配置されたスライドが一発で完成します。\n🎯 推奨AI: Nano Banana Pro / DALL-E 3\n📊 難易度: 初級（かんたん）\n\n▼ コピペ用指示プロンプト（全文）:\n```\n【入力データ】\n・全体タイトル: {mainTitle}\n・ステップ1: タイトル「{step1Title}」/ 期間「{step1Period}」/ 説明「{step1Desc}」\n・ステップ2: タイトル「{step2Title}」/ 期間「{step2Period}」/ 説明「{step2Desc}」\n・ステップ3: タイトル「{step3Title}」/ 期間「{step3Period}」/ 説明「{step3Desc}」\n・カラーテーマ: {colorTheme}\n\n【構造とレイアウトの指定】\n・スタイル: 日本のビジネススライドや教育用マニュアル、社内資料でそのまま使える、クリーンで親しみやすい3ステップのフローチャート図解。16:9の横長スライド構成。\n・背景: すっきりとしたオフホワイトまたは白の無地背景。\n・上部タイトル:\n  - 左上に「図3」またはステップバッジを配置し、その右隣に太く見やすいゴシック体で「{mainTitle}」という日本語のメインタイトルを大きく描画してください。右端にはクリーンな抽象ロゴマークを小さく配置してください。\n・ステップカードの配置:\n  - 横並びになった3つの美しい長方形カード。左から右へ順に配置され、ステップ間は太い接続矢印で結ばれています。各カードの枠線はカラーテーマ（{colorTheme}）に沿って綺麗に色分けされています。\n・カード1（左）の内部:\n  - 丸バッジ「1」と、日本語タイトル「{step1Title}」を大きく描画。その下に「{step1Period}」と書かれたカプセル型ラベル。\n  - 中央には、メモをとる優しい手書きタッチの日本人女性と、太陽が描かれた窓のイラストを配置。\n  - 下部には、日本語の説明文「{step1Desc}」を配置。\n・カード2（中央）の内部:\n  - 丸バッジ「2」と、日本語タイトル「{step2Title}」を大きく描画。その下に「{step2Period}」と書かれたカプセル型ラベル。\n  - 中央には、懐中電灯を持つ二人の日本人女性と、夜空とビルのイラストを配置。\n  - 下部には、日本語の説明文「{step2Desc}」を配置。\n・カード3（右）の内部:\n  - 丸バッジ「3」と、日本語タイトル「{step3Title}」を大きく描画。その下に「{step3Period}」と書かれたカプセル型ラベル。\n  - 中央には、夜空と三日月のイラストと、ガッツポーズをして微笑む日本人女性のイラストを配置。\n  - 下部には、日本語の説明文「{step3Desc}」を配置。\n\n【品質・フォントの指定】\n・シンプルでクリーンな2Dイラスト、フラットデザイン、すっきりとした明確な線画。\n・文字はすべてスペルミスなく、読みやすい正確な日本語フォント（ゴシック体）で美しく描画してください。\n・一切の3D効果や影、ノートパソコン等のモックアップ背景、カメラの傾きや歪みは排除し、フラットな図解画像そのものを画面全体いっぱいに表示してください。\n\n·アスペクト比: --ar 16:9\n```\n\n▼ 入力パラメータ例:\n・{mainTitle}: 全体タイトル (例: 夜勤導入3ステップのフロー図)\n・{step1Title}: ステップ1のタイトル (例: 日勤習熟)\n・{step1Period}: ステップ1の期間 (例: 〜3ヶ月)\n・{step1Desc}: ステップ1の説明 (例: 日中の業務と記録を習得する。)\n・{step2Title}: ステップ2のタイトル (例: 夜勤同行)\n・{step2Period}: ステップ2の期間 (例: 3〜6ヶ月)\n・{step2Desc}: ステップ2の説明 (例: 夜間の流れと対応を実践で学ぶ。)\n・{step3Title}: ステップ3のタイトル (例: 1人夜勤)\n・{step3Period}: ステップ3の期間 (例: 6ヶ月〜)\n・{step3Desc}: ステップ3の説明 (例: 一人で夜勤を安全に担当する。)\n・{colorTheme}: カラーテーマ (例: グリーン、オレンジ、レッド)",
+      "start": 234,
+      "length": 1312,
+      "sha256": "0e8936549613b16d0ac547f35feeebc986db706f812e5ea7be6f6c24a20eba62",
+      "extraction": "original fenced prompt",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098480666380038330.jpg",
+          "url": "https://pbs.twimg.com/media/HR9NC4KasAAWshq.jpg?format=jpg&name=large",
+          "sha256": "b6c4a34926b772867ba7ce1fefec81243710c7317278dbf2672157047962fe13",
+          "size": 462597,
+          "width": 1376,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "35: Infographic / Edu Visual - Handwritten Style 3-Step Process Slide"
+    },
+    {
+      "no": "529",
+      "id": "x-2098365190282805417",
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098365190282805417",
+      "authorHandle": "SheBuildsAI_",
+      "authorId": "1958766750151102464",
+      "discoveryHandle": "SheBuildsAI_",
+      "tweetId": "2098365190282805417",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:01.116914+00:00",
+      "publishedAt": "2026-09-11T10:57:01.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gemini Nano Banana Pro\n\nPrompt:\n\n{\n  \"title\": \"Cyberpunk Detective\",\n\n  \"image_description\": \"A cinematic cyberpunk scene viewed through a rain-soaked car window. Neon reflections dance across the glass while a handsome futuristic detective sits in the driver's seat wearing a heavy dark coat. A woman wearing a glowing translucent yellow jacket looks toward him. Flying vehicles move through a foggy futuristic city in the background.\",\n\n  \"characters\": [\n    {\n      \"role\": \"Futuristic Detective\",\n      \"position\": \"Driver's Seat\",\n      \"appearance\": \"Handsome, serious expression, heavy dark coat\",\n      \"focus\": \"Sharp Focus\"\n    },\n    {\n      \"role\": \"Mysterious Woman\",\n      \"position\": \"Passenger Seat\",\n      \"appearance\": \"Dark hair, glowing translucent yellow jacket\",\n      \"expression\": \"Quietly observing the detective\",\n      \"focus\": \"Slightly softer focus\"\n    }\n  ],\n\n  \"setting\": {\n    \"location\": \"Futuristic Vehicle Interior\",\n    \"cityscape\": \"Foggy cyberpunk megacity\",\n    \"background_elements\": [\n      \"Flying vehicles\",\n      \"Neon billboards\",\n      \"Rain-covered glass\",\n      \"Holographic lights\"\n    ]\n  },\n\n  \"cinematography\": {\n    \"shot_type\": \"Medium Close-Up\",\n    \"camera_angle\": \"Eye Level\",\n    \"lens\": \"50mm Anamorphic Lens\",\n    \"depth_of_field\": \"Shallow\",\n    \"composition\": \"Movie Still\"\n  },\n\n  \"lighting\": {\n    \"type\": \"Cinematic Lighting\",\n    \"effects\": [\n      \"Neon Reflections\",\n      \"Volumetric Lighting\",\n      \"Rain Refractions\",\n      \"Soft Ambient Glow\"\n    ]\n  },\n\n  \"mood\": [\n    \"Moody\",\n    \"Mysterious\",\n    \"Futuristic\",\n    \"Emotional\"\n  ],\n\n  \"color_palette\": [\n    \"Blue\",\n    \"Cyan\",\n    \"Yellow\"\n  ],\n\n  \"quality\": {\n    \"style\": \"Hollywood Blockbuster\",\n    \"realism\": \"Ultra Photorealistic\",\n    \"resolution\": \"8K\",\n    \"details\": [\n      \"Perfect Reflections\",\n      \"Photorealistic Faces\",\n      \"Film Grain\",\n      \"Volumetric Fog\",\n      \"Realistic Depth of Field\",\n      \"Award-Winning Cinematography\",\n      \"IMAX Quality\",\n      \"Cinematic Storytelling\",\n      \"Masterpiece\"\n    ]\n  }\n}",
+      "start": 33,
+      "length": 2036,
+      "sha256": "6ab749d836eda99fee10804b4690d02d8bd431b033fcbbe3b6aa45b69649e436",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098365190282805417.jpg",
+          "url": "https://pbs.twimg.com/media/HR7kBT-a4AAqBCJ.png?format=jpg&name=large",
+          "sha256": "d700ff9bb70a05ba4ece7b555d28f47206d517f3eeeda3407a41978537ea0860",
+          "size": 155760,
+          "width": 1200,
+          "height": 655
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "68: Comic / Storyboard - Cyberpunk Detective Movie Still"
+    },
+    {
+      "no": "530",
+      "id": "x-2098087685348892674",
+      "sourceUrl": "https://x.com/HustleXR/status/2098087685348892674",
+      "authorHandle": "HustleXR",
+      "authorId": "2506434999",
+      "discoveryHandle": "HustleXR",
+      "tweetId": "2098087685348892674",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:02.437353+00:00",
+      "publishedAt": "2026-09-10T16:34:19.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with google gemini nano banana pro \n\nPrompt ⬇️\n\"Ultra-detailed blue ballpoint pen illustration translated into monochrome black ink, dense cross-hatching and fine hatch shading, intricate biro sketch texture, obsessive linework, engraved contour rendering, hand-drawn pen illustration aesthetic, expressive organic strokes, editorial surreal composition, high-detail facial rendering, layered sketchbook construction lines, vintage technical scribbles and handwritten notes in pure white only over bold red background, white typographic annotations integrated into backdrop, underground zine poster aesthetic, raw imperfect ink marks, high-contrast black ink subject against vivid red field, experimental graphic design, avant-garde magazine cover style --ar 9:16 --stylize 750.\"",
+      "start": 56,
+      "length": 730,
+      "sha256": "6a282c1697a0f82bc346afec7d396918c6698564db251013f9759e478d65747c",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "opinion",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098087685348892674.jpg",
+          "url": "https://pbs.twimg.com/media/HR3nnAIXYAYSAvd.jpg?format=jpg&name=large",
+          "sha256": "6f5d041446199a961c6f6dd0191ea65ad32a93f66ca52ff2f966b8efc872baca",
+          "size": 103493,
+          "width": 447,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2098087685348892674-2.jpg",
+          "url": "https://pbs.twimg.com/media/HR3nnAlawAEwyt2.jpg?format=jpg&name=large",
+          "sha256": "bef60f66b5fff39853a83b1eafaee1b2c56b3b78d513040c0a8a9b513cc28ebf",
+          "size": 98434,
+          "width": 447,
+          "height": 800
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "69: Comic / Storyboard - Monochrome Ink Ballpoint Pen Zine Poster"
+    },
+    {
+      "no": "531",
+      "id": "x-2098078552193384859",
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098078552193384859",
+      "authorHandle": "SheBuildsAI_",
+      "authorId": "1958766750151102464",
+      "discoveryHandle": "SheBuildsAI_",
+      "tweetId": "2098078552193384859",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:02.865967+00:00",
+      "publishedAt": "2026-09-10T15:58:01.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT.\n\nPrompt:\n{\n  \"title\": \"The Museum of Lost Tomorrows\",\n\n  \"image_description\": \"A vast underground museum hidden beneath a forgotten city. The architecture is breathtaking, with endless marble hallways illuminated by warm golden light filtering through giant glass ceilings. Thousands of glass display cases stretch endlessly into the distance. Inside each case is a future that never happened. One contains a wedding dress that was never worn. Another holds a Nobel Prize medal that was never earned. Another displays a dusty guitar beside a sold-out world tour poster from a musician who gave up too soon. Visitors walk silently through the museum, staring at the exhibits with tears in their eyes.\",\n\n  \"main_subject\": {\n    \"character\": \"A young man standing alone\",\n    \"appearance\": \"Dark overcoat, slightly worn shoes, tired eyes\",\n    \"expression\": \"Shocked and emotional\",\n    \"focus\": \"Sharp focus\"\n  },\n\n  \"story_element\": {\n    \"twist\": \"At the end of the museum, he discovers an entire room dedicated to his own abandoned dreams.\",\n    \"question\": \"What would you do if you could see the life you almost lived?\"\n  },\n\n  \"environment\": {\n    \"location\": \"Underground Museum\",\n    \"lighting\": \"Golden cinematic lighting\",\n    \"atmosphere\": \"Silent, emotional, sacred\"\n  },\n\n  \"cinematography\": {\n    \"camera\": \"ARRI Alexa 65\",\n    \"lens\": \"50mm anamorphic\",\n    \"shot_type\": \"Wide cinematic shot\",\n    \"depth_of_field\": \"Shallow\",\n    \"composition\": \"Award-winning storytelling frame\"\n  },\n\n  \"mood\": [\n    \"Heartbreaking\",\n    \"Thought-provoking\",\n    \"Melancholic\",\n    \"Beautiful\"\n  ],\n\n  \"style\": {\n    \"reference\": \"Christopher Nolan meets Denis Villeneuve\",\n    \"quality\": \"Ultra photorealistic\",\n    \"resolution\": \"8K\",\n    \"film_grain\": true,\n    \"volumetric_lighting\": true\n  }\n}",
+      "start": 33,
+      "length": 1789,
+      "sha256": "0949f98d7a10fc5f1af72218c0aeca5b83dcb10d5e62ffd5b8bb310bb7a662b1",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098078552193384859.jpg",
+          "url": "https://pbs.twimg.com/media/HR3fUw9awAAdMNt.png?format=jpg&name=large",
+          "sha256": "6bfa275f7ad293158f917562c93aea98e35352f8c622cf0915c6491438118205",
+          "size": 209427,
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "71: Comic / Storyboard - Museum of Lost Tomorrows conceptual scene"
+    },
+    {
+      "no": "532",
+      "id": "x-2098002802375303462",
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098002802375303462",
+      "authorHandle": "SheBuildsAI_",
+      "authorId": "1958766750151102464",
+      "discoveryHandle": "SheBuildsAI_",
+      "tweetId": "2098002802375303462",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:02.932476+00:00",
+      "publishedAt": "2026-09-10T10:57:01.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 on ChatGPT.\n\nPrompt:\n{\n  \"title\": \"The Last Train Home\",\n\n  \"image_description\": \"A breathtaking cinematic scene at an abandoned train station lost in the mountains. Thick fog rolls across the empty platform. Vintage lamps cast warm golden light through the mist. A lone traveler wearing a dark wool coat stands beside an old leather suitcase. An ancient train slowly emerges from the fog. Every window glows softly. Snow falls silently around the station. Above the platform hangs a weathered sign that reads: HOME. The traveler's eyes fill with emotion as he realizes the train should not exist.\",\n\n  \"story_element\": {\n    \"twist\": \"The train only appears once, exactly one hour before a person dies.\"\n  },\n\n  \"environment\": {\n    \"location\": \"Forgotten mountain railway station\",\n    \"weather\": \"Snowfall and dense fog\",\n    \"time\": \"Midnight\"\n  },\n\n  \"cinematography\": {\n    \"shot_type\": \"Wide cinematic shot\",\n    \"camera\": \"ARRI Alexa 65\",\n    \"lens\": \"50mm anamorphic\",\n    \"composition\": \"Symmetrical storytelling frame\"\n  },\n\n  \"lighting\": {\n    \"type\": \"Warm vintage lamps mixed with cold moonlight\",\n    \"effects\": [\n      \"Volumetric fog\",\n      \"Snow particles\",\n      \"Atmospheric glow\"\n    ]\n  },\n\n  \"mood\": [\n    \"Emotional\",\n    \"Mysterious\",\n    \"Bittersweet\",\n    \"Nostalgic\"\n  ],\n\n  \"quality\": {\n    \"style\": \"Award-winning cinematic masterpiece\",\n    \"realism\": \"Ultra photorealistic\",\n    \"resolution\": \"8K\",\n    \"IMAX_quality\": true,\n    \"film_grain\": true\n  }\n}",
+      "start": 33,
+      "length": 1465,
+      "sha256": "0d4332788ede17c9f3ed5af71fd19fffff04daa74d6a5f6beaca379e65d9e003",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "feeling"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2098002802375303462.jpg",
+          "url": "https://pbs.twimg.com/media/HR2abiobIAAjIXT.png?format=jpg&name=large",
+          "sha256": "e31ccfb482a4ff214b8304dec04ae255d1c265d92087396f7ae9b5c5ec751056",
+          "size": 213544,
+          "width": 1200,
+          "height": 800
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "72: Comic / Storyboard - The Last Train Home cinematic scene"
+    },
+    {
+      "no": "533",
+      "id": "x-2097985361729220828",
+      "sourceUrl": "https://x.com/AIGuideNote/status/2097985361729220828",
+      "authorHandle": "AIGuideNote",
+      "authorId": "2076365137817243648",
+      "discoveryHandle": "AIGuideNote",
+      "tweetId": "2097985361729220828",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:03.355251+00:00",
+      "publishedAt": "2026-09-10T09:47:43.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【コピペで使えるAIプロンプト】\nゲーム・キャラクター企画KV\n\n💡 用途: ゲームのファンタジー感や冒険心をそそる、親しみやすいちびキャラやマスコットが登場するキャンペーンキービジュアル。パース歪みのない平面2Dイラスト。\n🎯 推奨AI: Nano Banana Pro / GPT-image\n📊 難易度: 初級（かんたん）\n\n▼ コピペ用指示プロンプト（全文）:\n```\n【ゲーム・キャンペーン】\n・ゲームタイトル: {title}\n・ゲーム概要/特徴: {description}\n・ジャンル・サブテキスト: {subtext}\n\n【画質・演出・構図指定】\n・スタイル: 日本のモバイルRPGやカジュアルゲームのイベント告知用イラスト。カラフルで楽しげなファンタジー世界観。\n・被写体: 笑顔で宝箱を開けている愛らしいちびキャラ（デフォルメされた勇者やマスコット）たち。宝箱から黄金の光や魔法のパーティクルが眩しく溢れ出している。\n・背景: 青い空と白い雲、緑豊かなファンタジー世界の島々や森。\n・タイポグラフィ（GPT-image / Nano Banana Pro向け）: 画面の中央または上部に、{title}というファンタジー風の装飾的なロゴタイプがデザインされ、{description}や{subtext}が読みやすいレイアウトで添えられている。\n・色彩・照明: 明るく彩度の高いファンタジーカラー、マジカルな光沢とソフトな陰影描写。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: --ar 16:9\n```\n\n▼ 入力パラメータ例:\n・{title}: ゲームタイトル (例: お宝ハント！)\n・{description}: ゲーム概要 (例: 大冒険の島で、お宝をみつけよう！)\n・{subtext}: サブタイトル/ジャンル (例: RPG冒険アクション！)",
+      "start": 192,
+      "length": 952,
+      "sha256": "f1cabba3dbd0059aa5398b5840c3cdbe31e82acc87585061186557b6fcc8211f",
+      "extraction": "original fenced prompt",
+      "scenarios": [
+        "announcement",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097985361729220828.jpg",
+          "url": "https://pbs.twimg.com/media/HR2KkS3XgA0D5eA.jpg?format=jpg&name=large",
+          "sha256": "1c7cc34b96502b74f83954152f16d1f73ec010a9b88beb06cc1ee3409332fb80",
+          "size": 833659,
+          "width": 1376,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "115: Game Asset - Chibi RPG Game Campaign Key Visual"
+    },
+    {
+      "no": "534",
+      "id": "x-2097923838449516732",
+      "sourceUrl": "https://x.com/selinatasnim1/status/2097923838449516732",
+      "authorHandle": "selinatasnim1",
+      "authorId": "1870477828669820928",
+      "discoveryHandle": "selinatasnim1",
+      "tweetId": "2097923838449516732",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:04.245309+00:00",
+      "publishedAt": "2026-09-10T05:43:15.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT IMAGE 2 on ChatGPT\n\nTransform the reference photograph into a delicate hand-drawn travel journal illustration while preserving the original composition, architecture, people, trees, grass, road, and overall perspective. Use a traditional colored-pencil and watercolor sketch aesthetic on warm, slightly aged cream paper. Keep the buildings recognizable but simplify them into expressive hand-drawn shapes, with visible pencil strokes, loose watercolor washes, subtle paper grain, imperfect outlines, and gentle cross-hatching. Preserve the peaceful rainy-day atmosphere, soft overcast sky, warm beige and muted buildings, fresh green lawn, scattered people walking with umbrellas, wet pavement, trees, benches, puddles, and distant cars. Use a muted vintage travel-sketch palette with natural imperfections and understated colors. Place the illustration in the lower portion of the page with generous cream-colored negative space around it. Add elegant handwritten typography above: “Rainy Days”, and below: “— Quiet moments —”. Minimal, nostalgic, artistic travel magazine aesthetic, analog photography transformed into a personal sketchbook memory, sophisticated and authentic, no photorealism.",
+      "start": 24,
+      "length": 1176,
+      "sha256": "958a42248fa815c975c6d07141b0da08e847a9dc7e42a84c475d849ee33c4450",
+      "extraction": "original instruction after model credit",
+      "scenarios": [
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097923838449516732.jpg",
+          "url": "https://pbs.twimg.com/media/HR1SmTGakAAv97s.jpg?format=jpg&name=large",
+          "sha256": "4c4fa0104b4278c9cf2050efe3fd89ae0e889c0aa6a9f3555e1e142c03fe07d2",
+          "size": 339376,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "74: Comic / Storyboard - Hand-drawn travel journal illustration"
+    },
+    {
+      "no": "535",
+      "id": "x-2097880100587135480",
+      "sourceUrl": "https://x.com/_daichikonno/status/2097880100587135480",
+      "authorHandle": "_daichikonno",
+      "authorId": "1101682723628900353",
+      "discoveryHandle": "_daichikonno",
+      "tweetId": "2097880100587135480",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:04.709161+00:00",
+      "publishedAt": "2026-09-10T02:49:27.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "OpenAIの新モデル「GPT-Image-2.5」による学会ポスター生成、やはり凄い！\n\n前回同様、\n「2026年の神経科学大会で学会発表するためのポスター規定を調べ、それに従い添付論文をポスターにして」 という指示のポン出し結果です！！\n\nもちろん改善点はありますが、人間が作るポスターを超えるまで長くても1-2年だろうなあ...",
+      "start": 53,
+      "length": 49,
+      "sha256": "9997f880e5cb897e78e2dce6ae9dca156f2d3925e9b91b9bc3c714f579268c92",
+      "extraction": "original quoted instruction",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097880100587135480.jpg",
+          "url": "https://pbs.twimg.com/media/HR0qIogbQAAO5DF.jpg?format=jpg&name=large",
+          "sha256": "6801bb3e1bb64a34d3ef12e0971b05f657cca32af39c45996b898121bb92e588",
+          "size": 423927,
+          "width": 1060,
+          "height": 1484
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "39: Infographic / Edu Visual - Research Paper Academic Poster"
+    },
+    {
+      "no": "536",
+      "id": "x-2097832162586407176",
+      "sourceUrl": "https://x.com/akira_papa_IT/status/2097832162586407176",
+      "authorHandle": "akira_papa_IT",
+      "authorId": "2363559558",
+      "discoveryHandle": "akira_papa_IT",
+      "tweetId": "2097832162586407176",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:05.201526+00:00",
+      "publishedAt": "2026-09-09T23:38:58.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT-6 AtrasとImage2.5で図解作ったんですが、やっぱこの3D再現の質感がめっちゃ上がってていいですね👀AGIアトラスさんのアイデアがもうまず面白いし✨☺️\n\n３D表現のプロンプトはざっくりこちらです。\n「あなたは、情報編集者・図解デザイナー・3Dアートディレクターです。\n・内容に合う視覚表現を3案比較し、最も直感的な1案を採用する。\n・題材固有の物や素材で説明する。古典なら本・竹簡・紙、製造なら部品・組立など。\n・上品なマット素材、柔らかな光、自然な奥行き。立体表現で順序・関係・変化を伝える。」\n\nこのプロンプトでかなり３D表現を頑張ってくれるかと〜ご自由にどうぞ☺️\n\n元のアイデアとなる古典をAGIで訳し直すプロジェクト「AGIアトラス」さんのリンクはこちら👇\n　　URL: https://atlas.agi-labo.com/",
+      "start": 111,
+      "length": 147,
+      "sha256": "3c136ade7cbda4ba2fb661149758c34d6187994e002f371ec7b001da194b9e19",
+      "extraction": "original quoted instruction",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097832162586407176.jpg",
+          "url": "https://pbs.twimg.com/media/HRz-Q5LasAAI4Qh.png?format=jpg&name=large",
+          "sha256": "6e307afe5ee631147488944f9b4dacae2b3a157aedb6ca3ff267f56010b4946b",
+          "size": 47921,
+          "width": 516,
+          "height": 326
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "40: Infographic / Edu Visual - 3D Diagrams and Visual Layouts"
+    },
+    {
+      "no": "537",
+      "id": "x-2097623415939076175",
+      "sourceUrl": "https://x.com/AIGuideNote/status/2097623415939076175",
+      "authorHandle": "AIGuideNote",
+      "authorId": "2076365137817243648",
+      "discoveryHandle": "AIGuideNote",
+      "tweetId": "2097623415939076175",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:05.617865+00:00",
+      "publishedAt": "2026-09-09T09:49:28.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【コピペで使えるAIプロンプト】\nプレミアム商品キャンペーン\n\n💡 用途: 本革製品、高級腕時計、宝飾品などのキャンペーンに適した、伝統と職人技のこだわりが伝わる重厚でプレミアムな商品写真。テーブル等の余計な背景影のない平面構成。\n🎯 推奨AI: Nano Banana Pro / GPT-image\n📊 難易度: 上級\n\n▼ コピペ用指示プロンプト（全文）:\n```\n【商品・キャンペーン情報】\n・アピールテキスト: {goldText}\n・ブランドコピー: {subtext}\n・対象製品: {products}\n\n【画質・演出・構図指定】\n・スタイル: 高級ハイブランドのカタログやラグジュアリーな雑誌見開きの静物画（スティルライフ）商品写真。\n・被写体: 深みのあるビンテージレザーや上質なダークトーンのテクスチャ上に配置された{products}。職人の手仕事を感じさせる細部（ステッチや金属のヘアライン加工など）が美しくディテール豊かに描かれている。\n・照明・色彩: 深みのあるダークブラウンや黒、真鍮のゴールドを基調としたカラーパレット。アンバー調の暖かいサイドライト、クラシックで重厚なシャドウ。\n・テキストの配置（GPT-image / Nano Banana Pro向け）: ゴールド色の細いフォントで、{goldText}や{subtext}というテキストが画面の落ち着いた位置にさりげなくタイポグラフィとして配置されている。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: --ar 3:4\n```\n\n▼ 入力パラメータ例:\n・{goldText}: アピールコピー (例: 極上・厳選)\n・{subtext}: ブランドコピー (例: 熟練の職人技が生み出す、一生モノの革製品)\n・{products}: 対象製品 (例: 本革財布と腕時計)",
+      "start": 189,
+      "length": 952,
+      "sha256": "b335ffa7d25bd602a11b48ac8ed6f4383a6a5ed0ae62048588504a244dbe90de",
+      "extraction": "original fenced prompt",
+      "scenarios": [
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097623415939076175.jpg",
+          "url": "https://pbs.twimg.com/media/HRxBYM_XsAATlYx.jpg?format=jpg&name=large",
+          "sha256": "4844a18c672f3b239f0fc7245cf3e625c3285897f29b9193347bb94805af00ba",
+          "size": 668718,
+          "width": 896,
+          "height": 1200
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "97: E-commerce Main Image - Luxury Product Still Life Campaign"
+    },
+    {
+      "no": "538",
+      "id": "x-2097610973389426800",
+      "sourceUrl": "https://x.com/heathergreen/status/2097610973389426800",
+      "authorHandle": "heathergreen",
+      "authorId": "14244504",
+      "discoveryHandle": "heathergreen",
+      "tweetId": "2097610973389426800",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:06.059206+00:00",
+      "publishedAt": "2026-09-09T09:00:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "#promptshare with Nano Banana 2 using @magnific \nPROMPT: A vibrant, cartoonish illustration depicts a monstrous green creature with bulging eyes and sharp teeth driving a souped-up pink Volkswagen Beetle. The car is adorned with flames and the words \"BEETLE BOMBER\" and \"RAT ROD.\" The creature wears a racing helmet and is shown mid-air, with smoke and flames billowing from the rear tires and exhaust pipes. In the background, a crowd of equally bizarre characters cheers from behind a \"DRAG STRIP\" sign. Neon signs for \"BEETLE JUICE,\" \"COLD BEER,\" and \"NITRO\" add to the chaotic, high-energy atmosphere of a drag race. The art style is reminiscent of comic books and graffiti, with bold outlines and saturated colors.",
+      "start": 57,
+      "length": 662,
+      "sha256": "811c414f975c4e659f72a1df00499334a5da18f100024ea47dc1c5e088969c81",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097610973389426800.jpg",
+          "url": "https://pbs.twimg.com/media/HRUR494W8AYxjfK.jpg?format=jpg&name=large",
+          "sha256": "c0e9e0da0bab99f3e5c9e5f4d81fcc27b7bb4951a936bb97dbfd17e2200b01a9",
+          "size": 1020802,
+          "width": 2048,
+          "height": 1529
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "71: Comic / Storyboard - Cartoon Monster Rat Rod Drag Race"
+    },
+    {
+      "no": "539",
+      "id": "x-2097554757506539972",
+      "sourceUrl": "https://x.com/AnXin_37/status/2097554757506539972",
+      "authorHandle": "AnXin_37",
+      "authorId": "2021417533522444296",
+      "discoveryHandle": "AnXin_37",
+      "tweetId": "2097554757506539972",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:07.890959+00:00",
+      "publishedAt": "2026-09-09T05:16:39.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "image2.5 新出的这个草图功能还挺有意思，能根据用户画的草图来进行生成图片，\n如图1，是我画的草图（除了明显的桌子和床，自己都没太搞清楚自己画了个什么。。。）\n\n图二是写了提示词之后实际产出的结果。\n\n速度是真快啊，延迟降低了50%看来是真的，\n\n但是实际效果咋说呢，虽然看着哪里都挺好，但是一眼看上去就是还是有ai的感觉，有一股生成出来的精致感。\n\n特别是那个橘猫，看起来有点点诡异，但是那个床的效果挺满意，居然连草图我想表达的想来个绿床的意思也生成出来了。\n\n总结就是有进步，但是进步确实是从2.0到2.5的0.5的进步，不是之前一直在传什么新生图模型代号蒙娜丽莎还是啥，好奇是这个新模型吗？\n\n提示词如下：做一张房间实景宣传图片，用来向我的租户进行宣传我的房间，主题是房间布局，左边大落地窗，很好的太阳和采光，落地窗旁边有猫窝，上面躺着一只橘猫，卧室房间内有一张很大的办公桌面，桌面放置着电脑键盘鼠标手机等日常使用的事物，有一名中国年轻男性坐在一个人体工学椅上进行操作电脑。电脑桌右边有一张单人床。整体位置关系如草图所示，光线与材质像用手机实拍的卧室画面。硬要求：必须出现草图内画的所有物品，包括窗外的太阳。需要避免的问题：不要出现任何违背真实日常生活的元素和现象。其余比例，房间内其他事物，以及图片其他要求由你自行决定，以达到自然真实而不过于刻意的效果",
+      "start": 309,
+      "length": 274,
+      "sha256": "8de033b2f0bf7fdfa29699340c201d8bb12a5ee252a9a563ccf696d094f05c3b",
+      "extraction": "original Chinese prompt marker",
+      "scenarios": [
+        "promotion",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097554757506539972-2.jpg",
+          "url": "https://pbs.twimg.com/media/HRwCeKraoAA-G5L.jpg?format=jpg&name=large",
+          "sha256": "f1c925a23916def4d335f895bf6d304a55d3cbe518acb7bacf88ae44374d092f",
+          "size": 301227,
+          "width": 1448,
+          "height": 1086
+        },
+        {
+          "path": "/covers/x-2097554757506539972.jpg",
+          "url": "https://pbs.twimg.com/media/HRwCcmOboAEAixi.jpg?format=jpg&name=large",
+          "sha256": "36255e0adc9fd75fd29df6e583f362bbbd6a42cedecf4e67a9e736aafdd82ec7",
+          "size": 149811,
+          "width": 1466,
+          "height": 1470
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "101: E-commerce Main Image - Realistic Room Promotion Render from Sketch"
+    },
+    {
+      "no": "540",
+      "id": "x-2097112687675117974",
+      "sourceUrl": "https://x.com/heathergreen/status/2097112687675117974",
+      "authorHandle": "heathergreen",
+      "authorId": "14244504",
+      "discoveryHandle": "heathergreen",
+      "tweetId": "2097112687675117974",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:11.019784+00:00",
+      "publishedAt": "2026-09-08T00:00:01.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "#promptshare with Nano Banana 2 using @magnific \nPROMPT: A vintage British caricature depicts a woman with an elaborate hairstyle adorned with a sailing ship, flowers, and feathers. She is seated in an ornate chair, wearing a richly decorated dress and holding a fan. The background shows a lavish interior with a fireplace, clock, and a window overlooking a harbor scene. A small dog sits on a cushion to her right. The overall style is that of a 18th-century satirical print.",
+      "start": 57,
+      "length": 420,
+      "sha256": "5aaac910259d65cff7367d00abc3253ba98b797e4d46613137fdf2032b8ddacb",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "opinion",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2097112687675117974.jpg",
+          "url": "https://pbs.twimg.com/media/HRNLLI_WsAMl_sU.jpg?format=jpg&name=large",
+          "sha256": "a8c488dbf784853ab73bd6004bc06e221996e4f30b3539699d4796644e663861",
+          "size": 318196,
+          "width": 805,
+          "height": 1200
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "36: Infographic / Edu Visual - Vintage British Caricature Satire"
+    },
+    {
+      "no": "541",
+      "id": "x-2096954809534570766",
+      "sourceUrl": "https://x.com/lovimg_com/status/2096954809534570766",
+      "authorHandle": "lovimg_com",
+      "authorId": "2062071151325765632",
+      "discoveryHandle": "lovimg_com",
+      "tweetId": "2096954809534570766",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:11.756909+00:00",
+      "publishedAt": "2026-09-07T13:32:40.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "@lovimg_com https://lovimg.com/image-prompts/9980/ai-image-prompt-a95b42d4\n\nCreated with Nano Banana Pro\n\n🎨 Prompt:\nA stylized digital anime illustration of a young East Asian girl with a serious, determined expression, standing with arms crossed over her chest. She has messy, short black hair tied partially into a loose topknot bun with stray strands framing her face, dark expressive eyes, and fair skin. She wears a loose, oversized dark forest-green martial arts kimono robe with light sage inner lining, wide folded cuffs, a black sash (obi) tied at the waist, and striking yellow-gold lightning bolt patterns across the chest. Dynamic ink splatter background in bold black, white, and vivid warm yellow-orange hues, vector art meets comic book illustration style, cel shading, sharp outlines, painterly brush strokes, dramatic lighting, high contrast, vertical portrait --ar 1:2 --v 6.0",
+      "start": 117,
+      "length": 778,
+      "sha256": "a95b42d4c1241ca901a421e2630b366cb4292efccd4fd80a7740f4e65db18df9",
+      "extraction": "exact original text matching discovery index",
+      "scenarios": [
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096954809534570766.jpg",
+          "url": "https://pbs.twimg.com/media/HRnhR89bsAAhqzB.jpg?format=jpg&name=large",
+          "sha256": "24dce7753a27c6f607d3bc68a25309d81e06cb7c5b405b5eefd6b799ddfaae2c",
+          "size": 155998,
+          "width": 593,
+          "height": 1199
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "73: Comic / Storyboard - Stylized Martial Arts Anime Girl"
+    },
+    {
+      "no": "542",
+      "id": "x-2096906819713081810",
+      "sourceUrl": "https://x.com/AIGuideNote/status/2096906819713081810",
+      "authorHandle": "AIGuideNote",
+      "authorId": "2076365137817243648",
+      "discoveryHandle": "AIGuideNote",
+      "tweetId": "2096906819713081810",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:12.642424+00:00",
+      "publishedAt": "2026-09-07T10:21:59.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【コピペで使えるAIプロンプト】\nセレクトショップECグリッド\n\n💡 用途: アパレルブランドやセレクトショップのECサイト、またはルックブック用の、洗練された商品撮影グリッドレイアウト。余分な斜め余白を排した平面2D構成。\n🎯 推奨AI: Nano Banana Pro / GPT-image\n📊 難易度: 中級\n\n▼ コピペ用指示プロンプト（全文）:\n```\n【ブランド・商品情報】\n・ブランド名: {brandName}\n・コレクション名: {collection}\n・代表的なアイテム価格: {backpackPrice}\n\n【画質・演出・構図指定】\n・スタイル: ミニマルで洗練された日本のファッション・ライフスタイルブランドのECサイト用ルックブック写真。\n・構図: 自然光が差し込むスタジオのフローリングまたはコンクリート床の上に、丁寧に配置されたアパレルアイテム（バッグ、アウター、シューズなど）のフラットレイ（平置き）または整然としたディスプレイ。\n・タイポグラフィの配置（GPT-image / Nano Banana Pro向け）: 画面の隅に控えめに、{brandName}というブランド名や{collection}のテキスト、{backpackPrice}の価格表記が、極細のフォントで配置されている。\n・照明・色彩: 曇り日の自然光のような非常に柔らかい光、低コントラスト、アースカラー（ベージュ、オリーブ、チャコールグレー、オフホワイト）を基調とした落ち着いたトーン。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: 「--ar 1:1」または「--ar 4:3」\n```\n\n▼ 入力パラメータ例:\n・{brandName}: ブランド名 (例: 椿、モダン・ジャパン・アパレル)\n・{collection}: コレクション名 (例: A/W 2026 COLLECTION)\n・{backpackPrice}: アイテム価格 (例: ¥18,000 + TAX)",
+      "start": 186,
+      "length": 995,
+      "sha256": "3f783d9c3485f0466c9d97ce80b2bb3ffe2ef5c6d3d58c9460ecaa61fa8e90de",
+      "extraction": "original fenced prompt",
+      "scenarios": [
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096906819713081810.jpg",
+          "url": "https://pbs.twimg.com/media/HRm1opdXQAEwb6-.jpg?format=jpg&name=large",
+          "sha256": "76854c9a56b18aadbb9229218d15da83babd27c98c4ba44ef6da97cbb1e130df",
+          "size": 751098,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "107: E-commerce Main Image - Minimalist Fashion E-Commerce Grid"
+    },
+    {
+      "no": "543",
+      "id": "x-2096833097740493050",
+      "sourceUrl": "https://x.com/Strength04_X/status/2096833097740493050",
+      "authorHandle": "Strength04_X",
+      "authorId": "1946792877352493059",
+      "discoveryHandle": "Strength04_X",
+      "tweetId": "2096833097740493050",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:12.679501+00:00",
+      "publishedAt": "2026-09-07T05:29:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana 2 × Gemini Omni flash 1.1\n\nPrompt - TITLE:\nPremium Maple Syrup Product Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 Portrait ratio\n• Luxury food product advertising\n• 8 cinematic product-focused scenes\n• Product remains the main hero\n• High-end advertising agency presentation\n\nHEADER:\n• Elegant serif typography\n• Information cards:\n  - Duration: 20 Seconds\n  - Style: Cinematic Gourmet Food Commercial\n  - Product: Pure Maple Syrup\n  - Audio: Slow Pour + Soft Food ASMR\n• Why This Style Works section\n• Warm amber, cream and dark brown aesthetic\n• Minimal maple leaf decorative accents\n\nSTORYBOARD:\n1. Premium maple syrup bottle standing on polished dark wood\n2. Bottle cap opening in extreme macro\n3. Golden syrup slowly flowing from the bottle\n4. Syrup forming a glossy ribbon in mid-air\n5. Syrup cascading over fluffy pancakes\n6. Extreme macro showing rich syrup texture and tiny reflections\n7. Pancake stack surrounded by the hero bottle and maple leaves\n8. Final luxury product packshot with dramatic syrup pour\n\nEVERY PANEL:\n• Scene number\n• Duration badge\n• Camera direction\n• Visual\n• Action\n• Product detail\n\nCAMERA:\nExtreme macro, slow-motion liquid photography, overhead food shot, controlled push-in, shallow depth of field, cinematic hero framing.\n\nSTYLE:\nUltra-realistic food advertising, realistic syrup viscosity, glossy golden texture, warm studio lighting, premium glass packaging, sophisticated gourmet presentation, 8K.",
+      "start": 48,
+      "length": 1430,
+      "sha256": "c1620abd05862ee8ee53d6050b38c1dea34bec30d1265984a6e1451a7a89ca70",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "promotion",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096833097740493050.jpg",
+          "url": "https://pbs.twimg.com/media/HRlyjBWaIAER5_L.jpg?format=jpg&name=large",
+          "sha256": "0a6cee384beb8ecc9f46de6d457a389ae957d3b24947f81cfd2f5c8f100cf2dd",
+          "size": 386986,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "74: Comic / Storyboard - Maple Syrup Commercial Storyboard"
+    },
+    {
+      "no": "544",
+      "id": "x-2096750301134881054",
+      "sourceUrl": "https://x.com/heathergreen/status/2096750301134881054",
+      "authorHandle": "heathergreen",
+      "authorId": "14244504",
+      "discoveryHandle": "heathergreen",
+      "tweetId": "2096750301134881054",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:12.774566+00:00",
+      "publishedAt": "2026-09-07T00:00:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "#promptshare using Nano Banana 2 with @magnific \nPROMPT: A vibrant, whimsical claymation scene depicts a colorful chameleon perched on a moss-covered branch in a lush, fantastical forest. The chameleon, with its intricate patterns of green, blue, orange, and yellow scales, gazes intently to the left. Surrounding it are an array of fantastical flora and fauna, also rendered in clay. These include glowing mushrooms, peculiar flowers with eyeball centers, whimsical insects with googly eyes, and strange, bulbous fruits. The background is a soft blur of more trees and foliage, creating a sense of depth and enchantment. The overall impression is one of a magical, miniature world brought to life.",
+      "start": 57,
+      "length": 641,
+      "sha256": "773a2d5e66740007ce043e83862f2c33a24567ab6b1cf6f563b17a6bf87d2f27",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096750301134881054.jpg",
+          "url": "https://pbs.twimg.com/media/HRNJwHoXYAI7TvZ.jpg?format=jpg&name=large",
+          "sha256": "3475bc70885031ff49eac04f3b5301846a2e1454b045ba8cda2071a59d0e9017",
+          "size": 197361,
+          "width": 1200,
+          "height": 670
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "75: Comic / Storyboard - Whimsical Claymation Chameleon Scene"
+    },
+    {
+      "no": "545",
+      "id": "x-2096437155606196729",
+      "sourceUrl": "https://x.com/HustleXR/status/2096437155606196729",
+      "authorHandle": "HustleXR",
+      "authorId": "2506434999",
+      "discoveryHandle": "HustleXR",
+      "tweetId": "2096437155606196729",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:14.431631+00:00",
+      "publishedAt": "2026-09-06T03:15:42.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with google gemini nano banana pro \n\nPrompt ⬇️\nCinematic 2D digital illustration, polished semi-realistic anime aesthetic, clean bold linework, smooth cel shading blended with soft painterly gradients, expressive detailed facial rendering, subtly exaggerated proportions, glossy eyes, natural skin texture, dimensional hair with individual flowing strands, warm rim lighting, moody teal-and-amber color grading, muted vintage tones, soft ambient shadows, slightly grainy texture, nostalgic 1990s/2000s editorial-poster vibe, atmospheric indoor lighting, highly polished character art, crisp details, depth and cinematic composition, vertical 9:16.",
+      "start": 55,
+      "length": 600,
+      "sha256": "08b6e865146309e62d442da9a28acb9fc74f9c5dc74545b225f00424b9624705",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096437155606196729.jpg",
+          "url": "https://pbs.twimg.com/media/HRgKek6a4AAUpiZ.jpg?format=jpg&name=large",
+          "sha256": "3ee19ed11eb492ae3484d63bdc23a63b6f26ff0bf6b45ad2356242697e733d77",
+          "size": 50535,
+          "width": 447,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2096437155606196729-2.jpg",
+          "url": "https://pbs.twimg.com/media/HRgKekvaMAAphSy.jpg?format=jpg&name=large",
+          "sha256": "5ea0ed69d24d231219cca2e637cfc1c48b00527d0dfdbcb968a71188652a3055",
+          "size": 58418,
+          "width": 447,
+          "height": 800
+        },
+        {
+          "path": "/covers/x-2096437155606196729-3.jpg",
+          "url": "https://pbs.twimg.com/media/HRgKelJbkAADZtU.jpg?format=jpg&name=large",
+          "sha256": "24848d30fb1eea084574b9e6195867757d6558377a10adc875dd06a3588fad78",
+          "size": 62208,
+          "width": 447,
+          "height": 800
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "78: Comic / Storyboard - Cinematic 2D Anime Illustration"
+    },
+    {
+      "no": "546",
+      "id": "x-2096274439260516678",
+      "sourceUrl": "https://x.com/denygen9/status/2096274439260516678",
+      "authorHandle": "denygen9",
+      "authorId": "2096055315850788864",
+      "discoveryHandle": "denygen9",
+      "tweetId": "2096274439260516678",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:15.350652+00:00",
+      "publishedAt": "2026-09-05T16:29:07.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT image 2\n\nPrompt:\n\nProfessional advertising product photo of \"[PRODUCT NAME]\", studio shot on a neutral background [background color, e.g. light beige / blue gradient], soft diffused lighting, subtle shadows, product centered in frame, three-quarter angle view, high detail on material texture, clean modern aesthetic in the style of premium brand campaigns, 4K resolution, 1:1 aspect ratio",
+      "start": 22,
+      "length": 371,
+      "sha256": "8fc02548abddfc0b5d8a175102f8de9c0bd6c843f6a95ecc3b0e29fdb841ee13",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096274439260516678.jpg",
+          "url": "https://pbs.twimg.com/media/HRdx-nca8AAWbsT.jpg?format=jpg&name=large",
+          "sha256": "1cc6f7efcd27ca984c64be4f5e72ba1aba39fb138be2f4087667ffb29f5319ae",
+          "size": 132329,
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "path": "/covers/x-2096274439260516678-2.jpg",
+          "url": "https://pbs.twimg.com/media/HRdyErYaYAAAsxP.jpg?format=jpg&name=large",
+          "sha256": "6e5e496d8c83b5041ea8ea2196766d983f984b41843631f35c20bd9cef8f807a",
+          "size": 137566,
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "110: E-commerce Main Image - Professional Product Advertising Photo"
+    },
+    {
+      "no": "547",
+      "id": "x-2096191621838864712",
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2096191621838864712",
+      "authorHandle": "SheBuildsAI_",
+      "authorId": "1958766750151102464",
+      "discoveryHandle": "SheBuildsAI_",
+      "tweetId": "2096191621838864712",
+      "retrievedOn": "2026-10-05",
+      "retrievedAt": "2026-10-05T06:56:16.246443+00:00",
+      "publishedAt": "2026-09-05T11:00:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gemini Nano Banana Pro\n\nPrompt:\n{\n  \"title\": \"Warm Family Dinner Cinematic Contact Sheet\",\n  \"format\": \"3x3 contact sheet collage\",\n  \"subject\": \"A young woman with natural wavy dark hair, wearing a loose brown linen button-up shirt, sitting at a wooden dining table during a cozy family dinner\",\n  \"environment\": \"Traditional family dining room, vintage wallpaper, wooden china cabinet filled with plates and glassware, warm tungsten household lighting, realistic home atmosphere\",\n  \"composition\": {\n    \"grid\": \"3x3 storyboard frames\",\n    \"shots\": [\n      \"medium shot talking with expressive hands\",\n      \"close-up laughing naturally\",\n      \"side view serving lasagna from casserole dish\",\n      \"close-up listening with chin resting on hand\",\n      \"medium shot eating dinner while looking down\",\n      \"close-up tasting food with playful expression\",\n      \"medium shot telling an animated story\",\n      \"close-up smiling softly while holding a fork\",\n      \"wide shot alone at dining table after conversation\"\n    ]\n  },\n  \"camera\": {\n    \"lens\": \"50mm and 85mm prime lenses\",\n    \"depth_of_field\": \"shallow\",\n    \"focus\": \"sharp focus on subject, creamy background bokeh\",\n    \"framing\": \"cinematic coverage from multiple angles\"\n  },\n  \"lighting\": {\n    \"type\": \"warm practical household lighting\",\n    \"color_temperature\": \"3200K\",\n    \"mood\": \"cozy, intimate, nostalgic\",\n    \"shadows\": \"soft natural shadows\"\n  },\n  \"style\": {\n    \"photorealistic\": true,\n    \"cinematic\": true,\n    \"natural_expressions\": true,\n    \"slice_of_life\": true,\n    \"authentic_human_moments\": true,\n    \"award_winning_film_still\": true\n  },\n  \"color_grading\": {\n    \"palette\": \"warm amber, brown, cream, beige\",\n    \"contrast\": \"soft cinematic contrast\",\n    \"look\": \"Kodak Vision3 film emulation\"\n  },\n  \"details\": [\n    \"genuine laughter\",\n    \"natural eye contact\",\n    \"subtle facial expressions\",\n    \"realistic skin texture\",\n    \"wooden dining furniture\",\n    \"home-cooked meal\",\n    \"candid documentary photography\",\n    \"family gathering atmosphere\"\n  ],\n  \"quality\": {\n    \"resolution\": \"8K\",\n    \"detail\": \"ultra detailed\",\n    \"realism\": \"hyper realistic\"\n  },\n  \"negative_prompt\": [\n    \"anime\",\n    \"cartoon\",\n    \"cgi\",\n    \"plastic skin\",\n    \"overprocessed face\",\n    \"low resolution\",\n    \"extra fingers\",\n    \"distorted anatomy\",\n    \"text\",\n    \"watermark\",\n    \"logo\"\n  ]\n}",
+      "start": 32,
+      "length": 2353,
+      "sha256": "e63a6ea6ade1a63095223840c552e24ce462bd3dcae008e96117e3623dea63de",
+      "extraction": "original prompt marker",
+      "scenarios": [
+        "story",
+        "memory"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2096191621838864712.jpg",
+          "url": "https://pbs.twimg.com/media/HRcrK6SbcAApp-f.jpg?format=jpg&name=large",
+          "sha256": "0f5cc9b5524dfab478e7601c74f96774c203f15f533549e5dd1a96dc8fd61ae6",
+          "size": 172094,
+          "width": 1408,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "81: Comic / Storyboard - Family Dinner Cinematic Contact Sheet"
+    }
+  ]
+}

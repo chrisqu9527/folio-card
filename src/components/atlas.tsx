@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type CSSProperties } from "react";
+import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
 import {
   ArrowUpRight,
   Check,
@@ -54,6 +54,8 @@ export function Atlas() {
   const [compact, setCompact] = useState(true);
   const [helpOpen, setHelpOpen] = useState(false);
   const [copied, setCopied] = useState(false);
+  const copyTimer = useRef<number | undefined>(undefined);
+  const copyRequest = useRef(0);
   const [missing, setMissing] = useState<string | null>(null);
   const [hydrated, setHydrated] = useState(false);
   const savedIds = useFavorites((state) => state.ids);
@@ -104,6 +106,11 @@ export function Atlas() {
   }, []);
   useEffect(() => {
     setCopied(false);
+    return () => {
+      window.clearTimeout(copyTimer.current);
+      copyTimer.current = undefined;
+      copyRequest.current += 1;
+    };
   }, [selected?.no]);
 
   function choose(p: FolioPrompt) {
@@ -142,6 +149,7 @@ export function Atlas() {
     }
   }
   async function copyPrompt(p: FolioPrompt) {
+    const request = ++copyRequest.current;
     try {
       await navigator.clipboard.writeText(p.prompt);
     } catch {
@@ -154,8 +162,13 @@ export function Atlas() {
       area.remove();
       if (!success) return;
     }
+    if (request !== copyRequest.current) return;
+    window.clearTimeout(copyTimer.current);
     setCopied(true);
-    window.setTimeout(() => setCopied(false), 1800);
+    copyTimer.current = window.setTimeout(() => {
+      setCopied(false);
+      copyTimer.current = undefined;
+    }, 1800);
   }
 
   return (

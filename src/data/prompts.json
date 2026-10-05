@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 487,
+  "count": 547,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags.",
   "categories": [
     {
@@ -17906,6 +17906,2097 @@
       "prompt": "Create one finished 9:16 editorial character poster on edge-to-edge off-white paper.\n\nA few large asymmetric geometric body shapes; the action reshapes the body's proportions. Tiny black cut-paper facial marks, no outlines.\n\nPalette: hot pink #F553D2, warm red #F42726, cobalt #293EA1, emerald #13785D, near-black, off-white #F3F1EB.\n\nFine stochastic ink stipple inside saturated and black shapes, darker grain in overlaps, crisp silhouette edges, soft dark-to-color spray gradients at folds. Matte, flat, no 3D.\n\nText: \"[CAPTION]\" once, small bold black uppercase grotesk, in an empty paper pocket. No other text.\n\nSubject: [SUBJECT]\nAction: [ACTION]\n\nNo extra fingers or limbs, no realistic skin, no busy background, no logos.",
       "covers": [
         "/covers/vigo-one-line-poster.jpg"
+      ]
+    },
+    {
+      "no": "488",
+      "id": "x-2106674776685043999",
+      "title": "整张照片变手捏黏土世界",
+      "kicker": "黏土",
+      "excerpt": "锁定照片构图，把人物与环境一起转成带指纹和接缝的夸张黏土造型。",
+      "style": "手捏黏土定格风",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "tags": [
+        "照片转绘",
+        "黏土",
+        "定格动画"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2106674776685043999",
+      "model": "GPT Image 2",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Transform the entire reference image into a highly detailed 3D plasticine world while using the original image as a strict spatial and compositional template.\n\nCOMPOSITION LOCK\n\nPreserve the exact framing, camera angle, perspective, spatial arrangement, object positions, scale, proportions, rotations, and overall scene structure. Keep every existing element in its original location. Do not move, add, remove, duplicate, or rearrange objects.\n\nCHARACTERS\n\nTransform every character into an absurd handmade plasticine figure with exaggerated proportions, oversized heads, rubbery noodle-like limbs, expressive poses, bulging mismatched ping-pong-ball eyes, huge toothy smiles, oversized rectangular teeth, and visible pink gums. Keep each character's original pose and position while making the expressions humorous and slightly unsettling.\n\nPLASTICINE STYLE\n\nEverything is physically sculpted from heavy matte plasticine. Use crooked forms, imperfect edges, uneven geometry, subtle deformation, and deliberately handmade construction. Avoid clean CGI, perfect symmetry, sterile surfaces, or overly smooth geometry.\n\nTEXTURE\n\nShow strong tactile plasticine detail: deep fingerprints, fingernail marks, rough sculpting strokes, compressed areas, seams, dents, micro-cracks, tiny dust particles, lint, and small pieces of sculpting debris naturally embedded in the material.\n\nLIGHTING\n\nSoft cinematic studio lighting that reveals the handmade texture, imperfections, highlights, and shadows. Realistic dimensional lighting with matte surfaces and subtle depth. Avoid glossy or synthetic materials.\n\nOVERALL STYLE\n\nAbsurdist stop-motion plasticine aesthetic, exaggerated caricature, humorous surrealism, tactile handmade craftsmanship, strange but playful atmosphere, highly detailed 3D sculpting, cinematic depth, realistic physical material rendering.\n\nQUALITY\n\nUltra-detailed 3D render, sharp micro-texture, realistic plasticine material response, physically believable lighting, high-resolution, 4K quality.\n\nNEGATIVE PROMPT\n\nDo not change the original composition, framing, camera angle, perspective, object positions, or spatial relationships. No added objects, removed objects, duplicated objects, rearranged elements, smooth CGI geometry, glossy plastic, clean vector surfaces, realistic human skin, sterile 3D models, photorealistic people, or modern cartoon rendering. Preserve the original scene structure exactly while converting everything into the absurd handmade plasticine aesthetic.\n\nFORMAT: Vertical 3:4",
+      "covers": [
+        "/covers/x-2106674776685043999.jpg",
+        "/covers/x-2106674776685043999-2.jpg"
+      ]
+    },
+    {
+      "no": "489",
+      "id": "x-2106616012099461312",
+      "title": "玫瑰粉头巾优雅肖像",
+      "kicker": "头巾",
+      "excerpt": "以柔和头巾、自然肤质和浅景深呈现南亚女性肖像。",
+      "style": "柔光时装肖像",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "人像",
+        "头巾",
+        "柔光"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "ZarnishNael",
+        "name": "Zarnish",
+        "handle": "ZarnishNael",
+        "url": "https://x.com/ZarnishNael"
+      },
+      "sourceUrl": "https://x.com/ZarnishNael/status/2106616012099461312",
+      "model": "GPT Image 2",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Photorealistic elegant portrait of a young South Asian woman wearing a dusty rose pink hijab, softly wrapped around her head and shoulders, with delicate gold traditional jhumka earrings. She is dressed in a luxurious blush-pink and ivory embroidered Pakistani shalwar kameez with intricate floral threadwork, subtle sequins, and detailed borders. She is seated gracefully beside an ornate marble railing, resting one hand gently under her chin, looking slightly upward with a soft, serene smile. Warm golden-hour sunlight, beautiful garden courtyard in the background, pink flowers and lush greenery, creamy architectural details, dreamy bokeh, shallow depth of field, natural skin texture, realistic facial features, soft cinematic lighting, high-end fashion photography, elegant Pakistani aesthetic, ultra-detailed, 85mm portrait lens, vertical 4:5 composition, no text, no watermark, no artificial plastic skin.",
+      "covers": [
+        "/covers/x-2106616012099461312.jpg"
+      ]
+    },
+    {
+      "no": "490",
+      "id": "x-2106590895575630035",
+      "title": "金色时刻运动装肖像",
+      "kicker": "夕照",
+      "excerpt": "保留参考人物的身份特征，在夕照中拍摄橙白运动装形象。",
+      "style": "金色时刻写实人像",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "身份保持",
+        "夕照",
+        "运动装"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Kiran_AI1",
+        "name": "Kiran Ai",
+        "handle": "Kiran_AI1",
+        "url": "https://x.com/Kiran_AI1"
+      },
+      "sourceUrl": "https://x.com/Kiran_AI1/status/2106590895575630035",
+      "model": "GPT Image 2 / Nano Banana Pro",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A photorealistic portrait of a beautiful young 22-year-old woman sitting casually on a dark granite ledge, looking directly at the camera with a relaxed, subtle smile. She is wearing a sporty, color-blocked outfit: a short-sleeved t-shirt with a solid white front and bright orange sleeves and shoulders, paired with matching orange shorts featuring white drawstrings and white side stripes. Her right leg is pulled up with her right arm resting comfortably on her knee. She has a natural, elegant feminine appearance with healthy glowing skin.\n\nThe setting is an outdoor balcony or terrace with a black metal railing. In the background, a stunning golden hour sunset illuminates a wide river or lake, casting vibrant warm orange and yellow hues across the sky and reflecting beautifully on the water, with lush green trees visible to the left.\n\nShot on an 85mm lens, f/1.8 aperture, cinematic golden-hour lighting, shallow depth of field, beautiful natural background bokeh, ultra-realistic skin texture, soft skin glow, realistic facial details, natural colors, professional photography, high resolution.\n\nSTRICTLY USE THE UPLOADED REFERENCE IMAGE FOR HER FACE AND IDENTITY. Keep the original face 100% unchanged and identical to the reference — same facial features, facial structure, proportions, skin tone, eye shape and color, nose, lips, eyebrows, jawline, hairstyle, hair texture, age, and natural expression. Do not beautify, alter, reshape, or idealize the face. Preserve the exact same identity and hairstyle from the reference image. The final image must look like the exact same girl from the reference photo, only placed in this new setting and outfit.\n\nSkin should have a natural healthy glow while maintaining realistic skin texture and pores. No face distortion, no identity change, no artificial beauty filter, no excessive makeup, no facial modification.",
+      "covers": [
+        "/covers/x-2106590895575630035.jpg"
+      ]
+    },
+    {
+      "no": "491",
+      "id": "x-2106587208916566057",
+      "title": "橙色零食鱼眼广告",
+      "kicker": "鱼眼",
+      "excerpt": "让零食包装与笑脸贴近鱼眼镜头，用橙色羽绒服和背景统一画面。",
+      "style": "鱼眼商业摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "鱼眼",
+        "零食",
+        "包装"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Sheldon056",
+        "name": "Duet | AI",
+        "handle": "Sheldon056",
+        "url": "https://x.com/Sheldon056"
+      },
+      "sourceUrl": "https://x.com/Sheldon056/status/2106587208916566057",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 首图选择与正文 Cheetos 包装对应的样图，原帖其余品牌变体保留在样图中。",
+      "prompt": "Studio portrait of one smiling person holding a Cheetos Crunchy orange chips bag close to the camera, both the bag and the person’s head in the foreground. Captured with an ultra-wide fisheye lens for a playful, youthful, energetic feel.\nThe model wears a glossy bright orange puffer jacket over a white t-shirt.\nBackground in a vibrant orange gradient with light yellow accents, bold and fun.\nSoft cinematic lighting, juicy highlights, slight saturation boost, modern snack-ad editorial style.\nExpressive smile, fun street-commercial aesthetic.",
+      "covers": [
+        "/covers/x-2106587208916566057-4.jpg",
+        "/covers/x-2106587208916566057.jpg",
+        "/covers/x-2106587208916566057-2.jpg",
+        "/covers/x-2106587208916566057-3.jpg"
+      ]
+    },
+    {
+      "no": "492",
+      "id": "x-2106545580508152140",
+      "title": "一扇门通往一个世界",
+      "kicker": "异世界",
+      "excerpt": "人物站在巨大厅堂中央，让不同门扉分别打开到各自的幻想世界。",
+      "style": "多世界电影海报",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "门扉",
+        "幻想",
+        "电影感"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2106545580508152140",
+      "model": "GPT Image 2",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic, cinematic 8K HDR, high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\n\nA breathtaking, surreal cinematic scene featuring a handsome young man standing confidently at the center of a gigantic, mysterious hall surrounded by dozens of magnificent doors of different shapes, sizes, materials, and architectural styles. Every door opens into a completely different world, creating a spectacular visual contrast between reality, fantasy, and the unknown.\n\nThe young man wears a perfectly tailored black outfit consisting of a luxurious black high-neck shirt, a long elegant black coat, tailored black trousers, and polished black boots. His thick, naturally wavy hair is slightly tousled, and his intense eyes gaze directly toward the camera with a calm, confident, mysterious expression. One hand rests gently on the handle of a partially opened door, as if he is about to step into another dimension.\n\nTHE DOORS & THEIR WORLDS:\n\nSurrounding him are dozens of enormous, beautifully detailed doorways, each revealing a unique and breathtaking environment:\n\n🌌 Cosmic Dimension: A glowing galaxy filled with colorful nebulae, distant planets, stars, and swirling cosmic energy.\n\n🏔️ Frozen Kingdom: A magical winter landscape with snow-covered mountains, frozen waterfalls, and gently falling snow.\n\n🔥 Kingdom of Fire: A dramatic volcanic world with flowing rivers of lava, burning skies, and glowing embers.\n\n🌸 Cherry Blossom Paradise: A peaceful Japanese landscape filled with pink cherry blossoms, a traditional Japanese temple, and a beautiful red bridge.\n\n🏰 Dark Fantasy Realm: A mysterious gothic castle surrounded by a dark enchanted forest and a sky illuminated by lightning.\n\n🌆 Cyberpunk Future: A futuristic city with towering skyscrapers, glowing neon signs, flying vehicles, and vibrant blue and purple lights.\n\n🌿 Enchanted Forest: An extraordinary magical forest with gigantic ancient trees, glowing flowers, floating golden particles, and mystical waterfalls.\n\n☁️ Heavenly Dimension: A magnificent world above the clouds featuring golden palaces, radiant sunlight, and endless white clouds.\n\n🏜️ Lost Desert Civilization: An ancient golden city surrounded by enormous sand dunes, mysterious pyramids, and a glowing sunset.\n\n🌊 Underwater Kingdom: A magical underwater world with magnificent coral castles, glowing marine life, and beautiful rays of sunlight passing through crystal-clear water.\n\nLIGHTING & ATMOSPHERE:\n\nEach doorway emits its own distinctive atmospheric glow, illuminating the surrounding hall with a mesmerizing mixture of golden, icy blue, fiery orange, emerald green, and violet light. Dramatic volumetric lighting streams through the open doors, while subtle cinematic fog, floating dust particles, and soft reflections on the polished black marble floor create extraordinary depth. A powerful beam of soft golden light falls directly on the young man's face, highlighting his sharp facial features and intense eyes.\n\nCAMERA & VISUAL STYLE:\n\nWide-angle cinematic composition, perfectly balanced symmetrical framing, full-body portrait, slightly low camera angle, breathtaking architectural scale, intricate door details, realistic environmental reflections, dramatic depth of field, professional Hollywood cinematography, luxury fashion editorial aesthetic, rich cinematic color grading, ultra-detailed textures, photorealistic skin, 8K HDR, masterpiece quality.\n\nQUALITY: Ultra-photorealistic, cinematic masterpiece, 8K HDR, realistic human anatomy, lifelike facial details, natural skin texture, extraordinary environmental details, premium Hollywood fantasy movie-poster aesthetic.\nAspect Ratio: 9:16 (Vertical)",
+      "covers": [
+        "/covers/x-2106545580508152140.jpg"
+      ]
+    },
+    {
+      "no": "493",
+      "id": "x-2106510103117713467",
+      "title": "三只猫的清晨自拍",
+      "kicker": "猫咪",
+      "excerpt": "以日文原稿构建人与三只猫挤在一起的明亮室内自拍。",
+      "style": "日常宠物自拍",
+      "category": "memory",
+      "scenarios": [
+        "memory"
+      ],
+      "tags": [
+        "猫咪",
+        "自拍",
+        "日文提示词"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "CyberTotal2026",
+        "name": "Prompt アトリエ｜AI画像プロンプト",
+        "handle": "CyberTotal2026",
+        "url": "https://x.com/CyberTotal2026"
+      },
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2106510103117713467",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "主題：\n三匹猫との朝自撮り\n\n主体：\n画面中央、三匹の白灰猫と顔を寄せてセルフィーする女性が主役。\n\n人物・表情：\n小さな卵形の顔、濃茶の大きな瞳、細い眉、整った鼻、艶のある淡桃色の唇。表情は、顔を正面へ向け、視線をカメラへ合わせ、口を大きく開けて歯を見せる楽しげな表情。黒い髪を高いお団子にし、濡れた薄い前髪と後れ毛を額と頬へ残す。\n\n服装・ポーズ：\n生成りの細い肩紐、リブ生地、胸元レースと小リボンを持つキャミソールトップ。左腕を手前へ伸ばして撮影し、胸前に一匹を抱え、頭上と左後方に各一匹を寄せる。\n\n背景・光：\n画面左から画面右の背景に、左に木机と積んだ本、白い扉、右に白いカーテンと緑葉の明るい部屋。画面右の窓から柔らかな白い昼光が顔と猫の毛を照らす。\n\n構図・カメラ：\n9:16の縦構図、伸ばした腕先からの近い正面セルフィーカメラで三匹の猫と頭頂から胸下までの半身を収めるポートレート。人物を中央へ非常に大きく配置し、画面高の大部分を占める。手前の猫と左腕を画面端で裁切し、女性と三匹の青い目にピント、背景は軽くぼかす。\n\n質感・スタイル：\nフォトリアルな実写写真。自然な肌と髪、衣装の素材、周囲の小物を高精細にし、白、灰、生成り、木色の明るい室内色を保つ。\n\nネガティブ：\n猫三匹の配置変更；開いた口と自撮り省略",
+      "covers": [
+        "/covers/x-2106510103117713467.jpg"
+      ]
+    },
+    {
+      "no": "494",
+      "id": "x-2106420974258123246",
+      "title": "照片变极简时装线描",
+      "kicker": "线描",
+      "excerpt": "保持人物和姿态，用克制的线条、留白与少量色彩重画整张照片。",
+      "style": "极简时装线描",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "memory"
+      ],
+      "tags": [
+        "照片转绘",
+        "线描",
+        "留白"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2106420974258123246",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Transform the uploaded photograph into one finished minimalist editorial fashion illustration. Use the photograph only as the visual reference. The original photograph must NOT appear anywhere in the final image.\n\nFORMAT LOCK\n\nVertical 3:4 composition. One standalone illustration. No collage, no inset photo, no reference thumbnail, no duplicated image, no frame, no interface.\n\nIDENTITY & COMPOSITION LOCK\n\nPreserve the person’s recognizable appearance, hairstyle, bangs, face structure, sunglasses, expression, head position, body proportions, pose, hand gestures, clothing, accessories, jewelry, and overall silhouette. Preserve the original camera perspective, framing, visual hierarchy, relationship between the person, cotton candy, and Ferris wheel.\n\nSTYLE\n\nSophisticated black-and-white minimalist fashion illustration on warm off-white / ivory paper. Elegant contemporary lifestyle illustration, premium editorial fashion sketch, fine delicate black-ink contour lines, clean continuous strokes, subtle line-weight variation, refined hand-drawn quality, airy and sophisticated fashion coloring-book aesthetic.\n\nSUBJECT & CLOTHING\n\nRecreate the person as a simplified but clearly recognizable illustrated character. Accurately preserve the oversized fluffy jacket, floral decorations, embroidered details, green trim translated into linework, graphic T-shirt, layered necklaces, earrings, rings, bracelets, clothing proportions, folds, and silhouette. Keep facial details minimal but recognizable.\n\nOBJECTS & POSE\n\nPreserve the large fluffy cotton candy as a prominent element on the left. Show the hand gripping the cotton-candy stick and the other hand reaching toward the mouth. Maintain the original pose, action, and personality.\n\nBACKGROUND\n\nRecreate the amusement-park environment entirely as minimalist black line art. Preserve the Ferris wheel, cabins, central structure, amusement-park architecture, surrounding buildings, distant skyline, umbrellas, fairground structures, pavement, background people, benches, clouds, flying bird, and other recognizable elements. Keep the Ferris wheel as a major background element without making it photorealistic.\n\nLINE ART\n\nCrisp elegant black ink on warm ivory paper. Fine smooth contours, clean intersections, controlled line weight, minimal shading, and subtle hand-drawn texture. Use slightly more detail for the Ferris wheel, clothing, cotton candy, jewelry, and architecture, with simpler lines for distant elements.\n\nCOLOR & PAPER\n\nBlack linework only. Warm cream / ivory paper background. No colored areas, no photorealistic pixels, no watercolor, no digital painting, no 3D rendering, no filled black areas, no heavy shadows, no crosshatching.\n\nFINAL RESULT\n\nA premium standalone editorial fashion illustration that faithfully preserves the person, outfit, pose, cotton candy, Ferris wheel, and amusement-park environment from the reference while transforming the entire scene into elegant minimalist black-ink line art.\n\nCRITICAL RULE\n\nThe uploaded photograph must NEVER appear in the final image. Use it ONLY as a visual reference. Output ONLY the newly generated illustration.\n\nNEGATIVE PROMPT\n\nAvoid photorealism, color, watercolor, digital painting, 3D rendering, heavy shadows, rough pencil shading, crosshatching, filled black areas, collage, reference photo inset, duplicated subject, changed identity, altered pose, missing objects, text, watermark, frame, or interface.",
+      "covers": [
+        "/covers/x-2106420974258123246.jpg",
+        "/covers/x-2106420974258123246-2.jpg"
+      ]
+    },
+    {
+      "no": "495",
+      "id": "x-2106413507059351763",
+      "title": "满月暮色男士肖像",
+      "kicker": "暮色",
+      "excerpt": "用暮色、满月和浅景深营造户外男士形象照，并保留参考面孔。",
+      "style": "暮色写实人像",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "满月",
+        "男士肖像",
+        "身份保持"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Mr_AI01",
+        "name": "Mr.AI",
+        "handle": "Mr_AI01",
+        "url": "https://x.com/Mr_AI01"
+      },
+      "sourceUrl": "https://x.com/Mr_AI01/status/2106413507059351763",
+      "model": "GPT Image 2 / Nano Banana Pro",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 来源索引使用旧用户名 @Mr_Ai6，现按原帖返回的 @Mr_AI01 署名。",
+      "prompt": "A high-resolution, realistic portrait of a stylish young South Asian man sitting comfortably outdoors in a park or open-air café during twilight/evening. He has short, styled hair, and subtle stubble. He is wearing light silk yellow shalwar kameez, white sneakers, and a luxury silver watch with a bright blue dial on his left wrist.\nHe is sitting cross-legged in a modern dark woven patio chair, resting one arm on a small round outdoor table with a cup of hot black coffee (with 'COFFEE' printed on the mug). One hand is placed thoughtfully under his chin, looking directly at the camera with a confident expression.\nBackground: A blurred lush green park setting with soft warm bokeh street lights. In the top right corner of the sky, a large, clear full moon is glowing. Warm, cinematic twilight lighting, sharp focus on the subject, photorealistic, 8k quality, depth of field. Keep original face and hairstyle 100% reference",
+      "covers": [
+        "/covers/x-2106413507059351763.jpg"
+      ]
+    },
+    {
+      "no": "496",
+      "id": "x-2106367821399679480",
+      "title": "几何块面人物海报",
+      "kicker": "几何",
+      "excerpt": "把参考人物转成暖白纸面上的几何插画，保留发型、服饰与姿态。",
+      "style": "几何编辑插画",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "几何",
+        "人物海报",
+        "纸感"
+      ],
+      "medium": "image",
+      "slots": [
+        "MAIN_TEXT",
+        "HOW BODY AND OBJECT FORM THE SILHOUETTE"
+      ],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2106367821399679480",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Create a finished editorial character poster inspired by the uploaded reference image. Preserve the recognizable identity, hairstyle, clothing details, pose, and important visual characteristics of the subject while translating them into a sophisticated flat geometric illustration.\n\nFORMAT LOCK\n\nVertical 3:4 composition. Edge-to-edge warm off-white paper background. One standalone poster. Clean editorial layout.\n\nCHARACTER\n\nOne adult character constructed from a few oversized asymmetric geometric shapes. Slightly exaggerated proportions, small head, elongated capsule-like limbs, simple mitten-style hands, and one oversized object integrated naturally into the pose and silhouette. Preserve the subject's recognizable appearance while simplifying details into graphic shapes.\n\nSTYLE\n\nFlat geometric illustration, asymmetric proportions, crisp color blocks, soft airbrushed shading, subtle dark-to-color spray gradients where shapes overlap, fine print grain, delicate stippling mostly inside darker areas, refined contemporary editorial poster aesthetic.\n\nFACE & EXPRESSION\n\nMinimal black cut-paper facial features: simple crescent eyes and minimal mouth. The emotion should be communicated primarily through the character's full-body gesture and silhouette rather than detailed facial expression.\n\nPALETTE\n\nWarm off-white #F3F1EB, near-black ⁠10100F, hot pink #F553D2, warm red #F42726, cobalt ⁠293EA1, emerald ⁠13785D. Keep colors flat and graphic with controlled soft gradients only where forms overlap.\n\nTEXT\n\nAdd one short caption in small bold black uppercase sans-serif inside an open paper pocket. Caption: \"[MAIN_TEXT]\". No other text, logos, labels, or typography.\n\nCUSTOMIZATION\n\nCharacter & Object: [WHO + THE OVERSIZED THING]\nGesture & Emotion: [POSE + FEELING]\nShape Idea: [HOW BODY AND OBJECT FORM THE SILHOUETTE]\nCOMPOSITION\n\nKeep the character and oversized object as the main visual focus. Use generous negative space and a balanced editorial arrangement. The object should visibly affect the overall silhouette and feel integrated into the character's pose.\n\nNEGATIVE PROMPT\n\nNo extra text, logos, outlined cartoon style, glossy 3D, realistic skin, photorealism, coarse canvas texture, busy background, extra limbs, distorted anatomy, excessive facial detail, photorealistic shading, random objects, clutter, watermark.",
+      "covers": [
+        "/covers/x-2106367821399679480.jpg",
+        "/covers/x-2106367821399679480-2.jpg"
+      ]
+    },
+    {
+      "no": "497",
+      "id": "x-2106287796042232218",
+      "title": "上半照片下半记忆拼贴",
+      "kicker": "拼贴",
+      "excerpt": "上方保留真实照片，下方把同一场景拆成手绘人物、物件与回忆便笺。",
+      "style": "照片与手绘记忆板",
+      "category": "memory",
+      "scenarios": [
+        "memory"
+      ],
+      "tags": [
+        "照片转绘",
+        "拼贴",
+        "手账"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Sairah_0",
+        "name": "Sairah",
+        "handle": "Sairah_0",
+        "url": "https://x.com/Sairah_0"
+      },
+      "sourceUrl": "https://x.com/Sairah_0/status/2106287796042232218",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Use the uploaded reference photo as the primary visual reference and transform it into a premium “real-life moment + illustrated memory board” editorial poster.\n\nCreate a vertical 3:4 composition divided horizontally into two equal sections.\n\nTOP HALF — REALISTIC PHOTO:\nPreserve the original subject, face, identity, hairstyle, clothing, pose, body proportions, objects, and environment from the reference image. Keep the scene highly photorealistic with natural skin texture, realistic lighting, soft cinematic depth of field, subtle warm tones, and an elegant lifestyle/editorial photography aesthetic. Do not change the person’s identity or outfit unnecessarily.\n\nBOTTOM HALF — HAND-DRAWN MEMORY COLLAGE:\nConvert the important visual elements from the top photograph into a charming hand-drawn fashion/lifestyle scrapbook illustration. Recreate the subject as a delicate colored-pencil and watercolor sketch, along with the key objects, clothing, accessories, flowers, food/drinks, furniture, architecture, books, artwork, or other recognizable details from the scene.\n\nArrange these illustrated elements organically across a warm ivory/off-white textured paper background. Use delicate pencil outlines, subtle watercolor washes, imperfect hand-drawn strokes, soft pastel accents, light pink/blue/green sketch marks, tiny hearts, doodles, and understated decorative elements. Keep the illustrations elegant, minimal, nostalgic, and handmade rather than cartoonish.\n\nAdd a small handwritten cursive title near the top of the illustrated section that reflects the mood of the original photo, such as “little moments,” “slow morning,” “a little memory,” or another context-appropriate phrase. Add very small handwritten decorative text near the bottom.\n\nThe illustrated section should feel like a personal visual diary / fashion magazine scrapbook / memory journal, while still clearly connecting every illustrated element to the original photograph.\n\nStyle: sophisticated editorial scrapbook, colored-pencil illustration, delicate watercolor, vintage paper texture, cozy lifestyle aesthetic, soft pastel palette, subtle imperfections, elegant composition, premium Pinterest/editorial design, nostalgic and artistic.\n\nComposition: clean spacing, balanced negative space, no clutter, seamless transition between the realistic photograph and illustrated memory section, realistic top half + hand-drawn bottom half, high detail, natural proportions.\n\nImportant: Keep the original photo recognizable and preserve the subject’s identity and major visual details. Do not introduce unrelated objects. Avoid excessive text, logos, borders, stickers, or cartoon-style rendering.\n\nShorter version\n\nTransform the uploaded photo into a 3:4 premium “real photo + illustrated memory scrapbook” poster. Keep the top 50% as a highly realistic version of the original photo, preserving the subject’s identity, pose, clothing, environment, lighting, and important details. Convert the bottom 50% into a warm ivory paper collage containing hand-drawn colored-pencil and watercolor illustrations of the subject and the key objects, outfits, accessories, flowers, furniture, architecture, books, and other details from the photo. Add delicate pastel scribbles, tiny hearts, subtle doodles, soft paper texture, and elegant handwritten cursive text such as “little moments” or “slow morning.” Sophisticated editorial lifestyle scrapbook aesthetic, nostalgic, handmade, refined, soft pastel colors, clean composition, premium Pinterest-style design, realistic top / artistic illustrated bottom, no unrelated elements, no excessive text.",
+      "covers": [
+        "/covers/x-2106287796042232218.jpg",
+        "/covers/x-2106287796042232218-2.jpg"
+      ]
+    },
+    {
+      "no": "498",
+      "id": "x-2106237688127111667",
+      "title": "黑色电影男士肖像",
+      "kicker": "黑色电影",
+      "excerpt": "以深色服装、戏剧光线和自然皮肤细节塑造冷静的男士形象。",
+      "style": "黑色电影时装摄影",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "男士肖像",
+        "黑色电影",
+        "明暗对照"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2106237688127111667",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic, cinematic, high-fashion editorial portrait of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\n\nA sophisticated, mysterious film-noir portrait featuring a handsome young man standing beside a large window covered with Venetian blinds. Sharp, parallel bands of light and deep shadows fall dramatically across his face, creating a striking interplay of light and darkness. His piercing eyes remain clearly visible through the shadows, staring directly into the camera with a confident, intense and enigmatic expression.\n\nLIGHTING & ATMOSPHERE:\n\nDramatic chiaroscuro lighting with warm, soft golden light filtering through the Venetian blinds, casting perfectly defined horizontal shadow lines across his forehead, eyes, nose, cheeks and jawline. Deep, rich blacks contrast with subtle highlights on his facial features, creating a mysterious, sophisticated neo-noir atmosphere. Subtle cinematic reflections and delicate rim lighting accentuate his tousled hair and sculpted facial structure.\n\nOUTFIT & BACKGROUND:\n\nWearing a perfectly tailored black luxury suit with a slightly open black shirt, creating a refined, effortlessly masculine aesthetic. A dark, minimalistic interior with a nearly black background, softly blurred architectural details and subtle atmospheric haze.\n\nCAMERA & DETAILS:\n\nExtreme close-up portrait, slightly angled composition, 85mm portrait lens, shallow depth of field, razor-sharp focus on the eyes, natural skin texture, realistic facial anatomy, cinematic color grading, rich blacks, muted warm highlights, deep shadows, premium luxury fashion campaign photography, sophisticated noir aesthetic, 8K ultra-HD, HDR, photorealistic, dramatic cinematic storytelling.\n\nMOOD: Mysterious, confident, intense, elegant, dark and irresistibly sophisticated.\n\nAspect Ratio: 4:5 (vertical portrait).\n\nNo text, no watermark, no artificial-looking skin, no excessive retouching, no distorted facial features, no extra subjects.",
+      "covers": [
+        "/covers/x-2106237688127111667.jpg"
+      ]
+    },
+    {
+      "no": "499",
+      "id": "x-2106227888395784520",
+      "title": "咖啡馆拿铁自拍",
+      "kicker": "咖啡馆",
+      "excerpt": "用午后窗光、自然妆容与冰拿铁营造休闲咖啡馆自拍。",
+      "style": "韩系生活摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "咖啡馆",
+        "自拍",
+        "窗光"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "iamrealsnow",
+        "name": "Snow",
+        "handle": "iamrealsnow",
+        "url": "https://x.com/iamrealsnow"
+      },
+      "sourceUrl": "https://x.com/iamrealsnow/status/2106227888395784520",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A beautiful young Korean woman with long silky brown hair in a loose ponytail, glossy Korean makeup, soft blush, naturally dewy skin, glossy plump lips, delicate facial features, cute youthful charm, taking a casual selfie inside a modern Korean café, wearing a fitted black sleeveless top, holding an iced vanilla latte with both hands, warm afternoon sunlight coming through large windows, cozy neutral interior, soft shadows, candid expression, slightly pouty lips, relaxed pose, realistic skin texture, subtle beauty details, photorealistic smartphone photography, crisp high-resolution details, natural lighting, authentic Korean lifestyle aesthetic, 4K.",
+      "covers": [
+        "/covers/x-2106227888395784520.jpg",
+        "/covers/x-2106227888395784520-2.jpg"
+      ]
+    },
+    {
+      "no": "500",
+      "id": "x-2106206679868334425",
+      "title": "遗迹勘探员四视图设定",
+      "kicker": "角色设定",
+      "excerpt": "把人物正面、侧面、背面和动作视图排齐，并单独拆解护目镜与呼吸背包。",
+      "style": "游戏角色设定表",
+      "category": "concept",
+      "scenarios": [
+        "concept"
+      ],
+      "tags": [
+        "四视图",
+        "装备拆解",
+        "角色一致性"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "plex233",
+        "name": "Dry Seven",
+        "handle": "plex233",
+        "url": "https://x.com/plex233"
+      },
+      "sourceUrl": "https://x.com/plex233/status/2106206679868334425",
+      "model": "",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "创建一张专业游戏/动画角色 Character Sheet。原创成年女性高空遗迹勘探员：暖棕肤色、短而凌乱的银灰发、透明青绿色护目镜、旧橙色技术夹克、深灰工装裤、米白重型靴、青绿色圆柱形呼吸背包。\n\nCharacter Lock：所有视图必须保持完全相同的脸部结构、发型、身体比例、服装裁片、背包结构、颜色和磨损位置，不重新设计角色。\n\n从左至右严格排列：全身正面 → 90°侧面 → 全身背面 → 3/4动作视图；右侧独立展示护目镜和呼吸背包的装备拆解。所有人物保持相同尺度，脚底位于同一水平线，彼此不遮挡。\n\n米白色角色设计纸背景，精确墨线 + 克制的概念设计厚涂，能够看清布料接缝、扣具、金属磨损和装备连接方式；均匀柔光，不使用戏剧化景深。无文字、无Logo、无水印，不增加额外人物或重复装备。",
+      "covers": [
+        "/covers/x-2106206679868334425.jpg"
+      ]
+    },
+    {
+      "no": "501",
+      "id": "x-2105897710918242518",
+      "title": "浅蓝针织服装形象照",
+      "kicker": "针织",
+      "excerpt": "以浅蓝针织服装和整洁建筑背景呈现全身时装形象。",
+      "style": "精品店时装摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "identity"
+      ],
+      "tags": [
+        "针织",
+        "全身像",
+        "时装"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "nawalsehar",
+        "name": "Nawal",
+        "handle": "nawalsehar",
+        "url": "https://x.com/nawalsehar"
+      },
+      "sourceUrl": "https://x.com/nawalsehar/status/2105897710918242518",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-02",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A full-body editorial fashion photograph of a beautiful young woman with the same appearance as the reference, long glossy dark hair, soft bangs, fair skin, and refined feminine features. She stands casually in an upscale minimalist fashion boutique, wearing an oversized pastel-blue knit sweater paired with a black pleated tennis-style skirt, white crew socks, and chunky designer sneakers.Relaxed confident pose, gentle smile, luxury retail interior with modern clothing racks, neutral-toned garments, warm ambient lighting, wood and stone textures, clean architectural lines, cinematic depth of field, realistic lighting, premium fashion advertising, Vogue-style editorial, ultra-detailed, sharp focus, photorealistic, 4K.",
+      "covers": [
+        "/covers/x-2105897710918242518.jpg"
+      ]
+    },
+    {
+      "no": "502",
+      "id": "x-2105871614512607509",
+      "title": "暖色全身像与黑白三联照",
+      "kicker": "三联照",
+      "excerpt": "在同一版面放置全身人物和三张黑白近照，保持人物身份一致。",
+      "style": "建筑空间人像拼贴",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "拼贴",
+        "黑白",
+        "身份保持"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "AiwithLariab",
+        "name": "Laraib Fatima‎",
+        "handle": "AiwithLariab",
+        "url": "https://x.com/AiwithLariab"
+      },
+      "sourceUrl": "https://x.com/AiwithLariab/status/2105871614512607509",
+      "model": "GPT Image 2",
+      "date": "2026-10-02",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Create a premium ultra-realistic vertical 4:5 fashion portrait collage in a warm minimalist interior.\nA young woman is standing confidently on the left side of the composition, leaning naturally against a large sculptural curved beige architectural wall. She is wearing a stylish modest all-black outfit — elegant black long-sleeve top, black straight-leg trousers or jeans, and black shoes. Natural relaxed pose, one leg slightly crossed over the other, hands casually positioned near her pockets.\n\nOn the right side, create three vertically arranged framed black-and-white portrait photographs of the same woman, each with a different natural pose:\nWearing stylish black sunglasses, looking toward the camera.\nLooking downward with a calm expression.\nWearing black sunglasses and gently adjusting them with one hand.\nKeep all three portraits consistent with the same woman and facial identity.\nThe interior should have a sophisticated beige, cream and warm sand color palette, soft sunlight entering from the side, beautiful natural window shadows across the wall and floor, subtle cinematic lighting, minimal modern decor, and a small sculptural stone vase with delicate branches in the bottom-left corner.\nPhotorealistic photography, realistic skin texture, realistic fabric, natural proportions, premium editorial fashion aesthetic, soft shadows, architectural photography, high detail, cinematic composition, 8K, clean luxury magazine style,\n\nvertical 4:5.\nImportant: no watermark, no extra text, no logo, no distorted hands, no duplicate people, no artificial-looking face,",
+      "covers": [
+        "/covers/x-2105871614512607509.jpg"
+      ]
+    },
+    {
+      "no": "503",
+      "id": "x-2105448461382381907",
+      "title": "女战士与巨型猫头鹰",
+      "kicker": "守护者",
+      "excerpt": "用羽毛、金属饰品和暗色森林构建战士与守护猛禽的近距离关系。",
+      "style": "暗黑奇幻角色肖像",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "女战士",
+        "猫头鹰",
+        "暗黑奇幻"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Rabia_69x",
+        "name": "Rabia Ai",
+        "handle": "Rabia_69x",
+        "url": "https://x.com/Rabia_69x"
+      },
+      "sourceUrl": "https://x.com/Rabia_69x/status/2105448461382381907",
+      "model": "GPT Image 2",
+      "date": "2026-10-01",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A detailed portrait of a fierce tribal fantasy warrior woman leaning close to a massive, majestic great horned owl, cinematic lighting, dark moody atmosphere. The woman has long, wavy dark hair adorned with intricate silver chains, beads, and metallic headpieces. She has striking light green eyes, piercing the camera, with silver and icy-white war paint painted across her cheeks and nose. She wears dark leather armor decorated with silver pendants and turquoise gemstones Beside her the giant owl features sharp glowing orange eyes, patterned white and black feathers and an ornate silver circular medallion studded with a blue crystal resting on its forehead. The background is a shadowy, mystical forest in cool blue and dark gray tones. Highly detailed feathers, hyper-realistic, photorealistic textures, 8k resolution, dramatic dark fantasy aesthetic, masterpiece.",
+      "covers": [
+        "/covers/x-2105448461382381907.jpg"
+      ]
+    },
+    {
+      "no": "504",
+      "id": "x-2105235981553353199",
+      "title": "行走人物双重曝光海报",
+      "kicker": "双重曝光",
+      "excerpt": "以行走人物和叠加肖像构成个人电影海报，保留上传照片中的面孔。",
+      "style": "电影感双重曝光",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "双重曝光",
+        "个人海报",
+        "身份保持"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "JamilAI55",
+        "name": "Muhammad Jamil",
+        "handle": "JamilAI55",
+        "url": "https://x.com/JamilAI55"
+      },
+      "sourceUrl": "https://x.com/JamilAI55/status/2105235981553353199",
+      "model": "GPT Image 2 / Nano Banana Pro",
+      "date": "2026-09-30",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Generate a high-quality cinematic double exposure poster of the uploaded handsome man, walking confidently toward the camera while looking at the smartwatch, one hand raise up, confident expression. He wears a clean pastel yellow loose fitting shirt shirt with rolled up sleeve, black cargo and a smartwatch. One hand casually in pocket, natural walking pose, modern celebrity attitude. Background features a massive slightly faded close-up portrait of the same man wearing stylish square sunglasses, black sneakers with white border, looking side, creating a soft layered double exposure effect. Clean grey gradient background with dreamy white smoke/fog at the bottom. Soft studio lighting, ultra-realistic skin texture, premium fashion photography look, sharp details, shallow depth of field, smooth shadows, elegant composition, modern Bollywood-inspired aesthetic, minimal color palette, highly detailed cinematic editing, DSLR quality. Maintain the face same as the uploaded photo. Aspect ratio 4:5",
+      "covers": [
+        "/covers/x-2105235981553353199.jpg"
+      ]
+    },
+    {
+      "no": "505",
+      "id": "x-2105173643294802060",
+      "title": "碎镜里的时装肖像",
+      "kicker": "碎镜",
+      "excerpt": "利用不同碎镜中的同一张脸，组成具有张力的时装特写。",
+      "style": "碎镜反射时装摄影",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "碎镜",
+        "反射",
+        "时装"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2105173643294802060",
+      "model": "GPT Image 2",
+      "date": "2026-09-30",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic cinematic high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nConcept: His face is seen through several large, irregularly broken mirror fragments, each piece reflecting a slightly different angle of his face — one showing his intense eyes, another capturing his sharp side profile, another revealing his jawline and lips, and the central fragment showing his face staring directly into the camera. The fractured mirror pieces create a mysterious, artistic composition, with sharp geometric edges and realistic reflections.\n\nExpression & Pose: Calm, mysterious and emotionally intense expression, deep captivating gaze directed toward the camera through the mirror fragments, head slightly tilted, with a subtle sense of introspection and hidden identity.\n\nOutfit: Elegant black high-neck shirt beneath a tailored black blazer, minimal luxury styling, sophisticated and timeless.\n\nLighting: Dramatic low-key cinematic lighting, deep shadows, subtle cool blue highlights along the mirror edges, soft light illuminating his eyes and facial features, realistic reflections and delicate specular highlights on the broken glass.\n\nBackground: Dark minimalist interior with a charcoal-black background, subtle atmospheric haze, faint reflections and a sophisticated noir aesthetic.\n\nPhotography: Extreme attention to facial details, photorealistic skin texture, natural facial proportions, 85mm portrait lens, shallow depth of field, cinematic color grading, high contrast, ultra-detailed 8K HDR, luxury fashion magazine editorial, masterpiece composition.\n\nMood: Mysterious, introspective, dark, elegant, psychologically intriguing and cinematic.\n\nVertical 9:16 composition, close-up portrait, face occupying the central area, mirror fragments artistically arranged around the face, realistic glass reflections, perfectly coherent facial features within each reflection, professional editorial photography.\n\nNo text, no typography, no watermark, no extra faces, no distorted facial features, no artificial-looking skin, no cartoon effects.",
+      "covers": [
+        "/covers/x-2105173643294802060.jpg"
+      ]
+    },
+    {
+      "no": "506",
+      "id": "x-2105145613625037081",
+      "title": "运动女性力量肖像",
+      "kicker": "运动",
+      "excerpt": "以运动服装、健身房背景和自然肌肉线条表现有力量的女性形象。",
+      "style": "写实运动形象照",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "运动",
+        "健身房",
+        "人物摄影"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "aytacaltintepe",
+        "name": "Aytaç Altıntepe",
+        "handle": "aytacaltintepe",
+        "url": "https://x.com/aytacaltintepe"
+      },
+      "sourceUrl": "https://x.com/aytacaltintepe/status/2105145613625037081",
+      "model": "Recraft 4.1 / Grok Imagine",
+      "date": "2026-09-30",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Photorealistic professional 8K photograph of a 20-year-old athletic Korean woman with a feminine figure. Fit, toned, and defined but not overly muscular or masculine. High ponytail. Tennis visor-style headband with no crown, sitting on her forehead like a clip. Fitted black skinny t-shirt ending at the navel, natural abs visible. She pulls the hem of the t-shirt slightly upward with one fingertip to reveal her abs. Other arm slightly away from the body, outward, clenched fist hanging down, arm flexed with visible veins. Slight S-curve standing pose, head tilted slightly forward. Black modern breathable athletic tights with perforated panels. Gym interior, slightly blurred background. Cinematic dramatic lighting, professional photoshoot, slightly sweaty realistic skin, masterpiece, protagonist presence, ultra-realistic details, natural feminine proportions.",
+      "covers": [
+        "/covers/x-2105145613625037081.jpg",
+        "/covers/x-2105145613625037081-2.jpg",
+        "/covers/x-2105145613625037081-3.jpg",
+        "/covers/x-2105145613625037081-4.jpg"
+      ]
+    },
+    {
+      "no": "507",
+      "id": "x-2104929448155844935",
+      "title": "南极冰窟中的神秘巨碑",
+      "kicker": "伪档案",
+      "excerpt": "用旧黑白照片质感表现探险队发现发光巨碑的虚构场景。",
+      "style": "复古科幻档案摄影",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "南极",
+        "科幻",
+        "黑白胶片"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "elio_ia",
+        "name": "Elian Iao",
+        "handle": "elio_ia",
+        "url": "https://x.com/elio_ia"
+      },
+      "sourceUrl": "https://x.com/elio_ia/status/2104929448155844935",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-29",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 南极年代与探险情节属于虚构画面设定，不是历史照片。",
+      "prompt": "Raw archival black and white photograph from a 1923 Antarctic expedition, grain, scratches, flash illumination. Weary explorers bundled in vintage heavy winter coats staring in shock at a massive, intricate glowing metallic monolith partially frozen inside a sheer ice cavern, photorealistic, historical documentary photography, hyper-detailed textures.",
+      "covers": [
+        "/covers/x-2104929448155844935.jpg",
+        "/covers/x-2104929448155844935-2.jpg"
+      ]
+    },
+    {
+      "no": "508",
+      "id": "x-2104891764750639144",
+      "title": "保留面孔的室内人像",
+      "kicker": "保真",
+      "excerpt": "以参考照片锁定面孔与发型，用室内植物、柔光和浅景深重建肖像。",
+      "style": "身份保持室内肖像",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "身份保持",
+        "室内",
+        "浅景深"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "DilshadAI1",
+        "name": "Dilshad Hussain",
+        "handle": "DilshadAI1",
+        "url": "https://x.com/DilshadAI1"
+      },
+      "sourceUrl": "https://x.com/DilshadAI1/status/2104891764750639144",
+      "model": "GPT Image 2 / Nano Banana Pro",
+      "date": "2026-09-29",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Keep the same features of \nthe attached person, without changes. Reference picture: photo sent.\nFace: keep the exact same person as the reference picture. Format:\nA highly detailed, ultra-realistic portrait of a stylish young man with voluminous, swept-back dark hair and light black eyes. He is lying comfortably on his stomach on a bed, resting his chin on his left hand, looking directly at the camera with a relaxed, gentle expression. He is wearing a light shalwar kameez, a dark smartwatch on his wrist, and white sneakers with black accents. The setting is a cozy, modern bedroom illuminated by vibrant purple and blue ambient LED lighting, contrasting with a warm glowing bedside lamp. In the softly blurred background, there is a dark poster with a crown graphic and the text \"Dream Big\", along with a corner shelf holding small potted plants. Shot on an 85mm lens, f/1.8 aperture, cinematic lighting, sharp focus on the face, 8k resolution. Keep original face and hairstyle 100% reference",
+      "covers": [
+        "/covers/x-2104891764750639144.jpg"
+      ]
+    },
+    {
+      "no": "509",
+      "id": "x-2104850947012726906",
+      "title": "几何光影黑白肖像",
+      "kicker": "光影",
+      "excerpt": "让交叉光束切过人物与背景，以黑色高领和高反差突出面部。",
+      "style": "高反差黑白棚拍",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "黑白",
+        "几何光影",
+        "棚拍"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "LaceyPresley",
+        "name": "Lacey",
+        "handle": "LaceyPresley",
+        "url": "https://x.com/LaceyPresley"
+      },
+      "sourceUrl": "https://x.com/LaceyPresley/status/2104850947012726906",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-29",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A high resolution black and white portrait of a girl wearing a sharp black turtle neck and chic small gold earrings along with Korean bun. She stands confidently in minimal studio setting slightly to the side dramatic studio lighting creates bold geometric shadows on her face and background strong cross beams of light. Cut through the shadows her expression is calm introspective and slightly distant the image has cinematic, high quality nor tone with high contrast and fine detail on her face and suits texture soft brokeh background.",
+      "covers": [
+        "/covers/x-2104850947012726906.jpg"
+      ]
+    },
+    {
+      "no": "510",
+      "id": "x-2104728081373999615",
+      "title": "老伴为她拍下走廊舞步",
+      "kicker": "陪伴",
+      "excerpt": "在暖色老房走廊中，老太太开心起舞，老伴蹲下用手机为她记录。",
+      "style": "温暖三维动画场景",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "story"
+      ],
+      "tags": [
+        "老年伴侣",
+        "陪伴",
+        "家庭"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "DuaFatimaAi",
+        "name": "Dua Fatima",
+        "handle": "DuaFatimaAi",
+        "url": "https://x.com/DuaFatimaAi"
+      },
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2104728081373999615",
+      "model": "GPT Image 2",
+      "date": "2026-09-29",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 本条按原帖静态样图归入图像库，不代表已经生成或核验视频。",
+      "prompt": "Create a heartwarming 3D animated cinematic scene inside a cozy vintage hallway. An elderly woman with short white hair, round glasses, a mustard-yellow loose top, beige pants, and slippers playfully poses and dances while an elderly man in a light blue shirt and beige pants crouches nearby, recording her with a smartphone. Warm golden indoor lighting, wooden walls, framed artwork, patterned Persian rug, hanging lamp, cozy home atmosphere. The woman changes playful poses naturally—arms wide, pointing, smiling, raising both hands—while the man moves slightly as he films her. Expressive faces, charming comedic timing, smooth natural body movement, consistent character identity, detailed Pixar-like 3D animation, cinematic depth of field, realistic lighting, warm color grading, smooth camera movement, high detail, 4K.",
+      "covers": [
+        "/covers/x-2104728081373999615.jpg"
+      ]
+    },
+    {
+      "no": "511",
+      "id": "x-2104583621537611933",
+      "title": "雨夜站台等车的人",
+      "kicker": "雨夜",
+      "excerpt": "保留参考人物身份，用雨水、站台和电影光线构建等待的情绪。",
+      "style": "雨夜电影叙事摄影",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "identity"
+      ],
+      "tags": [
+        "雨夜",
+        "站台",
+        "身份保持"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Elvorya",
+        "name": "Elvorya",
+        "handle": "Elvorya",
+        "url": "https://x.com/Elvorya"
+      },
+      "sourceUrl": "https://x.com/Elvorya/status/2104583621537611933",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-28",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Create an ultra-photorealistic 4K cinematic full-body scene of the same woman from the reference image, sitting naturally on an elegant railway station chair while waiting for her train in heavy rain.\n\nPreserve her exact reference face and identity. She looks naturally toward the camera with a calm, elegant expression.\n\nShow her entire body from head to toe, with both shoes completely visible. Place her full leather suitcase beside the chair, including wheels and handle. A normal-sized black umbrella rests naturally beside the chair.\n\nLuxury camel trench coat, black trousers, polished black ankle boots, subtle gold jewelry, and elegant handbag.\n\nHeavy rain is visible through the large station windows, with wet railway tracks, puddles, mist, reflections, and an approaching train in the background. Premium luxury railway-station architecture with warm golden lighting and polished marble floor\n\nWide full-body composition, eye-level camera, 45–50mm lens, natural proportions, sharp face, detailed clothing and leather, realistic rain, cinematic depth of field.\n\nQuality: 4K UHD, photorealistic live-action, HDR, realistic skin pores, natural hair, cinematic lighting, premium color grading, subtle film grain.\n\nNegative prompt: cropped feet, cropped shoes, cropped suitcase, oversized umbrella, distorted hands, extra fingers, face drift, different identity, plastic skin, cartoon, anime, CGI, 3D render, unrealistic rain, blurry face, low resolution, unwanted text, extra logos, watermark.",
+      "covers": [
+        "/covers/x-2104583621537611933.jpg"
+      ]
+    },
+    {
+      "no": "512",
+      "id": "x-2104472426394406957",
+      "title": "工业走廊的橙色液体",
+      "kicker": "赛博",
+      "excerpt": "在冷色服务器走廊中，让人物触碰从设备间爆开的橙色液体。",
+      "style": "赛博工业场景",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "赛博朋克",
+        "工业空间",
+        "冷暖对照"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "her19845",
+        "name": "HER19845",
+        "handle": "her19845",
+        "url": "https://x.com/her19845"
+      },
+      "sourceUrl": "https://x.com/her19845/status/2104472426394406957",
+      "model": "GPT Image 2",
+      "date": "2026-09-28",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A high-resolution, cinematic digital illustration with a cyberpunk aesthetic. The model is situated in a claustrophobic industrial corridor, facing a wall-mounted panel of servers and cables. A dense, explosive mass of bright orange liquid splashes violently outward from the tech panels, spreading across the surroundings. The young woman lightly touches the mass with her hand. The color palette is cool and dark—dominated by grays and blues—creating a dramatic, high-contrast effect against the orange. The image evokes a high-quality, surreal, and unsettling cyberpunk atmosphere.",
+      "covers": [
+        "/covers/x-2104472426394406957.jpg"
+      ]
+    },
+    {
+      "no": "513",
+      "id": "x-2104415546079142275",
+      "title": "花园单车超现实时装",
+      "kicker": "花园",
+      "excerpt": "以花园、单车、夸张比例和鲜艳服饰搭建梦境般的时装画面。",
+      "style": "超现实花园时装",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "promotion"
+      ],
+      "tags": [
+        "单车",
+        "花园",
+        "超现实"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "hey_am_cherry",
+        "name": "Cherry",
+        "handle": "hey_am_cherry",
+        "url": "https://x.com/hey_am_cherry"
+      },
+      "sourceUrl": "https://x.com/hey_am_cherry/status/2104415546079142275",
+      "model": "GPT Image 2",
+      "date": "2026-09-28",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"aspect_ratio\": \"9:16\",\n  \"style\": \"surreal colorful high-fashion editorial\",\n  \"subject\": {\n    \"character\": \"beautiful young European blonde woman\",\n    \"expression\": \"confident, playful\",\n    \"accessories\": \"elegant sunglasses\",\n    \"outfit\": \"bright orange cropped jacket, lime-green wide-leg trousers, cream sneakers\"\n  },\n  \"action\": \"riding a cream vintage bicycle through a surreal fantasy garden\",\n  \"pose\": \"dynamic three-quarter rear view, leaning naturally into the ride while turning her head toward the camera\",\n  \"bicycle\": \"cream-colored vintage bicycle with a small minimal flower basket\",\n  \"environment\": {\n    \"setting\": \"open surreal garden\",\n    \"flowers\": \"few enormous sculptural flowers placed far apart, oversized orange, yellow and turquoise petals\",\n    \"ground\": \"pale mint pathway with generous empty space\"\n  },\n  \"composition\": {\n    \"camera\": \"dramatic low-angle hero shot\",\n    \"framing\": \"full bicycle and full character visible\",\n    \"foreground\": \"one giant flower subtly framing the edge\",\n    \"negative_space\": \"strong, clean, uncluttered\"\n  },\n  \"lighting\": \"warm golden daylight with cinematic shadows\",\n  \"mood\": \"wild, playful, bizarre, luxurious, dreamlike\",\n  \"visual_quality\": \"exaggerated scale, vibrant color harmony, crisp textures, unconventional fashion editorial energy, striking visual impact\"\n}",
+      "covers": [
+        "/covers/x-2104415546079142275.jpg",
+        "/covers/x-2104415546079142275-2.jpg"
+      ]
+    },
+    {
+      "no": "514",
+      "id": "x-2104210624133685357",
+      "title": "蝴蝶光艺术肖像模板",
+      "kicker": "蝴蝶光",
+      "excerpt": "以可替换人物槽位和中画幅摄影设定，控制正面肖像的光线、留白与肤质。",
+      "style": "蝴蝶光艺术棚拍",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "蝴蝶光",
+        "肖像模板",
+        "自然肤质"
+      ],
+      "medium": "image",
+      "slots": [
+        "PERSON_NAME_OR_IMAGE"
+      ],
+      "creator": {
+        "id": "SaasJunctionHQ",
+        "name": "SaaS Junction ✦ Daily AI News & Prompts",
+        "handle": "SaasJunctionHQ",
+        "url": "https://x.com/SaasJunctionHQ"
+      },
+      "sourceUrl": "https://x.com/SaasJunctionHQ/status/2104210624133685357",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-27",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"style_prompt_template\": {\n    \"subject\": \"{{PERSON_NAME_OR_IMAGE}}\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"canvas_size_guidance\": \"1080x1920 or equivalent 9:16\",\n    \"shot_type\": \"medium portrait shot, zoomed out 50% from tight close-up, head-to-mid-torso visible, facing camera\",\n    \"photography_style\": \"dramatic black and white studio portrait, editorial/fine-art photography\",\n    \"composition\": {\n      \"face_position\": \"subject's face centered both horizontally and vertically in the frame\",\n      \"face_size_in_frame\": \"face occupies roughly 20-25% of frame height, not tightly cropped, ample negative space around subject\",\n      \"eye_line\": \"eyes aligned at approximate vertical center of the canvas\",\n      \"headroom\": \"generous margin above the hair, clear dark space visible above head\",\n      \"crop\": \"visible down to mid-chest or waist, more of the suit and shoulders shown, wider view than a tight headshot\",\n      \"surrounding_space\": \"large area of negative black space surrounding subject on left, right, top, and bottom\",\n      \"alignment\": \"subject facing straight into camera, symmetrical framing, no off-center offset\"\n    },\n    \"lighting\": {\n      \"type\": \"single hard top-down spotlight (butterfly/Paramount lighting)\",\n      \"quality\": \"harsh, narrow beam creating strong falloff\",\n      \"key_highlight\": \"top of hair and forehead catch bright rim light\",\n      \"shadow_behavior\": \"deep shadows under brow, cheekbones, and jawline; steep light-to-dark gradient across face\",\n      \"background_light\": \"none; background falls into near-total darkness with faint gradient near top edge, spotlight cone visible in wider frame\"\n    },\n    \"color_treatment\": \"monochrome black and white, high contrast, deep blacks, no gray midtone flatness\",\n    \"background\": \"solid black or near-black, subtle vignette, no visible texture or props, large expanse of negative space\",\n    \"wardrobe\": \"dark tailored suit jacket, white dress shirt, dark tie, formal/business attire, full torso visible\",\n    \"expression_and_pose\": \"neutral to serious expression, calm and composed, minimal smile, direct gaze into lens, relaxed shoulders\",\n    \"skin_and_texture_detail\": \"visible natural skin texture, pores, fine wrinkles, stubble if present, unretouched realism\",\n    \"hair_detail\": \"individual strands visible and crisply lit, natural texture, not overly styled\",\n    \"camera_and_lens\": \"shot as if on medium format camera, 50mm-85mm equivalent lens, greater working distance from subject, shallow depth of field, tack-sharp focus on eyes\",\n    \"grain_and_finish\": \"fine film-like grain, high dynamic range, crisp micro-contrast, glossy editorial finish\",\n    \"mood\": \"intense, powerful, cinematic, timeless\"\n  },\n  \"negative_prompt\": \"color cast, flat lighting, soft focus, blown highlights on face, busy background, smiling broadly, low contrast, blurry details, off-center face, face cropped at edge, horizontal framing, extreme close-up, tight crop, face filling entire frame\"\n}",
+      "covers": [
+        "/covers/x-2104210624133685357.jpg",
+        "/covers/x-2104210624133685357-2.jpg",
+        "/covers/x-2104210624133685357-3.jpg",
+        "/covers/x-2104210624133685357-4.jpg"
+      ]
+    },
+    {
+      "no": "515",
+      "id": "x-2104203933308633179",
+      "title": "合照变白底积木人偶",
+      "kicker": "积木人偶",
+      "excerpt": "把照片里每个人都转成可辨认的积木人偶，以白底商品摄影方式呈现。",
+      "style": "积木人偶产品摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "tags": [
+        "合照",
+        "积木",
+        "白底"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2104203933308633179",
+      "model": "GPT Image 2",
+      "date": "2026-09-27",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Transform every visible person in the uploaded image into realistic LEGO-style minifigure toys while preserving each person’s recognizable identity, hairstyle, outfit, colors, accessories, relative height, pose, and relationship to each other.\n\nFORMAT LOCK — NON-NEGOTIABLE\nVertical 3:4 aspect ratio.\nFull-body product composition.\nAll figures must be fully visible from head to toe.\nDo not generate square, landscape, widescreen, close-up, cropped, or half-body compositions.\n\nPERSON COUNT LOCK — NON-NEGOTIABLE\nDetect all visible people in the uploaded image.\nIf there is 1 person, create 1 LEGO-style minifigure.\nIf there are 2 people, create 2 LEGO-style minifigures.\nIf there are 3 or more people, create the same number of LEGO-style minifigures.\nDo not remove, merge, ignore, duplicate, or replace any person.\nEvery person visible in the reference image must appear as their own separate LEGO-style minifigure.\n\nREFERENCE LOCK — NON-NEGOTIABLE\nUse the uploaded image as the only reference for all subjects.\nPreserve each person’s recognizable facial identity as much as possible within the simplified LEGO minifigure style.\nMaintain each person’s hairstyle and hair color, adapted into molded LEGO-style plastic hairpieces.\nPreserve each person’s facial expression, clothing colors, clothing design, visible patterns, accessories, and styling.\nThe final figures must clearly represent the same people translated into LEGO-style toy form.\nDo not create generic minifigures.\nDo not redesign outfits or invent new accessories.\n\nCLOTHING DETAIL LOCK\nRecreate each person’s outfit as accurately as possible in LEGO minifigure form.\nPreserve the exact clothing color palette, layering, garment type, collar shape, neckline, sleeves, jacket shape, pants or skirt style, shoes, visible patterns, seams, buttons, zippers, belts, logos, jewelry, bags, glasses, hats, and accessories.\nTranslate real clothing into printed LEGO torso and leg graphics with clean toy-style linework.\nOuterwear should appear as molded or printed LEGO-style clothing details.\nShoes should be simplified into LEGO foot/leg prints while keeping the original color and style.\nDo not replace outfits with generic LEGO clothing.\nDo not simplify clothing so much that the original styling is lost.\n\nGROUP COMPOSITION\nKeep the same number of people from the uploaded image.\nPreserve the relationship between subjects.\nPreserve relative height differences.\nPreserve basic pose direction and body language.\nIf the reference shows a couple, create a matching LEGO-style couple.\nIf the reference shows a group, create the full group as separate minifigures.\nArrange the figures naturally together in a clean product-style composition.\n\nLEGO MINIFIGURE STRUCTURE\nUse authentic LEGO-style minifigure proportions for every figure.\nCylindrical heads.\nSimplified printed facial features.\nBlock-shaped torsos.\nPrinted clothing details on each torso.\nStandard minifigure arms.\nCurved minifigure hands.\nShort minifigure legs.\nCustom molded plastic hairpieces matching each subject’s hairstyle.\nClassic yellow heads or realistic skin-tone heads depending on the uploaded subjects and chosen visual direction.\n\nMATERIAL & TEXTURE\nRender all figures as realistic molded plastic.\nSubtle glossy finish.\nFine molded seams.\nClean toy-surface reflections.\nRealistic plastic highlights.\nPrinted face, torso, and leg details.\nHairpieces should look like molded plastic, not real hair.\nClothing should appear as printed LEGO-style graphics and molded toy details, not real fabric.\n\nCOMPOSITION\nFull-body minifigures visible from head to toe.\nAll figures centered in the frame.\nEntire group fully visible.\nNo cropping.\nNo close-up portrait framing.\nNo props.\nNo scenery.\nNo extra elements.\n\nBACKGROUND\nPure clean white background.\nStudio product photography setup.\nMinimal and premium.\nNo environment, no table clutter, no unrelated objects.\n\nLIGHTING\nSoft diffused studio lighting.\nSubtle natural shadows beneath the figures.\nCrisp detail visibility.\nBalanced reflections across the plastic surfaces.\nProfessional toy photography quality.\n\nOUTPUT STYLE\nPhotorealistic LEGO-style minifigure toy render.\nHigh-quality 3D product visualization.\nSharp focus.\nClean white-background presentation.\nPremium collectible toy aesthetic.\nHighly detailed plastic texture.\nProfessional studio lighting.\nThe final image should look like realistic custom LEGO-style minifigures of every visible person from the uploaded image, photographed as a premium toy product.",
+      "covers": [
+        "/covers/x-2104203933308633179.jpg",
+        "/covers/x-2104203933308633179-2.jpg"
+      ]
+    },
+    {
+      "no": "516",
+      "id": "x-2103799283199963341",
+      "title": "红毯黑色礼服男士",
+      "kicker": "红毯",
+      "excerpt": "用黑色礼服、摄影灯和活动装饰营造红毯个人形象。",
+      "style": "红毯时装摄影",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "红毯",
+        "礼服",
+        "男士肖像"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Mr_AI01",
+        "name": "Mr.AI",
+        "handle": "Mr_AI01",
+        "url": "https://x.com/Mr_AI01"
+      },
+      "sourceUrl": "https://x.com/Mr_AI01/status/2103799283199963341",
+      "model": "GPT Image 2 / Nano Banana Pro",
+      "date": "2026-09-26",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 来源索引使用旧用户名 @Mr_Ai6，现按原帖返回的 @Mr_AI01 署名。",
+      "prompt": "A handsome young man wearing an elegant black tuxedo, standing confidently on a glamorous red carpet, luxury event decorations and bright photography lights in the background, cinematic fashion photography, highly detailed, photorealistic, 8K.",
+      "covers": [
+        "/covers/x-2103799283199963341.jpg"
+      ]
+    },
+    {
+      "no": "517",
+      "id": "x-2103327399190593748",
+      "title": "哥特教堂下的黑衣人物",
+      "kicker": "哥特",
+      "excerpt": "在高耸拱顶、雾气和穿透光束下塑造神秘的黑衣角色。",
+      "style": "哥特暗黑电影摄影",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "哥特教堂",
+        "体积光",
+        "黑衣角色"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2103327399190593748",
+      "model": "GPT Image 2",
+      "date": "2026-09-25",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic cinematic dark-fantasy photograph of a strikingly handsome young man in his early 20s standing alone beneath enormous Gothic cathedral arches. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\nHe wears an elegant long black tailored coat over a dark high-neck shirt, giving him a mysterious, powerful presence. Towering Gothic arches rise dramatically above him, decorated with intricate stone carvings, weathered columns, and enormous shadowy vaulted ceilings. Sharp beams of golden-white light pierce through dense atmospheric smoke and mist, illuminating parts of his face and shoulders while the rest of the cathedral disappears into deep darkness.\nAncient stone floor slightly wet and reflective, faint dust particles floating through the light, subtle candlelight in the distant background, dramatic volumetric lighting, deep shadows, strong chiaroscuro, gothic architecture, mysterious sacred atmosphere, cinematic composition, realistic proportions, natural expression, highly detailed stone textures, photorealistic skin, HDR, 85mm lens, shallow depth of field, dramatic perspective, dark luxury editorial photography, ultra-detailed, 8K, no women, no text, no watermark, no AI-looking face, vertical 9:16.",
+      "covers": [
+        "/covers/x-2103327399190593748.jpg"
+      ]
+    },
+    {
+      "no": "518",
+      "id": "x-2103091784179912903",
+      "title": "站在两个世纪交界处",
+      "kicker": "时间",
+      "excerpt": "以人物为中心，将二十世纪街道与未来城市拼接成同一画面。",
+      "style": "时空分割电影海报",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "时空",
+        "复古未来",
+        "城市"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2103091784179912903",
+      "model": "GPT Image 2",
+      "date": "2026-09-24",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic cinematic surreal photograph of a strikingly handsome young man in his early 20s standing exactly at the boundary between two centuries, creating a seamless visual split between 1920 and 2120.\n\nHe has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\n\nThe LEFT side of the image represents the 1920s: an elegant vintage city street with Art Deco architecture, classic automobiles, old brick buildings, warm amber street lamps, vintage shop signs, pedestrians in 1920s suits and coats, subtle film grain, sepia tones, and authentic period atmosphere. The young man wears a perfectly tailored 1920s three-piece suit, pocket watch, polished leather shoes, and vintage hairstyle details.\n\nThe RIGHT side represents the year 2120: a breathtaking futuristic metropolis filled with towering glass-and-metal skyscrapers, holographic advertisements, autonomous flying vehicles, glowing neon architecture, futuristic pedestrians, advanced technology, floating transportation systems, and subtle atmospheric mist. The young man wears an elegant futuristic black tailored suit with sophisticated metallic details and subtle glowing accents.\n\nThe center of the composition shows the two eras merging around him, with a luminous temporal distortion, floating clock fragments, particles, and ripples in reality connecting 1920 to 2120. His body subtly transitions between both eras while his face remains identical and perfectly realistic, symbolizing a man caught between past and future.\n\nEpic cinematic composition, symmetrical split-world concept, dramatic perspective, realistic environmental reflections, volumetric lighting, atmospheric depth, physically accurate materials, highly detailed skin, natural facial expression, photorealistic, 8K HDR, ultra-sharp focus, cinematic color grading, 35mm photography, masterpiece, no text, no watermark.",
+      "covers": [
+        "/covers/x-2103091784179912903.jpg"
+      ]
+    },
+    {
+      "no": "519",
+      "id": "x-2102987709883298171",
+      "title": "夜色电话亭悬疑肖像",
+      "kicker": "电话亭",
+      "excerpt": "用夜色、电话亭与克制的服装细节，构成带悬疑气氛的人物画面。",
+      "style": "都市黑色电影摄影",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "identity"
+      ],
+      "tags": [
+        "电话亭",
+        "夜景",
+        "悬疑"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2102987709883298171",
+      "model": "GPT Image 2",
+      "date": "2026-09-24",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic cinematic night photograph of a strikingly handsome young man in his early 20s sitting inside a vintage red telephone booth on a deserted city street at midnight. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features. He holds an old black telephone receiver close to his ear, with a mysterious, thoughtful expression as he looks slightly toward the rain-covered glass.\nHeavy rain falls outside, droplets streaming down the glass panels, while dense atmospheric fog surrounds the booth and softly obscures the empty street. Wet pavement reflects the warm amber glow of the booth and distant streetlights. Vintage urban architecture fades into the mist in the background. Subtle neon reflections, cinematic rim lighting, soft volumetric light beams, deep shadows, moody midnight-blue atmosphere, realistic reflections on wet surfaces, shallow depth of field, 85mm lens, f/1.4, dramatic film grain, high dynamic range, photorealistic skin, intricate fabric details, sophisticated noir aesthetic, mysterious and emotional atmosphere, premium editorial photography, 8K, ultra-detailed, natural proportions, no text, no watermark, no women.",
+      "covers": [
+        "/covers/x-2102987709883298171.jpg"
+      ]
+    },
+    {
+      "no": "520",
+      "id": "x-2102555777252872279",
+      "title": "羽毛球扣杀瞬间",
+      "kicker": "扣杀",
+      "excerpt": "捕捉人物跃起扣杀时的身体张力，同时保持球拍、羽毛球与主体清晰。",
+      "style": "电影感运动广告",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "羽毛球",
+        "运动摄影",
+        "动态"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2102555777252872279",
+      "model": "GPT Image 2",
+      "date": "2026-09-23",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-realistic cinematic sports photograph of a strikingly handsome young male badminton athlete in his early 20s, captured at the peak of a powerful overhead smash. He has thick naturally wavy jet-black hair, strong eyebrows, deep dark-brown eyes, a defined sculpted jawline, subtle natural stubble, realistic skin texture, visible pores, and refined masculine facial features.\nHe is jumping explosively above the badminton court, body dynamically twisted, one arm fully extended overhead with a professional badminton racket aimed aggressively toward the camera. His expression is intensely focused and determined. A shuttlecock is extremely close to the lens in the foreground, dramatically enlarged with razor-sharp feather details, creating powerful depth and perspective.\nModern indoor badminton arena, polished court floor, subtle net visible in the background, dramatic overhead stadium lights, strong rim lighting, atmospheric haze, realistic shadows, tiny sweat droplets frozen in motion, cinematic motion energy, shallow depth of field, dynamic low-angle perspective, 85mm sports photography aesthetic, ultra-detailed skin and clothing, photorealistic textures, HDR, high contrast, frozen action, premium sports campaign photography.\nLarge bold “SMASH” typography subtly integrated into the background, clean athletic editorial design, no logos, no watermark, no other people.\n9:16 vertical composition, 8K, photorealistic, cinematic, professional sports advertising campaign, extremely sharp subject and shuttlecock, dramatic depth of field.",
+      "covers": [
+        "/covers/x-2102555777252872279.jpg"
+      ]
+    },
+    {
+      "no": "521",
+      "id": "x-2101379401703116870",
+      "title": "商品多角度参考设定表",
+      "kicker": "参考表",
+      "excerpt": "将同一商品的结构与视图整理为带标签的制作参考板，要求品牌和比例一致。",
+      "style": "产品制作参考板",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "knowledge"
+      ],
+      "tags": [
+        "多视图",
+        "产品一致性",
+        "参考板"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "OlatundeAI",
+        "name": "Olatunde AI",
+        "handle": "OlatundeAI",
+        "url": "https://x.com/OlatundeAI"
+      },
+      "sourceUrl": "https://x.com/OlatundeAI/status/2101379401703116870",
+      "model": "",
+      "date": "2026-09-19",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 首图优先展示结果图，其余样图保留原帖参考照片或草图。",
+      "prompt": "Analyze the product and create a high-resolution, photorealistic, professional advertising reference sheet containing these four sections, on a clean white/neutral studio background, premium commercial product photography, soft controlled lighting, realistic materials, sharp details, subtle shadows, and a professional editorial grid.\n1. PRODUCT OVERVIEW; name, category, materials, dimensions/size, key features, and brand colors.\n2. PRODUCT USAGE/HERO VIEWS - front, back, side, 3/4, and functional/use view where relevant.\n3. PRODUCT CLOSE-UPS - logo/label, texture/material, key components, packaging details, and other important identifying features.\n4. PACKAGING / CONSTRUCTION - relevant packaging or structural views where applicable. \nThe entire sheet must function as a visual continuity bible for AI image/video production. Every product view must depict the exact same physical product with absolute consistency. Do not redesign, add variants, alter branding, or change proportions. Use cean typography, clear section labels, thin dividers, balanced spacing, sophisticated production-design aesthetic.",
+      "covers": [
+        "/covers/x-2101379401703116870-2.jpg",
+        "/covers/x-2101379401703116870.jpg"
+      ]
+    },
+    {
+      "no": "522",
+      "id": "x-2100779368318701669",
+      "title": "照片变手绘时装插画",
+      "kicker": "手绘",
+      "excerpt": "保留照片构图、人物服装和姿态，用彩铅与手绘线条重画日常形象。",
+      "style": "手绘时装插画",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "照片转绘",
+        "手绘",
+        "时装插画"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Sairah_0",
+        "name": "Sairah",
+        "handle": "Sairah_0",
+        "url": "https://x.com/Sairah_0"
+      },
+      "sourceUrl": "https://x.com/Sairah_0/status/2100779368318701669",
+      "model": "GPT Image 2",
+      "date": "2026-09-18",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 首图优先展示结果图，其余样图保留原帖参考照片或草图。",
+      "prompt": "Transform the uploaded photo into a charming hand-drawn fashion illustration while preserving the original scene and composition.\n\nKeep the same people, number of people, pose, body positioning, facial expressions, clothing, accessories, hairstyles, objects, drinks, and overall framing from the reference photo. Do not add or remove important elements.\n\nConvert the realistic photograph into a minimal Japanese/Korean-inspired lifestyle sketch illustration, using loose but confident dark green ink linework with subtle hand-drawn imperfections. Simplify facial features while keeping each person’s recognizable hairstyle, glasses, headphones, clothing silhouette, and pose.\n\nUse a soft pastel pink background with the illustration drawn primarily in deep forest-green ink. Replace realistic textures, shadows, vehicles, buildings, pavement, and surroundings with simplified expressive linework and selective cross-hatching. Keep enough environmental details to make the original location and composition recognizable.\n\nStyle: cute editorial illustration, Japanese stationery aesthetic, fashion sketch, casual slice-of-life manga drawing, imperfect pen strokes, clean negative space, minimal detailing, subtle vintage feel, handmade appearance.\n\nColor treatment: predominantly pastel pink background + dark green line art, with very minimal secondary tones if needed. No photorealism, no 3D rendering, no glossy digital painting.\n\nImportant: preserve the original image’s composition, perspective, camera angle, poses, proportions, clothing, accessories, and key objects. The result should look like the exact photograph was redrawn by an illustrator, rather than redesigned into a different scene.\n\nOutput: clean vertical illustration, aesthetically balanced, high-resolution, polished hand-drawn finish.\n\nShort version for image models:\n\nTurn this photo into a cute hand-drawn Japanese lifestyle/fashion sketch. Preserve the exact people, poses, expressions, clothing, hairstyles, accessories, drinks, composition, camera angle and important background elements. Redraw everything with loose imperfect dark forest-green ink linework on a soft pastel pink background, using minimal cross-hatching and simplified details. Charming editorial stationery aesthetic, casual manga-inspired illustration, handmade pen texture, clean negative space, elegant and whimsical. Do not change the composition or add/remove subjects; make it look like the original photo was directly illustrated by hand.",
+      "covers": [
+        "/covers/x-2100779368318701669-2.jpg",
+        "/covers/x-2100779368318701669.jpg"
+      ]
+    },
+    {
+      "no": "523",
+      "id": "x-2100638045103853684",
+      "title": "照片变层叠剪纸小剧场",
+      "kicker": "剪纸",
+      "excerpt": "将照片前中后景拆成有纸张厚度和接触阴影的柔和剪纸层。",
+      "style": "层叠纸艺绘本",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "concept"
+      ],
+      "tags": [
+        "剪纸",
+        "照片转绘",
+        "纸张层次"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "visualaiclub",
+        "name": "Visual AI Club",
+        "handle": "visualaiclub",
+        "url": "https://x.com/visualaiclub"
+      },
+      "sourceUrl": "https://x.com/visualaiclub/status/2100638045103853684",
+      "model": "GPT Image 2",
+      "date": "2026-09-17",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Transform the uploaded image into a soft handcrafted paper-cut layered illustration while preserving the original composition, subject placement, pose, proportions, perspective, and recognizable features.\n\nFORMAT LOCK\nVertical 3:4 composition. Preserve the original framing, camera angle, crop, and overall visual hierarchy.\n\nSTYLE\nSoft papercraft diorama aesthetic with smooth rounded shapes, simplified cute proportions, minimal facial details, dot eyes, soft blush cheeks, and a warm storybook character design. Recreate the entire scene using stacked paper layers with visible dimensional depth, subtle shadows between layers, and clean cut edges resembling carefully crafted cardstock.\n\nCHARACTER DESIGN\nKeep the main characters recognizable while simplifying their forms into charming paper-cut figures. Add a distinct thick white outer paper layer around each main character, creating a clean sticker-like cut-paper border that physically separates them from the background. The white border must look like an intentional cardstock layer, not a glow or lighting effect.\n\nPAPER MATERIAL\nUse matte tactile materials resembling thick art paper or craft foam. Show subtle paper grain, layered edges, slight thickness, clean cuts, tiny handmade imperfections, and realistic contact shadows between overlapping layers.\n\nCOLOR PALETTE\nSoft pastel colors with muted blues, gentle greens, warm neutrals, cream, and subtle complementary accents. Keep the palette balanced, calming, cozy, and harmonious.\n\nLIGHTING\nSoft diffused even lighting. Gentle ambient illumination. Subtle layer shadows. No harsh contrast. Enhance the physical depth of the paper layers while maintaining a soft handcrafted atmosphere.\n\nCOMPOSITION\nPreserve the original scene structure and visual hierarchy. Keep characters, objects, and important environmental elements in their original positions while translating everything into the same paper-cut visual language. Maintain clear separation between foreground, midground, and background.\n\nOUTPUT STYLE\nCozy handcrafted papercraft diorama. Modern children’s-book illustration. Decorative paper-cut artwork. Warm storybook aesthetic. Wholesome, gentle, playful, polished, tactile, and premium.\n\nNEGATIVE PROMPT\nAvoid photorealism, CGI, glossy surfaces, plastic appearance, neon colors, harsh lighting, excessive detail, realistic facial rendering, floating characters, glowing white outlines, flat digital illustration, messy edges, excessive shadows, distorted anatomy, changed composition, text, logos, watermarks, or low-quality rendering.",
+      "covers": [
+        "/covers/x-2100638045103853684.jpg",
+        "/covers/x-2100638045103853684-2.jpg",
+        "/covers/x-2100638045103853684-3.jpg",
+        "/covers/x-2100638045103853684-4.jpg"
+      ]
+    },
+    {
+      "no": "524",
+      "id": "x-2100578794159436219",
+      "title": "黄铜机械蜂鸟与忧郁眼睛",
+      "kicker": "机械",
+      "excerpt": "以微距肖像、黄铜钟表结构和机械蜂鸟构成精密而忧郁的角色画面。",
+      "style": "蒸汽朋克微距肖像",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "黄铜",
+        "机械蜂鸟",
+        "微距"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "timedoctor_nft",
+        "name": "timedoctor.eth",
+        "handle": "timedoctor_nft",
+        "url": "https://x.com/timedoctor_nft"
+      },
+      "sourceUrl": "https://x.com/timedoctor_nft/status/2100578794159436219",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-17",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"vibe_title_en\": \"Mechanical Melancholy\",\n  \"master_prompt\": \"Extreme close-up macro portrait. The Protagonist as a melancholic prodigy, framed tight on one side of the face. A highly detailed, physical brass clockwork mechanism with Roman numerals curves over the forehead and brow like a fragmented visor, partially obscuring the upper head but leaving one deeply expressive, sorrowful eye visible. The eye reflects warm, dusty ambient light. The protagonist's fingers, stained with dark ink and graphite, are gently touching a hyper-realistic golden mechanical hummingbird hovering near their cheek. They wear a heavy, ornate red and black mandarin-collar jacket with gold embroidery. Warm, directional Rembrandt lighting cutting through dense, dust-filled air, illuminating floating motes. Shot on Hasselblad H6D-100c, 120mm macro lens at f/2.8, incredibly shallow depth of field blurring the background into a muted olive-grey. Kodak Portra 400 film emulation, hyper-detailed skin pores, physical weight to the metal, cinematic chiaroscuro, pure photographic surrealism.\",\n  \"meta\": {\n    \"intent\": \"Photographic Surrealism, Emotional Macro Portrait\",\n    \"priorities\": \"Micro-details, tactile realism, cinematic warm lighting, analog film texture\",\n    \"device_profile\": \"Hasselblad H6D-100c with 120mm Macro Lens\"\n  },\n  \"frame\": {\n    \"aspect\": \"3:4\",\n    \"composition\": \"Extreme close-up macro, focusing on one eye and the side of the face, filling the frame\",\n    \"layout\": \"Off-center focus on the visible eye, clockwork fading into deep bokeh at the top edge, fingers entering from the bottom frame\",\n    \"camera_angle\": \"Straight-on, intimate eye-level\",\n    \"tilt_roll_degrees\": \"0\"\n  },\n  \"subject\": {\n    \"gender\": \"Female\",\n    \"identity\": \"The Melancholic Prodigy\",\n    \"demographics\": \"Universal features, youthful yet burdened\",\n    \"face\": \"Pale, hyper-detailed skin pores, one eye visible showing intense sorrowful focus, upper half partially covered by a brass clock mechanism\",\n    \"hair\": \"Pulled back out of frame, out of focus\",\n    \"body\": \"Only shoulder and neck visible, clad in heavy structured fabric\",\n    \"expression\": \"Sorrowful focus, heavy emotional weight, internal melancholy\",\n    \"pose\": \"Head still, hands brought up near the face, ink-stained fingers delicately interacting with a small golden mechanical bird\"\n  },\n  \"wardrobe_accessories\": {\n    \"garments\": [\n      {\n        \"item\": \"Mandarin-collar jacket\",\n        \"material\": \"Thick woven brocade\",\n        \"color\": \"Deep crimson red and black\",\n        \"fit\": \"Structured, tailored\"\n      }\n    ],\n    \"accessories\": [\n      {\n        \"item\": \"Fragmented clockwork visor with Roman numerals\",\n        \"color\": \"Aged brass and gold\",\n        \"material\": \"Machined metal, glass\",\n        \"brand_style\": \"Avant-garde horology, practical special effects\"\n      },\n      {\n        \"item\": \"Mechanical hummingbird\",\n        \"color\": \"Gold\",\n        \"material\": \"Polished brass and tiny gears\",\n        \"brand_style\": \"Artisan kinetic jewelry\"\n      }\n    ]\n  },\n  \"environment\": {\n    \"setting\": \"An obscure, dusty horologist's workshop or prodigy's sanctuary\",\n    \"surfaces\": \"Soft, muted olive-grey background, entirely blurred out\",\n    \"depth\": \"Extremely shallow, blurring everything millimeters behind the focal plane of the iris\",\n    \"atmosphere\": \"Warm, heavy, dust-filled air with illuminated floating particles\",\n    \"lens_interaction\": \"Soft optical vignette, macro compression\"\n  },\n  \"lighting\": {\n    \"key\": \"Warm, directional Rembrandt light hitting the visible eye and cheek\",\n    \"fill\": \"Subtle silver bounce to retain shadow detail in the clockwork\",\n    \"rim\": \"Soft golden backlight highlighting the floating dust motes and edges of the mechanical bird\",\n    \"shadows\": \"Deep, cinematic chiaroscuro, rich blacks\",\n    \"color_temperature\": \"Warm (around 3200K - 4000K)\",\n    \"sensor_flare\": \"None, highly controlled studio lighting\"\n  },\n  \"camera\": {\n    \"lens_type\": \"Macro Prime\",\n    \"focal_length\": \"120mm\",\n    \"aperture\": \"f/2.8\",\n    \"focus\": \"Tack sharp on the iris of the visible eye and the ink-stained fingertips\",\n    \"sensor_format\": \"Medium Format\",\n    \"perspective_distortion\": \"Zero distortion, highly compressed\"\n  },\n  \"post_processing\": {\n    \"color\": \"Muted, rich jewel tones contrasting with warm brass and pale skin\",\n    \"tonality\": \"High contrast, filmic roll-off in highlights\",\n    \"texture\": \"Kodak Portra 400 grain, organic imperfections, microscopic skin texture\",\n    \"digital_sharpening\": \"None, pure optical sharpness\",\n    \"chromatic_aberration\": \"Very slight edge fringing on the brass gears due to macro lens characteristics\"\n  },\n  \"negative_specifications\": [\n    \"neon\",\n    \"digital painting\",\n    \"illustration\",\n    \"CGI\",\n    \"plastic skin\",\n    \"flat lighting\",\n    \"wide shot\",\n    \"full body\",\n    \"cliché coffee shop\",\n    \"modern office\"\n  ]\n}",
+      "covers": [
+        "/covers/x-2100578794159436219.jpg",
+        "/covers/x-2100578794159436219-2.jpg",
+        "/covers/x-2100578794159436219-3.jpg",
+        "/covers/x-2100578794159436219-4.jpg"
+      ]
+    },
+    {
+      "no": "525",
+      "id": "x-2100100831945408531",
+      "title": "粗墨线现代漫画转绘",
+      "kicker": "漫画",
+      "excerpt": "以粗线、排线、喷墨与半写实明暗，塑造有图像小说质感的人物。",
+      "style": "现代图像小说插画",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "粗墨线",
+        "漫画",
+        "转绘"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "HustleXR",
+        "name": "Zayan",
+        "handle": "HustleXR",
+        "url": "https://x.com/HustleXR"
+      },
+      "sourceUrl": "https://x.com/HustleXR/status/2100100831945408531",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-16",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Modern comic-book illustration style with a semi-realistic approach, bold inked linework combined with clean sharp edges, dynamic cel-shading with high contrast between light and shadow, subtle painterly blending on skin while maintaining graphic comic aesthetics, vibrant yet slightly gritty color grading, strong rim lighting and dramatic highlights, stylized anatomy with heroic proportions, detailed hair rendered with flowing strands and sharp highlights, textured brush splashes and ink splatter accents for a dynamic effect, minimalistic light background to emphasize the subject, cinematic composition, ultra-detailed, high resolution, graphic novel quality.\nar 9:16!",
+      "covers": [
+        "/covers/x-2100100831945408531.jpg",
+        "/covers/x-2100100831945408531-2.jpg",
+        "/covers/x-2100100831945408531-3.jpg",
+        "/covers/x-2100100831945408531-4.jpg"
+      ]
+    },
+    {
+      "no": "526",
+      "id": "x-2099094038012100890",
+      "title": "复古粉色搅拌机静物",
+      "kicker": "复古家电",
+      "excerpt": "用柔和室内光、玻璃与镀铬反射表现粉色复古搅拌机。",
+      "style": "复古家电产品摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "搅拌机",
+        "粉色",
+        "产品静物"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "DuaFatimaAi",
+        "name": "Dua Fatima",
+        "handle": "DuaFatimaAi",
+        "url": "https://x.com/DuaFatimaAi"
+      },
+      "sourceUrl": "https://x.com/DuaFatimaAi/status/2099094038012100890",
+      "model": "GPT Image 2",
+      "date": "2026-09-13",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A premium photorealistic close-up of a vintage-style pastel pink blender on a modern kitchen countertop. The blender has a glossy pink retro body with polished chrome accents, a transparent glass jar with a clear handle, and a round front control dial with a glowing red indicator light. Inside the jar, pale pink and white ingredients are being blended, creating a smooth swirling motion. A woman’s hand is gently holding the chrome side handle on the right. Elegant modern kitchen background with dark arched doorway, framed minimalist artwork, soft warm indoor lighting, shallow depth of field, realistic reflections on the chrome and glass, luxury product photography, cinematic composition, highly detailed, natural textures, vertical 9:16.",
+      "covers": [
+        "/covers/x-2099094038012100890.jpg"
+      ]
+    },
+    {
+      "no": "527",
+      "id": "x-2098528281293381651",
+      "title": "左右双页手绘食谱",
+      "kicker": "食谱",
+      "excerpt": "输入两道菜的材料与步骤，在方格便笺纸上生成日文手绘双页食谱。",
+      "style": "便笺手绘食谱",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "食谱",
+        "手绘",
+        "参数模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "dishLeft",
+        "ingredientsLeft",
+        "stepLeft1",
+        "stepLeft2",
+        "stepLeft3",
+        "dishRight",
+        "ingredientsRight",
+        "stepRight1",
+        "stepRight2",
+        "stepRight3",
+        "colorTheme"
+      ],
+      "creator": {
+        "id": "AIGuideNote",
+        "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+        "handle": "AIGuideNote",
+        "url": "https://x.com/AIGuideNote"
+      },
+      "sourceUrl": "https://x.com/AIGuideNote/status/2098528281293381651",
+      "model": "Nano Banana Pro / Midjourney / DALL-E 3",
+      "date": "2026-09-11",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "【入力データ】\n・左ページの料理名: {dishLeft}\n・左ページの材料リスト: {ingredientsLeft}\n・左ページの調理手順: ①{stepLeft1} → ②{stepLeft2} → ③{stepLeft3}\n・右ページの料理名: {dishRight}\n・右ページの材料リスト: {ingredientsRight}\n・右ページの調理手順: ①{stepRight1} → ②{stepRight2} → ③{stepRight3}\n・全体のカラーテーマ: {colorTheme}\n\n【構造とレイアウトの指定】\n・スタイル: 薄いグリッド線（方眼）や温かみのある紙の質感が表現された、1枚の味のあるオフホワイトのメモ帳用紙（方眼紙）の上に描かれた、フラットな2Dの手書き風インフォグラフィックレシピ図解。\n・背景と構図の制約: 物理的な本、立体的な手帳の輪郭、ページの厚み、影、木のテーブルなどのリアルな写真背景要素は描かないでください（Absolutely NO wooden table, NO realistic book mockup, NO book thickness, NO notebook pages, NO realistic photo background. It must be a flat 2D vector layout directly on the textured grid notepad paper canvas）。\n・左側のレイアウト:\n  - 上部に大きく「{dishLeft}」という手書きの日本語タイトル。\n  - その下に、入力された材料リスト「{ingredientsLeft}」を綺麗な縦並び（箇条書き）の手書き日本語とシンプルな食材イラストで描画。\n  - 下半分には、調理手順「①{stepLeft1} → ②{stepLeft2} → ③{stepLeft3}」を横方向または縦方向の矢印フローで配置。各ステップの内容（例：切る、炒める、煮込むなど）と完全に整合する可愛い手描きイラストを配置。\n  - 左下に完成した美味しそうな「{dishLeft}」の料理イラストを配置。\n・右側のレイアウト:\n  - 上部に大きく「{dishRight}」という手書きの日本語タイトル。\n  - その下に、入力された材料リスト「{ingredientsRight}」を手書きの日本語とシンプルな食材イラストで描画。\n  - 下半分には、調理手順「①{stepRight1} → ②{stepRight2} → ③{stepRight3}」を横方向または縦方向の矢印フローで配置。各ステップの内容（例：切る、炒める、煮込むなど）と完全に整合する可愛い手描きイラストを配置。\n  - 右下に完成した美味しそうな「{dishRight}」の料理イラストを配置.\n・色彩: 「{colorTheme}」を基調とした、優しく暖かみのあるオーガニックな色合い。\n\n【品質および除外の制約（必須）】\n・画像の中に、日付（例: 「8/7」など）、曜日（例: 「SUN」など）、カレンダー枠、日付スタンプ等の日付関連要素は絶対に描かないでください（NO date stamp, NO calendar, NO day of the week, NO timeline stamp）。\n・フォントは手書き風の親しみやすい日本語フォント（ゴシックまたは丸文字）で、入力された日本語を崩れやスペルミスなく正確に描画してください。\n\n・アスペクト比: --ar 4:3",
+      "covers": [
+        "/covers/x-2098528281293381651.jpg"
+      ]
+    },
+    {
+      "no": "528",
+      "id": "x-2098480666380038330",
+      "title": "日文三步流程图",
+      "kicker": "三步图解",
+      "excerpt": "输入标题、时长和说明，把操作过程排成带插画的三步横版图解。",
+      "style": "手绘流程说明图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "流程图",
+        "三步骤",
+        "参数模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "mainTitle",
+        "step1Title",
+        "step1Period",
+        "step1Desc",
+        "step2Title",
+        "step2Period",
+        "step2Desc",
+        "step3Title",
+        "step3Period",
+        "step3Desc",
+        "colorTheme"
+      ],
+      "creator": {
+        "id": "AIGuideNote",
+        "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+        "handle": "AIGuideNote",
+        "url": "https://x.com/AIGuideNote"
+      },
+      "sourceUrl": "https://x.com/AIGuideNote/status/2098480666380038330",
+      "model": "Nano Banana Pro / DALL-E 3",
+      "date": "2026-09-11",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "【入力データ】\n・全体タイトル: {mainTitle}\n・ステップ1: タイトル「{step1Title}」/ 期間「{step1Period}」/ 説明「{step1Desc}」\n・ステップ2: タイトル「{step2Title}」/ 期間「{step2Period}」/ 説明「{step2Desc}」\n・ステップ3: タイトル「{step3Title}」/ 期間「{step3Period}」/ 説明「{step3Desc}」\n・カラーテーマ: {colorTheme}\n\n【構造とレイアウトの指定】\n・スタイル: 日本のビジネススライドや教育用マニュアル、社内資料でそのまま使える、クリーンで親しみやすい3ステップのフローチャート図解。16:9の横長スライド構成。\n・背景: すっきりとしたオフホワイトまたは白の無地背景。\n・上部タイトル:\n  - 左上に「図3」またはステップバッジを配置し、その右隣に太く見やすいゴシック体で「{mainTitle}」という日本語のメインタイトルを大きく描画してください。右端にはクリーンな抽象ロゴマークを小さく配置してください。\n・ステップカードの配置:\n  - 横並びになった3つの美しい長方形カード。左から右へ順に配置され、ステップ間は太い接続矢印で結ばれています。各カードの枠線はカラーテーマ（{colorTheme}）に沿って綺麗に色分けされています。\n・カード1（左）の内部:\n  - 丸バッジ「1」と、日本語タイトル「{step1Title}」を大きく描画。その下に「{step1Period}」と書かれたカプセル型ラベル。\n  - 中央には、メモをとる優しい手書きタッチの日本人女性と、太陽が描かれた窓のイラストを配置。\n  - 下部には、日本語の説明文「{step1Desc}」を配置。\n・カード2（中央）の内部:\n  - 丸バッジ「2」と、日本語タイトル「{step2Title}」を大きく描画。その下に「{step2Period}」と書かれたカプセル型ラベル。\n  - 中央には、懐中電灯を持つ二人の日本人女性と、夜空とビルのイラストを配置。\n  - 下部には、日本語の説明文「{step2Desc}」を配置。\n・カード3（右）の内部:\n  - 丸バッジ「3」と、日本語タイトル「{step3Title}」を大きく描画。その下に「{step3Period}」と書かれたカプセル型ラベル。\n  - 中央には、夜空と三日月のイラストと、ガッツポーズをして微笑む日本人女性のイラストを配置。\n  - 下部には、日本語の説明文「{step3Desc}」を配置。\n\n【品質・フォントの指定】\n・シンプルでクリーンな2Dイラスト、フラットデザイン、すっきりとした明確な線画。\n・文字はすべてスペルミスなく、読みやすい正確な日本語フォント（ゴシック体）で美しく描画してください。\n・一切の3D効果や影、ノートパソコン等のモックアップ背景、カメラの傾きや歪みは排除し、フラットな図解画像そのものを画面全体いっぱいに表示してください。\n\n·アスペクト比: --ar 16:9",
+      "covers": [
+        "/covers/x-2098480666380038330.jpg"
+      ]
+    },
+    {
+      "no": "529",
+      "id": "x-2098365190282805417",
+      "title": "雨窗后的赛博侦探",
+      "kicker": "侦探",
+      "excerpt": "通过布满雨滴的车窗，呈现未来侦探、同行女性与霓虹城市。",
+      "style": "赛博朋克电影剧照",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "侦探",
+        "雨窗",
+        "霓虹"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SheBuildsAI_",
+        "name": "Compound Learning - Tech | Science",
+        "handle": "SheBuildsAI_",
+        "url": "https://x.com/SheBuildsAI_"
+      },
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098365190282805417",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-11",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"title\": \"Cyberpunk Detective\",\n\n  \"image_description\": \"A cinematic cyberpunk scene viewed through a rain-soaked car window. Neon reflections dance across the glass while a handsome futuristic detective sits in the driver's seat wearing a heavy dark coat. A woman wearing a glowing translucent yellow jacket looks toward him. Flying vehicles move through a foggy futuristic city in the background.\",\n\n  \"characters\": [\n    {\n      \"role\": \"Futuristic Detective\",\n      \"position\": \"Driver's Seat\",\n      \"appearance\": \"Handsome, serious expression, heavy dark coat\",\n      \"focus\": \"Sharp Focus\"\n    },\n    {\n      \"role\": \"Mysterious Woman\",\n      \"position\": \"Passenger Seat\",\n      \"appearance\": \"Dark hair, glowing translucent yellow jacket\",\n      \"expression\": \"Quietly observing the detective\",\n      \"focus\": \"Slightly softer focus\"\n    }\n  ],\n\n  \"setting\": {\n    \"location\": \"Futuristic Vehicle Interior\",\n    \"cityscape\": \"Foggy cyberpunk megacity\",\n    \"background_elements\": [\n      \"Flying vehicles\",\n      \"Neon billboards\",\n      \"Rain-covered glass\",\n      \"Holographic lights\"\n    ]\n  },\n\n  \"cinematography\": {\n    \"shot_type\": \"Medium Close-Up\",\n    \"camera_angle\": \"Eye Level\",\n    \"lens\": \"50mm Anamorphic Lens\",\n    \"depth_of_field\": \"Shallow\",\n    \"composition\": \"Movie Still\"\n  },\n\n  \"lighting\": {\n    \"type\": \"Cinematic Lighting\",\n    \"effects\": [\n      \"Neon Reflections\",\n      \"Volumetric Lighting\",\n      \"Rain Refractions\",\n      \"Soft Ambient Glow\"\n    ]\n  },\n\n  \"mood\": [\n    \"Moody\",\n    \"Mysterious\",\n    \"Futuristic\",\n    \"Emotional\"\n  ],\n\n  \"color_palette\": [\n    \"Blue\",\n    \"Cyan\",\n    \"Yellow\"\n  ],\n\n  \"quality\": {\n    \"style\": \"Hollywood Blockbuster\",\n    \"realism\": \"Ultra Photorealistic\",\n    \"resolution\": \"8K\",\n    \"details\": [\n      \"Perfect Reflections\",\n      \"Photorealistic Faces\",\n      \"Film Grain\",\n      \"Volumetric Fog\",\n      \"Realistic Depth of Field\",\n      \"Award-Winning Cinematography\",\n      \"IMAX Quality\",\n      \"Cinematic Storytelling\",\n      \"Masterpiece\"\n    ]\n  }\n}",
+      "covers": [
+        "/covers/x-2098365190282805417.jpg"
+      ]
+    },
+    {
+      "no": "530",
+      "id": "x-2098087685348892674",
+      "title": "红底黑墨杂志封面",
+      "kicker": "黑墨",
+      "excerpt": "用密集排线与不规则墨迹塑造主体，让黑白人物与鲜红底色形成冲突。",
+      "style": "黑墨线描杂志拼贴",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "identity"
+      ],
+      "tags": [
+        "排线",
+        "红黑",
+        "杂志封面"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "HustleXR",
+        "name": "Zayan",
+        "handle": "HustleXR",
+        "url": "https://x.com/HustleXR"
+      },
+      "sourceUrl": "https://x.com/HustleXR/status/2098087685348892674",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Ultra-detailed blue ballpoint pen illustration translated into monochrome black ink, dense cross-hatching and fine hatch shading, intricate biro sketch texture, obsessive linework, engraved contour rendering, hand-drawn pen illustration aesthetic, expressive organic strokes, editorial surreal composition, high-detail facial rendering, layered sketchbook construction lines, vintage technical scribbles and handwritten notes in pure white only over bold red background, white typographic annotations integrated into backdrop, underground zine poster aesthetic, raw imperfect ink marks, high-contrast black ink subject against vivid red field, experimental graphic design, avant-garde magazine cover style --ar 9:16 --stylize 750.",
+      "covers": [
+        "/covers/x-2098087685348892674.jpg",
+        "/covers/x-2098087685348892674-2.jpg"
+      ]
+    },
+    {
+      "no": "531",
+      "id": "x-2098078552193384859",
+      "title": "未曾到来的明天博物馆",
+      "kicker": "博物馆",
+      "excerpt": "把未穿的婚纱、未获的奖章和放弃的梦想陈列进地下博物馆。",
+      "style": "情绪概念电影场景",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "opinion"
+      ],
+      "tags": [
+        "博物馆",
+        "遗憾",
+        "视觉隐喻"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SheBuildsAI_",
+        "name": "Compound Learning - Tech | Science",
+        "handle": "SheBuildsAI_",
+        "url": "https://x.com/SheBuildsAI_"
+      },
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098078552193384859",
+      "model": "GPT Image 2",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"title\": \"The Museum of Lost Tomorrows\",\n\n  \"image_description\": \"A vast underground museum hidden beneath a forgotten city. The architecture is breathtaking, with endless marble hallways illuminated by warm golden light filtering through giant glass ceilings. Thousands of glass display cases stretch endlessly into the distance. Inside each case is a future that never happened. One contains a wedding dress that was never worn. Another holds a Nobel Prize medal that was never earned. Another displays a dusty guitar beside a sold-out world tour poster from a musician who gave up too soon. Visitors walk silently through the museum, staring at the exhibits with tears in their eyes.\",\n\n  \"main_subject\": {\n    \"character\": \"A young man standing alone\",\n    \"appearance\": \"Dark overcoat, slightly worn shoes, tired eyes\",\n    \"expression\": \"Shocked and emotional\",\n    \"focus\": \"Sharp focus\"\n  },\n\n  \"story_element\": {\n    \"twist\": \"At the end of the museum, he discovers an entire room dedicated to his own abandoned dreams.\",\n    \"question\": \"What would you do if you could see the life you almost lived?\"\n  },\n\n  \"environment\": {\n    \"location\": \"Underground Museum\",\n    \"lighting\": \"Golden cinematic lighting\",\n    \"atmosphere\": \"Silent, emotional, sacred\"\n  },\n\n  \"cinematography\": {\n    \"camera\": \"ARRI Alexa 65\",\n    \"lens\": \"50mm anamorphic\",\n    \"shot_type\": \"Wide cinematic shot\",\n    \"depth_of_field\": \"Shallow\",\n    \"composition\": \"Award-winning storytelling frame\"\n  },\n\n  \"mood\": [\n    \"Heartbreaking\",\n    \"Thought-provoking\",\n    \"Melancholic\",\n    \"Beautiful\"\n  ],\n\n  \"style\": {\n    \"reference\": \"Christopher Nolan meets Denis Villeneuve\",\n    \"quality\": \"Ultra photorealistic\",\n    \"resolution\": \"8K\",\n    \"film_grain\": true,\n    \"volumetric_lighting\": true\n  }\n}",
+      "covers": [
+        "/covers/x-2098078552193384859.jpg"
+      ]
+    },
+    {
+      "no": "532",
+      "id": "x-2098002802375303462",
+      "title": "雾中最后一班归家列车",
+      "kicker": "归途",
+      "excerpt": "旅人带着旧皮箱等在山间废弃站台，一辆不该出现的列车从雪雾里驶来。",
+      "style": "奇幻归途电影场景",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "feeling"
+      ],
+      "tags": [
+        "列车",
+        "雪雾",
+        "归家"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SheBuildsAI_",
+        "name": "Compound Learning - Tech | Science",
+        "handle": "SheBuildsAI_",
+        "url": "https://x.com/SheBuildsAI_"
+      },
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2098002802375303462",
+      "model": "GPT Image 2",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "{\n  \"title\": \"The Last Train Home\",\n\n  \"image_description\": \"A breathtaking cinematic scene at an abandoned train station lost in the mountains. Thick fog rolls across the empty platform. Vintage lamps cast warm golden light through the mist. A lone traveler wearing a dark wool coat stands beside an old leather suitcase. An ancient train slowly emerges from the fog. Every window glows softly. Snow falls silently around the station. Above the platform hangs a weathered sign that reads: HOME. The traveler's eyes fill with emotion as he realizes the train should not exist.\",\n\n  \"story_element\": {\n    \"twist\": \"The train only appears once, exactly one hour before a person dies.\"\n  },\n\n  \"environment\": {\n    \"location\": \"Forgotten mountain railway station\",\n    \"weather\": \"Snowfall and dense fog\",\n    \"time\": \"Midnight\"\n  },\n\n  \"cinematography\": {\n    \"shot_type\": \"Wide cinematic shot\",\n    \"camera\": \"ARRI Alexa 65\",\n    \"lens\": \"50mm anamorphic\",\n    \"composition\": \"Symmetrical storytelling frame\"\n  },\n\n  \"lighting\": {\n    \"type\": \"Warm vintage lamps mixed with cold moonlight\",\n    \"effects\": [\n      \"Volumetric fog\",\n      \"Snow particles\",\n      \"Atmospheric glow\"\n    ]\n  },\n\n  \"mood\": [\n    \"Emotional\",\n    \"Mysterious\",\n    \"Bittersweet\",\n    \"Nostalgic\"\n  ],\n\n  \"quality\": {\n    \"style\": \"Award-winning cinematic masterpiece\",\n    \"realism\": \"Ultra photorealistic\",\n    \"resolution\": \"8K\",\n    \"IMAX_quality\": true,\n    \"film_grain\": true\n  }\n}",
+      "covers": [
+        "/covers/x-2098002802375303462.jpg"
+      ]
+    },
+    {
+      "no": "533",
+      "id": "x-2097985361729220828",
+      "title": "宝箱冒险游戏活动主视觉",
+      "kicker": "游戏活动",
+      "excerpt": "输入游戏名与活动文案，让可爱角色打开宝箱，生成明亮的横版活动画面。",
+      "style": "奇幻Q版游戏主视觉",
+      "category": "announcement",
+      "scenarios": [
+        "announcement",
+        "concept"
+      ],
+      "tags": [
+        "Q版",
+        "宝箱",
+        "活动海报"
+      ],
+      "medium": "image",
+      "slots": [
+        "title",
+        "description",
+        "subtext"
+      ],
+      "creator": {
+        "id": "AIGuideNote",
+        "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+        "handle": "AIGuideNote",
+        "url": "https://x.com/AIGuideNote"
+      },
+      "sourceUrl": "https://x.com/AIGuideNote/status/2097985361729220828",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "【ゲーム・キャンペーン】\n・ゲームタイトル: {title}\n・ゲーム概要/特徴: {description}\n・ジャンル・サブテキスト: {subtext}\n\n【画質・演出・構図指定】\n・スタイル: 日本のモバイルRPGやカジュアルゲームのイベント告知用イラスト。カラフルで楽しげなファンタジー世界観。\n・被写体: 笑顔で宝箱を開けている愛らしいちびキャラ（デフォルメされた勇者やマスコット）たち。宝箱から黄金の光や魔法のパーティクルが眩しく溢れ出している。\n・背景: 青い空と白い雲、緑豊かなファンタジー世界の島々や森。\n・タイポグラフィ（GPT-image / Nano Banana Pro向け）: 画面の中央または上部に、{title}というファンタジー風の装飾的なロゴタイプがデザインされ、{description}や{subtext}が読みやすいレイアウトで添えられている。\n・色彩・照明: 明るく彩度の高いファンタジーカラー、マジカルな光沢とソフトな陰影描写。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: --ar 16:9",
+      "covers": [
+        "/covers/x-2097985361729220828.jpg"
+      ]
+    },
+    {
+      "no": "534",
+      "id": "x-2097923838449516732",
+      "title": "照片变旅行彩铅手账",
+      "kicker": "旅行手账",
+      "excerpt": "保留建筑、人物与透视，把旅行照片转成暖色纸上的彩铅水彩记录。",
+      "style": "旅行彩铅水彩手账",
+      "category": "memory",
+      "scenarios": [
+        "memory"
+      ],
+      "tags": [
+        "旅行",
+        "彩铅",
+        "水彩"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "selinatasnim1",
+        "name": "Selina",
+        "handle": "selinatasnim1",
+        "url": "https://x.com/selinatasnim1"
+      },
+      "sourceUrl": "https://x.com/selinatasnim1/status/2097923838449516732",
+      "model": "GPT Image 2",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Transform the reference photograph into a delicate hand-drawn travel journal illustration while preserving the original composition, architecture, people, trees, grass, road, and overall perspective. Use a traditional colored-pencil and watercolor sketch aesthetic on warm, slightly aged cream paper. Keep the buildings recognizable but simplify them into expressive hand-drawn shapes, with visible pencil strokes, loose watercolor washes, subtle paper grain, imperfect outlines, and gentle cross-hatching. Preserve the peaceful rainy-day atmosphere, soft overcast sky, warm beige and muted buildings, fresh green lawn, scattered people walking with umbrellas, wet pavement, trees, benches, puddles, and distant cars. Use a muted vintage travel-sketch palette with natural imperfections and understated colors. Place the illustration in the lower portion of the page with generous cream-colored negative space around it. Add elegant handwritten typography above: “Rainy Days”, and below: “— Quiet moments —”. Minimal, nostalgic, artistic travel magazine aesthetic, analog photography transformed into a personal sketchbook memory, sophisticated and authentic, no photorealism.",
+      "covers": [
+        "/covers/x-2097923838449516732.jpg"
+      ]
+    },
+    {
+      "no": "535",
+      "id": "x-2097880100587135480",
+      "title": "论文变学术会议海报",
+      "kicker": "学术海报",
+      "excerpt": "让模型先查会议海报规范，再依据上传论文整理学术海报。",
+      "style": "论文信息排版",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "论文",
+        "学术海报",
+        "短指令"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "_daichikonno",
+        "name": "Daichi Konno / 紺野 大地",
+        "handle": "_daichikonno",
+        "url": "https://x.com/_daichikonno"
+      },
+      "sourceUrl": "https://x.com/_daichikonno/status/2097880100587135480",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-10",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 使用时需提供论文，并人工复核会议规范、学术事实与引用。",
+      "prompt": "2026年の神経科学大会で学会発表するためのポスター規定を調べ、それに従い添付論文をポスターにして",
+      "covers": [
+        "/covers/x-2097880100587135480.jpg"
+      ]
+    },
+    {
+      "no": "536",
+      "id": "x-2097832162586407176",
+      "title": "用实物材质讲清信息",
+      "kicker": "立体图解",
+      "excerpt": "先比较三种表达方案，再用竹简、书本或部件等题材相关物件解释关系与变化。",
+      "style": "哑光三维信息图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "三维图解",
+        "信息设计",
+        "材质"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "akira_papa_IT",
+        "name": "あきらパパ【生成AI活用エンジニア&３児のパパ】",
+        "handle": "akira_papa_IT",
+        "url": "https://x.com/akira_papa_IT"
+      },
+      "sourceUrl": "https://x.com/akira_papa_IT/status/2097832162586407176",
+      "model": "",
+      "date": "2026-09-09",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "あなたは、情報編集者・図解デザイナー・3Dアートディレクターです。\n・内容に合う視覚表現を3案比較し、最も直感的な1案を採用する。\n・題材固有の物や素材で説明する。古典なら本・竹簡・紙、製造なら部品・組立など。\n・上品なマット素材、柔らかな光、自然な奥行き。立体表現で順序・関係・変化を伝える。",
+      "covers": [
+        "/covers/x-2097832162586407176.jpg"
+      ]
+    },
+    {
+      "no": "537",
+      "id": "x-2097623415939076175",
+      "title": "皮革质感奢品静物广告",
+      "kicker": "奢品",
+      "excerpt": "输入商品与品牌文案，以皮革、金属细节和暗调光线表现工艺质感。",
+      "style": "奢品工艺静物摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "皮革",
+        "金属",
+        "参数模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "goldText",
+        "subtext",
+        "products"
+      ],
+      "creator": {
+        "id": "AIGuideNote",
+        "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+        "handle": "AIGuideNote",
+        "url": "https://x.com/AIGuideNote"
+      },
+      "sourceUrl": "https://x.com/AIGuideNote/status/2097623415939076175",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-09",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "【商品・キャンペーン情報】\n・アピールテキスト: {goldText}\n・ブランドコピー: {subtext}\n・対象製品: {products}\n\n【画質・演出・構図指定】\n・スタイル: 高級ハイブランドのカタログやラグジュアリーな雑誌見開きの静物画（スティルライフ）商品写真。\n・被写体: 深みのあるビンテージレザーや上質なダークトーンのテクスチャ上に配置された{products}。職人の手仕事を感じさせる細部（ステッチや金属のヘアライン加工など）が美しくディテール豊かに描かれている。\n・照明・色彩: 深みのあるダークブラウンや黒、真鍮のゴールドを基調としたカラーパレット。アンバー調の暖かいサイドライト、クラシックで重厚なシャドウ。\n・テキストの配置（GPT-image / Nano Banana Pro向け）: ゴールド色の細いフォントで、{goldText}や{subtext}というテキストが画面の落ち着いた位置にさりげなくタイポグラフィとして配置されている。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: --ar 3:4",
+      "covers": [
+        "/covers/x-2097623415939076175.jpg"
+      ]
+    },
+    {
+      "no": "538",
+      "id": "x-2097610973389426800",
+      "title": "怪兽甲壳虫直线竞速",
+      "kicker": "竞速",
+      "excerpt": "让夸张怪兽驾驶改装甲壳虫跃起，在涂鸦招牌和火焰中构成漫画赛车场面。",
+      "style": "涂鸦怪兽赛车漫画",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "怪兽",
+        "改装车",
+        "涂鸦"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "heathergreen",
+        "name": "Heather Green",
+        "handle": "heathergreen",
+        "url": "https://x.com/heathergreen"
+      },
+      "sourceUrl": "https://x.com/heathergreen/status/2097610973389426800",
+      "model": "Nano Banana 2",
+      "date": "2026-09-09",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A vibrant, cartoonish illustration depicts a monstrous green creature with bulging eyes and sharp teeth driving a souped-up pink Volkswagen Beetle. The car is adorned with flames and the words \"BEETLE BOMBER\" and \"RAT ROD.\" The creature wears a racing helmet and is shown mid-air, with smoke and flames billowing from the rear tires and exhaust pipes. In the background, a crowd of equally bizarre characters cheers from behind a \"DRAG STRIP\" sign. Neon signs for \"BEETLE JUICE,\" \"COLD BEER,\" and \"NITRO\" add to the chaotic, high-energy atmosphere of a drag race. The art style is reminiscent of comic books and graffiti, with bold outlines and saturated colors.",
+      "covers": [
+        "/covers/x-2097610973389426800.jpg"
+      ]
+    },
+    {
+      "no": "539",
+      "id": "x-2097554757506539972",
+      "title": "草图变采光卧室展示",
+      "kicker": "室内",
+      "excerpt": "依照手绘布局摆放床、办公桌、落地窗与猫窝，生成接近日常手机摄影的房间画面。",
+      "style": "草图驱动室内摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "concept"
+      ],
+      "tags": [
+        "草图",
+        "室内",
+        "房间布局"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "AnXin_37",
+        "name": "安伈XinAn",
+        "handle": "AnXin_37",
+        "url": "https://x.com/AnXin_37"
+      },
+      "sourceUrl": "https://x.com/AnXin_37/status/2097554757506539972",
+      "model": "",
+      "date": "2026-09-09",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 使用时需提供布局草图。 首图优先展示结果图，其余样图保留原帖参考照片或草图。",
+      "prompt": "做一张房间实景宣传图片，用来向我的租户进行宣传我的房间，主题是房间布局，左边大落地窗，很好的太阳和采光，落地窗旁边有猫窝，上面躺着一只橘猫，卧室房间内有一张很大的办公桌面，桌面放置着电脑键盘鼠标手机等日常使用的事物，有一名中国年轻男性坐在一个人体工学椅上进行操作电脑。电脑桌右边有一张单人床。整体位置关系如草图所示，光线与材质像用手机实拍的卧室画面。硬要求：必须出现草图内画的所有物品，包括窗外的太阳。需要避免的问题：不要出现任何违背真实日常生活的元素和现象。其余比例，房间内其他事物，以及图片其他要求由你自行决定，以达到自然真实而不过于刻意的效果",
+      "covers": [
+        "/covers/x-2097554757506539972-2.jpg",
+        "/covers/x-2097554757506539972.jpg"
+      ]
+    },
+    {
+      "no": "540",
+      "id": "x-2097112687675117974",
+      "title": "帆船发髻的复古讽刺画",
+      "kicker": "讽刺画",
+      "excerpt": "把帆船装进夸张发髻，用室内陈设与港口远景营造十八世纪讽刺版画趣味。",
+      "style": "英式复古讽刺版画",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "concept"
+      ],
+      "tags": [
+        "讽刺画",
+        "复古",
+        "夸张造型"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "heathergreen",
+        "name": "Heather Green",
+        "handle": "heathergreen",
+        "url": "https://x.com/heathergreen"
+      },
+      "sourceUrl": "https://x.com/heathergreen/status/2097112687675117974",
+      "model": "Nano Banana 2",
+      "date": "2026-09-08",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A vintage British caricature depicts a woman with an elaborate hairstyle adorned with a sailing ship, flowers, and feathers. She is seated in an ornate chair, wearing a richly decorated dress and holding a fan. The background shows a lavish interior with a fireplace, clock, and a window overlooking a harbor scene. A small dog sits on a cushion to her right. The overall style is that of a 18th-century satirical print.",
+      "covers": [
+        "/covers/x-2097112687675117974.jpg"
+      ]
+    },
+    {
+      "no": "541",
+      "id": "x-2096954809534570766",
+      "title": "抱臂武术少女墨彩设定",
+      "kicker": "武术",
+      "excerpt": "以深绿武术袍、金色闪电纹样与黑白泼墨背景塑造坚定的动漫角色。",
+      "style": "墨彩武术角色插画",
+      "category": "concept",
+      "scenarios": [
+        "concept"
+      ],
+      "tags": [
+        "武术",
+        "泼墨",
+        "动漫角色"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "lovimg_com",
+        "name": "lovimg_com",
+        "handle": "lovimg_com",
+        "url": "https://x.com/lovimg_com"
+      },
+      "sourceUrl": "https://x.com/lovimg_com/status/2096954809534570766",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-07",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A stylized digital anime illustration of a young East Asian girl with a serious, determined expression, standing with arms crossed over her chest. She has messy, short black hair tied partially into a loose topknot bun with stray strands framing her face, dark expressive eyes, and fair skin. She wears a loose, oversized dark forest-green martial arts kimono robe with light sage inner lining, wide folded cuffs, a black sash (obi) tied at the waist, and striking yellow-gold lightning bolt patterns across the chest. Dynamic ink splatter background in bold black, white, and vivid warm yellow-orange hues, vector art meets comic book illustration style, cel shading, sharp outlines, painterly brush strokes, dramatic lighting, high contrast, vertical portrait --ar 1:2 --v 6.0",
+      "covers": [
+        "/covers/x-2096954809534570766.jpg"
+      ]
+    },
+    {
+      "no": "542",
+      "id": "x-2096906819713081810",
+      "title": "极简服装电商陈列网格",
+      "kicker": "电商陈列",
+      "excerpt": "输入品牌、系列与价格，把服装配件排成柔光、大地色的商品展示网格。",
+      "style": "极简服装陈列摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "电商",
+        "平铺",
+        "参数模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "brandName",
+        "collection",
+        "backpackPrice"
+      ],
+      "creator": {
+        "id": "AIGuideNote",
+        "name": "AI Guide-Note - 実務で使えるAI活用メディア",
+        "handle": "AIGuideNote",
+        "url": "https://x.com/AIGuideNote"
+      },
+      "sourceUrl": "https://x.com/AIGuideNote/status/2096906819713081810",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-07",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "【ブランド・商品情報】\n・ブランド名: {brandName}\n・コレクション名: {collection}\n・代表的なアイテム価格: {backpackPrice}\n\n【画質・演出・構図指定】\n・スタイル: ミニマルで洗練された日本のファッション・ライフスタイルブランドのECサイト用ルックブック写真。\n・構図: 自然光が差し込むスタジオのフローリングまたはコンクリート床の上に、丁寧に配置されたアパレルアイテム（バッグ、アウター、シューズなど）のフラットレイ（平置き）または整然としたディスプレイ。\n・タイポグラフィの配置（GPT-image / Nano Banana Pro向け）: 画面の隅に控えめに、{brandName}というブランド名や{collection}のテキスト、{backpackPrice}の価格表記が、極細のフォントで配置されている。\n・照明・色彩: 曇り日の自然光のような非常に柔らかい光、低コントラスト、アースカラー（ベージュ、オリーブ、チャコールグレー、オフホワイト）を基調とした落ち着いたトーン。\n\n【レイアウトおよび出力上の厳格な制約（必須）】\n・完成したデザインそのものを、画面全体いっぱいに出力してください。デザイン内部の背景やシーン描写（壁・空間・影など）は本文の指示に従って構いません。\n・禁止事項：完成ポスターを額縁に入れた写真、壁に貼った状態の写真、机や紙の上に置いたモックアップ写真、紙の縁の遠近の歪みやドロップシャドウ。\n・Output the finished flat 2D design itself, filling the entire canvas. Scene elements inside the design (walls, rooms, shadows) described above are allowed. Absolutely NO photo-of-a-poster mockups: no picture frames, no poster-on-wall or poster-on-desk shots, no perspective warp or drop shadow around the artwork's edges.\n\n・アスペクト比: 「--ar 1:1」または「--ar 4:3」",
+      "covers": [
+        "/covers/x-2096906819713081810.jpg"
+      ]
+    },
+    {
+      "no": "543",
+      "id": "x-2096833097740493050",
+      "title": "枫糖浆八格广告分镜",
+      "kicker": "食品分镜",
+      "excerpt": "用一页八个镜头说明枫糖浆广告的质地、包装与食欲表现。",
+      "style": "高端食品广告分镜",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "story"
+      ],
+      "tags": [
+        "枫糖浆",
+        "八格分镜",
+        "食品广告"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Strength04_X",
+        "name": "M-studioAi",
+        "handle": "Strength04_X",
+        "url": "https://x.com/Strength04_X"
+      },
+      "sourceUrl": "https://x.com/Strength04_X/status/2096833097740493050",
+      "model": "Nano Banana 2 / Gemini Omni Flash 1.1",
+      "date": "2026-09-07",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 本条按原帖静态样图归入图像库，不代表已经生成或核验视频。",
+      "prompt": "TITLE:\nPremium Maple Syrup Product Commercial Storyboard\n\nFORMAT:\n• Single-page premium storyboard\n• 3:4 Portrait ratio\n• Luxury food product advertising\n• 8 cinematic product-focused scenes\n• Product remains the main hero\n• High-end advertising agency presentation\n\nHEADER:\n• Elegant serif typography\n• Information cards:\n  - Duration: 20 Seconds\n  - Style: Cinematic Gourmet Food Commercial\n  - Product: Pure Maple Syrup\n  - Audio: Slow Pour + Soft Food ASMR\n• Why This Style Works section\n• Warm amber, cream and dark brown aesthetic\n• Minimal maple leaf decorative accents\n\nSTORYBOARD:\n1. Premium maple syrup bottle standing on polished dark wood\n2. Bottle cap opening in extreme macro\n3. Golden syrup slowly flowing from the bottle\n4. Syrup forming a glossy ribbon in mid-air\n5. Syrup cascading over fluffy pancakes\n6. Extreme macro showing rich syrup texture and tiny reflections\n7. Pancake stack surrounded by the hero bottle and maple leaves\n8. Final luxury product packshot with dramatic syrup pour\n\nEVERY PANEL:\n• Scene number\n• Duration badge\n• Camera direction\n• Visual\n• Action\n• Product detail\n\nCAMERA:\nExtreme macro, slow-motion liquid photography, overhead food shot, controlled push-in, shallow depth of field, cinematic hero framing.\n\nSTYLE:\nUltra-realistic food advertising, realistic syrup viscosity, glossy golden texture, warm studio lighting, premium glass packaging, sophisticated gourmet presentation, 8K.",
+      "covers": [
+        "/covers/x-2096833097740493050.jpg"
+      ]
+    },
+    {
+      "no": "544",
+      "id": "x-2096750301134881054",
+      "title": "黏土变色龙微缩森林",
+      "kicker": "微缩",
+      "excerpt": "以苔藓枝条、奇异果实和柔焦森林，搭建色彩鲜明的黏土变色龙世界。",
+      "style": "黏土微缩童话",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "黏土",
+        "变色龙",
+        "微缩森林"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "heathergreen",
+        "name": "Heather Green",
+        "handle": "heathergreen",
+        "url": "https://x.com/heathergreen"
+      },
+      "sourceUrl": "https://x.com/heathergreen/status/2096750301134881054",
+      "model": "Nano Banana 2",
+      "date": "2026-09-07",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "A vibrant, whimsical claymation scene depicts a colorful chameleon perched on a moss-covered branch in a lush, fantastical forest. The chameleon, with its intricate patterns of green, blue, orange, and yellow scales, gazes intently to the left. Surrounding it are an array of fantastical flora and fauna, also rendered in clay. These include glowing mushrooms, peculiar flowers with eyeball centers, whimsical insects with googly eyes, and strange, bulbous fruits. The background is a soft blur of more trees and foliage, creating a sense of depth and enchantment. The overall impression is one of a magical, miniature world brought to life.",
+      "covers": [
+        "/covers/x-2096750301134881054.jpg"
+      ]
+    },
+    {
+      "no": "545",
+      "id": "x-2096437155606196729",
+      "title": "暖边光复古动漫人物",
+      "kicker": "动漫",
+      "excerpt": "结合干净墨线、赛璐璐明暗和青橙色光线，构建带旧杂志气息的人物插画。",
+      "style": "复古电影感动漫插画",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "tags": [
+        "赛璐璐",
+        "青橙",
+        "复古动漫"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "HustleXR",
+        "name": "Zayan",
+        "handle": "HustleXR",
+        "url": "https://x.com/HustleXR"
+      },
+      "sourceUrl": "https://x.com/HustleXR/status/2096437155606196729",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-06",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Cinematic 2D digital illustration, polished semi-realistic anime aesthetic, clean bold linework, smooth cel shading blended with soft painterly gradients, expressive detailed facial rendering, subtly exaggerated proportions, glossy eyes, natural skin texture, dimensional hair with individual flowing strands, warm rim lighting, moody teal-and-amber color grading, muted vintage tones, soft ambient shadows, slightly grainy texture, nostalgic 1990s/2000s editorial-poster vibe, atmospheric indoor lighting, highly polished character art, crisp details, depth and cinematic composition, vertical 9:16.",
+      "covers": [
+        "/covers/x-2096437155606196729.jpg",
+        "/covers/x-2096437155606196729-2.jpg",
+        "/covers/x-2096437155606196729-3.jpg"
+      ]
+    },
+    {
+      "no": "546",
+      "id": "x-2096274439260516678",
+      "title": "可换商品的棚拍广告模板",
+      "kicker": "棚拍模板",
+      "excerpt": "替换商品名与背景色，用柔光、三分之四视角和材质细节生成商品主图。",
+      "style": "中性背景商品棚拍",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "商品主图",
+        "柔光",
+        "参数模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "PRODUCT NAME"
+      ],
+      "creator": {
+        "id": "denygen9",
+        "name": "Deny",
+        "handle": "denygen9",
+        "url": "https://x.com/denygen9"
+      },
+      "sourceUrl": "https://x.com/denygen9/status/2096274439260516678",
+      "model": "GPT Image 2",
+      "date": "2026-09-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。",
+      "prompt": "Professional advertising product photo of \"[PRODUCT NAME]\", studio shot on a neutral background [background color, e.g. light beige / blue gradient], soft diffused lighting, subtle shadows, product centered in frame, three-quarter angle view, high detail on material texture, clean modern aesthetic in the style of premium brand campaigns, 4K resolution, 1:1 aspect ratio",
+      "covers": [
+        "/covers/x-2096274439260516678.jpg",
+        "/covers/x-2096274439260516678-2.jpg"
+      ]
+    },
+    {
+      "no": "547",
+      "id": "x-2096191621838864712",
+      "title": "家庭晚餐九格电影镜头",
+      "kicker": "家庭晚餐",
+      "excerpt": "围绕同一人物吃饭、倾听与讲故事的动作，排成暖色家庭晚餐九格镜头。",
+      "style": "家庭生活电影接触表",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "memory"
+      ],
+      "tags": [
+        "九宫格",
+        "家庭晚餐",
+        "角色一致性"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SheBuildsAI_",
+        "name": "Compound Learning - Tech | Science",
+        "handle": "SheBuildsAI_",
+        "url": "https://x.com/SheBuildsAI_"
+      },
+      "sourceUrl": "https://x.com/SheBuildsAI_/status/2096191621838864712",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言与原文写法；中文标题、摘要和应用场景为编辑整理。模型仅按作者标注，未独立复现。 本条按原帖静态样图归入图像库，不代表已经生成或核验视频。",
+      "prompt": "{\n  \"title\": \"Warm Family Dinner Cinematic Contact Sheet\",\n  \"format\": \"3x3 contact sheet collage\",\n  \"subject\": \"A young woman with natural wavy dark hair, wearing a loose brown linen button-up shirt, sitting at a wooden dining table during a cozy family dinner\",\n  \"environment\": \"Traditional family dining room, vintage wallpaper, wooden china cabinet filled with plates and glassware, warm tungsten household lighting, realistic home atmosphere\",\n  \"composition\": {\n    \"grid\": \"3x3 storyboard frames\",\n    \"shots\": [\n      \"medium shot talking with expressive hands\",\n      \"close-up laughing naturally\",\n      \"side view serving lasagna from casserole dish\",\n      \"close-up listening with chin resting on hand\",\n      \"medium shot eating dinner while looking down\",\n      \"close-up tasting food with playful expression\",\n      \"medium shot telling an animated story\",\n      \"close-up smiling softly while holding a fork\",\n      \"wide shot alone at dining table after conversation\"\n    ]\n  },\n  \"camera\": {\n    \"lens\": \"50mm and 85mm prime lenses\",\n    \"depth_of_field\": \"shallow\",\n    \"focus\": \"sharp focus on subject, creamy background bokeh\",\n    \"framing\": \"cinematic coverage from multiple angles\"\n  },\n  \"lighting\": {\n    \"type\": \"warm practical household lighting\",\n    \"color_temperature\": \"3200K\",\n    \"mood\": \"cozy, intimate, nostalgic\",\n    \"shadows\": \"soft natural shadows\"\n  },\n  \"style\": {\n    \"photorealistic\": true,\n    \"cinematic\": true,\n    \"natural_expressions\": true,\n    \"slice_of_life\": true,\n    \"authentic_human_moments\": true,\n    \"award_winning_film_still\": true\n  },\n  \"color_grading\": {\n    \"palette\": \"warm amber, brown, cream, beige\",\n    \"contrast\": \"soft cinematic contrast\",\n    \"look\": \"Kodak Vision3 film emulation\"\n  },\n  \"details\": [\n    \"genuine laughter\",\n    \"natural eye contact\",\n    \"subtle facial expressions\",\n    \"realistic skin texture\",\n    \"wooden dining furniture\",\n    \"home-cooked meal\",\n    \"candid documentary photography\",\n    \"family gathering atmosphere\"\n  ],\n  \"quality\": {\n    \"resolution\": \"8K\",\n    \"detail\": \"ultra detailed\",\n    \"realism\": \"hyper realistic\"\n  },\n  \"negative_prompt\": [\n    \"anime\",\n    \"cartoon\",\n    \"cgi\",\n    \"plastic skin\",\n    \"overprocessed face\",\n    \"low resolution\",\n    \"extra fingers\",\n    \"distorted anatomy\",\n    \"text\",\n    \"watermark\",\n    \"logo\"\n  ]\n}",
+      "covers": [
+        "/covers/x-2096191621838864712.jpg"
       ]
     }
   ],
