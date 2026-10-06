@@ -67,6 +67,7 @@ try {
   );
   checks.push("scenario filter includes secondary uses");
   for (const category of db.categories) {
+    if (!db.prompts.some((p) => p.medium === "image" && p.scenarios.includes(category.id))) continue;
     await page
       .getByRole("navigation", { name: "应用场景" })
       .getByRole("button", { name: category.name, exact: true })
@@ -172,6 +173,16 @@ try {
   await page.getByRole("button", { name: "编号", exact: true }).click();
   assert.equal(await cards.first().getAttribute("data-no"), "001");
   checks.push("video library and use filter, date and number sorting");
+
+  await page.getByRole("button", { name: "视频风格", exact: true }).click();
+  await page.getByRole("button", { name: "重置筛选", exact: true }).click();
+  await page.getByRole("button", { name: "代码成片", exact: true }).click();
+  await waitCount(db.prompts.filter((p) => p.category === "code").length);
+  assert.deepEqual(
+    await cards.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-no")).sort()),
+    db.prompts.filter((p) => p.category === "code").map((p) => p.no).sort(),
+  );
+  checks.push("code-rendered videos are available as a collection without losing their application intent");
 
   await page.goto(`${url}#016`, { waitUntil: "networkidle" });
   await page.locator(".folio-detail-dialog").waitFor();

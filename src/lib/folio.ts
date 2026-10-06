@@ -9,7 +9,8 @@ export type CategoryId =
   | "announcement"
   | "opinion"
   | "story"
-  | "concept";
+  | "concept"
+  | "code";
 
 export type Medium = "image" | "video";
 
@@ -61,7 +62,7 @@ export const useName = Object.fromEntries(folio.uses.map((u) => [u.id, u.name]))
 >;
 
 export function matchesCategory(p: FolioPrompt, category: CategoryId | "all"): boolean {
-  return category === "all" || p.scenarios.includes(category);
+  return category === "all" || p.category === category || p.scenarios.includes(category);
 }
 
 export function scenarioNames(p: FolioPrompt): string {

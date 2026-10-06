@@ -24,7 +24,13 @@ for (const [index, p] of db.prompts.entries()) {
   assert.equal(p.no, String(index + 1).padStart(3, "0"), "Number order changed");
   assert.ok(categories[p.category], `Unknown category ${p.no}`);
   assert.ok(Array.isArray(p.scenarios) && p.scenarios.length > 0, `Missing scenarios ${p.no}`);
-  assert.equal(p.scenarios[0], p.category, `Primary scenario differs ${p.no}`);
+  if (p.category === "code") {
+    assert.equal(p.medium, "video", `Code collection requires video ${p.no}`);
+    assert.equal(p.visualCategory, "code", `Code collection metadata differs ${p.no}`);
+    assert.ok(!p.scenarios.includes("code"), `Code records need application scenarios ${p.no}`);
+  } else {
+    assert.equal(p.scenarios[0], p.category, `Primary scenario differs ${p.no}`);
+  }
   assert.equal(new Set(p.scenarios).size, p.scenarios.length, `Duplicate scenario ${p.no}`);
   for (const id of p.scenarios) assert.ok(categories[id], `Unknown scenario ${p.no}: ${id}`);
   assert.ok(["image", "video"].includes(p.medium));
@@ -119,7 +125,7 @@ function renderCatalog() {
   }
   lines.push(`# 视频（${videos.length}）`, "");
   for (const category of db.categories) {
-    const items = videos.filter((p) => p.scenarios.includes(category.id));
+    const items = videos.filter((p) => p.category === category.id || p.scenarios.includes(category.id));
     if (!items.length) continue;
     lines.push(`## ${category.name}（${items.length}）`, "", category.blurb, "");
     table(items);

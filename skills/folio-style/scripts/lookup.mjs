@@ -129,7 +129,7 @@ if (args[0] === "--category") {
     );
     process.exit(1);
   }
-  for (const p of pool.filter((p) => p.scenarios.includes(cat.id))) console.log(line(p));
+  for (const p of pool.filter((p) => p.category === cat.id || p.scenarios.includes(cat.id))) console.log(line(p));
   process.exit(0);
 }
 

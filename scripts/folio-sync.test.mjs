@@ -88,3 +88,20 @@ test("duplicate stable numbers are rejected before exporting", (t) => {
   assert.match(failed.stderr, /Duplicate number/);
   assert.throws(() => readFileSync(join(root, "src/data/prompts.json")), { code: "ENOENT" });
 });
+
+test("code-rendered videos export with their separate application intent", (t) => {
+  const { root, db, run } = fixture(t);
+  db.categories.push({ id: "code", name: "代码成片", blurb: "代码渲染的视频" });
+  db.uses.push({ id: "reel", name: "作品集" });
+  Object.assign(db.prompts[0], {
+    category: "code", visualCategory: "code", medium: "video", use: "reel",
+  });
+  writeFileSync(join(root, "skills/folio-style/data/prompts.json"), JSON.stringify(db));
+  assert.equal(run().status, 0);
+  assert.equal(run("--check").status, 0);
+  assert.match(readFileSync(join(root, "skills/folio-style/CATALOG.md"), "utf8"), /## 代码成片（1）/);
+  assert.deepEqual(JSON.parse(readFileSync(join(root, "src/data/prompts.json"), "utf8")), db);
+  db.prompts[0].medium = "image";
+  writeFileSync(join(root, "skills/folio-style/data/prompts.json"), JSON.stringify(db));
+  assert.match(run().stderr, /Code collection requires video/);
+});

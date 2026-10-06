@@ -69,3 +69,21 @@ test("video formats intersect with intent and retain teaching versus product dis
   assert.equal(countMedium("video", "knowledge", "product"), product.length);
   assert.ok(!product.some((p) => p.no === "162"));
 });
+
+test("code-rendered videos can be found by collection and by application intent", () => {
+  const expected = folio.prompts.filter((p) => p.category === "code");
+  assert.ok(expected.length > 0);
+  assert.ok(expected.every((p) => p.medium === "video" && p.visualCategory === "code"));
+  assert.deepEqual(filterPrompts("", "code", "video"), expected);
+  assert.equal(countMedium("video", "code"), expected.length);
+  assert.deepEqual(filterPrompts("", "code", "image"), []);
+  for (const p of expected) {
+    assert.deepEqual(filterPrompts(p.no, "code", "video"), [p]);
+    assert.deepEqual(filterPrompts(p.no, p.scenarios[0], "video"), [p]);
+  }
+  const output = execFileSync(process.execPath, [
+    fileURLToPath(new URL("../skills/folio-style/scripts/lookup.mjs", import.meta.url)),
+    "--category", "代码成片", "--medium", "video",
+  ], { encoding: "utf8" });
+  assert.deepEqual(output.trim().split("\n").map((line) => line.split("\t")[0]), expected.map((p) => p.no));
+});

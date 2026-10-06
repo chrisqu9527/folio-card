@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 555,
+  "count": 567,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -20286,6 +20286,449 @@
       "prompt": "make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out",
       "covers": [
         "/covers/x-2103495232637882858.jpg"
+      ]
+    },
+    {
+      "no": "556",
+      "id": "x-2107016759597478129",
+      "title": "山顶餐桌旅行自拍",
+      "kicker": "旅途一餐",
+      "excerpt": "保留参考人物面孔，把旅行照片改为山顶观景餐桌前的自然用餐留影。",
+      "style": "自然光旅行人像、全身构图、户外观景餐桌",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "memory"
+      ],
+      "tags": [
+        "旅行人像",
+        "自然光",
+        "参考人物",
+        "户外",
+        "用餐"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Kiran_AI1",
+        "name": "Kiran Ai",
+        "handle": "Kiran_AI1",
+        "url": "https://x.com/Kiran_AI1"
+      },
+      "sourceUrl": "https://x.com/Kiran_AI1/status/2107016759597478129",
+      "model": "GPT Image 2",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "*A handsome young woman with the same face as the reference photo, sitting comfortably at a modern outdoor table on a beautiful hilltop viewpoint, full-body shot, wearing a stylish black shalwar kameez, smiling naturally while eating a delicious plate of chicken biryani. A wooden table is set with a cold Sting energy drink, a bottle of mineral water,  placed neatly on the table.\nNo face change 100%",
+      "covers": [
+        "/covers/x-2107016759597478129.jpg"
+      ]
+    },
+    {
+      "no": "557",
+      "id": "x-2106987902995669056",
+      "title": "旅途照片九宫格手账",
+      "kicker": "照片里的小物件",
+      "excerpt": "将照片与取自照片细节的九格手绘日记拼为上下各半的旅行纪念页。",
+      "style": "照片与彩铅水彩混合手账、暖象牙纸、手写标签",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "story"
+      ],
+      "tags": [
+        "旅行手账",
+        "九宫格",
+        "彩铅",
+        "水彩",
+        "照片转绘"
+      ],
+      "medium": "image",
+      "slots": [
+        "LOCATION",
+        "THEME"
+      ],
+      "creator": {
+        "id": "Sairah_0",
+        "name": "Sairah",
+        "handle": "Sairah_0",
+        "url": "https://x.com/Sairah_0"
+      },
+      "sourceUrl": "https://x.com/Sairah_0/status/2106987902995669056",
+      "model": "GPT Image 2",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Transform the uploaded photo into a premium travel-memory scrapbook poster.\n\nKeep the original photo as the main visual reference and preserve the important subjects, objects, environment, composition, colors, and recognizable details accurately. Do not change the identity or structure of the main subject.\n\nCreate a vertical 3:4 editorial scrapbook layout divided horizontally into two equal sections:\n\nTOP 50%:\nPlace the original photograph prominently, enhanced with warm, natural, slightly cinematic color grading. Keep it realistic, detailed, and photographic. Do not over-edit or make it look artificial.\n\nBOTTOM 50%:\nCreate a beautiful hand-drawn illustrated journal page inspired directly by the photograph. Extract 6–9 of the most recognizable visual elements from the original image and turn each into a small individual colored-pencil / ink / watercolor-style sketch arranged in a clean 3×3 scrapbook grid.\n\nUse:\n- textured warm ivory/off-white paper background\n- subtle paper grain\n- hand-drawn pencil and ink outlines\n- loose colored-pencil and watercolor shading\n- slightly imperfect handmade strokes\n- soft muted but cheerful colors\n- tiny doodles such as stars, hearts, leaves, sparkles, waves and arrows\n- thin, delicate hand-drawn grid dividers\n- cozy travel-journal aesthetic\n- sophisticated editorial composition\n- authentic handmade imperfections\n\nAdd a handwritten title at the top of the illustrated section, customized to the photo's theme, such as “[LOCATION] Memories”, “[THEME] Moments”, “Sweet Moments”, “Blue Sky Memories”, etc.\n\nUnder each illustrated element, add a short handwritten label describing it, for example:\n“street lamp”, “soft clouds”, “colorful lights”, “tea”, “old walls”, “sweet treat”, “green moments”, etc.\n\nAt the very bottom, add a small handwritten sentimental caption related to the photo, such as:\n“a perfect day to remember ♡”\nor\n“same place, different feelings ♡”\n\nThe final result should feel like a luxury travel scrapbook / visual diary page created by hand, combining a real photograph with charming illustrated memories.\n\nIMPORTANT:\n- One original photo + one illustrated memory section\n- Clean 50/50 horizontal division\n- Vertical 3:4 composition\n- Preserve the original photo realistically\n- Illustrations must clearly originate from objects in the uploaded photo\n- No photorealistic illustrations\n- No 3D rendering\n- No excessive graphic-design effects\n- No borders around individual illustrations\n- No random objects unrelated to the photo\n- Keep typography minimal, elegant, and handwritten\n- Make the entire page cohesive, warm, nostalgic, artistic, and premium",
+      "covers": [
+        "/covers/x-2106987902995669056.jpg",
+        "/covers/x-2106987902995669056-2.jpg",
+        "/covers/x-2106987902995669056-3.jpg"
+      ]
+    },
+    {
+      "no": "558",
+      "id": "x-2106957230939808222",
+      "title": "食物照片流入童话世界",
+      "kicker": "让物件继续讲故事",
+      "excerpt": "让照片中的食物、液体或纹理自然延伸成纸上的小河与童话景观。",
+      "style": "写实静物与手绘童话连续转场、淡彩纸纹、超现实编辑插画",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "story",
+        "memory"
+      ],
+      "tags": [
+        "食物广告",
+        "童话插画",
+        "超现实",
+        "照片转绘",
+        "纸纹"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "ahmadmalik375",
+        "name": "Ahmad hassan",
+        "handle": "ahmadmalik375",
+        "url": "https://x.com/ahmadmalik375"
+      },
+      "sourceUrl": "https://x.com/ahmadmalik375/status/2106957230939808222",
+      "model": "GPT Image 2",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Use the uploaded image as the primary reference and transform it into a vertical 3:4 surreal editorial artwork that seamlessly combines photorealistic food/object photography with a whimsical hand-drawn storybook illustration.\n\nPreserve the main subject, composition, colors, textures, and recognizable details of the original photograph. Keep the upper portion highly photorealistic and naturally lit, with realistic materials, shadows, reflections, depth of field, and authentic photographic detail.\n\nCreate a seamless visual transition from the photographed subject into an imaginative illustrated world below. Identify the most visually meaningful element in the photograph—such as a liquid, food ingredient, object, pattern, trail, shadow, or texture—and organically extend it downward into the illustration, transforming it into a river, pathway, landscape, trail, or other creative scene.\n\nThe illustrated section should appear on a warm off-white textured paper background, using delicate black ink/pencil linework, subtle watercolor and gouache textures, imperfect handmade details, soft muted colors, and a charming vintage storybook aesthetic. Add small environmental details appropriate to the subject, such as tiny people, plants, rocks, objects, or landscape elements.\n\nInclude a short handwritten phrase that naturally relates to the concept and the transformation, positioned subtly within the illustrated area. The typography should look genuinely handwritten, imperfect, minimal, and artistic.\n\nThe photograph and illustration must feel like one continuous visual story, not two separate images. Avoid a hard horizontal split, borders, frames, arrows, labels, or obvious digital compositing. The photographed element should physically appear to flow, fall, extend, or transform into the illustrated world.\n\nAesthetic: poetic, whimsical, clever, minimalist, premium editorial magazine art, surreal but believable, tactile paper texture, natural imperfections, sophisticated visual storytelling.\n\nComposition: vertical 3:4, balanced negative space, strong focal point, seamless transition, high detail, realistic photography + delicate hand-drawn illustration, no unnecessary elements.",
+      "covers": [
+        "/covers/x-2106957230939808222.jpg",
+        "/covers/x-2106957230939808222-2.jpg"
+      ]
+    },
+    {
+      "no": "559",
+      "id": "x-2106950304164168145",
+      "title": "紫色短发秋日街头",
+      "kicker": "暖墙前的紫发人物",
+      "excerpt": "锁定参考角色的紫色短发与五官，用赤陶墙、橙色卫衣和工装裤塑造秋日街头形象。",
+      "style": "暖土色街头人像、紫色短发、自然光时装摄影",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "紫发",
+        "时装摄影",
+        "秋日",
+        "角色一致性",
+        "街头"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Wareenaa",
+        "name": "Wareen AI 💟",
+        "handle": "Wareenaa",
+        "url": "https://x.com/Wareenaa"
+      },
+      "sourceUrl": "https://x.com/Wareenaa/status/2106950304164168145",
+      "model": "GPT Image 2",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Create a hyper-realistic medium full-body fashion portrait of the same young adult female character from the reference image, preserving her signature vivid violet-purple chin-length straight bob with soft bangs, fair porcelain skin, natural freckles across her nose and cheeks, hazel/light-brown eyes, delicate facial features, glossy lips, and slim physique.\n\nShe is sitting in a relaxed crouching pose against a warm terracotta textured wall, with her head resting gently on one hand while looking calmly and directly at the camera. She wears a terracotta rust-orange cropped hoodie, beige high-waisted cargo jogger pants, and brown leather lace-up combat boots. Add a patterned satin bow headband and a small orange butterfly hair clip.\n\nUse soft natural daylight with warm earthy autumn tones. Keep the composition intimate and editorial with realistic skin texture, detailed purple hair, natural fabric and leather textures, subtle shadows, cinematic depth of field, photorealistic quality, ultra-detailed 8K, premium fashion photography.",
+      "covers": [
+        "/covers/x-2106950304164168145.jpg"
+      ]
+    },
+    {
+      "no": "560",
+      "id": "x-2106939508931678581",
+      "title": "角色设定变精细动漫特写",
+      "kicker": "先锁定角色再提升质感",
+      "excerpt": "同时提供角色设定和渲染质量参考，保留角色身份并生成带电影光感的动漫近景。",
+      "style": "精细动漫头像、立体赛璐璐明暗、近距离电影人像",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "tags": [
+        "动漫",
+        "角色设定",
+        "特写",
+        "参考图",
+        "角色一致性"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "JexTheFool",
+        "name": "Jex",
+        "handle": "JexTheFool",
+        "url": "https://x.com/JexTheFool"
+      },
+      "sourceUrl": "https://x.com/JexTheFool/status/2106939508931678581",
+      "model": "GPT（作者标注）",
+      "date": "2026-10-05",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。 原帖三张头像用于渲染质量参考，使用时还需提供角色设定；原作者另致谢 @TC_8488 与 @KaelithKuronami。",
+      "prompt": "Create an extreme close-up portrait of the character in the attached character reference sheet. Treat that sheet as the absolute authority for the character's identity and design: preserve their face, facial proportions, skin tone, hair style/color, eyes, ears or other character features, and any visible clothing/accessories. Do not redesign the character.\nThe second attached portrait is ONLY a rendering-quality reference. Do not copy that character's identity, face, hair, colors, clothing, accessories, expression, pose, or composition. Use it only as the target for detail density and finish: highly defined facial features, dimensional anime shading, intricate eyes and eyelashes, individually rendered hair strands, subtle skin highlights and warmth, sophisticated lighting, depth, material definition, and extremely polished cinematic anime rendering.\nFrame the subject very tightly from approximately the upper chest/clavicle to the tips of their hair/ears, with the face dominating the image. Use an eye-level camera and direct eye contact. Give them a small natural smile with subtle blush. Preserve recognizable anime facial proportions while adding significantly more dimensional definition and fine detail; do not make the face photorealistic.\nUse a simple dark atmospheric background and cinematic lighting that complements the character's existing palette. Keep the eyes, face, and nearest hair strands exceptionally sharp, with gentle depth falloff elsewhere.\nDo not show the waist, hips, legs, or full body. Do not create a detailed environment. Do not copy the second portrait's scene or character.\nCharacter sheet = WHO the character is. Second portrait = ONLY the LEVEL OF RENDERING QUALITY.\nGenerate the portrait now.",
+      "covers": [
+        "/covers/x-2106939508931678581.jpg",
+        "/covers/x-2106939508931678581-2.jpg",
+        "/covers/x-2106939508931678581-3.jpg"
+      ]
+    },
+    {
+      "no": "561",
+      "id": "x-2106747910625141182",
+      "title": "月光泳池银白礼服",
+      "kicker": "蓝调时刻的银色裙摆",
+      "excerpt": "保留参考人物，生成城市水岸泳池边的银白长礼服全身形象照。",
+      "style": "蓝调月夜时装摄影、银白高定礼服、城市灯光倒影",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "礼服",
+        "夜景",
+        "泳池",
+        "蓝调时刻",
+        "时装摄影"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Elvorya",
+        "name": "Elvorya",
+        "handle": "Elvorya",
+        "url": "https://x.com/Elvorya"
+      },
+      "sourceUrl": "https://x.com/Elvorya/status/2106747910625141182",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Use the uploaded image as the exact visual and facial reference. Preserve the woman’s facial identity, facial proportions, hairstyle, and overall appearance with zero identity drift.\n\nCreate a photorealistic cinematic luxury evening portrait of the same woman standing beside a calm infinity pool overlooking a modern waterfront city skyline at blue hour/night. She wears an elegant floor-length silver-white couture gown with delicate crystal embellishments, thin straps, a fitted embellished bodice, flowing pleated skirt, and a subtle train. Add matching sparkling silver high heels.\n\nKeep the same graceful side-profile pose as the reference: body slightly turned sideways toward the camera, shoulders relaxed, one arm naturally resting beside her body, elegant posture, soft confident gaze directly toward the camera.\n\nThe pool should reflect the surrounding city lights naturally. In the background, show a sophisticated modern skyline with tall illuminated towers, softly blurred for cinematic depth of field. Include a realistic, naturally sized full moon in the upper sky — not oversized — with subtle moonlight illuminating the scene. Gentle evening breeze moves a few strands of her hair and the gown slightly.\n\nLighting: realistic moonlight mixed with soft ambient architectural lighting, subtle highlights on the silver dress, natural skin tones, realistic shadows, cinematic contrast, soft atmospheric haze.\n\nCamera: full-body composition, eye-level camera, 85mm portrait lens, shallow depth of field, realistic bokeh, sharp subject, detailed fabric texture, natural skin pores.\n\nStyle: high-end luxury fashion editorial, cinematic photography, ultra-photorealistic, sophisticated, elegant, realistic proportions, natural skin texture, no artificial AI appearance.\n\nNegative prompt: identity change, face drift, different person, altered facial features, oversized moon, plastic skin, excessive retouching, distorted hands, extra fingers, warped body, unnatural pose, cartoon, CGI look, oversaturated colors, excessive glow, duplicate person, blurry face, watermark, text, logo.",
+      "covers": [
+        "/covers/x-2106747910625141182.jpg"
+      ]
+    },
+    {
+      "no": "562",
+      "id": "x-2106738894670835727",
+      "title": "酒红美妆暖光特写",
+      "kicker": "金色边光里的酒红",
+      "excerpt": "通过酒红服装、唇色和指甲细节，生成暖金色边光下的人物美妆特写。",
+      "style": "暖金边光美妆摄影、酒红配色、浅景深人像",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "美妆",
+        "酒红",
+        "暖边光",
+        "特写",
+        "人像"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "AynahhX",
+        "name": "Aynah",
+        "handle": "AynahhX",
+        "url": "https://x.com/AynahhX"
+      },
+      "sourceUrl": "https://x.com/AynahhX/status/2106738894670835727",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Use the uploaded image as the primary visual reference. Create a high-end photorealistic beauty portrait of the same woman, preserving her facial features, face shape, skin tone, eyes, nose, lips, and overall identity. She has dark brown hair styled in a messy elegant updo with loose wavy strands framing her face. Soft natural makeup, warm brown eyeshadow, subtle eyeliner, long lashes, glossy deep-red lips, and realistic glowing skin.\n\nShe wears an elegant deep burgundy sheer long-sleeve outfit with a high neckline. Her hand rests gracefully near her neck, showing delicate gold rings and detailed burgundy-and-gold nail art. Pose is slightly turned toward the camera with a soft, confident expression.\n\nWarm golden-orange cinematic lighting, strong soft rim light around the hair, cozy dark beige background, shallow depth of field, realistic skin texture, fine hair details, professional beauty photography, 85mm portrait lens, soft bokeh, cinematic color grading, ultra-detailed, photorealistic, 8K. No text, watermark, or logo.",
+      "covers": [
+        "/covers/x-2106738894670835727.jpg"
+      ]
+    },
+    {
+      "no": "563",
+      "id": "x-2106649880156590255",
+      "title": "云端咖啡座与城市",
+      "kicker": "坐在云上看飞机",
+      "excerpt": "让人物坐在城市上空的巨型白云上喝咖啡，用飞机与建筑建立夸张的尺度关系。",
+      "style": "超现实写实摄影、金色时刻、城市与云层尺度叙事",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "超现实",
+        "白云",
+        "城市",
+        "尺度对比",
+        "电影感"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "mon010_de",
+        "name": "Harry Potter",
+        "handle": "mon010_de",
+        "url": "https://x.com/mon010_de"
+      },
+      "sourceUrl": "https://x.com/mon010_de/status/2106649880156590255",
+      "model": "GPT Image 2",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。 云端人物与飞机的场景属于超现实画面设定。",
+      "prompt": "Create an ultra-realistic, cinematic, photorealistic surreal photograph of a handsome young South Asian man sitting casually on a gigantic fluffy white cloud hundreds of meters above a sprawling modern city, peacefully drinking a cup of coffee while commercial airplanes fly beneath and around him.\n\nThe man is in his mid-20s, with thick slightly messy wavy black hair, warm brown skin, expressive deep-brown eyes, and a neatly trimmed beard and mustache. He wears an oversized black technical jacket over a clean white T-shirt, dark wide-leg cargo trousers, futuristic black sneakers, a silver chain, and a black smartwatch. His expression is calm and relaxed, as if sitting on a balcony above the world.\n\nThe enormous cloud looks physically realistic—soft, dense, voluminous and detailed, with individual vapor textures and subtle sunlight passing through its edges. The man sits naturally on its surface, one leg slightly hanging over the edge, holding a realistic ceramic coffee cup in one hand.\n\nFar below, a vast modern city stretches toward the horizon with skyscrapers, roads, tiny vehicles, parks and realistic atmospheric haze. Several passenger airplanes fly through the sky at different distances and scales, creating an incredible sense of depth. One airplane passes relatively close beneath the cloud while others appear tiny near the horizon.\n\nGolden-hour sunlight illuminates the scene from the side, creating warm highlights on the man's face, clothing and cloud while casting soft natural shadows. The sky transitions from bright blue near the horizon to deeper blue overhead, with subtle wispy clouds scattered across the atmosphere.\n\nUse an epic wide-angle composition showing the enormous scale difference between the man, cloud, airplanes and city below. Strong foreground-to-background depth, realistic atmospheric perspective, natural reflections, physically accurate lighting, detailed skin texture, realistic fabric fibers, realistic hair strands, cinematic color grading, HDR, subtle film grain, shallow depth of field on the character with the distant city naturally softened.\n\nPhotographed like a high-end cinematic editorial campaign, 35mm lens, f/2.8, ultra-detailed, 8K UHD, photorealistic, natural proportions, realistic human anatomy, believable physics, dramatic scale, surreal but completely convincing.\n\nNo cartoon appearance, no illustration, no CGI look, no plastic skin, no distorted face, no extra fingers, no duplicate people, no deformed airplanes, no floating objects, no text, no watermark.",
+      "covers": [
+        "/covers/x-2106649880156590255.jpg"
+      ]
+    },
+    {
+      "no": "564",
+      "id": "x-2106623836745826647",
+      "title": "黑皮夹克城市街拍",
+      "kicker": "日常走路也像时装页",
+      "excerpt": "用黑皮夹克、蓝衬衫和宽腿裤构成自然日光下的全身城市街拍。",
+      "style": "自然日光街头时装摄影、手机抓拍质感、黑蓝穿搭",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "街拍",
+        "穿搭",
+        "黑皮夹克",
+        "自然光",
+        "时装摄影"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Sairah_0",
+        "name": "Sairah",
+        "handle": "Sairah_0",
+        "url": "https://x.com/Sairah_0"
+      },
+      "sourceUrl": "https://x.com/Sairah_0/status/2106623836745826647",
+      "model": "GPT Image 2",
+      "date": "2026-10-04",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。 首图对应正文黑蓝穿搭，第二张保留原帖白色穿搭变体。",
+      "prompt": "Create a photorealistic high-fashion street-style photograph of a stylish young woman standing casually on a modern European city street. She wears a black leather jacket over a fitted blue button-up shirt, high-waisted wide-leg black trousers, a black belt, black loafers, and carries a large black tote bag. Add sleek black rectangular sunglasses and minimal elegant jewelry.\n\nShe has a relaxed, confident posture with one hand in her trouser pocket, captured naturally as if photographed during a casual city walk. Full-body composition, subject centered, realistic proportions and natural body anatomy.\n\nThe environment features modern urban architecture, glass-and-concrete buildings, parked cars, leafy street trees, brick pavement, road markings and subtle everyday city activity in the background.\n\nNatural bright daytime sunlight, realistic shadows, soft highlights, slightly warm tones, authentic reflections, subtle depth of field. The image should feel like a candid luxury fashion editorial shot taken on a modern smartphone, not a studio photograph.\n\nUltra-realistic skin and clothing textures, realistic hair strands, natural facial details, accurate fabric and leather texture, true-to-life colors, slight smartphone camera grain, subtle HDR, 35mm-equivalent perspective, high dynamic range, editorial fashion photography, candid composition, premium Instagram aesthetic.\n\nAvoid excessive retouching, plastic skin, unrealistic body proportions, overly dramatic lighting, artificial-looking backgrounds, text, logos, watermarks, or CGI appearance.",
+      "covers": [
+        "/covers/x-2106623836745826647.jpg",
+        "/covers/x-2106623836745826647-2.jpg"
+      ]
+    },
+    {
+      "no": "565",
+      "id": "x-2106380334623600930",
+      "title": "赤红丝绸波浪礼服",
+      "kicker": "让布料成为画面的形状",
+      "excerpt": "锁定参考人物五官，用向肩后升起的巨大红丝绸褶皱构成雕塑般的礼服人像。",
+      "style": "赤红丝绸雕塑式高定摄影、暖定向棚光、半身构图",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "红丝绸",
+        "礼服",
+        "高定",
+        "棚拍",
+        "雕塑感"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Elvorya",
+        "name": "Elvorya",
+        "handle": "Elvorya",
+        "url": "https://x.com/Elvorya"
+      },
+      "sourceUrl": "https://x.com/Elvorya/status/2106380334623600930",
+      "model": "Nano Banana Pro",
+      "date": "2026-10-03",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Use the uploaded image as the master identity reference. Create the same woman with the exact same face and facial identity ,preserve her facial structure, eyes, eyebrows, nose, lips, jawline, cheekbones, skin tone, proportions, natural asymmetry, and recognizable features with maximum accuracy. Do not redesign or beautify her face.\n\nCreate an ultra-photorealistic luxury fashion portrait of her wearing a sculptural crimson-red silk gown. The glossy silk forms enormous flowing folds that wrap elegantly around her body and rise dramatically behind her shoulders like waves, creating a striking couture silhouette. Fitted gathered waist, deep V neckline, flowing red fabric cascading downward. Long loose dark-brown wavy hair, elegant red lips, subtle refined makeup, delicate gold earrings and necklace. Warm directional studio lighting, rich deep-red textured background, realistic silk reflections, natural fabric physics, sophisticated luxury editorial campaign, highly detailed skin texture, photorealistic 8K. Front-facing composition, medium-length framing, not head-to-toe.\n\nNegative Prompt\n\nDifferent face, identity drift, facial redesign, altered facial structure, different eyes, different nose, different lips, different jawline, different cheekbones, changed skin tone, exaggerated beauty, plastic skin, over-smoothed skin, excessive makeup, face distortion, asymmetrical eyes, warped features, unnatural expression, extra limbs, extra fingers, malformed hands, deformed body, unrealistic anatomy, distorted fabric, stiff fabric, fake silk, low detail, blurry face, CGI look, cartoon, illustration, 3D render, oversharpening, excessive retouching, watermark, logo, text, cropped face, side profile.",
+      "covers": [
+        "/covers/x-2106380334623600930.jpg"
+      ]
+    },
+    {
+      "no": "566",
+      "id": "x-2106003058471883191",
+      "title": "车侧镜里的黄昏自拍",
+      "kicker": "从镜面看见旅途",
+      "excerpt": "用结构化 JSON 描述车侧镜、镜中人物和黄昏道路，制作横向生活方式照片。",
+      "style": "车侧镜反射摄影、金色时刻、横向生活方式编辑照片",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "车侧镜",
+        "反射",
+        "黄昏",
+        "自拍",
+        "JSON提示词"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "AiwithLariab",
+        "name": "Laraib Fatima‎",
+        "handle": "AiwithLariab",
+        "url": "https://x.com/AiwithLariab"
+      },
+      "sourceUrl": "https://x.com/AiwithLariab/status/2106003058471883191",
+      "model": "GPT Image 2",
+      "date": "2026-10-02",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。 已按原帖补全索引遗漏的技术约束与负面提示词，完整 JSON 语法校验通过。",
+      "prompt": "{\n  \"image_generation_prompt\": {\n    \"subject\": {\n      \"description\": \"Young woman with long, straight, medium-brown hair\",\n      \"pose\": \"Leaning naturally toward the open car window, resting her head gently on one hand with a relaxed and elegant expression\",\n      \"action\": \"Taking a selfie using a smartphone while looking at the phone screen\",\n      \"expression\": \"Soft, calm and confident expression with a subtle natural smile\"\n    },\n\n    \"identity_and_hair\": {\n      \"face\": \"Natural youthful facial features, realistic facial proportions, soft features\",\n      \"hair\": \"Long, straight, smooth medium-brown hair, neatly arranged with natural individual strands, slightly illuminated by warm evening light\",\n      \"consistency\": \"Keep facial structure, hairstyle and hair color consistent throughout the image\"\n    },\n\n    \"clothing\": {\n      \"top\": \"Simple elegant white ribbed turtleneck long-sleeve top\",\n      \"accessories\": \"Small minimalist stud earrings\",\n      \"style\": \"Clean, modest, sophisticated and minimal\"\n    },\n\n    \"props\": {\n      \"item\": \"Modern premium smartphone resembling an iPhone 16 Pro Max\",\n      \"details\": \"Realistic proportions, accurate triple-camera layout, natural hand grip, realistic reflections on the phone body\"\n    },\n\n    \"vehicle\": {\n      \"type\": \"Luxury black Toyota Land Cruiser\",\n      \"detail\": \"Glossy black exterior, premium side mirror, realistic automotive surfaces and reflections\"\n    },\n\n    \"composition\": {\n      \"main_focus\": \"The vehicle side mirror occupies the central visual area\",\n      \"perspective\": \"Camera positioned close to the exterior side mirror, photographing the reflection\",\n      \"framing\": \"Wide cinematic landscape composition with the mirror prominently framed\",\n      \"visual_balance\": \"Mirror and reflected woman are the primary focal point while the surrounding road and trees provide depth\",\n      \"aspect_ratio\": \"16:9\"\n    },\n\n    \"environment\": {\n      \"location\": \"Quiet outdoor road surrounded by trees\",\n      \"background\": \"Softly blurred trees, road, natural landscape and warm orange-blue evening sky\",\n      \"atmosphere\": \"Peaceful golden-hour evening with subtle cinematic depth\",\n      \"depth_of_field\": \"Shallow depth of field with soft natural bokeh in the distant background\"\n    },\n\n    \"lighting\": {\n      \"type\": \"Golden hour\",\n      \"characteristics\": \"Warm sunlight, soft golden highlights on the woman's hair and face, realistic shadows, subtle reflections on the black vehicle\"\n    },\n\n    \"photography\": {\n      \"style\": \"Ultra-realistic luxury lifestyle photography\",\n      \"aesthetic\": \"Minimalist Instagram editorial aesthetic\",\n      \"camera\": \"Professional full-frame camera look\",\n      \"lens\": \"35mm cinematic perspective\",\n      \"focus\": \"Sharp focus on the side mirror and reflected woman\",\n      \"quality\": \"Photorealistic, highly detailed, natural skin texture, realistic hair strands, cinematic depth\"\n    },\n\n    \"technical_constraints\": {\n      \"reflection\": \"Physically accurate side-mirror reflection with correct perspective and optical orientation\",\n      \"anatomy\": \"Natural human anatomy and realistic hands\",\n      \"phone\": \"Correct smartphone proportions without warping\",\n      \"vehicle\": \"Realistic automotive geometry and reflections\",\n      \"distortion_control\": \"No exaggerated facial features, body proportions or mirror distortion\",\n      \"output\": \"16:9 landscape photograph\"\n    }\n  },\n\n  \"negative_prompt\": \"cartoon, illustration, painting, CGI, artificial face, plastic skin, distorted face, deformed hands, extra fingers, missing fingers, bad anatomy, duplicated person, duplicate reflection, distorted mirror, incorrect reflection angle, warped smartphone, oversized phone, unrealistic car geometry, messy hair, excessive makeup, unnatural lighting, blurry face, low resolution, pixelated, oversaturated, text, logo, watermark\"\n}",
+      "covers": [
+        "/covers/x-2106003058471883191.jpg"
+      ]
+    },
+    {
+      "no": "567",
+      "id": "x-2105291987851305247",
+      "title": "暖灯夜读与睡猫",
+      "kicker": "夜晚终于慢下来",
+      "excerpt": "用暖床头灯与冷月光，构成床边读书、睡猫、茶杯和花束的安静夜景。",
+      "style": "暖灯与冷月光混合照明、居家夜读、生活方式摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "feeling",
+        "story"
+      ],
+      "tags": [
+        "夜读",
+        "睡猫",
+        "居家",
+        "混合照明",
+        "生活摄影"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "aynellex",
+        "name": "Aynelle",
+        "handle": "aynellex",
+        "url": "https://x.com/aynellex"
+      },
+      "sourceUrl": "https://x.com/aynellex/status/2105291987851305247",
+      "model": "Nano Banana Pro",
+      "date": "2026-09-30",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。模型按作者标注，未独立复现。",
+      "prompt": "Create a photorealistic cinematic nighttime bedroom scene featuring an adult woman peacefully reading an open hardcover novel while sitting comfortably on a luxurious bed. She has delicate natural facial features, realistic skin texture, subtle makeup, and blonde hair styled in a relaxed messy low bun with a few soft strands framing her face.\n\nShe is wearing elegant champagne-cream satin pajamas with a classic notched collar, black piping, long sleeves, and subtle buttons. Her posture is relaxed and natural as she looks down at the book with a calm, gentle expression.\n\nThe bedroom feels warm, sophisticated, and cozy: plush cream bedding, oversized pillows, a soft upholstered beige headboard, elegant framed artwork, and a warm bedside lamp casting soft golden light. Beside her, a fluffy white cat is peacefully sleeping on the bed.\n\nThrough the large window, a deep blue night sky, glowing full moon, and subtle distant city lights are visible. Add a small bedside table with a delicate cup of tea and a vase of fresh white flowers.\n\nLighting: warm cinematic bedside lighting mixed with cool moonlight from the window, soft shadows, natural highlights, realistic skin tones, cozy evening atmosphere.\n\nPhotography: photorealistic, luxury lifestyle editorial photography, 50mm lens, shallow depth of field, natural bokeh, soft film grain, realistic fabric textures, detailed hair strands, authentic skin pores, balanced exposure, cinematic composition, highly detailed, 8K.\n\nNegative prompt: CGI, cartoon, illustration, plastic skin, excessive makeup, distorted hands, extra fingers, deformed face, blurry details, artificial lighting, oversaturated colors, text, subtitles, logo, watermark.",
+      "covers": [
+        "/covers/x-2105291987851305247.jpg"
       ]
     }
   ],
