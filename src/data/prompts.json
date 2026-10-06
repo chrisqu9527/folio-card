@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 567,
+  "count": 575,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -20730,6 +20730,304 @@
       "covers": [
         "/covers/x-2105291987851305247.jpg"
       ]
+    },
+    {
+      "no": "568",
+      "id": "x-2107412357236281688",
+      "title": "机窗俯瞰大地",
+      "kicker": "窗边的尺度",
+      "excerpt": "金色机窗光里，穿黑尼卡布的旅人望向云下的河流、海岸和地平线弧度。",
+      "style": "机窗黄金时刻、航拍大地、沉静旅行摄影",
+      "category": "memory",
+      "visualCategory": "cinema",
+      "scenarios": [
+        "memory",
+        "feeling",
+        "story"
+      ],
+      "tags": [
+        "旅行",
+        "机窗",
+        "航拍",
+        "黄金时刻",
+        "静思"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "cloudyever",
+        "name": "Cloudy Ever",
+        "handle": "cloudyever",
+        "url": "https://x.com/cloudyever"
+      },
+      "sourceUrl": "https://x.com/cloudyever/status/2107412357236281688",
+      "model": "未标注",
+      "date": "2026-10-06",
+      "notes": "提示词逐字截取自 X 原帖，保留原语言、拼写与完整结尾；中文标题、摘要与场景为编辑整理。作者未标注模型。",
+      "prompt": "Create a cinematic, photorealistic vertical 9:16 image of a serene Muslim woman seated by the window inside a modern commercial airplane, looking peacefully down through the window at the vast Earth below.\n\nShe is a young Muslimah wearing an elegant, modest black niqab and flowing sky-blue clothing, with no hair visible. Her posture is relaxed and contemplative as she gazes through the airplane window, conveying wonder, humility, reflection, and gratitude to Allaah.\n\nThrough the large airplane window, reveal an expansive aerial view of the Earth's surface far below: sweeping green landscapes, winding rivers, mountains, valleys, coastlines, scattered clouds, tiny settlements, and subtle atmospheric haze. The curvature of the horizon should be faintly visible in the distance, emphasizing the immense scale of the world.\n\nUse soft golden sunlight streaming through the window and illuminating the woman's clothing and hands while casting gentle reflections across the airplane interior. The cabin should look modern, spacious, clean, and realistic, with softly blurred passengers and seats in the background.\n\nThe composition should place the woman in the foreground and the enormous landscape below as the visual focus. Use a cinematic over the shoulder perspective, shallow depth of field around the cabin while keeping the Earth clearly detailed through the window.\n\nMood: peaceful, awe-inspiring, spiritual, contemplative, humble, breathtaking.\n\nColor palette: Cloudy Ever aesthetic luminous white, vivid sky blue, soft teal and green landscapes, subtle warm gold from sunlight.\n\nLighting: natural golden hour sunlight, realistic atmospheric scattering, soft highlights, gentle shadows.\n\nStyle: ultra-realistic cinematic photography, high detail, natural skin and fabric textures, realistic airplane materials, realistic scale and perspective, premium travel film aesthetic, subtle depth of field, volumetric sunlight.\n\nImportant: no text, no captions, no logos, no watermark, no distorted anatomy, no extra fingers, no visible hair, no exaggerated fantasy elements.",
+      "covers": [
+        "/covers/x-2107412357236281688.jpg"
+      ]
+    },
+    {
+      "no": "569",
+      "id": "x-2107353999796326889",
+      "title": "照片对水墨双拼海报",
+      "kicker": "上下各一半",
+      "excerpt": "上半保留上传照片，下半把同一主体收成留白水墨，做成杂志页。",
+      "style": "照片与当代水墨双拼、编辑海报",
+      "category": "identity",
+      "visualCategory": "system",
+      "scenarios": [
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "双拼",
+        "水墨",
+        "海报",
+        "留白",
+        "编辑"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "shorelyn",
+        "name": "Shore Lyn",
+        "handle": "Shorelyn_",
+        "url": "https://x.com/Shorelyn_"
+      },
+      "sourceUrl": "https://x.com/Shorelyn_/status/2107353999796326889",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-06",
+      "notes": "提示词逐字截取自 X 原帖 Prompt 标记后的全文，保留原语言与拼写；中文标题、摘要与场景为编辑整理。",
+      "prompt": "Create a premium 3:4 vertical editorial poster using the uploaded photo as the sole reference.\n\nOVERALL FORMAT\n\nThe image must use a strict 3:4 vertical composition divided horizontally into two equal regions with an exact 1:1 height ratio. Each region occupies exactly 50% of the total image height.\n\nUPPER REGION: ORIGINAL PHOTO\n\nUse the original uploaded photo directly as the upper 50% of the composition.\n\nPreserve the subject's exact identity, facial features, body structure, proportions, posture, perspective, clothing, materials, lighting, and original color atmosphere.\n\nDo not regenerate, reshape, distort, stretch, beautify, or alter the subject.\n\nOnly apply subtle high-end color grading, image purification, refined tonal balance, and gentle detail enhancement, giving the image the refined texture of an art magazine or exhibition photograph.\n\nThe background may be moderately expanded to fit the 3:4 composition, but the subject must remain completely unchanged in structure, posture, proportions, and core composition.\n\nLOWER REGION: MINIMALIST INK WASH RECONSTRUCTION\n\nReconstruct the same subject and scene as a minimalist contemporary ink wash artwork.\n\nFirst identify and preserve the most recognizable elements of the original image, including silhouette, outline, structure, perspective, movement, visual rhythm, spatial relationship, and overall atmosphere.\n\nDo not directly copy photographic details. Do not create a realistic reproduction. Instead, translate the original scene into an artistic ink wash interpretation that preserves its recognizable essence and visual relationship with the upper photograph.\n\nUse a milky white, warm white, or natural paper-white base with delicate paper fibers and subtle organic texture.\n\nBuild the artwork using expressive ink wash techniques including dry and wet brushwork, flying white, ink seepage, ink accumulation, soft diffusion, broken edges, layered washes, and intentional white space.\n\nRemove secondary details. Keep only the most distinctive contours, structural transitions, spatial layers, movement, and atmosphere.\n\nThe lower artwork should feel summarized, refined, poetic, and intentionally incomplete rather than realistically detailed.\n\nINK AND COLOR\n\nUse black, charcoal gray, soft gray, and diluted ink tones as the dominant palette.\n\nCreate clear tonal layering with varied ink density, pressure, rhythm, and transparency.\n\nExtract only a few emotionally important colors from the original image and reinterpret them as small areas of artistic staining or pigment.\n\nColors may transform naturally into blue-gray, distant blue, soft gold, warm yellow, vermilion red, light cyan, or similar restrained tones.\n\nDo not mechanically reproduce the original color values.\n\nInk and negative space must remain dominant.\n\nAvoid muddy brown, dull vintage tones, heavy coloring, excessive decoration, or vulgar color combinations.\n\nCOMPOSITION AND NEGATIVE SPACE\n\nThe main reconstructed subject should occupy approximately 30% to 45% of the lower half.\n\nReserve the remaining area for generous negative space.\n\nThe artwork may be asymmetrically positioned, partially framed, suspended, slightly cropped, or offset.\n\nMaintain strong asymmetrical balance and a sophisticated editorial composition.\n\nThe edges of the ink artwork should gradually loosen, fragment, fade, scatter, and disappear into the paper, creating a natural sense of breathing space.\n\nNegative space must function as an intentional visual element, not as empty unused space.\n\nReduce information rather than filling the entire lower region.\n\nThe final lower section should resemble a refined ink seal, contemporary Eastern material study, or museum-quality oriental artwork displayed on a clean editorial page.\n\nTEXT\n\nUse very little text.\n\nDo not add preset titles, numbers, labels, or template typography.\n\nIf appropriate, extract only a few meaningful words or a very short phrase related to the subject, location, time, action, emotion, or metaphor.\n\nPlace the text quietly within the negative space or near the edge of the artwork.\n\nTypography must remain subtle, sparse, elegant, and secondary to the visual composition.\n\nOVERALL AESTHETIC\n\nContemporary Eastern aesthetics.\n\nMinimalist ink wash reconstruction.\n\nPremium art magazine presentation.\n\nExhibition photography quality.\n\nLarge-scale intentional negative space.\n\nSubtle editorial typography.\n\nSmall-scale seal-like visual focus.\n\nQuiet, restrained, poetic atmosphere.\n\nElegant asymmetrical composition.\n\nRefined paper texture.\n\nMuseum-quality visual finish.\n\nAvoid complex backgrounds, excessive photographic details, realistic duplication, decorative clutter, excessive text, rigid template layouts, filled compositions, heavy colors, old-fashioned brown tones, and unnecessary visual elements.",
+      "covers": [
+        "/covers/x-2107353999796326889.jpg"
+      ]
+    },
+    {
+      "no": "570",
+      "id": "x-2107343815137017902",
+      "title": "爪夹低髻侧脸",
+      "kicker": "牛奶白背景",
+      "excerpt": "从肩后转出清晰侧脸，低髻爪夹、宽松牛仔外套，日光平铺。",
+      "style": "侧脸生活肖像、牛奶白底、柔日光",
+      "category": "identity",
+      "visualCategory": "portrait",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "侧脸",
+        "肖像",
+        "牛仔",
+        "爪夹",
+        "柔光"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "oye_samia",
+        "name": "Dr. Samia",
+        "handle": "oye_samia",
+        "url": "https://x.com/oye_samia"
+      },
+      "sourceUrl": "https://x.com/oye_samia/status/2107343815137017902",
+      "model": "未标注",
+      "date": "2026-10-06",
+      "notes": "提示词逐字截取自 X 原帖 Prompt 标记后的全文，保留原语言与拼写；中文标题、摘要与场景为编辑整理。作者未标注模型。",
+      "prompt": "Create a maximally photorealistic portrait, using my uploaded photo as the exact basis for appearance. Keep the face and features 1:1; do not change age or proportions.\n\nThe girl is shot from the shoulders up from behind, turned, head rotated to the left, face shown in a clear side profile. Gaze directed to the side, expression calm and confident.\n\nHair is gathered into a neat low voluminous bun and secured with a large brown claw clip. Two thin loose strands are left framing the face. Keep the hair color as in my original photo.\n\nShe wears a loose oversized beige denim jacket with a wide collar. Small chunky gold hoop earrings. Natural makeup: even, lively skin, a light blush, neat brows, defined lashes, naturally glossy lips.\n\nSolid milky-white background. Soft diffused daylight with no harsh shadows. The frame is minimalist and bright, with a Pinterest and lifestyle-fashion aesthetic. Living skin, natural hair and fabric texture, no CGI, plastic retouching, or neural-network look.",
+      "covers": [
+        "/covers/x-2107343815137017902.jpg"
+      ]
+    },
+    {
+      "no": "571",
+      "id": "x-2107409079186665540",
+      "title": "实验室样本泄漏",
+      "kicker": "红灯之前",
+      "excerpt": "午后实验课里样本泄漏，感染从腕部爬上，火门关上后她停在观察窗前。",
+      "style": "写实校园生化惊悚短片",
+      "category": "story",
+      "visualCategory": "cinema",
+      "scenarios": [
+        "story"
+      ],
+      "tags": [
+        "短片",
+        "惊悚",
+        "实验室",
+        "手持",
+        "Seedance"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "john_my07",
+        "name": "Johnn",
+        "handle": "john_my07",
+        "url": "https://x.com/john_my07"
+      },
+      "sourceUrl": "https://x.com/john_my07/status/2107409079186665540",
+      "model": "Seedance 2.5",
+      "date": "2026-10-06",
+      "notes": "提示词逐字截取自 X 原帖 Prompt 标记后的全文，含音频、视觉风格与负面项；中文标题、摘要与场景为编辑整理。",
+      "prompt": "Create a photorealistic live-action zombie-horror sequence set inside a modern university biomedical research laboratory during an ordinary afternoon practical class. The environment should feel authentic and lived-in: long stainless-steel workstations, glass cabinets, microscopes, centrifuges, laptops, specimen trays, chemical bottles, safety posters, sinks, stools and fluorescent ceiling panels. Several college students are conducting routine experiments while a young adult Korean female student works at a station near the center of the room.\n\nKeep the female protagonist's face, hairstyle, clothing, body proportions and overall identity perfectly consistent throughout the entire video. She wears a clean white laboratory coat over a simple dark shirt, blue jeans and white sneakers. Her appearance must remain realistic and unchanged until the infection begins.\n\nThe sequence starts calmly. Students discuss their experiments quietly while recording observations on laptops and laboratory notebooks. The camera moves naturally through the room with subtle handheld movement, occasionally passing behind students and laboratory equipment, creating the feeling of an actual person filming the situation.\n\nA refrigerated specimen cabinet suddenly begins vibrating. A faint clicking sound comes from inside. One student approaches it and notices condensation spreading across the glass. Before anyone can react, the cabinet door pops open slightly and a sealed biological sample rolls onto the floor.\n\nThe container does not explode. Instead, a thin dark liquid slowly leaks from a hairline fracture and spreads across the laboratory floor. The protagonist notices it and steps backward. A small amount splashes onto the lower edge of her laboratory coat and crawls upward across the fabric as if reacting to body heat.\n\nShe tries wiping it away, but the substance suddenly contracts and grips her wrist.\n\nShe freezes.\n\nHer breathing becomes rapid. The surrounding students initially think she has been injured and move toward her. She tells them to stay back. The dark material disappears beneath her skin.\n\nA subtle transformation begins.\n\nSmall branching discolorations appear around her wrist and slowly travel toward her forearm. Her fingertips become rigid and begin trembling. She grips the edge of the laboratory bench for support as her breathing becomes heavier. Her face remains recognizable and realistic, but her complexion gradually loses its warmth.\n\nOne student reaches for her shoulder.\n\nShe suddenly jerks away with unexpected force.\n\nThe room falls silent.\n\nThe camera moves closer as she struggles to control her movements. Her pupils become increasingly dark and cloudy while faint black vascular patterns spread beneath the skin around her temples and jaw. She looks frightened for a moment, as though she is still aware of what is happening.\n\nThen her expression goes completely blank.\n\nA centrifuge suddenly falls from a nearby bench as she turns toward the sound.\n\nShe moves toward another student far too quickly.\n\nThe student retreats between two laboratory benches, knocking over stools and equipment. She follows with stiff, increasingly unnatural movements, striking the bench between them hard enough to send equipment sliding across the surface.\n\nThe other students finally realize something is seriously wrong.\n\nOne grabs the emergency phone while another starts pulling classmates toward the exit. A student accidentally knocks over a tray of glass tubes, sending them scattering across the floor.\n\nThe infected woman suddenly stops.\n\nCompletely motionless.\n\nEveryone looks back at her.\n\nShe slowly raises her head.\n\nHer eyes are now almost entirely black and cloudy. Dark veins are visible beneath the skin of her neck and cheeks. She tilts her head slightly, listening to the movement of the escaping students.\n\nThen she runs.\n\nThe camera follows the survivors through the narrow laboratory aisles in frantic handheld shots. Students push past chairs and equipment while trying to reach the emergency exit. One student slips but is pulled back up by a classmate.\n\nAs they reach the door, another specimen cabinet in the background suddenly shatters.\n\nA student who had been hiding beneath a workstation begins convulsing.\n\nHis body arches violently against the floor as dark vascular patterns spread across his neck. The surrounding students scream and rush through the doorway.\n\nThe laboratory emergency system activates.\n\nThe normal fluorescent lights shut off.\n\nRed emergency illumination begins pulsing through the room.\n\nThe survivors manage to pull the heavy fire door closed. Someone wedges a metal chair beneath the handle while another student holds the door shut as something repeatedly strikes it from inside.\n\nSilence.\n\nThe students stand in the hallway, breathing heavily and staring at the sealed laboratory.\n\nThen the banging stops.\n\nOne survivor slowly approaches the narrow observation window.\n\nAt first, the laboratory appears empty.\n\nBroken glass covers the floor. Chairs are overturned. Equipment lights blink in the darkness.\n\nThen a shadow moves behind a workstation.\n\nThe infected female student slowly steps into the red emergency light.\n\nShe is still wearing the same white laboratory coat, jeans and sneakers. Her clothing is slightly disheveled but intact. Her pale face remains recognizable, with dark branching veins visible around her neck and temples.\n\nShe stands completely still.\n\nThe camera slowly pushes closer toward the glass.\n\nHer black eyes suddenly shift toward the camera.\n\nShe takes one slow step forward.\n\nThen another.\n\nShe stops directly in front of the observation window.\n\nFor several seconds she simply stares.\n\nA faint, unnatural smile gradually appears on her face.\n\nThe hallway lights flicker.\n\nCUT TO BLACK.\n\nAUDIO:\nNatural university laboratory ambience, fluorescent electrical hum, quiet student conversations, keyboard clicks, centrifuge vibration, specimen cabinet rattling, glass breaking, equipment falling, frightened breathing, hurried footsteps, screams, impacts against benches, emergency alarm, distant banging and muffled movement behind the laboratory door. No music. No exaggerated horror stingers.\n\nVISUAL STYLE:\nUltra-realistic live-action horror film, grounded university environment, practical-effects aesthetic, realistic skin pores and imperfections, physically believable materials, natural handheld cinematography, subtle camera shake during panic, realistic fluorescent lighting, cold neutral color palette gradually transitioning into deep red emergency illumination, restrained infection effects, realistic facial performance, believable body mechanics, slow psychological tension followed by sudden bursts of violence.\n\nCHARACTER CONSISTENCY:\nThe Korean female protagonist must remain the exact same person throughout every shot. Preserve her facial identity, hairstyle, hair length, clothing, body proportions and age. Her laboratory coat, shirt, jeans and sneakers must remain consistent. Other students must have distinct appearances and must not duplicate one another.\n\nNEGATIVE:\nNo excessive gore, no dismemberment, no graphic eye injuries, no exposed organs, no cartoon styling, no anime, no illustration, no glossy CGI appearance, no plastic skin, no exaggerated monster transformation, no duplicated characters, no extra limbs, no warped hands, no floating objects, no impossible physics, no teleportation, no sudden wardrobe changes, no identity changes, no face morphing, no inconsistent hairstyles, no subtitles, no text overlays, no logos, no watermark.",
+      "covers": [
+        "/covers/x-2107409079186665540.jpg"
+      ],
+      "use": "short"
+    },
+    {
+      "no": "572",
+      "id": "x-2107496124151931160",
+      "title": "相纸订单连续发布片",
+      "kicker": "没有硬切",
+      "excerpt": "字标挤成句点，再长成玻璃工具条、锁屏和相纸订单，最后回到墙上的实物。",
+      "style": "苹果发布会连续运镜、液态玻璃产品片",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "promotion",
+        "announcement"
+      ],
+      "tags": [
+        "代码",
+        "发布片",
+        "液态玻璃",
+        "Opus",
+        "产品"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "reinexbt",
+        "name": "reine",
+        "handle": "reinexbt",
+        "url": "https://x.com/reinexbt"
+      },
+      "sourceUrl": "https://x.com/reinexbt/status/2107496124151931160",
+      "model": "Claude Opus 5.5 · HTML",
+      "date": "2026-10-06",
+      "notes": "成片由 Opus 5.5 写 HTML 逐帧渲染，不是生视频模型。提示词为原帖可复制全文，未改写。",
+      "prompt": "<inputs>\nAsk me for: a one-word brand name for the wordmark (a verb works best), 9 to 12 high-res photos, a royalty-free track around 120 BPM with a drop and a quiet breakdown (Mixkit, free for commercial use), and a free stock clip of a plain wall with moving plant shadows (Pexels).\n</inputs>\n\n<direction>\nAn Apple-keynote-style launch film, 2D only, in one continuous take. Each scene grows out of the last: no fades, blurs or cuts. Objects transform instead. Text rises from a mask line, icons spring up from zero, bars draw across the screen, pages push forward, and a black shape fills the frame before shrinking into the next scene. Use a warm off-white canvas, black UI and iOS 26 liquid glass over the photos. Archivo (wdth 125, weight 800) for the wordmark, Geist for the UI. A cursor triggers every change with actual clicks, drags and long-presses. Zoom the camera screen-studio style so each moment fills the square, and scale the cursor with it.\nBanned: crossfades, blur-ins, brightness \"developing\", 3D flips, particles, glows, holds longer than 1s, anything that feels like a template.\n</direction>\n\n<structure>\n120 BPM, 54 beats, with something happening on every beat.\nOpen: the wordmark compresses into its own period like an accordion. The dot expands into a black pill, and a label rises inside it. Click: six iris blades close over the label, then snap open onto a photo. The circle turns into a square and shrinks. A grid unfolds behind it like a paper map (center, plus, corners), rearranges into a bento, and a click zooms into one tile, landing right on the drop.\nGlass: a glass word appears letter by letter, then melts into a droplet that stretches into a glass toolbar. The adjust icon turns it into a slider. Dragging changes the photo lighting from day to golden hour (two aligned shots), while the held knob becomes a glass lens. It rises into a glass orb, the next photo opens inside it as a circle, and the orb grows into a lock screen with glass clock digits, a date and a home bar that stretches into a glass music player.\nStage: the lock screen pulls back to reveal a phone, with the bezel growing from the screen edge. The Dynamic Island stretches like liquid, pinches off, flies across and expands into a Mac window that rolls up like a blind. Long-press the wallpaper and drag it onto a Safari tab. The page pushes in; when you drop the image, it becomes the hero of a landing page. Scroll: the hero transforms into a framed print on a product card, with the mat and molding growing from the photo's edge. Choose a frame color (it paints across) and a size, then the nav button flies down and becomes \"Order print\".\nOrder: one black shape keeps changing: Ordered ✓ → Printing % → On its way (a van on a route) → Delivered ✓.\nWall: the delivered circle expands until black fills the frame, holds for one beat, then shrinks into the framed print hanging in the real wall footage. The same iris opens onto the print and closes again. The frame fills the screen, contracts into the pill → the dot → the letters spring back out on the returning beat. Last frame = first frame.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Compute every style from time inside an async seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form step responses for springs. When a value has multiple targets, add one spring per change so it remains a pure function of time.\n3. Liquid glass: each glass element keeps its own clone of the scene behind it. Filter that clone with an SVG feImage displacement map (a rounded-rect distance field) through three feDisplacementMaps at slightly different scales for chromatic edges, then add a rim light. For glass letters, use a canvas distance field per glyph to create the map, mask and highlights.\n4. Goo: apply blur and an alpha threshold, then composite the source on top so the glass stays sharp inside.\n5. Iris: place 6 blades around a hexagonal aperture. Each blade uses its two vertices, both edge extensions and the SHORT arc between them.\n6. Wordmark squeeze: move every letter toward the dot by the same factor and adjust its drawn width to match (narrow the wdth axis, scale the rest), keeping the letters in contact.\n7. Footage: re-encode it all-intra (ffmpeg -g 1), load it as a blob URL and await \"seeked\" before drawing each frame.\n8. Sound: use a downloaded SFX for every event (Mixkit), never synthesized, and position each by its measured peak. Start the song on a downbeat: land the zoom on the drop, place the wall in the breakdown and bring back the wordmark with the beat. Loudnorm to -14 LUFS.\n9. Render with Playwright: blend 4 subframes per frame using ffmpeg tmix at 60fps. Check one frame per beat, then look for single-frame pops (frame-difference spikes 3x higher than their neighbours).\n</build>\n\n<gotchas>\nbackdrop-filter: url() misreads displacement maps in Chromium, so clone the scene instead. A flood needs to extend beyond the corners and take about 0.3s; otherwise, half the screen changes in a single frame. A child set to visibility: visible can show through a hidden parent, so use inherit. Text swapping inside a morphing shape needs its own mask. python http.server can't range-seek video, so use the blob URL.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and 4 stills (open, glass, stage, wall) before writing the full film.\n</start>",
+      "covers": [
+        "/covers/x-2107496124151931160.jpg"
+      ],
+      "use": "product"
+    },
+    {
+      "no": "573",
+      "id": "x-2107475995389301016",
+      "title": "同一形状换界面",
+      "kicker": "七小节",
+      "excerpt": "一个形状按节拍变成按钮、播放器、音量条、标签和命令面板，结构可换。",
+      "style": "单形状界面状态循环",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "promotion",
+        "identity"
+      ],
+      "tags": [
+        "代码",
+        "模板",
+        "界面",
+        "Opus",
+        "弹簧"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "arle0x",
+        "name": "arle",
+        "handle": "arle0x",
+        "url": "https://x.com/arle0x"
+      },
+      "sourceUrl": "https://x.com/arle0x/status/2107475995389301016",
+      "model": "Claude Opus 5.5 · HTML",
+      "date": "2026-10-06",
+      "notes": "成片由 Opus 5.5 写 HTML 逐帧渲染，不是生视频模型。提示词为原帖可复制全文，未改写。界面状态可替换。",
+      "prompt": "<inputs>\nAsk me for: 8 to 12 UI states the shape should turn into (e.g. button, loader, player, slider, toggle, tabs, chart, command palette, toast), a pure black-and-white palette or one accent color, and a royalty-free track around 120 BPM (e.g. from Mixkit, free for commercial use).\n</inputs>\n\n<direction>\nDribbble-level UI motion. One shape, no cuts: each state is the same element changing size, radius and color, while its content swaps with a quick blur. A cursor triggers every change through actual clicks and drags. Use a light warm-gray canvas, black-and-white components and one clean UI font (Geist). Springs throughout, with only a slight overshoot. Zoom the camera so each state fills the frame. Match the final frame to the first for a seamless loop.\nBanned: bouncy easing, particle bursts, glows, gradients on UI chrome, inconsistent icon strokes, dead time, anything that feels like a template.\n</direction>\n\n<structure>\n120 BPM, 7 bars, with an action on every beat.\nButton → loader → check → dynamic island → music player with a play/pause morph → scrub the progress bar → it turns into a volume slider that stretches when dragged past max → a toggle switches on the beat → its knob becomes a liquid tab indicator → the tabs expand into a chart that draws itself, with a tooltip on hover → it folds into ⌘K → type to filter → enter → toast → back to the button.\n</structure>\n\n<build>\n1. One HTML file, square 1440x1440. Compute every style from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form step responses for springs. If a value changes target multiple times, add one spring for each change so it remains a pure function of time.\n3. Give the tab indicator’s two edges separate springs, letting the leading edge stretch ahead of the trailing one. Use the same approach for the toggle knob.\n4. Make drags direct: while the cursor is held down, calculate the value from its position. On release, spring back from that position.\n5. Analyze the song with numpy to find the beat grid and begin on a downbeat. Position each UI sound using its measured peak.\n6. Render with Playwright: 4 subframes per frame, blended with ffmpeg tmix for motion blur at 60fps.\n7. Render one frame per beat before the full render. Fix anything off-grid, cramped or difficult to read.\n</build>\n\n<gotchas>\nDon’t use will-change on anything the camera scales, or the text will look blurry. Text swapping inside a morphing container needs separate enter and exit timing to avoid overlap. Make the final frame identical to the first including cursor position and speed or the loop will stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the state list on the beat grid before writing any code.\n</start>",
+      "covers": [
+        "/covers/x-2107475995389301016.jpg"
+      ],
+      "use": "template"
+    },
+    {
+      "no": "574",
+      "id": "x-2107483570885312793",
+      "title": "问答到播放器循环",
+      "kicker": "按下落点",
+      "excerpt": "生成钮裂成对话气泡，再变成播放器、图表和结尾标志，产品和封面可换。",
+      "style": "手势驱动的产品界面循环",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "代码",
+        "模板",
+        "产品",
+        "Opus",
+        "循环"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "rossaxbt",
+        "name": "testarossa",
+        "handle": "rossaxbt",
+        "url": "https://x.com/rossaxbt"
+      },
+      "sourceUrl": "https://x.com/rossaxbt/status/2107483570885312793",
+      "model": "Claude Opus 5.5 · HTML canvas",
+      "date": "2026-10-06",
+      "notes": "成片由 Opus 5.5 写代码逐帧渲染，不是生视频模型。与 481 液态玻璃发布片不是同一条提示词。全文截自原帖，未改写。",
+      "prompt": "<inputs>\nAsk me for: one question a user asks my product and its one-line answer, two album covers, a royalty-free song around 110 BPM with a quiet intro and a hard drop (Mixkit, free for commercial use), and my logo for the ending. If I skip anything, use these defaults: \"is this all code?\" / \"yes. every frame.\", two atmospheric photos, and Mixkit \"Head Bang\".\n</inputs>\n\n<direction>\nA 22-second square loop, 1440x1440 at 60fps. 2D only, one continuous take. Nothing cuts: each scene grows from the one before it, and every gesture carries the camera into the next space. Each morph takes 0.8s on cubic-bezier(.45,0,.15,1). The camera zoom follows the same curve, making the shape changes feel almost invisible. Content dissolves during the second half of each glide. One gesture per scene.\n\nLook: a warm light stage (#f3f3f0 to #e3e3de), black UI, and a dark app world (#121212) tinted by the current album cover. Use one green accent (#1ed760), Geist for UI, the real macOS pointer, and soft layered shadows that grow as shapes lift.\n\nBanned: hard cuts, bouncy springs, particles, glows, zooming in and immediately back out, holds longer than 1s, anything that feels like a template.\n</direction>\n\n<structure>\nFollow the song's beats. The press lands on the drop.\n\nGenerate: the cursor clicks. The pill glides into a spinner, then becomes a check.\n\nChat: the check splits into three typing dots with goo. The left dot flies up, becomes the question bubble and types the question. The right dot flies down into the reply. Both bubbles shrink back into dots as they glide toward the center and merge with the middle dot.\n\nPlay: the middle dot bends into a play triangle, one point at a time. The cursor presses it on the drop. A white button appears under the click as the dark app floods the frame around it, leaving the white shape as the play button. The camera pulls back to reveal the full now-playing screen: large cover, title, heart (liked, filling green), progress bar, controls and volume.\n\nSwipe: the cursor drags the cover sideways. The next track slides in, and the app changes its tint to match the new cover.\n\nDrag: the camera glides toward the volume slider. The cursor pulls it to max and keeps going. The bar rubber-bands, dragging the camera sideways out of the app and onto a dark dotted canvas while the camera follows the knob.\n\nChart: the line lands and curves upward into a green chart as the number counts up. The volume knob becomes the chart's final point.\n\nDive: the cursor clicks that point. The camera dives into it until the light stage fills the frame.\n\nEnding: an \"Ask [my product]\" button grows from the light, narrows into a line, then fans out into my logo (default: the Claude spark, with six copies rotating into twelve rays in Claude orange). The logo folds back into the line, which thickens into Generate. Last frame = first frame.\n</structure>\n\n<build>\n1. One HTML canvas. Everything is computed from time inside seek(t): no timers or state carried between frames.\n2. Use a camera with position and log-space zoom. Place scenes side by side in one world so every pan actually travels between them.\n3. Goo: blur and alpha threshold on an offscreen layer for the split and merges.\n4. Floods: grow circles from the point that caused them to the farthest corner in about 0.4s. Change the color underneath.\n5. Sound: before the press, play the song through a low-pass filter so it feels like it's in the next room. Open it to full sound on the drop. Use a downloaded Mixkit SFX for every event, positioned by its measured peak. Loudnorm to -14 LUFS.\n6. Render with Playwright at 60fps using 4 motion-blur subframes, and 12 for the fast pan. Scan every frame for single-frame jumps and fix them.\n</build>\n\n<gotchas>\nA handoff between two drawings will pop unless the first has fully landed. Keep the cursor attached to whatever it drags, even when that object stretches. Counters and tooltips that update every frame smear under motion blur, so swap complete values instead.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and 6 stills (chat, play, app, drag, chart, logo) before rendering.\n</start>",
+      "covers": [
+        "/covers/x-2107483570885312793.jpg"
+      ],
+      "use": "template"
+    },
+    {
+      "no": "575",
+      "id": "x-2107486052550062398",
+      "title": "橙点运动系统",
+      "kicker": "零关键帧",
+      "excerpt": "一颗橙点串起开关、弹簧曲线、字形轨道和网点结尾卡，用来证明动效手艺。",
+      "style": "橙点串联的动效系统样片",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "代码",
+        "作品集",
+        "Opus",
+        "动效",
+        "弹簧"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "ultimaxbt",
+        "name": "ultima",
+        "handle": "ultimaxbt",
+        "url": "https://x.com/ultimaxbt"
+      },
+      "sourceUrl": "https://x.com/ultimaxbt/status/2107486052550062398",
+      "model": "Claude Opus 5.5 · HTML",
+      "date": "2026-10-06",
+      "notes": "成片由 Opus 5.5 写 HTML 逐帧渲染，不是生视频模型。与 480 同一形状换状态不是同一条提示词。全文截自原帖，未改写。",
+      "prompt": "<inputs>\nAsk me for: a short label for the opening toggle, one hero word, a percentage for the graph, the text for the final card, one accent color, and a track with a clear beat.\n</inputs>\n\n<direction>\nA 2D motion design film in 16:9. Use a warm off-white canvas, near-black backgrounds, bold typography and one vivid orange accent. The orange dot connects every scene: it starts in the UI, becomes the dot over a letter, traces a spring graph, grows into a shape and returns on the end card. A cursor makes the opening click feel real. Keep the motion sharp and controlled, with small spring overshoots and no dead time.\nBanned: stock footage, gradients, glows, particle bursts, random transitions and motion that isn't connected to an element already on screen.\n</direction>\n\n<structure>\nAround 15 seconds, with a visual change on every major beat.\nOpen: a cursor clicks the orange toggle beside \"Reduce Motion\". The letters bend and move into place until only \"Motion\" remains, with the orange dot above the \"i\".\nSpring: the dot jumps away from the word and lands on a graph. Its path draws a spring response, overshoots the target and settles beside a \"+22%\" callout.\nShape: the dot shoots across a line, grows into an orange circle and fills the frame. A black rounded square rotates inside it, then stretches into a pill. The scene contracts to a single orange dot on black.\nType: words like \"SPRINGS\", \"EASING\", \"KINETIC TYPE\", \"3D\" and \"SOUND\" orbit the dot. The circle of type opens out into a field of tiny dots.\nReveal: the halftone field expands and flips to black, revealing the final card: \"Opus 5.5\", \"Motion designer.\" and \"0 keyframes\".\nReturn: the orange dot moves back through the halftone, graph and toggle. Match the final frame to the first so the video loops cleanly.\n</structure>\n\n<build>\n1. One HTML file, 1920x1080 at 60fps. Compute every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form springs for the toggle, bouncing dot and graph. Draw the graph from the same spring function that moves the dot.\n3. Animate letters individually for the \"Reduce Motion\" to \"Motion\" transformation. Keep the orange dot attached to the \"i\" until it begins its jump.\n4. Make the orange circle, rotating square and pill different states of the same shape. Preserve its position and motion through each transformation.\n5. Place the orbiting words along a circular path, then move their letters outward to hand the frame over to the halftone grid.\n6. Draw the halftone as a grid of dots whose sizes respond to the orange dot. Let it grow past the frame edges before revealing the end card.\n7. Sync the click, dot landing, graph peak, shape changes and final title to measured beats. Render one frame per beat to check the pacing before the full export.\n</build>\n\n<gotchas>\nThe graph and dot must follow the same motion or the spring will feel fake. Keep the orange accent consistent across every scene. Give outgoing and incoming text separate timing so letters don't overlap. When a shape fills the screen, scale it past all four corners. Match the cursor, dot and typography in the first and last frames to avoid a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, graph, kinetic type, end card) before building the full video.\n</start>",
+      "covers": [
+        "/covers/x-2107486052550062398.jpg"
+      ],
+      "use": "reel"
     }
   ],
   "taxonomyVersion": 1
