@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 575,
+  "count": 580,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -21026,6 +21026,200 @@
       "prompt": "<inputs>\nAsk me for: a short label for the opening toggle, one hero word, a percentage for the graph, the text for the final card, one accent color, and a track with a clear beat.\n</inputs>\n\n<direction>\nA 2D motion design film in 16:9. Use a warm off-white canvas, near-black backgrounds, bold typography and one vivid orange accent. The orange dot connects every scene: it starts in the UI, becomes the dot over a letter, traces a spring graph, grows into a shape and returns on the end card. A cursor makes the opening click feel real. Keep the motion sharp and controlled, with small spring overshoots and no dead time.\nBanned: stock footage, gradients, glows, particle bursts, random transitions and motion that isn't connected to an element already on screen.\n</direction>\n\n<structure>\nAround 15 seconds, with a visual change on every major beat.\nOpen: a cursor clicks the orange toggle beside \"Reduce Motion\". The letters bend and move into place until only \"Motion\" remains, with the orange dot above the \"i\".\nSpring: the dot jumps away from the word and lands on a graph. Its path draws a spring response, overshoots the target and settles beside a \"+22%\" callout.\nShape: the dot shoots across a line, grows into an orange circle and fills the frame. A black rounded square rotates inside it, then stretches into a pill. The scene contracts to a single orange dot on black.\nType: words like \"SPRINGS\", \"EASING\", \"KINETIC TYPE\", \"3D\" and \"SOUND\" orbit the dot. The circle of type opens out into a field of tiny dots.\nReveal: the halftone field expands and flips to black, revealing the final card: \"Opus 5.5\", \"Motion designer.\" and \"0 keyframes\".\nReturn: the orange dot moves back through the halftone, graph and toggle. Match the final frame to the first so the video loops cleanly.\n</structure>\n\n<build>\n1. One HTML file, 1920x1080 at 60fps. Compute every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form springs for the toggle, bouncing dot and graph. Draw the graph from the same spring function that moves the dot.\n3. Animate letters individually for the \"Reduce Motion\" to \"Motion\" transformation. Keep the orange dot attached to the \"i\" until it begins its jump.\n4. Make the orange circle, rotating square and pill different states of the same shape. Preserve its position and motion through each transformation.\n5. Place the orbiting words along a circular path, then move their letters outward to hand the frame over to the halftone grid.\n6. Draw the halftone as a grid of dots whose sizes respond to the orange dot. Let it grow past the frame edges before revealing the end card.\n7. Sync the click, dot landing, graph peak, shape changes and final title to measured beats. Render one frame per beat to check the pacing before the full export.\n</build>\n\n<gotchas>\nThe graph and dot must follow the same motion or the spring will feel fake. Keep the orange accent consistent across every scene. Give outgoing and incoming text separate timing so letters don't overlap. When a shape fills the screen, scale it past all four corners. Match the cursor, dot and typography in the first and last frames to avoid a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, graph, kinetic type, end card) before building the full video.\n</start>",
       "covers": [
         "/covers/x-2107486052550062398.jpg"
+      ],
+      "use": "reel"
+    },
+    {
+      "no": "576",
+      "id": "x-2107858748882690121",
+      "title": "后视镜里的粉蓝裙",
+      "kicker": "车窗外侧",
+      "excerpt": "粉蓝中长裙和酒红丝巾出现在古董车椭圆后视镜里，街景留在镜外。",
+      "style": "1960年代后视镜时装照",
+      "category": "identity",
+      "visualCategory": "cinema",
+      "scenarios": [
+        "identity",
+        "memory"
+      ],
+      "tags": [
+        "时装",
+        "1960s",
+        "后视镜",
+        "胶片",
+        "编辑摄影"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "mehvishs25",
+        "name": "Meem",
+        "handle": "mehvishs25",
+        "url": "https://x.com/mehvishs25"
+      },
+      "sourceUrl": "https://x.com/mehvishs25/status/2107858748882690121",
+      "model": "Nano Banana 2.1",
+      "date": "2026-10-07",
+      "notes": "提示词逐字截取自 X 原帖 Prompt 标记后的全文；中文标题、摘要与场景为编辑整理。作者标注 Nano Banana 2.1。",
+      "prompt": "Create a hyper-realistic 1960s vintage editorial fashion photograph in a vertical 9:16 composition, featuring the girl from the reference image. Preserve her identity and appearance exactly as shown in the reference — including her facial structure, proportions, distinctive features, skin tone, hairstyle characteristics, and overall natural appearance. Do not alter or reinterpret her face.\n\nThe scene is captured as a full-body fashion portrait reflected inside a small, oval chrome side mirror of a vintage car. The mirror has naturally curved, slightly distorted edges and realistic reflections. The camera is positioned close to the driver's window, angled toward the side mirror.\n\nInside the mirror reflection, the girl is fully visible with generous background space. She is walking toward the rear of the car while slightly turning her head toward the mirror, creating a subtle candid moment. She has a calm, confident expression with a soft, understated smile.\n\nShe wears a beautifully tailored powder-blue midi dress with a slim waist belt, paired with a burgundy silk scarf, elegant cat-eye sunglasses, a small ivory handbag, and classic white pointed heels. Her styling has an authentic polished 1960s fashion aesthetic.\n\nThe environment is a retro Mediterranean-American street with a palm-lined road, pastel-colored storefronts, a vintage station wagon, and distant mountains. Bright golden morning sunlight creates warm, natural highlights and soft shadows across the scene.\n\nUse a refined color palette of powder blue, ivory, burgundy, and warm beige. The image should look like an authentic aged 35mm film photograph, with natural analog grain, subtle film imperfections, tiny scratches, realistic exposure, authentic skin texture, and physically accurate mirror reflections.\n\nThe overall mood should feel chic, nostalgic, elegant, and slightly mysterious — like a genuine fashion editorial photograph captured in the 1960s rather than an AI-generated image. Photorealistic, cinematic, highly detailed, natural proportions, realistic fabric texture, authentic vintage photography aesthetics.",
+      "covers": [
+        "/covers/x-2107858748882690121.jpg"
+      ]
+    },
+    {
+      "no": "577",
+      "id": "x-2107856173839872397",
+      "title": "湖上黑天鹅",
+      "kicker": "厚涂黄昏",
+      "excerpt": "金月、六只黑天鹅和右岸樱花在厚涂湖面上，小屋窗灯是唯一暖点。",
+      "style": "厚涂刀锋的黄昏湖景",
+      "category": "feeling",
+      "visualCategory": "cinema",
+      "scenarios": [
+        "feeling",
+        "memory"
+      ],
+      "tags": [
+        "厚涂",
+        "天鹅",
+        "湖景",
+        "黄昏",
+        "油画"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "churvikv",
+        "name": "Viki",
+        "handle": "churvikv",
+        "url": "https://x.com/churvikv"
+      },
+      "sourceUrl": "https://x.com/churvikv/status/2107856173839872397",
+      "model": "Seedance 2.5",
+      "date": "2026-10-07",
+      "notes": "提示词逐字截取自 X 原帖视频 Prompt 标记后的全文；中文标题、摘要与场景为编辑整理。作者标注 Seedance 2.5。",
+      "prompt": "Oil painting style, thick impasto texture with visible palette knife strokes. A serene lake at dusk with a large golden moon partially hidden behind textured grey clouds. Six black swans swimming gracefully on the water, creating gentle ripples. Golden moonlight reflecting on the water surface. Pink cherry blossom tree on the right shore with petals falling slowly. Small cozy house with warm yellow lights in the windows. Dry golden reeds swaying gently in the breeze. Mountains in the distance. Calm, peaceful atmosphere, cinematic lighting, 4k.",
+      "covers": [
+        "/covers/x-2107856173839872397.jpg"
+      ],
+      "use": "social"
+    },
+    {
+      "no": "578",
+      "id": "x-2107850067248046102",
+      "title": "木乃伊放假",
+      "kicker": "每三秒一镜",
+      "excerpt": "手持手机跟拍一个爱捣乱的木乃伊，金字塔、集市和沙坡每三秒换一个玩笑。",
+      "style": "1940年代胶片感的恶搞跟拍",
+      "category": "story",
+      "visualCategory": "cinema",
+      "scenarios": [
+        "story",
+        "opinion"
+      ],
+      "tags": [
+        "恶搞",
+        "手持",
+        "木乃伊",
+        "埃及",
+        "Seedance"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "ShamsAmin56",
+        "name": "Shams",
+        "handle": "ShamsAmin56",
+        "url": "https://x.com/ShamsAmin56"
+      },
+      "sourceUrl": "https://x.com/ShamsAmin56/status/2107850067248046102",
+      "model": "Seedance 2.5",
+      "date": "2026-10-07",
+      "notes": "成片在主帖，可复制全文在作者第一条回复，逐字保留。中文标题、摘要与场景为编辑整理。作者标注 Seedance 2.5，角色图用 Nano Banana 2.1。",
+      "prompt": "Use the provided Erling Haaland mummy character sheet as the strict visual reference for the main character. Maintain the same facial appearance, tall athletic proportions, blond slicked-back hair, beige mummy wrappings, headband, costume texture and overall character identity throughout every shot. Do not redesign or change the character between scenes.\n\nSTYLE:\nA chaotic, playful, funny Egyptian adventure montage. Haaland behaves like an overconfident, mischievous mummy having the time of his life. He is constantly smiling, laughing, teasing the camera, doing ridiculous things and causing harmless chaos.\n\nCAMERA:\nEverything feels spontaneously recorded by a friend using a handheld phone camera — imperfect framing, natural shaky movement, sudden whip-pans, accidental tilts, fast push-ins, aggressive digital zoom-ins and zoom-outs, occasional missed focus and frantic reframing as the cameraman tries to follow him.\n\nMix modern handheld phone-video movement with the visual texture of vintage 1940s film: COLOR footage, heavy organic film grain, dust, scratches, flicker, gate weave, slightly unstable exposure, occasional light leaks and worn-film artifacts. Keep the image colorful and vibrant, NOT black-and-white.\n\nLOCATION:\nAncient Egypt — gigantic pyramids, desert dunes, Sphinx-like monuments, sandstone ruins, temples, hieroglyph-covered walls, palm trees, dusty marketplaces and golden sunset atmosphere.\n\nEDITING:\nExtremely energetic montage.\nNEW SCENE / NEW ACTIVITY EVERY 3 SECONDS.\n10 distinct shots total.\nHard cuts and occasional whip-pan transitions.\nEach shot should immediately introduce a new joke or activity.\n\n0–3 SEC:\nWide handheld shot beside a giant pyramid. Haaland suddenly runs toward camera like a mummy chasing the cameraman, laughing wildly, arms stretched forward. Cameraman runs backward, violently shaky footage, rapid zoom into Haaland’s laughing face.\n\n3–6 SEC:\nHard cut to Haaland riding a camel through the desert way too confidently, bouncing around and waving at camera. He points forward dramatically like an Egyptian king, then almost loses balance. Sudden zoom-out revealing the camel.\n\n6–9 SEC:\nInside an ancient temple. Haaland hides behind a sandstone pillar, peeks out mischievously, then jumps toward camera trying to scare the cameraman. Huge grin immediately afterward. Camera jolts backward and loses focus for a moment.\n\n9–12 SEC:\nHaaland performs a ridiculous mummy dance in front of hieroglyph-covered walls — stiff arms, exaggerated shoulder movements, playful footwork. Handheld camera circles him while rapidly zooming in and out.\n\n12–15 SEC:\nEgyptian marketplace. Haaland mischievously grabs an oversized basket of dates, runs away laughing while a confused merchant reacts in the background. Camera chases him through the market, chaotic handheld tracking and whip-pans.\n\n15–18 SEC:\nOn a desert dune, Haaland attempts an absurd heroic sprint downhill, trips slightly in his mummy wrappings, recovers instantly and celebrates like he just scored a goal. Cameraman zooms dramatically into his proud expression.\n\n18–21 SEC:\nHaaland stands beside an ancient Egyptian statue and perfectly imitates its frozen pose. Camera slowly zooms toward him — then he suddenly breaks character, sticks his tongue out at camera and runs away laughing.\n\n21–24 SEC:\nHaaland slides down a sandy slope on a piece of ancient-looking wooden board like improvised sand surfing. Sand explodes everywhere. Cameraman struggles to follow him with frantic shaky panning and an accidental extreme zoom.\n\n24–27 SEC:\nGolden-hour shot between massive temple columns. Haaland sneaks toward the camera like a cartoon villain, then suddenly throws a handful of sand toward the lens and runs away laughing. Camera lens becomes partially dusty; cameraman rapidly wipes it.\n\n27–30 SEC:\nEpic pyramid sunset finale. Haaland runs into frame, turns toward camera and performs an exaggerated victory celebration, laughing uncontrollably. He points directly at the cameraman, comes extremely close to the lens, then suddenly sprints away into the desert. Fast zoom-out revealing the enormous pyramids behind him.\n\nPERFORMANCE:\nHaaland must feel energetic, cheeky, playful and naturally funny rather than serious or frightening. Frequent genuine-looking laughter, smug grins, eyebrow raises, playful eye contact with the cameraman and spontaneous physical comedy.\n\nVISUAL CONTINUITY:\nSame mummy costume and same character appearance throughout all 10 shots. Beige aged fabric wraps should move naturally with his body and flutter slightly while running. Preserve realistic human anatomy and facial consistency.\n\nIMAGE CHARACTER:\nPhotorealistic cinematic realism but intentionally imperfect amateur camerawork.\nWarm Egyptian sunlight.\nRich desert golds and sandstone tones.\nColorful vintage 1940s film aesthetic.\nVisible film grain, scratches, dust, flicker and occasional light leaks.\nSlightly faded vintage color response while retaining strong color.\nNo polished stabilized gimbal look.\n\nIMPORTANT:\nEvery 3 seconds MUST visibly change location, action, composition or joke.\nKeep constant forward momentum.\nNo dialogue required.\nNo horror tone.\nNo slow dramatic scenes.\nNo static camera.\nNo black-and-white footage.\nNo costume changes.\nNo duplicate activities.\nMake the entire 30 seconds feel like a hilarious found-footage vacation montage of a mischievous mummy causing harmless chaos across ancient Egypt.",
+      "covers": [
+        "/covers/x-2107850067248046102.jpg"
+      ],
+      "use": "social"
+    },
+    {
+      "no": "579",
+      "id": "x-2107859128383062300",
+      "title": "假圣徒碎裂",
+      "kicker": "左光右暗",
+      "excerpt": "角色从左侧踏出，假圣徒在中线碎成平涂三角，右侧神龛剥落。",
+      "style": "硬边赛璐璐碎裂主视觉",
+      "category": "concept",
+      "visualCategory": "illustration",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "主视觉",
+        "碎裂",
+        "赛璐璐",
+        "角色",
+        "模板"
+      ],
+      "medium": "image",
+      "slots": [
+        "角色名",
+        "发型",
+        "虹膜颜色",
+        "体型",
+        "服装锁定",
+        "武器"
+      ],
+      "creator": {
+        "id": "ArtistNerd01",
+        "name": "ArtistryNerd",
+        "handle": "ArtistNerd01",
+        "url": "https://x.com/ArtistNerd01"
+      },
+      "sourceUrl": "https://x.com/ArtistNerd01/status/2107859128383062300",
+      "model": "未标注",
+      "date": "2026-10-07",
+      "notes": "提示词逐字截取自作者第一条回复，保留方括号槽位。封面取自主帖。中文标题、摘要与场景为编辑整理。作者未在帖内标注模型。",
+      "prompt": "TITLE: FALSE SAINT — [CHARACTER NAME] breaks the illusion\nSOLE REFERENCE LOCK: Use only the uploaded sheet or last approved portrait of [CHARACTER NAME]. Do not invent a new face, hair silhouette, outfit cut, or palette. The illusion may wear her face. The real body must match the sheet.\nMANDATORY STYLE OVERRIDE: Persona graphic key visual pushed into horror. Hard cel planes, razor ink, flat shadow, fashion-poster framing, one frozen shatter frame. Not soft anime, not painterly oil, not photoreal. Black, crimson, bone white, and the character’s locked accent only. Light always from the left. Red rim only on the right edge of hair, metal, and the cracking glass.\nREFERENCE ANALYSIS: Read the sheet for crown, bang break, eye cut, iris color, skin value, collar, armor, gloves, and boots. Preserve those shapes on the real body. The illusion may smear, duplicate, or crack. The real character may not.\nIDENTITY LOCK:\n\nName: [CHARACTER NAME]\nHair: [length, color, crown, bangs] — real hair intact, red rim on the right; illusion hair fractures into shards\nEyes: [iris color], sharp, seeing through the fake; no spiral unless asked\nBuild: [build], fair skin, clean cel planes on the real body only\nOutfit: [exact outfit lock] — no new accessories\nExpression: cold recognition, mouth set or barely open, not comedy, not a scream unless asked\n\nLEFT / RIGHT LAW: Left third is the light and the real character stepping through. Center is the face and the breaking point. Right third is the dark field and the collapsing false self. Never flip this.\nSHATTER LOGIC: No second weapon unless the sheet has one. The weapon is the truth: a flat crimson fracture bursting from her raised hand or [weapon if locked]. The illusion is a mirror-body of her, already wrong — extra eyes, melted collar, or a saint’s mask. It shatters on the center line into hard geometric shards, not soft glass dust.\nTHREE-ELEMENT COMPOSITION:\n\nThe real character, low angle, weight forward, hand or blade at the vertical center.\nThe hit: one hard-edged crimson fracture, illusion face split, shards as flat triangles.\nThe field: black void, red triangular panels, a peeling false shrine or halo collapsing on the right.\n\nENVIRONMENT: Abstract horror arena. A fake sacred space — gold ring, white veil, or altar — tearing into black and crimson geometry. No photo street, no realistic church interior.\nPAINTING TREATMENT: Clean line, soft-cel only inside hard shadow shapes, antique metal with flat highlight, horror limited to the illusion and the shards. No bloom, no film grain, no watermark, no UI text.\nFINAL REQUIREMENTS: Single cinematic horror-fight frame, full body or 3/4, identity unchanged on the real body, style override wins. Negative: soft painterly, chibi, extra limbs on the real body, wrong eye color, redesigned outfit, cute ghost, light from the right, unbroken calm portrait.",
+      "covers": [
+        "/covers/x-2107859128383062300.jpg"
+      ]
+    },
+    {
+      "no": "580",
+      "id": "x-2107855471738589621",
+      "title": "一个形状的节拍循环",
+      "kicker": "零剪辑",
+      "excerpt": "同一物体按 120 BPM 从按钮走到播放器、图表和命令面板，再回到按钮。",
+      "style": "单物体界面状态循环",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "代码",
+        "作品集",
+        "Opus",
+        "动效",
+        "弹簧"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "aifeelforme",
+        "name": "nia",
+        "handle": "aifeelforme",
+        "url": "https://x.com/aifeelforme"
+      },
+      "sourceUrl": "https://x.com/aifeelforme/status/2107855471738589621",
+      "model": "Claude Opus 5.5 · HTML",
+      "date": "2026-10-07",
+      "notes": "成片由 Opus 5.5 写 HTML 逐帧渲染，不是生视频模型。全文截自原帖，未改写；原帖 build 段未闭合标签，按帖内原文保留。",
+      "prompt": "<inputs> Give me: 8–12 UI states, each with a one-line description; the palette and font; and one royalty-free music track around 120 BPM. </inputs>\n\n<direction> Dribbble-quality UI animation. One continuous object, zero cuts. Warm-gray canvas, clean typography, consistent spacing. Use Geist. Every transition should feel intentional: springs, momentum, subtle overshoot.\n\nBanned: bouncy easing, unnecessary glows, gradients, inconsistent icon strokes, dead time.\n</direction>\n\n<structure> 120 BPM, 7 bars, with a meaningful action on every beat.\n\nButton → loader → check → dynamic island → music player → volume slider → toggle → tab indicator → chart → ⌘K → toast → button.\n</structure>\n\n<build>  1. One HTML file, square 1440×1440. Calculate every visual property from time inside seek(t). No CSS transitions, timers, or state carried between frames.\n\n2. Use closed-form step responses for spring motion instead of relying on animation libraries.\n\n3. Give every animated property its own spring so motion stays independent and controllable.\n\n4. Handle direct manipulation with pointer input and make dragged elements respond naturally.\n\n5. Analyze the music with numpy to extract timing and use the beat grid to drive the animation.\n\n6. Render through Playwright, then use ffmpeg tmix to create subtle temporal smoothing.\n\n<gotchas> Don’t use will-change as a shortcut.\n\nText changes should happen cleanly without flicker or layout jumps.\n\nThe final frame must match the initial frame perfectly so the animation loops seamlessly.\n</gotchas>\n\n<start> Ask me for the inputs first, then show me the complete state list mapped to the beat grid before writing any code. </start>",
+      "covers": [
+        "/covers/x-2107855471738589621.jpg"
       ],
       "use": "reel"
     }
