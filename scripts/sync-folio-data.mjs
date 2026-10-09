@@ -4,7 +4,7 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
-// This file is the only editable library. Website, Markdown and counts are exports.
+// Prompts are canonical; operational selections have a separate canonical sidecar.
 const root = fileURLToPath(new URL("../", import.meta.url));
 const canonical = "skills/folio-style/data/prompts.json";
 const read = (path) => readFileSync(resolve(root, path), "utf8").replace(/\r\n/g, "\n");
@@ -125,7 +125,9 @@ function renderCatalog() {
   }
   lines.push(`# 视频（${videos.length}）`, "");
   for (const category of db.categories) {
-    const items = videos.filter((p) => p.category === category.id || p.scenarios.includes(category.id));
+    const items = videos.filter(
+      (p) => p.category === category.id || p.scenarios.includes(category.id),
+    );
     if (!items.length) continue;
     lines.push(`## ${category.name}（${items.length}）`, "", category.blurb, "");
     table(items);
@@ -134,6 +136,83 @@ function renderCatalog() {
 }
 
 exportFile("src/data/prompts.json", JSON.stringify(db, null, 2) + "\n");
+const operations = JSON.parse(read("skills/folio-style/data/operations.json"));
+const operationStyles = new Map(operations.styles.map((style) => [style.no, style]));
+assert.equal(operationStyles.size, operations.styles.length, "Duplicate operational style");
+assert.equal(
+  new Set(operations.jobs.map((job) => job.id)).size,
+  operations.jobs.length,
+  "Duplicate operational job",
+);
+for (const style of operations.styles) {
+  assert.equal(
+    db.prompts.find((p) => p.no === style.no)?.medium,
+    "image",
+    `Invalid operational style ${style.no}`,
+  );
+}
+const usedStyles = new Set();
+for (const job of operations.jobs) {
+  assert.ok(job.inputs.length && job.styleNos.length && job.instructions && job.continuity);
+  assert.equal(new Set(job.styleNos).size, job.styleNos.length, `Duplicate style in ${job.id}`);
+  for (const no of job.styleNos) {
+    assert.ok(operationStyles.has(no), `Unknown operational style ${no}`);
+    usedStyles.add(no);
+  }
+}
+assert.equal(usedStyles.size, operationStyles.size, "Unused operational style");
+for (const reference of operations.references) {
+  assert.equal(new URL(reference.url).protocol, "https:");
+  for (const no of reference.styleNos) assert.ok(operationStyles.has(no));
+}
+exportFile("src/data/operations.json", JSON.stringify(operations, null, 2) + "\n");
+const operationGuide = [
+  "# FOLIO 科普运营选用指南",
+  "",
+  `面向${operations.audience}。更新于 ${operations.updatedAt}，精选 ${operations.styles.length} 种已有风格；不计作新增提示词。`,
+  "",
+  operations.provenance,
+  "",
+];
+for (const job of operations.jobs) {
+  operationGuide.push(
+    `## ${job.name}`,
+    "",
+    job.outcome,
+    "",
+    `选题示例：${job.example}`,
+    "",
+    `先准备：${job.inputs.join("、")}。`,
+    "",
+    `怎样画：${job.instructions}`,
+    "",
+    `系列复用：${job.continuity}`,
+    "",
+    "| 编号 | 画风 | 适用内容 | 复用注意 |",
+    "| --- | --- | --- | --- |",
+  );
+  for (const no of job.styleNos) {
+    const s = operationStyles.get(no);
+    operationGuide.push(`| [${no}](entries/${no}.md) | ${s.name} | ${s.fit} | ${s.reuse} |`);
+  }
+  operationGuide.push("");
+}
+operationGuide.push(
+  "## 账号参考",
+  "",
+  "以下为编辑分析，库内编号不代表该账号发布的官方 AI 提示词。",
+  "",
+);
+for (const r of operations.references)
+  operationGuide.push(
+    `### [${r.name}](${r.url})`,
+    "",
+    `${r.sourceType}。${r.takeaway}`,
+    "",
+    r.apply,
+    "",
+  );
+exportFile("skills/folio-style/OPERATIONS.md", operationGuide.join("\n"));
 for (const p of db.prompts) exportFile(`skills/folio-style/entries/${p.no}.md`, renderEntry(p));
 exportFile("skills/folio-style/CATALOG.md", renderCatalog());
 for (const [path, pattern, replacement] of [

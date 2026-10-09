@@ -18,6 +18,13 @@ description: >
 - 单条：`entries/NNN.md`（NNN 为三位编号）
 - 目录：`CATALOG.md`
 - 命令：在本 skill 目录执行 `node scripts/lookup.mjs`
+- 科普运营选用：[OPERATIONS.md](OPERATIONS.md)；编辑建议源为 `data/operations.json`，与原始提示词分开维护。
+
+## 用户要做泛知识／科普账号内容
+
+先读 `OPERATIONS.md`，按选题封面、原理图解、对照解释、连续漫画、步骤教程、栏目画风选择用途。给出适合的编号、选题示例、需准备的资料与系列复用规则，再按编号取原始提示词。账号参考是编辑分析，不得说成该账号提供的原始 AI 提示词；制作简报与改编版本明确标注，不能覆盖原文。编号内涉及具体创作者名字时保留原作者署名，用户自己的栏目先建立原创角色与视觉规则。
+
+后续图像定向采集按 [科普运营采集规则](../../docs/science-operations-collection.md) 筛选，以实际栏目用途、可替换输入与系列复用为优先条件。
 
 ## 用户给了编号
 
