@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 599,
+  "count": 611,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -21928,6 +21928,478 @@
       "prompt": "主題：\nスケート靴の紐直し\n\n主体：\n画面中央、スケートパークで白いローラースケートの紐を直す女性が主役。\n\n人物・表情：\n小さな卵形の顔、濃茶の大きな瞳、細い眉、整った鼻、艶のある淡桃色の唇。表情は、顔を正面から少し左へ向け、視線をカメラへ合わせて唇を少し開いた元気な表情。濃茶の長いウェーブ髪を左肩へ流し、薄い前髪を残す。\n\n服装・ポーズ：\n生成りのリブ生地、紺縁の広い胸元と太い肩紐を持つスポーツブラトップ、同素材のハイウエストショートパンツ、黒い膝丈ソックス、黒紐の白いローラースケート。左脚を低い黒レールへ載せて膝を曲げ、両手で左靴の紐を持ち、右脚で立つ。\n\n背景・光：\n画面左から画面右の背景に、前景に黒い金属レール、背景に灰色のスケートボウル、木、緑葉、青空。画面左上の硬い直射日光が顔、肩、脚を照らす。\n\n構図・カメラ：\n2:3の縦構図、膝より少し低い正面カメラで頭頂から両スケート靴までの全身を収めるポートレート。人物を中央へ大きく配置し、画面高の大部分を占める。レールと靴を下端へ収め、顔と左靴の両手にピント、背景は軽くぼかす。\n\n質感・スタイル：\nフォトリアルな実写写真。自然な肌と髪、衣装の素材、周囲の小物を高精細にし、生成り、紺、白、青のスポーティな昼色を保つ。\n\nネガティブ：\n靴紐を直す姿勢変更；ローラースケート省略",
       "covers": [
         "/covers/x-2106222709424419238.jpg"
+      ]
+    },
+    {
+      "no": "600",
+      "id": "x-2091436714384613713",
+      "title": "闪电形成的五幕科普分镜",
+      "kicker": "原理分镜",
+      "excerpt": "从积雨云、电荷分离到闪电和雷声，用五幕画面安排15秒科学讲解。",
+      "style": "电影感三维科学分镜",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "科普",
+        "闪电",
+        "原理",
+        "分镜",
+        "科学动画"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Strength04_X",
+        "name": "M-studioAi",
+        "handle": "Strength04_X",
+        "url": "https://x.com/Strength04_X"
+      },
+      "sourceUrl": "https://x.com/Strength04_X/status/2091436714384613713",
+      "model": "GPT image 2 × Happyhorse 1.1（作者标注）",
+      "date": "2026-08-23",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。这是用于设计分镜图的图像提示词，含旁白、动作、镜头与音效说明；原帖附静态分镜图。本次没有生成视频。",
+      "prompt": "Create a vertical 2:3 educational storyboard infographic, 5 horizontal scenes, cinematic realistic 3D science visualization, exactly like a professional educational video storyboard.\n\nTOPIC: HOW LIGHTNING HAPPENS\nDuration: 15 seconds\n\n1 | 0:00–0:03 — STORM CLOUDS\nVisual: Huge dark storm clouds forming above a landscape.\nAction: Clouds grow rapidly with electric particles inside.\nVO: “Lightning begins inside powerful storm clouds.”\nSFX: Wind and distant thunder.\nCamera: Slow aerial push in.\nTransition: Light Flash.\n\n2 | 0:03–0:06 — ELECTRIC CHARGE\nVisual: Close-up inside cloud showing positive and negative charges separating.\nAction: Blue and orange particles move to opposite sides.\nLabels: POSITIVE CHARGE, NEGATIVE CHARGE.\nVO: “Ice and water particles separate electric charges inside the cloud.”\nSFX: Electric crackle.\nCamera: Macro tracking.\nTransition: Energy Glow.\n\n3 | 0:06–0:09 — CHARGE BUILDS\nVisual: Dark cloud above the ground, bright electrical energy increasing.\nAction: Electric particles move downward toward Earth.\nVO: “As the charge becomes stronger, electricity searches for a path.”\nSFX: Rising electrical hum.\nCamera: Tilt from cloud toward ground.\nTransition: Quick Flash.\n\n4 | 0:09–0:12 — LIGHTNING STRIKE\nVisual: Bright lightning bolt connects cloud to ground.\nAction: Lightning travels rapidly downward.\nLabel: LIGHTNING.\nVO: “A powerful electrical discharge creates a lightning bolt.”\nSFX: Loud thunder crack.\nCamera: Fast Pull Back.\nTransition: White Flash.\n\n5 | 0:12–0:15 — THUNDERSTORM\nVisual: Wide storm landscape with lightning and rain.\nAction: Lightning flashes while rain falls below.\nVO: “The sudden heating of air also creates the sound of thunder.”\nSFX: Deep thunder rolling.\nCamera: Wide aerial pull back.\nTransition: Smooth Fade.\n\nBottom: NARRATOR (VO): Clear, calm, educational male voice.",
+      "covers": [
+        "/covers/x-2091436714384613713.jpg"
+      ]
+    },
+    {
+      "no": "601",
+      "id": "x-1991676243079766311",
+      "title": "成语故事手绘心智图",
+      "kicker": "手绘知识漫画",
+      "excerpt": "用人物小场景、关键词和关联分支，向小学生解释一组成语。",
+      "style": "儿童手绘漫画心智图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "科普漫画",
+        "知识漫画",
+        "成语",
+        "儿童",
+        "手绘",
+        "思维导图"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "esorhjy",
+        "name": "電腦玩物站長 Esor",
+        "handle": "esorhjy",
+        "url": "https://x.com/esorhjy"
+      },
+      "sourceUrl": "https://x.com/esorhjy/status/1991676243079766311",
+      "model": "Gemini Nano Banana Pro",
+      "date": "2025-11-21",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。图中知识内容须按具体选题另行核对。",
+      "prompt": "你是小學三年級國語老師，要跟小朋友解釋下列成語。請一步一步分析： 1.針對下面成語的意思，設計適合的場景示意圖象。 2.拆解成語的用字，用延伸關鍵字，讓小朋友一看就能記住成語的關鍵解釋。 3.根據成語的相關性或邏輯，排列順序與版面。 4.繪製出有趣的手繪圖。\n成語：### 朝三暮四 利令智昏 洛陽紙貴 張冠李戴 融會貫通 漠不關心 心平氣和 一毛不拔 欲蓋彌彰 盲人摸象 苦口婆心 斬釘截鐵 細嚼慢嚥 朝令夕改 餘波盪漾 史無前例 身敗名裂 兵不厭詐 捲土重來 標新立異 ###",
+      "covers": [
+        "/covers/x-1991676243079766311.jpg"
+      ]
+    },
+    {
+      "no": "602",
+      "id": "x-2050183637195522456",
+      "title": "参考人物转白板讲解角色",
+      "kicker": "白板角色",
+      "excerpt": "把参考人物化为黑色记号笔线稿，保留五官与发型，适合作为知识讲解的角色素材。",
+      "style": "黑色记号笔白板卡通",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "科普漫画",
+        "讲解员",
+        "白板",
+        "角色",
+        "参考图",
+        "线稿"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "shushant_l",
+        "name": "Shushant Lakhyani",
+        "handle": "shushant_l",
+        "url": "https://x.com/shushant_l"
+      },
+      "sourceUrl": "https://x.com/shushant_l/status/2050183637195522456",
+      "model": "Google Nano Banana Pro 或其他图像生成模型（作者说明）",
+      "date": "2026-05-01",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。需要提供人物参考图。原帖四张示例为不同人物的白板线稿；提示词只生成静态插画，不含实际口型或动作帧。",
+      "prompt": "clean whiteboard animation style illustration of the person from the reference image, drawn as a simple black marker sketch on a pure white background. Use bold hand-drawn outlines, minimal shading, and a slightly exaggerated cartoon-like style while still preserving the person’s recognizable facial features, hairstyle, and expression. Add subtle motion lines and sketch imperfections to mimic real hand-drawn animation. The character should appear as if being drawn on a whiteboard, with a casual, engaging, and educational vibe. Keep the composition minimal, high contrast, and visually clear, with no complex background elements",
+      "covers": [
+        "/covers/x-2050183637195522456.jpg",
+        "/covers/x-2050183637195522456-2.jpg",
+        "/covers/x-2050183637195522456-3.jpg",
+        "/covers/x-2050183637195522456-4.jpg"
+      ]
+    },
+    {
+      "no": "603",
+      "id": "x-2108049869902663869",
+      "title": "微型角色的连续动作链",
+      "kicker": "可复用角色",
+      "excerpt": "让多个角色沿十种视觉路径追逐、托举与牵引，可复用为系列故事中的角色互动素材。",
+      "style": "大留白微型人物涂鸦",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "漫画",
+        "角色复用",
+        "动作链",
+        "涂鸦",
+        "多角色",
+        "十种构图"
+      ],
+      "medium": "image",
+      "slots": [
+        "角色A",
+        "角色B",
+        "角色C",
+        "角色D"
+      ],
+      "creator": {
+        "id": "VoxcatAI",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2108049869902663869",
+      "model": "gpt-image2（作者标注）",
+      "date": "2026-10-08",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。原帖示例是游戏角色互动，属于画风和角色组织参考，并非现成科普知识漫画。保留右下角极小 voxcat 的原作者署名要求。",
+      "prompt": "【角色A / 角色B / 角色C / 角色D】，极简卡通涂鸦插画 × 巨大留白 × 微型人物动作链。\n\n纯白或极浅色背景，画面 65% 以上区域保持空白。角色比例极小，仅保留发型轮廓、主色、标志性配饰与服装色块，转化为简化、易识别的卡通形象。\n\n每张随机选择一种构图：中央纵向队列、S 形蛇形、对角坠落、单边悬挂、U 形路径、微型圆环、螺旋轨迹、断续漂浮节点、顶部横向事件后纵向坠落、底部人物塔。整体视觉轨迹细长、明确，角色集中在局部区域，四周保持大面积留白。\n\n沿轨迹设置一个与角色世界观相关的微型目标物，例如水果、食物、徽章、武器、宝石或玩偶。目标物位于路径起点、终点或圆环与螺旋的中心，角色视线与动作自然指向它。\n\n每个角色采用不同的夸张动作：奔跑、跳跃、伸手、托举、惊讶、跌倒、张嘴、回头、被压住或互相牵引。通过手脚接触、衣物牵拉、视线方向与间距变化，让人物形成连续、易读的动作关系。具体动作与角色顺序随机，保持清楚的视觉节奏。\n\n松弛手绘黑色轮廓线，略带抖动、飞线与不规则感，像动画草稿或儿童涂鸦。少量高纯度平涂色块，以黑线、白底和红、黄、蓝、绿构成简洁配色，角色主色作为身份锚点。\n\n整体轻松、荒诞、可爱，像动画贴纸、角色手账插画或极简手机壁纸。竖版，右下极小 voxcat。",
+      "covers": [
+        "/covers/x-2108049869902663869.jpg",
+        "/covers/x-2108049869902663869-2.jpg",
+        "/covers/x-2108049869902663869-3.jpg",
+        "/covers/x-2108049869902663869-4.jpg"
+      ]
+    },
+    {
+      "no": "604",
+      "id": "x-2053094793123946657",
+      "title": "自然百科的复古图鉴页",
+      "kicker": "自然科普图鉴",
+      "excerpt": "围绕一个物种安排解剖标注、分类、生命周期、食物与大小对比。",
+      "style": "羊皮纸自然博物馆图鉴",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "自然",
+        "昆虫",
+        "百科",
+        "生命周期",
+        "复古插画"
+      ],
+      "medium": "image",
+      "slots": [
+        "TOPIC",
+        "Insert Subject"
+      ],
+      "creator": {
+        "id": "iamsofiaijaz",
+        "name": "Aijaz",
+        "handle": "iamsofiaijaz",
+        "url": "https://x.com/iamsofiaijaz"
+      },
+      "sourceUrl": "https://x.com/iamsofiaijaz/status/2053094793123946657",
+      "model": "Google Gemini Nano banana pro（作者标注）",
+      "date": "2026-05-09",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。完整保留主题输入句与 Master Prompt。默认主体举例为兰花螳螂，四张配图是蓝闪蝶、马达加斯加日落蛾、蜜蜂与兰花螳螂的原帖变体；知识评分与图中细节不作为已核实事实。",
+      "prompt": "Based on { TOPIC }, create a high-quality vertical “encyclopedia-style educational infographic image.”\n\nThe Master Prompt:\n\"A comprehensive scientific educational infographic for [Insert Subject, e.g., an Orchid Mantis]. The style is a vintage nature field guide with a cream-colored parchment background. The layout features a large, detailed central illustration of the creature with anatomical labels (e.g., 'Raptorial Legs', 'Petal-like Flanges'). Surrounding the center are various boxed sections including: a 'Quick Profile' with scientific name and habitat, a 'Classification' tree, a 'Knowledge Score' with star ratings, 'Life Cycle' diagrams showing egg to adult, and a 'Size Comparison' against a human hand. Include a 'Diet' section with small illustrations of prey, a 'Habitat' section with photos of rainforests, and a bottom 'Did You Know?' banner. The aesthetic is clean, professional, and highly detailed, resembling a high-end museum poster.\"",
+      "covers": [
+        "/covers/x-2053094793123946657-4.jpg",
+        "/covers/x-2053094793123946657.jpg",
+        "/covers/x-2053094793123946657-2.jpg",
+        "/covers/x-2053094793123946657-3.jpg"
+      ]
+    },
+    {
+      "no": "605",
+      "id": "x-2097594643907006499",
+      "title": "微积分教材的图文重绘",
+      "kicker": "数学原理图解",
+      "excerpt": "以教材页为参考，将切线、线性近似与定积分面积重新排成清楚的中文教学页面。",
+      "style": "蓝色标题与彩色框的教材排版",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "数学",
+        "微积分",
+        "教材",
+        "切线",
+        "图文重绘"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "jungeAGI",
+        "name": "俊哥AI",
+        "handle": "jungeAGI",
+        "url": "https://x.com/jungeAGI"
+      },
+      "sourceUrl": "https://x.com/jungeAGI/status/2097594643907006499",
+      "model": "gpt-image-2.5（作者标注）",
+      "date": "2026-09-09",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。必须提供原教材页；原帖只附一张页面，未提供一套可区分的输入与输出对照。保留原文公式与排版要求，未采用索引添加的可变页码、章节等槽位。",
+      "prompt": "使用场景：科学教育类图片\n\n素材类型：\n高清竖版教材页面重绘\n\n主要要求：\n将参考图片中的中文微积分教材页面重新绘制成清晰、精致、排版锐利的教育页面。保留原图的双栏结构、内容层级和整体布局，但需要重新绘制所有内容，而不是简单增强或修复扫描图片。\n\n输入图片：\n图片 1 是唯一的内容、排版和构图参考，同时也是需要重绘的目标图片。\n\n风格与媒介：\n现代中文版大学数学教材风格。使用干净的白色纸张背景、清晰的印刷排版、专业的数学公式排版，以及精确、接近矢量图效果的函数图像。\n\n页面构图：\n采用竖版页面。\n\n左上角显示页码“214”，右上角显示章节名称“第 4 章 导数的应用”。\n\n页面主体首先显示蓝色标题：\n\n“4.3 切线与线性近似”\n\n标题下方依次包括：\n\n1. 章节介绍文字；\n2. 浅黄色的定义框；\n3. 左侧的函数曲线与切线示意图；\n4. 右侧的浅绿色例题框；\n5. 蓝色标题“4.4 求面积与累积量的应用”；\n6. 定积分面积示意图；\n7. 浅黄色的定理框。\n\n保持合理的页边距、内容间距和视觉平衡。\n\n必须包含的数学内容：\n\n切线方程：\n\ny = f(a) + f'(a)(x-a)\n\n线性化公式：\n\nL(x) = f(a) + f'(a)(x-a)\n\n例题函数：\n\nf(x) = √x\n\n在 x = 4 处进行线性近似：\n\nL(x) = 2 + 1/4(x-4) = 1/4 x + 1\n\n近似计算：\n\n√4.1 ≈ 2.025\n\n页面下方的定积分图形应包含：\n\nA = ∫ₐᵇ f(x) dx\n\n并使用颜色填充曲线下方从 a 到 b 的面积区域。\n\n第一幅函数图要求：\n\n- 使用黑色的 x 轴和 y 轴；\n- 绘制一条平滑的蓝色曲线 y=f(x)；\n- 绘制一条红色切线；\n- 使用蓝色圆点标出点 (a,f(a))；\n- 从该点向 x 轴绘制一条竖直虚线；\n- 在 x 轴上标注 a；\n- 正确标注函数曲线和切线公式。\n\n第二幅定积分图要求：\n\n- 使用黑色的 x 轴和 y 轴；\n- 绘制一条平滑的蓝色函数曲线；\n- 使用浅蓝色填充从 a 到 b 的曲线下面积；\n- 在 a 和 b 处绘制竖直虚线；\n- 正确显示积分公式和相关标注。\n\n配色方案：\n\n- 章节标题使用深钴蓝色；\n- 侧边栏使用浅蓝色背景；\n- 定义框和定理框使用浅米黄色或暖黄色背景，并添加金黄色细边框；\n- 例题框使用浅薄荷绿色背景；\n- 正文使用黑色；\n- 函数曲线使用蓝色；\n- 切线使用红色。\n\n限制条件：\n\n- 所有中文文字必须清晰、易读；\n- 所有数学公式和符号必须准确；\n- 保留参考图片的教学含义、章节结构和视觉层级；\n- 不要使用手写字体；\n- 不要出现扫描阴影或纸张褶皱；\n- 不要出现透视变形；\n- 不要添加水印；\n- 不要添加新 Logo；\n- 不要添加无关插图或装饰；\n- 最终效果应像一张全新排版、可用于印刷的中文版大学数学教材页面。",
+      "covers": [
+        "/covers/x-2097594643907006499.jpg"
+      ]
+    },
+    {
+      "no": "606",
+      "id": "x-2090825188107833774",
+      "title": "旗袍结构与工艺拆解",
+      "kicker": "服饰知识图解",
+      "excerpt": "围绕同一件旗袍，用局部放大图、结构线稿和虚线箭头解释领口、腰省与滚边。",
+      "style": "白底新中式服饰结构图鉴",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "tags": [
+        "泛知识",
+        "服饰",
+        "旗袍",
+        "工艺",
+        "结构拆解",
+        "中文图鉴"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "liyue_ai",
+        "name": "李岳",
+        "handle": "liyue_ai",
+        "url": "https://x.com/liyue_ai"
+      },
+      "sourceUrl": "https://x.com/liyue_ai/status/2090825188107833774",
+      "model": "GPT Image 2",
+      "date": "2026-08-21",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。原文是一件现代改良无袖旗袍的具体设定；更换服装时需同步替换结构模块、面料与工艺描述。它是服饰知识图解，非多格漫画。",
+      "prompt": "生成一张 16:9 横版、纯白背景 的 旗袍结构与工艺细节图鉴，整体风格为 现代简洁图鉴页 + 高端服饰结构研究图 + 新中式极简服装解析页，画面干净、明亮、克制、精致，具有清晰的设计感与传播感。\n\n画面顶部设置完整的标题说明区，排版简洁高级、留白充足：\n\n主标题：“现代改良无袖旗袍”\n副标题：“结构与工艺细节图鉴”\n顶部风格说明行：“新中式极简｜米白提花丝绸｜祥云暗花提纹｜米白底・浅金滚边”\n右上角系列标签：“新中式系列”\n\n背景必须是 纯白色，不要米白、不要宣纸色、不要复古纸张感。\n\n画面中央是一位 22–32 岁的成年东方女性，气质 清雅、现代、克制，五官 清秀知性，轮廓柔和，东方感明确，发型为 简洁低髻。人物姿态自然稳定，正面站姿或轻微 3/4 角度，完整露出全身，双臂不要遮挡服装结构，整体重点是展示旗袍，不是拍人物写真。\n\n她身穿一件 现代改良无袖旗袍，风格方向为 新中式极简，整体廓形为 修身流线型。旗袍具有以下明确设定：\n\n领型：低立领\n襟型：简化斜襟\n盘扣类型：极简一字扣\n袖型：无袖\n长度与开衩：小腿中长款，中开衩\n面料：米白提花丝绸\n纹样与工艺：祥云暗花提纹\n主色与滚边配色：米白底 + 浅金滚边\n\n中央完整旗袍必须清晰展示：\n\n低立领结构\n简化斜襟走向\n极简一字盘扣\n无袖肩部轮廓\n修身腰线与腰省关系\n中开衩位置\n下摆与滚边关系\n\n围绕中央主体，在左右两侧分布 7 个局部拆解模块，所有模块必须严格来自中央同一件旗袍，保证 颜色一致、面料一致、纹样一致、滚边一致、结构一致。拆解重点为：\n\n领口\n襟线\n无袖肩部\n腰省\n开衩\n提花纹理\n滚边工艺\n\n局部模块需混合三类形式：\n\n结构放大图：领口、襟线、无袖肩部、开衩\n工艺微距图：提花纹理、滚边工艺、极简一字盘扣\n结构线稿图：腰省结构线稿\n\n使用 虚线手绘单向箭头 将每个局部模块与中央旗袍的对应位置连接，箭头要求：\n\n极细虚线\n手绘感曲线\n单向箭头\n小圆点定位\n优雅克制，不要科技信息图风\n\n每个局部模块旁边只标注简短中文组件名称，不写长段说明。可使用如下文字：\n\n领口\n襟线\n无袖肩部\n腰省\n开衩\n提花纹理\n滚边工艺\n\n在画面底部加入少量小样陈列，保持简洁，可包含：\n\n米白提花丝绸 面料小样\n浅金滚边 色卡小样\n简约一字盘扣 工艺小样\n\n整体视觉要强调：\n\n纯净感\n现代结构感\n新中式极简气质\n面料提花的细腻层次\n米白与浅金的高级配色\n图鉴感、设计研究页感、可传播性\n\n光线柔和明亮，像高级服装设计展示页，能清晰呈现丝绸提花纹理、滚边厚度、盘扣细节与剪裁结构。\n\n负面约束：\n不要普通写真海报感，不要电商白底商品图感，不要杂乱排版，不要大段说明文字，不要粗箭头，不要科技感直线连接，不要人物遮挡服装结构，不要局部模块与中央旗袍不一致，不要错误开衩位置，不要模糊纹理，不要塑料质感。",
+      "covers": [
+        "/covers/x-2090825188107833774.jpg"
+      ]
+    },
+    {
+      "no": "607",
+      "id": "x-2027986208408977548",
+      "title": "物件内部结构的剖面图解",
+      "kicker": "结构原理",
+      "excerpt": "用剖面、截面或爆炸视图展示物件内部，再以引线逐一标注部件。",
+      "style": "半写实工程拆解插画",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "tags": [
+        "科普",
+        "结构",
+        "剖面",
+        "爆炸图",
+        "工程",
+        "部件标注"
+      ],
+      "medium": "image",
+      "slots": [
+        "OBJECT NAME"
+      ],
+      "creator": {
+        "id": "weiinberg",
+        "name": "Weinberg",
+        "handle": "weiinberg",
+        "url": "https://x.com/weiinberg"
+      },
+      "sourceUrl": "https://x.com/weiinberg/status/2027986208408977548",
+      "model": "Nano Banana on Yapper（作者标注）",
+      "date": "2026-03-01",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。四张原帖示例分别展示手机、耳机、笔记本与方向盘。提示词要求自动识别部件；型号、结构和标注须另查真实资料，不把生成图视为工程证据。",
+      "prompt": "Create a high-resolution professional infographic of [OBJECT NAME].\nDisplay the object in a clean, semi-realistic technical illustration style. Include both external structure and internal components using a cutaway view, cross-section, or exploded layout where appropriate.\nAutomatically detect and label all major structural, mechanical, electronic, or functional components using accurate technical terminology.\nUse thin leader lines connecting each label precisely to the correct part. Ensure labels are clear, readable, and professionally formatted.\nAdd a bold headline at the top:\n“OBJECT NAME – Complete Structural Breakdown”\nLayout should be balanced and organized like a modern engineering manual or product teardown poster.\nBackground: clean white or light neutral tone.\nLighting: neutral studio lighting with soft shadows for depth.\nMaterials and textures must look realistic and detailed.\nUse modern sans-serif typography with clear hierarchy (bold headings, smaller technical labels).\nUltra-detailed, sharp focus, 4K resolution, professional educational infographic style.\nNo artistic distortion, no clutter, no decorative elements unrelated to structure.",
+      "covers": [
+        "/covers/x-2027986208408977548.jpg",
+        "/covers/x-2027986208408977548-2.jpg",
+        "/covers/x-2027986208408977548-3.jpg",
+        "/covers/x-2027986208408977548-4.jpg"
+      ]
+    },
+    {
+      "no": "608",
+      "id": "x-2029299086512537753",
+      "title": "产品演变的手绘时间线",
+      "kicker": "科技演变图解",
+      "excerpt": "用年份、箭头和小幅草图串联产品设计变化与关键节点。",
+      "style": "水彩纸感与工程蓝图标注",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "tags": [
+        "泛知识",
+        "科技史",
+        "时间线",
+        "设计演变",
+        "手绘",
+        "水彩"
+      ],
+      "medium": "image",
+      "slots": [
+        "PRODUCT NAME",
+        "BRAND COLOR"
+      ],
+      "creator": {
+        "id": "Aipromptslap",
+        "name": "Ai Prompts Lab",
+        "handle": "Aipromptslap",
+        "url": "https://x.com/Aipromptslap"
+      },
+      "sourceUrl": "https://x.com/Aipromptslap/status/2029299086512537753",
+      "model": "Google Nano Banana Pro 2.0（作者标注）",
+      "date": "2026-03-04",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。四张原帖示例为饮料品牌演变。原文同时包含水彩纸感与白底工程标注要求，逐字保留；示例年份和里程碑未逐项核实。",
+      "prompt": "Create a technical infographic of  timeline poster of [PRODUCT NAME]. Use sharp ink lines and soft watercolor on textured paper.\nFeature a central hero illustration with handwritten years, arrows, notes, and small sketches showing design evolution and key milestones. Keep it clean, lively, colourful and strong contrast. Highly detailed, vertical portrait.\n\nVisual Concept\nA realistic photograph or photorealistic render combined with dense technical annotation overlays, exactly like an engineering, Pure white studio background.\n\nTitle Placement\nProduct name in English , bold font, inside a hand-drawn technical annotation frame (as in engineering blueprints), positioned in the upper corner.\n\nStyle & Layout\n• Very high information density • Annotations feel like an engineering / architectural sketch • Black lines — 70–80% of all graphics • Accent [BRAND COLOR] — 20–30% (arrows, key zones, headings) • The realistic product remains fully readable • Educational, industrial-premium aesthetic • Small brand logo in the corner (in English)\n\nVisual Style\nMinimal technical illustration aesthetic: black linework over realistic imagery, precise, highly detailed, slightly hand-drawn, like professional technical manuals.\nColor Palette\nWhite background Black text and linework [BRAND COLOR] used only for accents\nOutput\n9:16 Vertical portrait, 8K, highly detailed, Ultra-crisp image Social-feed optimized No watermark",
+      "covers": [
+        "/covers/x-2029299086512537753.jpg",
+        "/covers/x-2029299086512537753-2.jpg",
+        "/covers/x-2029299086512537753-3.jpg",
+        "/covers/x-2029299086512537753-4.jpg"
+      ]
+    },
+    {
+      "no": "609",
+      "id": "x-1991796624646091091",
+      "title": "德国联邦州的水彩地图",
+      "kicker": "地理知识插画",
+      "excerpt": "用不同水彩色块和手写州名，制作德国行政区划的知识插画。",
+      "style": "水彩地图与圆珠笔手写标注",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "地理",
+        "德国",
+        "地图",
+        "水彩",
+        "行政区划"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "FlorianGallwitz",
+        "name": "Florian Gallwitz",
+        "handle": "FlorianGallwitz",
+        "url": "https://x.com/FlorianGallwitz"
+      },
+      "sourceUrl": "https://x.com/FlorianGallwitz/status/1991796624646091091",
+      "model": "Nano Banana Pro",
+      "date": "2025-11-21",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。完整提示词为原帖一句德文指令，固定主题为德国联邦州。原帖配图含地理标注，边界与小州呈现仍需与可靠地图核对。",
+      "prompt": "Erzeuge eine Karte von Deutschland im Wasserfarben-Stil, auf der alle Bundesländer mit Kugelschreiber benannt sind.",
+      "covers": [
+        "/covers/x-1991796624646091091.jpg"
+      ]
+    },
+    {
+      "no": "610",
+      "id": "x-2022422529038811247",
+      "title": "漫画演变的四层剖面博物馆",
+      "kicker": "文化演变图解",
+      "excerpt": "把漫画发展分成四层场景，以时代标签、工具和作品呈现创作方式的变化。",
+      "style": "四层博物馆建筑剖面",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "泛知识",
+        "漫画史",
+        "演变",
+        "四层场景",
+        "剖面",
+        "博物馆"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2022422529038811247",
+      "model": "Nano Banana Pro vs GPT（作者对比，GPT 版本未注明）",
+      "date": "2026-02-13",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。两张配图为原作者模型对比结果。提示词允许模型推断四个发展阶段；时代划分、代表作品和日期属于待核实内容。",
+      "prompt": "Evolution of Manga --> <LAYOUT> A single chunky block (like a museum cutaway) sliced to reveal 4 stacked floors/strata. Each level represents an era/stage/version inferred from INPUT. Right side: a vertical legend bar with dates/period labels inferred by the model. </LAYOUT>\n<INFER_AND_RENDER> Infer 4 major phases and depict each with representative artifacts, tools, and environments. Keep transitions educational: show what changed between levels (materials, scale, method). </INFER_AND_RENDER>\n<STYLE_NOTES> Architectural section realism: visible thickness, rebar/fasteners if applicable, realistic debris at cut edge. </STYLE_NOTES>",
+      "covers": [
+        "/covers/x-2022422529038811247.jpg",
+        "/covers/x-2022422529038811247-2.jpg"
+      ]
+    },
+    {
+      "no": "611",
+      "id": "x-1998434974186586128",
+      "title": "历史高光时刻的微缩藏品",
+      "kicker": "历史切片",
+      "excerpt": "把重大历史或科学事件做成轴侧微缩场景，再配中文博物馆铭牌。",
+      "style": "柔光三维微缩历史场景",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "泛知识",
+        "历史",
+        "科学发现",
+        "微缩",
+        "场景",
+        "博物馆"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "url": "https://x.com/op7418"
+      },
+      "sourceUrl": "https://x.com/op7418/status/1998434974186586128",
+      "model": "Nano Banana Pro",
+      "date": "2025-12-09",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。原提示词主题为重型猎鹰双助推器同步着陆；唯一配图是四事件拼图，其余为 iPhone 发布、梅西夺冠和 ChatGPT 发布的变体。模型检索不等同于事实核验。",
+      "prompt": "请为【SpaceX重型猎鹰双助推器同步着陆】制作一张博物馆级别的3D轴侧微缩海报，先检索相关信息获取知识。\n\n第一步，智能识别与场景构建： 请先调用你的知识库，判断我输入的主题属于哪种类别（是虚构文学、真实历史事件、体育竞技还是科学发现）。 然后，精准检索该主题发生时的具体环境、核心人物动作、服饰细节以及当时的气候氛围。 在画面中央，建立一个精致的3D微缩场景模型。风格上，保持梦工厂动画那种高精度的材质感和柔和的光影渲染。 如果是体育，要强调动作的爆发力和凝固的瞬间感；如果是历史，要还原年代感和严肃性；如果是文学，则强调意境。\n\n第二步，氛围与背景： 背景请摒弃纯白，使用带有极淡水墨纹理和流动光雾的虚空环境，色调根据主题自动调整，营造出一种“历史切片”或“珍贵藏品”的高级感。\n\n第三步，排版与文字： 在底部居中位置生成中文排版。 主标题写上事件或作品的名称，字体设计要契合主题风格。 在标题下方，请自动检索该事件最著名的金句、解说词、日期或历史评价，字体使用优雅的衬线体。整体布局要像一个高级的博物馆藏品铭牌那样精致平衡。",
+      "covers": [
+        "/covers/x-1998434974186586128.jpg"
       ]
     }
   ],

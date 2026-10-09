@@ -1,0 +1,960 @@
+{
+  "retrievedOn": "2026-10-09",
+  "baselineCount": 599,
+  "baselineCommit": "5f5d99011e3ba5bcfcdc31007ccf5c8a634950b6",
+  "baselineSha256": "323ae750e660086a1196aed24d0f1a80b9c8be56c931d69d7c56403f7cf852fc",
+  "scope": "12 new-to-library science and knowledge illustration, storyboard, and reusable character-style prompts. Original publication dates 2025-11-21 to 2026-10-08; this is an ingestion date, not a claim that all posts are recent.",
+  "access": {
+    "provider": "https://api.fxtwitter.com",
+    "method": "Unauthenticated public HTTP with User-Agent only; no X/Grok login cookies, browser profile, account session or OAuth."
+  },
+  "discovery": {
+    "originalPostsAttempted": 50,
+    "originalPostsRetrieved": 50,
+    "selected": 12
+  },
+  "indexes": [
+    {
+      "name": "nano",
+      "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "commit": "be78cc59828bd880d98df40229df187a10514620",
+      "contentSha256": "6f42d94a18b4fbc3c42fe74edd6253f3429c1e5409270e2d13d2e098ac0ee1c2"
+    },
+    {
+      "name": "gpt",
+      "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+      "commit": "b5bbead7b74f0e9298d1dff8396d90f56551e77a",
+      "contentSha256": "01e2bd8e1972c94abbc42ae1ce959bba69ef4e2e5828fa1583c56f8aea1b8778"
+    }
+  ],
+  "publicSearchPages": [
+    {
+      "file": "search-nano-banana-pro-0.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=science",
+      "sha256": "4e6bf88ed74940329afff0f74729495849c968be797e3e0fc1dad99d663ea673",
+      "retrievedAt": "2026-10-09T14:05:02.281307+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-1.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational",
+      "sha256": "6ef37f178a9eabbd76746dd4396e001ecf5863b314da3408b2b65f76365900e4",
+      "retrievedAt": "2026-10-09T14:05:02.251772+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-2.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=physics",
+      "sha256": "59e9a2c2c2b8c7e22edc8f6e7a4fc9e4260abf185b068a4d67d1b0ab5bdd3498",
+      "retrievedAt": "2026-10-09T14:05:02.647508+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-3.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=biology",
+      "sha256": "918ffffc1e5b1a8e800443d5864f69780310823dc7f756bc13d53a63dac6c111",
+      "retrievedAt": "2026-10-09T14:05:03.397820+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-4.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=%E7%A7%91%E6%99%AE",
+      "sha256": "b268dcecd563ab370894e56dc881cee65e7615dad6a36fe5fa3ab65dc68fce7b",
+      "retrievedAt": "2026-10-09T14:05:05.925032+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-5.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=knowledge",
+      "sha256": "9e3fcb101d783c0e03eb6e1562e47cec45cc747cba24fb9a67fd5278ef3343f9",
+      "retrievedAt": "2026-10-09T14:05:04.260743+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-6.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic%20infographic",
+      "sha256": "a3e994d1d6cb957983056aaf0d9e7ab5c8f8f618948470ebf1416874bae79ddf",
+      "retrievedAt": "2026-10-09T14:05:04.961445+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-7.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=science",
+      "sha256": "ae043c829f3e544499e554ba6893e044747ca0748cceb5b54a80a4ed0a88954d",
+      "retrievedAt": "2026-10-09T14:05:05.978496+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-8.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=educational",
+      "sha256": "c8660cbefd286abf4c3351513066d9abce6b099fd3ef697902f870be2a0eae50",
+      "retrievedAt": "2026-10-09T14:05:06.487480+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-9.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=comic%20infographic",
+      "sha256": "cc152713910d82ec655489a5d6f72cd6e6dce43ba59f70664b91a219781ee5b7",
+      "retrievedAt": "2026-10-09T14:05:07.392663+00:00"
+    },
+    {
+      "file": "comic-search-nano-banana-pro-0.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational%20comic",
+      "sha256": "e4d7c84fc440b8d5da1c13ed8e5dbfc32f81e5b3faa3b77e4367b15fb792a8d1",
+      "retrievedAt": "2026-10-09T14:11:07.950823+00:00"
+    },
+    {
+      "file": "comic-search-nano-banana-pro-1.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=science%20comic",
+      "sha256": "79fdb835d1a1d39aacf9bdd10f90d3c66674d29c0c06ef4ee9e7532160ff752a",
+      "retrievedAt": "2026-10-09T14:11:08.269276+00:00"
+    },
+    {
+      "file": "comic-search-nano-banana-pro-2.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=children",
+      "sha256": "3fcde0e04d751c6759368dda1d4cf8537643b2004c8e8aae4a1ede2ae6445920",
+      "retrievedAt": "2026-10-09T14:11:08.316452+00:00"
+    },
+    {
+      "file": "comic-search-nano-banana-pro-3.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=explainer",
+      "sha256": "eaf06a13856e6c9623cb828839557abda2541e5bbe89dafc0d7514927bc8cbc5",
+      "retrievedAt": "2026-10-09T14:11:09.135638+00:00"
+    },
+    {
+      "file": "comic-search-nano-banana-pro-4.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=hand%20drawn%20infographic",
+      "sha256": "deb090799bde9593c138ff794e802f6155e1f38e78b1b7dbb0a45b1f7cabdf85",
+      "retrievedAt": "2026-10-09T14:11:09.907690+00:00"
+    },
+    {
+      "file": "comic-search-gpt-image-2-5.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=educational%20comic",
+      "sha256": "480094b6235518d58698cc493e2f37d0528029dc7852aa26a25b92d7192bd155",
+      "retrievedAt": "2026-10-09T14:11:09.946634+00:00"
+    },
+    {
+      "file": "comic-search-gpt-image-2-6.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=science%20comic",
+      "sha256": "9d783750e194e6e891380cdbcbfa997e6148c4f9e49cd03951a9ab42bc4d16db",
+      "retrievedAt": "2026-10-09T14:11:10.541169+00:00"
+    },
+    {
+      "file": "comic-search-gpt-image-2-7.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=children",
+      "sha256": "53cdcfefaaeb04f6947fb40256b945ca8996ba4ac07851d62ec2698afa694c5f",
+      "retrievedAt": "2026-10-09T14:11:11.652704+00:00"
+    },
+    {
+      "file": "comic-search-gpt-image-2-8.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=hand%20drawn%20infographic",
+      "sha256": "d5b82987181c939b8cb659467480c7a9d60ad9f77709cfc15efb5bea48601879",
+      "retrievedAt": "2026-10-09T14:11:11.812393+00:00"
+    }
+  ],
+  "exclusions": [
+    {
+      "tweetId": "2013550795224961492",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2099530880842879182",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2093324721693868044",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2045792240044511277",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2104962263367221257",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2104852660948267075",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2103857155845783883",
+      "reason": "Author explicitly states the image text is fabricated; no full original prompt."
+    },
+    {
+      "tweetId": "2102866284778336744",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2102820394625646969",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2101015598843220445",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2098409803273879657",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2098125338484342869",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2097551650156368331",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2093994617268322412",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2045861258520568230",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2095150497523007866",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2052314115184398706",
+      "reason": "Visual review found brain function labels incorrectly reused in the heart chart."
+    },
+    {
+      "tweetId": "2035709454956568909",
+      "reason": "Only a promotional banner obscuring the map was attached; selected a cleaner map source."
+    },
+    {
+      "tweetId": "2029546976547590255",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2029389176802587029",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2026095651256181079",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2025902535639515194",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2025743079672533071",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2023610125249044854",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2021979052333015291",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "1991613761481027586",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2052994086013976969",
+      "reason": "Visual review found inaccurate or mismatched generated labels; unsuitable as a science sample."
+    },
+    {
+      "tweetId": "2013491756936110542",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "1998759447087501679",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "1998073768472895778",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2017168676634628573",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2004131253751369939",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "1999329921639002349",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2087069691705770358",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2014826718733664702",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2006113257606496258",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2072959738967703894",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    },
+    {
+      "tweetId": "2072237844794585184",
+      "reason": "Showcase without a full source-text prompt, unsuitable subject, less relevant format, or near-duplicate template not selected."
+    }
+  ],
+  "similarity": {
+    "method": "Normalized exact prompt/source exclusion and four-word shingle Jaccard against baseline and previously selected records.",
+    "maximumAllowed": 0.85,
+    "results": [
+      {
+        "tweetId": "2091436714384613713",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1991676243079766311",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2050183637195522456",
+        "score": 0.005249343832020997,
+        "no": "594"
+      },
+      {
+        "tweetId": "2108049869902663869",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2053094793123946657",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2097594643907006499",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2090825188107833774",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2027986208408977548",
+        "score": 0.003076923076923077,
+        "no": "483"
+      },
+      {
+        "tweetId": "2029299086512537753",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1991796624646091091",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2022422529038811247",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1998434974186586128",
+        "score": 0,
+        "no": null
+      }
+    ]
+  },
+  "additions": [
+    {
+      "no": "600",
+      "id": "x-2091436714384613713",
+      "sourceUrl": "https://x.com/Strength04_X/status/2091436714384613713",
+      "authorHandle": "Strength04_X",
+      "tweetId": "2091436714384613713",
+      "authorId": "1946792877352493059",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.715699+00:00",
+      "publishedAt": "2026-08-23T08:05:44.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT image 2 × Happyhorse 1.1 \n\nPrompt - Create a vertical 2:3 educational storyboard infographic, 5 horizontal scenes, cinematic realistic 3D science visualization, exactly like a professional educational video storyboard.\n\nTOPIC: HOW LIGHTNING HAPPENS\nDuration: 15 seconds\n\n1 | 0:00–0:03 — STORM CLOUDS\nVisual: Huge dark storm clouds forming above a landscape.\nAction: Clouds grow rapidly with electric particles inside.\nVO: “Lightning begins inside powerful storm clouds.”\nSFX: Wind and distant thunder.\nCamera: Slow aerial push in.\nTransition: Light Flash.\n\n2 | 0:03–0:06 — ELECTRIC CHARGE\nVisual: Close-up inside cloud showing positive and negative charges separating.\nAction: Blue and orange particles move to opposite sides.\nLabels: POSITIVE CHARGE, NEGATIVE CHARGE.\nVO: “Ice and water particles separate electric charges inside the cloud.”\nSFX: Electric crackle.\nCamera: Macro tracking.\nTransition: Energy Glow.\n\n3 | 0:06–0:09 — CHARGE BUILDS\nVisual: Dark cloud above the ground, bright electrical energy increasing.\nAction: Electric particles move downward toward Earth.\nVO: “As the charge becomes stronger, electricity searches for a path.”\nSFX: Rising electrical hum.\nCamera: Tilt from cloud toward ground.\nTransition: Quick Flash.\n\n4 | 0:09–0:12 — LIGHTNING STRIKE\nVisual: Bright lightning bolt connects cloud to ground.\nAction: Lightning travels rapidly downward.\nLabel: LIGHTNING.\nVO: “A powerful electrical discharge creates a lightning bolt.”\nSFX: Loud thunder crack.\nCamera: Fast Pull Back.\nTransition: White Flash.\n\n5 | 0:12–0:15 — THUNDERSTORM\nVisual: Wide storm landscape with lightning and rain.\nAction: Lightning flashes while rain falls below.\nVO: “The sudden heating of air also creates the sound of thunder.”\nSFX: Deep thunder rolling.\nCamera: Wide aerial pull back.\nTransition: Smooth Fade.\n\nBottom: NARRATOR (VO): Clear, calm, educational male voice.",
+      "start": 40,
+      "length": 1836,
+      "sha256": "63c1415b9afe50fa80e7c7c3ccaa9994dfd7932e8ecded8e9376af4d4541be76",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "2091436714384613713",
+          "index": 0,
+          "path": "/covers/x-2091436714384613713.jpg",
+          "url": "https://pbs.twimg.com/media/HQZGmJLbIAAoDYq.jpg?format=jpg&name=large",
+          "sha256": "eb7caad49132d6c2f9cb513e8a46d52c5d3d7e7e0d461564bf66b32f154036bc",
+          "size": 332037,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Educational Lightning Storyboard Infographic",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=science"
+    },
+    {
+      "no": "601",
+      "id": "x-1991676243079766311",
+      "sourceUrl": "https://x.com/esorhjy/status/1991676243079766311",
+      "authorHandle": "esorhjy",
+      "tweetId": "1991676243079766311",
+      "authorId": "6970842",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.715699+00:00",
+      "publishedAt": "2025-11-21T01:13:14.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "用 Gemini 最新的 Nano Banana Pro 繪製一個給小孩看的手繪心智圖成語解釋，居然可以做到下圖這個程度！\n\n我用的指令也很簡單：###\n你是小學三年級國語老師，要跟小朋友解釋下列成語。請一步一步分析： 1.針對下面成語的意思，設計適合的場景示意圖象。 2.拆解成語的用字，用延伸關鍵字，讓小朋友一看就能記住成語的關鍵解釋。 3.根據成語的相關性或邏輯，排列順序與版面。 4.繪製出有趣的手繪圖。\n成語：### 朝三暮四 利令智昏 洛陽紙貴 張冠李戴 融會貫通 漠不關心 心平氣和 一毛不拔 欲蓋彌彰 盲人摸象 苦口婆心 斬釘截鐵 細嚼慢嚥 朝令夕改 餘波盪漾 史無前例 身敗名裂 兵不厭詐 捲土重來 標新立異 ###",
+      "start": 77,
+      "length": 240,
+      "sha256": "3cf7e08a945eabe038f6d814682e336f7475b8e7be36e3d8f3bb44587f3cb564",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "1991676243079766311",
+          "index": 0,
+          "path": "/covers/x-1991676243079766311.jpg",
+          "url": "https://pbs.twimg.com/media/G6PazBWaUAANvE7.jpg?format=jpg&name=large",
+          "sha256": "6d93edbfeb0640d7084243efc76cc5b54e928fc45f669574509f105c39b8eab8",
+          "size": 173317,
+          "width": 1024,
+          "height": 559
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Hand-drawn mind map for explaining Chinese idioms",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=knowledge"
+    },
+    {
+      "no": "602",
+      "id": "x-2050183637195522456",
+      "sourceUrl": "https://x.com/shushant_l/status/2050183637195522456",
+      "authorHandle": "shushant_l",
+      "tweetId": "2050183637195522456",
+      "authorId": "1583398220",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.711950+00:00",
+      "publishedAt": "2026-05-01T12:00:44.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Here's how to create your Whiteboard Animation style image.\n\nUse Google Nano Banana Pro or any other AI image generation model.\n\nUse this prompt: clean whiteboard animation style illustration of the person from the reference image, drawn as a simple black marker sketch on a pure white background. Use bold hand-drawn outlines, minimal shading, and a slightly exaggerated cartoon-like style while still preserving the person’s recognizable facial features, hairstyle, and expression. Add subtle motion lines and sketch imperfections to mimic real hand-drawn animation. The character should appear as if being drawn on a whiteboard, with a casual, engaging, and educational vibe. Keep the composition minimal, high contrast, and visually clear, with no complex background elements",
+      "start": 146,
+      "length": 633,
+      "sha256": "021471f93fda7ba63788cf27196efa83518f7e6dad3e5e84e97bce38039b83c7",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "identity",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2050183637195522456",
+          "index": 0,
+          "path": "/covers/x-2050183637195522456.jpg",
+          "url": "https://pbs.twimg.com/media/HHO3JSYaoAAPvDf.jpg?format=jpg&name=large",
+          "sha256": "c32347c98d338e3179b3b01065bf92fdb7b50036a461e193b50904e868941771",
+          "size": 91037,
+          "width": 1376,
+          "height": 768
+        },
+        {
+          "tweetId": "2050183637195522456",
+          "index": 1,
+          "path": "/covers/x-2050183637195522456-2.jpg",
+          "url": "https://pbs.twimg.com/media/HHO3Je2bEAAX5W5.jpg?format=jpg&name=large",
+          "sha256": "2385d8c2612005d7c22a4add4a1bf91b8a24aa2cb3bad63c4f3d0edee6d5f723",
+          "size": 98821,
+          "width": 1376,
+          "height": 768
+        },
+        {
+          "tweetId": "2050183637195522456",
+          "index": 2,
+          "path": "/covers/x-2050183637195522456-3.jpg",
+          "url": "https://pbs.twimg.com/media/HHO3JpFawAA1cLY.jpg?format=jpg&name=large",
+          "sha256": "0a3cf4ac4667ffb53ece439ba1f62ee9be202ecb3283723af554fafe880613ab",
+          "size": 78554,
+          "width": 1376,
+          "height": 768
+        },
+        {
+          "tweetId": "2050183637195522456",
+          "index": 3,
+          "path": "/covers/x-2050183637195522456-4.jpg",
+          "url": "https://pbs.twimg.com/media/HHO3JycbgAAcuTK.jpg?format=jpg&name=large",
+          "sha256": "4b2c94814fd022cff61132e9fe34c382d5745201a838de901665b7c889402d59",
+          "size": 100252,
+          "width": 1376,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Clean Whiteboard Animation Illustration",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "603",
+      "id": "x-2108049869902663869",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2108049869902663869",
+      "authorHandle": "VoxcatAI",
+      "tweetId": "2108049869902663869",
+      "authorId": "1133338656725504001",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:18.655029+00:00",
+      "publishedAt": "2026-10-08T04:20:29.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "我设计的这套提示词包含 10 种构图，把多个角色缩小成微型涂鸦，用不同的动作路径和大面积留白组织画面。\n\n这 10 种构图分别是：中央纵向队列、S 形蛇形、对角坠落、单边悬挂、U 形路径、微型圆环、螺旋轨迹、断续漂浮节点、顶部横向事件后纵向坠落、底部人物塔。\n\n设计时先确定视觉路径，再让角色沿路径伸手、托举、跌倒或互相牵引。加入一个小目标物，让动作和视线有共同方向，形成连续的小事件。\n\n角色缩小后，身份识别主要依靠发型轮廓、主色和标志性配饰。保留这些信息，配合黑色手绘线与少量平涂色，小人物也能清楚辨认。\n\n构图随机变化，同时锁定三个条件：角色极小、65% 以上留白、视觉轨迹明确。替换角色、目标物和路径，就可以继续做成系列。\n\n模型：gpt-image2\n\n完整提示词：\n\n【角色A / 角色B / 角色C / 角色D】，极简卡通涂鸦插画 × 巨大留白 × 微型人物动作链。\n\n纯白或极浅色背景，画面 65% 以上区域保持空白。角色比例极小，仅保留发型轮廓、主色、标志性配饰与服装色块，转化为简化、易识别的卡通形象。\n\n每张随机选择一种构图：中央纵向队列、S 形蛇形、对角坠落、单边悬挂、U 形路径、微型圆环、螺旋轨迹、断续漂浮节点、顶部横向事件后纵向坠落、底部人物塔。整体视觉轨迹细长、明确，角色集中在局部区域，四周保持大面积留白。\n\n沿轨迹设置一个与角色世界观相关的微型目标物，例如水果、食物、徽章、武器、宝石或玩偶。目标物位于路径起点、终点或圆环与螺旋的中心，角色视线与动作自然指向它。\n\n每个角色采用不同的夸张动作：奔跑、跳跃、伸手、托举、惊讶、跌倒、张嘴、回头、被压住或互相牵引。通过手脚接触、衣物牵拉、视线方向与间距变化，让人物形成连续、易读的动作关系。具体动作与角色顺序随机，保持清楚的视觉节奏。\n\n松弛手绘黑色轮廓线，略带抖动、飞线与不规则感，像动画草稿或儿童涂鸦。少量高纯度平涂色块，以黑线、白底和红、黄、蓝、绿构成简洁配色，角色主色作为身份锚点。\n\n整体轻松、荒诞、可爱，像动画贴纸、角色手账插画或极简手机壁纸。竖版，右下极小 voxcat。",
+      "start": 340,
+      "length": 544,
+      "sha256": "adb38c2a9ee34ea89aa55b27a63d62337969699b5565f0be008a39ae92b13f33",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2108049869902663869",
+          "index": 0,
+          "path": "/covers/x-2108049869902663869.jpg",
+          "url": "https://pbs.twimg.com/media/HUFMLXhaMAA28hr.jpg?format=jpg&name=large",
+          "sha256": "1d2be092a5e24310ebd7f81ca8aacc2289de58ae2429cb40348569f65f25ec84",
+          "size": 71759,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108049869902663869",
+          "index": 1,
+          "path": "/covers/x-2108049869902663869-2.jpg",
+          "url": "https://pbs.twimg.com/media/HUFMLaiagAAvtVc.jpg?format=jpg&name=large",
+          "sha256": "6e44b4ca52cd3a7b4cdd1b0e7f3f74f4e6b69d501ea5f7766a69297c6514f240",
+          "size": 72839,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108049869902663869",
+          "index": 2,
+          "path": "/covers/x-2108049869902663869-3.jpg",
+          "url": "https://pbs.twimg.com/media/HUFMLXja8AAv-ub.jpg?format=jpg&name=large",
+          "sha256": "6f9eb6d5ae443e29c578cafcc36302074164e164d08b7bf1d6b575ca83d75675",
+          "size": 62626,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108049869902663869",
+          "index": 3,
+          "path": "/covers/x-2108049869902663869-4.jpg",
+          "url": "https://pbs.twimg.com/media/HUFMLaha4AAH6hw.jpg?format=jpg&name=large",
+          "sha256": "0d32a8bba76991a1b14be730411aaf13b0911c7943f358f682e4588a5f66331d",
+          "size": 65065,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Minimalist Doodle Character Series Prompt",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=children"
+    },
+    {
+      "no": "604",
+      "id": "x-2053094793123946657",
+      "sourceUrl": "https://x.com/iamsofiaijaz/status/2053094793123946657",
+      "authorHandle": "iamsofiaijaz",
+      "tweetId": "2053094793123946657",
+      "authorId": "1134088369237942273",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.711950+00:00",
+      "publishedAt": "2026-05-09T12:48:37.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Educational encyclopedia style images with Google Gemini Nano banana pro.\n\nPrompt: \nBased on { TOPIC }, create a high-quality vertical “encyclopedia-style educational infographic image.”\n\nThe Master Prompt:\n\"A comprehensive scientific educational infographic for [Insert Subject, e.g., an Orchid Mantis]. The style is a vintage nature field guide with a cream-colored parchment background. The layout features a large, detailed central illustration of the creature with anatomical labels (e.g., 'Raptorial Legs', 'Petal-like Flanges'). Surrounding the center are various boxed sections including: a 'Quick Profile' with scientific name and habitat, a 'Classification' tree, a 'Knowledge Score' with star ratings, 'Life Cycle' diagrams showing egg to adult, and a 'Size Comparison' against a human hand. Include a 'Diet' section with small illustrations of prey, a 'Habitat' section with photos of rainforests, and a bottom 'Did You Know?' banner. The aesthetic is clean, professional, and highly detailed, resembling a high-end museum poster.\"",
+      "start": 84,
+      "length": 959,
+      "sha256": "4b299af3c3646e014e0058ed9621d13e84fd50331951eaa80c376151011ff799",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2053094793123946657",
+          "index": 3,
+          "path": "/covers/x-2053094793123946657-4.jpg",
+          "url": "https://pbs.twimg.com/media/HH4O1XZbIAAY78W.jpg?format=jpg&name=large",
+          "sha256": "b525678aa10017fef27f317ea989f7e3db0a6f91b61bd801a972cf8841131b90",
+          "size": 320571,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2053094793123946657",
+          "index": 0,
+          "path": "/covers/x-2053094793123946657.jpg",
+          "url": "https://pbs.twimg.com/media/HH4O1OAaEAAp0IL.jpg?format=jpg&name=large",
+          "sha256": "4447476c20e208f74225863d5cf9b7debc4cf97fd5f8699cf15c0daf31f45683",
+          "size": 313233,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2053094793123946657",
+          "index": 1,
+          "path": "/covers/x-2053094793123946657-2.jpg",
+          "url": "https://pbs.twimg.com/media/HH4O1MnaAAE25ZI.jpg?format=jpg&name=large",
+          "sha256": "1ee3409365b5a5e87e76f0f0aa9e195fa17aed3c7c3b052db24889d9d88d3d22",
+          "size": 300612,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2053094793123946657",
+          "index": 2,
+          "path": "/covers/x-2053094793123946657-3.jpg",
+          "url": "https://pbs.twimg.com/media/HH4O1SPaEAAhXsb.jpg?format=jpg&name=large",
+          "sha256": "9c2df0dc95b8ea82dc633deb8d6776f31e19bc55718020251245346be219c55c",
+          "size": 281217,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Vintage Encyclopedia Infographic",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "605",
+      "id": "x-2097594643907006499",
+      "sourceUrl": "https://x.com/jungeAGI/status/2097594643907006499",
+      "authorHandle": "jungeAGI",
+      "tweetId": "2097594643907006499",
+      "authorId": "1965524884798496768",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.715699+00:00",
+      "publishedAt": "2026-09-09T07:55:09.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "gpt-image-2.5 绝对是图片领域 seedance 般的存在\n\n提示词：\n使用场景：科学教育类图片\n\n素材类型：\n高清竖版教材页面重绘\n\n主要要求：\n将参考图片中的中文微积分教材页面重新绘制成清晰、精致、排版锐利的教育页面。保留原图的双栏结构、内容层级和整体布局，但需要重新绘制所有内容，而不是简单增强或修复扫描图片。\n\n输入图片：\n图片 1 是唯一的内容、排版和构图参考，同时也是需要重绘的目标图片。\n\n风格与媒介：\n现代中文版大学数学教材风格。使用干净的白色纸张背景、清晰的印刷排版、专业的数学公式排版，以及精确、接近矢量图效果的函数图像。\n\n页面构图：\n采用竖版页面。\n\n左上角显示页码“214”，右上角显示章节名称“第 4 章 导数的应用”。\n\n页面主体首先显示蓝色标题：\n\n“4.3 切线与线性近似”\n\n标题下方依次包括：\n\n1. 章节介绍文字；\n2. 浅黄色的定义框；\n3. 左侧的函数曲线与切线示意图；\n4. 右侧的浅绿色例题框；\n5. 蓝色标题“4.4 求面积与累积量的应用”；\n6. 定积分面积示意图；\n7. 浅黄色的定理框。\n\n保持合理的页边距、内容间距和视觉平衡。\n\n必须包含的数学内容：\n\n切线方程：\n\ny = f(a) + f'(a)(x-a)\n\n线性化公式：\n\nL(x) = f(a) + f'(a)(x-a)\n\n例题函数：\n\nf(x) = √x\n\n在 x = 4 处进行线性近似：\n\nL(x) = 2 + 1/4(x-4) = 1/4 x + 1\n\n近似计算：\n\n√4.1 ≈ 2.025\n\n页面下方的定积分图形应包含：\n\nA = ∫ₐᵇ f(x) dx\n\n并使用颜色填充曲线下方从 a 到 b 的面积区域。\n\n第一幅函数图要求：\n\n- 使用黑色的 x 轴和 y 轴；\n- 绘制一条平滑的蓝色曲线 y=f(x)；\n- 绘制一条红色切线；\n- 使用蓝色圆点标出点 (a,f(a))；\n- 从该点向 x 轴绘制一条竖直虚线；\n- 在 x 轴上标注 a；\n- 正确标注函数曲线和切线公式。\n\n第二幅定积分图要求：\n\n- 使用黑色的 x 轴和 y 轴；\n- 绘制一条平滑的蓝色函数曲线；\n- 使用浅蓝色填充从 a 到 b 的曲线下面积；\n- 在 a 和 b 处绘制竖直虚线；\n- 正确显示积分公式和相关标注。\n\n配色方案：\n\n- 章节标题使用深钴蓝色；\n- 侧边栏使用浅蓝色背景；\n- 定义框和定理框使用浅米黄色或暖黄色背景，并添加金黄色细边框；\n- 例题框使用浅薄荷绿色背景；\n- 正文使用黑色；\n- 函数曲线使用蓝色；\n- 切线使用红色。\n\n限制条件：\n\n- 所有中文文字必须清晰、易读；\n- 所有数学公式和符号必须准确；\n- 保留参考图片的教学含义、章节结构和视觉层级；\n- 不要使用手写字体；\n- 不要出现扫描阴影或纸张褶皱；\n- 不要出现透视变形；\n- 不要添加水印；\n- 不要添加新 Logo；\n- 不要添加无关插图或装饰；\n- 最终效果应像一张全新排版、可用于印刷的中文版大学数学教材页面。",
+      "start": 42,
+      "length": 1226,
+      "sha256": "83adcc628aa1a47a4092434ba36d36b0300c3f6f3549949eb40ade2ca9983d0c",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2097594643907006499",
+          "index": 0,
+          "path": "/covers/x-2097594643907006499.jpg",
+          "url": "https://pbs.twimg.com/media/HRwm5DpXkAAtz-O.jpg?format=jpg&name=large",
+          "sha256": "3a20201b57107ce9f553519f51e8b23abcaaaa8f68a276a5fb06d6e85ee58a7b",
+          "size": 246567,
+          "width": 1103,
+          "height": 1426
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Calculus Textbook Page Redesign",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=educational"
+    },
+    {
+      "no": "606",
+      "id": "x-2090825188107833774",
+      "sourceUrl": "https://x.com/liyue_ai/status/2090825188107833774",
+      "authorHandle": "liyue_ai",
+      "tweetId": "2090825188107833774",
+      "authorId": "1988475714501570561",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:20.173362+00:00",
+      "publishedAt": "2026-08-21T15:35:45.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2生成「旗袍图鉴」第一弹🥳\n\n要说显身材的非旗袍莫属了：简约大气优雅。\n\n提示词：\n生成一张 16:9 横版、纯白背景 的 旗袍结构与工艺细节图鉴，整体风格为 现代简洁图鉴页 + 高端服饰结构研究图 + 新中式极简服装解析页，画面干净、明亮、克制、精致，具有清晰的设计感与传播感。\n\n画面顶部设置完整的标题说明区，排版简洁高级、留白充足：\n\n主标题：“现代改良无袖旗袍”\n副标题：“结构与工艺细节图鉴”\n顶部风格说明行：“新中式极简｜米白提花丝绸｜祥云暗花提纹｜米白底・浅金滚边”\n右上角系列标签：“新中式系列”\n\n背景必须是 纯白色，不要米白、不要宣纸色、不要复古纸张感。\n\n画面中央是一位 22–32 岁的成年东方女性，气质 清雅、现代、克制，五官 清秀知性，轮廓柔和，东方感明确，发型为 简洁低髻。人物姿态自然稳定，正面站姿或轻微 3/4 角度，完整露出全身，双臂不要遮挡服装结构，整体重点是展示旗袍，不是拍人物写真。\n\n她身穿一件 现代改良无袖旗袍，风格方向为 新中式极简，整体廓形为 修身流线型。旗袍具有以下明确设定：\n\n领型：低立领\n襟型：简化斜襟\n盘扣类型：极简一字扣\n袖型：无袖\n长度与开衩：小腿中长款，中开衩\n面料：米白提花丝绸\n纹样与工艺：祥云暗花提纹\n主色与滚边配色：米白底 + 浅金滚边\n\n中央完整旗袍必须清晰展示：\n\n低立领结构\n简化斜襟走向\n极简一字盘扣\n无袖肩部轮廓\n修身腰线与腰省关系\n中开衩位置\n下摆与滚边关系\n\n围绕中央主体，在左右两侧分布 7 个局部拆解模块，所有模块必须严格来自中央同一件旗袍，保证 颜色一致、面料一致、纹样一致、滚边一致、结构一致。拆解重点为：\n\n领口\n襟线\n无袖肩部\n腰省\n开衩\n提花纹理\n滚边工艺\n\n局部模块需混合三类形式：\n\n结构放大图：领口、襟线、无袖肩部、开衩\n工艺微距图：提花纹理、滚边工艺、极简一字盘扣\n结构线稿图：腰省结构线稿\n\n使用 虚线手绘单向箭头 将每个局部模块与中央旗袍的对应位置连接，箭头要求：\n\n极细虚线\n手绘感曲线\n单向箭头\n小圆点定位\n优雅克制，不要科技信息图风\n\n每个局部模块旁边只标注简短中文组件名称，不写长段说明。可使用如下文字：\n\n领口\n襟线\n无袖肩部\n腰省\n开衩\n提花纹理\n滚边工艺\n\n在画面底部加入少量小样陈列，保持简洁，可包含：\n\n米白提花丝绸 面料小样\n浅金滚边 色卡小样\n简约一字盘扣 工艺小样\n\n整体视觉要强调：\n\n纯净感\n现代结构感\n新中式极简气质\n面料提花的细腻层次\n米白与浅金的高级配色\n图鉴感、设计研究页感、可传播性\n\n光线柔和明亮，像高级服装设计展示页，能清晰呈现丝绸提花纹理、滚边厚度、盘扣细节与剪裁结构。\n\n负面约束：\n不要普通写真海报感，不要电商白底商品图感，不要杂乱排版，不要大段说明文字，不要粗箭头，不要科技感直线连接，不要人物遮挡服装结构，不要局部模块与中央旗袍不一致，不要错误开衩位置，不要模糊纹理，不要塑料质感。",
+      "start": 53,
+      "length": 1182,
+      "sha256": "7b372f356dbc733c1b2d6ae4d521e7931626830684809b14e9dd3d9cbb9916a5",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2090825188107833774",
+          "index": 0,
+          "path": "/covers/x-2090825188107833774.jpg",
+          "url": "https://pbs.twimg.com/media/HQQZleRboAEPOzN.jpg?format=jpg&name=large",
+          "sha256": "48a48296e6ac167585356efecae2c8b3596e17f42207d6f4d189b2132eff8520",
+          "size": 148030,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Qipao Design & Craft Infographic",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=hand%20drawn%20infographic"
+    },
+    {
+      "no": "607",
+      "id": "x-2027986208408977548",
+      "sourceUrl": "https://x.com/weiinberg/status/2027986208408977548",
+      "authorHandle": "weiinberg",
+      "tweetId": "2027986208408977548",
+      "authorId": "1149359420771426304",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.712949+00:00",
+      "publishedAt": "2026-03-01T05:56:04.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Infographic Prompt (Auto-Labeled + Internal View) using Nano Banana on Yapper. \n\nPrompt; \nCreate a high-resolution professional infographic of [OBJECT NAME].\nDisplay the object in a clean, semi-realistic technical illustration style. Include both external structure and internal components using a cutaway view, cross-section, or exploded layout where appropriate.\nAutomatically detect and label all major structural, mechanical, electronic, or functional components using accurate technical terminology.\nUse thin leader lines connecting each label precisely to the correct part. Ensure labels are clear, readable, and professionally formatted.\nAdd a bold headline at the top:\n“OBJECT NAME – Complete Structural Breakdown”\nLayout should be balanced and organized like a modern engineering manual or product teardown poster.\nBackground: clean white or light neutral tone.\nLighting: neutral studio lighting with soft shadows for depth.\nMaterials and textures must look realistic and detailed.\nUse modern sans-serif typography with clear hierarchy (bold headings, smaller technical labels).\nUltra-detailed, sharp focus, 4K resolution, professional educational infographic style.\nNo artistic distortion, no clutter, no decorative elements unrelated to structure.",
+      "start": 90,
+      "length": 1168,
+      "sha256": "960a6099e407373ee8146774bb5874cbb8fda037f0e50a0c41879fc4b9dfa94c",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2027986208408977548",
+          "index": 0,
+          "path": "/covers/x-2027986208408977548.jpg",
+          "url": "https://pbs.twimg.com/media/HCTasgRa4AAh2YG.jpg?format=jpg&name=large",
+          "sha256": "4b18ed0729e588f403fb2cc86084b5dc64873047f78fd511e1dea9dd1d570e5a",
+          "size": 414086,
+          "width": 2048,
+          "height": 1526
+        },
+        {
+          "tweetId": "2027986208408977548",
+          "index": 1,
+          "path": "/covers/x-2027986208408977548-2.jpg",
+          "url": "https://pbs.twimg.com/media/HCTasgVacAEMa7s.jpg?format=jpg&name=large",
+          "sha256": "ddae1f8cf55cedb0be6fd6075e42b0261bb7dd5efc21446a03a654edc76bb1c7",
+          "size": 270184,
+          "width": 2048,
+          "height": 1526
+        },
+        {
+          "tweetId": "2027986208408977548",
+          "index": 2,
+          "path": "/covers/x-2027986208408977548-3.jpg",
+          "url": "https://pbs.twimg.com/media/HCTasgQaYAADK5w.jpg?format=jpg&name=large",
+          "sha256": "28e1d30ac2f8b2b505337a89d5be22435c20a3ac76b893e6363414a5fa942e36",
+          "size": 322705,
+          "width": 2048,
+          "height": 1526
+        },
+        {
+          "tweetId": "2027986208408977548",
+          "index": 3,
+          "path": "/covers/x-2027986208408977548-4.jpg",
+          "url": "https://pbs.twimg.com/media/HCTasgQbEAEuwwx.jpg?format=jpg&name=large",
+          "sha256": "8bba4989b32bdce73a81abaf77838f84019b3b071e2550ba714fcad2ec28b45d",
+          "size": 392257,
+          "width": 2048,
+          "height": 1526
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Technical Infographic Cutaway Prompt",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "608",
+      "id": "x-2029299086512537753",
+      "sourceUrl": "https://x.com/Aipromptslap/status/2029299086512537753",
+      "authorHandle": "Aipromptslap",
+      "tweetId": "2029299086512537753",
+      "authorId": "559816758",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.712949+00:00",
+      "publishedAt": "2026-03-04T20:52:59.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Prompt 55\nCreate a Vintage Blueprint Timeline Infographic Poster \n\nBy Google Nano Banana Pro 2.0  🍌\n@NanoBanana\n@GeminiApp\n\n💡Simply Change [PRODUCT NAME]\n\nPrompt ⤵️\n\nCreate a technical infographic of  timeline poster of [PRODUCT NAME]. Use sharp ink lines and soft watercolor on textured paper.\nFeature a central hero illustration with handwritten years, arrows, notes, and small sketches showing design evolution and key milestones. Keep it clean, lively, colourful and strong contrast. Highly detailed, vertical portrait.\n\nVisual Concept\nA realistic photograph or photorealistic render combined with dense technical annotation overlays, exactly like an engineering, Pure white studio background.\n\nTitle Placement\nProduct name in English , bold font, inside a hand-drawn technical annotation frame (as in engineering blueprints), positioned in the upper corner.\n\nStyle & Layout\n• Very high information density • Annotations feel like an engineering / architectural sketch • Black lines — 70–80% of all graphics • Accent [BRAND COLOR] — 20–30% (arrows, key zones, headings) • The realistic product remains fully readable • Educational, industrial-premium aesthetic • Small brand logo in the corner (in English)\n\nVisual Style\nMinimal technical illustration aesthetic: black linework over realistic imagery, precise, highly detailed, slightly hand-drawn, like professional technical manuals.\nColor Palette\nWhite background Black text and linework [BRAND COLOR] used only for accents\nOutput\n9:16 Vertical portrait, 8K, highly detailed, Ultra-crisp image Social-feed optimized No watermark",
+      "start": 168,
+      "length": 1419,
+      "sha256": "8bf138c7ca5a4d35e23ab6c2bc9fdd8a366a5e8a141636b3e622c55ee3ad9456",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2029299086512537753",
+          "index": 0,
+          "path": "/covers/x-2029299086512537753.jpg",
+          "url": "https://pbs.twimg.com/media/HCmEucKawAESTH7.jpg?format=jpg&name=large",
+          "sha256": "9c99ad1619b91a5214eed37ddeb29bb81b6b73e6e4767ebb5e85fcf8647900f9",
+          "size": 212764,
+          "width": 768,
+          "height": 1376
+        },
+        {
+          "tweetId": "2029299086512537753",
+          "index": 1,
+          "path": "/covers/x-2029299086512537753-2.jpg",
+          "url": "https://pbs.twimg.com/media/HCmEubjWYAANBAp.jpg?format=jpg&name=large",
+          "sha256": "0ff7d4c9911a95cf433cce1a9c97134c46c89a9e958094017d96da3c48fb1695",
+          "size": 225272,
+          "width": 768,
+          "height": 1376
+        },
+        {
+          "tweetId": "2029299086512537753",
+          "index": 2,
+          "path": "/covers/x-2029299086512537753-3.jpg",
+          "url": "https://pbs.twimg.com/media/HCmEub0WAAAjjJt.jpg?format=jpg&name=large",
+          "sha256": "6f19ac6b79c61dd6b6cf497e66cc2d337114999cfb153fc05fceb5c564d2d082",
+          "size": 242176,
+          "width": 768,
+          "height": 1376
+        },
+        {
+          "tweetId": "2029299086512537753",
+          "index": 3,
+          "path": "/covers/x-2029299086512537753-4.jpg",
+          "url": "https://pbs.twimg.com/media/HCmEubqWwAArTWQ.jpg?format=jpg&name=large",
+          "sha256": "d54aefe04ac4db14be8517c59e926d228cee3ed1bb88852874bb9dda9e1cf824",
+          "size": 230925,
+          "width": 768,
+          "height": 1376
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Vintage Blueprint Timeline Infographic Poster Prompt",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "609",
+      "id": "x-1991796624646091091",
+      "sourceUrl": "https://x.com/FlorianGallwitz/status/1991796624646091091",
+      "authorHandle": "FlorianGallwitz",
+      "tweetId": "1991796624646091091",
+      "authorId": "1503415327",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.716705+00:00",
+      "publishedAt": "2025-11-21T09:11:35.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "\"Erzeuge eine Karte von Deutschland im Wasserfarben-Stil, auf der alle Bundesländer mit Kugelschreiber benannt sind.\" (Nano Banana Pro)",
+      "start": 1,
+      "length": 115,
+      "sha256": "bfcd4a939240fb2193c186ec8d92fb2bc163bba168f720ae0de4f2a8729a72a6",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "1991796624646091091",
+          "index": 0,
+          "path": "/covers/x-1991796624646091091.jpg",
+          "url": "https://pbs.twimg.com/media/G6RIeSZXgAA7cOf.jpg?format=jpg&name=large",
+          "sha256": "d4dfac6ce8a7a4a3a0f06353aa291bb45a7a7129803e3b97bddd7203a64fa534",
+          "size": 75520,
+          "width": 1024,
+          "height": 559
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Watercolor map of Germany with labeled states",
+      "discoveryUrl": null
+    },
+    {
+      "no": "610",
+      "id": "x-2022422529038811247",
+      "sourceUrl": "https://x.com/Gdgtify/status/2022422529038811247",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2022422529038811247",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.713949+00:00",
+      "publishedAt": "2026-02-13T21:28:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "The evolution of Manga: Nano Banana Pro vs GPT \n\nKind of not close if you ask me :) \n\nPrompt: \n\nEvolution of Manga --> <LAYOUT> A single chunky block (like a museum cutaway) sliced to reveal 4 stacked floors/strata. Each level represents an era/stage/version inferred from INPUT. Right side: a vertical legend bar with dates/period labels inferred by the model. </LAYOUT>\n<INFER_AND_RENDER> Infer 4 major phases and depict each with representative artifacts, tools, and environments. Keep transitions educational: show what changed between levels (materials, scale, method). </INFER_AND_RENDER>\n<STYLE_NOTES> Architectural section realism: visible thickness, rebar/fasteners if applicable, realistic debris at cut edge. </STYLE_NOTES>",
+      "start": 96,
+      "length": 638,
+      "sha256": "cd523d902b12273dc9035838d4654595ee3306312a5997ef7839832907b0f9f5",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2022422529038811247",
+          "index": 0,
+          "path": "/covers/x-2022422529038811247.jpg",
+          "url": "https://pbs.twimg.com/media/HA2Zv_zWgAA9rEr.jpg?format=jpg&name=large",
+          "sha256": "e18f948ba94337203c0aec3964d9b75b3e6744770ee72e8c5fde825916c91a87",
+          "size": 769484,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2022422529038811247",
+          "index": 1,
+          "path": "/covers/x-2022422529038811247-2.jpg",
+          "url": "https://pbs.twimg.com/media/HA2ZyjGaAAI9SI-.jpg?format=jpg&name=large",
+          "sha256": "78821d63a490e531e4ad0f7cfb687e52ec970f664b7a99f927acb9d052370d26",
+          "size": 280698,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Manga Evolution Architectural Section Prompt",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "611",
+      "id": "x-1998434974186586128",
+      "sourceUrl": "https://x.com/op7418/status/1998434974186586128",
+      "authorHandle": "op7418",
+      "tweetId": "1998434974186586128",
+      "authorId": "1669276256",
+      "retrievedOn": "2026-10-09",
+      "retrievedAt": "2026-10-09T14:12:17.714949+00:00",
+      "publishedAt": "2025-12-09T16:50:01.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "还能用这种方式制作真实历史事件的海报\n\n可以将你偶像的高光时刻或者人类的高光时刻画出来，对于我们很多人都非常有意义！\n\n改了一下提示词，依然很顶！Nano Banana Pro 确实猛。\n\n比如 2022 梅西夺冠、乔布斯发布 iPhone、ChatGPT 发布\n\n提示词：\n\n请为【SpaceX重型猎鹰双助推器同步着陆】制作一张博物馆级别的3D轴侧微缩海报，先检索相关信息获取知识。\n\n第一步，智能识别与场景构建： 请先调用你的知识库，判断我输入的主题属于哪种类别（是虚构文学、真实历史事件、体育竞技还是科学发现）。 然后，精准检索该主题发生时的具体环境、核心人物动作、服饰细节以及当时的气候氛围。 在画面中央，建立一个精致的3D微缩场景模型。风格上，保持梦工厂动画那种高精度的材质感和柔和的光影渲染。 如果是体育，要强调动作的爆发力和凝固的瞬间感；如果是历史，要还原年代感和严肃性；如果是文学，则强调意境。\n\n第二步，氛围与背景： 背景请摒弃纯白，使用带有极淡水墨纹理和流动光雾的虚空环境，色调根据主题自动调整，营造出一种“历史切片”或“珍贵藏品”的高级感。\n\n第三步，排版与文字： 在底部居中位置生成中文排版。 主标题写上事件或作品的名称，字体设计要契合主题风格。 在标题下方，请自动检索该事件最著名的金句、解说词、日期或历史评价，字体使用优雅的衬线体。整体布局要像一个高级的博物馆藏品铭牌那样精致平衡。",
+      "start": 139,
+      "length": 466,
+      "sha256": "4e320339f1eb945450ea6e14fc1382ce14b7a56275be7ef5494d88d73f788217",
+      "extraction": "Exact contiguous original tweet.text after the explicit prompt marker; no translation or index placeholder edits.",
+      "scenarios": [
+        "knowledge",
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "1998434974186586128",
+          "index": 0,
+          "path": "/covers/x-1998434974186586128.jpg",
+          "url": "https://pbs.twimg.com/media/G7vd16YaMAMf6FN.jpg?format=jpg&name=large",
+          "sha256": "b632d46f888b7bfd4c56508629aecf1cb3a90eb794eab01820e96b7c922e54a5",
+          "size": 533705,
+          "width": 1534,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Museum-Grade 3D Diorama Poster for Historical Events",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=knowledge"
+    }
+  ]
+}
