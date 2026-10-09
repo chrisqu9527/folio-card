@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 611,
+  "count": 618,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -22401,6 +22401,270 @@
       "covers": [
         "/covers/x-1998434974186586128.jpg"
       ]
+    },
+    {
+      "no": "612",
+      "id": "x-2082459938757181949",
+      "title": "设备组成部分的手绘工程笔记",
+      "kicker": "课堂笔记",
+      "excerpt": "把设备画成横线笔记本上的剖视工程笔记，用圆珠笔标签指向内部结构。",
+      "style": "手绘工程科普笔记",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "泛知识",
+        "工程",
+        "剖面",
+        "手绘",
+        "笔记"
+      ],
+      "medium": "image",
+      "slots": [
+        "主题",
+        "中文标题",
+        "设备名称",
+        "数量",
+        "部件名称",
+        "说明文字"
+      ],
+      "creator": {
+        "id": "knowledgefxg",
+        "name": "知识分享官",
+        "handle": "knowledgefxg",
+        "url": "https://x.com/knowledgefxg"
+      },
+      "sourceUrl": "https://x.com/knowledgefxg/status/2082459938757181949",
+      "model": "GPT Image",
+      "date": "2026-07-29",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。方括号为原帖槽位。",
+      "prompt": "创作一张竖版手绘工程科普信息图，主题为《[主题]的组成部分》。\n\n背景是一张暖白色、轻微泛黄的横线笔记本纸，带浅蓝色水平横线，\n纸张左侧有一条淡红色竖向页边线，保留细腻纸张纤维和轻微扫描质感。\n\n页面顶部居中写大号蓝色圆珠笔手写标题“[中文标题]”，字体瘦长、\n圆润、整洁，标题下方画一条蓝色手绘下划线。\n\n画面中央放置一个尺寸较大的[设备名称]，采用略微俯视的四分之三\n透视角度，以局部打开、剖视或拆解形式展示内部结构。结构符合真实\n工程逻辑，各部件层次分明且容易辨认。\n\n主体采用精细石墨铅笔工程插画风格：黑灰色细线勾勒，密集排线与\n交叉排线塑造体积，金属表面有真实的磨砂、反光和机械纹理。整体以\n灰黑色为主，仅在铜线、线路、冷却液、电缆等部位加入少量克制的\n黄色、红色、蓝色彩铅点缀。保留自然的手绘线条和轻微不完美感。\n\n在主体四周布置[数量]个编号中文标签，标签全部使用同一种蓝色\n圆珠笔手写体，并用纤细的蓝色直线箭头准确指向对应部件。标签不得\n遮挡设备，不要让箭头相互交叉，左右布局均衡，留白自然。\n\n标签内容：\n1. [部件名称]\n2. [部件名称]\n……\n\n页面底部用同一种蓝色手写体书写2至3行简短的原理说明：\n“[说明文字]”\n\n整体效果像一名工程专业学生精心绘制的课堂笔记：技术准确、细节\n丰富、写实而有手作感、版式整洁、信息清晰、自然扫描质感。",
+      "covers": [
+        "/covers/x-2082459938757181949.jpg",
+        "/covers/x-2082459938757181949-2.jpg",
+        "/covers/x-2082459938757181949-3.jpg",
+        "/covers/x-2082459938757181949-4.jpg"
+      ]
+    },
+    {
+      "no": "613",
+      "id": "x-2046867191849767142",
+      "title": "中国文明演变的清线漫画长卷",
+      "kicker": "历史读物",
+      "excerpt": "用清线漫画分镜和侧边时间轴，把一段文明演变写成科普读物插图页。",
+      "style": "清线漫画历史长卷",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "泛知识",
+        "历史",
+        "漫画",
+        "时间轴",
+        "分镜"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "rionaifantasy",
+        "name": "Rion Wu",
+        "handle": "rionaifantasy",
+        "url": "https://x.com/rionaifantasy"
+      },
+      "sourceUrl": "https://x.com/rionaifantasy/status/2046867191849767142",
+      "model": "GPT Image 2",
+      "date": "2026-04-22",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。原帖称提示词图如下，正文同时给出全文。知识点按原文保留，不视为已核实事实。",
+      "prompt": "请生成一张适合作为“历史科普读物”的纵向长图海报，主题为《中国文明演变史》。\n\n整体内容：\n以时间轴方式，系统展示中国文明从“唐尧虞舜时代”开始，经过各个重要历史时期，一直到“2026年的当代中国”的演变过程。整张图要像一本高质量历史科普读物中的插图页，兼具知识性、可读性和观赏性。\n\n画面风格：\n采用经典欧洲清线漫画风格，类似《丁丁历险记》那种干净清晰的线条、平涂上色、明快复古的色彩、精致而有秩序的构图。整体像“历史百科 + 漫画分镜 + 时间轴长卷”的结合体。画风统一，具有复古知识读物和冒险漫画的感觉。\n\n画面形式：\n- 纵向长图\n- 清晰的中央或侧边时间轴\n- 每个历史时期用独立的小分镜 / 小场景呈现\n- 每个分镜包含：\n  1）时期名称\n  2）对应代表性画面\n  3）2到3条简洁中文知识点讲解\n- 排版整齐清楚，像历史科普读物内页\n- 文字简洁、清晰、易读，不要过多堆砌长段文字\n- 每个历史阶段之间有明显区分，但整体过渡自然连贯\n\n标题与说明文字：\n主标题：中国文明演变史\n副标题：从唐尧虞舜到2026，一张图看懂中国文明如何一步步走到今天\n\n请包含以下历史时期，并为每个时期配上代表画面和简洁知识点：\n\n1. 唐尧虞舜（传说时代）\n画面元素：部落联盟、祭祀、农耕、河流、山川、早期聚落\n知识点：\n- 华夏文明的早期传说时代\n- 禅让故事体现早期政治理想\n- 农耕和部落联盟逐渐形成\n\n2. 夏朝\n画面元素：早期王朝、治水、礼制萌芽、原始城邑\n知识点：\n- 被视为中国最早的王朝之一\n- 早期国家形态开始形成\n- 治水传说和王权观念逐渐发展\n\n3. 商朝\n画面元素：青铜鼎、甲骨文、祭祀、王都\n知识点：\n- 青铜文明高度发展\n- 甲骨文是早期成熟文字的重要代表\n- 宗教祭祀和王权密切结合\n\n4. 西周\n画面元素：分封诸侯、礼乐制度、宗法秩序\n知识点：\n- 分封制和宗法制度逐渐完善\n- 礼乐制度影响深远\n- 为后世政治文化奠定基础\n\n5. 春秋战国\n画面元素：诸侯争霸、百家争鸣、孔子、战争与学术并存\n知识点：\n- 中国古代思想最活跃的时期之一\n- 儒家、道家、法家等百家争鸣\n- 铁器和社会变革推动历史转型\n\n6. 秦朝\n画面元素：秦始皇、长城、统一文字、郡县制、车同轨\n知识点：\n- 中国进入大一统帝国时代\n- 统一文字、度量衡和道路制度\n- 郡县制加强中央集权\n\n7. 汉朝\n画面元素：丝绸之路、驼队、宫廷、儒学、对外交流\n知识点：\n- 汉朝奠定了强盛帝国格局\n- 丝绸之路促进中外交流\n- 儒学逐渐成为主流思想\n\n8. 三国两晋南北朝\n画面元素：战乱分裂、民族融合、佛教寺庙、文人风度\n知识点：\n- 长期分裂，但文化持续发展\n- 民族融合不断加深\n- 佛教传播对思想文化影响巨大\n\n9. 隋唐\n画面元素：大运河、长安、科举、盛唐气象、丝路商旅\n知识点：\n- 隋朝重新统一中国\n- 唐朝国力强盛、对外开放\n- 科举制和长安繁荣具有代表性\n\n10. 宋朝\n画面元素：城市商业、书院、活字印刷、指南针、繁华市井\n知识点：\n- 商品经济和城市文化高度繁荣\n- 科技发明影响深远\n- 文人文化和审美高度发展\n\n11. 元朝\n画面元素：辽阔疆域、驿站、商旅往来、欧亚交流\n知识点：\n- 统一了更广阔的疆域\n- 加强欧亚大陆之间联系\n- 不同民族和文化交流更频繁\n\n12. 明朝\n画面元素：紫禁城、郑和下西洋、宝船、小说戏曲、市民社会\n知识点：\n- 皇权体制进一步加强\n- 郑和下西洋体现航海能力\n- 商品经济与文化创作活跃\n\n13. 清朝前中期\n画面元素：大一统版图、宫廷、农业社会、盛世景象\n知识点：\n- 版图进一步巩固\n- 人口增长和农业发展明显\n- 帝国秩序达到高峰\n\n14. 清朝晚期\n画面元素：鸦片战争、列强入侵、洋务运动、近代危机\n知识点：\n- 中国遭遇前所未有的外部冲击\n- 传统秩序受到严重挑战\n- 开始艰难探索近代化道路\n\n15. 近代中国\n画面元素：辛亥革命、民国城市、报刊、学生、抗战、民族觉醒\n知识点：\n- 中国社会进入剧烈转型阶段\n- 革命、改革与救亡并行\n- 民族觉醒和现代国家观念增强\n\n16. 新中国建设时期\n画面元素：开国场景、工厂、工人、农田、基础建设\n知识点：\n- 新中国成立后开始大规模建设\n- 工业化和社会重建逐步推进\n- 为现代化发展打下基础\n\n17. 改革开放\n画面元素：高楼、工厂、市场经济、沿海城市、快速发展\n知识点：\n- 经济体制逐步转型\n- 城市化和全球化显著加快\n- 中国经济实现快速增长\n\n18. 当代中国（到2026）\n画面元素：高铁、航天火箭、现代城市、互联网、AI、芯片、新能源汽车、机器人、年轻人\n知识点：\n- 中国持续推进科技创新和现代化建设\n- 高铁、航天、数字经济和AI快速发展\n- 2026年的中国呈现科技化、城市化、全球化面貌\n\n底部总结区：\n添加一个简洁总结模块，写上：\n“中国文明并不是一条直线，而是在统一与分合、传承与变革中不断演进。几千年的积累，最终塑造出今天的中国。”\n\n视觉要求：\n- 每个时期的人物服饰、建筑、器物和交通工具都要有时代辨识度\n- 画面精致细腻，但保持清晰简洁，不要杂乱\n- 整体具有历史厚重感、知识图鉴感和冒险漫画感\n- 中文必须清晰、正确、易读\n- 版式像高质量历史科普读物插图页\n- 整体统一、专业、美观，适合做历史科普长图海报",
+      "covers": [
+        "/covers/x-2046867191849767142.jpg"
+      ]
+    },
+    {
+      "no": "614",
+      "id": "x-2106347367285018635",
+      "title": "手机产品的技术信息图",
+      "kicker": "产品图解",
+      "excerpt": "把一台手机放在深色编辑版面上，用引线和爆炸细节标出相机、芯片和接口。",
+      "style": "深色技术信息图",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "knowledge"
+      ],
+      "tags": [
+        "产品",
+        "信息图",
+        "拆解",
+        "科技"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "j_smeaton99",
+        "name": "Jack",
+        "handle": "j_smeaton99",
+        "url": "https://x.com/j_smeaton99"
+      },
+      "sourceUrl": "https://x.com/j_smeaton99/status/2106347367285018635",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-03",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。机型与规格为原帖文案，不视为已核实参数。",
+      "prompt": "Create a premium, photorealistic 4K technology infographic showcasing the iPhone 18 Pro as the hero product.\n\nDesign a sleek, high-end editorial infographic with a minimalist Apple-inspired aesthetic, dark graphite/black background, subtle metallic gradients, soft studio reflections, and precise technical callouts.\n\nPlace a large iPhone 18 Pro vertically in the center, shown at a slight three-quarter angle with the front display and titanium-style frame clearly visible. Add a second smaller rear-angle view beside it to showcase the camera system.\n\nAround the phone, create clean infographic callouts connected with thin elegant lines and small technical markers. Highlight key features such as:\n\n• Pro-grade camera system\n• Advanced main camera sensor\n• Ultra-wide camera\n• Telephoto zoom\n• Next-generation A-series Pro chip\n• ProMotion high-refresh-rate display\n• Titanium-style premium frame\n• USB-C connectivity\n• Advanced computational photography\n• All-day battery performance\n• AI-powered photography and on-device intelligence\n\nUse clear, modern typography, strong visual hierarchy, restrained text, and realistic technical diagrams. Include subtle exploded-view details of the camera module and internal components without making the design look cluttered.\n\nAdd a refined title at the top:\n\n“iPHONE 18 PRO”\n\nSubtitle:\n“THE NEXT GENERATION OF PRO”\n\nAt the bottom, include a compact specification strip with categories such as:\nDISPLAY • CHIP • CAMERA • BATTERY • CONNECTIVITY\n\nVisual style: luxury technology advertising, premium product launch presentation, futuristic but believable, extremely clean composition, realistic materials, sharp details, controlled reflections, cinematic studio lighting, sophisticated black and silver palette, professional product photography, magazine-quality graphic design.\n\nAspect ratio: 4:5 vertical\nUltra-sharp, high-resolution, photorealistic, no unnecessary decorative elements, no distorted phone geometry, no messy typography.",
+      "covers": [
+        "/covers/x-2106347367285018635.jpg",
+        "/covers/x-2106347367285018635-2.jpg"
+      ]
+    },
+    {
+      "no": "615",
+      "id": "x-2101651915407085704",
+      "title": "水袖舟舞的十六宫格分镜",
+      "kicker": "连续分镜",
+      "excerpt": "同一位成年舞者在荷塘画舫之间完成十六个连续水袖动作，每格带编号和轨迹。",
+      "style": "十六宫格连续分镜",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "分镜",
+        "舞蹈",
+        "叙事",
+        "宫格"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "mrpinecone888",
+        "name": "Mr.pinecone",
+        "handle": "Mrpinecone888",
+        "url": "https://x.com/Mrpinecone888"
+      },
+      "sourceUrl": "https://x.com/Mrpinecone888/status/2101651915407085704",
+      "model": "GPT Image 2.5",
+      "date": "2026-09-20",
+      "notes": "提示词逐字摘自作者公开 X 原帖，预览是原帖示例，本次未重新生成。",
+      "prompt": "请创作一张「莲池晓雾·水袖舟舞」16宫格连续分镜图，9:16竖版、4×4布局，主题改为古代园林水榭与停泊画舫之间的水袖舞，不使用宫廷大殿和傍晚宫灯。场景固定在日出前后的荷塘：木质画舫、临水平台、白墙黛瓦、荷叶、低雾与远处拱桥，画舫保持静止并有明确安全栏杆。主角为同一位成年中国女舞者，统一温婉面容、低髻、玉簪和淡妆；身穿湖青、月白、淡金配色的窄腰长裙与超长水袖，服装纹样、袖长和发饰每格一致。动作依次为：1「舟首观莲」双手垂袖站立；2「提袖试水」右袖轻触水面；3「移步过舷」沿船舷平稳侧行；4「双袖起雾」两袖从下向上升起；5「俯身采露」低身靠近荷叶；6「转腕收珠」袖口承接露珠；7「侧步穿荷」向平台方向连续移位；8「袖桥相接」双袖在头顶相连；9「低坐听水」坐于安全船凳；10「起身送袖」从坐姿平稳起身；11「回环绕柱」围绕画舫立柱半圈；12「长袖掠池」一袖横扫水面；13「踏板登岸」通过踏板走向水榭；14「背舟展袖」背向画舫完全展开；15「望桥收势」看向远处拱桥；16「雾中静莲」双袖下垂如莲瓣定格。每格标注编号、中文标题、水袖轨迹和行进方向，镜头从画舫远景过渡到手部水滴特写，再回到岸边全景；雾量、日光、人物身份和服装连续一致。",
+      "covers": [
+        "/covers/x-2101651915407085704.jpg"
+      ]
+    },
+    {
+      "no": "616",
+      "id": "x-2108242454105251921",
+      "title": "单形状界面节拍循环",
+      "kicker": "零剪辑",
+      "excerpt": "一个形状在十四秒里从吉祥物变成播放、时间线和导出提示，再回到第一帧。",
+      "style": "单形状界面节拍循环",
+      "category": "code",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "代码",
+        "可换模板",
+        "Opus",
+        "Canvas",
+        "动效"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "flxrnc",
+        "name": "Florence",
+        "handle": "flxrnc",
+        "url": "https://x.com/flxrnc"
+      },
+      "sourceUrl": "https://x.com/flxrnc/status/2108242454105251921",
+      "model": "Claude Opus 5.5 · Canvas 2D",
+      "date": "2026-10-08",
+      "notes": "成片由 Opus 5.5 写 Canvas 2D 逐帧渲染，不是生视频模型。全文截自原帖，未改写。原帖称可换节拍后用于自己的产品。",
+      "prompt": "<inputs>\nGive me:\n\n* canvas color\n* shape color\n* accent color\n* shape radius\n* fonts\n* the states the shape should morph through\n\nUse hex codes, seconds, damping ratios and pixel sizes instead of adjectives.\n</inputs>\n\n<direction>\nMake a 14 second, 1440x1440, 60fps seamless UI motion loop.\n\nOne shape, zero cuts.\n\nThe shape morphs from state to state and is never replaced.\n\nEach state fills 50% of the frame.\n\nThe camera starts on the beat and settles slower than the shape.\n\nUse closed-form springs.\n\nShape damping 0.72, settle time 0.35s.\nCamera damping 1.0, settle time 0.6s.\n\nContent swaps use 12px blur and fade over 0.15s.\n\nThe cursor tip stays locked to whatever it drags.\n</direction>\n\n<structure>\nUse a 0.5s beat grid.\n\n0.0 - pixel mascot idles\n1.0 - mascot squashes into play button\n1.5 - loader\n2.0 - check draws\n2.5 - timeline scrub\n4.0 - keyframe stretches past the end and snaps back\n5.0 - bezier editor\n7.0 - counter rolls F 000 to F 840\n8.5 - render bar fills\n10.0 - command palette types \"export mp4\"\n11.0 - toast says \"840 frames rendered\"\n12.0 - toast shrinks back into the mascot\n\nThe last frame must be the first frame.\n</structure>\n\n<build>\nWrite one HTML file with Canvas 2D.\n\nwindow.renderAt(t) must be a pure function of time.\n\nNo Math.random.\nNo clock.\nNo carried state.\n\n?t= must freeze the exact moment.\n\nRender every frame from renderAt(frame / 60).\n\nUse 4 subframes for motion blur.\n\nEncode to H.264 at 60fps.\n</build>\n\n<gotchas>\nFix the cursor jump at the loop wrap with:\n\nt - 14*floor(t/14)\n\nDo not cross-fade orange into ink.\n\nUse a ripple from the center at 1.5s and from the click point at 12.0s.\n\nRoll word swaps vertically.\n\nStart draw-on after blur-in.\n\nAim the cursor at where the target will be when it lands.\n\nKeep cursor speed under 65 px/frame.\n</gotchas>\n\n<start>\nFirst show me the storyboard.\n\nThen write the code.\n\nAfter the first render, check 5 frames around every beat and fix the issues before the final render.\n</start>",
+      "covers": [
+        "/covers/x-2108242454105251921.jpg"
+      ],
+      "use": "template",
+      "visualCategory": "code"
+    },
+    {
+      "no": "617",
+      "id": "x-2106395313862754749",
+      "title": "键盘落地页的拆层循环",
+      "kicker": "产品拆层",
+      "excerpt": "键帽按下回弹后，页面滚到爆炸图，零件带标签分开再装回去。",
+      "style": "产品页拆层循环",
+      "category": "code",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "代码",
+        "产品",
+        "Opus",
+        "three.js",
+        "Remotion"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "0xvette",
+        "name": "vette",
+        "handle": "0xvette",
+        "url": "https://x.com/0xvette"
+      },
+      "sourceUrl": "https://x.com/0xvette/status/2106395313862754749",
+      "model": "Claude Opus 5.5 · Remotion + three.js",
+      "date": "2026-10-03",
+      "notes": "成片由 Opus 5.5 写 Remotion 与 three.js 逐帧渲染，不是生视频模型。全文截自原帖，未改写。",
+      "prompt": "Build a landing page for Detent One, a fictional mechanical keyboard, as one HTML file: 1200x675 stage, 8 s seamless loop, 60 fps. three.js 0.160 via importmap from jsDelivr; Geist and Geist Mono (Google Fonts). window.renderAt(t) draws exact time t; seeded random; no rAF loop when the URL has ?t=.\n\nHTML UI: nav; \"Press once.\" in Geist 800, 140px, 2 lines, tracking -0.05em, orange period; subline; black CTA \"Pre-order $189\"; 4 mono spec chips. Page F3F1EC, ink 111111, accent D97757.\n\nthree.js, right half: a 1u keycap in D97757 (roughness 0.45, clearcoat 0.5, dished top) on a brushed aluminum plate (anisotropy 0.8), a smoked switch with gold contacts, a black PCB with gold traces. RoomEnvironment, key and rim lights, soft contact shadows.\n\n0-0.9 s: the key presses 4 mm, holds 8 frames, springs back (damping 0.55); the period dips with it\n\n1.0-2.6 s: the page scrolls 675px; the camera orbits 50 degrees, pulls back 40%; the stack explodes into keycap, stem, switch, plate, PCB (0.08 s stagger); 1px leader lines and mono labels draw in.\n\n3.3 s and 7.0 s: a light glint sweeps across.\n\n5.2-6.8 s: it reassembles, scrolls back, headline re-reveals through masks. Grain 2%, vignette 8%.\n\nfull setup to prompting, sound, motion animation with Opus 5.5 in the PDF and article below ↓",
+      "covers": [
+        "/covers/x-2106395313862754749.jpg"
+      ],
+      "use": "product",
+      "visualCategory": "code"
+    },
+    {
+      "no": "618",
+      "id": "x-2104139720829636937",
+      "title": "记账产品的十五秒发布片",
+      "kicker": "产品成片",
+      "excerpt": "用真实产品界面做一条连续的深色金点发布片，从混乱收到清晰再落到字标。",
+      "style": "深色金点产品发布片",
+      "category": "code",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "代码",
+        "产品",
+        "Opus",
+        "Remotion",
+        "发布片"
+      ],
+      "medium": "video",
+      "slots": [],
+      "creator": {
+        "id": "daniel_haida",
+        "name": "Daniel Haida",
+        "handle": "daniel_haida",
+        "url": "https://x.com/daniel_haida"
+      },
+      "sourceUrl": "https://x.com/daniel_haida/status/2104139720829636937",
+      "model": "Claude Opus 5.5 · Remotion",
+      "date": "2026-09-27",
+      "notes": "成片由 Opus 5.5 写 React 与 Remotion 逐帧渲染，不是生视频模型。全文截自原帖，未改写。原帖要求只使用仓库里的真实界面。",
+      "prompt": "You are the senior motion designer, product designer and Remotion engineer for Taxtello.\n\nYour task is to create a genuinely premium, Apple-level product film for Taxtello.\n\nThis is NOT a generic SaaS explainer.\nThis is NOT a feature walkthrough.\nThis is NOT a startup template animation.\n\nI want a maximum 15-second brand/product showreel that makes Taxtello look like a mature, expensive, beautifully designed financial product.\n\nThink:\n\nApple product launch film\n× premium fintech\n× editorial motion design\n× restrained Stripe-like product presentation\n× Taxtello's own visual identity\n\nThe desired reaction is:\n\n“Wait, this is a German bookkeeping app?”\n\nThe film should feel expensive.\n\n────────────────────────────────────\nREPO / SOURCE OF TRUTH\n────────────────────────────────────\n\nFirst inspect the real repositories before designing anything.\n\nMain product:\n  /taxtello/main\n\nExisting Remotion project:\n  /taxtello/beta-motion\n\nImportant real brand sources:\n\n  /taxtello/main/public/css/app/_00-tokens.css\n  /taxtello/main/docs/design/TOKENS.md\n  /taxtello/main/public/taxtello-wordmark.png\n  /taxtello/main/public/icons.svg\n\nExisting current product screenshots can be found under:\n\n  /taxtello/main/artifacts/smoke-ui-smoke/\n\nPrefer the newest valid screenshots/current source over stale artifacts.\n\nThere is already an existing 24-second Remotion hero animation in\n/taxtello/beta-motion.\n\nDO NOT replace it.\nDO NOT regress it.\nDO NOT force its current AI-connections storyline into this new film.\n\nCreate a new independent composition for this task, e.g.\n\n  TaxtelloShowreel15\n\nYou may reuse good infrastructure, fonts, rendering utilities, motion primitives,\neasing curves, asset loading and QA infrastructure from beta-motion where useful.\n\nBut creatively this should be a new film.\n\nBefore implementation, inspect the actual Taxtello UI and understand the product.\n\nDo not invent functionality that does not exist.\n\n────────────────────────────────────\nREAL TAXTELLO VISUAL LANGUAGE\n────────────────────────────────────\n\nUse the real design system.\n\nCore palette:\n\nBackground:\n  #0c0f1a\n\nElevated surfaces:\n  #111525\n  #131722\n  #1a2032\n\nPrimary brand gold:\n  #e8b84b\n\nGold highlight:\n  #f5d07a\n\nGold depth:\n  #9b6d18\n\nPrimary text:\n  #e8eaf2\n\nStrong warm white:\n  #f6f4eb\n\nSecondary text:\n  #8b93b5\n\nPositive:\n  #34d399\n\nNegative/error only where semantically necessary:\n  #f87171\n\nTypography:\n  Plus Jakarta Sans\n\nNumbers / financial values where appropriate:\n  JetBrains Mono\n\nUse the actual Taxtello wordmark and/or Taxtello mark.\nDo not redraw or approximate the logo.\n\nTaxtello's gold should feel like a precious accent, not a yellow UI flood.\n\nThink:\ndark metal\nwarm gold\nglass\nink\nprecision\nquiet confidence\n\nNOT:\ncyberpunk\ncrypto\nneon\ngaming\ngeneric AI purple\nrainbow gradients\n\n────────────────────────────────────\nCORE CREATIVE RULES\n────────────────────────────────────\n\nFollow these rules ruthlessly:\n\n1. ONE SHOT = ONE IDEA.\n\n2. Every scene needs room to breathe.\n\n3. The product UI is the hero.\n\n4. Do not plaster explanatory copy everywhere.\n\n5. Do not use hard cuts unless there is a deliberate reason.\n\n6. Prefer object-driven transitions:\n   a card becomes the next card,\n   a chart line becomes a connector,\n   a receipt becomes a booking,\n   a number becomes another interface element,\n   the camera moves through the product.\n\n7. Use premium easing.\n   No linear movement.\n\n8. Motion should overlap naturally.\n   Elements should not all start and stop at exactly the same frame.\n\n9. Use depth sparingly:\n   perspective,\n   soft parallax,\n   scale,\n   foreground/background separation,\n   controlled depth of field if achievable.\n\n10. NO effect exists simply because it looks cool.\n\n11. No particle spam.\n\n12. No fake glassmorphism everywhere.\n\n13. No excessive blur.\n\n14. No pointless 3D spinning cards.\n\n15. No constant zooming.\n\n16. No 20 different animation styles.\n\n17. No bouncing UI.\n\n18. No giant marketing paragraph.\n\n19. Do not imitate a particular Apple commercial shot-for-shot.\n    Capture the philosophy and production quality instead.\n\nThe visual confidence should come from restraint.\n\n────────────────────────────────────\nFORMAT\n────────────────────────────────────\n\nPrimary master:\n\n1920 × 1080\n60 fps\n16:9\nH.264\nmaximum duration: 15.0 seconds\n\nTarget runtime:\napproximately 14.0–15.0 seconds.\n\nIt must work as a social-media product reveal even without sound.\n\nIf practical AFTER the master is finished, also create a deliberately recomposed\nvertical/social variant.\n\nDo not merely crop the desktop composition.\n\nBut the desktop master is the priority.\n\n────────────────────────────────────\nSTORY / EMOTIONAL ARC\n────────────────────────────────────\n\nDo not make this a list of five features.\n\nIt should feel like one continuous thought:\n\nCHAOS → CONTROL → CLARITY → TAXTELLO\n\nThe first 1.5 seconds must already look premium.\n\nThe first meaningful product moment should happen by ~2 seconds.\n\nNo five-second logo intro.\n\nPossible narrative direction:\n\n“Everything about your business, finally in one place.”\n\nBut SHOW this instead of explaining it.\n\nI want approximately four visual ideas across the whole film.\n\nUse the strongest REAL Taxtello surfaces you find in the repository.\n\nStrong candidates include:\n\n• Finanzcockpit / Dashboard\n• Rechnungen\n• Belege\n• Bank / matching\n• Steuergesundheit / tax overview\n\nYou do NOT need to show all of them.\n\nChoose the visually strongest combination.\n\n────────────────────────────────────\nSUGGESTED 15-SECOND STORYBOARD\n────────────────────────────────────\n\nTreat this as a strong starting point, not a rigid template.\n\n0.00 – 1.20\n\nBLACK / NAVY.\n\nA tiny warm-gold glint appears.\n\nThe glint elegantly reveals either the Taxtello mark or a fragment of the\nwordmark.\n\nNo generic logo fade.\n\nThink machined precision.\n\nThe camera moves through or past the mark and the UI begins to emerge from it.\n\nVery little or no copy.\n\n─────────────────\n\n1.20 – 4.40\n\nFINANCIAL CONTROL.\n\nReveal the actual Taxtello Cockpit as a dimensional product surface.\n\nNot just a screenshot placed on screen.\n\nReconstruct/crop/layer it so individual interface regions can animate.\n\nThe hero financial number resolves crisply.\nThe chart draws in.\nSupporting metrics settle slightly later.\n\nUse subtle stagger.\n\nA single line of copy may appear, for example:\n\n  “Alles im Blick.”\n\nor another equally short German phrase if you find something more fitting.\n\nMaximum ~3–4 words.\n\nThe interface must remain recognizable as the real product.\n\n─────────────────\n\n4.40 – 7.50\n\nDOCUMENT / BOOKKEEPING TRANSFORMATION.\n\nUse a visual object from the previous scene as the transition.\n\nExample:\n\nA gold chart point expands into the corner of a receipt/card.\nThe camera follows it.\nA receipt/document enters.\nTaxtello identifies or organizes it.\nThe document snaps elegantly into its corresponding booking / financial record.\n\nUse magnetic alignment and precision.\n\nNo cheesy scanner laser.\n\nNo floating paper tornado.\n\nPossible micro-copy:\n\n  “Belege. Erledigt.”\n\nOnly if it improves the scene.\n\n─────────────────\n\n7.50 – 10.70\n\nMONEY / INVOICES.\n\nMorph or transition naturally into the real Rechnungen interface.\n\nUse one strong moment:\n\nan invoice status changes,\na payment resolves,\nan amount moves into place,\nor the overview assembles itself.\n\nNumbers should feel tactile and precise.\n\nUse JetBrains Mono where this matches the actual product.\n\nGold highlights the active state.\n\nGreen is used only for a genuinely positive semantic state.\n\nPotential copy:\n\n  “Geld. Im Griff.”\n\nAgain: optional and extremely short.\n\n─────────────────\n\n10.70 – 12.80\n\nTAX / CLARITY.\n\nTransition into the real Taxtello tax-health / financial guidance surface.\n\nDo not claim that Taxtello magically guarantees correct taxes.\n\nCommunicate visibility and control.\n\nExample:\n\nmultiple noisy signals collapse into one calm, structured tax overview.\n\nPotential copy:\n\n  “Steuern im Blick.”\n\nThis scene should feel calmer than the previous scene.\n\nThe rhythm briefly slows.\n\n─────────────────\n\n12.80 – 15.00\n\nBRAND PAYOFF.\n\nPull the camera outward.\n\nThe UI compresses or folds into one beautiful Taxtello product object / surface.\n\nDarkness returns around it.\n\nThe gold Taxtello wordmark resolves.\n\nOne short brand line underneath.\n\nExplore strong final lines such as:\n\n  “Dein Business. Klar.”\n\n  “Buchhaltung. Unter Kontrolle.”\n\n  “Einfach mehr Überblick.”\n\n  “Alles fürs Business. An einem Ort.”\n\nChoose based on the actual product positioning you find in the repo.\n\nDo not use a line simply because I suggested it.\n\nThe final frame must have enough stillness to register.\n\nEnd confidently.\n\nNo giant bouncing CTA.\n\n────────────────────────────────────\nTRANSITIONS\n────────────────────────────────────\n\nThis is one of the most important parts.\n\nI want transitions that make the viewer think:\n\n“Of course the next scene came from that.”\n\nGood:\n\nchart line → document edge\ngold pill → invoice button\nfinancial number → amount in invoice\ncard edge → next surface\ncamera push through interface element\nshared geometry\nmask reveal using actual product shapes\n\nBad:\n\ncrossfade\nrandom wipe\nspin transition\nglitch\nwhip-pan every two seconds\ngeneric SaaS slide-left\nzoom-blur spam\n\nDirect cuts are allowed only when a deliberate rhythmic impact benefits the film.\n\n────────────────────────────────────\nMOTION\n────────────────────────────────────\n\nMotion needs weight.\n\nUse curves comparable to:\n\ncubic-bezier(0.16, 1, 0.3, 1)\n\nwhere appropriate.\n\nDifferent elements should have subtly different arrival times.\n\nPrefer:\n\nanticipation\novershoot below ~2%\nsettling\nmotion continuation\nshared velocity between scenes\n\nAvoid cartoon springiness.\n\nCamera movement should feel like a high-end macro product shoot.\n\nImagine we are filming a physical premium object even though it is software.\n\n────────────────────────────────────\nLIGHTING / MATERIAL\n────────────────────────────────────\n\nUse extremely subtle environmental lighting.\n\nPossible treatments:\n\n• soft gold rim lighting\n• dark navy falloff\n• faint ambient bloom\n• soft specular highlight passing across a surface\n• restrained vignette\n• subtle grain if it materially helps\n\nKeep the interface crisp.\n\nDo NOT blur the product just to look cinematic.\n\nNo fake glossy reflections that destroy legibility.\n\n────────────────────────────────────\nTYPOGRAPHY\n────────────────────────────────────\n\nUse very little copy.\n\nNo sentence should compete with the product.\n\nHeadlines should generally fit on one line.\n\nUse Plus Jakarta Sans.\n\nStrong typography may occasionally scale very large and become a transition\ndevice itself.\n\nAvoid generic motion-graphics behavior where every word animates independently.\n\nTypography should move as designed objects.\n\n────────────────────────────────────\nSOUND / RHYTHM\n────────────────────────────────────\n\nDesign the motion as if it were cut to approximately 115–120 BPM:\npremium, kinetic, sophisticated, not frantic.\n\nImportant moments should land musically.\n\nSuggested sound language:\n\n• low soft impact for major reveal\n• restrained tactile UI clicks\n• subtle metallic/glass tonal tick\n• soft low-frequency movement during camera transitions\n• elegant resolved tone at the logo payoff\n\nAvoid:\n\n• huge cinematic trailer boom\n• EDM risers\n• loud whooshes everywhere\n• stock “tech interface” sounds\n• rap beat\n• aggressive bass\n\nIf there is no legally safe music/audio asset in the project, DO NOT pull\ncopyrighted audio from the internet.\n\nDeliver the visual master without copyrighted music and create a concise cue\nsheet describing where music/SFX should hit.\n\nIf suitable safe/local audio exists, use it.\n\n────────────────────────────────────\nREAL PRODUCT ONLY\n────────────────────────────────────\n\nThis is critical.\n\nInspect current main.\n\nDo not invent screens.\n\nDo not invent metrics that imply real customer data.\n\nUse clearly synthetic/demo-safe values if required.\n\nDo not accidentally expose any personal, test-user or production information.\n\nReuse the visual structure of the actual Taxtello UI.\n\nIf a screen needs to be motion-separated, recreate it faithfully in React from\nthe real design system instead of simply scaling a giant screenshot.\n\nThe result should still look unmistakably like Taxtello.\n\n────────────────────────────────────\nIMPLEMENTATION EXPECTATIONS\n────────────────────────────────────\n\nWork directly in:\n\n  /taxtello/beta-motion\n\nCreate the new composition alongside the existing one.\n\nKeep existing compositions working.\n\nStructure the new work cleanly.\n\nPrefer reusable primitives for:\n\n• camera surface\n• product frame\n• masked transitions\n• text reveals\n• UI region reveals\n• ambient lighting\n• shared-element transitions\n\nAvoid one 1,500-line component.\n\nUse deterministic Remotion animation driven by frame/time.\n\nNo setTimeout.\nNo nondeterministic animations.\n\nRespect 60 fps throughout.\n\nUse interpolation/spring/easing deliberately.\n\n────────────────────────────────────\nDO NOT STOP AFTER FIRST IMPLEMENTATION\n────────────────────────────────────\n\nThis is a visual task.\n\nYou MUST review the actual rendered output.\n\nRequired workflow:\n\n1. Inspect repository and real brand/product.\n\n2. Write a concise storyboard with:\n   - exact timestamps\n   - key visual\n   - transition logic\n   - copy\n   - intended emotional rhythm\n\n3. Implement it.\n\n4. Run typecheck / relevant checks.\n\n5. Render representative frames at roughly:\n   0.0 s\n   1.0 s\n   2.5 s\n   4.5 s\n   6.5 s\n   8.5 s\n   10.5 s\n   12.5 s\n   14.0 s\n   14.8 s\n\n6. VISUALLY INSPECT THOSE IMAGES.\n\nDo not merely confirm that rendering succeeded.\n\nAsk:\n\nDoes this look like an Apple-tier product film?\n\nDoes anything look like a template?\n\nIs there too much on screen?\n\nIs the product legible?\n\nAre transitions logically connected?\n\nDoes Taxtello gold feel premium?\n\nDoes every frame look composed?\n\n7. Fix visual weaknesses.\n\n8. Render the complete film.\n\n9. Inspect multiple exact decoded frames from the final MP4, not only browser\n   screenshots.\n\n10. Iterate again if necessary.\n\nDo not declare success because the code compiles.\n\nThe deliverable is the FILM.\n\n────────────────────────────────────\nQUALITY BAR\n────────────────────────────────────\n\nReject your own result if it feels like:\n\n• a SaaS template\n• a PowerPoint animation\n• a website screen recording\n• a generic Remotion demo\n• a crypto advertisement\n• an AI-generated promo template\n• five screenshots sliding around\n• excessive marketing copy\n\nEvery important frame should be good enough to use as a still advertisement.\n\nI would rather have:\n\n3 extraordinary visual moments\n\nthan\n\n10 mediocre feature animations.\n\n────────────────────────────────────\nFINAL DELIVERABLES\n────────────────────────────────────\n\nProvide:\n\n1. Final storyboard\n2. New Remotion composition source\n3. 1920×1080 / 60fps final MP4\n4. Poster/final frame\n5. Contact sheet with representative frames from the film\n6. Exact runtime\n7. List of real Taxtello assets/screens used\n8. Brief explanation of the motion language\n9. Any remaining visual compromises\n10. Commands to reproduce the render\n\nSave outputs in a clearly named directory such as:\n\n  /taxtello/beta-motion/out/showreel-15/\n\nDo not deploy anything.\nDo not modify production data.\nDo not merge anything.\n\nGo all out creatively, but exercise ruthless restraint.\n\nMake Taxtello look expensive.",
+      "covers": [
+        "/covers/x-2104139720829636937.jpg"
+      ],
+      "use": "product",
+      "visualCategory": "code"
     }
   ],
   "taxonomyVersion": 1
