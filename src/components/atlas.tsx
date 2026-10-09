@@ -25,7 +25,6 @@ import {
 } from "@/components/ui/dialog";
 import { useFavorites } from "@/lib/favorites";
 import { brand } from "@/lib/brand";
-import { ScienceOperations } from "@/components/science-operations";
 import {
   categoryName,
   countMedium,
@@ -54,7 +53,6 @@ export function Atlas() {
   const [onlyFavorites, setOnlyFavorites] = useState(false);
   const [compact, setCompact] = useState(true);
   const [helpOpen, setHelpOpen] = useState(false);
-  const [operationsOpen, setOperationsOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const copyTimer = useRef<number | undefined>(undefined);
   const copyRequest = useRef(0);
@@ -379,18 +377,6 @@ export function Atlas() {
               ? "你想用画面做什么？按上方场景找灵感，也可以搜索具体的风格。"
               : folio.categories.find((c) => c.id === category)?.blurb}
           </p>
-          {medium === "image" && (
-            <aside className="science-entry" aria-label="科普运营精选">
-              <div>
-                <strong>为下一期内容，找一套画风</strong>
-                <p>泛知识／科普 · 封面、原理图解、连续漫画与栏目画风</p>
-              </div>
-              <button className="outline-button" onClick={() => setOperationsOpen(true)}>
-                科普运营
-                <ArrowUpRight />
-              </button>
-            </aside>
-          )}
           {medium === "video" && (
             <nav className="folio-scenes" aria-label="视频形式">
               <button
@@ -530,18 +516,6 @@ export function Atlas() {
             获取 FOLIO Skill
             <ArrowUpRight />
           </a>
-        </DialogContent>
-      </Dialog>
-      <Dialog open={operationsOpen} onOpenChange={setOperationsOpen}>
-        <DialogContent className="science-dialog">
-          <div className="science-scroll">
-            <ScienceOperations
-              onChoose={(prompt) => {
-                setOperationsOpen(false);
-                choose(prompt);
-              }}
-            />
-          </div>
         </DialogContent>
       </Dialog>
     </div>
