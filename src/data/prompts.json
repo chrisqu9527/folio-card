@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 587,
+  "count": 599,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -21479,6 +21479,456 @@
         "/covers/x-2108226414621380679.jpg"
       ],
       "use": "trailer"
+    },
+    {
+      "no": "588",
+      "id": "x-2107790561126010965",
+      "title": "雾湖孤舟与小字题注",
+      "kicker": "雾湖蓝调",
+      "excerpt": "孤舟、薄雾和留白，以一行小字表达安静的心情。",
+      "style": "雾湖极简蓝调风景",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "memory",
+        "opinion"
+      ],
+      "tags": [
+        "雾湖",
+        "孤舟",
+        "蓝调",
+        "留白",
+        "短句"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "EmilioSchwaiger",
+        "name": "Emilio",
+        "handle": "EmilioSchwaiger",
+        "url": "https://x.com/EmilioSchwaiger"
+      },
+      "sourceUrl": "https://x.com/EmilioSchwaiger/status/2107790561126010965",
+      "model": "Nano Banana 2.1",
+      "date": "2026-10-07",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "A tiny wooden rowing boat on a perfectly still misty lake at blue hour, muted grey-green tones, the far shore barely visible, small serif caption: \"stillness is a place\"",
+      "covers": [
+        "/covers/x-2107790561126010965.jpg"
+      ]
+    },
+    {
+      "no": "589",
+      "id": "x-2107715555411247528",
+      "title": "多参考图科幻对话分镜",
+      "kicker": "过肩镜头",
+      "excerpt": "用人物、场景和调色参考安排一场科幻电影式对话。",
+      "style": "电影过肩双人构图",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "科幻",
+        "过肩镜头",
+        "分镜",
+        "参考图",
+        "电影调色"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gertywood5",
+        "name": "Gertywood",
+        "handle": "Gertywood5",
+        "url": "https://x.com/Gertywood5"
+      },
+      "sourceUrl": "https://x.com/Gertywood5/status/2107715555411247528",
+      "model": "原作者对比 Nano Banana Pro、Seedance pro、Image 2.5 sunburst、Nano Banana 2.1",
+      "date": "2026-10-07",
+      "notes": "需准备提示词指定的四张人物、场景和调色参考。原帖第一张配图为四组模型结果拼图，第二张为调色参考，不是一套完整的四张输入参考；模型名称按作者原帖保留。",
+      "prompt": "still from a hollywood scifi movie. over the shoulder of the man in image 1. he's on frame left in the foreground. woman from image 2 is on frame right in focus. setting is a different angle of image 3. use image 4 as the influence for the color grade, the lighting, the style, and the film stock type.",
+      "covers": [
+        "/covers/x-2107715555411247528.jpg",
+        "/covers/x-2107715555411247528-2.jpg"
+      ]
+    },
+    {
+      "no": "590",
+      "id": "x-2107663393658196324",
+      "title": "月光花园奇幻人像",
+      "kicker": "月光花园",
+      "excerpt": "银线刺绣黑裙、花园露台和远处发光城市，构成冷暖交织的奇幻人像。",
+      "style": "冷暖交织奇幻摄影",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "tags": [
+        "花园",
+        "月光",
+        "奇幻",
+        "人像",
+        "银线刺绣"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "LettyVesper",
+        "name": "Letty",
+        "handle": "LettyVesper",
+        "url": "https://x.com/LettyVesper"
+      },
+      "sourceUrl": "https://x.com/LettyVesper/status/2107663393658196324",
+      "model": "GPT Image 2",
+      "date": "2026-10-07",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "A highly detailed cinematic fantasy portrait of a beautiful young woman standing on an elegant flower-covered terrace at twilight. She has long, naturally wavy dark brown hair, soft glowing skin, expressive hazel-brown eyes, delicate facial features, subtle rosy cheeks, and glossy natural lips. She is wearing a sophisticated flowing black dress with intricate silver floral embroidery, sheer sleeves, elegant dangling earrings, and a delicate hair ornament. She stands in a graceful three-quarter pose, body turned slightly away while looking back over her shoulder directly at the camera, one hand gently holding her dress and the other relaxed by her side.\nBehind her is a breathtaking moonlit lake with a distant magical city, glowing domes and towers, mountains, and reflections across the water. Warm vintage lanterns surround the terrace, with white flowers and green vines framing the scene. A crescent moon and soft purple-blue clouds fill the sky. Romantic warm-and-cool cinematic lighting, realistic skin texture, detailed hair strands, natural proportions, shallow depth of field, soft bokeh, dreamy atmosphere, photorealistic fantasy realism, professional photography, 85mm lens, eye-level camera, full-body composition, vertical 9:16.",
+      "covers": [
+        "/covers/x-2107663393658196324.jpg"
+      ]
+    },
+    {
+      "no": "591",
+      "id": "x-2107617855906975865",
+      "title": "魔法少女片名海报",
+      "kicker": "动画主视觉",
+      "excerpt": "用一个简短日文指令同时生成魔法少女主视觉与片名标志。",
+      "style": "魔法少女动画主视觉",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "announcement",
+        "story"
+      ],
+      "tags": [
+        "魔法少女",
+        "动画海报",
+        "标题设计",
+        "主视觉",
+        "模型对比"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SSSS_CRYPTOMAN",
+        "name": "SSSS.CRYPTOMAN⚡️AI",
+        "handle": "SSSS_CRYPTOMAN",
+        "url": "https://x.com/SSSS_CRYPTOMAN"
+      },
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2107617855906975865",
+      "model": "Nano Banana 2.1 / Nano Banana Pro / GPT Image 2.5 Sunburst / Seedream 5.0 Pro（作者对比）",
+      "date": "2026-10-06",
+      "notes": "完整提示词为原帖简短日文指令。四张配图依次对应 Nano Banana 2.1、Nano Banana Pro、GPT Image 2.5 Sunburst、Seedream 5.0 Pro，均为作者在 Higgsfield 的对比结果；未在本次入库中重新生成。",
+      "prompt": "魔法少女アニメのキービジュアルを作成。タイトルロゴまで含めた魅力的なポスターデザインとして仕上げる。",
+      "covers": [
+        "/covers/x-2107617855906975865.jpg",
+        "/covers/x-2107617855906975865-2.jpg",
+        "/covers/x-2107617855906975865-3.jpg",
+        "/covers/x-2107617855906975865-4.jpg"
+      ]
+    },
+    {
+      "no": "592",
+      "id": "x-2107599888636862834",
+      "title": "五首糖果时装玩偶",
+      "kicker": "糖果材质",
+      "excerpt": "同一糖果质感身体连接五张不同面孔，形成超现实时装摄影。",
+      "style": "超现实糖果材质时装",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "promotion"
+      ],
+      "tags": [
+        "超现实",
+        "糖果材质",
+        "玩偶",
+        "多头",
+        "时装"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "RAYSITI",
+        "name": "Anantha Shayana. D",
+        "handle": "RAYSITI",
+        "url": "https://x.com/RAYSITI"
+      },
+      "sourceUrl": "https://x.com/RAYSITI/status/2107599888636862834",
+      "model": "Nano Banana 2.1",
+      "date": "2026-10-06",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "A surreal doll with 5 heads, 10 ears, 2 arms and 2 legs seated on a fashionable high-chair. The central face is a realistic asian female face, the left face is wearing a Carnival mask, the right face is green like Hulk, The far right face is that of a dog, while the far-left face is that of a cat. The body is entirely made of glossy, translucent.multi-colored candy braided and twisted together, with a smooth confectionery sheen. Left arm is made of octopus tentacles. The right leg is made up of tree-roots.  She is seated on a tall high-chair for a professional high-fashion studio photoshoot, slouching naturally into an unusual, relaxed editorial pose. The five heads emerge cohesively from the same single body, creating an intentional surreal couture silhouette rather than separate figures.  Clean, plain studio background. Light pink dominates the candy-plastic body, with subtle muted reddish specular highlights catching the glossy surfaces. Soft, controlled professional studio lighting, muted pastel color palette, sophisticated fashion-editorial aesthetic, realistic facial skin contrasted against the artificial candy-plastic body, refined material detail, polished photographic finish.",
+      "covers": [
+        "/covers/x-2107599888636862834.jpg"
+      ]
+    },
+    {
+      "no": "593",
+      "id": "x-2107330963487515016",
+      "title": "飞机窗边旅途人像",
+      "kicker": "窗边旅途",
+      "excerpt": "在飞机窗边戴上耳机，用自然窗光和云层记录旅途片刻。",
+      "style": "自然窗光旅行摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "飞机",
+        "旅途",
+        "耳机",
+        "窗光",
+        "云层"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "MohdAdnanA86218",
+        "name": "HeisenLegacy",
+        "handle": "MohdAdnanA86218",
+        "url": "https://x.com/MohdAdnanA86218"
+      },
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2107330963487515016",
+      "model": "GPT（作者标注“Gpt 2”）",
+      "date": "2026-10-06",
+      "notes": "原帖未明确写出完整图像模型版本，按作者“Gpt 2”标注保留，不据索引推定版本。",
+      "prompt": "Ultra-realistic, cinematic 8K HDR, high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\nA sophisticated candid travel portrait of the young man sitting comfortably beside an airplane window, wearing sleek premium over-ear headphones. He gazes peacefully out of the window with a thoughtful, relaxed expression, completely absorbed in the journey. His face is softly illuminated by natural daylight streaming through the aircraft window.\n\nOutside the window, breathtaking layers of fluffy white clouds stretch endlessly beneath the airplane, with a soft blue sky fading toward the horizon. Subtle reflections of the clouds and his face appear on the window glass, creating an authentic cinematic atmosphere.\n\nHe wears a minimalist black jacket over a clean white T-shirt, giving him a modern, effortless luxury-travel aesthetic. Premium airplane interior, realistic leather seat, detailed window frame, shallow depth of field, natural skin tones, subtle film grain, soft atmospheric lighting, realistic reflections, cinematic color grading, 85mm lens, f/1.8, ultra-detailed facial features, photorealistic, authentic candid photography, no artificial-looking face, no text, no watermark.",
+      "covers": [
+        "/covers/x-2107330963487515016.jpg"
+      ]
+    },
+    {
+      "no": "594",
+      "id": "x-2107290005404262786",
+      "title": "咖啡壁画与真人互动",
+      "kicker": "街头互动",
+      "excerpt": "巨幅人物壁画向下倒咖啡，画外的同一人物用杯子接住。",
+      "style": "街头壁画互动摄影",
+      "category": "promotion",
+      "scenarios": [
+        "promotion",
+        "identity",
+        "concept"
+      ],
+      "tags": [
+        "壁画",
+        "咖啡",
+        "街头",
+        "同一人物",
+        "空间互动"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "AizaAi12",
+        "name": "Aiza",
+        "handle": "AizaAi12",
+        "url": "https://x.com/AizaAi12"
+      },
+      "sourceUrl": "https://x.com/AizaAi12/status/2107290005404262786",
+      "model": "GPT Image 2",
+      "date": "2026-10-06",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "Use the person in the reference image as the main character, suitable for both male and female subjects. Preserve the exact facial identity, facial structure, age, skin tone, and natural expression. Do not change the person’s identity or create an artificial/plastic-looking face.\n\nCreate a 4:5 vertical street-editorial photograph set in a stylish urban café alley with a large black brick wall. On the wall, create a huge black-and-white realistic mural depicting the same person from the reference image, holding a metallic coffee pot and pouring coffee downward.\n\nThe real person stands directly below the mural, holding a coffee cup positioned perfectly under the stream of coffee coming from the mural, creating a fun, artistic, interactive, and viral visual effect.\n\nFor a female subject:\nWear an oversized white shirt with a relaxed, slightly loose fit, youthful and modern styling, naturally tucked in, paired with jeans or dark-colored trousers and clean sneakers. Avoid a stiff corporate look or tight-fitting clothing.\n\nFor a male subject:\nUse a modern urban-casual outfit that looks youthful, clean, stylish, and contemporary.\n\nThe mural should have a realistic street-art aesthetic, featuring black and white tones with bold orange accents, expressive brush strokes, paint drips, and short graffiti typography such as “BỪNG NĂNG LƯỢNG” or “CÀ PHÊ MỖI NGÀY.”\n\nUse neutral daylight with natural skin tones and no excessive yellow color cast. Camera angle should be slightly low and editorial, showing the subject full-body with a relaxed, natural pose. Do not use a chin-on-hand pose.\n\nUltra-photorealistic, cinematic depth of field, realistic hands, accurate coffee stream, natural body proportions, authentic skin texture, highly detailed, 8K quality.\n\nDo not copy the exact composition of the reference/sample image. Keep only the core concept of a real person interacting with a giant mural while creating a fresh, original, visually striking composition.",
+      "covers": [
+        "/covers/x-2107290005404262786.jpg"
+      ]
+    },
+    {
+      "no": "595",
+      "id": "x-2107283736945717306",
+      "title": "金色女神与立体文字",
+      "kicker": "黑金祝福",
+      "excerpt": "在黑色背景上组合金色女神与立体名字，形成祝福主题画面。",
+      "style": "黑底金色宗教主题立体画",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "concept"
+      ],
+      "tags": [
+        "金色",
+        "立体文字",
+        "黑底",
+        "宗教艺术",
+        "祝福"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "jigu10",
+        "name": "🇮🇳 Jignesh Hindustani 🇮🇳",
+        "handle": "jigu10",
+        "url": "https://x.com/jigu10"
+      },
+      "sourceUrl": "https://x.com/jigu10/status/2107283736945717306",
+      "model": "ChatGPT / Gemini Nano Banana Pro（作者标注）",
+      "date": "2026-10-06",
+      "notes": "首图对应原提示词的 Mahalakshmi，其余三张为原帖中的不同女神和文字变体。提示词中的 8K 是作者的目标要求，不是本次实测的输出分辨率。",
+      "prompt": "Generate image of 3d golden text \"महालक्ष्मी\" and golden goddess Mahalakshmi is sitting and adjusted over that text. Black background \n1:1 ratio 8k resolution.",
+      "covers": [
+        "/covers/x-2107283736945717306-4.jpg",
+        "/covers/x-2107283736945717306.jpg",
+        "/covers/x-2107283736945717306-2.jpg",
+        "/covers/x-2107283736945717306-3.jpg"
+      ]
+    },
+    {
+      "no": "596",
+      "id": "x-2107123657734545700",
+      "title": "十视角一致人物设定",
+      "kicker": "角色母版",
+      "excerpt": "用完整十视角、固定面貌与负面约束，制作动画角色的一致性参考。",
+      "style": "十宫格角色一致性参考",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "identity",
+        "story"
+      ],
+      "tags": [
+        "角色一致性",
+        "十宫格",
+        "角色母版",
+        "多视角",
+        "动画制作"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "meAsifAi",
+        "name": "M. Asif",
+        "handle": "meAsifAi",
+        "url": "https://x.com/meAsifAi"
+      },
+      "sourceUrl": "https://x.com/meAsifAi/status/2107123657734545700",
+      "model": "ChatGPT（作者未注明图像模型）",
+      "date": "2026-10-05",
+      "notes": "保留原作者完整十帧、2×5 排版与负面约束。提示词中的 16K／15360×8640 为原作者目标要求，不是模型实测的原生分辨率承诺；原帖未明确图像模型版本。",
+      "prompt": "Create a premium professional character reference sheet using the uploaded REFERENCE IMAGE as the ONLY identity reference for the MAIN SUBJECT.\n\nIMPORTANT:\nThe final image MUST contain EXACTLY 10 frames/panels.\nDo NOT add extra frames.\nDo NOT remove any frames.\nDo NOT change the panel arrangement.\n\nUse the following EXACT 2-ROW, 10-FRAME layout:\n\nTOP ROW = 5 FACE / HEAD-AND-SHOULERS VIEWS\nBOTTOM ROW = 5 FULL-BODY VIEWS\n\nThe composition, number of frames, pose sequence, and camera angles must remain exactly as specified below.\n\n==================================================\nREFERENCE & IDENTITY LOCK\n==================================================\n\nUse the uploaded reference image as the single source of truth for the MAIN SUBJECT'S identity.\n\nPreserve the person's exact:\n- Facial identity\n- Facial structure\n- Skin tone\n- Eye shape and natural eye color\n- Eyebrows\n- Nose\n- Lips\n- Jawline\n- Cheek structure\n- Hairstyle\n- Hairline\n- Hair color\n- Hair texture\n- Hair length\n- Age appearance\n- Natural facial features\n- Body proportions\n- Physique\n- Overall recognizable appearance\n\nThe reference may be MALE or FEMALE.\n\nIf the reference is male, keep the subject male.\nIf the reference is female, keep the subject female.\n\nDo NOT change the person's identity.\nDo NOT create a different-looking version of the person.\nDo NOT beautify or modify facial structure.\n\n==================================================\nEXACT FINAL LAYOUT — 10 FRAMES\n==================================================\n\nROW 1 — FACE REFERENCE\nExactly 5 frames:\n\nFRAME 1:\nFRONT VIEW\n- Straight-on face\n- Head facing directly toward camera\n- Neutral expression\n- Head and shoulders visible\n\nFRAME 2:\n3/4 LEFT VIEW\n- Head turned approximately 45 degrees to the subject's LEFT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 3:\nLEFT PROFILE\n- Exact left-side profile\n- Approximately 90-degree rotation\n- Nose, lips, chin, jawline and hair silhouette clearly visible\n\nFRAME 4:\n3/4 RIGHT VIEW\n- Head turned approximately 45 degrees to the subject's RIGHT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 5:\nRIGHT PROFILE\n- Exact right-side profile\n- Approximately 90-degree rotation\n- Complete facial silhouette clearly visible\n\nTOP ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | RIGHT PROFILE\n\n==================================================\nROW 2 — FULL BODY REFERENCE\n==================================================\n\nExactly 5 frames:\n\nFRAME 6:\nFRONT FULL-BODY VIEW\n- Subject standing naturally\n- Facing directly toward camera\n- Entire body visible from head to feet\n- Arms naturally relaxed beside the body\n- Feet visible\n\nFRAME 7:\n3/4 LEFT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's LEFT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 8:\nLEFT PROFILE FULL-BODY VIEW\n- Exact left-side profile\n- Body rotated approximately 90 degrees\n- Entire body visible from head to feet\n\nFRAME 9:\n3/4 RIGHT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's RIGHT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 10:\nBACK FULL-BODY VIEW\n- Subject facing completely away from camera\n- Full back visible\n- Entire body visible from head to feet\n- Hair visible from the back\n- Natural standing posture\n\nBOTTOM ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | BACK\n\n==================================================\nCRITICAL CONSISTENCY\n==================================================\n\nALL 10 FRAMES MUST SHOW EXACTLY THE SAME PERSON.\n\nMaintain identical:\n- Face\n- Hair\n- Hairline\n- Hair color\n- Facial proportions\n- Body proportions\n- Height\n- Physique\n- Skin tone\n- Age appearance\n- Clothing\n- Accessories\n\nThe person must not look like 10 different generations.\n\nThe facial identity must remain consistent between every frame.\n\nThe body proportions must remain consistent between every full-body frame.\n\n==================================================\nCLOTHING\n==================================================\n\nUse one simple, clean, fitted outfit suitable for a professional character/model reference sheet.\n\nThe EXACT SAME outfit must appear in all 10 frames.\n\nDo not change clothing between panels.\n\nDo not change hairstyle between panels.\n\nDo not change accessories between panels.\n\nIf the uploaded reference has an important recognizable hairstyle or appearance, preserve it.\n\n==================================================\nBACKGROUND & PRESENTATION\n==================================================\n\nClean professional light-gray/white studio background.\n\nMinimal environment.\n\nNo scenery.\n\nNo props.\n\nNo dramatic background.\n\nNo unnecessary objects.\n\nAll 10 frames should appear as one professionally photographed character reference sheet.\n\nUse consistent studio lighting across every frame.\n\nSoft, neutral, evenly distributed lighting.\n\nMinimal shadows.\n\n==================================================\nCAMERA CONSISTENCY\n==================================================\n\nUse consistent professional studio photography.\n\nFACE FRAMES:\nHead-and-shoulders framing.\n\nFULL-BODY FRAMES:\nHead-to-feet framing with the entire body completely visible.\n\nMaintain consistent camera height, focal length, lighting, and distance.\n\nAvoid wide-angle distortion.\n\nKeep facial proportions natural and accurate.\n\n==================================================\nPANEL DESIGN\n==================================================\n\nCreate a clean rectangular 2-row grid.\n\nExactly 5 equal-width panels on the TOP ROW.\n\nExactly 5 equal-width panels on the BOTTOM ROW.\n\nAll panels should have matching dimensions.\n\nClean spacing between panels.\n\nProfessional production-model-sheet appearance.\n\nAdd small, clean labels beneath or within each panel:\n\nTOP:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nRIGHT PROFILE\n\nBOTTOM:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nBACK\n\nLabels must be small, clean, professional, and unobtrusive.\n\n==================================================\nPOSE LOCK\n==================================================\n\nDo NOT invent additional poses.\n\nUse ONLY these specified views and poses.\n\nTOP ROW:\n1. Front\n2. 3/4 Left\n3. Left Profile\n4. 3/4 Right\n5. Right Profile\n\nBOTTOM ROW:\n6. Front\n7. 3/4 Left\n8. Left Profile\n9. 3/4 Right\n10. Back\n\nThe pose sequence must remain exactly the same.\n\n==================================================\nPROFESSIONAL USE\n==================================================\n\nThe resulting sheet should function as a professional character-consistency reference for:\n\nAI image generation\nAI video generation\nAnimation\nFilm production\nStoryboarding\nCharacter design\nFashion visualization\n3D character development\n\nEvery angle should clearly communicate the same person's identity and physical appearance.\n\n==================================================\nNEGATIVE CONSTRAINTS\n==================================================\n\nEXACTLY 10 FRAMES ONLY.\n\nNo 8 frames.\nNo 9 frames.\nNo 11 frames.\nNo extra portraits.\nNo extra poses.\nNo additional panels.\n\nNo identity change.\nNo different person.\nNo face variation.\nNo face blending.\nNo gender change.\nNo age change.\nNo hairstyle change.\nNo hair color change.\nNo body-shape change.\nNo inconsistent clothing.\nNo inconsistent proportions.\nNo duplicated panels.\nNo missing panels.\nNo distorted profile.\nNo distorted hands.\nNo extra fingers.\nNo extra limbs.\nNo cropped feet in full-body frames.\nNo cropped head in face frames.\nNo extreme camera distortion.\nNo cartoon style.\nNo CGI appearance.\nNo plastic skin.\nNo text except the specified small view labels.\nNo watermark.\nNo logo.\n\nFINAL OUTPUT:\nA single clean professional 2-row × 5-column character reference sheet containing EXACTLY 10 consistent views of the same person.\n\nRESOLUTION LOCK:\nGenerate the final image in 16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), landscape 16:9 composition.",
+      "covers": [
+        "/covers/x-2107123657734545700.jpg"
+      ]
+    },
+    {
+      "no": "597",
+      "id": "x-2107021472493666555",
+      "title": "拙趣双角色打架插画",
+      "kicker": "角色互动",
+      "excerpt": "替换两个角色，让他们在干刷、平涂和儿童画般的夸张动作中交手。",
+      "style": "拙趣干刷平涂",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept",
+        "opinion"
+      ],
+      "tags": [
+        "角色互动",
+        "干刷",
+        "打架",
+        "拙趣",
+        "儿童画"
+      ],
+      "medium": "image",
+      "slots": [
+        "角色A",
+        "角色B"
+      ],
+      "creator": {
+        "id": "VoxcatAI",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2107021472493666555",
+      "model": "GPT Image 2",
+      "date": "2026-10-05",
+      "notes": "四张配图为不同角色组合的原帖示例。完整保留原作者 voxcat 署名要求，生成模型备注单独记录。",
+      "prompt": "【角色A】与【角色B】，neo-naïve painting × outsider art × primitive figurative painting × 儿童画式角色转译。\n\n两个角色由少量不规则几何色块组成，只保留各自最强的身份识别：主色、头部轮廓、发型或耳朵、眼睛、服装代表性色块、标志配饰。\n\n两人正在激烈但滑稽地打架，身体紧贴、互相纠缠。根据角色随机设计抓脸、推头、抱住、拉扯、拍打、压住对方或互相扑倒的动作；手部接触明确，四肢交错，重心失衡，一眼就能读懂打架关系。\n\n幼稚而不准确的人体结构：细长躯干、僵硬直线四肢、失准比例、歪斜头部、夸张手脚、错误透视。五官压缩为少量粗糙色块，表情愤怒、震惊、龇牙、尖叫或委屈，具有荒诞喜剧感。\n\n粗糙不透明颜料平涂，dry brush 干刷痕迹，毛边、不均匀填色、手绘抖动轮廓、局部露底；以平面色块直接表现身体与服装。\n\n暖灰白或米白纸张背景，大面积空白。两个角色位于中央，互相纠缠形成一个紧凑的动作团块，画面集中表现角色之间的关系。\n\n像未经训练的人凭记忆快速画下的打架瞬间：原始、笨拙、直接、荒诞、可爱。\n\n竖版，右下角极小“voxcat”签名。",
+      "covers": [
+        "/covers/x-2107021472493666555.jpg",
+        "/covers/x-2107021472493666555-2.jpg",
+        "/covers/x-2107021472493666555-3.jpg",
+        "/covers/x-2107021472493666555-4.jpg"
+      ]
+    },
+    {
+      "no": "598",
+      "id": "x-2106250548844634161",
+      "title": "珊瑚粉刺绣沙发人像",
+      "kicker": "暖光刺绣",
+      "excerpt": "用珊瑚粉传统服饰、细致刺绣与沙发上的暖光完成生活人像。",
+      "style": "暖光刺绣传统服饰摄影",
+      "category": "identity",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "tags": [
+        "巴基斯坦服饰",
+        "刺绣",
+        "沙发",
+        "暖光",
+        "人像"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "ZarnishNael",
+        "name": "Zarnish",
+        "handle": "ZarnishNael",
+        "url": "https://x.com/ZarnishNael"
+      },
+      "sourceUrl": "https://x.com/ZarnishNael/status/2106250548844634161",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "Photorealistic elegant portrait of a young South Asian woman seated gracefully on a modern beige sofa in a warm, luxurious indoor setting. She is wearing a beautiful coral-pink Pakistani embroidered shalwar kameez with intricate silver and gold floral embroidery, matching trousers, and a delicate sheer organza dupatta draped naturally over her shoulders and arms. She has short, softly styled dark-brown hair, elegant traditional jhumka earrings, subtle makeup, soft pink lips, defined eyes, and a gentle natural smile. One hand is lightly touching her hair near the ear while the other rests naturally on her lap. Graceful seated pose with crossed legs and elegant heels. Warm ambient lighting, cozy blurred background, soft lamp glow, shallow depth of field, creamy bokeh, luxury fashion photography, realistic skin texture, natural facial details, detailed embroidery and fabric texture, cinematic composition, 85mm portrait lens, soft warm tones, ultra-realistic, high detail, no artificial/plastic skin, no text, no watermark.",
+      "covers": [
+        "/covers/x-2106250548844634161.jpg"
+      ]
+    },
+    {
+      "no": "599",
+      "id": "x-2106222709424419238",
+      "title": "轮滑公园系鞋带",
+      "kicker": "晴日运动",
+      "excerpt": "从系紧轮滑鞋的动作切入，记录晴日公园中的运动生活片刻。",
+      "style": "晴日运动生活摄影",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "tags": [
+        "轮滑",
+        "公园",
+        "运动",
+        "系鞋带",
+        "日光"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "CyberTotal2026",
+        "name": "Prompt アトリエ｜AI画像プロンプト",
+        "handle": "CyberTotal2026",
+        "url": "https://x.com/CyberTotal2026"
+      },
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2106222709424419238",
+      "model": "GPT Image 2",
+      "date": "2026-10-03",
+      "notes": "提示词逐字摘自作者公开原帖，配图为原帖示例；本次入库未重新生成。",
+      "prompt": "主題：\nスケート靴の紐直し\n\n主体：\n画面中央、スケートパークで白いローラースケートの紐を直す女性が主役。\n\n人物・表情：\n小さな卵形の顔、濃茶の大きな瞳、細い眉、整った鼻、艶のある淡桃色の唇。表情は、顔を正面から少し左へ向け、視線をカメラへ合わせて唇を少し開いた元気な表情。濃茶の長いウェーブ髪を左肩へ流し、薄い前髪を残す。\n\n服装・ポーズ：\n生成りのリブ生地、紺縁の広い胸元と太い肩紐を持つスポーツブラトップ、同素材のハイウエストショートパンツ、黒い膝丈ソックス、黒紐の白いローラースケート。左脚を低い黒レールへ載せて膝を曲げ、両手で左靴の紐を持ち、右脚で立つ。\n\n背景・光：\n画面左から画面右の背景に、前景に黒い金属レール、背景に灰色のスケートボウル、木、緑葉、青空。画面左上の硬い直射日光が顔、肩、脚を照らす。\n\n構図・カメラ：\n2:3の縦構図、膝より少し低い正面カメラで頭頂から両スケート靴までの全身を収めるポートレート。人物を中央へ大きく配置し、画面高の大部分を占める。レールと靴を下端へ収め、顔と左靴の両手にピント、背景は軽くぼかす。\n\n質感・スタイル：\nフォトリアルな実写写真。自然な肌と髪、衣装の素材、周囲の小物を高精細にし、生成り、紺、白、青のスポーティな昼色を保つ。\n\nネガティブ：\n靴紐を直す姿勢変更；ローラースケート省略",
+      "covers": [
+        "/covers/x-2106222709424419238.jpg"
+      ]
     }
   ],
   "taxonomyVersion": 1

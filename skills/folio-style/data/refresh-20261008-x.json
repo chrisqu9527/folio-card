@@ -1,0 +1,758 @@
+{
+  "retrievedOn": "2026-10-08",
+  "baselineCount": 587,
+  "baselineCommit": "3e6c1ccbda10fabbc184a363169622110293eb75",
+  "baselineSha256": "9164c465002eefc89eaff77bc4ee0eca93da387f9e8b768a7daa36376b3f8d77",
+  "scope": "12 newly catalogued image prompts from distinct public X originals. Published 2026-10-03 through 2026-10-07; new to this library, not all published today.",
+  "access": {
+    "provider": "https://api.fxtwitter.com",
+    "method": "Unauthenticated public HTTP requests with User-Agent only. No user X cookies, browser profile, session or OAuth credentials."
+  },
+  "discovery": {
+    "uniqueNewCandidates": 182,
+    "originalPostsAttempted": 45,
+    "originalPostsRetrieved": 45,
+    "selected": 12
+  },
+  "indexes": [
+    {
+      "name": "nano",
+      "repo": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "commit": "4e69c6b500477b43c267ddef5bda9ef5d14c7926",
+      "contentSha256": "4c225301b2d7bc81e7000938ae2cf9e5fb5a8f00f930f200806397189a5ca373"
+    },
+    {
+      "name": "gpt",
+      "repo": "YouMind-OpenLab/awesome-gpt-image-2",
+      "commit": "3cc3f5968e015e857ccfedf9ddbad64263853ef3",
+      "contentSha256": "0a0cc1e24f9dd46483e8586e27ea6f4841391af553c39a90bb4e14630c7bdf36"
+    }
+  ],
+  "exclusions": [
+    {
+      "tweetId": "2107496220927365603",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107434638423871930",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107403684074356901",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107381522105786412",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107373735057752349",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107307356577271823",
+      "reason": "Author explicitly prohibits redistribution."
+    },
+    {
+      "tweetId": "2107266827449455039",
+      "reason": "Workflow description rather than a complete image prompt."
+    },
+    {
+      "tweetId": "2107130027259076687",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107111265827225704",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107106858385248517",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2107005329494122628",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106929071149998530",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106745724545446089",
+      "reason": "Exact prompt already present in the baseline."
+    },
+    {
+      "tweetId": "2106653189215035444",
+      "reason": "Prompt excerpt ends in ellipsis."
+    },
+    {
+      "tweetId": "2106643482119131417",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106582581173244268",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106580064720884047",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106566389188501594",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106553388418625908",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106385421408333902",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106359109826052558",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106279081247732063",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106251146767511802",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106220192699211793",
+      "reason": "Author explicitly prohibits redistribution."
+    },
+    {
+      "tweetId": "2106219851383799820",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106202442673373411",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106100763755749746",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2106035257778876592",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2105998118160629884",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2105987173438849305",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2105896803975462957",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2105879225593122831",
+      "reason": "No complete reusable prompt selected from the original; showcase or out-of-scope material."
+    },
+    {
+      "tweetId": "2105857805496488221",
+      "reason": "Author explicitly prohibits redistribution."
+    }
+  ],
+  "similarity": {
+    "method": "Normalized exact prompt and source URL exclusion; four-word shingle Jaccard checked against baseline and previously selected records.",
+    "maximumAllowed": 0.85,
+    "results": [
+      {
+        "tweetId": "2107790561126010965",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2107715555411247528",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2107663393658196324",
+        "score": 0.016304347826086956,
+        "no": "459"
+      },
+      {
+        "tweetId": "2107617855906975865",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2107599888636862834",
+        "score": 0.004098360655737705,
+        "no": "540"
+      },
+      {
+        "tweetId": "2107330963487515016",
+        "score": 0.08968609865470852,
+        "no": "498"
+      },
+      {
+        "tweetId": "2107290005404262786",
+        "score": 0.007936507936507936,
+        "no": "460"
+      },
+      {
+        "tweetId": "2107283736945717306",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2107123657734545700",
+        "score": 0.0023942537909018356,
+        "no": "490"
+      },
+      {
+        "tweetId": "2107021472493666555",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2106250548844634161",
+        "score": 0.030303030303030304,
+        "no": "489"
+      },
+      {
+        "tweetId": "2106222709424419238",
+        "score": 0,
+        "no": null
+      }
+    ]
+  },
+  "additions": [
+    {
+      "no": "588",
+      "id": "x-2107790561126010965",
+      "sourceUrl": "https://x.com/EmilioSchwaiger/status/2107790561126010965",
+      "authorHandle": "EmilioSchwaiger",
+      "tweetId": "2107790561126010965",
+      "authorId": "1952148217811898368",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:27:57.275045+00:00",
+      "publishedAt": "2026-10-07T11:10:05.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Prompt: A tiny wooden rowing boat on a perfectly still misty lake at blue hour, muted grey-green tones, the far shore barely visible, small serif caption: \"stillness is a place\"\n\nNano Banana 2.1",
+      "start": 8,
+      "length": 169,
+      "sha256": "5ef797774d1fe723f9508ed7177877eea8c5b76587d4f09847a7373f11cf6146",
+      "extraction": "Original prompt marker, trailing model credit excluded",
+      "scenarios": [
+        "feeling",
+        "memory",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107790561126010965",
+          "index": 0,
+          "path": "/covers/x-2107790561126010965.jpg",
+          "url": "https://pbs.twimg.com/media/HUBgWGbWgAAbXUJ.jpg?format=jpg&name=large",
+          "sha256": "0e17f845d55ce7377fcef28f2e21b16c9f11e7b01c4421930232dd86c4367aab",
+          "size": 167814,
+          "width": 2048,
+          "height": 1143
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "21: Social Media Post - Misty Lake Rowboat with Text Caption"
+    },
+    {
+      "no": "589",
+      "id": "x-2107715555411247528",
+      "sourceUrl": "https://x.com/Gertywood5/status/2107715555411247528",
+      "authorHandle": "Gertywood5",
+      "tweetId": "2107715555411247528",
+      "authorId": "2016383584567951360",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:27:57.323148+00:00",
+      "publishedAt": "2026-10-07T06:12:02.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana 2.1 I think is a massive upgrade. same prompt for Nano banana pro, Seedance pro, Image 2.5 sunburst, and nano banana 2.1. Which is which do you think? second image was the grade reference. \nprompt: still from a hollywood scifi movie. over the shoulder of the man in image 1. he's on frame left in the foreground. woman from image 2 is on frame right in focus. setting is a different angle of image 3. use image 4 as the influence for the color grade, the lighting, the style, and the film stock type.",
+      "start": 210,
+      "length": 302,
+      "sha256": "69ac3ab23b891fa85898b58094fca5e3233773d43741a04e28970733b113aff2",
+      "extraction": "Original prompt marker through complete ending",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107715555411247528",
+          "index": 0,
+          "path": "/covers/x-2107715555411247528.jpg",
+          "url": "https://pbs.twimg.com/media/HUAbl0la0AA74FE.png?format=jpg&name=large",
+          "sha256": "cb452b0c148bb99f3468be1a21729c78616fa9a18fb230a9a13e9f37593b0881",
+          "size": 46112,
+          "width": 599,
+          "height": 335
+        },
+        {
+          "tweetId": "2107715555411247528",
+          "index": 1,
+          "path": "/covers/x-2107715555411247528-2.jpg",
+          "url": "https://pbs.twimg.com/media/HUAb_vhaUAAXXz3.jpg?format=jpg&name=large",
+          "sha256": "3280978392307bbd897ad492c7a8073f5f6c5629d798d68480674cb8674aee7e",
+          "size": 176330,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "49: YouTube Thumbnail - Sci-Fi Movie Still with Reference Images"
+    },
+    {
+      "no": "590",
+      "id": "x-2107663393658196324",
+      "sourceUrl": "https://x.com/LettyVesper/status/2107663393658196324",
+      "authorHandle": "LettyVesper",
+      "tweetId": "2107663393658196324",
+      "authorId": "1748124784582434816",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:27:57.307588+00:00",
+      "publishedAt": "2026-10-07T02:44:46.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with Gpt image 2 on Chatgpt\n\nPrompt.\n\nA highly detailed cinematic fantasy portrait of a beautiful young woman standing on an elegant flower-covered terrace at twilight. She has long, naturally wavy dark brown hair, soft glowing skin, expressive hazel-brown eyes, delicate facial features, subtle rosy cheeks, and glossy natural lips. She is wearing a sophisticated flowing black dress with intricate silver floral embroidery, sheer sleeves, elegant dangling earrings, and a delicate hair ornament. She stands in a graceful three-quarter pose, body turned slightly away while looking back over her shoulder directly at the camera, one hand gently holding her dress and the other relaxed by her side.\nBehind her is a breathtaking moonlit lake with a distant magical city, glowing domes and towers, mountains, and reflections across the water. Warm vintage lanterns surround the terrace, with white flowers and green vines framing the scene. A crescent moon and soft purple-blue clouds fill the sky. Romantic warm-and-cool cinematic lighting, realistic skin texture, detailed hair strands, natural proportions, shallow depth of field, soft bokeh, dreamy atmosphere, photorealistic fantasy realism, professional photography, 85mm lens, eye-level camera, full-body composition, vertical 9:16.",
+      "start": 46,
+      "length": 1249,
+      "sha256": "93672f1e96e5f91f0df10bfb3810e8542adb5b88781183c6c0a24acc995e3dbd",
+      "extraction": "Exact original text matching discovery index",
+      "scenarios": [
+        "concept",
+        "identity"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107663393658196324",
+          "index": 0,
+          "path": "/covers/x-2107663393658196324.jpg",
+          "url": "https://pbs.twimg.com/media/HT_srWpWMAIVfHF.jpg?format=jpg&name=large",
+          "sha256": "38efbb58f1b847a31c112e97f3d1bc6f50f98f95badbcaace0f4522ae960bd12",
+          "size": 301817,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "1: Profile / Avatar - Cinematic Fantasy Portrait Prompt"
+    },
+    {
+      "no": "591",
+      "id": "x-2107617855906975865",
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2107617855906975865",
+      "authorHandle": "SSSS_CRYPTOMAN",
+      "tweetId": "2107617855906975865",
+      "authorId": "1391788515302592524",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:27:58.273356+00:00",
+      "publishedAt": "2026-10-06T23:43:49.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana 2.1が出たらしいのでお試し！\nせっかくなので他モデルとの比較してみました\n\n✅️ 全てHiggsfield で2K生成\n1枚目：Nano Banana 2.1\n2枚目：Nano Banana Pro\n3枚目：GPT Image 2.5 Sunburst\n4枚目：Seedream 5.0 Pro\n\nAIのセンスが出やすいように簡易的なプロンプトでやりましたが、アニメ絵の構図センスはあんまり変わってないかも…？\n\n👇️プロンプト\n魔法少女アニメのキービジュアルを作成。タイトルロゴまで含めた魅力的なポスターデザインとして仕上げる。",
+      "start": 229,
+      "length": 50,
+      "sha256": "73846a6057ce41bebcb633195ebe274c1762b278dd0a9f666958f89d0ea2137c",
+      "extraction": "Original Japanese prompt marker",
+      "scenarios": [
+        "concept",
+        "announcement",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107617855906975865",
+          "index": 0,
+          "path": "/covers/x-2107617855906975865.jpg",
+          "url": "https://pbs.twimg.com/media/HT_DQXGbIAAI0IB.jpg?format=jpg&name=large",
+          "sha256": "2bbd33aa4df0af6b820866be228e6624bd83fa841275b66b9eee09a58ce7a2ad",
+          "size": 506907,
+          "width": 1080,
+          "height": 1610
+        },
+        {
+          "tweetId": "2107617855906975865",
+          "index": 1,
+          "path": "/covers/x-2107617855906975865-2.jpg",
+          "url": "https://pbs.twimg.com/media/HT_DQrMa0AEBZ60.jpg?format=jpg&name=large",
+          "sha256": "a35def71d2615a8dd09019c3c84a7ebc532b2fdbdb05555b5c729b97eb986cb9",
+          "size": 545542,
+          "width": 1080,
+          "height": 1610
+        },
+        {
+          "tweetId": "2107617855906975865",
+          "index": 2,
+          "path": "/covers/x-2107617855906975865-3.jpg",
+          "url": "https://pbs.twimg.com/media/HT_DQ8rbEAABylv.jpg?format=jpg&name=large",
+          "sha256": "783e89758682a49ee3502e3f8f536b88648109b75b3d36751f9836048b00c096",
+          "size": 408503,
+          "width": 1080,
+          "height": 1626
+        },
+        {
+          "tweetId": "2107617855906975865",
+          "index": 3,
+          "path": "/covers/x-2107617855906975865-4.jpg",
+          "url": "https://pbs.twimg.com/media/HT_DRPga4AA1HZi.jpg?format=jpg&name=large",
+          "sha256": "9b2da553c33a26498db49925906b6682e7d7b8822c2ee3778787c4dafb7ca199",
+          "size": 417124,
+          "width": 1080,
+          "height": 1620
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "69: Comic / Storyboard - Magic Girl Anime Key Visual Prompt for Nano Banana Pro"
+    },
+    {
+      "no": "592",
+      "id": "x-2107599888636862834",
+      "sourceUrl": "https://x.com/RAYSITI/status/2107599888636862834",
+      "authorHandle": "RAYSITI",
+      "tweetId": "2107599888636862834",
+      "authorId": "223065701",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:27:58.319328+00:00",
+      "publishedAt": "2026-10-06T22:32:25.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "This was fun 💛\n\nDone using Nano Banana 🍌 2.1\nJust loved the prompt adherence of !\n\nPrompt:\nA surreal doll with 5 heads, 10 ears, 2 arms and 2 legs seated on a fashionable high-chair. The central face is a realistic asian female face, the left face is wearing a Carnival mask, the right face is green like Hulk, The far right face is that of a dog, while the far-left face is that of a cat. The body is entirely made of glossy, translucent.multi-colored candy braided and twisted together, with a smooth confectionery sheen. Left arm is made of octopus tentacles. The right leg is made up of tree-roots.  She is seated on a tall high-chair for a professional high-fashion studio photoshoot, slouching naturally into an unusual, relaxed editorial pose. The five heads emerge cohesively from the same single body, creating an intentional surreal couture silhouette rather than separate figures.  Clean, plain studio background. Light pink dominates the candy-plastic body, with subtle muted reddish specular highlights catching the glossy surfaces. Soft, controlled professional studio lighting, muted pastel color palette, sophisticated fashion-editorial aesthetic, realistic facial skin contrasted against the artificial candy-plastic body, refined material detail, polished photographic finish.",
+      "start": 93,
+      "length": 1203,
+      "sha256": "955fd908894af4bc570fcf831ae473575682b528a95855c688f2c2c439740407",
+      "extraction": "Exact original text matching discovery index",
+      "scenarios": [
+        "concept",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107599888636862834",
+          "index": 0,
+          "path": "/covers/x-2107599888636862834.jpg",
+          "url": "https://pbs.twimg.com/media/HT-jLSzbEAAsrY3.jpg?format=jpg&name=large",
+          "sha256": "01831b54978f20568c83c3a626f563c65ad2808cdf15e7802c8b086e4fc9d515",
+          "size": 92500,
+          "width": 1376,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "87: Product Marketing - Surreal Candy Doll Character Prompt"
+    },
+    {
+      "no": "593",
+      "id": "x-2107330963487515016",
+      "sourceUrl": "https://x.com/MohdAdnanA86218/status/2107330963487515016",
+      "authorHandle": "MohdAdnanA86218",
+      "tweetId": "2107330963487515016",
+      "authorId": "1800428378656280576",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:00.093510+00:00",
+      "publishedAt": "2026-10-06T04:43:48.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Image created on Gpt 2\n\nPrompt:\n\nUltra-realistic, cinematic 8K HDR, high-fashion editorial photograph of a strikingly handsome young man in his early 20s, with thick naturally wavy jet-black hair, strong masculine eyebrows, intense deep dark-brown eyes, a sharply defined sculpted jawline, subtle natural stubble, and realistic skin texture with visible pores.\n\nCONCEPT & COMPOSITION:\nA sophisticated candid travel portrait of the young man sitting comfortably beside an airplane window, wearing sleek premium over-ear headphones. He gazes peacefully out of the window with a thoughtful, relaxed expression, completely absorbed in the journey. His face is softly illuminated by natural daylight streaming through the aircraft window.\n\nOutside the window, breathtaking layers of fluffy white clouds stretch endlessly beneath the airplane, with a soft blue sky fading toward the horizon. Subtle reflections of the clouds and his face appear on the window glass, creating an authentic cinematic atmosphere.\n\nHe wears a minimalist black jacket over a clean white T-shirt, giving him a modern, effortless luxury-travel aesthetic. Premium airplane interior, realistic leather seat, detailed window frame, shallow depth of field, natural skin tones, subtle film grain, soft atmospheric lighting, realistic reflections, cinematic color grading, 85mm lens, f/1.8, ultra-detailed facial features, photorealistic, authentic candid photography, no artificial-looking face, no text, no watermark.",
+      "start": 33,
+      "length": 1450,
+      "sha256": "b3aa8a0eb3a524ec7f07d9d1b1048ee7cc9a655da4a4777e0eb99ec45754ad9e",
+      "extraction": "Exact original text matching discovery index",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107330963487515016",
+          "index": 0,
+          "path": "/covers/x-2107330963487515016.jpg",
+          "url": "https://pbs.twimg.com/media/HT6-VhMbMAAIaQF.jpg?format=jpg&name=large",
+          "sha256": "853f0ffc26b77950604454ffcf46485fb148535c466e02652617b7f1570e7098",
+          "size": 211146,
+          "width": 1095,
+          "height": 1437
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "22: Social Media Post - Cinematic Travel Portrait Prompt"
+    },
+    {
+      "no": "594",
+      "id": "x-2107290005404262786",
+      "sourceUrl": "https://x.com/AizaAi12/status/2107290005404262786",
+      "authorHandle": "AizaAi12",
+      "tweetId": "2107290005404262786",
+      "authorId": "2016763242845229056",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:00.926049+00:00",
+      "publishedAt": "2026-10-06T02:01:03.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Create with GPT IMAGE 2\n\nPrompt:\nUse the person in the reference image as the main character, suitable for both male and female subjects. Preserve the exact facial identity, facial structure, age, skin tone, and natural expression. Do not change the person’s identity or create an artificial/plastic-looking face.\n\nCreate a 4:5 vertical street-editorial photograph set in a stylish urban café alley with a large black brick wall. On the wall, create a huge black-and-white realistic mural depicting the same person from the reference image, holding a metallic coffee pot and pouring coffee downward.\n\nThe real person stands directly below the mural, holding a coffee cup positioned perfectly under the stream of coffee coming from the mural, creating a fun, artistic, interactive, and viral visual effect.\n\nFor a female subject:\nWear an oversized white shirt with a relaxed, slightly loose fit, youthful and modern styling, naturally tucked in, paired with jeans or dark-colored trousers and clean sneakers. Avoid a stiff corporate look or tight-fitting clothing.\n\nFor a male subject:\nUse a modern urban-casual outfit that looks youthful, clean, stylish, and contemporary.\n\nThe mural should have a realistic street-art aesthetic, featuring black and white tones with bold orange accents, expressive brush strokes, paint drips, and short graffiti typography such as “BỪNG NĂNG LƯỢNG” or “CÀ PHÊ MỖI NGÀY.”\n\nUse neutral daylight with natural skin tones and no excessive yellow color cast. Camera angle should be slightly low and editorial, showing the subject full-body with a relaxed, natural pose. Do not use a chin-on-hand pose.\n\nUltra-photorealistic, cinematic depth of field, realistic hands, accurate coffee stream, natural body proportions, authentic skin texture, highly detailed, 8K quality.\n\nDo not copy the exact composition of the reference/sample image. Keep only the core concept of a real person interacting with a giant mural while creating a fresh, original, visually striking composition.",
+      "start": 33,
+      "length": 1971,
+      "sha256": "cb2cb362f7f652024ee0ca01c246bb730f3efc5c1f2143b3aa8acb558c6166fe",
+      "extraction": "Exact original text matching discovery index",
+      "scenarios": [
+        "promotion",
+        "identity",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107290005404262786",
+          "index": 0,
+          "path": "/covers/x-2107290005404262786.jpg",
+          "url": "https://pbs.twimg.com/media/HT6ZFOYaUAATugY.jpg?format=jpg&name=large",
+          "sha256": "ae25e052a0115f3b76cf94960714ee6784e48443234712a9026a551f7576f545",
+          "size": 416635,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "23: Social Media Post - Interactive Mural Coffee Photo"
+    },
+    {
+      "no": "595",
+      "id": "x-2107283736945717306",
+      "sourceUrl": "https://x.com/jigu10/status/2107283736945717306",
+      "authorHandle": "jigu10",
+      "tweetId": "2107283736945717306",
+      "authorId": "79036706",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:00.989684+00:00",
+      "publishedAt": "2026-10-06T01:36:08.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Create a golden goddess image in #Chatgpt  #Google #Gemini Nano banana pro \n#prompt\nGenerate image of 3d golden text \"महालक्ष्मी\" and golden goddess Mahalakshmi is sitting and adjusted over that text. Black background \n1:1 ratio 8k resolution.",
+      "start": 84,
+      "length": 159,
+      "sha256": "a9793f5ca9391d235f2616382c73a2cf9145a10c70ba05b8efa06073ef3231fe",
+      "extraction": "Original hashtag prompt marker",
+      "scenarios": [
+        "feeling",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107283736945717306",
+          "index": 3,
+          "path": "/covers/x-2107283736945717306-4.jpg",
+          "url": "https://pbs.twimg.com/media/HT6TYvoa0AA9SsR.jpg?format=jpg&name=large",
+          "sha256": "c7b9e7b861c6787c26b2d0ab673fed6e24aff3330ab24bfe4e05309d9dbaecdb",
+          "size": 210235,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2107283736945717306",
+          "index": 0,
+          "path": "/covers/x-2107283736945717306.jpg",
+          "url": "https://pbs.twimg.com/media/HT6TWwlbgAAY-zQ.jpg?format=jpg&name=large",
+          "sha256": "c9f0ccab156e8c6d2bf4ee30a3f75a4e893782b62743303b367329228c4ad9fb",
+          "size": 200415,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2107283736945717306",
+          "index": 1,
+          "path": "/covers/x-2107283736945717306-2.jpg",
+          "url": "https://pbs.twimg.com/media/HT6TXgSb0AAizLP.jpg?format=jpg&name=large",
+          "sha256": "174a7be9f96ba48d2e4710fff4925e7a9eb5ece909a8d1a6144a473b2191f49f",
+          "size": 197172,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "tweetId": "2107283736945717306",
+          "index": 2,
+          "path": "/covers/x-2107283736945717306-3.jpg",
+          "url": "https://pbs.twimg.com/media/HT6TYK-bMAA5Qks.jpg?format=jpg&name=large",
+          "sha256": "67e71ef5d95c2d6e75ccc633818d5c3e579fc1bd47363b8871b0d37f3c42c7cd",
+          "size": 184813,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "nano",
+      "discoveryTitle": "22: Social Media Post - Golden Goddess Mahalakshmi Image"
+    },
+    {
+      "no": "596",
+      "id": "x-2107123657734545700",
+      "sourceUrl": "https://x.com/meAsifAi/status/2107123657734545700",
+      "authorHandle": "meAsifAi",
+      "tweetId": "2107123657734545700",
+      "authorId": "1948384415987421185",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:01.938314+00:00",
+      "publishedAt": "2026-10-05T15:00:03.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with @ChatGPT \nPrompt :\nCreate a premium professional character reference sheet using the uploaded REFERENCE IMAGE as the ONLY identity reference for the MAIN SUBJECT.\n\nIMPORTANT:\nThe final image MUST contain EXACTLY 10 frames/panels.\nDo NOT add extra frames.\nDo NOT remove any frames.\nDo NOT change the panel arrangement.\n\nUse the following EXACT 2-ROW, 10-FRAME layout:\n\nTOP ROW = 5 FACE / HEAD-AND-SHOULERS VIEWS\nBOTTOM ROW = 5 FULL-BODY VIEWS\n\nThe composition, number of frames, pose sequence, and camera angles must remain exactly as specified below.\n\n==================================================\nREFERENCE & IDENTITY LOCK\n==================================================\n\nUse the uploaded reference image as the single source of truth for the MAIN SUBJECT'S identity.\n\nPreserve the person's exact:\n- Facial identity\n- Facial structure\n- Skin tone\n- Eye shape and natural eye color\n- Eyebrows\n- Nose\n- Lips\n- Jawline\n- Cheek structure\n- Hairstyle\n- Hairline\n- Hair color\n- Hair texture\n- Hair length\n- Age appearance\n- Natural facial features\n- Body proportions\n- Physique\n- Overall recognizable appearance\n\nThe reference may be MALE or FEMALE.\n\nIf the reference is male, keep the subject male.\nIf the reference is female, keep the subject female.\n\nDo NOT change the person's identity.\nDo NOT create a different-looking version of the person.\nDo NOT beautify or modify facial structure.\n\n==================================================\nEXACT FINAL LAYOUT — 10 FRAMES\n==================================================\n\nROW 1 — FACE REFERENCE\nExactly 5 frames:\n\nFRAME 1:\nFRONT VIEW\n- Straight-on face\n- Head facing directly toward camera\n- Neutral expression\n- Head and shoulders visible\n\nFRAME 2:\n3/4 LEFT VIEW\n- Head turned approximately 45 degrees to the subject's LEFT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 3:\nLEFT PROFILE\n- Exact left-side profile\n- Approximately 90-degree rotation\n- Nose, lips, chin, jawline and hair silhouette clearly visible\n\nFRAME 4:\n3/4 RIGHT VIEW\n- Head turned approximately 45 degrees to the subject's RIGHT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 5:\nRIGHT PROFILE\n- Exact right-side profile\n- Approximately 90-degree rotation\n- Complete facial silhouette clearly visible\n\nTOP ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | RIGHT PROFILE\n\n==================================================\nROW 2 — FULL BODY REFERENCE\n==================================================\n\nExactly 5 frames:\n\nFRAME 6:\nFRONT FULL-BODY VIEW\n- Subject standing naturally\n- Facing directly toward camera\n- Entire body visible from head to feet\n- Arms naturally relaxed beside the body\n- Feet visible\n\nFRAME 7:\n3/4 LEFT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's LEFT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 8:\nLEFT PROFILE FULL-BODY VIEW\n- Exact left-side profile\n- Body rotated approximately 90 degrees\n- Entire body visible from head to feet\n\nFRAME 9:\n3/4 RIGHT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's RIGHT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 10:\nBACK FULL-BODY VIEW\n- Subject facing completely away from camera\n- Full back visible\n- Entire body visible from head to feet\n- Hair visible from the back\n- Natural standing posture\n\nBOTTOM ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | BACK\n\n==================================================\nCRITICAL CONSISTENCY\n==================================================\n\nALL 10 FRAMES MUST SHOW EXACTLY THE SAME PERSON.\n\nMaintain identical:\n- Face\n- Hair\n- Hairline\n- Hair color\n- Facial proportions\n- Body proportions\n- Height\n- Physique\n- Skin tone\n- Age appearance\n- Clothing\n- Accessories\n\nThe person must not look like 10 different generations.\n\nThe facial identity must remain consistent between every frame.\n\nThe body proportions must remain consistent between every full-body frame.\n\n==================================================\nCLOTHING\n==================================================\n\nUse one simple, clean, fitted outfit suitable for a professional character/model reference sheet.\n\nThe EXACT SAME outfit must appear in all 10 frames.\n\nDo not change clothing between panels.\n\nDo not change hairstyle between panels.\n\nDo not change accessories between panels.\n\nIf the uploaded reference has an important recognizable hairstyle or appearance, preserve it.\n\n==================================================\nBACKGROUND & PRESENTATION\n==================================================\n\nClean professional light-gray/white studio background.\n\nMinimal environment.\n\nNo scenery.\n\nNo props.\n\nNo dramatic background.\n\nNo unnecessary objects.\n\nAll 10 frames should appear as one professionally photographed character reference sheet.\n\nUse consistent studio lighting across every frame.\n\nSoft, neutral, evenly distributed lighting.\n\nMinimal shadows.\n\n==================================================\nCAMERA CONSISTENCY\n==================================================\n\nUse consistent professional studio photography.\n\nFACE FRAMES:\nHead-and-shoulders framing.\n\nFULL-BODY FRAMES:\nHead-to-feet framing with the entire body completely visible.\n\nMaintain consistent camera height, focal length, lighting, and distance.\n\nAvoid wide-angle distortion.\n\nKeep facial proportions natural and accurate.\n\n==================================================\nPANEL DESIGN\n==================================================\n\nCreate a clean rectangular 2-row grid.\n\nExactly 5 equal-width panels on the TOP ROW.\n\nExactly 5 equal-width panels on the BOTTOM ROW.\n\nAll panels should have matching dimensions.\n\nClean spacing between panels.\n\nProfessional production-model-sheet appearance.\n\nAdd small, clean labels beneath or within each panel:\n\nTOP:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nRIGHT PROFILE\n\nBOTTOM:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nBACK\n\nLabels must be small, clean, professional, and unobtrusive.\n\n==================================================\nPOSE LOCK\n==================================================\n\nDo NOT invent additional poses.\n\nUse ONLY these specified views and poses.\n\nTOP ROW:\n1. Front\n2. 3/4 Left\n3. Left Profile\n4. 3/4 Right\n5. Right Profile\n\nBOTTOM ROW:\n6. Front\n7. 3/4 Left\n8. Left Profile\n9. 3/4 Right\n10. Back\n\nThe pose sequence must remain exactly the same.\n\n==================================================\nPROFESSIONAL USE\n==================================================\n\nThe resulting sheet should function as a professional character-consistency reference for:\n\nAI image generation\nAI video generation\nAnimation\nFilm production\nStoryboarding\nCharacter design\nFashion visualization\n3D character development\n\nEvery angle should clearly communicate the same person's identity and physical appearance.\n\n==================================================\nNEGATIVE CONSTRAINTS\n==================================================\n\nEXACTLY 10 FRAMES ONLY.\n\nNo 8 frames.\nNo 9 frames.\nNo 11 frames.\nNo extra portraits.\nNo extra poses.\nNo additional panels.\n\nNo identity change.\nNo different person.\nNo face variation.\nNo face blending.\nNo gender change.\nNo age change.\nNo hairstyle change.\nNo hair color change.\nNo body-shape change.\nNo inconsistent clothing.\nNo inconsistent proportions.\nNo duplicated panels.\nNo missing panels.\nNo distorted profile.\nNo distorted hands.\nNo extra fingers.\nNo extra limbs.\nNo cropped feet in full-body frames.\nNo cropped head in face frames.\nNo extreme camera distortion.\nNo cartoon style.\nNo CGI appearance.\nNo plastic skin.\nNo text except the specified small view labels.\nNo watermark.\nNo logo.\n\nFINAL OUTPUT:\nA single clean professional 2-row × 5-column character reference sheet containing EXACTLY 10 consistent views of the same person.\n\nRESOLUTION LOCK:\nGenerate the final image in 16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), landscape 16:9 composition.",
+      "start": 32,
+      "length": 7893,
+      "sha256": "f4b0ca5d8a1917fe41f5f83cc664b6b5d26d82cfab6b5c901914417257149ac9",
+      "extraction": "Exact original text matching discovery index",
+      "scenarios": [
+        "concept",
+        "identity",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107123657734545700",
+          "index": 0,
+          "path": "/covers/x-2107123657734545700.jpg",
+          "url": "https://pbs.twimg.com/media/HT2IZybbgAAg0qD.jpg?format=jpg&name=large",
+          "sha256": "dfbd5ba258dec8e4f98631f0bac77e4b22c27a5194a2a0883d6101feb96d005a",
+          "size": 210266,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "116: Game Asset - GPT Image 2 Character Reference Sheet Prompt"
+    },
+    {
+      "no": "597",
+      "id": "x-2107021472493666555",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2107021472493666555",
+      "authorHandle": "VoxcatAI",
+      "tweetId": "2107021472493666555",
+      "authorId": "1133338656725504001",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:02.909073+00:00",
+      "publishedAt": "2026-10-05T08:14:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "这套提示词能把不同作品的角色转译成笨拙又好笑的打架小画，换成日漫、米哈游或恐怖游戏角色，辨识度和动作关系都能保留下来。\n\n关键是同时控制三个部分：用主色、头部轮廓和标志配饰保留身份；用抓脸、推头、拉扯等明确接触建立打架关系；再用失准比例、僵直四肢和粗糙平涂，让动作变得荒诞。干刷只是质感，形体简化与重心失衡才决定这套画风。\n\n提示词：\n\n【角色A】与【角色B】，neo-naïve painting × outsider art × primitive figurative painting × 儿童画式角色转译。\n\n两个角色由少量不规则几何色块组成，只保留各自最强的身份识别：主色、头部轮廓、发型或耳朵、眼睛、服装代表性色块、标志配饰。\n\n两人正在激烈但滑稽地打架，身体紧贴、互相纠缠。根据角色随机设计抓脸、推头、抱住、拉扯、拍打、压住对方或互相扑倒的动作；手部接触明确，四肢交错，重心失衡，一眼就能读懂打架关系。\n\n幼稚而不准确的人体结构：细长躯干、僵硬直线四肢、失准比例、歪斜头部、夸张手脚、错误透视。五官压缩为少量粗糙色块，表情愤怒、震惊、龇牙、尖叫或委屈，具有荒诞喜剧感。\n\n粗糙不透明颜料平涂，dry brush 干刷痕迹，毛边、不均匀填色、手绘抖动轮廓、局部露底；以平面色块直接表现身体与服装。\n\n暖灰白或米白纸张背景，大面积空白。两个角色位于中央，互相纠缠形成一个紧凑的动作团块，画面集中表现角色之间的关系。\n\n像未经训练的人凭记忆快速画下的打架瞬间：原始、笨拙、直接、荒诞、可爱。\n\n竖版，右下角极小“voxcat”签名。\n\n生成模型：GPT-image2。",
+      "start": 169,
+      "length": 502,
+      "sha256": "37484a87a7613cf11d1587bd087a474b51c33acb020f7f9042130daaedbcf3d6",
+      "extraction": "Original Chinese prompt marker, trailing model credit excluded",
+      "scenarios": [
+        "story",
+        "concept",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2107021472493666555",
+          "index": 0,
+          "path": "/covers/x-2107021472493666555.jpg",
+          "url": "https://pbs.twimg.com/media/HT2dLYNasAAenuW.jpg?format=jpg&name=large",
+          "sha256": "4c152437a6fcdbe187a2959d18f2c2fa031d28b5eb138003a375b9c2828a9e19",
+          "size": 354574,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2107021472493666555",
+          "index": 1,
+          "path": "/covers/x-2107021472493666555-2.jpg",
+          "url": "https://pbs.twimg.com/media/HT2dLbRaQAAd2WG.jpg?format=jpg&name=large",
+          "sha256": "99960c55c198393c4fd47c03b1e7acab4cac8a94cf206344835dd58d73320feb",
+          "size": 340526,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2107021472493666555",
+          "index": 2,
+          "path": "/covers/x-2107021472493666555-3.jpg",
+          "url": "https://pbs.twimg.com/media/HT2dLbRbwAApKQX.jpg?format=jpg&name=large",
+          "sha256": "5211ad25eb9ff1e57f75a3bdb348fdcf4f9717ece68acd8ee92f10712fdb31f8",
+          "size": 356628,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2107021472493666555",
+          "index": 3,
+          "path": "/covers/x-2107021472493666555-4.jpg",
+          "url": "https://pbs.twimg.com/media/HT2dLYNbkAEE1PS.jpg?format=jpg&name=large",
+          "sha256": "286227d555be69941161152585ab471fa582bbf8b9f00321dc99f91ecff52a13",
+          "size": 334388,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "66: Comic / Storyboard - Neo-Naive Style Character Fight Illustration Prompt"
+    },
+    {
+      "no": "598",
+      "id": "x-2106250548844634161",
+      "sourceUrl": "https://x.com/ZarnishNael/status/2106250548844634161",
+      "authorHandle": "ZarnishNael",
+      "tweetId": "2106250548844634161",
+      "authorId": "390003758",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:07.347220+00:00",
+      "publishedAt": "2026-10-03T05:10:37.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Created with GPT Image 2 on Chatgpt\n\nPrompt:\n\nPhotorealistic elegant portrait of a young South Asian woman seated gracefully on a modern beige sofa in a warm, luxurious indoor setting. She is wearing a beautiful coral-pink Pakistani embroidered shalwar kameez with intricate silver and gold floral embroidery, matching trousers, and a delicate sheer organza dupatta draped naturally over her shoulders and arms. She has short, softly styled dark-brown hair, elegant traditional jhumka earrings, subtle makeup, soft pink lips, defined eyes, and a gentle natural smile. One hand is lightly touching her hair near the ear while the other rests naturally on her lap. Graceful seated pose with crossed legs and elegant heels. Warm ambient lighting, cozy blurred background, soft lamp glow, shallow depth of field, creamy bokeh, luxury fashion photography, realistic skin texture, natural facial details, detailed embroidery and fabric texture, cinematic composition, 85mm portrait lens, soft warm tones, ultra-realistic, high detail, no artificial/plastic skin, no text, no watermark.",
+      "start": 46,
+      "length": 1033,
+      "sha256": "e3a11b3f5e8dd399a88751c310c87f66c1debcdac89d3430d5e69580d5c9545a",
+      "extraction": "Original prompt marker through complete ending",
+      "scenarios": [
+        "identity",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2106250548844634161",
+          "index": 0,
+          "path": "/covers/x-2106250548844634161.jpg",
+          "url": "https://pbs.twimg.com/media/HTrntMmaAAIlH03.jpg?format=jpg&name=large",
+          "sha256": "b57d1a31dc22e747d1d59c520505108b7f1e3cd134b499c6ba6e941f2f1850f5",
+          "size": 176272,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "16: Profile / Avatar - Photorealistic South Asian Woman Portrait"
+    },
+    {
+      "no": "599",
+      "id": "x-2106222709424419238",
+      "sourceUrl": "https://x.com/CyberTotal2026/status/2106222709424419238",
+      "authorHandle": "CyberTotal2026",
+      "tweetId": "2106222709424419238",
+      "authorId": "2022667839212228609",
+      "retrievedOn": "2026-10-08",
+      "retrievedAt": "2026-10-08T14:28:07.469815+00:00",
+      "publishedAt": "2026-10-03T03:20:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "ローラースケートの紐を結んだら、今日は街の風まで追い越せそう🛼☀️💙\n\n#AIart #AI写真 #ローラースケート\n\n【GPT Image2プロンプト】\n\n主題：\nスケート靴の紐直し\n\n主体：\n画面中央、スケートパークで白いローラースケートの紐を直す女性が主役。\n\n人物・表情：\n小さな卵形の顔、濃茶の大きな瞳、細い眉、整った鼻、艶のある淡桃色の唇。表情は、顔を正面から少し左へ向け、視線をカメラへ合わせて唇を少し開いた元気な表情。濃茶の長いウェーブ髪を左肩へ流し、薄い前髪を残す。\n\n服装・ポーズ：\n生成りのリブ生地、紺縁の広い胸元と太い肩紐を持つスポーツブラトップ、同素材のハイウエストショートパンツ、黒い膝丈ソックス、黒紐の白いローラースケート。左脚を低い黒レールへ載せて膝を曲げ、両手で左靴の紐を持ち、右脚で立つ。\n\n背景・光：\n画面左から画面右の背景に、前景に黒い金属レール、背景に灰色のスケートボウル、木、緑葉、青空。画面左上の硬い直射日光が顔、肩、脚を照らす。\n\n構図・カメラ：\n2:3の縦構図、膝より少し低い正面カメラで頭頂から両スケート靴までの全身を収めるポートレート。人物を中央へ大きく配置し、画面高の大部分を占める。レールと靴を下端へ収め、顔と左靴の両手にピント、背景は軽くぼかす。\n\n質感・スタイル：\nフォトリアルな実写写真。自然な肌と髪、衣装の素材、周囲の小物を高精細にし、生成り、紺、白、青のスポーティな昼色を保つ。\n\nネガティブ：\n靴紐を直す姿勢変更；ローラースケート省略",
+      "start": 81,
+      "length": 573,
+      "sha256": "ce91c5e263e1535d73d746f3c2357c8eb4d4d5af66fd4a7d5a9121b4a7a39c2d",
+      "extraction": "Original Japanese prompt block, including negative constraints",
+      "scenarios": [
+        "memory",
+        "identity"
+      ],
+      "covers": [
+        {
+          "tweetId": "2106222709424419238",
+          "index": 0,
+          "path": "/covers/x-2106222709424419238.jpg",
+          "url": "https://pbs.twimg.com/media/HTX1q9CbYAAf6ge.jpg?format=jpg&name=large",
+          "sha256": "5a894dc8eff3a1cf988a4db49395940d34c5b933c770cb69d33088b2c714caa2",
+          "size": 202660,
+          "width": 1023,
+          "height": 1537
+        }
+      ],
+      "discoveryIndex": "gpt",
+      "discoveryTitle": "19: Profile / Avatar - Roller Skate Park Portrait Prompt for GPT Image 2"
+    }
+  ]
+}
