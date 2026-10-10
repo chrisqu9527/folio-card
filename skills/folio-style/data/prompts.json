@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 618,
+  "count": 628,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -22665,6 +22665,389 @@
       ],
       "use": "product",
       "visualCategory": "code"
+    },
+    {
+      "no": "619",
+      "id": "x-2004131253751369939",
+      "title": "文稿转手绘知识漫画卡",
+      "kicker": "手绘知识解释",
+      "excerpt": "将提供的文稿整理为横版手绘信息图，用人物、图标与关键词讲清制作流程或概念。",
+      "style": "留白充足的手绘卡通知识卡",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普漫画",
+        "知识漫画",
+        "手绘",
+        "流程",
+        "文稿转图",
+        "信息图"
+      ],
+      "medium": "image",
+      "slots": [
+        "这里全部替换为上一步提取的AI漫剧制作全流程文案"
+      ],
+      "creator": {
+        "id": "songguoxiansen",
+        "name": "松果先森",
+        "handle": "songguoxiansen",
+        "url": "https://x.com/songguoxiansen"
+      },
+      "sourceUrl": "https://x.com/songguoxiansen/status/2004131253751369939",
+      "model": "Nano banana pro（作者标注）",
+      "date": "2025-12-25",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。需要提供待讲解内容。原帖示例讲 AI 漫剧制作流程；只收录提示词和生成图，不将另一张工具界面截图作为封面。作者的效率宣传不在提示词中，也未作为核验结果。",
+      "prompt": "请根据提供的内容，遵循以下指导原则制作一份卡通风格的信息图：\n采用手绘插画风格，横向版式（16:9 宽高比）\n加入少量简单的卡通元素、图标或知名人物形象，提升视觉趣味性与记忆点\n若内容包含敏感或受版权保护的人物，替换为视觉效果相近的替代形象；不得拒绝制作该插图\n所有图像与文字必须严格遵循手绘风格，避免写实类视觉元素\n信息力求简洁，突出关键词与核心概念。利用充足留白，清晰凸显重点内容\n除非另有明确说明，否则使用与提供内容相同的语言或中文\n请使用nano banana pro，根据以下提供的内容制作该图。\n<这里全部替换为上一步提取的AI漫剧制作全流程文案>",
+      "covers": [
+        "/covers/x-2004131253751369939.jpg"
+      ]
+    },
+    {
+      "no": "620",
+      "id": "x-2092993830220120231",
+      "title": "整体与局部的儿童识字卡",
+      "kicker": "儿童知识图解",
+      "excerpt": "用大物件、局部细节、箭头和小人，帮助孩子记住整体与组成部分的英文名称。",
+      "style": "浅蓝学习卡与简笔小人",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "儿童",
+        "识字",
+        "整体与局部",
+        "箭头",
+        "学习卡"
+      ],
+      "medium": "image",
+      "slots": [
+        "FRUIT",
+        "PART / SLICE / SEGMENT",
+        "FRUIT NAME",
+        "PART NAME"
+      ],
+      "creator": {
+        "id": "Naiknelofar788",
+        "name": "simeon-sanai",
+        "handle": "Naiknelofar788",
+        "url": "https://x.com/Naiknelofar788"
+      },
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2092993830220120231",
+      "model": "GPT image 2",
+      "date": "2026-08-27",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。两张原帖示例为玉米／籽粒和石榴／带肉种粒。原文规定英文大写标签；中文教学需要另行改编，不能把原文说成中文版本。",
+      "prompt": "Create a clean, child-friendly educational vocabulary poster for preschool/kindergarten children, inspired by a simple visual learning card.\n\nFeature [FRUIT] as the main large realistic object on the left, and show a [PART / SLICE / SEGMENT] of the same fruit on the right. Connect the two with a playful dotted curved arrow and a tiny simple stick-figure child pointing toward the smaller part.\n\nAdd the word “[FRUIT NAME]” in large bold uppercase letters at the top and “[PART NAME]” in large bold uppercase letters underneath the smaller image. Use a soft white and very light pastel-blue background, rounded image panels, clean spacing, realistic fruit photography, simple blue typography, and minimal playful illustrations.\n\nThe overall design should feel bright, educational, modern, uncluttered, and easy for young children to understand, like a premium preschool vocabulary learning card. Vertical 4:5 composition, high resolution, soft lighting, clear labels, no unnecessary decorations.",
+      "covers": [
+        "/covers/x-2092993830220120231.jpg",
+        "/covers/x-2092993830220120231-2.jpg"
+      ]
+    },
+    {
+      "no": "621",
+      "id": "x-2071466852614816182",
+      "title": "消防员出警救援的八格分镜",
+      "kicker": "角色连续分镜",
+      "excerpt": "锁定同一名消防员，从警报、穿装备到部署水带与救援，用八格串联动作。",
+      "style": "电影灯光三维卡通分镜",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "漫画",
+        "分镜",
+        "角色一致",
+        "消防员",
+        "救援",
+        "动作"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Strength04_X",
+        "name": "M-studioAi",
+        "handle": "Strength04_X",
+        "url": "https://x.com/Strength04_X"
+      },
+      "sourceUrl": "https://x.com/Strength04_X/status/2071466852614816182",
+      "model": "GPT Image 2",
+      "date": "2026-06-29",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原帖附一张八格静态分镜，未生成视频。作者要求横版16:9，但配图为竖版；原文“8 shots × ~1.5s = 15 seconds”算式不一致，作为构图参考保留，实际动画需另排时间。救援情节不是安全操作教学。",
+      "prompt": "Create a crisp, clean infographic storyboard poster for THE FIREFIGHTER. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, intense dramatic colors — fiery deep oranges, emergency red, smoke charcoal grays, bright helmet yellows, heroic steel blues.\n\nTop header:\nTHE FIREFIGHTER\nTOTAL VIDEO TIME: 15 SECONDS\n8 SHOTS · INTENSE · HEROIC · POWERFUL\nLegend icons: ACTION, DANGER, TIME HINT, GEAR\n\nSame Pixar-style firefighter throughout: strong brave young woman, full turnout gear, yellow helmet, urban fire station and city street setting, dramatic emergency lighting.\n\n8 panels:\n→ Alarm sounds — firefighter leaps from bunk, alarm light flashes red, station erupts into action\n→ Gearing up — turnout pants pulled on, jacket zipped, helmet snapped on in rapid fluid motion\n→ Down the pole — slides down fire pole with speed and precision, lands perfectly ready\n→ Engine rolls — fire truck bursts through station doors, lights blazing, siren screaming into city\n→ Arrives at scene — truck stops, smoke pouring from building, firefighter jumps out focused and calm\n→ Hose deployed — heavy hose shouldered, valve cranked open, powerful water stream erupts out\n→ Into the smoke — firefighter pushes through smoke and heat, mask on, fearless and determined\n→ Rescue complete — emerges from building carrying survivor, colleagues cheer, sunrise breaking behind\n\nFooter:\nVIDEO FLOW: 8 shots × ~1.5s = 15 seconds. Alarm to rescue.\nCAMERA TIPS: close-up on gear snap, hose water eruption, and final sunrise rescue, wide on fire scene arrival, dramatic low angle on engine rolling out\nLIGHT & STYLE: dramatic emergency lighting, fiery deep oranges, emergency reds, smoke charcoal grays, heroic steel blues, shallow depth of field, Pixar vivid heroic colors\nFIREFIGHTER NOTES: one firefighter, one rescue, one heroic moment. Intense, powerful, deeply inspiring.",
+      "covers": [
+        "/covers/x-2071466852614816182.jpg"
+      ]
+    },
+    {
+      "no": "622",
+      "id": "x-2053859424540971179",
+      "title": "四种发酵食品的机制图解",
+      "kicker": "食物科学图解",
+      "excerpt": "以四宫格排列发酵设置、微生物时间线、温度与酸度、风味变化及维护模块。",
+      "style": "轴侧小场景与科学图表四宫格",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "发酵",
+        "微生物",
+        "食物科学",
+        "时间线",
+        "四宫格"
+      ],
+      "medium": "image",
+      "slots": [
+        "fermented_food"
+      ],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2053859424540971179",
+      "model": "GPT Image 2",
+      "date": "2026-05-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原主题是酸菜、康普茶、泡菜和酸种酵头。配图的安全参数、微生物活动与健康说法未逐项核实，本条收录视觉组织方法，不把生成图当作食品安全依据。",
+      "prompt": "16:9, 2x2 grid, for “sauerkraut”, “kombucha”, “kimchi”, “sourdough starter”. => fermentation_content = ( isometric_fermentation_station_setup_for_[fermented_food]_with_jars_weights_airlocks * 1.6 ) + ( microbial_timeline_chart_bacteria_yeast_activity_by_day_for_[fermented_food] * 1.5 ) + ( ph_and_temperature_sweet_spot_diagram_specific_to_[fermented_food] * 1.4 ) + ( taste_evolution_flavor_wheel_day_by_day_for_[fermented_food]_from_sweet_to_tangy * 1.3 ) + ( troubleshooting_common_ferment_fails_mold_kahm_yeast_soft_mush_with_photos_for_[fermented_food] * 1.5 ) + ( gut_health_benefits_explainer_linking_[fermented_food]_metabolites_to_microbiome * 1.2 ) + ( recipe_variant_matrix_spicy_herbal_fruity_editions_of_[fermented_food] * 1.1 ) + ( safety_and_sterilization_checklist_for_[fermented_food]_with_myth_busting * 1.0 ) + ( serving_suggestion_plate_scape_integrating_[fermented_food]_into_daily_meals * 0.9 ) - ( fear_based_“dangerous_bacteria”_stock_images / 3.2 ) - ( over_styled_hipster_mason_jars_with_no_instruction / 2.9 ) - ( unclear_burping_or_maintenance_routine / 3.1 )",
+      "covers": [
+        "/covers/x-2053859424540971179.jpg"
+      ]
+    },
+    {
+      "no": "623",
+      "id": "x-2065106786420711534",
+      "title": "低糖甜点的材料替换图解",
+      "kicker": "材料与口感",
+      "excerpt": "在四宫格中组织材料替换、结构原理、口感矩阵和步骤卡，讲清甜点配方变化。",
+      "style": "食材替换站与图表组合信息图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "甜点",
+        "材料替换",
+        "食物科学",
+        "口感",
+        "四宫格"
+      ],
+      "medium": "image",
+      "slots": [
+        "dessert_type"
+      ],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2065106786420711534",
+      "model": "GPT Image 2",
+      "date": "2026-06-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。配图为布朗尼、饼干、芝士蛋糕和玛芬。原帖包含血糖影响及甜味剂说法，未作为实测结论核验；具体健康信息与配方需有独立依据。",
+      "prompt": "2x2 grid, 16:9, ai infers: render_target =\n( isometric_ingredient_swap_station_for_[dessert_type]_with_alternative_sweeteners_binders_flours * 1.6 )\n+ ( glycemic_impact_comparison_chart_of_natural_and_artificial_sweeteners_for_[dessert_type] * 1.5 )\n+ ( bulk_and_structure_science_diagram_explaining_how_to_replace_sugar_in_[dessert_type] * 1.6 )\n+ ( texture_result_matrix_cakey_vs_chewy_vs_crispy_using_different_low_sugar_approaches * 1.4 )\n+ ( taste_masking_and_flavor_boosting_techniques_for_[dessert_type]_with_spices_and_extracts * 1.2 )\n+ ( 3_step_recipe_cards_for_low_sugar_[dessert_type]_with_precise_weights * 1.3 )\n+ ( common_myths_busted_about_sugar_alcohols_and_natural_sweeteners * 1.0 )\n- ( shaming_language_about_sugar_or_moralizing_food / 3.5 )\n- ( unbaked_gooey_mess_presented_as_“healthy”_without_real_structure / 3.0 )\n- ( over_use_of_green_leaves_and_“skinny”_labels / 3.3 )",
+      "covers": [
+        "/covers/x-2065106786420711534.jpg"
+      ]
+    },
+    {
+      "no": "624",
+      "id": "x-2087069691705770358",
+      "title": "拍摄站位与机位的图解教程",
+      "kicker": "方法图解",
+      "excerpt": "依据一张照片画出俯视站位、侧视高度、镜头距离和错误示范，帮助读者理解构图。",
+      "style": "纸感手账标注与摄影教学图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "泛知识",
+        "摄影",
+        "教程",
+        "俯视图",
+        "机位",
+        "方法图解"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "ou_zhen599",
+        "name": "Loriel.AI",
+        "handle": "ou_zhen599",
+        "url": "https://x.com/ou_zhen599"
+      },
+      "sourceUrl": "https://x.com/ou_zhen599/status/2087069691705770358",
+      "model": "GPT- image 2（作者标注）",
+      "date": "2026-08-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。须提供参考图。四张原帖图片是两组照片与教学图；封面先显示两张图解，再保留输入照片。机位与焦段为提示词要求的推断范围，不是从照片测得的真实拍摄参数。",
+      "prompt": "把【图1参考图】作为唯一视觉依据，生成一张竖版 3:4 的街拍摄影知识分析图（教学信息图海报）。目标：用清晰有趣的图示把“人物位置、相机位置、镜头/距离、机位高度、拍摄角度、构图要点”讲明白，达到教别人复拍的目的。整体风格：干净高级的摄影教程信息图 + 轻手账式标注；浅米白纸感底或浅灰底；黑白灰为主；从图1自动提取1–2个颜色作为点缀；线条清晰、信息密度高但不杂乱、排版对齐统一、可读性强。\n\n强制规则：\n- 必须保留图1的：人物姿势、人物与环境的相对位置关系、主要背景结构线条、光影方向与空间逻辑\n- 不改变姿势、不改场景，只做“分析图示化呈现”\n- 人脸不作为重点：可轻度虚化/简化，不做写实美颜，不强化五官\n- 全中文；不要英文、不要品牌名、不要水印、不要UI界面元素\n\n固定版式（每次都一样，不随图1改变）：\n1）主视觉区（上半区或左侧大图）：放置“参考画面展示”（基于图1轻度风格化/插画化，但场景与姿态可辨识），叠加：三分法网格、主体轮廓框、引导线提示、垂直线/水平线校正提示；用编号圆点+手绘箭头标注关键点（主体落点、留白方向、腿部延伸方向、背景引导线来源）。\n2）示意图区（右侧或下半区，两张并列）：\n- 俯视平面图（Top View）：用极简图标画出墙面/街道/建筑边线（从图1抽象），人物站位（小人图标），相机站位（相机图标）；必须显示拍摄方向箭头、人物与相机距离（虚线+数值范围）、推荐站位点A/B（两个备选点位）；相机方位必须与图1一致（正前/侧前/斜前等）。\n- 侧视高度图（Side View）：画出地面线、人物高度示意、相机高度示意、仰俯角扇形；必须显示相机离地高度范围（按图1推断给出合理区间）、镜头仰俯角范围（按图1推断给出合理区间）；低机位/平视/高机位必须正确。\n3）参数卡片区（底部三张圆角卡片固定）：\n- 卡片1：镜头与距离（给出等效焦段建议范围 + 拍摄距离建议范围）\n- 卡片2：相机高度与角度（给出相机高度范围 + 仰俯角范围）\n- 卡片3：姿势与肢体要点（用短句总结图1姿势的可复拍要点）\n4）错误示范区（右下角固定）：3条红叉错误提示（根据图1自动生成最相关的3条，短句化），例如：不要超广角贴脸、不要裁切脚尖/手指、不要机位过高导致比例失真（按图1实际情况自动调整）。\n\n自动推断要求（让它每次替换图1都能用）：\n- 从图1自动推断并写入图示：相机方位、机位高低、拍摄距离区间、等效焦段区间、主体落点与裁切策略、背景引导线来源\n- 所有数值用“范围”表达（可信、可复拍），不要给单一死数\n\n输出要求：\n高清、线条锐利、阴影自然、图标统一、排版整齐、信息可读；无乱码文字、无Logo、无水印、无多余装饰。\n\n负面限制：\n不要水印、不要Logo、不要英文、不要乱码、不要过度写实人脸、不要夸张卡通比例、不要肢体畸变/多手指、不要杂乱排版、不要低清晰度、不要厚重滤镜、不要改变图1人物姿势与场景关系。",
+      "covers": [
+        "/covers/x-2087069691705770358-2.jpg",
+        "/covers/x-2087069691705770358-4.jpg",
+        "/covers/x-2087069691705770358.jpg",
+        "/covers/x-2087069691705770358-3.jpg"
+      ]
+    },
+    {
+      "no": "625",
+      "id": "x-2017168676634628573",
+      "title": "一周循环的七格角色漫画",
+      "kicker": "循环叙事漫画",
+      "excerpt": "让同一个参考角色经历七天的不同情绪，用七个扇形和循环箭头表现重复节奏。",
+      "style": "七扇区粗线Q版循环漫画",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "opinion",
+        "concept"
+      ],
+      "tags": [
+        "漫画",
+        "循环图",
+        "七格",
+        "角色一致",
+        "Q版",
+        "情绪"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "SSSS_CRYPTOMAN",
+        "name": "SSSS.CRYPTOMAN⚡️AI",
+        "handle": "SSSS_CRYPTOMAN",
+        "url": "https://x.com/SSSS_CRYPTOMAN"
+      },
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2017168676634628573",
+      "model": "Nano Banana Pro",
+      "date": "2026-01-30",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。需要角色参考图。原主题是职场一周循环，属于可复用叙事版式，不是现成自然科学内容。严格保留七扇区、英文星期、无对白与角色一致要求。",
+      "prompt": "【キャラクター参照指定】\n参照画像のキャラクターを必ず使用する。\nすべてのコマで同一人物として描写すること。\n顔立ち・髪型・目の形・雰囲気を完全に一致させる。\n別人化、顔の変化、髪型変更は禁止。\n服装は曜日ごとに変えてよいが、キャラ自体は同一。\nデフォルメしても「参照画像の人物」と一目でわかること。\n\n【全体コンセプト】\n月曜日から日曜日までの1週間を表現した、\n完全な円形のアニメイラスト。\n\n【構図・レイアウト】\n・円全体を「必ず7分割」したピザカット構図\n・6分割や12分割は禁止\n・正確に7つの等しい扇形\n・インフォグラフィック風レイアウト\n・7コマすべてが自然につながる構成\n\n【曜日の順番（厳守・時計回り）】\nMONDAY → TUESDAY → WEDNESDAY → THURSDAY → FRIDAY → SATURDAY → SUNDAY → MONDAYへ戻る\n\n【循環表現】\n・円の外周に太めの循環矢印を配置\n・時計回り\n・1週間が無限に繰り返されていることを強調\n\n【キャラクターデザイン】\n・強くデフォルメされたコミカルなアニメキャラ\n・ちびキャラ体型\n・頭が大きく体が小さい\n・手足が短い\n・表情は極端でギャグ寄り\n・可愛く誇張されたリアクション\n\n【テキストルール】\n・各コマに英語の曜日文字のみを配置\n「MONDAY」「TUESDAY」「WEDNESDAY」「THURSDAY」\n「FRIDAY」「SATURDAY」「SUNDAY」\n・セリフ、吹き出し、日本語文字は一切入れない\n・曜日文字は太く、読みやすく、歪みなし\n・各コマの形に沿って配置\n\n【各曜日の描写】\n\nMONDAY：\nスーツ姿のデフォルメOL。\nボサボサ髪、死んだ目。\n大きなコーヒーを2本持っている。\n\nTUESDAY：\n無表情でパソコン作業。\n自分より高い書類の山に囲まれている。\n\nWEDNESDAY：\n夜遅くまで残業。\n暗いオフィス、窓の外は夜景。\nぐったりした姿勢で疲労困憊。\n\nTHURSDAY：\n口から魂が抜けているコミカル表現。\n透明でかわいい魂が体から浮かび上がっている。\n極限の疲労をギャグとして描写。\n\nFRIDAY：\nハイテンションな表情。\nジャケットを脱ぎ、\n泡があふれる大きなビールジョッキを持っている。\nお祭りのような雰囲気。\n\nSATURDAY：\n私服姿で友人と楽しくお出かけ。\n元気いっぱいで跳ねるようなポーズ。\n明るくにぎやかな空気。\n\nSUNDAY：\nベッドに倒れ込むように寝転がっている。\nスマホ画面に「MONDAY」の文字が見えている。\n大げさに絶望している。\n\n【画風・品質】\n・デフォルメ強めのコミカルアニメ調\n・太めの線画\n・シンプルな影\n・明るくポップな配色\n・表情が非常に分かりやすい\n・高品質イラスト\n\n【ネガティブ指定】\n・リアル調、写実的表現\n・キャラクターの顔・髪型の変化\n・7分割以外の構図\n・曜日順の乱れ\n・日本語曜日表記\n・セリフ、吹き出し\n・文字の崩れ、歪み\n・四角いコマ割り",
+      "covers": [
+        "/covers/x-2017168676634628573.jpg"
+      ]
+    },
+    {
+      "no": "626",
+      "id": "x-1999329921639002349",
+      "title": "参考角色讲解的左右对照漫画",
+      "kicker": "角色对照讲解",
+      "excerpt": "同一角色在左右两个场景中讲解差异，再用中间箭头连接基础与变化。",
+      "style": "可爱卡通角色与双场景对照",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "科普漫画",
+        "对照漫画",
+        "讲解角色",
+        "左右对比",
+        "参考图",
+        "角色一致"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "kato06200411",
+        "name": "かた🔮｜AI占い副業パパ",
+        "handle": "kato06200411",
+        "url": "https://x.com/kato06200411"
+      },
+      "sourceUrl": "https://x.com/kato06200411/status/1999329921639002349",
+      "model": "Nano Banana Pro（Gemini）",
+      "date": "2025-12-12",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。需上传角色图片。原帖固定讲 ChatGPT v5.1/v5.2，保留原文；性能口号是作者的对比设定，未独立测试，不作为当前产品能力说明。",
+      "prompt": "可愛くて遊び心のある、コミカルな漫画スタイルのインフォグラフィック図解イラスト。画面を左右に分割した比較図で、上部に大きなタイトル「ChatGPTの進化：v5.1 (基礎) vs v5.2 (強化)」と書かれている。\n\n左半分は「v5.1：温かい対話と基礎の確立」というタイトル。背景は居心地の良い、整理されたカフェのような部屋。アップロードされた参照画像のキャラクター（または人物）がここに描写され、リラックスした笑顔で、友好的な丸いロボットと湯気の立つお茶を飲みながら自然に会話を楽しんでいる。手元には「応答トーン：Friendly/Pro」と書かれたカスタムダイヤルがある。周囲には温かい色のキーワードが浮かぶ：「自然で温かい会話」「パーソナライズ」「快適な追従性」。\n\n中央には「進化の土台」と書かれた矢印があり、右側が左側をベースにしていることを示している。\n\n右半分は「v5.2：正確性・パワーの大幅強化」というタイトル。左側の部屋を土台にして拡張された、未来的で巨大なハイテク研究ラボ。同じ参照画像のキャラクター（または人物）が、自信満々な表情でここに描写され、ハイテクな分析ゴーグルをかけている。山のように巨大な巻物（長文ドキュメント）を広げ、空中に浮かぶ複雑なグラフや画像を正確にスキャンし、複数の機械アームを使ってバリバリ作業をこなしている。周囲には力強く鮮やかな色のキーワードが浮かぶ：「正確性UP（嘘激減！）」「超長文コンテキスト理解」「深い推論力(xhigh)」「高度な画像理解」。\n\n全体的に、左側が快適な日常、右側が頼りになるプロフェッショナルなパワー、という対比が可愛らしく表現されている。",
+      "covers": [
+        "/covers/x-1999329921639002349.jpg"
+      ]
+    },
+    {
+      "no": "627",
+      "id": "x-2021979052333015291",
+      "title": "历史建筑的结构与外观对照",
+      "kicker": "建筑知识图解",
+      "excerpt": "把圣索菲亚的建筑线稿和实景式画面并排，标出结构、材料与建造阶段。",
+      "style": "建筑蓝图与实景式画面对照",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "泛知识",
+        "历史建筑",
+        "圣索菲亚",
+        "建筑线稿",
+        "结构",
+        "对照"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "craftian_keskin",
+        "name": "Keskin",
+        "handle": "craftian_keskin",
+        "url": "https://x.com/craftian_keskin"
+      },
+      "sourceUrl": "https://x.com/craftian_keskin/status/2021979052333015291",
+      "model": "Nano Banana Pro",
+      "date": "2026-02-12",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原主题固定为圣索菲亚；尺寸、材料和阶段标注未逐项核实。原文 JSON 末尾含额外右方括号，逐字保留，可作为自然语言提示使用；若作程序 JSON 输入，需自行修正语法。",
+      "prompt": "{\n  \"objective\": \"Create a side-by-side visual comparison ofHagia Sophia, featuring a technical architectural sketch and a real-life photograph\",\n  \"image_specifications\": {\n    \"style\": \"Mixed media (Architectural drawing + Real photography)\",\n    \"layout\": \"2-part horizontal split\",\n    \"aspect_ratio\": \"3:2\"\n  },\n  \"left_side\": {\n    \"content_type\": \"Technical sketch or blueprint of the selected World Wonder\",\n    \"features\": [\n      \"Accurate structural proportions\",\n      \"Labeled dimensions depth\",\n      \"Architectural elevation views or cutaways\",\n      \"Text annotations in native or English language\"\n    ],\n    \"text_annotations\": {\n      \"units\": \"Metric or imperial, based on region\",\n      \"details\": [\n        \"Construction phases\",\n        \"Material notes\",\n        \"Architectural labels\"\n      ],\n      \"font_style\": \"Engineering or blueprint-styled text\"\n    },\n    \"visual_style\": \"Monochrome, line art, or sepia blueprint\",\n    \"positioning\": \"Left half of the image\"\n  },\n  \"right_side\": {\n    \"content_type\": \"High-resolution real-world image of the selected World Wonder\",\n    \"features\": [\n      \"Wide-angle view or frontal perspective\",\n      \"Natural or ambient lighting\",\n      \"Color photo with environment context surroundings\"\n    ],\n    \"positioning\": \"Right half of the image\"\n  },\n  \"visual_elements\": {\n    \"border_division\": \"Clean vertical split or blended transition\",\n    \"comparison_focus\": \"Contrast between design concept and real-world result\"\n  },\n  \"output_format\": {\n    \"type\": \"Image\",\n    \"high_resolution\": true,\n    \"use_case\": [\n      \"Educational poster\",\n      \"Architectural showcase\",\n      \"Tourist guide\",\n      \"Infographic series\"\n    ]\n  },\n  ]\n}",
+      "covers": [
+        "/covers/x-2021979052333015291.jpg"
+      ]
+    },
+    {
+      "no": "628",
+      "id": "x-2014575650208936165",
+      "title": "美食照片转中文步骤图解",
+      "kicker": "步骤与食材",
+      "excerpt": "读取美食参考图，生成带食材小插画、编号步骤、箭头和中文标注的信息图提示词。",
+      "style": "摄影主菜与中文插画步骤信息图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "tags": [
+        "泛知识",
+        "中文",
+        "步骤图解",
+        "食材",
+        "参考图",
+        "信息图"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Michell81147285",
+        "name": "Michelle",
+        "handle": "Michell81147285",
+        "url": "https://x.com/Michell81147285"
+      },
+      "sourceUrl": "https://x.com/Michell81147285/status/2014575650208936165",
+      "model": "Nano banana pro",
+      "date": "2026-01-23",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。这是两步模板：先分析照片并填入绘图指令，再生成图片；不是只提供菜名即可完成。三张示例为汉堡和沙拉变体，热量、用量和时间是估算，未作为真实测量。原帖标明 Inspired by @TechieBySA，保留此来源说明。",
+      "prompt": "角色设定：你是一位精通美食摄影与视觉设计的AI提示词工程师。任务：请分析我上传的美食图片，识别菜品名称、主要食材、烹饪逻辑和大致热量。\n输出：请严格按照以下【通用提示词模板】格式，填充分析出的具体内容，生成一段用于AI绘画的提示词。\n【通用提示词模板】\n超干净的现代风食谱信息图。以极具吸引力的成品形态展示[这里填入分析出的菜品名称]，画面略带悬浮感，使用透视或倾斜视角。将食材、步骤与小贴士围绕主菜进行动态编辑式排版，不局限于俯视角。\n核心指令 (Language)：图中所有文字、标签、步骤说明必须严格使用“简体中文”显示。\n1. 食材区：\n为每种食材（[这里填入分析出的5-8种主要食材列表]）配以图标或迷你插画，并用中文标注用量。以分组、列表或环形流线的方式排列，通过视觉连线与主菜相连。\n2. 步骤区：\n用编号面板（1, 2, 3...）、箭头或线条展示制作流程（[这里填入推测的3-4个关键烹饪步骤]），在主菜周围形成清晰的逻辑动线。\n3. 补充信息（可选）：\n用中文标注：总热量（[估算卡路里]）、准备时间（[估算时间]）、烹饪时间（[估算时间]）、份量、辣度等，以简洁气泡或徽章形式呈现在主菜附近。\n4. 视觉风格：\n编辑级信息图融合生活方式美食摄影。食物色彩鲜亮自然，搭配轻微投影、干净的矢量图标、现代无衬线字体（中文黑体风格）。步骤面板可使用柔和渐变或玻璃拟态效果。强调色用于突出关键信息。\n5. 构图指南：\n成品菜肴作为视觉核心，采用透视或倾斜角度；\n食材与步骤围绕主菜动态流动；\n层级清晰：主菜 > 步骤 > 食材 > 可选数据；\n保留充足留白，整体轻盈、易读。\n6. 光影与背景：\n柔和自然的棚拍光线，极简纹理或渐变背景，营造高级编辑感。\n7. 输出规格：\n1080×1080，超清锐利，适配社交流水线展示，无水印。",
+      "covers": [
+        "/covers/x-2014575650208936165.jpg",
+        "/covers/x-2014575650208936165-2.jpg",
+        "/covers/x-2014575650208936165-3.jpg"
+      ]
     }
   ],
   "taxonomyVersion": 1

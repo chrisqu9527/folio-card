@@ -3,7 +3,7 @@
   "baselineCount": 611,
   "baselineCommit": "85bcb62",
   "baselineSha256": "59799cf410ae2d3b4cbea1fe7a27d8b13f7086ff7b6855208af15863f31f112f",
-  "scope": "Append 612-618 from public X posts with full prompts. 001-611 unchanged.",
+  "scope": "Append 612-618 from public X posts with full prompts. 001-611 unchanged. Appended a subsequent, separately documented science/knowledge batch 619–628; earlier 001–618 unchanged.",
   "access": "public HTTP",
   "discovery": "X keyword search for full image prompts and Opus 5.5 code-rendered videos",
   "indexes": [],
@@ -262,6 +262,692 @@
       "discoveryIndex": "x",
       "discoveryTitle": "记账产品的十五秒发布片",
       "sourceText": "claude code (opus 5.5) made the product film for taxtello, my bookkeeping app\n\nevery frame is code: react + remotion, 0 after effects\nthe soundtrack is code too, synthesized in python from sine waves and noise\n\n1 prompt and 2 rounds of feedback\n\nfull prompt below, steal it ↓\n\nYou are the senior motion designer, product designer and Remotion engineer for Taxtello.\n\nYour task is to create a genuinely premium, Apple-level product film for Taxtello.\n\nThis is NOT a generic SaaS explainer.\nThis is NOT a feature walkthrough.\nThis is NOT a startup template animation.\n\nI want a maximum 15-second brand/product showreel that makes Taxtello look like a mature, expensive, beautifully designed financial product.\n\nThink:\n\nApple product launch film\n× premium fintech\n× editorial motion design\n× restrained Stripe-like product presentation\n× Taxtello's own visual identity\n\nThe desired reaction is:\n\n“Wait, this is a German bookkeeping app?”\n\nThe film should feel expensive.\n\n────────────────────────────────────\nREPO / SOURCE OF TRUTH\n────────────────────────────────────\n\nFirst inspect the real repositories before designing anything.\n\nMain product:\n  /taxtello/main\n\nExisting Remotion project:\n  /taxtello/beta-motion\n\nImportant real brand sources:\n\n  /taxtello/main/public/css/app/_00-tokens.css\n  /taxtello/main/docs/design/TOKENS.md\n  /taxtello/main/public/taxtello-wordmark.png\n  /taxtello/main/public/icons.svg\n\nExisting current product screenshots can be found under:\n\n  /taxtello/main/artifacts/smoke-ui-smoke/\n\nPrefer the newest valid screenshots/current source over stale artifacts.\n\nThere is already an existing 24-second Remotion hero animation in\n/taxtello/beta-motion.\n\nDO NOT replace it.\nDO NOT regress it.\nDO NOT force its current AI-connections storyline into this new film.\n\nCreate a new independent composition for this task, e.g.\n\n  TaxtelloShowreel15\n\nYou may reuse good infrastructure, fonts, rendering utilities, motion primitives,\neasing curves, asset loading and QA infrastructure from beta-motion where useful.\n\nBut creatively this should be a new film.\n\nBefore implementation, inspect the actual Taxtello UI and understand the product.\n\nDo not invent functionality that does not exist.\n\n────────────────────────────────────\nREAL TAXTELLO VISUAL LANGUAGE\n────────────────────────────────────\n\nUse the real design system.\n\nCore palette:\n\nBackground:\n  #0c0f1a\n\nElevated surfaces:\n  #111525\n  #131722\n  #1a2032\n\nPrimary brand gold:\n  #e8b84b\n\nGold highlight:\n  #f5d07a\n\nGold depth:\n  #9b6d18\n\nPrimary text:\n  #e8eaf2\n\nStrong warm white:\n  #f6f4eb\n\nSecondary text:\n  #8b93b5\n\nPositive:\n  #34d399\n\nNegative/error only where semantically necessary:\n  #f87171\n\nTypography:\n  Plus Jakarta Sans\n\nNumbers / financial values where appropriate:\n  JetBrains Mono\n\nUse the actual Taxtello wordmark and/or Taxtello mark.\nDo not redraw or approximate the logo.\n\nTaxtello's gold should feel like a precious accent, not a yellow UI flood.\n\nThink:\ndark metal\nwarm gold\nglass\nink\nprecision\nquiet confidence\n\nNOT:\ncyberpunk\ncrypto\nneon\ngaming\ngeneric AI purple\nrainbow gradients\n\n────────────────────────────────────\nCORE CREATIVE RULES\n────────────────────────────────────\n\nFollow these rules ruthlessly:\n\n1. ONE SHOT = ONE IDEA.\n\n2. Every scene needs room to breathe.\n\n3. The product UI is the hero.\n\n4. Do not plaster explanatory copy everywhere.\n\n5. Do not use hard cuts unless there is a deliberate reason.\n\n6. Prefer object-driven transitions:\n   a card becomes the next card,\n   a chart line becomes a connector,\n   a receipt becomes a booking,\n   a number becomes another interface element,\n   the camera moves through the product.\n\n7. Use premium easing.\n   No linear movement.\n\n8. Motion should overlap naturally.\n   Elements should not all start and stop at exactly the same frame.\n\n9. Use depth sparingly:\n   perspective,\n   soft parallax,\n   scale,\n   foreground/background separation,\n   controlled depth of field if achievable.\n\n10. NO effect exists simply because it looks cool.\n\n11. No particle spam.\n\n12. No fake glassmorphism everywhere.\n\n13. No excessive blur.\n\n14. No pointless 3D spinning cards.\n\n15. No constant zooming.\n\n16. No 20 different animation styles.\n\n17. No bouncing UI.\n\n18. No giant marketing paragraph.\n\n19. Do not imitate a particular Apple commercial shot-for-shot.\n    Capture the philosophy and production quality instead.\n\nThe visual confidence should come from restraint.\n\n────────────────────────────────────\nFORMAT\n────────────────────────────────────\n\nPrimary master:\n\n1920 × 1080\n60 fps\n16:9\nH.264\nmaximum duration: 15.0 seconds\n\nTarget runtime:\napproximately 14.0–15.0 seconds.\n\nIt must work as a social-media product reveal even without sound.\n\nIf practical AFTER the master is finished, also create a deliberately recomposed\nvertical/social variant.\n\nDo not merely crop the desktop composition.\n\nBut the desktop master is the priority.\n\n────────────────────────────────────\nSTORY / EMOTIONAL ARC\n────────────────────────────────────\n\nDo not make this a list of five features.\n\nIt should feel like one continuous thought:\n\nCHAOS → CONTROL → CLARITY → TAXTELLO\n\nThe first 1.5 seconds must already look premium.\n\nThe first meaningful product moment should happen by ~2 seconds.\n\nNo five-second logo intro.\n\nPossible narrative direction:\n\n“Everything about your business, finally in one place.”\n\nBut SHOW this instead of explaining it.\n\nI want approximately four visual ideas across the whole film.\n\nUse the strongest REAL Taxtello surfaces you find in the repository.\n\nStrong candidates include:\n\n• Finanzcockpit / Dashboard\n• Rechnungen\n• Belege\n• Bank / matching\n• Steuergesundheit / tax overview\n\nYou do NOT need to show all of them.\n\nChoose the visually strongest combination.\n\n────────────────────────────────────\nSUGGESTED 15-SECOND STORYBOARD\n────────────────────────────────────\n\nTreat this as a strong starting point, not a rigid template.\n\n0.00 – 1.20\n\nBLACK / NAVY.\n\nA tiny warm-gold glint appears.\n\nThe glint elegantly reveals either the Taxtello mark or a fragment of the\nwordmark.\n\nNo generic logo fade.\n\nThink machined precision.\n\nThe camera moves through or past the mark and the UI begins to emerge from it.\n\nVery little or no copy.\n\n─────────────────\n\n1.20 – 4.40\n\nFINANCIAL CONTROL.\n\nReveal the actual Taxtello Cockpit as a dimensional product surface.\n\nNot just a screenshot placed on screen.\n\nReconstruct/crop/layer it so individual interface regions can animate.\n\nThe hero financial number resolves crisply.\nThe chart draws in.\nSupporting metrics settle slightly later.\n\nUse subtle stagger.\n\nA single line of copy may appear, for example:\n\n  “Alles im Blick.”\n\nor another equally short German phrase if you find something more fitting.\n\nMaximum ~3–4 words.\n\nThe interface must remain recognizable as the real product.\n\n─────────────────\n\n4.40 – 7.50\n\nDOCUMENT / BOOKKEEPING TRANSFORMATION.\n\nUse a visual object from the previous scene as the transition.\n\nExample:\n\nA gold chart point expands into the corner of a receipt/card.\nThe camera follows it.\nA receipt/document enters.\nTaxtello identifies or organizes it.\nThe document snaps elegantly into its corresponding booking / financial record.\n\nUse magnetic alignment and precision.\n\nNo cheesy scanner laser.\n\nNo floating paper tornado.\n\nPossible micro-copy:\n\n  “Belege. Erledigt.”\n\nOnly if it improves the scene.\n\n─────────────────\n\n7.50 – 10.70\n\nMONEY / INVOICES.\n\nMorph or transition naturally into the real Rechnungen interface.\n\nUse one strong moment:\n\nan invoice status changes,\na payment resolves,\nan amount moves into place,\nor the overview assembles itself.\n\nNumbers should feel tactile and precise.\n\nUse JetBrains Mono where this matches the actual product.\n\nGold highlights the active state.\n\nGreen is used only for a genuinely positive semantic state.\n\nPotential copy:\n\n  “Geld. Im Griff.”\n\nAgain: optional and extremely short.\n\n─────────────────\n\n10.70 – 12.80\n\nTAX / CLARITY.\n\nTransition into the real Taxtello tax-health / financial guidance surface.\n\nDo not claim that Taxtello magically guarantees correct taxes.\n\nCommunicate visibility and control.\n\nExample:\n\nmultiple noisy signals collapse into one calm, structured tax overview.\n\nPotential copy:\n\n  “Steuern im Blick.”\n\nThis scene should feel calmer than the previous scene.\n\nThe rhythm briefly slows.\n\n─────────────────\n\n12.80 – 15.00\n\nBRAND PAYOFF.\n\nPull the camera outward.\n\nThe UI compresses or folds into one beautiful Taxtello product object / surface.\n\nDarkness returns around it.\n\nThe gold Taxtello wordmark resolves.\n\nOne short brand line underneath.\n\nExplore strong final lines such as:\n\n  “Dein Business. Klar.”\n\n  “Buchhaltung. Unter Kontrolle.”\n\n  “Einfach mehr Überblick.”\n\n  “Alles fürs Business. An einem Ort.”\n\nChoose based on the actual product positioning you find in the repo.\n\nDo not use a line simply because I suggested it.\n\nThe final frame must have enough stillness to register.\n\nEnd confidently.\n\nNo giant bouncing CTA.\n\n────────────────────────────────────\nTRANSITIONS\n────────────────────────────────────\n\nThis is one of the most important parts.\n\nI want transitions that make the viewer think:\n\n“Of course the next scene came from that.”\n\nGood:\n\nchart line → document edge\ngold pill → invoice button\nfinancial number → amount in invoice\ncard edge → next surface\ncamera push through interface element\nshared geometry\nmask reveal using actual product shapes\n\nBad:\n\ncrossfade\nrandom wipe\nspin transition\nglitch\nwhip-pan every two seconds\ngeneric SaaS slide-left\nzoom-blur spam\n\nDirect cuts are allowed only when a deliberate rhythmic impact benefits the film.\n\n────────────────────────────────────\nMOTION\n────────────────────────────────────\n\nMotion needs weight.\n\nUse curves comparable to:\n\ncubic-bezier(0.16, 1, 0.3, 1)\n\nwhere appropriate.\n\nDifferent elements should have subtly different arrival times.\n\nPrefer:\n\nanticipation\novershoot below ~2%\nsettling\nmotion continuation\nshared velocity between scenes\n\nAvoid cartoon springiness.\n\nCamera movement should feel like a high-end macro product shoot.\n\nImagine we are filming a physical premium object even though it is software.\n\n────────────────────────────────────\nLIGHTING / MATERIAL\n────────────────────────────────────\n\nUse extremely subtle environmental lighting.\n\nPossible treatments:\n\n• soft gold rim lighting\n• dark navy falloff\n• faint ambient bloom\n• soft specular highlight passing across a surface\n• restrained vignette\n• subtle grain if it materially helps\n\nKeep the interface crisp.\n\nDo NOT blur the product just to look cinematic.\n\nNo fake glossy reflections that destroy legibility.\n\n────────────────────────────────────\nTYPOGRAPHY\n────────────────────────────────────\n\nUse very little copy.\n\nNo sentence should compete with the product.\n\nHeadlines should generally fit on one line.\n\nUse Plus Jakarta Sans.\n\nStrong typography may occasionally scale very large and become a transition\ndevice itself.\n\nAvoid generic motion-graphics behavior where every word animates independently.\n\nTypography should move as designed objects.\n\n────────────────────────────────────\nSOUND / RHYTHM\n────────────────────────────────────\n\nDesign the motion as if it were cut to approximately 115–120 BPM:\npremium, kinetic, sophisticated, not frantic.\n\nImportant moments should land musically.\n\nSuggested sound language:\n\n• low soft impact for major reveal\n• restrained tactile UI clicks\n• subtle metallic/glass tonal tick\n• soft low-frequency movement during camera transitions\n• elegant resolved tone at the logo payoff\n\nAvoid:\n\n• huge cinematic trailer boom\n• EDM risers\n• loud whooshes everywhere\n• stock “tech interface” sounds\n• rap beat\n• aggressive bass\n\nIf there is no legally safe music/audio asset in the project, DO NOT pull\ncopyrighted audio from the internet.\n\nDeliver the visual master without copyrighted music and create a concise cue\nsheet describing where music/SFX should hit.\n\nIf suitable safe/local audio exists, use it.\n\n────────────────────────────────────\nREAL PRODUCT ONLY\n────────────────────────────────────\n\nThis is critical.\n\nInspect current main.\n\nDo not invent screens.\n\nDo not invent metrics that imply real customer data.\n\nUse clearly synthetic/demo-safe values if required.\n\nDo not accidentally expose any personal, test-user or production information.\n\nReuse the visual structure of the actual Taxtello UI.\n\nIf a screen needs to be motion-separated, recreate it faithfully in React from\nthe real design system instead of simply scaling a giant screenshot.\n\nThe result should still look unmistakably like Taxtello.\n\n────────────────────────────────────\nIMPLEMENTATION EXPECTATIONS\n────────────────────────────────────\n\nWork directly in:\n\n  /taxtello/beta-motion\n\nCreate the new composition alongside the existing one.\n\nKeep existing compositions working.\n\nStructure the new work cleanly.\n\nPrefer reusable primitives for:\n\n• camera surface\n• product frame\n• masked transitions\n• text reveals\n• UI region reveals\n• ambient lighting\n• shared-element transitions\n\nAvoid one 1,500-line component.\n\nUse deterministic Remotion animation driven by frame/time.\n\nNo setTimeout.\nNo nondeterministic animations.\n\nRespect 60 fps throughout.\n\nUse interpolation/spring/easing deliberately.\n\n────────────────────────────────────\nDO NOT STOP AFTER FIRST IMPLEMENTATION\n────────────────────────────────────\n\nThis is a visual task.\n\nYou MUST review the actual rendered output.\n\nRequired workflow:\n\n1. Inspect repository and real brand/product.\n\n2. Write a concise storyboard with:\n   - exact timestamps\n   - key visual\n   - transition logic\n   - copy\n   - intended emotional rhythm\n\n3. Implement it.\n\n4. Run typecheck / relevant checks.\n\n5. Render representative frames at roughly:\n   0.0 s\n   1.0 s\n   2.5 s\n   4.5 s\n   6.5 s\n   8.5 s\n   10.5 s\n   12.5 s\n   14.0 s\n   14.8 s\n\n6. VISUALLY INSPECT THOSE IMAGES.\n\nDo not merely confirm that rendering succeeded.\n\nAsk:\n\nDoes this look like an Apple-tier product film?\n\nDoes anything look like a template?\n\nIs there too much on screen?\n\nIs the product legible?\n\nAre transitions logically connected?\n\nDoes Taxtello gold feel premium?\n\nDoes every frame look composed?\n\n7. Fix visual weaknesses.\n\n8. Render the complete film.\n\n9. Inspect multiple exact decoded frames from the final MP4, not only browser\n   screenshots.\n\n10. Iterate again if necessary.\n\nDo not declare success because the code compiles.\n\nThe deliverable is the FILM.\n\n────────────────────────────────────\nQUALITY BAR\n────────────────────────────────────\n\nReject your own result if it feels like:\n\n• a SaaS template\n• a PowerPoint animation\n• a website screen recording\n• a generic Remotion demo\n• a crypto advertisement\n• an AI-generated promo template\n• five screenshots sliding around\n• excessive marketing copy\n\nEvery important frame should be good enough to use as a still advertisement.\n\nI would rather have:\n\n3 extraordinary visual moments\n\nthan\n\n10 mediocre feature animations.\n\n────────────────────────────────────\nFINAL DELIVERABLES\n────────────────────────────────────\n\nProvide:\n\n1. Final storyboard\n2. New Remotion composition source\n3. 1920×1080 / 60fps final MP4\n4. Poster/final frame\n5. Contact sheet with representative frames from the film\n6. Exact runtime\n7. List of real Taxtello assets/screens used\n8. Brief explanation of the motion language\n9. Any remaining visual compromises\n10. Commands to reproduce the render\n\nSave outputs in a clearly named directory such as:\n\n  /taxtello/beta-motion/out/showreel-15/\n\nDo not deploy anything.\nDo not modify production data.\nDo not merge anything.\n\nGo all out creatively, but exercise ruthless restraint.\n\nMake Taxtello look expensive."
+    },
+    {
+      "no": "619",
+      "id": "x-2004131253751369939",
+      "sourceUrl": "https://x.com/songguoxiansen/status/2004131253751369939",
+      "authorHandle": "songguoxiansen",
+      "tweetId": "2004131253751369939",
+      "authorId": "1788123537099878400",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:06.824039+00:00",
+      "publishedAt": "2025-12-25T10:05:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "你还在这样学习吗？❌\n\n看3小时在线课程，手忙脚乱记笔记？暂停、倒退、再暂停……累到怀疑人生？\n\n停停停！你的学习方式out了！\n\n今天用以下方法快速学习-《AI漫剧制作全流程》\n\n💡 99%的人不知道的学习神器\n\n这个工具：AI视频摘要及文案，再加上Nano banana pro，彻底改变你的学习方式！\n\n只需2步，从视频到文本逐字稿、再到精美知识信息图：\n\n第1步：复制链接/上传视频 一键提取文本\n\n打开这个飞书多维表格（目前功能是完全免费的）\n\n地址：https://xurl.run/SnCRc8\n\n注册登录后，粘贴视频地址（支持B站、抖音等），或者本地上传视频文件\n\n（我这里是在B站找了一个《AI漫剧制作全流程》的视频，拷贝了浏览器的地址）\n\n点击\"提交\"，喝杯咖啡等1-2分钟 ☕，会给你生成以下内容：\n\n✅ 视频完整逐字稿文案\n✅ 智能摘要，清晰明了\n✅ 文本预览链接\n\n第2步：AI生成精美可视化信息图\n打开Gemini，选取Pro模式，输入以下提示词就可以生成精美的信息图了\n\n请根据提供的内容，遵循以下指导原则制作一份卡通风格的信息图：\n采用手绘插画风格，横向版式（16:9 宽高比）\n加入少量简单的卡通元素、图标或知名人物形象，提升视觉趣味性与记忆点\n若内容包含敏感或受版权保护的人物，替换为视觉效果相近的替代形象；不得拒绝制作该插图\n所有图像与文字必须严格遵循手绘风格，避免写实类视觉元素\n信息力求简洁，突出关键词与核心概念。利用充足留白，清晰凸显重点内容\n除非另有明确说明，否则使用与提供内容相同的语言或中文\n请使用nano banana pro，根据以下提供的内容制作该图。\n<这里全部替换为上一步提取的AI漫剧制作全流程文案>\n\n以上的文本，图片直接保存起来，就是一份精美的学习资料\n\n再配上我独有的PPT专用提示词，拿到NotebookLM那更是一鱼多吃啊。\n\n这种方式预计时间节省75%！效率提升3倍！学习效果暴涨！\n\n所以，还在等什么？玩起来吧。",
+      "start": 452,
+      "length": 280,
+      "sha256": "86a7c71b4ba483c886b5103af62a0505c6dd74f9728efff0e1b00c4742ddc2f9",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2004131253751369939",
+          "index": 0,
+          "path": "/covers/x-2004131253751369939.jpg",
+          "url": "https://pbs.twimg.com/media/G8_wOtrbcAAx0P7.jpg?format=jpg&name=large",
+          "sha256": "f3f1c32c2ad68cb556efaca61f833ffc1bee42e09de32747066357c14a55a6ac",
+          "size": 526113,
+          "width": 2048,
+          "height": 1143
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "AI Comic Production Workflow and Infographic Prompt",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic%20infographic"
+    },
+    {
+      "no": "620",
+      "id": "x-2092993830220120231",
+      "sourceUrl": "https://x.com/Naiknelofar788/status/2092993830220120231",
+      "authorHandle": "Naiknelofar788",
+      "tweetId": "2092993830220120231",
+      "authorId": "923953886754308096",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:04.634982+00:00",
+      "publishedAt": "2026-08-27T15:13:09.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT image 2\n\nPrompt:\nCreate a clean, child-friendly educational vocabulary poster for preschool/kindergarten children, inspired by a simple visual learning card.\n\nFeature [FRUIT] as the main large realistic object on the left, and show a [PART / SLICE / SEGMENT] of the same fruit on the right. Connect the two with a playful dotted curved arrow and a tiny simple stick-figure child pointing toward the smaller part.\n\nAdd the word “[FRUIT NAME]” in large bold uppercase letters at the top and “[PART NAME]” in large bold uppercase letters underneath the smaller image. Use a soft white and very light pastel-blue background, rounded image panels, clean spacing, realistic fruit photography, simple blue typography, and minimal playful illustrations.\n\nThe overall design should feel bright, educational, modern, uncluttered, and easy for young children to understand, like a premium preschool vocabulary learning card. Vertical 4:5 composition, high resolution, soft lighting, clear labels, no unnecessary decorations.",
+      "start": 21,
+      "length": 996,
+      "sha256": "8da9b4e186c2fc8d0a59cfc9588873dae01c43ad6e53d9b8adbed1ea5e39f9e8",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2092993830220120231",
+          "index": 0,
+          "path": "/covers/x-2092993830220120231.jpg",
+          "url": "https://pbs.twimg.com/media/HQvOynJbMAA2SmS.jpg?format=jpg&name=large",
+          "sha256": "b05ee7b4a8dc5e374154621dcac07b7cabcab369fb284e3938a5bfea700af4e8",
+          "size": 113443,
+          "width": 1122,
+          "height": 1402
+        },
+        {
+          "tweetId": "2092993830220120231",
+          "index": 1,
+          "path": "/covers/x-2092993830220120231-2.jpg",
+          "url": "https://pbs.twimg.com/media/HQvOynMbcAALe1p.jpg?format=jpg&name=large",
+          "sha256": "a2aaba3fe0138dbba80c371f7bf36c805fa49c01243bf00efcdf6d886a991fa4",
+          "size": 140130,
+          "width": 1122,
+          "height": 1402
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Preschool Educational Vocabulary Card",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=educational"
+    },
+    {
+      "no": "621",
+      "id": "x-2071466852614816182",
+      "sourceUrl": "https://x.com/Strength04_X/status/2071466852614816182",
+      "authorHandle": "Strength04_X",
+      "tweetId": "2071466852614816182",
+      "authorId": "1946792877352493059",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:03.893954+00:00",
+      "publishedAt": "2026-06-29T05:32:38.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "📋 GPT Image 2 : Storyboard Prompt\n\nCreate a crisp, clean infographic storyboard poster for THE FIREFIGHTER. Wide 16:9 layout, white background, black borders, bold black typography, premium Pixar 3D stylized rendering, intense dramatic colors — fiery deep oranges, emergency red, smoke charcoal grays, bright helmet yellows, heroic steel blues.\n\nTop header:\nTHE FIREFIGHTER\nTOTAL VIDEO TIME: 15 SECONDS\n8 SHOTS · INTENSE · HEROIC · POWERFUL\nLegend icons: ACTION, DANGER, TIME HINT, GEAR\n\nSame Pixar-style firefighter throughout: strong brave young woman, full turnout gear, yellow helmet, urban fire station and city street setting, dramatic emergency lighting.\n\n8 panels:\n→ Alarm sounds — firefighter leaps from bunk, alarm light flashes red, station erupts into action\n→ Gearing up — turnout pants pulled on, jacket zipped, helmet snapped on in rapid fluid motion\n→ Down the pole — slides down fire pole with speed and precision, lands perfectly ready\n→ Engine rolls — fire truck bursts through station doors, lights blazing, siren screaming into city\n→ Arrives at scene — truck stops, smoke pouring from building, firefighter jumps out focused and calm\n→ Hose deployed — heavy hose shouldered, valve cranked open, powerful water stream erupts out\n→ Into the smoke — firefighter pushes through smoke and heat, mask on, fearless and determined\n→ Rescue complete — emerges from building carrying survivor, colleagues cheer, sunrise breaking behind\n\nFooter:\nVIDEO FLOW: 8 shots × ~1.5s = 15 seconds. Alarm to rescue.\nCAMERA TIPS: close-up on gear snap, hose water eruption, and final sunrise rescue, wide on fire scene arrival, dramatic low angle on engine rolling out\nLIGHT & STYLE: dramatic emergency lighting, fiery deep oranges, emergency reds, smoke charcoal grays, heroic steel blues, shallow depth of field, Pixar vivid heroic colors\nFIREFIGHTER NOTES: one firefighter, one rescue, one heroic moment. Intense, powerful, deeply inspiring.",
+      "start": 36,
+      "length": 1908,
+      "sha256": "dceb1793642a4334e8db91577467c62460d27c04c90eb965eb7466fb67fd94a4",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "story",
+        "knowledge",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2071466852614816182",
+          "index": 0,
+          "path": "/covers/x-2071466852614816182.jpg",
+          "url": "https://pbs.twimg.com/media/HL9UHBJbAAAj7yr.jpg?format=jpg&name=large",
+          "sha256": "e3e8a0fe36a1a675d7d625e97f93541fa0815a8c154c3a8dd5a3fb2acce48d23",
+          "size": 375984,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Firefighter Storyboard Infographic",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=infographic"
+    },
+    {
+      "no": "622",
+      "id": "x-2053859424540971179",
+      "sourceUrl": "https://x.com/Gdgtify/status/2053859424540971179",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2053859424540971179",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:06.176135+00:00",
+      "publishedAt": "2026-05-11T15:27:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "These detailed food visuals are so easy to make with GPT Image 2. \n\n16:9, 2x2 grid, for “sauerkraut”, “kombucha”, “kimchi”, “sourdough starter”. => fermentation_content = ( isometric_fermentation_station_setup_for_[fermented_food]_with_jars_weights_airlocks * 1.6 ) + ( microbial_timeline_chart_bacteria_yeast_activity_by_day_for_[fermented_food] * 1.5 ) + ( ph_and_temperature_sweet_spot_diagram_specific_to_[fermented_food] * 1.4 ) + ( taste_evolution_flavor_wheel_day_by_day_for_[fermented_food]_from_sweet_to_tangy * 1.3 ) + ( troubleshooting_common_ferment_fails_mold_kahm_yeast_soft_mush_with_photos_for_[fermented_food] * 1.5 ) + ( gut_health_benefits_explainer_linking_[fermented_food]_metabolites_to_microbiome * 1.2 ) + ( recipe_variant_matrix_spicy_herbal_fruity_editions_of_[fermented_food] * 1.1 ) + ( safety_and_sterilization_checklist_for_[fermented_food]_with_myth_busting * 1.0 ) + ( serving_suggestion_plate_scape_integrating_[fermented_food]_into_daily_meals * 0.9 ) - ( fear_based_“dangerous_bacteria”_stock_images / 3.2 ) - ( over_styled_hipster_mason_jars_with_no_instruction / 2.9 ) - ( unclear_burping_or_maintenance_routine / 3.1 )",
+      "start": 68,
+      "length": 1088,
+      "sha256": "2ec88456ec24e875b2b9571cfd0e0885cc91c2d3d6f2213254304981cfa55fad",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2053859424540971179",
+          "index": 0,
+          "path": "/covers/x-2053859424540971179.jpg",
+          "url": "https://pbs.twimg.com/media/HHw3BRXWgAEZ97o.jpg?format=jpg&name=large",
+          "sha256": "661fd1a340d17897ab1e38c2a8ad6f1193c9eae80baee72ebe72ef8dfeef56af",
+          "size": 429371,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Fermentation Science Infographic Grid",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=explainer"
+    },
+    {
+      "no": "623",
+      "id": "x-2065106786420711534",
+      "sourceUrl": "https://x.com/Gdgtify/status/2065106786420711534",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2065106786420711534",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:06.056861+00:00",
+      "publishedAt": "2026-06-11T16:20:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "I asked GPT Image 2 to  give me 4 low sugar desserts. I do use allulose myself but an interesting output. \n\n2x2 grid, 16:9, ai infers: render_target =\n( isometric_ingredient_swap_station_for_[dessert_type]_with_alternative_sweeteners_binders_flours * 1.6 )\n+ ( glycemic_impact_comparison_chart_of_natural_and_artificial_sweeteners_for_[dessert_type] * 1.5 )\n+ ( bulk_and_structure_science_diagram_explaining_how_to_replace_sugar_in_[dessert_type] * 1.6 )\n+ ( texture_result_matrix_cakey_vs_chewy_vs_crispy_using_different_low_sugar_approaches * 1.4 )\n+ ( taste_masking_and_flavor_boosting_techniques_for_[dessert_type]_with_spices_and_extracts * 1.2 )\n+ ( 3_step_recipe_cards_for_low_sugar_[dessert_type]_with_precise_weights * 1.3 )\n+ ( common_myths_busted_about_sugar_alcohols_and_natural_sweeteners * 1.0 )\n- ( shaming_language_about_sugar_or_moralizing_food / 3.5 )\n- ( unbaked_gooey_mess_presented_as_“healthy”_without_real_structure / 3.0 )\n- ( over_use_of_green_leaves_and_“skinny”_labels / 3.3 )",
+      "start": 108,
+      "length": 895,
+      "sha256": "195ada7ef81a94452c3478e9c7331971444f0e1d1b39d1139c0985ebeb2220a7",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2065106786420711534",
+          "index": 0,
+          "path": "/covers/x-2065106786420711534.jpg",
+          "url": "https://pbs.twimg.com/media/HKa51QWW8AAuefU.jpg?format=jpg&name=large",
+          "sha256": "d0bddd48f76499a09f37605756208f3d345de04efeb785ed63f2b502e64efa65",
+          "size": 405702,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Low Sugar Dessert Science Infographic",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=recipe"
+    },
+    {
+      "no": "624",
+      "id": "x-2087069691705770358",
+      "sourceUrl": "https://x.com/ou_zhen599/status/2087069691705770358",
+      "authorHandle": "ou_zhen599",
+      "tweetId": "2087069691705770358",
+      "authorId": "1798370710341177344",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:04.759130+00:00",
+      "publishedAt": "2026-08-11T06:52:45.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "复拍教程最容易漏掉的，不是构图线，而是相机到底站在哪里。\n🗺️ top-view diagram with subject position, camera position, direction arrow, and distance range\n这样，读者能一眼看懂自己该站在人物正前、侧前还是斜前；距离也不再靠猜。\n📐 side-view diagram showing camera height and tilt-angle range\n同一个姿势，机位高一点就会显头大腿短。把相机离地高度和仰俯角画出来，才能把照片里的比例真正复拍出来。\n\nGPT- image 2 prompt👇\n把【图1参考图】作为唯一视觉依据，生成一张竖版 3:4 的街拍摄影知识分析图（教学信息图海报）。目标：用清晰有趣的图示把“人物位置、相机位置、镜头/距离、机位高度、拍摄角度、构图要点”讲明白，达到教别人复拍的目的。整体风格：干净高级的摄影教程信息图 + 轻手账式标注；浅米白纸感底或浅灰底；黑白灰为主；从图1自动提取1–2个颜色作为点缀；线条清晰、信息密度高但不杂乱、排版对齐统一、可读性强。\n\n强制规则：\n- 必须保留图1的：人物姿势、人物与环境的相对位置关系、主要背景结构线条、光影方向与空间逻辑\n- 不改变姿势、不改场景，只做“分析图示化呈现”\n- 人脸不作为重点：可轻度虚化/简化，不做写实美颜，不强化五官\n- 全中文；不要英文、不要品牌名、不要水印、不要UI界面元素\n\n固定版式（每次都一样，不随图1改变）：\n1）主视觉区（上半区或左侧大图）：放置“参考画面展示”（基于图1轻度风格化/插画化，但场景与姿态可辨识），叠加：三分法网格、主体轮廓框、引导线提示、垂直线/水平线校正提示；用编号圆点+手绘箭头标注关键点（主体落点、留白方向、腿部延伸方向、背景引导线来源）。\n2）示意图区（右侧或下半区，两张并列）：\n- 俯视平面图（Top View）：用极简图标画出墙面/街道/建筑边线（从图1抽象），人物站位（小人图标），相机站位（相机图标）；必须显示拍摄方向箭头、人物与相机距离（虚线+数值范围）、推荐站位点A/B（两个备选点位）；相机方位必须与图1一致（正前/侧前/斜前等）。\n- 侧视高度图（Side View）：画出地面线、人物高度示意、相机高度示意、仰俯角扇形；必须显示相机离地高度范围（按图1推断给出合理区间）、镜头仰俯角范围（按图1推断给出合理区间）；低机位/平视/高机位必须正确。\n3）参数卡片区（底部三张圆角卡片固定）：\n- 卡片1：镜头与距离（给出等效焦段建议范围 + 拍摄距离建议范围）\n- 卡片2：相机高度与角度（给出相机高度范围 + 仰俯角范围）\n- 卡片3：姿势与肢体要点（用短句总结图1姿势的可复拍要点）\n4）错误示范区（右下角固定）：3条红叉错误提示（根据图1自动生成最相关的3条，短句化），例如：不要超广角贴脸、不要裁切脚尖/手指、不要机位过高导致比例失真（按图1实际情况自动调整）。\n\n自动推断要求（让它每次替换图1都能用）：\n- 从图1自动推断并写入图示：相机方位、机位高低、拍摄距离区间、等效焦段区间、主体落点与裁切策略、背景引导线来源\n- 所有数值用“范围”表达（可信、可复拍），不要给单一死数\n\n输出要求：\n高清、线条锐利、阴影自然、图标统一、排版整齐、信息可读；无乱码文字、无Logo、无水印、无多余装饰。\n\n负面限制：\n不要水印、不要Logo、不要英文、不要乱码、不要过度写实人脸、不要夸张卡通比例、不要肢体畸变/多手指、不要杂乱排版、不要低清晰度、不要厚重滤镜、不要改变图1人物姿势与场景关系。",
+      "start": 300,
+      "length": 1225,
+      "sha256": "7ab9a5bd6080837f7efa10a6f7c79ff234ae8679482c986a3c106918792440bc",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2087069691705770358",
+          "index": 1,
+          "path": "/covers/x-2087069691705770358-2.jpg",
+          "url": "https://pbs.twimg.com/media/HPbCypybEAAA0iA.jpg?format=jpg&name=large",
+          "sha256": "0b20d5079c4498f61a4e89945074f2df81317dd8cd56d1ebc347c8d0f45d0aaf",
+          "size": 576604,
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "tweetId": "2087069691705770358",
+          "index": 3,
+          "path": "/covers/x-2087069691705770358-4.jpg",
+          "url": "https://pbs.twimg.com/media/HPbC0PWbgAAUAQD.jpg?format=jpg&name=large",
+          "sha256": "f9f50a2cbc916e56fc71ee61dd229fb8eaa99643c906109ba03f5d9ffa57766b",
+          "size": 620727,
+          "width": 1536,
+          "height": 2048
+        },
+        {
+          "tweetId": "2087069691705770358",
+          "index": 0,
+          "path": "/covers/x-2087069691705770358.jpg",
+          "url": "https://pbs.twimg.com/media/HPbCwqHacAAjmIe.jpg?format=jpg&name=large",
+          "sha256": "4141ae1aa7dbc4681b64189bfd35b6450618dfe49398a57cfd53e244016a5f6a",
+          "size": 116395,
+          "width": 784,
+          "height": 1168
+        },
+        {
+          "tweetId": "2087069691705770358",
+          "index": 2,
+          "path": "/covers/x-2087069691705770358-3.jpg",
+          "url": "https://pbs.twimg.com/media/HPbC0PabQAAI82b.jpg?format=jpg&name=large",
+          "sha256": "0beff24a90140ceca215fb1e8d36985e42efffa8cbf0f6e1d21f4b5d68cfb955",
+          "size": 691729,
+          "width": 1536,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Photography Tutorial and Camera Setup Infographic",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=educational"
+    },
+    {
+      "no": "625",
+      "id": "x-2017168676634628573",
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2017168676634628573",
+      "authorHandle": "SSSS_CRYPTOMAN",
+      "tweetId": "2017168676634628573",
+      "authorId": "1391788515302592524",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:06.819882+00:00",
+      "publishedAt": "2026-01-30T09:31:04.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "#月曜日から日曜日\nあっという間に一週間が終わる無限ループを再現してみました\n\n✅️作り方\nNano Banana Pro で画像参照して下記プロンプトをコピペ。各曜日の表現は自由に変えてOK！\n\n---プロンプト---\n【キャラクター参照指定】\n参照画像のキャラクターを必ず使用する。\nすべてのコマで同一人物として描写すること。\n顔立ち・髪型・目の形・雰囲気を完全に一致させる。\n別人化、顔の変化、髪型変更は禁止。\n服装は曜日ごとに変えてよいが、キャラ自体は同一。\nデフォルメしても「参照画像の人物」と一目でわかること。\n\n【全体コンセプト】\n月曜日から日曜日までの1週間を表現した、\n完全な円形のアニメイラスト。\n\n【構図・レイアウト】\n・円全体を「必ず7分割」したピザカット構図\n・6分割や12分割は禁止\n・正確に7つの等しい扇形\n・インフォグラフィック風レイアウト\n・7コマすべてが自然につながる構成\n\n【曜日の順番（厳守・時計回り）】\nMONDAY → TUESDAY → WEDNESDAY → THURSDAY → FRIDAY → SATURDAY → SUNDAY → MONDAYへ戻る\n\n【循環表現】\n・円の外周に太めの循環矢印を配置\n・時計回り\n・1週間が無限に繰り返されていることを強調\n\n【キャラクターデザイン】\n・強くデフォルメされたコミカルなアニメキャラ\n・ちびキャラ体型\n・頭が大きく体が小さい\n・手足が短い\n・表情は極端でギャグ寄り\n・可愛く誇張されたリアクション\n\n【テキストルール】\n・各コマに英語の曜日文字のみを配置\n「MONDAY」「TUESDAY」「WEDNESDAY」「THURSDAY」\n「FRIDAY」「SATURDAY」「SUNDAY」\n・セリフ、吹き出し、日本語文字は一切入れない\n・曜日文字は太く、読みやすく、歪みなし\n・各コマの形に沿って配置\n\n【各曜日の描写】\n\nMONDAY：\nスーツ姿のデフォルメOL。\nボサボサ髪、死んだ目。\n大きなコーヒーを2本持っている。\n\nTUESDAY：\n無表情でパソコン作業。\n自分より高い書類の山に囲まれている。\n\nWEDNESDAY：\n夜遅くまで残業。\n暗いオフィス、窓の外は夜景。\nぐったりした姿勢で疲労困憊。\n\nTHURSDAY：\n口から魂が抜けているコミカル表現。\n透明でかわいい魂が体から浮かび上がっている。\n極限の疲労をギャグとして描写。\n\nFRIDAY：\nハイテンションな表情。\nジャケットを脱ぎ、\n泡があふれる大きなビールジョッキを持っている。\nお祭りのような雰囲気。\n\nSATURDAY：\n私服姿で友人と楽しくお出かけ。\n元気いっぱいで跳ねるようなポーズ。\n明るくにぎやかな空気。\n\nSUNDAY：\nベッドに倒れ込むように寝転がっている。\nスマホ画面に「MONDAY」の文字が見えている。\n大げさに絶望している。\n\n【画風・品質】\n・デフォルメ強めのコミカルアニメ調\n・太めの線画\n・シンプルな影\n・明るくポップな配色\n・表情が非常に分かりやすい\n・高品質イラスト\n\n【ネガティブ指定】\n・リアル調、写実的表現\n・キャラクターの顔・髪型の変化\n・7分割以外の構図\n・曜日順の乱れ\n・日本語曜日表記\n・セリフ、吹き出し\n・文字の崩れ、歪み\n・四角いコマ割り",
+      "start": 111,
+      "length": 1273,
+      "sha256": "a9d0836b2afbf3b3bef902dec46ba29ba52436df0adebd4bd673f8fd2b239b8c",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "story",
+        "opinion",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2017168676634628573",
+          "index": 0,
+          "path": "/covers/x-2017168676634628573.jpg",
+          "url": "https://pbs.twimg.com/media/G_5sN1RbEAADF7D.jpg?format=jpg&name=large",
+          "sha256": "56952d2427bd19c7ffcbded12621afbcffab8ca6bea8aebbef5165b27a3b5a6b",
+          "size": 269340,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Infographic prompt for 'Monday to Sunday' infinite loop manga",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic%20infographic"
+    },
+    {
+      "no": "626",
+      "id": "x-1999329921639002349",
+      "sourceUrl": "https://x.com/kato06200411/status/1999329921639002349",
+      "authorHandle": "kato06200411",
+      "tweetId": "1999329921639002349",
+      "authorId": "1609389951153770497",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:06.952891+00:00",
+      "publishedAt": "2025-12-12T04:06:13.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Nano Banana Pro (Gemini) で使える、ChatGPT v5.1 vs v5.2 の進化図解プロンプトを作りました！🍌✨\n\n推しキャラや自分のアバター画像を\n「画像参照」にセットするだけで、\nその子が解説してくれる可愛い比較図が作れます。\n\nv5.1の「温かい対話」と、v5.2の「ガチ性能アップ」の違いが一目でわかるように設計しました。ぜひ試してみてください！👇\n\n【コピペ用プロンプト】\n（使い方：Geminiの画像生成画面で、登場させたい画像を1枚アップロードしてから、下のテキストを貼り付けて実行してください）\n\n可愛くて遊び心のある、コミカルな漫画スタイルのインフォグラフィック図解イラスト。画面を左右に分割した比較図で、上部に大きなタイトル「ChatGPTの進化：v5.1 (基礎) vs v5.2 (強化)」と書かれている。\n\n左半分は「v5.1：温かい対話と基礎の確立」というタイトル。背景は居心地の良い、整理されたカフェのような部屋。アップロードされた参照画像のキャラクター（または人物）がここに描写され、リラックスした笑顔で、友好的な丸いロボットと湯気の立つお茶を飲みながら自然に会話を楽しんでいる。手元には「応答トーン：Friendly/Pro」と書かれたカスタムダイヤルがある。周囲には温かい色のキーワードが浮かぶ：「自然で温かい会話」「パーソナライズ」「快適な追従性」。\n\n中央には「進化の土台」と書かれた矢印があり、右側が左側をベースにしていることを示している。\n\n右半分は「v5.2：正確性・パワーの大幅強化」というタイトル。左側の部屋を土台にして拡張された、未来的で巨大なハイテク研究ラボ。同じ参照画像のキャラクター（または人物）が、自信満々な表情でここに描写され、ハイテクな分析ゴーグルをかけている。山のように巨大な巻物（長文ドキュメント）を広げ、空中に浮かぶ複雑なグラフや画像を正確にスキャンし、複数の機械アームを使ってバリバリ作業をこなしている。周囲には力強く鮮やかな色のキーワードが浮かぶ：「正確性UP（嘘激減！）」「超長文コンテキスト理解」「深い推論力(xhigh)」「高度な画像理解」。\n\n全体的に、左側が快適な日常、右側が頼りになるプロフェッショナルなパワー、という対比が可愛らしく表現されている。",
+      "start": 273,
+      "length": 711,
+      "sha256": "dca784e4c418807bc4772b05b5634c6e7cbb1945733adf63fbdfea01112f9cb1",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "1999329921639002349",
+          "index": 0,
+          "path": "/covers/x-1999329921639002349.jpg",
+          "url": "https://pbs.twimg.com/media/G78L9rWagAA-fTt.jpg?format=jpg&name=large",
+          "sha256": "0b4f0cdf7d419e72551e43e8ffde9de2c857c5cab48b987c5b14a7a7be80ad36",
+          "size": 939639,
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "ChatGPT v5.1 vs v5.2 Evolution Infographic Prompt",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic%20infographic"
+    },
+    {
+      "no": "627",
+      "id": "x-2021979052333015291",
+      "sourceUrl": "https://x.com/craftian_keskin/status/2021979052333015291",
+      "authorHandle": "craftian_keskin",
+      "tweetId": "2021979052333015291",
+      "authorId": "1114707030",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:03.894498+00:00",
+      "publishedAt": "2026-02-12T16:05:47.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Hagia Sophia \n\nIt embodies the layered history of Byzantium and the Ottoman world, showing how cultures, faiths, and power can overlap in a single monument.\n\nNano Banana Pro Prompt:\n\n{\n  \"objective\": \"Create a side-by-side visual comparison ofHagia Sophia, featuring a technical architectural sketch and a real-life photograph\",\n  \"image_specifications\": {\n    \"style\": \"Mixed media (Architectural drawing + Real photography)\",\n    \"layout\": \"2-part horizontal split\",\n    \"aspect_ratio\": \"3:2\"\n  },\n  \"left_side\": {\n    \"content_type\": \"Technical sketch or blueprint of the selected World Wonder\",\n    \"features\": [\n      \"Accurate structural proportions\",\n      \"Labeled dimensions depth\",\n      \"Architectural elevation views or cutaways\",\n      \"Text annotations in native or English language\"\n    ],\n    \"text_annotations\": {\n      \"units\": \"Metric or imperial, based on region\",\n      \"details\": [\n        \"Construction phases\",\n        \"Material notes\",\n        \"Architectural labels\"\n      ],\n      \"font_style\": \"Engineering or blueprint-styled text\"\n    },\n    \"visual_style\": \"Monochrome, line art, or sepia blueprint\",\n    \"positioning\": \"Left half of the image\"\n  },\n  \"right_side\": {\n    \"content_type\": \"High-resolution real-world image of the selected World Wonder\",\n    \"features\": [\n      \"Wide-angle view or frontal perspective\",\n      \"Natural or ambient lighting\",\n      \"Color photo with environment context surroundings\"\n    ],\n    \"positioning\": \"Right half of the image\"\n  },\n  \"visual_elements\": {\n    \"border_division\": \"Clean vertical split or blended transition\",\n    \"comparison_focus\": \"Contrast between design concept and real-world result\"\n  },\n  \"output_format\": {\n    \"type\": \"Image\",\n    \"high_resolution\": true,\n    \"use_case\": [\n      \"Educational poster\",\n      \"Architectural showcase\",\n      \"Tourist guide\",\n      \"Infographic series\"\n    ]\n  },\n  ]\n}",
+      "start": 183,
+      "length": 1710,
+      "sha256": "e89e65b95387df96c605ac9e61d832406e6e2afc99ed0afced593b117200f99d",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2021979052333015291",
+          "index": 0,
+          "path": "/covers/x-2021979052333015291.jpg",
+          "url": "https://pbs.twimg.com/media/HA-Ca1MXoAA7ztD.jpg?format=jpg&name=large",
+          "sha256": "ffeafd6502bbfe5ab2964842eff206fea15b0d4309d524f64cc512ac514f5a20",
+          "size": 264895,
+          "width": 1264,
+          "height": 848
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Side-by-Side Architectural Comparison of Hagia Sophia",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational"
+    },
+    {
+      "no": "628",
+      "id": "x-2014575650208936165",
+      "sourceUrl": "https://x.com/Michell81147285/status/2014575650208936165",
+      "authorHandle": "Michell81147285",
+      "tweetId": "2014575650208936165",
+      "authorId": "1899610544942026752",
+      "retrievedOn": "2026-10-10",
+      "retrievedAt": "2026-10-10T12:44:05.312824+00:00",
+      "publishedAt": "2026-01-23T05:47:18.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "再忙，也记得好好吃饭，\n哪怕一个汉堡，也是有能量的\nNano banana pro \nInspired by @TechieBySA \n步骤：1、上传图片，粘贴prompt➡️\n              2、pro中生成图片\nprompt👇\n角色设定：你是一位精通美食摄影与视觉设计的AI提示词工程师。任务：请分析我上传的美食图片，识别菜品名称、主要食材、烹饪逻辑和大致热量。\n输出：请严格按照以下【通用提示词模板】格式，填充分析出的具体内容，生成一段用于AI绘画的提示词。\n【通用提示词模板】\n超干净的现代风食谱信息图。以极具吸引力的成品形态展示[这里填入分析出的菜品名称]，画面略带悬浮感，使用透视或倾斜视角。将食材、步骤与小贴士围绕主菜进行动态编辑式排版，不局限于俯视角。\n核心指令 (Language)：图中所有文字、标签、步骤说明必须严格使用“简体中文”显示。\n1. 食材区：\n为每种食材（[这里填入分析出的5-8种主要食材列表]）配以图标或迷你插画，并用中文标注用量。以分组、列表或环形流线的方式排列，通过视觉连线与主菜相连。\n2. 步骤区：\n用编号面板（1, 2, 3...）、箭头或线条展示制作流程（[这里填入推测的3-4个关键烹饪步骤]），在主菜周围形成清晰的逻辑动线。\n3. 补充信息（可选）：\n用中文标注：总热量（[估算卡路里]）、准备时间（[估算时间]）、烹饪时间（[估算时间]）、份量、辣度等，以简洁气泡或徽章形式呈现在主菜附近。\n4. 视觉风格：\n编辑级信息图融合生活方式美食摄影。食物色彩鲜亮自然，搭配轻微投影、干净的矢量图标、现代无衬线字体（中文黑体风格）。步骤面板可使用柔和渐变或玻璃拟态效果。强调色用于突出关键信息。\n5. 构图指南：\n成品菜肴作为视觉核心，采用透视或倾斜角度；\n食材与步骤围绕主菜动态流动；\n层级清晰：主菜 > 步骤 > 食材 > 可选数据；\n保留充足留白，整体轻盈、易读。\n6. 光影与背景：\n柔和自然的棚拍光线，极简纹理或渐变背景，营造高级编辑感。\n7. 输出规格：\n1080×1080，超清锐利，适配社交流水线展示，无水印。",
+      "start": 123,
+      "length": 771,
+      "sha256": "0a22622dc8b6565100ed5109539d522e87465dff904b7eab85108db982840d13",
+      "extraction": "Exact contiguous tweet.text prompt block; author introduction and postscript excluded; no index edits or translation.",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "tweetId": "2014575650208936165",
+          "index": 0,
+          "path": "/covers/x-2014575650208936165.jpg",
+          "url": "https://pbs.twimg.com/media/G_UwDe5bAAMnnjC.jpg?format=jpg&name=large",
+          "sha256": "9dafa54119bf10e4dd4293ee3b0a26609396f7c931d724636dcdd8513144e47f",
+          "size": 626733,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "tweetId": "2014575650208936165",
+          "index": 1,
+          "path": "/covers/x-2014575650208936165-2.jpg",
+          "url": "https://pbs.twimg.com/media/G_UwD2VXMAISyxA.jpg?format=jpg&name=large",
+          "sha256": "f08b040b97b114314756f902ead4bf97469c5ff7eacc09f13db7e3750c3308c1",
+          "size": 657937,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "tweetId": "2014575650208936165",
+          "index": 2,
+          "path": "/covers/x-2014575650208936165-3.jpg",
+          "url": "https://pbs.twimg.com/media/G_UwGembAAMhvYC.jpg?format=jpg&name=large",
+          "sha256": "9a2395dc93052719f9325bf240a7912da143806969913c32f609cc0358741106",
+          "size": 349734,
+          "width": 2048,
+          "height": 1094
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryTitle": "Generating a Food Infographic for a Hamburger",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=recipe"
+    }
+  ],
+  "supplementalBatches": [
+    {
+      "retrievedOn": "2026-10-10",
+      "baselineCount": 618,
+      "baselineCommit": "6c3075ea0ed48902c3a16a7bd78c991b304e3a24",
+      "baselineSha256": "098bf8d52ef5805f6be007192e1505e1b53b6c7d2c8af6e3b792a0575746dbd4",
+      "numbers": [
+        "619",
+        "628"
+      ],
+      "scope": "10 new-to-library knowledge illustrations, comics, and reusable explanation formats. Original publication dates 2025-12-12 through 2026-08-27.",
+      "access": {
+        "provider": "https://api.fxtwitter.com",
+        "method": "Public HTTP requests with User-Agent only; no X/Grok account session, cookies, persistent browser profile or OAuth."
+      },
+      "discovery": {
+        "originalPostsAttempted": 15,
+        "originalPostsRetrieved": 15,
+        "selected": 10
+      },
+      "publicSearchPages": [
+        {
+          "file": "search-nano-banana-pro-0.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic",
+          "sha256": "4b3e0f3b6f718cc7a5f70aa63a50a4a9d339540a11504ac585c09cbeaeb7b0d7",
+          "retrievedAt": "2026-10-10T12:40:41.002372+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-1.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational",
+          "sha256": "099e5c4c3bfba8fdbea45494ade85b5d27fb917c1b305c7451be1022eeb99c41",
+          "retrievedAt": "2026-10-10T12:40:41.043828+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-2.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=%E6%89%8B%E7%BB%98",
+          "sha256": "e955074c0a6c8916bb97470d68141e01403387bbeeca0139502096c101d9a249",
+          "retrievedAt": "2026-10-10T12:40:43.265527+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-3.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=%E7%A7%91%E6%99%AE",
+          "sha256": "a1a39aabc5597c7120731bbafc4ec3332e0e4a0580575d5ab500080038b2139f",
+          "retrievedAt": "2026-10-10T12:40:43.200849+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-4.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=biology",
+          "sha256": "94c9370634396aa11da6ec4b4d3d5633fd85c3a6b385b3720a78502b7b256e63",
+          "retrievedAt": "2026-10-10T12:40:42.073731+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-5.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=space",
+          "sha256": "dcb42287df32fccd883b1605a88c63ff57f83b8538ef12c77b187c8f1db7e0a0",
+          "retrievedAt": "2026-10-10T12:40:43.837920+00:00"
+        },
+        {
+          "file": "search-nano-banana-pro-6.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=infographic",
+          "sha256": "b501d8d0b8d6d8cadbc1ef4c649b5661fde3960ede1cf525bd70e35b67c4d67b",
+          "retrievedAt": "2026-10-10T12:40:44.949794+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-7.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=comic",
+          "sha256": "b943d4f647b6c457f630d6527ab1ce40d20e265a54bdb93a33f878b4da98e72d",
+          "retrievedAt": "2026-10-10T12:40:44.588039+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-8.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=educational",
+          "sha256": "23c9c1f73810b16fe5f0f97490402dde4a74376854ad4d9a5d70e47bfd7d0281",
+          "retrievedAt": "2026-10-10T12:40:45.444417+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-9.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E7%A7%91%E6%99%AE",
+          "sha256": "9d4abf0621ccc4d4c042e827ce685c6039663b38871787d1fbc31e1896ee64bc",
+          "retrievedAt": "2026-10-10T12:40:49.328665+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-10.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E7%9F%A5%E8%AF%86",
+          "sha256": "9b8f646ed26e3f17592da698b2506e774bdef8de59988c60d789a535c4910e99",
+          "retrievedAt": "2026-10-10T12:40:49.513277+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-11.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=infographic",
+          "sha256": "765acba025c2ee20e783abbbdea6ed886e8f643496c71c2cc4b5e70d2aca8596",
+          "retrievedAt": "2026-10-10T12:40:46.908795+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-12.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E6%B5%81%E7%A8%8B",
+          "sha256": "e11222c6af76b03ee0e80a1fcb55d197e87208429b015e97dbe983c7ab251bc6",
+          "retrievedAt": "2026-10-10T12:40:50.200333+00:00"
+        },
+        {
+          "file": "search-gpt-image-2-13.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=physics",
+          "sha256": "a63e80170e5de77acfe02f1416e7bea1853337424870e4ad2d0e9af29c5ffa89",
+          "retrievedAt": "2026-10-10T12:40:51.100685+00:00"
+        },
+        {
+          "file": "more-search-nano-banana-pro-0.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=recipe",
+          "sha256": "86c597bce8992582697ed61b0d585026d6bccb182d246d41926ffc37b9db3445",
+          "retrievedAt": "2026-10-10T12:42:51.069516+00:00"
+        },
+        {
+          "file": "more-search-nano-banana-pro-1.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=process",
+          "sha256": "61e18e3b855978849034ae196a1826264bff523de363453279a83e707bbfd68c",
+          "retrievedAt": "2026-10-10T12:42:51.816585+00:00"
+        },
+        {
+          "file": "more-search-nano-banana-pro-2.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=comparison",
+          "sha256": "5858c65c854b40a8cf55e218dc1563ef400e30fc8afc5e588eb2e9b47a930a64",
+          "retrievedAt": "2026-10-10T12:42:49.489643+00:00"
+        },
+        {
+          "file": "more-search-nano-banana-pro-3.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=handwritten",
+          "sha256": "6fa92a0b0dd644a8f0faaaa24e7e921c2d0958bd4e025c217cef747f9cd5eed2",
+          "retrievedAt": "2026-10-10T12:42:52.111590+00:00"
+        },
+        {
+          "file": "more-search-nano-banana-pro-4.html",
+          "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic%20strip",
+          "sha256": "e34d2a607dd8141f0ef208c4dca7458d70400d2364434a86d03b73bd18e4f5f2",
+          "retrievedAt": "2026-10-10T12:42:52.217870+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-5.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E6%BC%AB%E7%94%BB",
+          "sha256": "959ccda710ef9e7f0311f3b8ca93e4adf54008d5085d1774f671a42fcd88f918",
+          "retrievedAt": "2026-10-10T12:42:55.714983+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-6.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E6%95%99%E7%A8%8B",
+          "sha256": "3287ef4ca545388537a9cc7720261d5abda0e26f6644fa6a77e1739dbbc621a6",
+          "retrievedAt": "2026-10-10T12:42:55.494927+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-7.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E4%BF%A1%E6%81%AF%E5%9B%BE",
+          "sha256": "d5d80e7551e11428d5f7d9b0bb6b3a8a8af7778120ab73f8c26d492240c48e4f",
+          "retrievedAt": "2026-10-10T12:42:56.750400+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-8.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E6%89%8B%E7%BB%98",
+          "sha256": "05d0cb1d193f952f67e337294f5f94a21319f59d7681bf873be81558ef8b5889",
+          "retrievedAt": "2026-10-10T12:42:58.021501+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-9.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=comparison",
+          "sha256": "5dfffa6b393c08bc3d0fd1e6993a44056669fb3f0faea97c67847d70f3262609",
+          "retrievedAt": "2026-10-10T12:42:57.342628+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-10.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=science",
+          "sha256": "78ef46d27393107f70af1618cffec6f1d2f7770d474888bc415c80794d3e2fcc",
+          "retrievedAt": "2026-10-10T12:42:58.246217+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-11.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=recipe",
+          "sha256": "97df24f2a816370ef639af8f774426681038397d5f45d5803beaef134e5f6902",
+          "retrievedAt": "2026-10-10T12:42:58.662237+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-12.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=history",
+          "sha256": "cc643f02c1b55f4d853032fcebb236b017a82e6ce176b3e20549ef7972bf0f45",
+          "retrievedAt": "2026-10-10T12:42:59.800824+00:00"
+        },
+        {
+          "file": "more-search-gpt-image-2-13.html",
+          "url": "https://youmind.com/gpt-image-2-prompts/explore?q=explainer",
+          "sha256": "b9c4a2e17cd08508bbd95b8791eb33e551afff25f4dbcd13e0d5c9ab9bc8e13f",
+          "retrievedAt": "2026-10-10T12:42:59.716944+00:00"
+        }
+      ],
+      "exclusions": [
+        {
+          "tweetId": "2020051579710374133",
+          "reason": "Less relevant photographic recipe or near-duplicate architectural comparison not selected."
+        },
+        {
+          "tweetId": "2056635878005731729",
+          "reason": "Unclear geographic facts in the prompt; unsuitable knowledge sample."
+        },
+        {
+          "tweetId": "2096033405259682193",
+          "reason": "Less relevant photographic recipe or near-duplicate architectural comparison not selected."
+        },
+        {
+          "tweetId": "2065423373799424499",
+          "reason": "Surreal craft portrait without clear explanatory process."
+        },
+        {
+          "tweetId": "2062345530374758422",
+          "reason": "Less relevant photographic recipe or near-duplicate architectural comparison not selected."
+        }
+      ],
+      "similarity": {
+        "method": "Normalized exact prompt and source exclusion; four-word shingle Jaccard against baseline and previously selected records.",
+        "maximumAllowed": 0.85,
+        "results": [
+          {
+            "tweetId": "2004131253751369939",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "2092993830220120231",
+            "score": 0.0023094688221709007,
+            "no": "463"
+          },
+          {
+            "tweetId": "2071466852614816182",
+            "score": 0.002688172043010753,
+            "no": "063"
+          },
+          {
+            "tweetId": "2053859424540971179",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "2065106786420711534",
+            "score": 0.07751937984496124,
+            "no": "622"
+          },
+          {
+            "tweetId": "2087069691705770358",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "2017168676634628573",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "1999329921639002349",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "2021979052333015291",
+            "score": 0,
+            "no": null
+          },
+          {
+            "tweetId": "2014575650208936165",
+            "score": 0,
+            "no": null
+          }
+        ]
+      }
     }
   ]
 }
