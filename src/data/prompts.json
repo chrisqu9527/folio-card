@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 628,
+  "count": 631,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
   "categories": [
     {
@@ -23047,6 +23047,122 @@
         "/covers/x-2014575650208936165.jpg",
         "/covers/x-2014575650208936165-2.jpg",
         "/covers/x-2014575650208936165-3.jpg"
+      ]
+    },
+    {
+      "no": "629",
+      "id": "x-2108756960871067970",
+      "title": "奶凶生气握拳反差萌",
+      "kicker": "萌宠蓄力",
+      "excerpt": "基于参考图，把主体变成奶凶生气、往后握拳蓄力准备揍人的反差萌效果。",
+      "style": "3D卡通反差萌蓄力姿势",
+      "category": "feeling",
+      "scenarios": [
+        "feeling",
+        "identity"
+      ],
+      "tags": [
+        "3D卡通",
+        "反差萌",
+        "表情包",
+        "萌宠",
+        "参考图",
+        "拟人"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "nima2qisi2",
+        "name": "Dmiao豆苗啊",
+        "handle": "nima2qisi2",
+        "url": "https://x.com/nima2qisi2"
+      },
+      "sourceUrl": "https://x.com/nima2qisi2/status/2108756960871067970",
+      "model": "未标明",
+      "date": "2026-10-10",
+      "notes": "提示词逐字取自作者公开原帖。适用于玩偶、毛绒、动物或3D卡通主体，保留身份特征，强调蓄力握拳动作与奶凶表情。",
+      "prompt": "请基于我上传的参考图进行生成。\n\n【核心要求】\n严格保留上传图片中主体的身份特征、脸型、五官、发型、发色、服装、配色、材质风格、整体形象设计和角色识别度。\n如果是玩偶 / 毛绒公仔 / 动物 / 3D 卡通人物，也要保持原有的主体造型、颜色、材质和可爱感，不要替换成别的角色。\n\n将主体重新演绎为一张：\n\n“奶凶生气握拳 / 往后蓄力 / 准备揍人”的效果图。\n\n【动作要求｜最高优先级】\n这不是普通举手，也不是向前出拳。\n必须是：\n\n一只手 / 一只前爪 / 一只翅膀（根据主体自动适配）向后收紧，\n手肘向后拉开，\n拳头紧紧握住，\n位置靠近肩膀后侧或耳朵旁边，\n形成明显的“蓄力准备挥拳”的姿势。\n\n另一只手 / 前爪自然放在前方支撑身体、叉腰、或收在腰侧握拳，\n形成一种正在威胁镜头、准备教训人的动作关系。\n\n整体动作逻辑要像：\n“正在往后收拳，下一秒就要抡过来”。\n\n【表情要求】\n主体表情必须明显生气、奶凶、带威胁感，但依然保留可爱感。\n包括：\n- 眉毛压低 / 眼神变凶\n- 眼睛直盯镜头\n- 嘴角下压 / 轻微不爽\n- 如果主体没有明显眉毛，也要通过眼神、头部前探、嘴型、整体气场表现生气感\n\n整体情绪是：\n“认真生气，但因为主体本身很可爱，所以形成强烈反差萌和幽默感”。\n\n【镜头与构图】\n采用近距离、低机位、超广角 / fisheye / 自拍式镜头语言。\n镜头从主体正前方略低位置拍摄，让主体看起来更有压迫感。\n主体靠近镜头，头部或脸部略微放大，形成强互动感。\n画面重点展示：\n- 生气表情\n- 往后握拳蓄力动作\n- 身体前倾或重心压低的攻击准备姿态\n\n如果是半身主体，至少要清楚看到头部、上半身和握拳动作。\n如果是全身或小体型主体，可以完整展示身体，但仍然要突出拳头蓄力动作。\n\n【风格要求】\n整体要有：\n- 反差萌\n- 表情包感\n- 拟人化幽默\n- 强互动感\n- 戏剧化动作感\n\n如果原图是3D卡通风格，就继续保持高质量3D卡通渲染。\n如果原图是真人照片，就保持真实摄影感。\n如果原图是毛绒玩偶，就保持毛绒质感和玩偶属性。\n如果原图是动物，就做轻度拟人化，但不要失去原本物种特征。\n\n【背景要求】\n背景尽量简洁。\n可以使用：\n- 纯色背景\n- 简洁室内背景\n- 简单卧室 / 床上 / 墙面\n不要复杂场景，不要抢主体。\n\n【负面约束】\n不要普通挥手\n不要向前直拳\n不要健身展示肌肉\n不要欢呼动作\n不要开心微笑\n不要大笑卖萌\n不要恐怖暴力血腥\n不要改变主体身份\n不要改变主体主要服装和造型\n不要出现手部畸形 / 多手指 / 多肢体\n不要让动作太僵硬\n不要失去原图主体的风格特征\n\n【最终画面效果】\n生成一张主体保持原有身份与风格，但动作变成“奶凶生气、往后握拳蓄力、准备揍人”的高表现力效果图。\n重点突出：\n反差萌、拟人动作、情绪冲突、表情包传播感。",
+      "covers": [
+        "/covers/x-2108756960871067970.jpg",
+        "/covers/x-2108756960871067970-2.jpg",
+        "/covers/x-2108756960871067970-3.jpg",
+        "/covers/x-2108756960871067970-4.jpg"
+      ]
+    },
+    {
+      "no": "630",
+      "id": "x-2108935657334702300",
+      "title": "单橙点运动系统",
+      "kicker": "0关键帧",
+      "excerpt": "用一个橙色点串联切换、排版、弹簧图、形状变形、动效字和半调，做成无关键帧的运动设计成片。",
+      "style": "单点驱动的2D运动设计",
+      "category": "code",
+      "scenarios": [
+        "code",
+        "reel"
+      ],
+      "tags": [
+        "代码成片",
+        "运动设计",
+        "Opus 5.5",
+        "HTML",
+        "弹簧",
+        "循环"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "ultimaxbt",
+        "name": "ultima",
+        "handle": "ultimaxbt",
+        "url": "https://x.com/ultimaxbt"
+      },
+      "sourceUrl": "https://x.com/ultimaxbt/status/2108935657334702300",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-10",
+      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t)），非生视频模型。已有作者的明确新风格：单点驱动的完整运动系统。",
+      "prompt": "<inputs>\nAsk me for: a short label for the first toggle, one main word, a percentage for the graph, text for the final card, one accent color and a track with a clear beat.\n</inputs>\n\n<direction>\nA 2D motion design film in 16:9. Use a warm off-white canvas, near-black backgrounds, bold type and one vivid orange accent. The orange dot links every scene: it begins in the UI, becomes the dot above a letter, draws a spring graph, expands into a shape and reappears on the end card. A cursor makes the opening click feel real. Keep the movement crisp and controlled, with subtle spring overshoots and no empty pauses.\nBanned: stock footage, gradients, glows, particle bursts, arbitrary transitions and movement that doesn't grow from something already on screen.\n</direction>\n\n<structure>\nAround 15 seconds, with a visual change on every major beat.\nOpen: a cursor clicks the orange toggle beside \"Reduce Motion\". The letters bend and shift into place until only \"Motion\" remains, with the orange dot above the \"i\".\nSpring: the dot leaps away from the word and lands on a graph. Its trajectory draws a spring response, passes the target and settles next to a \"+22%\" callout.\nShape: the dot races along a line, expands into an orange circle and fills the frame. A black rounded square rotates inside it, then extends into a pill. Everything contracts into one orange dot on black.\nType: words including \"SPRINGS\", \"EASING\", \"KINETIC TYPE\", \"3D\" and \"SOUND\" circle the dot. The ring of words spreads into a field of tiny dots.\nReveal: the halftone field expands and turns black, uncovering the final card: \"Opus 5.5\", \"Motion designer.\" and \"0 keyframes\".\nReturn: the orange dot travels back through the halftone, graph and toggle. Make the last frame match the first for a seamless loop.\n</structure>\n\n<build>\n1. Use one HTML file, 1920x1080 at 60fps. Calculate every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form springs for the toggle, moving dot and graph. Draw the graph with the same spring function that controls the dot.\n3. Move the letters individually as \"Reduce Motion\" becomes \"Motion\". Keep the orange dot above the \"i\" until it jumps away.\n4. Treat the orange circle, rotating square and pill as states of one shape. Carry its position and momentum through each change.\n5. Arrange the words on a circular path, then send their letters outward to transition into the halftone grid.\n6. Draw the halftone as a dot grid whose sizes react to the orange dot. Expand it beyond the frame before showing the end card.\n7. Align the click, dot landing, graph peak, shape changes and final title with measured beats. Render one frame per beat to check timing before the full export.\n</build>\n\n<gotchas>\nThe graph and dot must share the same motion or the spring will look wrong. Use the same orange accent throughout. Time outgoing and incoming text separately so letters never overlap. When a shape fills the screen, extend it beyond all four corners. Match the cursor, dot and typography in the opening and closing frames to prevent a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, graph, kinetic type, end card) before building the full video.\n</start>",
+      "covers": [
+        "/covers/x-2108935657334702300.jpg"
+      ]
+    },
+    {
+      "no": "631",
+      "id": "x-2108933141406638456",
+      "title": "白球UI运动系统",
+      "kicker": "连续相机",
+      "excerpt": "白球穿过开关、滑块、通知、回复和键盘，用连续相机和弹簧做成UI运动成片。",
+      "style": "白球驱动的连续UI运动",
+      "category": "code",
+      "scenarios": [
+        "code",
+        "reel"
+      ],
+      "tags": [
+        "代码成片",
+        "运动设计",
+        "Opus 5.5",
+        "UI",
+        "HTML",
+        "循环"
+      ],
+      "medium": "video",
+      "use": "reel",
+      "slots": [],
+      "creator": {
+        "id": "rossaxbt",
+        "name": "testarossa",
+        "handle": "rossaxbt",
+        "url": "https://x.com/rossaxbt"
+      },
+      "sourceUrl": "https://x.com/rossaxbt/status/2108933141406638456",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-10",
+      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t) + Playwright），非生视频模型。已有作者的明确新风格：白球贯穿的连续UI世界。",
+      "prompt": "<inputs>\nAsk me for: a target value for the slider, three short notification messages, a reply to type, one accent color and a royalty-free track around 120 BPM. If I skip anything, use 100, \"Slider - Reached 100\", \"Gravity - Something is falling\", \"Messages - What now?\", \"retry\" and electric blue.\n</inputs>\n\n<direction>\nA 10-second 2D UI motion film in 16:9. Place everything on a near-black canvas with a faint dot grid. Use charcoal controls, sharp white text, one blue accent and a white ball that moves through the entire film. A real cursor makes the opening click feel physical; the ball guides each transition that follows. Keep the UI clean and the impacts precise, with only small spring overshoots. Move the camera through one continuous layout so every interaction fills the frame.\n\nBanned: hard cuts, stock footage, glows, particle bursts, disconnected transitions, excessive bouncing and blurry text during camera moves.\n</direction>\n\n<structure>\nAround 10 seconds, with something happening on every major beat.\n\nToggle: the cursor clicks a blue switch. Its white ball springs free, and the camera follows it toward a horizontal slider.\n\nSlider: the ball lands on the knob and moves it along the track. The blue fill stays attached, while a value bubble above the knob climbs to 100.\n\nNotifications: hitting 100 sends the ball onward and brings in three dark cards: \"Slider\", \"Gravity\" and \"Messages\". Each arrives on its own beat. The camera follows the ball down to \"What now?\".\n\nReply: the small \"Reply\" pill stretches into a text field. A keyboard rises below it as part of the same scene.\n\nKeyboard: the ball strikes the keys while \"retry\" appears in the field. It lands on Return, the blue send button activates and the reply contracts into a small blue message.\n\nReturn: the camera pulls back to show the toggle, slider, cards and keyboard together in one world. The ball travels back to the first switch. Match its position, the cursor and the switch state to the opening frame so the film loops cleanly.\n</structure>\n\n<build>\n1. Make one HTML file at 1920x1080 and 60fps. Calculate every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Arrange all UI components in one world. Use a single camera transform with position and log-space zoom, making each close-up a move through that world.\n3. Give the white ball one continuous route between the toggle, slider, cards and keys. Use closed-form springs for landings and a brief squash on impact.\n4. Calculate the slider fill and number from the ball's horizontal position. Keep the tooltip centered over the knob until it reaches 100.\n5. Give every key press a fixed time. Show the reply as the portion typed by that moment, so any frame can be rendered independently.\n6. Align the click, slider movement, card arrivals, key taps, send and return with measured beats. Add a subtle UI sound to each contact.\n7. Render one still per beat to check pacing and readability, then export the full film with Playwright at 60fps. Inspect fast camera moves and the loop boundary frame by frame.\n</build>\n\n<gotchas>\nNever let the ball teleport between components: show the path of every handoff. Keep the value bubble attached to the slider knob. Leave enough space for the notifications to stay readable during camera moves. The keys the ball presses must match the text appearing in the field. Match the first and last frames, including the ball's direction and cursor position, to prevent a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, slider, notifications, keyboard) before building the full video.\n</start>",
+      "covers": [
+        "/covers/x-2108933141406638456.jpg"
       ]
     }
   ],
