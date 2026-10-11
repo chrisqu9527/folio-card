@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "count": 632,
-  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code.",
+  "count": 636,
+  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636.",
   "categories": [
     {
       "id": "identity",
@@ -23205,6 +23205,156 @@
         "/covers/x-2109300899227095264.jpg"
       ],
       "visualCategory": "code"
+    },
+    {
+      "no": "633",
+      "id": "x-2109168163959234869",
+      "title": "洋葱剑切喜剧短片",
+      "kicker": "手绘动漫角色在厨房用剑切洋葱，泪水成喷泉，同伴撑伞",
+      "excerpt": "MiniMax H3 详细分镜提示词，保留角色参考，动作喜剧。",
+      "style": "手绘2D动漫厨房动作喜剧",
+      "category": "story",
+      "tags": [
+        "动漫",
+        "动作喜剧",
+        "厨房",
+        "分镜",
+        "MiniMax H3",
+        "参考生成"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [
+        "Subject 1",
+        "Subject 2",
+        "Audio 1",
+        "Audio 2"
+      ],
+      "creator": {
+        "name": "とすくん",
+        "handle": "tokyo_Valentine"
+      },
+      "sourceUrl": "https://x.com/tokyo_Valentine/status/2109168163959234869",
+      "model": "MiniMax H3",
+      "date": "2026-10-11",
+      "prompt": "subject_definitions:\n<Subject 1> is A, the black-haired heroine from <Picture 1>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Subject 2> is B, the white-haired heroine from <Picture 2>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Audio 1> is the voice-timbre reference for <Subject 1> (S1).\n<Audio 2> is the voice-timbre reference for <Subject 2> (S2).\nsummary:\n[reference generation + audio reference] Create a 15-second action-comedy using the selected aspect ratio. <Subject 1> slices one onion with spectacular sword technique, then her tears become two fountains. <Subject 2> calmly opens an umbrella inside the kitchen. End on <Subject 1>'s familiar stunned face with tears running down her cheeks. <Audio 1> and <Audio 2> guide the two assigned voices only.\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3], [Shot 4]): fully_preserved - exact character identity and reference art style; new actions and expressions.\n<Subject 2> (appears in [Shot 1], [Shot 3]): fully_preserved - exact character identity and reference art style; new actions and poses.\n<Audio 1>: reference - vocal identity and natural pitch only; no copied recording or original words.\n<Audio 2>: reference - vocal identity and natural pitch only; no copied recording or original words.\nThe images define character identities, not first frames, poses or backgrounds. Each image supplies ONE character; never reproduce reference-sheet panels or merge designs.\ndetailed_description:\nHand-drawn 2D anime heroines with clean lines and cel shading in a photorealistic modern kitchen, with soft nighttime city lights outside. Exactly two characters, one kitchen island, one onion, one cutting board, one katana and one umbrella; keep their identities and scale consistent.\n[Shot 1] A static medium two-shot shows <Subject 1> screen-left and <Subject 2> screen-right behind the island. A peeled onion with a flat base rests on the board in front of <Subject 1>. She holds the katana in her right hand; her left hand stays away from the blade. <Subject 2> holds a closed dark-purple umbrella vertically beside her.\nBetween 0.1 and 0.9 seconds, <Subject 1> (S1) confidently says in the voice timbre referenced from <Audio 1>, [Japanese] まかせて! Synchronize her lips accurately.\nShe immediately makes TWO fast downward cuts, splitting the onion into several thick pieces that stay on the board. Show blade contact clearly. Short teal slash trails, sharp swishes and cutting impacts make this look like a finishing move. The actual blade and food remain visible; no smoke or whiteout.\nBy 2.5 seconds, cutting is finished. <Subject 1> lays the katana flat behind the board, blade pointing screen-left away from <Subject 2>, and smiles proudly. The sword remains there afterward.\n\n[Shot 2] At 00:03.000, cut to a chest-up view of <Subject 1>, with the chopped onion visible below. The teal effects have faded. Her satisfied smile holds briefly.\nAt approximately 4 seconds, tears collect at both lower eyelids and run down her cheeks. The streams gradually thicken while she tries to maintain her confident expression. Keep her eyes open and her mouth silent. The crying is entirely visual: no sobs, sniffles, gasps or vocal breaths.\n[Shot 3] At 00:06.000, cut back to a static medium two-shot. Keep this shot uninterrupted until the next cut.\nThe tears visibly grow from <Subject 1>'s two lower eyelids into TWO transparent blue-white water arcs. Each remains attached to its eye, rises outward, then falls under gravity. Her eyes retain their normal anatomy and her face stays readable.\nThe left arc splashes onto the empty left counter and floor. The right arc curves toward <Subject 2>.\nAs the arcs grow, <Subject 2> lifts the SAME closed umbrella and opens it above her head. Show the canopy spreading open before the falling right arc reaches her.\nThe right stream strikes the canopy, scatters into droplets and pours from its edges. <Subject 2> remains calm beneath it. Shallow puddles form; furniture and characters stay in place.\nEvery drop originates from <Subject 1>'s eyes. The indoor shower effect is entirely eye fountains and umbrella runoff. No ceiling rain, clouds, faucets, mouth fountain or water from <Subject 2>. These are liquid streams, not magical beams.\nAt 9.5-10.4 seconds, <Subject 2> (S2) looks toward <Subject 1> and says in the relaxed voice timbre referenced from <Audio 2>, [Japanese] 雨だね. Synchronize her lips; briefly lower water sounds beneath the line.\n<Subject 1> silently looks toward the umbrella, settling into bewilderment. No falling, slipping, new action or extra joke.\n\n[Shot 4] At 00:12.000, cut to <Subject 1>'s face. The large arcs gently diminish into two thick tear streams running down her cheeks.\nHer expression is the familiar stunned, uncomprehending face: slightly widened eyes, subtly raised eyebrows, lips slightly parted and held still. Preserve normal facial proportions; no exaggerated sadness or distorted crying face.\nA small, slow push-in ends in a steady close-up. Hold the final full second with flowing tears and no speech. End directly on her face.\nThroughout the video, only the two written sentences are spoken. No narration, extra words, laughter or vocal reactions. No subtitles, readable text, logos, watermarks, HUD, extra characters, duplicate bodies, extra limbs, costume changes, injury, kitchen destruction or chibi redesign.\noverall_soundscape:\nQuiet kitchen room tone throughout. Two short sword swishes and cutting impacts during [Shot 1]. Light dripping in [Shot 2]. A watery fountain burst, one umbrella-opening pop, splashes and canopy runoff in [Shot 3]. Gentle water flow in [Shot 4]. No audible sobbing or canned laughter.\nnon_diegetic_music:\nEnergetic instrumental percussion and strings during the cutting, easing into a brief triumphant phrase afterward. Stop the music completely at the fountain burst around 6 seconds. No singing, choir or vocal samples. Afterward, only dialogue, water and room ambience.",
+      "covers": [
+        "covers/633.jpg"
+      ],
+      "visualCategory": "动漫",
+      "scenarios": [
+        "story",
+        "feeling"
+      ]
+    },
+    {
+      "no": "634",
+      "id": "x-2109055123016101968",
+      "title": "金箔天使鱼时装插画",
+      "kicker": "炭笔石墨与真金箔混合媒材，优雅女子与透明天使鱼构成裙装",
+      "excerpt": "奢华高级定制时装插画风格，金箔拼贴。",
+      "style": "金箔天使鱼混合媒材时装插画",
+      "category": "concept",
+      "tags": [
+        "时装插画",
+        "金箔",
+        "混合媒材",
+        "炭笔",
+        "优雅",
+        "超现实"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "name": "Tanvir",
+        "handle": "Tanvir48992"
+      },
+      "sourceUrl": "https://x.com/Tanvir48992/status/2109055123016101968",
+      "model": "Midjourney v6",
+      "date": "2026-10-10",
+      "prompt": "An elegant, contemporary fashion illustration in charcoal and graphite with real gold-leaf accents, showing a graceful woman in three-quarter profile, her head turned to the left and her shoulders angled away, looking off into the distance with a calm, poised, confident expression. Her skin is rendered in soft sepia-and-taupe tones with smooth airbrushed gradients and a luminous highlight on her cheekbone, nose and shoulder. She has sculpted, dewy cheeks, defined winged liner with long lashes, and full, softly glossed nude lips.\n\nHer dark hair is swept up into a loose, messy updo with a few wispy, windswept strands that spiral out into fine, looping pencil lines around her head, drawn with quick, fluid, sketchy strokes that fade into the paper.\n\nThree translucent angelfish, drawn in delicate graphite and white pencil with sheer, ghostly fins, swim around her shoulders and chest, forming a dress-like composition. Their bodies are transparent and airy, with fine detailed eyes and long, flowing fin lines trailing into the air. Their bodies are partly covered with irregular patches of shimmering real gold leaf, torn and crackled at the edges, catching the light in brilliant metallic yellow-gold. A few small flecks of gold are scattered on her shoulder and neck.\n\nBackground: a clean, warm off-white paper surface with subtle cotton-paper grain, generous negative space, with the drawing fading softly at the edges. In the lower right, a loose hand-signed gold signature stroke.\n\nComposition: vertical portrait, upper-body, asymmetrical balance between the face at the upper left and the golden fish at the lower right, with flowing lines guiding the eye.\n\nLighting: soft, diffused studio-like highlights on the skin, delicate shading under the jaw and shoulder. Color palette: ivory, warm grey, sepia-brown, charcoal black and metallic gold.\n\nStyle: luxury haute-couture fashion illustration blended with fine-art mixed media, charcoal and graphite on textured paper, real gold-leaf collage, minimalist, elegant and dreamy, ultra-detailed, gallery-quality --ar 2:3 --v 6 --style raw --s 300 --no watermark, extra fingers, distorted face, color photo, cluttered background, heavy shadows",
+      "covers": [
+        "covers/634.jpg"
+      ],
+      "visualCategory": "时装",
+      "scenarios": [
+        "concept",
+        "identity"
+      ]
+    },
+    {
+      "no": "635",
+      "id": "x-2107653056771068069",
+      "title": "皮影讲典故知识动画",
+      "kicker": "Opus 5.5 代码渲染彩色皮影戏，讲历史典故如曹冲称象",
+      "excerpt": "剪影布局、暖光透背的关节式偶戏知识视频提示词。",
+      "style": "彩色皮影戏知识动画",
+      "category": "code",
+      "tags": [
+        "代码成片",
+        "皮影",
+        "科普",
+        "历史",
+        "Opus 5.5",
+        "知识视频"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "name": "SuSu_酥酥",
+        "handle": "NFT_Chen"
+      },
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-07",
+      "prompt": "做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。",
+      "covers": [
+        "covers/635.jpg"
+      ],
+      "visualCategory": "代码",
+      "scenarios": [
+        "knowledge"
+      ]
+    },
+    {
+      "no": "636",
+      "id": "x-2107653056771068069-iso",
+      "title": "等距流程知识动画",
+      "kicker": "Opus 5.5 代码渲染等距2.5D流程动画，讲操作过程如快递分拣",
+      "excerpt": "干净可跟读的等距流程知识视频提示词。",
+      "style": "等距2.5D流程动画",
+      "category": "code",
+      "tags": [
+        "代码成片",
+        "等距",
+        "流程",
+        "科普",
+        "Opus 5.5",
+        "知识视频"
+      ],
+      "medium": "video",
+      "use": "short",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "name": "SuSu_酥酥",
+        "handle": "NFT_Chen"
+      },
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-07",
+      "prompt": "做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。",
+      "covers": [
+        "covers/636.jpg"
+      ],
+      "visualCategory": "代码",
+      "scenarios": [
+        "knowledge"
+      ]
     }
   ],
   "taxonomyVersion": 1
