@@ -23098,8 +23098,8 @@
       "style": "单点驱动的2D运动设计",
       "category": "code",
       "scenarios": [
-        "code",
-        "reel"
+        "promotion",
+        "concept"
       ],
       "tags": [
         "代码成片",
@@ -23121,11 +23121,12 @@
       "sourceUrl": "https://x.com/ultimaxbt/status/2108935657334702300",
       "model": "Claude Opus 5.5 (code)",
       "date": "2026-10-10",
-      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t)），非生视频模型。已有作者的明确新风格：单点驱动的完整运动系统。",
+      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t)），非生视频模型。已有作者的明确新风格：单点驱动的完整运动系统。 封面使用原帖视频缩略图；模型与性能标签为作者标注，本次未复现代码或生成视频。",
       "prompt": "<inputs>\nAsk me for: a short label for the first toggle, one main word, a percentage for the graph, text for the final card, one accent color and a track with a clear beat.\n</inputs>\n\n<direction>\nA 2D motion design film in 16:9. Use a warm off-white canvas, near-black backgrounds, bold type and one vivid orange accent. The orange dot links every scene: it begins in the UI, becomes the dot above a letter, draws a spring graph, expands into a shape and reappears on the end card. A cursor makes the opening click feel real. Keep the movement crisp and controlled, with subtle spring overshoots and no empty pauses.\nBanned: stock footage, gradients, glows, particle bursts, arbitrary transitions and movement that doesn't grow from something already on screen.\n</direction>\n\n<structure>\nAround 15 seconds, with a visual change on every major beat.\nOpen: a cursor clicks the orange toggle beside \"Reduce Motion\". The letters bend and shift into place until only \"Motion\" remains, with the orange dot above the \"i\".\nSpring: the dot leaps away from the word and lands on a graph. Its trajectory draws a spring response, passes the target and settles next to a \"+22%\" callout.\nShape: the dot races along a line, expands into an orange circle and fills the frame. A black rounded square rotates inside it, then extends into a pill. Everything contracts into one orange dot on black.\nType: words including \"SPRINGS\", \"EASING\", \"KINETIC TYPE\", \"3D\" and \"SOUND\" circle the dot. The ring of words spreads into a field of tiny dots.\nReveal: the halftone field expands and turns black, uncovering the final card: \"Opus 5.5\", \"Motion designer.\" and \"0 keyframes\".\nReturn: the orange dot travels back through the halftone, graph and toggle. Make the last frame match the first for a seamless loop.\n</structure>\n\n<build>\n1. Use one HTML file, 1920x1080 at 60fps. Calculate every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Use closed-form springs for the toggle, moving dot and graph. Draw the graph with the same spring function that controls the dot.\n3. Move the letters individually as \"Reduce Motion\" becomes \"Motion\". Keep the orange dot above the \"i\" until it jumps away.\n4. Treat the orange circle, rotating square and pill as states of one shape. Carry its position and momentum through each change.\n5. Arrange the words on a circular path, then send their letters outward to transition into the halftone grid.\n6. Draw the halftone as a dot grid whose sizes react to the orange dot. Expand it beyond the frame before showing the end card.\n7. Align the click, dot landing, graph peak, shape changes and final title with measured beats. Render one frame per beat to check timing before the full export.\n</build>\n\n<gotchas>\nThe graph and dot must share the same motion or the spring will look wrong. Use the same orange accent throughout. Time outgoing and incoming text separately so letters never overlap. When a shape fills the screen, extend it beyond all four corners. Match the cursor, dot and typography in the opening and closing frames to prevent a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, graph, kinetic type, end card) before building the full video.\n</start>",
       "covers": [
         "/covers/x-2108935657334702300.jpg"
-      ]
+      ],
+      "visualCategory": "code"
     },
     {
       "no": "631",
@@ -23136,8 +23137,7 @@
       "style": "白球驱动的连续UI运动",
       "category": "code",
       "scenarios": [
-        "code",
-        "reel"
+        "promotion"
       ],
       "tags": [
         "代码成片",
@@ -23159,11 +23159,12 @@
       "sourceUrl": "https://x.com/rossaxbt/status/2108933141406638456",
       "model": "Claude Opus 5.5 (code)",
       "date": "2026-10-10",
-      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t) + Playwright），非生视频模型。已有作者的明确新风格：白球贯穿的连续UI世界。",
+      "notes": "提示词逐字取自作者公开原帖。成片由模型写代码渲染（HTML + seek(t) + Playwright），非生视频模型。已有作者的明确新风格：白球贯穿的连续UI世界。 封面使用原帖视频缩略图；模型与性能标签为作者标注，本次未复现代码或生成视频。",
       "prompt": "<inputs>\nAsk me for: a target value for the slider, three short notification messages, a reply to type, one accent color and a royalty-free track around 120 BPM. If I skip anything, use 100, \"Slider - Reached 100\", \"Gravity - Something is falling\", \"Messages - What now?\", \"retry\" and electric blue.\n</inputs>\n\n<direction>\nA 10-second 2D UI motion film in 16:9. Place everything on a near-black canvas with a faint dot grid. Use charcoal controls, sharp white text, one blue accent and a white ball that moves through the entire film. A real cursor makes the opening click feel physical; the ball guides each transition that follows. Keep the UI clean and the impacts precise, with only small spring overshoots. Move the camera through one continuous layout so every interaction fills the frame.\n\nBanned: hard cuts, stock footage, glows, particle bursts, disconnected transitions, excessive bouncing and blurry text during camera moves.\n</direction>\n\n<structure>\nAround 10 seconds, with something happening on every major beat.\n\nToggle: the cursor clicks a blue switch. Its white ball springs free, and the camera follows it toward a horizontal slider.\n\nSlider: the ball lands on the knob and moves it along the track. The blue fill stays attached, while a value bubble above the knob climbs to 100.\n\nNotifications: hitting 100 sends the ball onward and brings in three dark cards: \"Slider\", \"Gravity\" and \"Messages\". Each arrives on its own beat. The camera follows the ball down to \"What now?\".\n\nReply: the small \"Reply\" pill stretches into a text field. A keyboard rises below it as part of the same scene.\n\nKeyboard: the ball strikes the keys while \"retry\" appears in the field. It lands on Return, the blue send button activates and the reply contracts into a small blue message.\n\nReturn: the camera pulls back to show the toggle, slider, cards and keyboard together in one world. The ball travels back to the first switch. Match its position, the cursor and the switch state to the opening frame so the film loops cleanly.\n</structure>\n\n<build>\n1. Make one HTML file at 1920x1080 and 60fps. Calculate every visual from time inside seek(t): no CSS transitions, timers or state carried between frames.\n2. Arrange all UI components in one world. Use a single camera transform with position and log-space zoom, making each close-up a move through that world.\n3. Give the white ball one continuous route between the toggle, slider, cards and keys. Use closed-form springs for landings and a brief squash on impact.\n4. Calculate the slider fill and number from the ball's horizontal position. Keep the tooltip centered over the knob until it reaches 100.\n5. Give every key press a fixed time. Show the reply as the portion typed by that moment, so any frame can be rendered independently.\n6. Align the click, slider movement, card arrivals, key taps, send and return with measured beats. Add a subtle UI sound to each contact.\n7. Render one still per beat to check pacing and readability, then export the full film with Playwright at 60fps. Inspect fast camera moves and the loop boundary frame by frame.\n</build>\n\n<gotchas>\nNever let the ball teleport between components: show the path of every handoff. Keep the value bubble attached to the slider knob. Leave enough space for the notifications to stay readable during camera moves. The keys the ball presses must match the text appearing in the field. Match the first and last frames, including the ball's direction and cursor position, to prevent a loop stutter.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the beat map and four stills (toggle, slider, notifications, keyboard) before building the full video.\n</start>",
       "covers": [
         "/covers/x-2108933141406638456.jpg"
-      ]
+      ],
+      "visualCategory": "code"
     }
   ],
   "taxonomyVersion": 1
