@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 636,
+  "count": 647,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636.",
   "categories": [
     {
@@ -23231,21 +23231,24 @@
         "Audio 2"
       ],
       "creator": {
+        "id": "tokyo_Valentine",
         "name": "とすくん",
-        "handle": "tokyo_Valentine"
+        "handle": "tokyo_Valentine",
+        "url": "https://x.com/tokyo_Valentine"
       },
       "sourceUrl": "https://x.com/tokyo_Valentine/status/2109168163959234869",
       "model": "MiniMax H3",
       "date": "2026-10-11",
       "prompt": "subject_definitions:\n<Subject 1> is A, the black-haired heroine from <Picture 1>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Subject 2> is B, the white-haired heroine from <Picture 2>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Audio 1> is the voice-timbre reference for <Subject 1> (S1).\n<Audio 2> is the voice-timbre reference for <Subject 2> (S2).\nsummary:\n[reference generation + audio reference] Create a 15-second action-comedy using the selected aspect ratio. <Subject 1> slices one onion with spectacular sword technique, then her tears become two fountains. <Subject 2> calmly opens an umbrella inside the kitchen. End on <Subject 1>'s familiar stunned face with tears running down her cheeks. <Audio 1> and <Audio 2> guide the two assigned voices only.\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3], [Shot 4]): fully_preserved - exact character identity and reference art style; new actions and expressions.\n<Subject 2> (appears in [Shot 1], [Shot 3]): fully_preserved - exact character identity and reference art style; new actions and poses.\n<Audio 1>: reference - vocal identity and natural pitch only; no copied recording or original words.\n<Audio 2>: reference - vocal identity and natural pitch only; no copied recording or original words.\nThe images define character identities, not first frames, poses or backgrounds. Each image supplies ONE character; never reproduce reference-sheet panels or merge designs.\ndetailed_description:\nHand-drawn 2D anime heroines with clean lines and cel shading in a photorealistic modern kitchen, with soft nighttime city lights outside. Exactly two characters, one kitchen island, one onion, one cutting board, one katana and one umbrella; keep their identities and scale consistent.\n[Shot 1] A static medium two-shot shows <Subject 1> screen-left and <Subject 2> screen-right behind the island. A peeled onion with a flat base rests on the board in front of <Subject 1>. She holds the katana in her right hand; her left hand stays away from the blade. <Subject 2> holds a closed dark-purple umbrella vertically beside her.\nBetween 0.1 and 0.9 seconds, <Subject 1> (S1) confidently says in the voice timbre referenced from <Audio 1>, [Japanese] まかせて! Synchronize her lips accurately.\nShe immediately makes TWO fast downward cuts, splitting the onion into several thick pieces that stay on the board. Show blade contact clearly. Short teal slash trails, sharp swishes and cutting impacts make this look like a finishing move. The actual blade and food remain visible; no smoke or whiteout.\nBy 2.5 seconds, cutting is finished. <Subject 1> lays the katana flat behind the board, blade pointing screen-left away from <Subject 2>, and smiles proudly. The sword remains there afterward.\n\n[Shot 2] At 00:03.000, cut to a chest-up view of <Subject 1>, with the chopped onion visible below. The teal effects have faded. Her satisfied smile holds briefly.\nAt approximately 4 seconds, tears collect at both lower eyelids and run down her cheeks. The streams gradually thicken while she tries to maintain her confident expression. Keep her eyes open and her mouth silent. The crying is entirely visual: no sobs, sniffles, gasps or vocal breaths.\n[Shot 3] At 00:06.000, cut back to a static medium two-shot. Keep this shot uninterrupted until the next cut.\nThe tears visibly grow from <Subject 1>'s two lower eyelids into TWO transparent blue-white water arcs. Each remains attached to its eye, rises outward, then falls under gravity. Her eyes retain their normal anatomy and her face stays readable.\nThe left arc splashes onto the empty left counter and floor. The right arc curves toward <Subject 2>.\nAs the arcs grow, <Subject 2> lifts the SAME closed umbrella and opens it above her head. Show the canopy spreading open before the falling right arc reaches her.\nThe right stream strikes the canopy, scatters into droplets and pours from its edges. <Subject 2> remains calm beneath it. Shallow puddles form; furniture and characters stay in place.\nEvery drop originates from <Subject 1>'s eyes. The indoor shower effect is entirely eye fountains and umbrella runoff. No ceiling rain, clouds, faucets, mouth fountain or water from <Subject 2>. These are liquid streams, not magical beams.\nAt 9.5-10.4 seconds, <Subject 2> (S2) looks toward <Subject 1> and says in the relaxed voice timbre referenced from <Audio 2>, [Japanese] 雨だね. Synchronize her lips; briefly lower water sounds beneath the line.\n<Subject 1> silently looks toward the umbrella, settling into bewilderment. No falling, slipping, new action or extra joke.\n\n[Shot 4] At 00:12.000, cut to <Subject 1>'s face. The large arcs gently diminish into two thick tear streams running down her cheeks.\nHer expression is the familiar stunned, uncomprehending face: slightly widened eyes, subtly raised eyebrows, lips slightly parted and held still. Preserve normal facial proportions; no exaggerated sadness or distorted crying face.\nA small, slow push-in ends in a steady close-up. Hold the final full second with flowing tears and no speech. End directly on her face.\nThroughout the video, only the two written sentences are spoken. No narration, extra words, laughter or vocal reactions. No subtitles, readable text, logos, watermarks, HUD, extra characters, duplicate bodies, extra limbs, costume changes, injury, kitchen destruction or chibi redesign.\noverall_soundscape:\nQuiet kitchen room tone throughout. Two short sword swishes and cutting impacts during [Shot 1]. Light dripping in [Shot 2]. A watery fountain burst, one umbrella-opening pop, splashes and canopy runoff in [Shot 3]. Gentle water flow in [Shot 4]. No audible sobbing or canned laughter.\nnon_diegetic_music:\nEnergetic instrumental percussion and strings during the cutting, easing into a brief triumphant phrase afterward. Stop the music completely at the fountain burst around 6 seconds. No singing, choir or vocal samples. Afterward, only dialogue, water and room ambience.",
       "covers": [
-        "covers/633.jpg"
+        "/covers/633.jpg"
       ],
       "visualCategory": "动漫",
       "scenarios": [
         "story",
         "feeling"
-      ]
+      ],
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成图片或视频，模型标签按原帖及已有记录保留。"
     },
     {
       "no": "634",
@@ -23266,21 +23269,24 @@
       "medium": "image",
       "slots": [],
       "creator": {
-        "name": "Tanvir",
-        "handle": "Tanvir48992"
+        "id": "Tanvir48992",
+        "name": "Tanvir 🫎",
+        "handle": "Tanvir48992",
+        "url": "https://x.com/Tanvir48992"
       },
       "sourceUrl": "https://x.com/Tanvir48992/status/2109055123016101968",
       "model": "Midjourney v6",
       "date": "2026-10-10",
       "prompt": "An elegant, contemporary fashion illustration in charcoal and graphite with real gold-leaf accents, showing a graceful woman in three-quarter profile, her head turned to the left and her shoulders angled away, looking off into the distance with a calm, poised, confident expression. Her skin is rendered in soft sepia-and-taupe tones with smooth airbrushed gradients and a luminous highlight on her cheekbone, nose and shoulder. She has sculpted, dewy cheeks, defined winged liner with long lashes, and full, softly glossed nude lips.\n\nHer dark hair is swept up into a loose, messy updo with a few wispy, windswept strands that spiral out into fine, looping pencil lines around her head, drawn with quick, fluid, sketchy strokes that fade into the paper.\n\nThree translucent angelfish, drawn in delicate graphite and white pencil with sheer, ghostly fins, swim around her shoulders and chest, forming a dress-like composition. Their bodies are transparent and airy, with fine detailed eyes and long, flowing fin lines trailing into the air. Their bodies are partly covered with irregular patches of shimmering real gold leaf, torn and crackled at the edges, catching the light in brilliant metallic yellow-gold. A few small flecks of gold are scattered on her shoulder and neck.\n\nBackground: a clean, warm off-white paper surface with subtle cotton-paper grain, generous negative space, with the drawing fading softly at the edges. In the lower right, a loose hand-signed gold signature stroke.\n\nComposition: vertical portrait, upper-body, asymmetrical balance between the face at the upper left and the golden fish at the lower right, with flowing lines guiding the eye.\n\nLighting: soft, diffused studio-like highlights on the skin, delicate shading under the jaw and shoulder. Color palette: ivory, warm grey, sepia-brown, charcoal black and metallic gold.\n\nStyle: luxury haute-couture fashion illustration blended with fine-art mixed media, charcoal and graphite on textured paper, real gold-leaf collage, minimalist, elegant and dreamy, ultra-detailed, gallery-quality --ar 2:3 --v 6 --style raw --s 300 --no watermark, extra fingers, distorted face, color photo, cluttered background, heavy shadows",
       "covers": [
-        "covers/634.jpg"
+        "/covers/634.jpg"
       ],
       "visualCategory": "时装",
       "scenarios": [
         "concept",
         "identity"
-      ]
+      ],
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成图片或视频，模型标签按原帖及已有记录保留。"
     },
     {
       "no": "635",
@@ -23304,20 +23310,23 @@
         "主题"
       ],
       "creator": {
-        "name": "SuSu_酥酥",
-        "handle": "NFT_Chen"
+        "id": "NFT_Chen",
+        "name": "SuSu_酥酥👅",
+        "handle": "NFT_Chen",
+        "url": "https://x.com/NFT_Chen"
       },
       "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
       "model": "Claude Opus 5.5 (code)",
       "date": "2026-10-07",
       "prompt": "做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。",
       "covers": [
-        "covers/635.jpg"
+        "/covers/635.jpg"
       ],
-      "visualCategory": "代码",
+      "visualCategory": "code",
       "scenarios": [
         "knowledge"
-      ]
+      ],
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成图片或视频，模型标签按原帖及已有记录保留。 与636／635同属一个公开原帖的不同模板；预览为合集视频画面，未逐一复现。主题中的历史叙述或流程需要按使用内容另行校对。"
     },
     {
       "no": "636",
@@ -23341,19 +23350,455 @@
         "主题"
       ],
       "creator": {
-        "name": "SuSu_酥酥",
-        "handle": "NFT_Chen"
+        "id": "NFT_Chen",
+        "name": "SuSu_酥酥👅",
+        "handle": "NFT_Chen",
+        "url": "https://x.com/NFT_Chen"
       },
       "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
       "model": "Claude Opus 5.5 (code)",
       "date": "2026-10-07",
       "prompt": "做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。",
       "covers": [
-        "covers/636.jpg"
+        "/covers/636.jpg"
       ],
-      "visualCategory": "代码",
+      "visualCategory": "code",
       "scenarios": [
         "knowledge"
+      ],
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成图片或视频，模型标签按原帖及已有记录保留。 与636／635同属一个公开原帖的不同模板；预览为合集视频画面，未逐一复现。主题中的历史叙述或流程需要按使用内容另行校对。"
+    },
+    {
+      "no": "637",
+      "id": "x-2109289165485482360",
+      "title": "家居景物双重地貌",
+      "kicker": "物体双重身份",
+      "excerpt": "让床铺、早餐桌或浴缸的形态同时读作山脉、沙漠和海岸，以尺度变化组织画面。",
+      "style": "家居场景即广阔地貌的超现实摄影",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "concept"
+      ],
+      "tags": [
+        "超现实",
+        "静物",
+        "地貌",
+        "双重身份",
+        "电影感摄影"
+      ],
+      "medium": "image",
+      "slots": [
+        "DOMESTIC SCENE",
+        "VAST LANDSCAPE"
+      ],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2109289165485482360",
+      "model": "未标明",
+      "date": "2026-10-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。从远端孤立的637号单条文件恢复到主库，保留编号；末句按实际原帖的 HDR halos 校正。此条为既有记录补齐，不计本次科普采集新增。画面为尺度隐喻，没有真实地貌测量含义。",
+      "prompt": "2x2 grid, 16:9, AI picks subject: { Anchor: A [DOMESTIC SCENE (e.g., unmade bed / breakfast table / bathtub)] that is simultaneously a [VAST LANDSCAPE (e.g., alpine range / desert dunes / arctic coast)], photographed as a real place where the same forms read as both ::4\nMorphology: Duvet folds are ridgelines with true geological scale, a pillow is the snow-capped summit with wind-blown spindrift, a tiny hiker and glowing tent give scale on the slopes, and a coffee mug at the edge, steam rising like a distant weather front, reminds you it's a bed. Every form has dual identity. Camera at surface level, as if lying on the fabric, with deep atmospheric haze layering the distant folds ::3\nMaterial Physics: Real cotton weave visible as terrain texture, individual fibers and lint catching light like scrub on a hillside, practical haze hanging in the air, true macro scale cues, physically accurate light falloff ::3\nIllumination: Low golden window light acting as sunrise cresting the ridge, volumetric god rays through the haze, long soft shadows pooling in the valleys, cool blue ambient fill in the shaded folds ::2\nRender Stack: Hyper-realistic cinematic still, shot on ARRI Alexa 65 with a probe lens, tilt-shift selective focus, Kodak Vision3 film grain, 2.39:1 anamorphic frame, Magritte-adjacent quiet surrealism ::1\nNegative: [collage seams, giant person standing in a landscape, two separate images blended, Photoshop composite look, illustration, painting, CGI plastic look, oversaturation, HDR halos, text] ::-1 }",
+      "covers": [
+        "/covers/x-2109289165485482360.jpg"
+      ]
+    },
+    {
+      "no": "638",
+      "id": "x-2053770171161235845",
+      "title": "博士角色的趣味科学漫画",
+      "kicker": "漫画式问题推演",
+      "excerpt": "用博士、挑战者、数值框、公式和六段分格，将一个问题铺开为一页科学风漫画。",
+      "style": "复古学习漫画与手绘科学图解",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "科普漫画",
+        "博士",
+        "多格",
+        "手绘箭头",
+        "公式",
+        "反事实"
+      ],
+      "medium": "image",
+      "slots": [
+        "バナナの皮で車をスリップさせるには何枚必要？"
+      ],
+      "creator": {
+        "id": "SSSS_CRYPTOMAN",
+        "name": "SSSS.CRYPTOMAN⚡️AI",
+        "handle": "SSSS_CRYPTOMAN",
+        "url": "https://x.com/SSSS_CRYPTOMAN"
+      },
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2053770171161235845",
+      "model": "GPT Image 2（作者标注）",
+      "date": "2026-05-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。日文原文与原帖示例保留。作者定位为空想科学趣味读物，明确允许超人设定及虚构参数；数值和结论不是实验或计算验证结果。用于严肃科普时，需要另换成有依据的主题与参数。",
+      "prompt": "コミカルな科学解説イラストを作成。 検証テーマは「バナナの皮で車をスリップさせるには何枚必要？」\n\nバカバカしい疑問を、大真面目に科学と計算で検証する、縦長A4の漫画風インフォグラフィック。 白背景、太い黒線、赤・青・黄色の強調色。少しレトロな学習漫画、理科参考書、科学コラム風のデザイン。 博士キャラ、驚く人物、吹き出し、手描き矢印、赤ペン注釈、黒板風の数式枠を使う。 全体は「くだらない疑問を物理で全力検証する」雰囲気で、深刻すぎず、楽しく、勢いのある紙面にする。\n\n構成：\n\n1. \nテーマの状況を大げさでバカバカしく、ひと目で伝わるように描く。 登場人物は本気で挑戦しているが、見た目はかなり無茶。 博士が横からツッコミを入れる。\n\n2. 現実の数字で考える\n速度・時間・距離・重さ・力・温度・エネルギーなど、テーマに関係する重要な数値を3〜4個のボックスで表示。 比較図やタイムラインを入れて、「人間の感覚」と「現象のスケール」のズレを分かりやすく見せる。\n\n3. 数式コーナー\n黒板風の枠に、必要条件や比較式を大きく描く。 例： 「必要能力 ＞ 人間の限界」 「反応時間 ＜ 現象が起こる時間」 「必要な力・速度・耐久力 ≫ 普通の人間」 数式は厳密すぎなくてよく、直感的でわかりやすくする。\n\n4. 実現は無理？\n問題点を3つの小コマで説明。 例： ① 速すぎる / 重すぎる / 熱すぎる ② 精度がシビアすぎる ③ 成功しても身体がもたない / 周囲が大変なことになる コミカルな失敗イラスト、擬音、吹き出しを入れる。\n\n5. もし実現したらどうなる？\nここを重要にする。 もし本当に成功させるなら、どんな超人的・空想科学的能力が必要かを図解する。 たとえば、超反射神経、未来予測、異常な握力、超高速視覚、空気抵抗を無視する身体能力、衝撃に耐える骨格など。 必要なら「反応速度0.0001秒」「握力3000kg」「動体視力が戦闘機パイロットの数十倍」など、科学的に実現不可能な数字でもOK。 さらに、実現した瞬間に何が起きるかも描く。 例：腕が吹き飛ぶほどの衝撃、地面にめり込む、周囲に衝撃波、本人だけ平然としている、など。 “成功したらそれはもう人間ではない”感じを面白く出す。\n\n6. 結論\n赤い強調枠で大きく結論を書く。 「結論：〇〇は普通の人間にはほぼ不可能！」 または 「実現できたとしても、それは超人・改造人間・空想科学レベル！」 本文では、現実の人間では無理だが、空想科学的な能力を与えれば成立する、という形でまとめる。\n\nデザイン指定： 漫画のコマ割り＋理科の図解＋博士の解説。 太い見出し、赤丸、強調線、手描きメモ、吹き出しを多用。 数式や数値は大きく見やすく、子どもにも直感的に伝わるようにする。 全体として、バカバカしいのに妙に納得感がある、おもしろ科学読み物の1ページのように仕上げる。",
+      "covers": [
+        "/covers/x-2053770171161235845.jpg"
+      ]
+    },
+    {
+      "no": "639",
+      "id": "x-2002187028990222602",
+      "title": "参考角色的机械结构剖面图",
+      "kicker": "角色内部结构",
+      "excerpt": "保留参考角色的外形，以半透明右半身、机械部件和引出线讲解组成部分。",
+      "style": "Q版角色与方格纸机械蓝图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "结构图解",
+        "参考角色",
+        "Q版",
+        "剖面",
+        "蓝图",
+        "引出线"
+      ],
+      "medium": "image",
+      "slots": [
+        "キャラクターの特徴"
+      ],
+      "creator": {
+        "id": "schnapoon",
+        "name": "シュナプーン",
+        "handle": "schnapoon",
+        "url": "https://x.com/schnapoon"
+      },
+      "sourceUrl": "https://x.com/schnapoon/status/2002187028990222602",
+      "model": "Nano Banana Pro（作者标注）",
+      "date": "2025-12-20",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。需要角色参考图。原帖两张图分别为输入角色和机器人输出，仅将输出剖面图放入正式预览。结构是玩具机器人设定，不是真实工程设计；原文要求英文解说。",
+      "prompt": "【キャラクター設定】\n※ここを描きたいキャラクターの外見に書き換えてください\n[キャラクターの特徴]: 茶色のツインテール、マントを羽織っている女の子\n\n【画像生成の指示】\nスタイルの定義:\n- アニメ調のキャラクターイラストと、工業製品のテクニカルイラスト（設計図）を融合させたスタイル。\n- 背景は白または無地。インフォグラフィック風のレイアウト。\n\nポーズと構図:\n- アイソメトリックな構図\n- 2頭身から3頭身のデフォルメ（ちびキャラ）スタイル\n- 手足の形状: 肘や膝、手首、足首の関節は描かない。指や細かな関節は描かず、先端がまたはミトン型のシンプルな形状にする。つるんとした「ぬいぐるみの手足」を再現する。\n- 顔の造形: 鼻や口は描かず、「目」だけを配置する。目は縦長の楕円形（縦長の丸）で描き、シンプルなセンサーのような見た目にする。目の色は参照画像に合わせる。\n- 服装の描写: 左半分は参照画像の服（マント、シャツ、ズボン、靴など）を普通に着ているが、右半分のカットアウェイ部分は、服の断面とその下のメカが同時に見えるように描く。\n- キャラクターの全身が見える立ち姿。\n- 身体の右半分の外装（皮膚や服）が半透明に透けており、内部の機械構造が見えている「内部透視図」にする。\n\n内部構造のディテール:\n- 頭部: 縦長の目の奥にはカメラレンズの構造が見える。口の裏にはスピーカーユニットがある。脳は電子基板で構成されている。\n- 胴体: 丸い手足の中には、太い油圧シリンダーや大きな歯車、球体関節がぎっしりと詰まっている。\n- 背中: 背中には大きめの「ゼンマイ回し（Wind-up key）」が刺さっており、レトロな玩具の雰囲気を持たせる。\n\n注釈と解説（装飾）:\n- 内部構造の主要なメカパーツ（脳、目、耳、腕、脚）から引出線（線）が伸びており、その先に詳細な解説テキストが英語で配置されている。\n- 全体として「丸くて愛嬌があるが、中身は精密機械であるロボットの設計図」のように仕上げる。\n\nスタイル:\n- アスペクト比: 縦長（A4用紙比率に近い Vertical 形式）\n- 背景: 方眼紙（グリッドノート）のテクスチャ。",
+      "covers": [
+        "/covers/x-2002187028990222602-2.jpg"
+      ]
+    },
+    {
+      "no": "640",
+      "id": "x-1999327332100915615",
+      "title": "角色下厨的甜甜圈步骤漫画",
+      "kicker": "人物操作步骤",
+      "excerpt": "让同一角色亲自执行每一步，将材料、操作与人物表情排列成漫画式制作流程。",
+      "style": "角色一致的横版料理步骤漫画",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "知识漫画",
+        "步骤",
+        "料理",
+        "角色一致",
+        "材料",
+        "流程"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "schnapoon",
+        "name": "シュナプーン",
+        "handle": "schnapoon",
+        "url": "https://x.com/schnapoon"
+      },
+      "sourceUrl": "https://x.com/schnapoon/status/1999327332100915615",
+      "model": "Nano Banana Pro（作者标注）",
+      "date": "2025-12-12",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。需要参考角色；原文包含初心者完整提示和熟练角色的局部替换指令，两张示例对应这两种角色设定。材料分量与步骤未经实际制作验证，作为讲解版式参考。",
+      "prompt": "基本のオールドファッションドーナツの各工程を参考写真のキャラクターが実行する画像を作成し、インフォグラフィックスにしてください。\n\nキャラクターは料理初心者で、苦労しながら工程を進めている画像にしてください。\n\nセリフは不要です。\n\n各工程には詳細な説明を表示してください。\n\nアスペクト比2:1\n\nタイトル、材料、工程の三段構成\n\nタイトル：基本のオールドファッションドーナツの作り方\n\n材料と分量をイラスト付きで表示\n\n漫画風の工程フロー\n\nプロンプト（料理得意バージョン）：\n\nキャラクターは～部分を変更\n\nキャラクターは料理が得意で楽々工程を進めている画像にしてください。",
+      "covers": [
+        "/covers/x-1999327332100915615.jpg",
+        "/covers/x-1999327332100915615-2.jpg"
+      ]
+    },
+    {
+      "no": "641",
+      "id": "x-1992060195691024862",
+      "title": "物理英语与诗词的情景学习卡",
+      "kicker": "三类知识卡",
+      "excerpt": "分别用原理图、生活人物对话与诗句场景，组织物理、英语和古诗学习卡片。",
+      "style": "人物场景与语言知识栏学习卡",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "学习卡",
+        "物理",
+        "英语",
+        "古诗",
+        "人物对话",
+        "批量"
+      ],
+      "medium": "image",
+      "slots": [
+        "12",
+        "10"
+      ],
+      "creator": {
+        "id": "xiaohu",
+        "name": "小互",
+        "handle": "xiaohu",
+        "url": "https://x.com/xiaohu"
+      },
+      "sourceUrl": "https://x.com/xiaohu/status/1992060195691024862",
+      "model": "Nano Banana Pro（作者标注）",
+      "date": "2025-11-22",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原帖提供三组简短指令，本条保留整个原文提示块；配图只演示英语就医对话卡，不能称三类内容均有展示图。原作者现账号为 @xiaohu，发现页仍用旧路径 @imxiaohu；原帖链接按实际作者记录。批量效率说法未测试，词义音标与诗词文字应另校对。",
+      "prompt": "物理定律提示词：给我生成初中课本上的所有物理定律信息图，每个一张图，要求通俗易懂，初中生能看懂好理解的内容。\n\n英语卡片提示词：帮我生成英语学习卡片，每个一张，以生活场景来展现，比如点单、旅行问路、酒店、机场check in等各种常用场景，每张包含人物对话情景和主要常用的语句，同时给我列举主要的单词（包音标、意思等）来个12个场景先看看。\n\n诗词卡片提示词：给我来10首著名的唐诗学习卡片，图像包含唐诗全文，同时画面要和诗句的内容相吻合，意境契合，方便学生理解诗文的背景和意境，有简单的中文注释。",
+      "covers": [
+        "/covers/x-1992060195691024862.jpg"
+      ]
+    },
+    {
+      "no": "642",
+      "id": "x-1991786129046044735",
+      "title": "红黑手绘的知识要点卡",
+      "kicker": "纸感知识表达",
+      "excerpt": "用红黑标题、二至四个内容小节、人物与象征插画，组织一张竖版知识卡。",
+      "style": "纸纹毛笔标题与手绘插画知识卡",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "opinion"
+      ],
+      "tags": [
+        "手绘",
+        "知识卡",
+        "中文",
+        "纸感",
+        "红黑",
+        "人物插画"
+      ],
+      "medium": "image",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "id": "dotey",
+        "name": "宝玉",
+        "handle": "dotey",
+        "url": "https://x.com/dotey"
+      },
+      "sourceUrl": "https://x.com/dotey/status/1991786129046044735",
+      "model": "Nano Banana Pro（发现页标注）",
+      "date": "2025-11-21",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原帖主题是长期经营IP的观点，作为可复用的知识表达画风收录；原文中的99%及必有结果说法不是统计核验结论。保留中文草书要求，主题可按内容改编。",
+      "prompt": "创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。\n\n卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。\n\n卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。\n\n主题是：“做IP是长期复利，坚持每日出摊，持续做，肯定会有结果，因为99%都坚持不住的。”",
+      "covers": [
+        "/covers/x-1991786129046044735.jpg"
+      ]
+    },
+    {
+      "no": "643",
+      "id": "x-1997283261064925190",
+      "title": "浮世绘与茶杯头的知识信息图",
+      "kicker": "复古角色讲解",
+      "excerpt": "用浮世绘画面与茶杯头式卡通角色，将提供的内容组织成一页信息图。",
+      "style": "浮世绘与复古卡通角色信息图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普漫画",
+        "浮世绘",
+        "茶杯头",
+        "复古",
+        "人物",
+        "信息图"
+      ],
+      "medium": "image",
+      "slots": [
+        "下面的内容"
+      ],
+      "creator": {
+        "id": "op7418",
+        "name": "歸藏(guizang.ai)",
+        "handle": "op7418",
+        "url": "https://x.com/op7418"
+      },
+      "sourceUrl": "https://x.com/op7418/status/1997283261064925190",
+      "model": "Nano Banana Pro（作者标注）",
+      "date": "2025-12-06",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。这是作者实际给出的短提示词，需要另外提供知识内容。配图是AI模型报告示例，仅用于观察画风与版式；没有测试图中产品数据，不作为当前模型排名或价格信息。",
+      "prompt": "用浮世绘+茶杯头的风格为下面的内容生成信息图",
+      "covers": [
+        "/covers/x-1997283261064925190.jpg"
+      ]
+    },
+    {
+      "no": "644",
+      "id": "x-2009610203654947155",
+      "title": "发光解剖结构的生物图解",
+      "kicker": "结构与重点",
+      "excerpt": "用蓝色结构线与红橙重点，将生物组成和重点部位组织成暗底说明图。",
+      "style": "蓝色发光结构线与标注生物图解",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "科普",
+        "生物",
+        "解剖",
+        "结构",
+        "引出线",
+        "蓝色"
+      ],
+      "medium": "image",
+      "slots": [
+        "SUBJECT",
+        "SYSTEM/ANATOMY",
+        "BACKGROUND_CONTEXT",
+        "KEY_FEATURES",
+        "SPECIFIC_PART",
+        "REASON_FOR_EMPHASIS",
+        "AESTHETIC_QUALITY",
+        "TECHNICAL_REFERENCE"
+      ],
+      "creator": {
+        "id": "umesh_ai",
+        "name": "Umesh",
+        "handle": "umesh_ai",
+        "url": "https://x.com/umesh_ai"
+      },
+      "sourceUrl": "https://x.com/umesh_ai/status/2009610203654947155",
+      "model": "Nano Banana Pro（作者标题）；LeonardoAI（作者生成备注）",
+      "date": "2026-01-09",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。保留通用模板、填槽清单和大白鲨示例的连续原文。原帖四张示例为手腕、大白鲨、章鱼与膝；正式预览选大白鲨和章鱼，未收录两张人体诊断式图。电感受器、骨骼、深度等知识与参数未经专业核验，部分“军用瞄准系统”是艺术比喻。",
+      "prompt": "A digital illustration of a [SUBJECT], portrayed with a network of glowing pristine blue lines outlining its [SYSTEM/ANATOMY]. The image is set against a dark [BACKGROUND_CONTEXT] background, highlighting the [SUBJECT]'s [KEY_FEATURES]. The [SPECIFIC_PART] is emphasized with a [red/amber/orange] glow to indicate [REASON_FOR_EMPHASIS]. [OPTIONAL: FLOATING_DATA/READOUTS]. The style is [AESTHETIC_QUALITY], designed to resemble [TECHNICAL_REFERENCE].\n\n---\nExample Using Template\n\nFilled Template:\nSUBJECT: great white shark\nACTION/STATE: mid-hunting approach\nPRIMARY_COLOR: cold bioluminescent blue\nSYSTEM_TYPE: sensory and predatory anatomy\nAREA_OF_INTEREST: ampullae of Lorenzini (electroreceptor pores on snout)\nACCENT_COLOR: pulsing red-orange\nCONDITION: active electromagnetic detection of prey heartbeat\nREFERENCE: marine biology research crossed with military targeting systems\n\nResulting Prompt:\nA digital illustration of a great white shark in mid-hunting approach, portrayed with a network of glowing cold bioluminescent blue lines mapping its sensory and predatory anatomy. The cartilaginous skeleton is rendered as flexible geometric framework, the lateral line system as a full-body motion detector array. The image is set against abyssal ocean black, depth pressure readings floating at the margins. The ampullae of Lorenzini, hundreds of electroreceptor pores clustered on the snout, are emphasized with a pulsing red-orange glow, indicating active electromagnetic detection: the prey's heartbeat rendered as intercepted signal waves feeding into the shark's targeting consciousness. The teeth are visualized as serrated replacement queues. The style merges marine biology research documentation with military targeting system aesthetics, designed to resemble a naval analysis of nature's most refined predator, clinically respectful of four hundred million years of evolution.",
+      "covers": [
+        "/covers/x-2009610203654947155-2.jpg",
+        "/covers/x-2009610203654947155-3.jpg"
+      ]
+    },
+    {
+      "no": "645",
+      "id": "x-2053342755791999091",
+      "title": "风力发电机的部件与能量流程",
+      "kicker": "工程组成讲解",
+      "excerpt": "以整机、机舱剖面、七个部件和通向电网的连线，讲解风机的结构与功能。",
+      "style": "白底三维工程剖面与编号注释",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普",
+        "风力发电",
+        "结构",
+        "部件",
+        "剖面",
+        "能量"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "GaganSingh8u",
+        "name": "Gagan Singh",
+        "handle": "GaganSingh8u",
+        "url": "https://x.com/GaganSingh8u"
+      },
+      "sourceUrl": "https://x.com/GaganSingh8u/status/2053342755791999091",
+      "model": "Gemini Nano Banana Pro（作者标注）",
+      "date": "2026-05-10",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原文固定讲水平轴风力发电机，并要求照 image_1.png 转写部件文字；使用时需要对应参考图。配图为原帖静态示例，部件名称、直驱与齿轮箱叙述未作为工程参数逐项验证。",
+      "prompt": "An intricate, highly detailed and clean 3D illustration and cross-section diagram of a massive horizontal-axis wind turbine, rendered on a crisp white background with a ground landscape and a distant power grid. The style is an illustrative technical schematic with clear lines and subtle textures. The overall title, positioned at the top-center in a professional sans-serif font, is \"Wind Turbine Components\". The composition is dominated by the tall turbine, which is positioned slightly to the left, and its cutaway nacelle. The turbine stands on a detailed gray modular tower (Component 6), which rests on a ground plane of green rolling hills and foliage, alongside a detailed grey Transformer (Component 7). To the far right, two detailed steel lattice power pylons connect the transformer via high-voltage lines, labeled \"To Power Grid\". At the top of the tower sits the large nacelle, with a detailed internal cutaway revealing a visible multi-stage Gearbox (Component 4) with internal blue gears and a complex copper-coil Generator (Component 5), both cut to show their internal structure. The Generator housing is cut away to show the stator and rotor coils. Leading from the front is the Hub (Component 2), connecting three enormous, clean white aerodynamically-shaped Rotor Blades (Component 1) (labeled with bullet points: \"Capture the wind energy.\", \"Designed like airplane wings...\", \"When wind passes over them...\"). Inside the cutaway, the Hub leads to a detailed blue Main Shaft (Component 3, labeled with bullet points: \"Transfers mechanical energy from rotor to the gearbox.\", \"Uses Direct Drive in some modern turbines.\") that connects to the Gearbox. Multiple distinct, precise gray call-out lines with blue circular numbered bullet points (1 through 7) and corresponding text blocks are positioned around the diagram, connected to specific components. A large, blue-to-white gradient angled banner at the bottom-left features the bold, white text \"Power systems protection\". The text for each component and its function is perfectly transcribed and legible as in image_1.png. The entire scene is sharply focused, like a technical patent illustration, with clean lighting.",
+      "covers": [
+        "/covers/x-2053342755791999091.jpg"
+      ]
+    },
+    {
+      "no": "646",
+      "id": "x-2108175696531198084",
+      "title": "几何双角色互动的系列漫画画风",
+      "kicker": "可复用角色动作",
+      "excerpt": "用几何角色、清楚的动作剪影与一个小道具，表现追逐、躲闪、递物和拒绝等互动。",
+      "style": "UPA几何造型与有限动画式动作插画",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "tags": [
+        "可复用画风",
+        "双角色",
+        "互动",
+        "动作",
+        "几何卡通",
+        "平涂"
+      ],
+      "medium": "image",
+      "slots": [
+        "角色A",
+        "角色B"
+      ],
+      "creator": {
+        "id": "VoxcatAI",
+        "name": "VoxCat",
+        "handle": "VoxcatAI",
+        "url": "https://x.com/VoxcatAI"
+      },
+      "sourceUrl": "https://x.com/VoxcatAI/status/2108175696531198084",
+      "model": "gpt-image2（作者标注）",
+      "date": "2026-10-08",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。这是可复用角色与互动画风，不是现成科学讲解内容。原帖四张静态角色示例，无动作视频；改为知识账号时，需要自行安排讲解者、提问者和知识内容。保留原文右下角作者小签名要求。",
+      "prompt": "【角色A】与【角色B】，现代几何卡通插画 × UPA 式造型语言 × 有限动画式动作设计 × 清晰数字平涂。\n\n角色造型高度简化，以方形、圆形、梯形和弧线构成头部与身体，保留角色核心发型、主色、标志性配饰与服装色块。清晰流畅的粗黑轮廓，大面积均匀纯色填充，少量简洁硬边阴影，夸张手掌、鞋子和肢体比例。\n\n两名角色进行明确、幽默、动态强烈的互动，以大幅伸展、跳跃、追逐、躲闪、踢腿、扑向对方等动作形成清晰剪影。两者的动作方向、视线和表情相互呼应，呈现瞬间可读的喜剧关系。\n\n纵向构图，角色缩小集中在画面中下部，上方保留大面积空白。单一高纯度纯色背景，角色之间加入一个简单漫画符号、道具或图形化元素建立叙事联系。\n\n整体使用少量高对比色彩：黑、白、角色主色与一到两个强调色。色块边缘锐利，填色均匀，轮廓完整，表面平整，采用干净、清晰的现代数字插画质感，适合动画宣传图、贴纸与手机壁纸。\n\n竖版，右下角极小 voxcat 签名。",
+      "covers": [
+        "/covers/x-2108175696531198084.jpg",
+        "/covers/x-2108175696531198084-2.jpg",
+        "/covers/x-2108175696531198084-3.jpg",
+        "/covers/x-2108175696531198084-4.jpg"
+      ]
+    },
+    {
+      "no": "647",
+      "id": "x-2065057210426900515",
+      "title": "帝国兴衰的文明地层图解",
+      "kicker": "历史结构解释",
+      "excerpt": "将建国、扩张、经济基础与分裂组织成考古地层剖面，并用文物和引出线关联说明。",
+      "style": "羊皮纸地图与考古地层历史信息图",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "历史",
+        "文明",
+        "地层",
+        "地图",
+        "结构",
+        "信息图"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2065057210426900515",
+      "model": "GPT Image 2（作者标注）",
+      "date": "2026-06-11",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。原帖一张四格示例展示罗马、蒙古、奥斯曼和大英帝国。原文让模型推断阶段、指标和衰亡机制，配图中的疆域、日期与因果未作为历史证据核验；用于内容生产应提供研究材料后再填图。",
+      "prompt": "SYSTEM: Render the input as a luxury historical civilization stratigraphy poster. Do not hardcode dates unless inevitable. Infer the territorial expansion phases, economic foundation pillars, military innovation cycles, cultural assimilation patterns, and the geological layers of decline.  SEMANTIC SOLVE: EMPIRE_AUTOPSY =    (INFER(territorial_architecture FROM founding_core + expansion_vectors + frontier_fortifications + trade_route_control + vassal_networks) ::5) +    (INFER(economic_pillars FROM agricultural_base + mineral_resources + taxation_system + currency_standard + labor_organization) ::4) +    (INFER(military_innovation FROM weapon_technology + tactical_doctrine + logistics_chain + fortification_engineering + naval_capacity) ::4) +    (INFER(decline_mechanics FROM succession_crises + economic_inflation + frontier_pressure + internal_rebellion + environmental_stress) ::3) -    (generic timeline infographics + cartoon maps + cluttered textbook layouts + stock-photo ruins + cheap educational posters) ::-4  COMPOSITION: One central empire visualized as a multi-layered archaeological cross-section. The bottom layer shows the founding settlement, middle layers reveal territorial expansion through colored strata, and the top layer displays the fragmentation pattern. Surrounding the core are floating callouts showing key battles, economic indicators, and dynastic transitions mapped as physical artifacts. Use callout lines like an archaeological dig site report crossed with a military campaign map.  STYLE DNA: Ancient Roman Tabula Peutingeriana ::0.30 archaeological stratigraphy diagram ::0.25 vintage military campaign map ::0.20 museum exhibit infographic ::0.15 aged parchment with stain texture ::0.10  OUTPUT: Warm sepia or deep terracotta background luxury history poster, elegant classical serif + handwritten annotation typography, restrained callouts, hyper-realistic map textures, refined aging effects, premium negative space.  NEGATIVE: no holograms, no glowing elements, no VR/AR overlays, no modern digital maps, no cartoon illustrations, no cluttered timelines, no stock-photo emperors, no watermark, no anachronistic elements.",
+      "covers": [
+        "/covers/x-2065057210426900515.jpg"
       ]
     }
   ],

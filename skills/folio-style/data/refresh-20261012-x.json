@@ -1,0 +1,828 @@
+{
+  "retrievedOn": "2026-10-12",
+  "baselineCount": 636,
+  "baselineCommit": "77a20a47c73780e3c7c20efb4ac2716472fdb0e8",
+  "baselineSha256": "2c2c1a923784853bac483fbb176950aca29769eb19fd7452e0cc2e78c0ea679e",
+  "baselineIncludesUncommittedMetadataNormalization": true,
+  "rawRemoteBaselineSha256": "416a8f5636bd09a1be5f5daba38fba7f638cfd5b660e7741889663ea182abb9f",
+  "scope": "Synchronize existing 632-636, normalize only their metadata, recover orphan 637 at its existing number, append 10 new knowledge/comic prompts 638-647. Prior 001-631 unchanged.",
+  "access": "Public HTTP to YouMind and FxTwitter with User-Agent only; no X/Grok session, cookies, OAuth or persistent browser profile.",
+  "remoteAudit": [
+    {
+      "no": "632",
+      "sourceUrl": "https://x.com/twoclipping/status/2109300899227095264",
+      "author": "twoclipping",
+      "promptExact": true,
+      "sourceText": "opus made this entire video is ONE html file \n\nno after effects and 0 external tools\n\nsteal the prompt ↓\n\n<inputs>\nAsk me for: 4 photos (a mountain valley at sunrise, a top-down drone shot of a roundabout, a latte being poured from above, the sun over the sea at golden hour), one accent color (mine is violet #A898FF), and a royalty-free song around 118 BPM with a drop (e.g. Pixabay, free for commercial use).\n</inputs>\n\n<direction>\nApple-level motion. One object, never cut: every state is born out of the one before it, a knob opens like a lens into a photo, a card shrinks into the sun, a row in a list grows into a full photo. Night #0A0A0C to day #F2F0EB and back, ink #0E0E10 UI, real photos for the big moments, frosted liquid glass for small panels, one clean font (Geist, Geist Mono for times). Every morph uses one curve, cubic-bezier(.45,0,.15,1), springs only for pop-ins. Text rises through a mask, never fades. The camera zooms so each state fills about 60% of the frame and creeps in through every hold. The last frame is the first frame, so it loops.\nBanned: crossfades, cuts, grey mush between colors, clip-art icons, glows, bouncy easing, dead time, anything that looks like a template.\n</direction>\n\n<structure>\n118 BPM, 47 beats, the drop lands on the first release.\n6:30 alarm pill → slide to stop, the sunrise shows through behind the knob → release on the drop, the knob irises into the sunrise card → a glass droplet rises into a weather panel, 14° counts to 18° → the card shrinks into the sun → the sun floods the screen into day → its core becomes a violet location dot → an aerial map unfolds around it → the route draws, the dot drives, \"8 min\" counts to \"Arrived\", it bounces on the pin → the pin irises into a latte photo → \"Pay $4.20\" grows out of the card → tap → loader → check → the card folds into the check → the check stretches into a Focus toggle → it opens into today's schedule, a line sweeps 9:00 to 18:00 → the 18:00 row grows into a sunset → the card closes on the sun, the sun turns into the moon → night floods back → the moon becomes the 6:30 pill.\n</structure>\n\n<build>\n1. One HTML canvas, square 1440x1440. Every frame is computed from time inside seek(t): no CSS transitions, no timers, no state carried between frames.\n2. One shape grammar: pill 640x120 → card 620x780 radius 64 → circle 240 → map 760 square → portrait 560x780 → check 96 → pill 560x130 → schedule 620x520 → card 620x780 → moon 200 → pill 300x96.\n3. Reveals are circular clips: the photo is drawn at its final position inside a circle that grows from the exact point it is born from. Floods grow by the square root of progress so the area changes evenly.\n4. Liquid glass: blur a copy of the frame under the panel, magnify its inner edge 1.08x, add a white tint, a top highlight and a 2px white rim.\n5. Camera zoom per state: 2.3 alarm, 1.2 cards, 2.5 sun and moon, 1.18 map, 2.1 check, 1.7 toggle, 1.35 schedule, gliding on the same curve.\n6. Analyze the song with numpy for the beat grid and land the drop on the release. Every event gets its own real sound, placed by its measured peak.\n7. Render with Playwright: 8 subframes per frame, blended for motion blur at 60fps. Render a sheet of stills first and fix anything cramped or cheap looking.\n</build>\n\n<gotchas>\nA photo that irises open must already sit where it will end up, or it slides when the clip finishes. Text inside a growing card needs its own timing or it vanishes before anyone reads it. Never let the card underneath peek out around a growing photo. Make the last frame identical to the first or the loop stutters.\n</gotchas>\n\n<start>\nAsk me for the inputs, then show me the state list on the beat grid before you write any code.\n</start>",
+      "start": 106,
+      "length": 3620,
+      "publishedAt": "2026-10-11T15:11:37.000Z",
+      "changes": [
+        "Normalize cover path",
+        "Ensure code visualCategory",
+        "Complete creator profile"
+      ]
+    },
+    {
+      "no": "633",
+      "sourceUrl": "https://x.com/tokyo_Valentine/status/2109168163959234869",
+      "author": "tokyo_Valentine",
+      "promptExact": true,
+      "sourceText": "MiniMax H3 Prompt\nsubject_definitions:\n<Subject 1> is A, the black-haired heroine from <Picture 1>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Subject 2> is B, the white-haired heroine from <Picture 2>. Preserve her exact face, hair, costume, accessories, proportions and hand-drawn 2D style.\n<Audio 1> is the voice-timbre reference for <Subject 1> (S1).\n<Audio 2> is the voice-timbre reference for <Subject 2> (S2).\nsummary:\n[reference generation + audio reference] Create a 15-second action-comedy using the selected aspect ratio. <Subject 1> slices one onion with spectacular sword technique, then her tears become two fountains. <Subject 2> calmly opens an umbrella inside the kitchen. End on <Subject 1>'s familiar stunned face with tears running down her cheeks. <Audio 1> and <Audio 2> guide the two assigned voices only.\nretention_analysis:\n<Subject 1> (appears in [Shot 1], [Shot 2], [Shot 3], [Shot 4]): fully_preserved - exact character identity and reference art style; new actions and expressions.\n<Subject 2> (appears in [Shot 1], [Shot 3]): fully_preserved - exact character identity and reference art style; new actions and poses.\n<Audio 1>: reference - vocal identity and natural pitch only; no copied recording or original words.\n<Audio 2>: reference - vocal identity and natural pitch only; no copied recording or original words.\nThe images define character identities, not first frames, poses or backgrounds. Each image supplies ONE character; never reproduce reference-sheet panels or merge designs.\ndetailed_description:\nHand-drawn 2D anime heroines with clean lines and cel shading in a photorealistic modern kitchen, with soft nighttime city lights outside. Exactly two characters, one kitchen island, one onion, one cutting board, one katana and one umbrella; keep their identities and scale consistent.\n[Shot 1] A static medium two-shot shows <Subject 1> screen-left and <Subject 2> screen-right behind the island. A peeled onion with a flat base rests on the board in front of <Subject 1>. She holds the katana in her right hand; her left hand stays away from the blade. <Subject 2> holds a closed dark-purple umbrella vertically beside her.\nBetween 0.1 and 0.9 seconds, <Subject 1> (S1) confidently says in the voice timbre referenced from <Audio 1>, [Japanese] まかせて! Synchronize her lips accurately.\nShe immediately makes TWO fast downward cuts, splitting the onion into several thick pieces that stay on the board. Show blade contact clearly. Short teal slash trails, sharp swishes and cutting impacts make this look like a finishing move. The actual blade and food remain visible; no smoke or whiteout.\nBy 2.5 seconds, cutting is finished. <Subject 1> lays the katana flat behind the board, blade pointing screen-left away from <Subject 2>, and smiles proudly. The sword remains there afterward.\n\n[Shot 2] At 00:03.000, cut to a chest-up view of <Subject 1>, with the chopped onion visible below. The teal effects have faded. Her satisfied smile holds briefly.\nAt approximately 4 seconds, tears collect at both lower eyelids and run down her cheeks. The streams gradually thicken while she tries to maintain her confident expression. Keep her eyes open and her mouth silent. The crying is entirely visual: no sobs, sniffles, gasps or vocal breaths.\n[Shot 3] At 00:06.000, cut back to a static medium two-shot. Keep this shot uninterrupted until the next cut.\nThe tears visibly grow from <Subject 1>'s two lower eyelids into TWO transparent blue-white water arcs. Each remains attached to its eye, rises outward, then falls under gravity. Her eyes retain their normal anatomy and her face stays readable.\nThe left arc splashes onto the empty left counter and floor. The right arc curves toward <Subject 2>.\nAs the arcs grow, <Subject 2> lifts the SAME closed umbrella and opens it above her head. Show the canopy spreading open before the falling right arc reaches her.\nThe right stream strikes the canopy, scatters into droplets and pours from its edges. <Subject 2> remains calm beneath it. Shallow puddles form; furniture and characters stay in place.\nEvery drop originates from <Subject 1>'s eyes. The indoor shower effect is entirely eye fountains and umbrella runoff. No ceiling rain, clouds, faucets, mouth fountain or water from <Subject 2>. These are liquid streams, not magical beams.\nAt 9.5-10.4 seconds, <Subject 2> (S2) looks toward <Subject 1> and says in the relaxed voice timbre referenced from <Audio 2>, [Japanese] 雨だね. Synchronize her lips; briefly lower water sounds beneath the line.\n<Subject 1> silently looks toward the umbrella, settling into bewilderment. No falling, slipping, new action or extra joke.\n\n[Shot 4] At 00:12.000, cut to <Subject 1>'s face. The large arcs gently diminish into two thick tear streams running down her cheeks.\nHer expression is the familiar stunned, uncomprehending face: slightly widened eyes, subtly raised eyebrows, lips slightly parted and held still. Preserve normal facial proportions; no exaggerated sadness or distorted crying face.\nA small, slow push-in ends in a steady close-up. Hold the final full second with flowing tears and no speech. End directly on her face.\nThroughout the video, only the two written sentences are spoken. No narration, extra words, laughter or vocal reactions. No subtitles, readable text, logos, watermarks, HUD, extra characters, duplicate bodies, extra limbs, costume changes, injury, kitchen destruction or chibi redesign.\noverall_soundscape:\nQuiet kitchen room tone throughout. Two short sword swishes and cutting impacts during [Shot 1]. Light dripping in [Shot 2]. A watery fountain burst, one umbrella-opening pop, splashes and canopy runoff in [Shot 3]. Gentle water flow in [Shot 4]. No audible sobbing or canned laughter.\nnon_diegetic_music:\nEnergetic instrumental percussion and strings during the cutting, easing into a brief triumphant phrase afterward. Stop the music completely at the fountain burst around 6 seconds. No singing, choir or vocal samples. Afterward, only dialogue, water and room ambience.",
+      "start": 18,
+      "length": 6071,
+      "publishedAt": "2026-10-11T06:24:11.000Z",
+      "changes": [
+        "Normalize cover path",
+        "Ensure code visualCategory",
+        "Complete creator profile"
+      ]
+    },
+    {
+      "no": "634",
+      "sourceUrl": "https://x.com/Tanvir48992/status/2109055123016101968",
+      "author": "Tanvir48992",
+      "promptExact": true,
+      "sourceText": "She wears elegance like a whisper, while golden dreams swim through the silence of her soul. ✨🐠🤍\n\nPrompt:\n\nAn elegant, contemporary fashion illustration in charcoal and graphite with real gold-leaf accents, showing a graceful woman in three-quarter profile, her head turned to the left and her shoulders angled away, looking off into the distance with a calm, poised, confident expression. Her skin is rendered in soft sepia-and-taupe tones with smooth airbrushed gradients and a luminous highlight on her cheekbone, nose and shoulder. She has sculpted, dewy cheeks, defined winged liner with long lashes, and full, softly glossed nude lips.\n\nHer dark hair is swept up into a loose, messy updo with a few wispy, windswept strands that spiral out into fine, looping pencil lines around her head, drawn with quick, fluid, sketchy strokes that fade into the paper.\n\nThree translucent angelfish, drawn in delicate graphite and white pencil with sheer, ghostly fins, swim around her shoulders and chest, forming a dress-like composition. Their bodies are transparent and airy, with fine detailed eyes and long, flowing fin lines trailing into the air. Their bodies are partly covered with irregular patches of shimmering real gold leaf, torn and crackled at the edges, catching the light in brilliant metallic yellow-gold. A few small flecks of gold are scattered on her shoulder and neck.\n\nBackground: a clean, warm off-white paper surface with subtle cotton-paper grain, generous negative space, with the drawing fading softly at the edges. In the lower right, a loose hand-signed gold signature stroke.\n\nComposition: vertical portrait, upper-body, asymmetrical balance between the face at the upper left and the golden fish at the lower right, with flowing lines guiding the eye.\n\nLighting: soft, diffused studio-like highlights on the skin, delicate shading under the jaw and shoulder. Color palette: ivory, warm grey, sepia-brown, charcoal black and metallic gold.\n\nStyle: luxury haute-couture fashion illustration blended with fine-art mixed media, charcoal and graphite on textured paper, real gold-leaf collage, minimalist, elegant and dreamy, ultra-detailed, gallery-quality --ar 2:3 --v 6 --style raw --s 300 --no watermark, extra fingers, distorted face, color photo, cluttered background, heavy shadows",
+      "start": 109,
+      "length": 2202,
+      "publishedAt": "2026-10-10T22:55:00.000Z",
+      "changes": [
+        "Normalize cover path",
+        "Ensure code visualCategory",
+        "Complete creator profile"
+      ]
+    },
+    {
+      "no": "635",
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "author": "NFT_Chen",
+      "promptExact": true,
+      "sourceText": "💥我靠！Opus 5.5 制作视频全套提示词来了！画面不是抽卡生成的，全是它写代码渲染出来的！\n\n一共15 种视频风格，想给知识视频配动画，挑一种，把【】换成你要讲的内容，直接丢给 Opus 5.5。\n \n视频分类+提示词：\n1️⃣皮影讲典故\n做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。\n\n2️⃣等距流程\n做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。\n\n3️⃣比例尺对比\n做一支 10 秒比例尺对比，把【地球、木星、太阳】按真实半径同屏摆放。镜头平滑拉远，第一个物体缩小，点题「太阳底下约有 130 万个地球」。数字标注清晰。\n\n4️⃣白板手绘\n做一支 10 秒白板手绘。白底黑马克笔一笔笔画出【火柴人连甩 5 个包子】，红色只强调关键点。满足感粒子一颗比一颗大，最后角落画满。字幕：第 1 个，满足感拉满。\n\n5️⃣汉字演变 做一支 10 秒 WebGL 电影感汉字演变，主题【火】。龟甲、青铜、墨迹、火光质感。「火」从甲骨到闪电、火把，再到现代照明，形态连续变形，对应炎、烈、焰。\n\n6️⃣3D 拆解 用 three.js 做一支 12 秒爆炸图，拆解【一部手机】。外壳、中框、芯片分层炸开，镜头环绕拉近，零件用虚线引出标注。可换成任何结构。\n\n7️⃣像素典故 做一支 10 秒 16 位像素典故，讲【黄粱一梦】。取象、中举、治河、出征，每段约 1.6 秒硬切，最后回到现实。字幕：第二年，考中进士，当上了官。\n\n8️⃣绘本科普 做一支 10 秒绘本风科普，讲【小金鱼怎么游】。蜡笔线加铅笔涂色，线条抖动，眼睛、鳃、尾鳍对称，尾巴跟着节拍摆。纸本质感。\n\n9️⃣数学可视化 做一支 10 秒 3Blue1Brown 式数学可视化，讲【圆面积】。深色底，圆切成 8、16、32 个扇形，真的移拼成长方形。公式逐项出现，定格 πr²。\n\n🔟地图动画 做一支 10 秒古地图动画，讲【长安到敦煌】。羊皮纸、淡墨山路，朱红路线一笔画过去，标注里程和一句讲解，最后盖章。镜头可缩放。\n\n1️⃣1️⃣数据信息图 做一支 10 秒 Kurzgesagt 式信息图，讲【纸对折厚度】。干净图形、大数字：对折 2 次，厚度 0.4 毫米，厚度 ×2。镜头规则拉近，直到终点。\n\n1️⃣2️⃣扁平 MG 做一支 10 秒扁平 MG，讲【降水】。纯色几何、无描边。云里的小水滴越聚越大，然后掉下来。两段明暗，卡通云朵。\n\n1️⃣3️⃣卡点金句 做一支 10 秒卡点排版，120 BPM，讲【费曼学习法】。每个词卡一拍，黑底橙字切入。四步依次砸出，最后一锤：讲不清楚，就是没真懂。\n\n1️⃣4️⃣漫画分格 做一支 10 秒漫画分格，讲【一扇窗破了】。黑白网点加一个红色。听课、被发现、冲出教室，格间硬切，最后一格点题。\n\n1️⃣5️⃣时间线 做一支 12 秒横轴时间线，讲【从达特茅斯到 ChatGPT】。镜头沿轴推进，节点缩放点亮。年份大字加一句事件。示例节点：1971，又过了 41 年。\n\n用法：选一种风格，只换【】里的主题和字幕，不要同时堆三种画风。\n\n#动效设计 #AI编程 #ai视频制作 #Claude #榨干软件 #howto #ai视频剪辑 #AI新星计划 #vibe知识大赏 #MG动画 #科普\n\nhttps://x.com/nft_chen/status/2103184127151448412?s=46",
+      "start": 123,
+      "length": 88,
+      "publishedAt": "2026-10-07T02:03:41.000Z",
+      "changes": [
+        "Normalize cover path",
+        "Ensure code visualCategory",
+        "Complete creator profile"
+      ]
+    },
+    {
+      "no": "636",
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "author": "NFT_Chen",
+      "promptExact": true,
+      "sourceText": "💥我靠！Opus 5.5 制作视频全套提示词来了！画面不是抽卡生成的，全是它写代码渲染出来的！\n\n一共15 种视频风格，想给知识视频配动画，挑一种，把【】换成你要讲的内容，直接丢给 Opus 5.5。\n \n视频分类+提示词：\n1️⃣皮影讲典故\n做一支 10 秒彩色皮影戏，讲【曹冲称象】。剪影布局，暖光透背，关节式偶戏。依次出现秤盘、铜碗、石头，先平衡，再把石头分批称、加起来。字幕卡点出现。用代码渲染，导出可播放视频。\n\n2️⃣等距流程\n做一支 12 秒等距 2.5D 流程动画，讲【快递怎么分拣】。包裹沿分拣线、货台、平板运输、清关关卡移动，每步编号标签，最后双线汇成一条。干净、可跟读。\n\n3️⃣比例尺对比\n做一支 10 秒比例尺对比，把【地球、木星、太阳】按真实半径同屏摆放。镜头平滑拉远，第一个物体缩小，点题「太阳底下约有 130 万个地球」。数字标注清晰。\n\n4️⃣白板手绘\n做一支 10 秒白板手绘。白底黑马克笔一笔笔画出【火柴人连甩 5 个包子】，红色只强调关键点。满足感粒子一颗比一颗大，最后角落画满。字幕：第 1 个，满足感拉满。\n\n5️⃣汉字演变 做一支 10 秒 WebGL 电影感汉字演变，主题【火】。龟甲、青铜、墨迹、火光质感。「火」从甲骨到闪电、火把，再到现代照明，形态连续变形，对应炎、烈、焰。\n\n6️⃣3D 拆解 用 three.js 做一支 12 秒爆炸图，拆解【一部手机】。外壳、中框、芯片分层炸开，镜头环绕拉近，零件用虚线引出标注。可换成任何结构。\n\n7️⃣像素典故 做一支 10 秒 16 位像素典故，讲【黄粱一梦】。取象、中举、治河、出征，每段约 1.6 秒硬切，最后回到现实。字幕：第二年，考中进士，当上了官。\n\n8️⃣绘本科普 做一支 10 秒绘本风科普，讲【小金鱼怎么游】。蜡笔线加铅笔涂色，线条抖动，眼睛、鳃、尾鳍对称，尾巴跟着节拍摆。纸本质感。\n\n9️⃣数学可视化 做一支 10 秒 3Blue1Brown 式数学可视化，讲【圆面积】。深色底，圆切成 8、16、32 个扇形，真的移拼成长方形。公式逐项出现，定格 πr²。\n\n🔟地图动画 做一支 10 秒古地图动画，讲【长安到敦煌】。羊皮纸、淡墨山路，朱红路线一笔画过去，标注里程和一句讲解，最后盖章。镜头可缩放。\n\n1️⃣1️⃣数据信息图 做一支 10 秒 Kurzgesagt 式信息图，讲【纸对折厚度】。干净图形、大数字：对折 2 次，厚度 0.4 毫米，厚度 ×2。镜头规则拉近，直到终点。\n\n1️⃣2️⃣扁平 MG 做一支 10 秒扁平 MG，讲【降水】。纯色几何、无描边。云里的小水滴越聚越大，然后掉下来。两段明暗，卡通云朵。\n\n1️⃣3️⃣卡点金句 做一支 10 秒卡点排版，120 BPM，讲【费曼学习法】。每个词卡一拍，黑底橙字切入。四步依次砸出，最后一锤：讲不清楚，就是没真懂。\n\n1️⃣4️⃣漫画分格 做一支 10 秒漫画分格，讲【一扇窗破了】。黑白网点加一个红色。听课、被发现、冲出教室，格间硬切，最后一格点题。\n\n1️⃣5️⃣时间线 做一支 12 秒横轴时间线，讲【从达特茅斯到 ChatGPT】。镜头沿轴推进，节点缩放点亮。年份大字加一句事件。示例节点：1971，又过了 41 年。\n\n用法：选一种风格，只换【】里的主题和字幕，不要同时堆三种画风。\n\n#动效设计 #AI编程 #ai视频制作 #Claude #榨干软件 #howto #ai视频剪辑 #AI新星计划 #vibe知识大赏 #MG动画 #科普\n\nhttps://x.com/nft_chen/status/2103184127151448412?s=46",
+      "start": 221,
+      "length": 76,
+      "publishedAt": "2026-10-07T02:03:41.000Z",
+      "changes": [
+        "Normalize cover path",
+        "Ensure code visualCategory",
+        "Complete creator profile"
+      ],
+      "coverCorrection": {
+        "path": "/covers/636.jpg",
+        "sourceVideoUrl": "https://video.twimg.com/amplify_video/2107650820020015104/vid/avc1/1280x720/Sn4sk4e9ApdvWu39.mp4?tag=29",
+        "sourcePost": "https://x.com/NFT_Chen/status/2107653056771068069",
+        "timestampSeconds": 22,
+        "extraction": "ffmpeg seek to 22 seconds, one unmodified video frame, JPEG q=2",
+        "sha256": "33210aec9c36683ca128e8a1ca45af6580fc792c36bc45e912e0e951de4e42e8",
+        "reason": "Previous image showed chapter 06 smartphone decomposition. Corrected to chapter 02 isometric parcel sorting, confirmed by visual review of frames at 13, 18 and 22 seconds."
+      }
+    }
+  ],
+  "searchPages": [
+    {
+      "file": "search-nano-banana-pro-0.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=educational%20comic",
+      "sha256": "3c12a56d5ea478a1bce983001f0cd2420b9e381b0759d7c0e79ff1a6b9d03ed0",
+      "retrievedAt": "2026-10-12T02:28:31.970153+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-1.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=science%20comic",
+      "sha256": "27d268f88301ec6ae0a5790c3066e3add6e3d2a61d22fa754a07ca266788f677",
+      "retrievedAt": "2026-10-12T02:28:31.895089+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-2.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "sha256": "900ab8d76de64fa5027cc2227ffdf6ec6fe0b2b1bbdbbb006680ca4ff28aa2a9",
+      "retrievedAt": "2026-10-12T02:28:32.404032+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-3.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=biology",
+      "sha256": "2be47fb7918eca9c1dba2c1b304137d1f07141287fe65fa30a757779700661f0",
+      "retrievedAt": "2026-10-12T02:28:32.952644+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-4.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=physics",
+      "sha256": "0f7fbf10fce0df2beebc07468e01af3d585ddded6d37b3422e51b9ec32b77393",
+      "retrievedAt": "2026-10-12T02:28:33.214906+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-5.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=%E8%BF%87%E7%A8%8B",
+      "sha256": "3f48a8618ddd9e8bb8bac662451205fd1dfd9575a44a1c15fb2791baad933ae2",
+      "retrievedAt": "2026-10-12T02:28:33.744080+00:00"
+    },
+    {
+      "file": "search-nano-banana-pro-6.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=%E6%BC%AB%E7%94%BB%E5%9B%BE%E8%A7%A3",
+      "sha256": "a9726b35321b5c3afd80d401d191afc23c14c72588842c0e13b4bca5fc6a89f6",
+      "retrievedAt": "2026-10-12T02:28:34.812777+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-7.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=educational%20comic",
+      "sha256": "eae3ef106f325c9655063e5beca69a1460c14a3779904bef075118b3ab4297b8",
+      "retrievedAt": "2026-10-12T02:28:34.568973+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-8.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=science",
+      "sha256": "4f146644d8cb9817d09c8ea90e7c0d97cda35d3ad6dad50c68ba6997c665249d",
+      "retrievedAt": "2026-10-12T02:28:34.637038+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-9.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E7%9F%A5%E8%AF%86%E6%BC%AB%E7%94%BB",
+      "sha256": "55b9c03e2f2e9ccebf6c55dfba98ced11148ec84b3005773dcc4b53d7192e070",
+      "retrievedAt": "2026-10-12T02:28:36.419586+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-10.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=%E7%A7%91%E6%99%AE",
+      "sha256": "aaae73db6865a9129c1825830ac8b29d797afc51062baffec083934d575d3d27",
+      "retrievedAt": "2026-10-12T02:28:37.385378+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-11.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=storyboard",
+      "sha256": "3eccba0c56463ee55dd9d6860405a438e36d7d50d22467b008cde6b2a5e31bf2",
+      "retrievedAt": "2026-10-12T02:28:35.999152+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-12.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=mechanism",
+      "sha256": "3e4dd1b31cf27f7b0523b1109c4e114bc0a1ede1a476b8f33b1be6bc08249df3",
+      "retrievedAt": "2026-10-12T02:28:37.197132+00:00"
+    },
+    {
+      "file": "search-gpt-image-2-13.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=history%20infographic",
+      "sha256": "cd20d4a799923d24c6b27c3ac642e12c6b378783ce5f390a194b7916701af06f",
+      "retrievedAt": "2026-10-12T02:28:37.757122+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-0.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=infographic",
+      "sha256": "575e806ecc0aada540136bb8d1fbc1aa474ec73e91fadfd427b18397a1e2ba82",
+      "retrievedAt": "2026-10-12T02:33:57.031872+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-1.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=comic",
+      "sha256": "83ba872084ca29cd6ba5f7eaf1628972d75cd28aa7e19987e7632f5319aaae0a",
+      "retrievedAt": "2026-10-12T02:33:57.304831+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-2.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=explainer",
+      "sha256": "a7ed538fa6a19928db8aa8f7b78122f429f0dbc14a37bcf057e98782c0a0546c",
+      "retrievedAt": "2026-10-12T02:33:57.192854+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-3.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=diagram",
+      "sha256": "4adbc96d11fd5556ede73ffc11a8d12796391ab91e24ac5f97fe452124807764",
+      "retrievedAt": "2026-10-12T02:33:58.306264+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-4.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=history",
+      "sha256": "735c17cdc218366790567238cf2752c07a8bad3d497c02001adb465568f08033",
+      "retrievedAt": "2026-10-12T02:33:58.456585+00:00"
+    },
+    {
+      "file": "more-search-nano-banana-pro-5.html",
+      "url": "https://youmind.com/nano-banana-pro-prompts/explore?q=teaching",
+      "sha256": "e178320be628ecb8521cf2dbfcc0cd86424d71cd1fd7c17bf1f800bbcfc3cc33",
+      "retrievedAt": "2026-10-12T02:33:58.491621+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-6.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=infographic",
+      "sha256": "efce98b176247b7e5c3bb7ca80ca4580aa1463efe27bbcc95d9eeffccdef0491",
+      "retrievedAt": "2026-10-12T02:33:59.569226+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-7.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=comic",
+      "sha256": "4712b939467c7c8688910dff825d257050dec09c3ef526a368f4999635bc92e1",
+      "retrievedAt": "2026-10-12T02:33:59.749734+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-8.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=comparison",
+      "sha256": "552807917c9572667a5c40949ee604012605d121b5b98563885877e015cd88fd",
+      "retrievedAt": "2026-10-12T02:33:59.412588+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-9.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=process",
+      "sha256": "d3f04a8118673366f4199fff3e4d7190fd085d7f9b91c5ccc5a28b158b4c2600",
+      "retrievedAt": "2026-10-12T02:34:00.435061+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-10.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=physics",
+      "sha256": "656c0b4b2198ee48cf1232212377b385978bdc5c6eea7dd6e6b627c7997bbb93",
+      "retrievedAt": "2026-10-12T02:34:00.866259+00:00"
+    },
+    {
+      "file": "more-search-gpt-image-2-11.html",
+      "url": "https://youmind.com/gpt-image-2-prompts/explore?q=educational",
+      "sha256": "1dbff8e5ac843caeb4f2124792a9e55c451ab343250f41605cdd6b06744c3d3f",
+      "retrievedAt": "2026-10-12T02:34:01.040691+00:00"
+    }
+  ],
+  "collection": {
+    "attempted": 22,
+    "retrieved": 22,
+    "newSelected": 10,
+    "recovered": 1,
+    "reviewedImages": 19,
+    "keptImages": 16
+  },
+  "exclusions": [
+    {
+      "tweetId": "2017120832267702532",
+      "reason": "No complete prompt in original public text or image alt metadata."
+    },
+    {
+      "tweetId": "2036334419691315347",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "1991613761481027586",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "2060275303054991525",
+      "reason": "Worksheet prompt deliberately obscures multiple instructional panels; low teaching clarity."
+    },
+    {
+      "tweetId": "2102567417453154480",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "2055639600656478456",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "2093324721693868044",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "2052994086013976969",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "2057788765922554026",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "1998875777828618318",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    },
+    {
+      "tweetId": "1992021201867407634",
+      "reason": "Prompt is said to be in comments, not supplied by the retrieved original post."
+    },
+    {
+      "tweetId": "2090895540745572706",
+      "reason": "Lower relevance or less reusable explanation format than the selected set."
+    }
+  ],
+  "similarity": {
+    "method": "Normalized exact prompt/source exclusion plus 12-character shingle Jaccard against prior library and preceding selected items.",
+    "maximumAllowed": 0.85,
+    "results": [
+      {
+        "tweetId": "2109289165485482360",
+        "score": 0.010143406785589367,
+        "no": "060"
+      },
+      {
+        "tweetId": "2053770171161235845",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2002187028990222602",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1999327332100915615",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1992060195691024862",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1991786129046044735",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "1997283261064925190",
+        "score": 0,
+        "no": null
+      },
+      {
+        "tweetId": "2009610203654947155",
+        "score": 0.0042643923240938165,
+        "no": "554"
+      },
+      {
+        "tweetId": "2053342755791999091",
+        "score": 0.004005340453938585,
+        "no": "608"
+      },
+      {
+        "tweetId": "2108175696531198084",
+        "score": 0.003393665158371041,
+        "no": "603"
+      },
+      {
+        "tweetId": "2065057210426900515",
+        "score": 0.003206997084548105,
+        "no": "463"
+      }
+    ]
+  },
+  "additions": [
+    {
+      "no": "637",
+      "id": "x-2109289165485482360",
+      "sourceUrl": "https://x.com/Gdgtify/status/2109289165485482360",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2109289165485482360",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:41:55.170999+00:00",
+      "publishedAt": "2026-10-11T14:25:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "I feel these scenes have great potential for video. \n\nPrompt 2x2 grid, 16:9, AI picks subject: { Anchor: A [DOMESTIC SCENE (e.g., unmade bed / breakfast table / bathtub)] that is simultaneously a [VAST LANDSCAPE (e.g., alpine range / desert dunes / arctic coast)], photographed as a real place where the same forms read as both ::4\nMorphology: Duvet folds are ridgelines with true geological scale, a pillow is the snow-capped summit with wind-blown spindrift, a tiny hiker and glowing tent give scale on the slopes, and a coffee mug at the edge, steam rising like a distant weather front, reminds you it's a bed. Every form has dual identity. Camera at surface level, as if lying on the fabric, with deep atmospheric haze layering the distant folds ::3\nMaterial Physics: Real cotton weave visible as terrain texture, individual fibers and lint catching light like scrub on a hillside, practical haze hanging in the air, true macro scale cues, physically accurate light falloff ::3\nIllumination: Low golden window light acting as sunrise cresting the ridge, volumetric god rays through the haze, long soft shadows pooling in the valleys, cool blue ambient fill in the shaded folds ::2\nRender Stack: Hyper-realistic cinematic still, shot on ARRI Alexa 65 with a probe lens, tilt-shift selective focus, Kodak Vision3 film grain, 2.39:1 anamorphic frame, Magritte-adjacent quiet surrealism ::1\nNegative: [collage seams, giant person standing in a landscape, two separate images blended, Photoshop composite look, illustration, painting, CGI plastic look, oversaturation, HDR halos, text] ::-1 }",
+      "start": 61,
+      "length": 1530,
+      "sha256": "9a2f7f7faa657c3d71e410b40919ef5fbef061a1cf549457106596e89425d164",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "opinion",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2109289165485482360",
+          "index": 0,
+          "path": "/covers/x-2109289165485482360.jpg",
+          "url": "https://pbs.twimg.com/media/HUE5RiGWAAA2-Ow.jpg?format=jpg&name=large",
+          "sha256": "dd604484241555c35a0ecd472bf0f0dcba34e607837cbc82d0e95281a5cd38f3",
+          "size": 352187,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "Existing repository orphan entry",
+      "discoveryUrl": "https://github.com/chrisqu9527/folio-card",
+      "discoveryTitle": "Recovered remote Markdown entry 637",
+      "kind": "recover-existing-orphan"
+    },
+    {
+      "no": "638",
+      "id": "x-2053770171161235845",
+      "sourceUrl": "https://x.com/SSSS_CRYPTOMAN/status/2053770171161235845",
+      "authorHandle": "SSSS_CRYPTOMAN",
+      "tweetId": "2053770171161235845",
+      "authorId": "1391788515302592524",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:27.336039+00:00",
+      "publishedAt": "2026-05-11T09:32:20.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2で空想科学を検証してみた🧪\n子供の頃に好きだった空想科学読本のオマージュです\n本家には及ばないもののこれは楽しいw\n\n👇️下記プロンプトのテーマを変えて色々やってみてください\n\n---\nコミカルな科学解説イラストを作成。 検証テーマは「バナナの皮で車をスリップさせるには何枚必要？」\n\nバカバカしい疑問を、大真面目に科学と計算で検証する、縦長A4の漫画風インフォグラフィック。 白背景、太い黒線、赤・青・黄色の強調色。少しレトロな学習漫画、理科参考書、科学コラム風のデザイン。 博士キャラ、驚く人物、吹き出し、手描き矢印、赤ペン注釈、黒板風の数式枠を使う。 全体は「くだらない疑問を物理で全力検証する」雰囲気で、深刻すぎず、楽しく、勢いのある紙面にする。\n\n構成：\n\n1. \nテーマの状況を大げさでバカバカしく、ひと目で伝わるように描く。 登場人物は本気で挑戦しているが、見た目はかなり無茶。 博士が横からツッコミを入れる。\n\n2. 現実の数字で考える\n速度・時間・距離・重さ・力・温度・エネルギーなど、テーマに関係する重要な数値を3〜4個のボックスで表示。 比較図やタイムラインを入れて、「人間の感覚」と「現象のスケール」のズレを分かりやすく見せる。\n\n3. 数式コーナー\n黒板風の枠に、必要条件や比較式を大きく描く。 例： 「必要能力 ＞ 人間の限界」 「反応時間 ＜ 現象が起こる時間」 「必要な力・速度・耐久力 ≫ 普通の人間」 数式は厳密すぎなくてよく、直感的でわかりやすくする。\n\n4. 実現は無理？\n問題点を3つの小コマで説明。 例： ① 速すぎる / 重すぎる / 熱すぎる ② 精度がシビアすぎる ③ 成功しても身体がもたない / 周囲が大変なことになる コミカルな失敗イラスト、擬音、吹き出しを入れる。\n\n5. もし実現したらどうなる？\nここを重要にする。 もし本当に成功させるなら、どんな超人的・空想科学的能力が必要かを図解する。 たとえば、超反射神経、未来予測、異常な握力、超高速視覚、空気抵抗を無視する身体能力、衝撃に耐える骨格など。 必要なら「反応速度0.0001秒」「握力3000kg」「動体視力が戦闘機パイロットの数十倍」など、科学的に実現不可能な数字でもOK。 さらに、実現した瞬間に何が起きるかも描く。 例：腕が吹き飛ぶほどの衝撃、地面にめり込む、周囲に衝撃波、本人だけ平然としている、など。 “成功したらそれはもう人間ではない”感じを面白く出す。\n\n6. 結論\n赤い強調枠で大きく結論を書く。 「結論：〇〇は普通の人間にはほぼ不可能！」 または 「実現できたとしても、それは超人・改造人間・空想科学レベル！」 本文では、現実の人間では無理だが、空想科学的な能力を与えれば成立する、という形でまとめる。\n\nデザイン指定： 漫画のコマ割り＋理科の図解＋博士の解説。 太い見出し、赤丸、強調線、手描きメモ、吹き出しを多用。 数式や数値は大きく見やすく、子どもにも直感的に伝わるようにする。 全体として、バカバカしいのに妙に納得感がある、おもしろ科学読み物の1ページのように仕上げる。",
+      "start": 106,
+      "length": 1214,
+      "sha256": "bc2b98cbd075a887c27077c83dca2fffd7727d11ee0f2ade82cdf6e5bdc1d371",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "2053770171161235845",
+          "index": 0,
+          "path": "/covers/x-2053770171161235845.jpg",
+          "url": "https://pbs.twimg.com/media/HIB1FhnboAAL-Er.jpg?format=jpg&name=large",
+          "sha256": "dd36b8a4e3e8e8e1ebf499a8e27938dbfc3614b18e0462679c799161ad055e15",
+          "size": 610163,
+          "width": 1055,
+          "height": 1491
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=educational%20comic",
+      "discoveryTitle": "Fictional Science Infographic Generator",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "639",
+      "id": "x-2002187028990222602",
+      "sourceUrl": "https://x.com/schnapoon/status/2002187028990222602",
+      "authorHandle": "schnapoon",
+      "tweetId": "2002187028990222602",
+      "authorId": "1330463127692075009",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.037880+00:00",
+      "publishedAt": "2025-12-20T01:19:21.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【Nano Banana Proでキャラクターをロボット化】\n\n参照画像のキャラクターをミニキャラのロボットにして、解説をつけるプロンプト\n\nプロンプト：\n【キャラクター設定】\n※ここを描きたいキャラクターの外見に書き換えてください\n[キャラクターの特徴]: 茶色のツインテール、マントを羽織っている女の子\n\n【画像生成の指示】\nスタイルの定義:\n- アニメ調のキャラクターイラストと、工業製品のテクニカルイラスト（設計図）を融合させたスタイル。\n- 背景は白または無地。インフォグラフィック風のレイアウト。\n\nポーズと構図:\n- アイソメトリックな構図\n- 2頭身から3頭身のデフォルメ（ちびキャラ）スタイル\n- 手足の形状: 肘や膝、手首、足首の関節は描かない。指や細かな関節は描かず、先端がまたはミトン型のシンプルな形状にする。つるんとした「ぬいぐるみの手足」を再現する。\n- 顔の造形: 鼻や口は描かず、「目」だけを配置する。目は縦長の楕円形（縦長の丸）で描き、シンプルなセンサーのような見た目にする。目の色は参照画像に合わせる。\n- 服装の描写: 左半分は参照画像の服（マント、シャツ、ズボン、靴など）を普通に着ているが、右半分のカットアウェイ部分は、服の断面とその下のメカが同時に見えるように描く。\n- キャラクターの全身が見える立ち姿。\n- 身体の右半分の外装（皮膚や服）が半透明に透けており、内部の機械構造が見えている「内部透視図」にする。\n\n内部構造のディテール:\n- 頭部: 縦長の目の奥にはカメラレンズの構造が見える。口の裏にはスピーカーユニットがある。脳は電子基板で構成されている。\n- 胴体: 丸い手足の中には、太い油圧シリンダーや大きな歯車、球体関節がぎっしりと詰まっている。\n- 背中: 背中には大きめの「ゼンマイ回し（Wind-up key）」が刺さっており、レトロな玩具の雰囲気を持たせる。\n\n注釈と解説（装飾）:\n- 内部構造の主要なメカパーツ（脳、目、耳、腕、脚）から引出線（線）が伸びており、その先に詳細な解説テキストが英語で配置されている。\n- 全体として「丸くて愛嬌があるが、中身は精密機械であるロボットの設計図」のように仕上げる。\n\nスタイル:\n- アスペクト比: 縦長（A4用紙比率に近い Vertical 形式）\n- 背景: 方眼紙（グリッドノート）のテクスチャ。\n\n入力画像\n\n出力結果",
+      "start": 78,
+      "length": 929,
+      "sha256": "609eb63dcf28698bbb670d0ec45ff9d0f3a00fc16e0582ba9a08017066552533",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2002187028990222602",
+          "index": 1,
+          "path": "/covers/x-2002187028990222602-2.jpg",
+          "url": "https://pbs.twimg.com/media/G8kyXp8bMAApsur.jpg?format=jpg&name=large",
+          "sha256": "39b8c799ef70b6622b92d89ab50a49a73d3e52a9771aba75251225f53efa8a25",
+          "size": 533520,
+          "width": 1374,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "discoveryTitle": "Character Robotization and Technical Diagram Prompt",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "640",
+      "id": "x-1999327332100915615",
+      "sourceUrl": "https://x.com/schnapoon/status/1999327332100915615",
+      "authorHandle": "schnapoon",
+      "tweetId": "1999327332100915615",
+      "authorId": "1330463127692075009",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.037880+00:00",
+      "publishedAt": "2025-12-12T03:55:56.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "【Nano Banana Proのインフォグラフィックスにキャラクターの設定を反映】\n\n料理が得意／下手を設定すれば、その特徴に合わせてインフォグラフィックスを作成してくれる。\n\nプロンプト（料理初心者バージョン）：\n\n基本のオールドファッションドーナツの各工程を参考写真のキャラクターが実行する画像を作成し、インフォグラフィックスにしてください。\n\nキャラクターは料理初心者で、苦労しながら工程を進めている画像にしてください。\n\nセリフは不要です。\n\n各工程には詳細な説明を表示してください。\n\nアスペクト比2:1\n\nタイトル、材料、工程の三段構成\n\nタイトル：基本のオールドファッションドーナツの作り方\n\n材料と分量をイラスト付きで表示\n\n漫画風の工程フロー\n\nプロンプト（料理得意バージョン）：\n\nキャラクターは～部分を変更\n\nキャラクターは料理が得意で楽々工程を進めている画像にしてください。",
+      "start": 110,
+      "length": 290,
+      "sha256": "ae363975db93d9189fb48254ce00bf10a60f702f2cf826ad25c5dd20c70d1281",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "covers": [
+        {
+          "tweetId": "1999327332100915615",
+          "index": 0,
+          "path": "/covers/x-1999327332100915615.jpg",
+          "url": "https://pbs.twimg.com/media/G78Jg_DagAYENM3.jpg?format=jpg&name=large",
+          "sha256": "2b022f70ae4b1e0961f2f3b52eab635d5b5c868f7cf61ac70ca1fd11c4067df8",
+          "size": 422546,
+          "width": 2048,
+          "height": 1013
+        },
+        {
+          "tweetId": "1999327332100915615",
+          "index": 1,
+          "path": "/covers/x-1999327332100915615-2.jpg",
+          "url": "https://pbs.twimg.com/media/G78JhX3agAA5Jlh.jpg?format=jpg&name=large",
+          "sha256": "89fe3173e13b56adc3e243dd38cd2ed92631ea44edf2665d37b3a9c4c51a2a31",
+          "size": 412466,
+          "width": 2048,
+          "height": 1013
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "discoveryTitle": "Infographic Generation for Old-Fashioned Donuts with Character Skill Variation",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "641",
+      "id": "x-1992060195691024862",
+      "sourceUrl": "https://x.com/xiaohu/status/1992060195691024862",
+      "authorHandle": "xiaohu",
+      "tweetId": "1992060195691024862",
+      "authorId": "1764818331822182400",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.492724+00:00",
+      "publishedAt": "2025-11-22T02:38:55.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "利用Nano Banana Pro\n\n生成日常各种知识卡片，例如英语情景对话卡片\n\n想怎么生成怎么生成\n\n而且可以批量制作，教程提示词↓\n\n学习原来可以如此简单\n\n提示词↓：\n\n物理定律提示词：给我生成初中课本上的所有物理定律信息图，每个一张图，要求通俗易懂，初中生能看懂好理解的内容。\n\n英语卡片提示词：帮我生成英语学习卡片，每个一张，以生活场景来展现，比如点单、旅行问路、酒店、机场check in等各种常用场景，每张包含人物对话情景和主要常用的语句，同时给我列举主要的单词（包音标、意思等）来个12个场景先看看。\n\n诗词卡片提示词：给我来10首著名的唐诗学习卡片，图像包含唐诗全文，同时画面要和诗句的内容相吻合，意境契合，方便学生理解诗文的背景和意境，有简单的中文注释。\n\n你是不是认为我是一张一张生成的？\n\nNO...\n\n其实是这样↓",
+      "start": 89,
+      "length": 249,
+      "sha256": "050e0bdbebd02a778be14f27d255ef87ccd7128acd9423229e61b6bddc8c15b2",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "1992060195691024862",
+          "index": 0,
+          "path": "/covers/x-1992060195691024862.jpg",
+          "url": "https://pbs.twimg.com/media/G6U4KbLbQAAbu-u.jpg?format=jpg&name=large",
+          "sha256": "2d41983d138910a859f51c756340b307489de7a0f8bb395ee619e40083798a8b",
+          "size": 227857,
+          "width": 1376,
+          "height": 768
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "discoveryTitle": "Batch study card generation prompts (physics, English, poetry)",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "642",
+      "id": "x-1991786129046044735",
+      "sourceUrl": "https://x.com/dotey/status/1991786129046044735",
+      "authorHandle": "dotey",
+      "tweetId": "1991786129046044735",
+      "authorId": "3178231",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.534916+00:00",
+      "publishedAt": "2025-11-21T08:29:53.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "手绘风格的信息图卡片提示词（主题可以自由替换）\n\n----\n\n创作一张手绘风格的信息图卡片，比例为9:16竖版。卡片主题鲜明，背景为带有纸质肌理的米色或米白色，整体设计体现质朴、亲切的手绘美感。\n\n卡片上方以红黑相间、对比鲜明的大号毛笔草书字体突出标题，吸引视觉焦点。文字内容均采用中文草书，整体布局分为2至4个清晰的小节，每节以简短、精炼的中文短语表达核心要点。字体保持草书流畅的韵律感，既清晰可读又富有艺术气息。\n\n卡片中点缀简单、有趣的手绘插画或图标，例如人物或象征符号，以增强视觉吸引力，引发读者思考与共鸣。整体布局注意视觉平衡，预留足够的空白空间，确保画面简洁明了，易于阅读和理解。\n\n主题是：“做IP是长期复利，坚持每日出摊，持续做，肯定会有结果，因为99%都坚持不住的。”",
+      "start": 31,
+      "length": 312,
+      "sha256": "040ed4c424b161a6d4f485685241fcd1d9a7d8a6c84f88d301390aa345140c69",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "tweetId": "1991786129046044735",
+          "index": 0,
+          "path": "/covers/x-1991786129046044735.jpg",
+          "url": "https://pbs.twimg.com/media/G6Q-oMuWkAAgOQr.jpg?format=jpg&name=large",
+          "sha256": "c0898174075a57258047234e633cd367a3c07c2c71f614fe1196d6fadbdb0ac1",
+          "size": 476769,
+          "width": 1143,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "discoveryTitle": "Hand-drawn infographic card about long-term IP building",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "643",
+      "id": "x-1997283261064925190",
+      "sourceUrl": "https://x.com/op7418/status/1997283261064925190",
+      "authorHandle": "op7418",
+      "tweetId": "1997283261064925190",
+      "authorId": "1669276256",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.465668+00:00",
+      "publishedAt": "2025-12-06T12:33:31.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "很多朋友要我这个 Nano Banana Pro 生成信息图的提示词\n\n其实非常简单，跟他说：\n\n“用浮世绘+茶杯头的风格为下面的内容生成信息图” 就可以了",
+      "start": 50,
+      "length": 22,
+      "sha256": "d96b4b4d3e3c78e740763d13690986ec647bccc32ccbf52a9a20b6395ce490fb",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "1997283261064925190",
+          "index": 0,
+          "path": "/covers/x-1997283261064925190.jpg",
+          "url": "https://pbs.twimg.com/media/G7fGhM4bcAAESJU.jpg?format=jpg&name=large",
+          "sha256": "13ede51af5fe6f1c2bd1de3da52a1f96858350550bc37fc248a407020153f1e9",
+          "size": 820147,
+          "width": 1529,
+          "height": 2048
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=character%20infographic",
+      "discoveryTitle": "Ukiyo-e Teacup Head Infographic Prompt",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "644",
+      "id": "x-2009610203654947155",
+      "sourceUrl": "https://x.com/umesh_ai/status/2009610203654947155",
+      "authorHandle": "umesh_ai",
+      "tweetId": "2009610203654947155",
+      "authorId": "1661811362337619978",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:26.925903+00:00",
+      "publishedAt": "2026-01-09T12:56:23.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "You can create incredible anatomy visualizations with this prompt template on Nano Banana Pro.\n\nGeneric prompt : A digital illustration of a [SUBJECT], portrayed with a network of glowing pristine blue lines outlining its [SYSTEM/ANATOMY]. The image is set against a dark [BACKGROUND_CONTEXT] background, highlighting the [SUBJECT]'s [KEY_FEATURES]. The [SPECIFIC_PART] is emphasized with a [red/amber/orange] glow to indicate [REASON_FOR_EMPHASIS]. [OPTIONAL: FLOATING_DATA/READOUTS]. The style is [AESTHETIC_QUALITY], designed to resemble [TECHNICAL_REFERENCE].\n\n---\nExample Using Template\n\nFilled Template:\nSUBJECT: great white shark\nACTION/STATE: mid-hunting approach\nPRIMARY_COLOR: cold bioluminescent blue\nSYSTEM_TYPE: sensory and predatory anatomy\nAREA_OF_INTEREST: ampullae of Lorenzini (electroreceptor pores on snout)\nACCENT_COLOR: pulsing red-orange\nCONDITION: active electromagnetic detection of prey heartbeat\nREFERENCE: marine biology research crossed with military targeting systems\n\nResulting Prompt:\nA digital illustration of a great white shark in mid-hunting approach, portrayed with a network of glowing cold bioluminescent blue lines mapping its sensory and predatory anatomy. The cartilaginous skeleton is rendered as flexible geometric framework, the lateral line system as a full-body motion detector array. The image is set against abyssal ocean black, depth pressure readings floating at the margins. The ampullae of Lorenzini, hundreds of electroreceptor pores clustered on the snout, are emphasized with a pulsing red-orange glow, indicating active electromagnetic detection: the prey's heartbeat rendered as intercepted signal waves feeding into the shark's targeting consciousness. The teeth are visualized as serrated replacement queues. The style merges marine biology research documentation with military targeting system aesthetics, designed to resemble a naval analysis of nature's most refined predator, clinically respectful of four hundred million years of evolution.\n\nAll prompts in ALT.\n\nGenerated on @LeonardoAi",
+      "start": 113,
+      "length": 1892,
+      "sha256": "fee6034f891bcfc4f9edb1fe7699dec42b9d67f2cca3cb68afa99585c497999f",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2009610203654947155",
+          "index": 1,
+          "path": "/covers/x-2009610203654947155-2.jpg",
+          "url": "https://pbs.twimg.com/media/G-ORYE2a0AES1Oo.jpg?format=jpg&name=large",
+          "sha256": "ae3c8683c20ee5ae105e939f76e79dc9f98841d0256125406a435affdb11bdc1",
+          "size": 275584,
+          "width": 2048,
+          "height": 1143
+        },
+        {
+          "tweetId": "2009610203654947155",
+          "index": 2,
+          "path": "/covers/x-2009610203654947155-3.jpg",
+          "url": "https://pbs.twimg.com/media/G-ORc6_aQAAJhiU.jpg?format=jpg&name=large",
+          "sha256": "5889805472c05d49657a60a47b023f62b579fa01f63f5e81e681061427afcb86",
+          "size": 399939,
+          "width": 2048,
+          "height": 1143
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=biology",
+      "discoveryTitle": "Anatomy Visualization Prompt Template (Great White Shark Example)",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "645",
+      "id": "x-2053342755791999091",
+      "sourceUrl": "https://x.com/GaganSingh8u/status/2053342755791999091",
+      "authorHandle": "GaganSingh8u",
+      "tweetId": "2053342755791999091",
+      "authorId": "1584137558728278017",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:35:47.787189+00:00",
+      "publishedAt": "2026-05-10T05:13:56.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Gemini Nano Banana Pro\n\nPrompt:\n\nAn intricate, highly detailed and clean 3D illustration and cross-section diagram of a massive horizontal-axis wind turbine, rendered on a crisp white background with a ground landscape and a distant power grid. The style is an illustrative technical schematic with clear lines and subtle textures. The overall title, positioned at the top-center in a professional sans-serif font, is \"Wind Turbine Components\". The composition is dominated by the tall turbine, which is positioned slightly to the left, and its cutaway nacelle. The turbine stands on a detailed gray modular tower (Component 6), which rests on a ground plane of green rolling hills and foliage, alongside a detailed grey Transformer (Component 7). To the far right, two detailed steel lattice power pylons connect the transformer via high-voltage lines, labeled \"To Power Grid\". At the top of the tower sits the large nacelle, with a detailed internal cutaway revealing a visible multi-stage Gearbox (Component 4) with internal blue gears and a complex copper-coil Generator (Component 5), both cut to show their internal structure. The Generator housing is cut away to show the stator and rotor coils. Leading from the front is the Hub (Component 2), connecting three enormous, clean white aerodynamically-shaped Rotor Blades (Component 1) (labeled with bullet points: \"Capture the wind energy.\", \"Designed like airplane wings...\", \"When wind passes over them...\"). Inside the cutaway, the Hub leads to a detailed blue Main Shaft (Component 3, labeled with bullet points: \"Transfers mechanical energy from rotor to the gearbox.\", \"Uses Direct Drive in some modern turbines.\") that connects to the Gearbox. Multiple distinct, precise gray call-out lines with blue circular numbered bullet points (1 through 7) and corresponding text blocks are positioned around the diagram, connected to specific components. A large, blue-to-white gradient angled banner at the bottom-left features the bold, white text \"Power systems protection\". The text for each component and its function is perfectly transcribed and legible as in image_1.png. The entire scene is sharply focused, like a technical patent illustration, with clean lighting.",
+      "start": 33,
+      "length": 2195,
+      "sha256": "9bfb9a666489d5e65e8c7dea2458d284b455644701ba1dfdc7ebf214401c184f",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2053342755791999091",
+          "index": 0,
+          "path": "/covers/x-2053342755791999091.jpg",
+          "url": "https://pbs.twimg.com/media/HH7wWN9bMAAKY3p.jpg?format=jpg&name=large",
+          "sha256": "da560c8260db73c46a16ac6982fecff67b9b5f8c656e656b810080d078bbb676",
+          "size": 166018,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/nano-banana-pro-prompts/explore?q=diagram",
+      "discoveryTitle": "Wind Turbine Technical Schematic",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "646",
+      "id": "x-2108175696531198084",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2108175696531198084",
+      "authorHandle": "VoxcatAI",
+      "tweetId": "2108175696531198084",
+      "authorId": "1133338656725504001",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:35:48.610178+00:00",
+      "publishedAt": "2026-10-08T12:40:28.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "用几何卡通造型表现双人互动，搭配纯色背景和大面积留白，做成干净的角色插画。\n\n设计重点是让两个人的动作形成关系：一个追，另一个躲；一个递出东西，另一个后仰拒绝。再用一个小道具连接视线和动作，让画面里的笑料更容易看懂。\n\n简化角色时，保留发型轮廓、主色和标志性配饰，再夸张手掌、鞋子与肢体伸展。动作剪影清楚，缩小观看也能读懂互动。\n\n这版保留几何造型与有限动画式动作，采用均匀填色、清晰轮廓和现代数字平涂质感。替换两个角色，就可以继续做系列。\n\n模型：gpt-image2\n\n完整提示词：\n\n【角色A】与【角色B】，现代几何卡通插画 × UPA 式造型语言 × 有限动画式动作设计 × 清晰数字平涂。\n\n角色造型高度简化，以方形、圆形、梯形和弧线构成头部与身体，保留角色核心发型、主色、标志性配饰与服装色块。清晰流畅的粗黑轮廓，大面积均匀纯色填充，少量简洁硬边阴影，夸张手掌、鞋子和肢体比例。\n\n两名角色进行明确、幽默、动态强烈的互动，以大幅伸展、跳跃、追逐、躲闪、踢腿、扑向对方等动作形成清晰剪影。两者的动作方向、视线和表情相互呼应，呈现瞬间可读的喜剧关系。\n\n纵向构图，角色缩小集中在画面中下部，上方保留大面积空白。单一高纯度纯色背景，角色之间加入一个简单漫画符号、道具或图形化元素建立叙事联系。\n\n整体使用少量高对比色彩：黑、白、角色主色与一到两个强调色。色块边缘锐利，填色均匀，轮廓完整，表面平整，采用干净、清晰的现代数字插画质感，适合动画宣传图、贴纸与手机壁纸。\n\n竖版，右下角极小 voxcat 签名。",
+      "start": 245,
+      "length": 411,
+      "sha256": "028507dd01aced1a1000491bdc40bc85f3d9dd325de92d9a8e7942f0e4b9f1ba",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "tweetId": "2108175696531198084",
+          "index": 0,
+          "path": "/covers/x-2108175696531198084.jpg",
+          "url": "https://pbs.twimg.com/media/HUG-nCTbcAA5178.jpg?format=jpg&name=large",
+          "sha256": "07300ac6558443f8fc81e73d59f390f6d8e5f7db530fdf8fb51fd606ad5ea7f9",
+          "size": 141261,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108175696531198084",
+          "index": 1,
+          "path": "/covers/x-2108175696531198084-2.jpg",
+          "url": "https://pbs.twimg.com/media/HUG-nE9aUAADk_d.jpg?format=jpg&name=large",
+          "sha256": "1babb47c256c71376f32e6210159943952c324edcb69575480f4a7be20bb1ff0",
+          "size": 128909,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108175696531198084",
+          "index": 2,
+          "path": "/covers/x-2108175696531198084-3.jpg",
+          "url": "https://pbs.twimg.com/media/HUG-nE_a0AABASH.jpg?format=jpg&name=large",
+          "sha256": "8a84c62634e7e76ef309bb9428cc924119b7814f7cf56598e41bda92df2ef3de",
+          "size": 191031,
+          "width": 1024,
+          "height": 1536
+        },
+        {
+          "tweetId": "2108175696531198084",
+          "index": 3,
+          "path": "/covers/x-2108175696531198084-4.jpg",
+          "url": "https://pbs.twimg.com/media/HUG-nCQbkAAViS3.jpg?format=jpg&name=large",
+          "sha256": "8b7274f32e62d9d790fc40656945e7a7c6dc7befdc0967eb198be8fab5d485d3",
+          "size": 105542,
+          "width": 1024,
+          "height": 1536
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=comic",
+      "discoveryTitle": "Geometric Cartoon Two-Person Interaction Illustration",
+      "kind": "new-science-oriented-collection"
+    },
+    {
+      "no": "647",
+      "id": "x-2065057210426900515",
+      "sourceUrl": "https://x.com/Gdgtify/status/2065057210426900515",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2065057210426900515",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-10-12",
+      "retrievedAt": "2026-10-12T02:31:27.846680+00:00",
+      "publishedAt": "2026-06-11T13:03:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image 2 is so much fun for these kinds of prompts. This is another one you can use to visualize kingdoms and dynasties. \n\nPrompt: \nSYSTEM: Render the input as a luxury historical civilization stratigraphy poster. Do not hardcode dates unless inevitable. Infer the territorial expansion phases, economic foundation pillars, military innovation cycles, cultural assimilation patterns, and the geological layers of decline.  SEMANTIC SOLVE: EMPIRE_AUTOPSY =    (INFER(territorial_architecture FROM founding_core + expansion_vectors + frontier_fortifications + trade_route_control + vassal_networks) ::5) +    (INFER(economic_pillars FROM agricultural_base + mineral_resources + taxation_system + currency_standard + labor_organization) ::4) +    (INFER(military_innovation FROM weapon_technology + tactical_doctrine + logistics_chain + fortification_engineering + naval_capacity) ::4) +    (INFER(decline_mechanics FROM succession_crises + economic_inflation + frontier_pressure + internal_rebellion + environmental_stress) ::3) -    (generic timeline infographics + cartoon maps + cluttered textbook layouts + stock-photo ruins + cheap educational posters) ::-4  COMPOSITION: One central empire visualized as a multi-layered archaeological cross-section. The bottom layer shows the founding settlement, middle layers reveal territorial expansion through colored strata, and the top layer displays the fragmentation pattern. Surrounding the core are floating callouts showing key battles, economic indicators, and dynastic transitions mapped as physical artifacts. Use callout lines like an archaeological dig site report crossed with a military campaign map.  STYLE DNA: Ancient Roman Tabula Peutingeriana ::0.30 archaeological stratigraphy diagram ::0.25 vintage military campaign map ::0.20 museum exhibit infographic ::0.15 aged parchment with stain texture ::0.10  OUTPUT: Warm sepia or deep terracotta background luxury history poster, elegant classical serif + handwritten annotation typography, restrained callouts, hyper-realistic map textures, refined aging effects, premium negative space.  NEGATIVE: no holograms, no glowing elements, no VR/AR overlays, no modern digital maps, no cartoon illustrations, no cluttered timelines, no stock-photo emperors, no watermark, no anachronistic elements.",
+      "start": 135,
+      "length": 2171,
+      "sha256": "b95c5f823c5de44e1a2147b0a81cf77dd768bfc21909f52244aa254810093944",
+      "extraction": "Exact contiguous tweet.text block; author introduction/postscript omitted; no translation or index substitutions.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "tweetId": "2065057210426900515",
+          "index": 0,
+          "path": "/covers/x-2065057210426900515.jpg",
+          "url": "https://pbs.twimg.com/media/HKYJHBHWMAAK4qN.jpg?format=jpg&name=large",
+          "sha256": "c542c9e92a6ca7c34b19a457a62a37495928f646ae3f43b21e9441eadcf4e9d9",
+          "size": 479857,
+          "width": 1672,
+          "height": 941
+        }
+      ],
+      "discoveryIndex": "YouMind public search",
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=history%20infographic",
+      "discoveryTitle": "Luxury Empire Stratigraphy Poster",
+      "kind": "new-science-oriented-collection"
+    }
+  ]
+}
