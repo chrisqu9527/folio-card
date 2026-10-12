@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "count": 647,
-  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636.",
+  "count": 653,
+  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636. 2026-10-12 appended 6 entries (648–653).",
   "categories": [
     {
       "id": "identity",
@@ -23799,6 +23799,235 @@
       "prompt": "SYSTEM: Render the input as a luxury historical civilization stratigraphy poster. Do not hardcode dates unless inevitable. Infer the territorial expansion phases, economic foundation pillars, military innovation cycles, cultural assimilation patterns, and the geological layers of decline.  SEMANTIC SOLVE: EMPIRE_AUTOPSY =    (INFER(territorial_architecture FROM founding_core + expansion_vectors + frontier_fortifications + trade_route_control + vassal_networks) ::5) +    (INFER(economic_pillars FROM agricultural_base + mineral_resources + taxation_system + currency_standard + labor_organization) ::4) +    (INFER(military_innovation FROM weapon_technology + tactical_doctrine + logistics_chain + fortification_engineering + naval_capacity) ::4) +    (INFER(decline_mechanics FROM succession_crises + economic_inflation + frontier_pressure + internal_rebellion + environmental_stress) ::3) -    (generic timeline infographics + cartoon maps + cluttered textbook layouts + stock-photo ruins + cheap educational posters) ::-4  COMPOSITION: One central empire visualized as a multi-layered archaeological cross-section. The bottom layer shows the founding settlement, middle layers reveal territorial expansion through colored strata, and the top layer displays the fragmentation pattern. Surrounding the core are floating callouts showing key battles, economic indicators, and dynastic transitions mapped as physical artifacts. Use callout lines like an archaeological dig site report crossed with a military campaign map.  STYLE DNA: Ancient Roman Tabula Peutingeriana ::0.30 archaeological stratigraphy diagram ::0.25 vintage military campaign map ::0.20 museum exhibit infographic ::0.15 aged parchment with stain texture ::0.10  OUTPUT: Warm sepia or deep terracotta background luxury history poster, elegant classical serif + handwritten annotation typography, restrained callouts, hyper-realistic map textures, refined aging effects, premium negative space.  NEGATIVE: no holograms, no glowing elements, no VR/AR overlays, no modern digital maps, no cartoon illustrations, no cluttered timelines, no stock-photo emperors, no watermark, no anachronistic elements.",
       "covers": [
         "/covers/x-2065057210426900515.jpg"
+      ]
+    },
+    {
+      "no": "648",
+      "id": "x-2108142673890840911",
+      "title": "照片上下对半的高级手绘生活插画海报",
+      "kicker": "真人转插画",
+      "excerpt": "上半保留原照片质感，下半重构为大量留白的手绘涂鸦生活插画。",
+      "style": "上下对半手绘涂鸦生活插画海报",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "feeling"
+      ],
+      "tags": [
+        "手绘",
+        "涂鸦",
+        "生活插画",
+        "海报",
+        "留白",
+        "照片转绘"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "msjiaozhu",
+        "name": "MapleShaw",
+        "handle": "msjiaozhu",
+        "url": "https://x.com/msjiaozhu"
+      },
+      "sourceUrl": "https://x.com/msjiaozhu/status/2108142673890840911",
+      "model": "GPT Image（作者反推）",
+      "date": "2026-10-08",
+      "notes": "提示词逐字取自作者公开原帖评论区，配图为原帖示例，本次未重新生成。",
+      "prompt": "Please turn each photo I upload into an independent high-end design poster, no multi-image stitching, each photo output individually. Overall use a 3:4 vertical composition, the top and bottom areas are strictly 1:1 in height, each occupying 50% of the screen.\n\nThe upper half retains the original photo, maintaining the subject's identity, structure, posture, real texture, natural light and shadow, and original color atmosphere, with only slight high-end color grading to give it the texture of art magazines and exhibition images. To adapt to the frame size, the environmental background can be naturally extended, but the subject must not be stretched, distorted, or changed.\n\nThe lower half performs new artistic judgment, only extracting the most recognizable subject, outline, structure, posture, and narrative relationship from the photo, reconstructed as Hand-drawn Doodle Lifestyle Illustration / Naïve Illustration / Marker Drawing. Do not retain all objects, do not copy the original scene; actively delete the vast majority of backgrounds and irrelevant information, re-direct the scene through deletion, reorganization, cropping, and scale changes, so that even if the original image has an ordinary composition, it can be transformed into a valid piece of work.\n\nModeling is simplified, symbolic, relaxed, and personalized, using slightly jittery, intermittent, and not completely regular hand-drawn lines, as well as natural coloring like markers, crayons, and oil pastels. Allow slight line crossing, white space, and manual errors, without pursuing realistic proportions, complete perspective, or fine depiction.\n\nThe lower half must take a huge amount of conscious whitespace as its core, with solid graphics occupying only a small proportion, and the rest of the space actively left blank. Subjects can be eccentric, edge-aligned, suspended, or partially cropped, with positions determined by posture direction and visual center of gravity. Whitespace and the subject together form positive and negative shapes, distance, pauses, and a sense of breathing; rather paint less than fill the screen.\n\nGraphics and text must be re-typeset as a whole, rather than “a sentence on top, a character below.” Establish an invisible grid, visual axis, and reading path first, then decide on text placement; text can be close to the subject's outline, follow the direction of movement, align with the head or shoulder line, fall in large negative spaces, or form staggered, interspersed, and asymmetrical echoes with the graphics. Avoid mechanical centering, top-to-bottom stacking, and fixed templates; let graphics handle emotion and text handle rhythm, with both completing the composition together.\n\nText has no language restriction, retaining only a very small amount of truly meaningful words or short phrases. Use light, natural handwritten fonts with slight variations in character width and pen pressure, keeping a bit of a casual writing feel, but letter spacing, line spacing, and overall placement must be controlled through editorial design. One slightly obvious short phrase can be used with tiny auxiliary text to form a hierarchy, but no menu-style titles, long copy, or full-page text.\n\nColor adopts a soft, bright, and healing limited palette, re-modulating the most vital colors extracted from the original image to form refreshing colors such as cream yellow, peach pink, coral red, sky blue, lake cyan, tender green, and lavender purple; vivid but not glaring, soft but not dirty-grey, with warm white or extremely light composite colors as large areas of breathing space.\n\nOverall pursuit of naive drawing, mature composition, smart text-graphic relationships, and a massive amount of whitespace, like high-end independent magazines, lifestyle editorial illustrations, or art publications, rather than children's scrapbooks. Avoid fixed structures of centered subject + centered copy, random small icons scattered around, complex backgrounds, information accumulation, filling the screen, cheap cartoonishness, and templated layout.\n\nCurrent user-approved edit specification, overriding conflicting layout above:\nHorizontal 16:9, equal left original and right doodle. Small woman with pink ribbon, white sweater, floral skirt and loose bicycle outline, 20% occupied right-panel area, three controlled gesture lines, cream whitespace. Text SLOW AFTERNOON.\nPreserve original image panel faithfully, no stretching. Input is AI-generated, not a real-world photograph. No extra people, no male characters or male hands.",
+      "covers": [
+        "/covers/x-2108142673890840911.jpg"
+      ]
+    },
+    {
+      "no": "649",
+      "id": "x-2105717930998522135",
+      "title": "无黑描边的几何矢量角色动画风格",
+      "kicker": "2D矢量",
+      "excerpt": "角度几何角色、无黑描边、扁平色块与有限硬边赛璐璐的矢量动画风格。",
+      "style": "无黑描边几何矢量角色动画",
+      "category": "concept",
+      "scenarios": [
+        "concept",
+        "story"
+      ],
+      "tags": [
+        "矢量",
+        "角色",
+        "动画",
+        "扁平",
+        "几何",
+        "赛璐璐"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Whysterea",
+        "name": "Whysterea",
+        "handle": "Whysterea",
+        "url": "https://x.com/Whysterea"
+      },
+      "sourceUrl": "https://x.com/Whysterea/status/2105717930998522135",
+      "model": "ChatGPT（作者标注）",
+      "date": "2026-10-01",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。",
+      "prompt": "2D vector-style animation, angular geometric character design, no black outlines, flat color blocking, limited hard-edged cel shading, subtle textured fills, low-opacity facial texture, soft textured blush, graphic hair silhouettes, minimal interior linework, simplified stylized anatomy, moderately saturated colors, textured painterly backgrounds.",
+      "covers": [
+        "/covers/x-2105717930998522135.jpg"
+      ]
+    },
+    {
+      "no": "650",
+      "id": "x-2106661707862991285",
+      "title": "2000年代初掌上DV夏日社区短片",
+      "kicker": "真实DV",
+      "excerpt": "模拟2000年代初消费级DV录像的超现实真人家庭夏日下午短片。",
+      "style": "2000年代初掌上DV真实家庭录像",
+      "category": "memory",
+      "scenarios": [
+        "memory",
+        "story"
+      ],
+      "tags": [
+        "DV",
+        "真实",
+        "家庭",
+        "夏日",
+        "短片",
+        "掌上"
+      ],
+      "medium": "video",
+      "use": "social",
+      "slots": [],
+      "creator": {
+        "id": "SUOHA_AI",
+        "name": "梭哈.AI",
+        "handle": "SUOHA_AI",
+        "url": "https://x.com/SUOHA_AI"
+      },
+      "sourceUrl": "https://x.com/SUOHA_AI/status/2106661707862991285",
+      "model": "MUSE（作者标注）",
+      "date": "2026-10-04",
+      "notes": "提示词逐字取自作者公开原帖，配图为原帖示例，本次未重新生成。",
+      "prompt": "创建一个 30 秒、1080p、16:9 超现实主义真人家庭视频，内容是一位自然美丽的成年韩国女性，20 岁出头，在温暖的夏末下午与朋友在首尔一个较旧的社区度过时光。视频应感觉像是真正的 2000 年代初消费级 DV 录像——不是商业广告、音乐视频或舞台制作。保持一切简单、吸引人、自发且可信。\n\n主要角色与连贯性\n长及肩部的深棕色头发，自然柔和波浪，淡妆，逼真皮肤纹理，放松的表情。她穿着合身的白色短袖上衣、浅蓝色直筒牛仔裤、白色运动鞋、一个小巧的深棕色肩背包，以及一条精致的银色项链。保持她的脸部、发型、服装、配饰、体型比例以及同一瓶装饮料在整个视频中完美一致。\n\n地点\n首尔一个安静的较旧住宅社区：狭窄的混凝土街道、小型公寓楼、砖墙、盆栽植物、停放的自行车、电线杆、架空电线、一家小便利店，以及有遮荫的走道。没有地标、可识别的品牌、广告或商业活动。\n\n视觉风格\n真实的掌上 DV 镜头，带有自然的摄像机抖动、不完美的取景、自动对焦呼吸、偶尔的曝光变化、柔和的数字细节、褪色的色彩、轻微的视频噪点、自然运动模糊，以及偶尔的意外变焦。拍摄的朋友应自然反应。没有稳定器、无人机镜头、稳定器运动、慢动作、美颜滤镜或精致的电影感。\n\n故事 — 30 秒\n00:00–00:05：她离开公寓，调整背包，注意到摄像机，微笑。她的朋友随意跟上。\n00:05–00:10：她买了一瓶冷饮，将其贴在脸颊上，对摄像机变焦大笑，并说：“今天真热。”\n00:10–00:15：她们走在一条更安静的街道上。一辆自行车经过，她让开，然后在微风吹动头发时回头对摄像机微笑。\n00:15–00:20：她坐在公寓花园旁的一堵矮墙上。她的朋友指出她头发里的一片小叶子。她取下它并大笑。\n00:20–00:25：她们继续走。她短暂从朋友那里拿过饮料，喝了一口，还回去，并朝摄像机微笑。\n00:25–00:30：在公寓入口，她挥手说：“明天见。”她走进去。朋友继续拍摄一秒钟，直到门关上，然后画面突然切成黑屏。\n\n音频\n仅自然环境音：脚步声、远处车流声、自行车声、夏日昆虫声、公寓氛围声、商店冰箱嗡嗡声、瓶子移动声、树叶声，以及安静社区的低语声。仅自然对话。没有音乐、旁白、人工音效、字幕、说明文字、标志、水印或随机文本。\n\n现实主义\n自然的走路、坐姿、喝水、头发移动和手势。没有夸张表演、身份漂移、服装变化、扭曲的手、额外手指、重复人物、瞬间传送、CGI 外观或不可能的物理效果。\n\n最终感觉\n像朋友用一台旧 DV 随手拍下的夏末下午，而不是拍出来的片子",
+      "covers": [
+        "/covers/x-2106661707862991285.jpg"
+      ]
+    },
+    {
+      "no": "651",
+      "id": "x-2107653056771068069-scale",
+      "title": "比例尺对比知识动画",
+      "kicker": "尺度对比",
+      "excerpt": "按真实半径同屏摆放天体并平滑拉远的比例尺对比动画。",
+      "style": "真实半径比例尺对比动画",
+      "category": "code",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "比例尺",
+        "天体",
+        "对比",
+        "科普",
+        "代码"
+      ],
+      "medium": "video",
+      "use": "short",
+      "visualCategory": "code",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "id": "NFT_Chen",
+        "name": "SuSu_酥酥👅",
+        "handle": "NFT_Chen",
+        "url": "https://x.com/NFT_Chen"
+      },
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-07",
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成。与635／636同属一个公开原帖的不同模板；预览为合集视频画面。主题中的科学数据需要按使用内容另行校对。",
+      "prompt": "做一支 10 秒比例尺对比，把【地球、木星、太阳】按真实半径同屏摆放。镜头平滑拉远，第一个物体缩小，点题「太阳底下约有 130 万个地球」。数字标注清晰。",
+      "covers": [
+        "/covers/x-2107653056771068069.jpg"
+      ]
+    },
+    {
+      "no": "652",
+      "id": "x-2107653056771068069-whiteboard",
+      "title": "白板手绘知识动画",
+      "kicker": "马克笔手绘",
+      "excerpt": "白底黑马克笔一笔笔手绘并逐步强调的白板风格知识动画。",
+      "style": "白板马克笔手绘知识动画",
+      "category": "code",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "白板",
+        "手绘",
+        "马克笔",
+        "科普",
+        "代码"
+      ],
+      "medium": "video",
+      "use": "short",
+      "visualCategory": "code",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "id": "NFT_Chen",
+        "name": "SuSu_酥酥👅",
+        "handle": "NFT_Chen",
+        "url": "https://x.com/NFT_Chen"
+      },
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-07",
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成。与635／636同属一个公开原帖的不同模板；预览为合集视频画面。",
+      "prompt": "做一支 10 秒白板手绘。白底黑马克笔一笔笔画出【火柴人连甩 5 个包子】，红色只强调关键点。满足感粒子一颗比一颗大，最后角落画满。字幕：第 1 个，满足感拉满。",
+      "covers": [
+        "/covers/x-2107653056771068069-2.jpg"
+      ]
+    },
+    {
+      "no": "653",
+      "id": "x-2107653056771068069-math",
+      "title": "数学可视化知识动画",
+      "kicker": "3B1B风格",
+      "excerpt": "深色底扇形切分并拼成长方形的圆面积数学可视化动画。",
+      "style": "3Blue1Brown式数学可视化",
+      "category": "code",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "数学",
+        "可视化",
+        "圆面积",
+        "科普",
+        "代码"
+      ],
+      "medium": "video",
+      "use": "short",
+      "visualCategory": "code",
+      "slots": [
+        "主题"
+      ],
+      "creator": {
+        "id": "NFT_Chen",
+        "name": "SuSu_酥酥👅",
+        "handle": "NFT_Chen",
+        "url": "https://x.com/NFT_Chen"
+      },
+      "sourceUrl": "https://x.com/NFT_Chen/status/2107653056771068069",
+      "model": "Claude Opus 5.5 (code)",
+      "date": "2026-10-07",
+      "notes": "提示词逐字取自作者公开原帖；本次未重新生成。与635／636同属一个公开原帖的不同模板；预览为合集视频画面。公式与推导需要按使用内容另行校对。",
+      "prompt": "做一支 10 秒 3Blue1Brown 式数学可视化，讲【圆面积】。深色底，圆切成 8、16、32 个扇形，真的移拼成长方形。公式逐项出现，定格 πr²。",
+      "covers": [
+        "/covers/x-2107653056771068069-3.jpg"
       ]
     }
   ],
