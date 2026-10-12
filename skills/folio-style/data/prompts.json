@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 647,
+  "count": 648,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636.",
   "categories": [
     {
@@ -23799,6 +23799,50 @@
       "prompt": "SYSTEM: Render the input as a luxury historical civilization stratigraphy poster. Do not hardcode dates unless inevitable. Infer the territorial expansion phases, economic foundation pillars, military innovation cycles, cultural assimilation patterns, and the geological layers of decline.  SEMANTIC SOLVE: EMPIRE_AUTOPSY =    (INFER(territorial_architecture FROM founding_core + expansion_vectors + frontier_fortifications + trade_route_control + vassal_networks) ::5) +    (INFER(economic_pillars FROM agricultural_base + mineral_resources + taxation_system + currency_standard + labor_organization) ::4) +    (INFER(military_innovation FROM weapon_technology + tactical_doctrine + logistics_chain + fortification_engineering + naval_capacity) ::4) +    (INFER(decline_mechanics FROM succession_crises + economic_inflation + frontier_pressure + internal_rebellion + environmental_stress) ::3) -    (generic timeline infographics + cartoon maps + cluttered textbook layouts + stock-photo ruins + cheap educational posters) ::-4  COMPOSITION: One central empire visualized as a multi-layered archaeological cross-section. The bottom layer shows the founding settlement, middle layers reveal territorial expansion through colored strata, and the top layer displays the fragmentation pattern. Surrounding the core are floating callouts showing key battles, economic indicators, and dynastic transitions mapped as physical artifacts. Use callout lines like an archaeological dig site report crossed with a military campaign map.  STYLE DNA: Ancient Roman Tabula Peutingeriana ::0.30 archaeological stratigraphy diagram ::0.25 vintage military campaign map ::0.20 museum exhibit infographic ::0.15 aged parchment with stain texture ::0.10  OUTPUT: Warm sepia or deep terracotta background luxury history poster, elegant classical serif + handwritten annotation typography, restrained callouts, hyper-realistic map textures, refined aging effects, premium negative space.  NEGATIVE: no holograms, no glowing elements, no VR/AR overlays, no modern digital maps, no cartoon illustrations, no cluttered timelines, no stock-photo emperors, no watermark, no anachronistic elements.",
       "covers": [
         "/covers/x-2065057210426900515.jpg"
+      ]
+    },
+    {
+      "no": "648",
+      "id": "x-2109241251216458225",
+      "title": "青绿飞檐的唐诗留白",
+      "kicker": "云团树冠",
+      "excerpt": "把一首唐诗画成竖版工笔：青绿飞檐、云团树冠，江面留成大片素纸。",
+      "style": "新中式工笔细线设色",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "feeling"
+      ],
+      "tags": [
+        "新中式",
+        "工笔",
+        "诗词",
+        "青绿",
+        "留白",
+        "插画"
+      ],
+      "medium": "image",
+      "slots": [
+        "诗题",
+        "诗句",
+        "作者",
+        "时令主色",
+        "点景",
+        "建筑"
+      ],
+      "creator": {
+        "id": "larus",
+        "name": "Larus Canus",
+        "handle": "MrLarus",
+        "url": "https://x.com/MrLarus"
+      },
+      "sourceUrl": "https://x.com/MrLarus/status/2109241251216458225",
+      "model": "Images 2.5（作者标注）",
+      "date": "2026-10-11",
+      "notes": "作者原帖未在正文给出完整提示词，提示词为根据配图反推撰写。正文只说明用 Images 2.5 做新中式插画，并点出细线设色、青绿飞檐、云团树冠、工笔细线与大面积留白，写明提示词在评论区；评论区文字未逐字收录，不能把这份反推稿说成作者原文。配图四张为泊秦淮、大林寺桃花、枫桥夜泊、江雪，封面用泊秦淮。夜景仍是亮纸面加点灯。换诗只改槽位。画面上的诗句、作者与印章未作文献校勘。",
+      "prompt": "【诗题】：{2–4 个字，例如：泊秦淮}\n【诗句】：{填写该诗原句，保留标点}\n【作者】：{朝代 · 姓名，例如：唐 · 杜牧}\n【时令主色】：{一种树冠主色，例如：石青与朱红并置、绯桃、满林丹枫、雪青}\n【点景】：{一个很小的动作，例如：孤舟夜泊、杖锡上山、渔火对眠、寒江独钓}\n【建筑】：{一处青绿飞檐，或写「无」}\n\n用 Images 2.5 生成一张 9:16 新中式工笔插画海报。手法是细线设色：工笔细线勾建筑、枝干与水纹，矿物色平涂，树冠做成云团并以细点渲染，江面、雪地或路径留成大面积暖象牙素纸。\n\n视角是略带俯视的斜向鸟瞰。一条素纸色的江水、雪原或石径从画面上方蜿蜒而下，约占一半面积，本身就是留白。不要把水面涂成写实的蓝色，也不要把夜诗画成满幅暗空。水只用极细的墨线波纹；雪地保持素纸，只在石块和枝下加淡青灰影。\n\n树冠是一团团圆润的云团，沿左右边缘层层叠压，把中间的留白包成走廊。枝干用细墨线，树冠用【时令主色】点染，边缘透出细枝。花瓣或红叶只稀疏落在留白边缘。\n\n若【建筑】不是「无」，把一座传统建筑放在画面上段一侧：青绿琉璃瓦、细密瓦垄、起翘飞檐、朱柱、白墙、石阶。夜景只在檐下和舟上点几盏暖红灯笼，纸面仍然明亮。\n\n点景只有一个深色简笔小人，正在做【点景】，可配一叶篷船。人物是尺度，不是肖像。\n\n文字参与构图。画面下角用极大的宋体竖排【诗题】，字色暖米白或墨色，可被树冠轻轻压住边缘。一侧用小字竖排【诗句】，下署【作者】，旁钤一枚很小的朱红印章。不要英文主标题，不要水印，不要第二套大字。\n\n整体像印在暖象牙艺术纸上的文化海报：疏朗、细线清楚、设色克制。\n\n避免：写实摄影、三维建筑效果图、动漫厚描边、大泼墨、暗黑电影夜景、霓虹、金箔堆砌、多人群像、杂乱纹样、脏旧做旧、Logo。",
+      "covers": [
+        "/covers/x-2109241251216458225.jpg"
       ]
     }
   ],
