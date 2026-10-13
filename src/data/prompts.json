@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "count": 653,
-  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636. 2026-10-12 appended 6 entries (648–653).",
+  "count": 657,
+  "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636. 2026-10-12 appended 6 entries (648–653). 2026-10-13 appended 654–657.",
   "categories": [
     {
       "id": "identity",
@@ -24028,6 +24028,149 @@
       "prompt": "做一支 10 秒 3Blue1Brown 式数学可视化，讲【圆面积】。深色底，圆切成 8、16、32 个扇形，真的移拼成长方形。公式逐项出现，定格 πr²。",
       "covers": [
         "/covers/x-2107653056771068069-3.jpg"
+      ]
+    },
+    {
+      "no": "654",
+      "id": "x-2110029931828932952-midnight",
+      "title": "Midnight Glass — Cinematic Night Portrait",
+      "kicker": "电影夜色肖像",
+      "excerpt": "雨夜人行道上的冷静电影感时装肖像。",
+      "style": "cinematic film noir night portrait",
+      "category": "identity",
+      "scenarios": [
+        "identity"
+      ],
+      "tags": [
+        "人像",
+        "夜景",
+        "电影感",
+        "时装"
+      ],
+      "medium": "image",
+      "visualCategory": "portrait",
+      "slots": [],
+      "creator": {
+        "id": "MrDasCreates",
+        "name": "Mr Das",
+        "handle": "MrDasCreates",
+        "url": "https://x.com/MrDasCreates"
+      },
+      "sourceUrl": "https://x.com/MrDasCreates/status/2110029931828932952",
+      "model": "GPT Image 2.5",
+      "date": "2026-10-13",
+      "notes": "提示词逐字取自作者公开原帖。",
+      "prompt": "{\n  \"type\": \"image_generation_prompt\",\n  \"title\": \"Midnight Glass — Cinematic Night Portrait (Female)\",\n  \"style\": \"cinematic film noir, contemporary fashion, cool-toned, high contrast\",\n  \"concept\": {\n    \"description\": \"A moody night portrait of a woman standing on a rain-slicked city sidewalk, lit by a single cool streetlight and distant neon reflections. The image emphasizes atmosphere, silhouette, and quiet confidence.\",\n    \"mood\": \"mysterious, composed, cinematic\",\n    \"color_palette\": [\"deep navy\", \"black\", \"silver\", \"cool white\", \"muted amber\"]\n  },\n  \"subject\": {\n    \"gender\": \"female\",\n    \"identity_preservation\": {\n      \"use_reference_image\": true,\n      \"alter_face\": false,\n      \"notes\": \"Keep the woman’s facial features and physical appearance consistent with the reference image.\"\n    },\n    \"pose\": {\n      \"name\": \"Still Glance\",\n      \"posture\": \"standing with one shoulder slightly turned toward the camera\",\n      \"hand_action\": \"one hand lightly holding the edge of her coat collar\",\n      \"expression\": \"calm, direct, restrained\"\n    },\n    \"appearance\": {\n      \"hair\": {\n        \"length\": \"shoulder-length\",\n        \"texture\": \"straight with slight movement\"\n      },\n      \"makeup\": {\n        \"style\": \"minimal, natural skin, defined eyes\"\n      }\n    }\n  },\n  \"wardrobe\": {\n    \"coat\": \"long black tailored coat with a subtle sheen\",\n    \"top\": \"dark silk blouse\",\n    \"pants\": \"slim black trousers\",\n    \"shoes\": \"black leather boots\",\n    \"accessories\": \"thin silver hoop earrings\"\n  },\n  \"environment\": {\n    \"background\": {\n      \"setting\": \"wet urban street at night\",\n      \"details\": \"soft bokeh lights, reflective pavement, distant blurred buildings\",\n      \"style\": \"atmospheric, uncluttered\"\n    }\n  },\n  \"lighting\": {\n    \"type\": \"single cool key light from above and slightly to the side\",\n    \"shadows\": \"soft but defined shadows\",\n    \"effect\": \"creates depth and a quiet cinematic mood\"\n  },\n  \"camera\": {\n    \"camera_model\": \"Sony A7R V\",\n    \"lens\": \"50mm f/1.2\",\n    \"aperture\": \"f/1.8\",\n    \"iso\": 400,\n    \"shutter_speed\": \"1/160s\",\n    \"angle\": \"eye-level, slight three-quarter view\",\n    \"framing\": \"vertical 4:5, head and torso with some environmental context\",\n    \"resolution\": \"Ultra-HD\"\n  },\n  \"visual_effects\": {\n    \"film_grain\": \"fine cinematic grain\",\n    \"vignette\": \"gentle darkening at the edges\",\n    \"texture_focus\": [\"coat fabric\", \"wet pavement reflections\", \"skin\"]\n  },\n  \"quality\": {\n    \"realism\": \"photorealistic\",\n    \"detail_level\": \"high editorial detail with natural skin texture\"\n  },\n  \"output_goal\": \"Create a realistic, cool-toned night portrait with a restrained film-noir atmosphere, strong composition, and convincing light and reflections.\"\n}",
+      "covers": [
+        "/covers/x-2110029931828932952-1.jpg"
+      ]
+    },
+    {
+      "no": "655",
+      "id": "x-2109923277053501452-aegonic",
+      "title": "AEGONIC SPACE: Tiny Pioneers of Mars",
+      "kicker": "微型航天广告",
+      "excerpt": "微型工程师在手工航天工厂里建造火星飞船的电影感品牌片。",
+      "style": "Photorealistic miniature diorama aerospace commercial",
+      "category": "promotion",
+      "scenarios": [
+        "promotion"
+      ],
+      "tags": [
+        "微型",
+        "航天",
+        "品牌",
+        "广告",
+        "电影感"
+      ],
+      "medium": "video",
+      "use": "ad",
+      "visualCategory": "commercial",
+      "slots": [],
+      "creator": {
+        "id": "Fujimoto_hina",
+        "name": "Aegon",
+        "handle": "Fujimoto_hina",
+        "url": "https://x.com/Fujimoto_hina"
+      },
+      "sourceUrl": "https://x.com/Fujimoto_hina/status/2109923277053501452",
+      "model": "Seedance 2.5",
+      "date": "2026-10-13",
+      "notes": "提示词逐字取自作者公开原帖。",
+      "prompt": "{\n“title”: “AEGONIC SPACE: Tiny Pioneers of Mars”,\n“duration”: “30 seconds”,\n“aspect_ratio”: “16:9”,\n“resolution”: “4K”,\n“style”: “Photorealistic miniature diorama, cinematic macro filmmaking, premium aerospace commercial”,\n\n“prompt”: “Create a cinematic 30-second film introducing AEGONIC SPACE, an original fictional aerospace brand. Adorable, tiny alien engineers construct an advanced Mars exploration spacecraft inside a gigantic handcrafted miniature aerospace factory. The environment must look physically real, with miniature cranes, robotic arms, scaffolding, precision tools, metallic structures, and dramatic industrial lighting. The spacecraft, AEGON-01, features a silver-white fuselage, copper-gold thermal insulation, graphite components, folding blue solar arrays, radiators, and realistic scientific equipment. Emphasize the enormous spacecraft compared with the tiny workers, intricate engineering details, teamwork, and cinematic realism.”,\n\n“characters”: “Three consistent, cute, original miniature engineers: MIKO, mint-green with large dark eyes; LUMA, lavender with violet eyes; and PIP, peach-colored with rounded cheeks. All wear matching ivory-white aerospace suits with teal stripes, tiny boots, gloves, protective visors, and the original AEGONIC SPACE insignia. Maintain identical faces, proportions, colors, and costumes throughout.”,\n\n“scenes”: [\n“0–5s: Reveal a gigantic miniature aerospace factory. Tiny engineers and cranes work around the unfinished AEGON-01 spacecraft. Introduce the AEGONIC SPACE sign.”,\n“5–11s: Engineers assemble the spacecraft’s structural frame using robotic arms, precision tools, and miniature lifting platforms.”,\n“11–16s: Tiny workers install copper-gold thermal insulation and inspect the spacecraft’s metallic surfaces.”,\n“16–21s: Engineers integrate propulsion hardware and unfold realistic blue solar arrays. Small control panels indicate successful system checks.”,\n“21–26s: Reveal the completed AEGON-01 spacecraft through a smooth cinematic orbit. Tiny engineers celebrate their achievement.”,\n“26–30s: The camera pulls back to reveal the spacecraft, miniature crew, and a Mars image on a mission display. Finish with the AEGONIC SPACE logo and tagline.”\n],\n\n“camera”: “Smooth macro tracking, low-angle perspectives, realistic shallow depth of field, cinematic orbital movements, detailed close-ups, and seamless transitions.”,\n\n“lighting”: “Clean white industrial lighting, warm golden highlights, realistic metallic reflections, soft shadows, and a consistent silver, gold, graphite, and teal palette.”,\n\n“audio”: “Miniature footsteps, robotic servo sounds, mechanical clicks, factory ambience, and inspiring original cinematic music. No dialogue or voiceover.”,\n\n“consistency”: “Keep all characters, spacecraft geometry, factory layout, lighting, materials, and branding consistent across every scene. Show logical spacecraft construction with physically plausible mechanical movements.”,\n\n“branding”: {\n“brand”: “AEGONIC SPACE”,\n“spacecraft”: “AEGON-01”,\n“mission”: “MARS EXPEDITION”,\n“tagline”: “Small Hands. Infinite Horizons.”,\n“logo”: “Original minimalist orbital emblem surrounding a small star.”\n},\n\n“negative_prompt”: “Cartoon, anime, plastic toy appearance, copied copyrighted characters, imitation of existing aerospace logos, inconsistent characters, changing spacecraft design, distorted faces, extra limbs, floating tools, magical assembly, impossible mechanics, excessive CGI effects, explosions, vulgarity, flickering, shaky camera, abrupt cuts, and unreadable text.”,\n\n“final_result”: “A heartwarming, photorealistic miniature aerospace film showing adorable engineers building an original Mars spacecraft for AEGONIC SPACE. Premium cinematic quality, consistent characters, believable engineering, 16:9 widescreen.”\n}",
+      "covers": [
+        "/covers/x-2109923277053501452-1.jpg"
+      ]
+    },
+    {
+      "no": "656",
+      "id": "x-2105717930998522135-vector",
+      "title": "Angular Geometric Vector Character Style",
+      "kicker": "几何矢量角色",
+      "excerpt": "无描边的平面色块几何角色插画风格。",
+      "style": "2D vector-style angular geometric animation",
+      "category": "concept",
+      "scenarios": [
+        "concept"
+      ],
+      "tags": [
+        "矢量",
+        "几何",
+        "角色",
+        "动画风格"
+      ],
+      "medium": "image",
+      "visualCategory": "illustration",
+      "slots": [],
+      "creator": {
+        "id": "Whysterea",
+        "name": "Whysterea",
+        "handle": "Whysterea",
+        "url": "https://x.com/Whysterea"
+      },
+      "sourceUrl": "https://x.com/Whysterea/status/2105717930998522135",
+      "model": "ChatGPT",
+      "date": "2026-10-01",
+      "notes": "提示词逐字取自作者公开原帖。",
+      "prompt": "2D vector-style animation, angular geometric character design, no black outlines, flat color blocking, limited hard-edged cel shading, subtle textured fills, low-opacity facial texture, soft textured blush, graphic hair silhouettes, minimal interior linework, simplified stylized anatomy, moderately saturated colors, textured painterly backgrounds.",
+      "covers": [
+        "/covers/x-2105717930998522135-1.jpg"
+      ]
+    },
+    {
+      "no": "657",
+      "id": "x-2109931917005181161-orange",
+      "title": "Orange Deadpan Cartoon Minimalism",
+      "kicker": "橙色冷幽默卡通",
+      "excerpt": "大面积橙色与灰色上的干冷幽默极简卡通风格。",
+      "style": "Orange deadpan cartoon minimalism",
+      "category": "story",
+      "scenarios": [
+        "story",
+        "opinion"
+      ],
+      "tags": [
+        "卡通",
+        "极简",
+        "幽默",
+        "橙色"
+      ],
+      "medium": "image",
+      "visualCategory": "illustration",
+      "slots": [],
+      "creator": {
+        "id": "airina_xyz",
+        "name": "AIrina",
+        "handle": "airina_xyz",
+        "url": "https://x.com/airina_xyz"
+      },
+      "sourceUrl": "https://x.com/airina_xyz/status/2109931917005181161",
+      "model": "Midjourney",
+      "date": "2026-10-13",
+      "notes": "提示词逐字取自作者公开原帖。",
+      "prompt": "anything you want --ar 16:9 --sref 1168908866 1239818420 596841288\n\nBurnt-orange and desaturated gray-green backgrounds, loose black sketch lines, simplified lanky characters, oversized heads and tiny bodies, sparse interiors, blocky furniture, quirky vehicles, huge negative space, deliberately awkward proportions.",
+      "covers": [
+        "/covers/x-2109931917005181161-1.jpg"
       ]
     }
   ],

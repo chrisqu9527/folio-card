@@ -1,10 +1,10 @@
 # FOLIO 风格编号目录
 
-共 653 条。图像与视频都按人们要完成的事分类；同一条可用于多个场景，各类数量不可相加。风格、形式和制作工具保留为检索信息。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
+共 657 条。图像与视频都按人们要完成的事分类；同一条可用于多个场景，各类数量不可相加。风格、形式和制作工具保留为检索信息。编号 001–106 已冻结；107 起只追加。复制时读 `entries/NNN.md`，不要改写提示词。
 
-# 图像（542）
+# 图像（545）
 
-## 展示自己（76）
+## 展示自己（77）
 
 让别人认识你：个人头像、职业形象、自我介绍和求职作品展示。
 
@@ -86,6 +86,7 @@
 | 602 | 黑色记号笔白板卡通 | 参考人物转白板讲解角色 | @shushant_l |
 | 629 | 3D卡通反差萌蓄力姿势 | 奶凶生气握拳反差萌 | @nima2qisi2 |
 | 634 | 金箔天使鱼混合媒材时装插画 | 金箔天使鱼时装插画 | @Tanvir48992 |
+| 654 | cinematic film noir night portrait | Midnight Glass — Cinematic Night Portrait | @MrDasCreates |
 
 ## 记录生活（86）
 
@@ -536,7 +537,7 @@
 | 551 | 联名球鞋电影海报 | 草帽团黎明球鞋海报 | @guicastellanos1 |
 | 591 | 魔法少女动画主视觉 | 魔法少女片名海报 | @SSSS_CRYPTOMAN |
 
-## 表达观点（86）
+## 表达观点（87）
 
 把观察、态度和生活感悟变成可分享的画面，用幽默、对照或隐喻说清想法。
 
@@ -628,8 +629,9 @@
 | 625 | 七扇区粗线Q版循环漫画 | 一周循环的七格角色漫画 | @SSSS_CRYPTOMAN |
 | 637 | 家居场景即广阔地貌的超现实摄影 | 家居景物双重地貌 | @Gdgtify |
 | 642 | 纸纹毛笔标题与手绘插画知识卡 | 红黑手绘的知识要点卡 | @dotey |
+| 657 | Orange deadpan cartoon minimalism | Orange Deadpan Cartoon Minimalism | @airina_xyz |
 
-## 讲述故事（261）
+## 讲述故事（262）
 
 用人物、动作与场景讲一个故事，制作故事画面、分镜或连续影像。
 
@@ -896,8 +898,9 @@
 | 640 | 角色一致的横版料理步骤漫画 | 角色下厨的甜甜圈步骤漫画 | @schnapoon |
 | 646 | UPA几何造型与有限动画式动作插画 | 几何双角色互动的系列漫画画风 | @VoxcatAI |
 | 649 | 无黑描边几何矢量角色动画 | 无黑描边的几何矢量角色动画风格 | @Whysterea |
+| 657 | Orange deadpan cartoon minimalism | Orange Deadpan Cartoon Minimalism | @airina_xyz |
 
-## 构思角色与世界（212）
+## 构思角色与世界（213）
 
 为角色、游戏、动画或空间寻找形象，试出人物设定和世界的样子。
 
@@ -1115,8 +1118,9 @@
 | 644 | 蓝色发光结构线与标注生物图解 | 发光解剖结构的生物图解 | @umesh_ai |
 | 646 | UPA几何造型与有限动画式动作插画 | 几何双角色互动的系列漫画画风 | @VoxcatAI |
 | 649 | 无黑描边几何矢量角色动画 | 无黑描边的几何矢量角色动画风格 | @Whysterea |
+| 656 | 2D vector-style angular geometric animation | Angular Geometric Vector Character Style | @Whysterea |
 
-# 视频（111）
+# 视频（112）
 
 ## 展示自己（17）
 
@@ -1198,7 +1202,7 @@
 | 652 | 白板马克笔手绘知识动画 | 白板手绘知识动画 | @NFT_Chen |
 | 653 | 3Blue1Brown式数学可视化 | 数学可视化知识动画 | @NFT_Chen |
 
-## 介绍产品（26）
+## 介绍产品（27）
 
 让别人了解商品、服务、应用或品牌，看到特点、效果和使用方法。
 
@@ -1230,6 +1234,7 @@
 | 630 | 单点驱动的2D运动设计 | 单橙点运动系统 | @ultimaxbt |
 | 631 | 白球驱动的连续UI运动 | 白球UI运动系统 | @rossaxbt |
 | 632 | 单对象连续形态变形运动设计 | 一日生活连续变形运动 | @twoclipping |
+| 655 | Photorealistic miniature diorama aerospace commercial | AEGONIC SPACE: Tiny Pioneers of Mars | @Fujimoto_hina |
 
 ## 发布消息（5）
 
