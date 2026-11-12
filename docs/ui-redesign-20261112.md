@@ -37,3 +37,9 @@ Taste `consistency.mjs` ran at 1440, 1024, 820, 768 and 390px, plus narrow/slow/
 Actual issues identified by the check were corrected: 44px title targets, consistent mobile footer edges, a nearby bottom action, and lighter gallery previews. The slow-network Taste sweep was not rerun, so its corrected performance is not claimed as re-certified. Subsequent app checks verified the new preview images load and render at usable sizes. `gate.mjs` returned OFF and was not rerun per its own instructions.
 
 Development and built captures: `screenshots/folio-taste-final-dev*.png`, `screenshots/folio-taste-built*.png`. Interaction evidence: `screenshots/discovery-dev-checks.json` and `screenshots/discovery-built-checks.json`.
+
+## Publication
+
+GitHub UI commit: `b30b78301a0b9fb06be93bb6d8c36bf63f800f56`, pushed to `origin/main`.
+Sites source commit: `6510128709b2e46db1b1b28cc9527445349639fc`.
+The local 148 MB archive upload timed out twice; publication fell back to the pushed source and the managed remote build. Version 13 deployment `appgdep_6af5993cadf08191af8ed70646477413` returned `succeeded` with no failure message on 2026-11-12. URL: https://folio-card.chrisqu6688.chatgpt.site . Existing custom audience retained.
