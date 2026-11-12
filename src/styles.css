@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@import "./discovery.css";
+@import "./editorial.css";
 
 @theme {
   --color-bg: #f6f3eb;
@@ -770,6 +772,9 @@
   }
 }
 @media (max-width: 759px) {
+  .folio-masonry {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .folio-app {
     --rail-width: 0px;
     --topbar-height: 56px;

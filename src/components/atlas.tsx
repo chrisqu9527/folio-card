@@ -9,7 +9,6 @@ import {
   Film,
   Github,
   Heart,
-  Home,
   Image as ImageIcon,
   LayoutGrid,
   RotateCcw,
@@ -24,6 +23,7 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { useFavorites } from "@/lib/favorites";
+import { StyleDiscovery } from "@/components/style-discovery";
 import { brand } from "@/lib/brand";
 import {
   categoryName,
@@ -40,10 +40,11 @@ import {
   type UseId,
 } from "@/lib/folio";
 
-type SortOrder = "collected" | "recommended" | "latest" | "number";
+type SortOrder = "collected" | "latest" | "number";
 const REPO_URL = "https://github.com/chrisqu9527/folio-card";
 
 export function Atlas() {
+  const [view, setView] = useState<"discover" | "library" | "saved">("discover");
   const [query, setQuery] = useState("");
   const [medium, setMedium] = useState<Medium>("image");
   const [category, setCategory] = useState<CategoryId | "all">("all");
@@ -89,6 +90,7 @@ export function Atlas() {
         return;
       }
       if (!no) return;
+      setView("library");
       const hit = promptByNo(no);
       setQuery(no);
       setMissing(hit ? null : no);
@@ -133,8 +135,14 @@ export function Atlas() {
     setMissing(null);
   }
   function pickMedium(next: Medium) {
+    setView("library");
     setMedium(next);
     resetFilters();
+  }
+  function openLibrary(savedOnly = false) {
+    resetFilters();
+    setOnlyFavorites(savedOnly);
+    setView("library");
   }
   function onQuery(value: string) {
     setQuery(value);
@@ -172,99 +180,46 @@ export function Atlas() {
   }
 
   return (
-    <div className="folio-app">
-      <h1 className="sr-only">{brand.name}</h1>
-      <aside className="folio-rail" aria-label="主要导航">
-        <button
-          className="folio-logo"
-          onClick={() => {
-            pickMedium("image");
-            closeDetail();
-          }}
-          aria-label={`${brand.name}首页`}
-          title={brand.name}
-        >
-          <img src={brand.mark} alt="" width={44} height={44} />
-        </button>
-        <nav>
-          <button
-            className={`rail-button ${!onlyFavorites && medium === "image" ? "is-active" : ""}`}
-            aria-label="图像风格库"
-            title="图像风格"
-            onClick={() => pickMedium("image")}
-          >
-            <Home />
-          </button>
-          <button
-            className={`rail-button ${!onlyFavorites && medium === "video" ? "is-active" : ""}`}
-            aria-label="视频风格库"
-            title="视频风格"
-            onClick={() => pickMedium("video")}
-          >
-            <Film />
-          </button>
-          <button
-            className={`rail-button ${onlyFavorites ? "is-active" : ""}`}
-            aria-label="我的收藏"
-            title="我的收藏"
-            onClick={() => {
-              setOnlyFavorites(true);
-              setQuery("");
-              setCategory("all");
-              setScene("all");
-              setMissing(null);
-            }}
-          >
-            <Heart />
-          </button>
-        </nav>
-        <div className="folio-rail-bottom">
-          <button className="rail-button" aria-label="使用指南" onClick={() => setHelpOpen(true)}>
-            <CircleHelp />
-          </button>
-        </div>
-      </aside>
+    <div className={`folio-app folio-editorial ${view !== "library" ? "has-discovery" : ""}`}>
+      {view === "library" && <h1 className="sr-only">{brand.name}全部素材</h1>}
+      <a className="folio-skip-link" href="#folio-content">
+        跳到内容
+      </a>
       <div className="folio-workspace">
         <header className="folio-topbar">
           <button
-            className="folio-mobile-brand"
+            className="folio-wordmark"
             aria-label={`${brand.name}首页`}
             onClick={() => {
-              pickMedium("image");
+              setView("discover");
               closeDetail();
             }}
           >
             <img src={brand.mark} alt="" width={32} height={32} />
-            <span>{brand.shortName}</span>
+            <strong>
+              FOLIO<span>画风灵感库</span>
+            </strong>
           </button>
-          <nav className="folio-categories" aria-label="应用场景">
-            <button
-              className={category === "all" ? "is-active" : ""}
-              onClick={() => {
-                setCategory("all");
-                setQuery("");
-                setMissing(null);
-              }}
-            >
-              全部
-            </button>
-            {folio.categories
-              .filter((c) => c.id === category || countMedium(medium, c.id, scene) > 0)
-              .map((c) => (
-                <button
-                  key={c.id}
-                  className={category === c.id ? "is-active" : ""}
-                  title={c.blurb}
-                  aria-pressed={category === c.id}
-                  onClick={() => {
-                    setCategory(c.id);
-                    setQuery("");
-                    setMissing(null);
-                  }}
-                >
-                  {c.name}
-                </button>
-              ))}
+          <nav className="folio-categories" aria-label="浏览方式">
+            {(
+              [
+                ["discover", "找画风"],
+                ["library", "全部素材"],
+                ["saved", "我的常用"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                className={view === id ? "is-active" : ""}
+                aria-pressed={view === id}
+                onClick={() => {
+                  if (id === "library") openLibrary();
+                  else setView(id);
+                }}
+              >
+                {label}
+              </button>
+            ))}
           </nav>
           <div className="folio-header-actions">
             <a
@@ -276,198 +231,234 @@ export function Atlas() {
             >
               <Github />
             </a>
-            <button className="solid-button" onClick={() => setHelpOpen(true)}>
-              使用指南
+            <button
+              className="icon-button"
+              aria-label="使用指南"
+              title="使用指南"
+              onClick={() => setHelpOpen(true)}
+            >
+              <CircleHelp />
             </button>
           </div>
         </header>
-        <main className="folio-main">
-          <section className="folio-toolbar" aria-label="搜索与筛选">
-            <div className="folio-medium-tabs" aria-label="媒体类型">
-              <button
-                className={medium === "image" ? "is-active" : ""}
-                aria-pressed={medium === "image"}
-                onClick={() => pickMedium("image")}
-              >
-                <ImageIcon />
-                图像风格
-              </button>
-              <button
-                className={medium === "video" ? "is-active" : ""}
-                aria-pressed={medium === "video"}
-                onClick={() => pickMedium("video")}
-              >
-                <Film />
-                视频风格
-              </button>
-            </div>
-            <form
-              className="folio-search"
-              onSubmit={(e) => {
-                e.preventDefault();
-                if (results[0]) choose(results[0]);
-              }}
-            >
-              <Search aria-hidden="true" />
-              <label className="sr-only" htmlFor="folio-q">
-                搜索场景、编号、风格或作者
-              </label>
-              <input
-                id="folio-q"
-                value={query}
-                onChange={(e) => onQuery(e.target.value)}
-                placeholder="搜索场景、编号、风格或作者"
-                inputMode="search"
-                autoComplete="off"
-              />
-              <span className="folio-result-count" aria-live="polite">
-                共 {results.length} 个
-              </span>
-            </form>
-            <div className="folio-controls">
-              <button
-                className={`icon-button ${onlyFavorites ? "is-active" : ""}`}
-                aria-label={onlyFavorites ? "查看全部风格" : "只看收藏"}
-                aria-pressed={onlyFavorites}
-                title={onlyFavorites ? "查看全部风格" : "只看收藏"}
-                onClick={() => setOnlyFavorites((v) => !v)}
-              >
-                <Heart />
-              </button>
-              <div className="folio-sort" aria-label="排序方式">
-                {(
-                  [
-                    ["collected", "收录"],
-                    ["recommended", "推荐"],
-                    ["latest", "最新"],
-                    ["number", "编号"],
-                  ] as const
-                ).map(([value, label]) => (
+        <main className="folio-main" id="folio-content" tabIndex={-1}>
+          {view !== "library" ? (
+            <StyleDiscovery
+              saved={view === "saved"}
+              favorites={favoriteIds}
+              onFavorite={toggleFavorite}
+              onLibrary={openLibrary}
+              onPrompt={choose}
+              materialCount={folio.prompts.length}
+            />
+          ) : (
+            <>
+              <section className="folio-toolbar" aria-label="搜索与筛选">
+                <div className="folio-medium-tabs" aria-label="媒体类型">
                   <button
-                    key={value}
-                    className={sort === value ? "is-active" : ""}
-                    aria-pressed={sort === value}
-                    onClick={() => setSort(value)}
+                    className={medium === "image" ? "is-active" : ""}
+                    aria-pressed={medium === "image"}
+                    onClick={() => pickMedium("image")}
                   >
-                    {label}
+                    <ImageIcon />
+                    图像风格
                   </button>
-                ))}
-              </div>
-              <button
-                className="icon-button"
-                aria-label="重置筛选"
-                title="重置筛选"
-                onClick={resetFilters}
-              >
-                <RotateCcw />
-              </button>
-              <button
-                className={`icon-button ${compact ? "is-active" : ""}`}
-                aria-label={compact ? "切换宽松布局" : "切换紧凑布局"}
-                aria-pressed={compact}
-                title={compact ? "切换宽松布局" : "切换紧凑布局"}
-                onClick={() => setCompact((v) => !v)}
-              >
-                <LayoutGrid />
-              </button>
-            </div>
-          </section>
-          <p className="folio-scenario-note">
-            {category === "all"
-              ? "你想用画面做什么？按上方场景找灵感，也可以搜索具体的风格。"
-              : folio.categories.find((c) => c.id === category)?.blurb}
-          </p>
-          {medium === "video" && (
-            <nav className="folio-scenes" aria-label="视频形式">
-              <button
-                className={scene === "all" ? "is-active" : ""}
-                onClick={() => {
-                  setScene("all");
-                  setQuery("");
-                  setMissing(null);
-                }}
-              >
-                全部形式
-              </button>
-              {folio.uses
-                .filter((u) => u.id === scene || countMedium(medium, category, u.id) > 0)
-                .map((u) => (
                   <button
-                    key={u.id}
-                    className={scene === u.id ? "is-active" : ""}
+                    className={medium === "video" ? "is-active" : ""}
+                    aria-pressed={medium === "video"}
+                    onClick={() => pickMedium("video")}
+                  >
+                    <Film />
+                    视频风格
+                  </button>
+                </div>
+                <form
+                  className="folio-search"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    if (results[0]) choose(results[0]);
+                  }}
+                >
+                  <Search aria-hidden="true" />
+                  <label className="sr-only" htmlFor="folio-q">
+                    搜索场景、编号、风格或作者
+                  </label>
+                  <input
+                    id="folio-q"
+                    value={query}
+                    onChange={(e) => onQuery(e.target.value)}
+                    placeholder="搜索场景、编号、风格或作者"
+                    inputMode="search"
+                    autoComplete="off"
+                  />
+                  <span className="folio-result-count" aria-live="polite">
+                    共 {results.length} 个
+                  </span>
+                </form>
+                <div className="folio-controls">
+                  <button
+                    className={`icon-button ${onlyFavorites ? "is-active" : ""}`}
+                    aria-label={onlyFavorites ? "查看全部风格" : "只看收藏"}
+                    aria-pressed={onlyFavorites}
+                    title={onlyFavorites ? "查看全部风格" : "只看收藏"}
+                    onClick={() => setOnlyFavorites((v) => !v)}
+                  >
+                    <Heart />
+                  </button>
+                  <div className="folio-sort" aria-label="排序方式">
+                    {(
+                      [
+                        ["collected", "收录"],
+                        ["latest", "最新"],
+                        ["number", "编号"],
+                      ] as const
+                    ).map(([value, label]) => (
+                      <button
+                        key={value}
+                        className={sort === value ? "is-active" : ""}
+                        aria-pressed={sort === value}
+                        onClick={() => setSort(value)}
+                      >
+                        {label}
+                      </button>
+                    ))}
+                  </div>
+                  <button
+                    className="icon-button"
+                    aria-label="重置筛选"
+                    title="重置筛选"
+                    onClick={resetFilters}
+                  >
+                    <RotateCcw />
+                  </button>
+                  <button
+                    className={`icon-button ${compact ? "is-active" : ""}`}
+                    aria-label={compact ? "切换宽松布局" : "切换紧凑布局"}
+                    aria-pressed={compact}
+                    title={compact ? "切换宽松布局" : "切换紧凑布局"}
+                    onClick={() => setCompact((v) => !v)}
+                  >
+                    <LayoutGrid />
+                  </button>
+                </div>
+              </section>
+              <label className="library-category">
+                按用途筛选
+                <select
+                  value={category}
+                  onChange={(e) => setCategory(e.target.value as CategoryId | "all")}
+                >
+                  <option value="all">全部用途</option>
+                  {folio.categories
+                    .filter((c) => c.id === category || countMedium(medium, c.id, scene) > 0)
+                    .map((c) => (
+                      <option key={c.id} value={c.id}>
+                        {c.name}
+                      </option>
+                    ))}
+                </select>
+              </label>
+              <p className="folio-scenario-note">
+                {category === "all"
+                  ? "按关键词或编号检索原始素材。还没想好用哪一种？从「找画风」里的精选方案开始。"
+                  : folio.categories.find((c) => c.id === category)?.blurb}
+              </p>
+              {medium === "video" && (
+                <nav className="folio-scenes" aria-label="视频形式">
+                  <button
+                    className={scene === "all" ? "is-active" : ""}
                     onClick={() => {
-                      setScene(u.id);
+                      setScene("all");
                       setQuery("");
                       setMissing(null);
                     }}
                   >
-                    {u.name}
+                    全部形式
                   </button>
+                  {folio.uses
+                    .filter((u) => u.id === scene || countMedium(medium, category, u.id) > 0)
+                    .map((u) => (
+                      <button
+                        key={u.id}
+                        className={scene === u.id ? "is-active" : ""}
+                        onClick={() => {
+                          setScene(u.id);
+                          setQuery("");
+                          setMissing(null);
+                        }}
+                      >
+                        {u.name}
+                      </button>
+                    ))}
+                </nav>
+              )}
+            </>
+          )}
+          {view === "library" &&
+            (results.length ? (
+              <div
+                className="folio-masonry"
+                style={{ "--folio-columns": columns } as CSSProperties}
+                aria-label="风格图鉴"
+              >
+                {masonry.map((group, column) => (
+                  <div className="folio-column" key={column}>
+                    {group.map((p, index) => (
+                      <StyleCard
+                        key={p.no}
+                        prompt={p}
+                        eager={index < 2}
+                        favorite={favoriteIds.includes(p.id)}
+                        onOpen={() => choose(p)}
+                        onFavorite={() => toggleFavorite(p.id)}
+                      />
+                    ))}
+                  </div>
                 ))}
-            </nav>
-          )}
-          {results.length ? (
-            <div
-              className="folio-masonry"
-              style={{ "--folio-columns": columns } as CSSProperties}
-              aria-label="风格图鉴"
-            >
-              {masonry.map((group, column) => (
-                <div className="folio-column" key={column}>
-                  {group.map((p, index) => (
-                    <StyleCard
-                      key={p.no}
-                      prompt={p}
-                      eager={index < 2}
-                      favorite={favoriteIds.includes(p.id)}
-                      onOpen={() => choose(p)}
-                      onFavorite={() => toggleFavorite(p.id)}
-                    />
-                  ))}
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="folio-empty" role="status">
-              <Search />
-              <h2>
-                {missing
-                  ? `没有编号 ${missing}`
-                  : onlyFavorites
-                    ? "这里还没有收藏"
-                    : "没有找到匹配的风格"}
-              </h2>
-              <p>
-                {missing
-                  ? `已有编号为 001–${String(folio.count).padStart(3, "0")}。试试其他编号。`
-                  : onlyFavorites
-                    ? "点击图片旁的爱心，把喜欢的风格留在这里。"
-                    : "换一个关键词，或清除筛选再看看。"}
-              </p>
-              <button className="solid-button" onClick={resetFilters}>
-                查看全部风格
-              </button>
-            </div>
-          )}
+              </div>
+            ) : (
+              <div className="folio-empty" role="status">
+                <Search />
+                <h2>
+                  {missing
+                    ? `没有编号 ${missing}`
+                    : onlyFavorites
+                      ? "这里还没有收藏"
+                      : "没有找到匹配的风格"}
+                </h2>
+                <p>
+                  {missing
+                    ? `已有编号为 001–${String(folio.count).padStart(3, "0")}。试试其他编号。`
+                    : onlyFavorites
+                      ? "点击图片旁的爱心，把喜欢的风格留在这里。"
+                      : "换一个关键词，或清除筛选再看看。"}
+                </p>
+                <button className="solid-button" onClick={resetFilters}>
+                  查看全部风格
+                </button>
+              </div>
+            ))}
         </main>
         <footer className="folio-bottom-bar">
           <div className="folio-footer-brand">
             <img src={brand.mark} alt="" width={40} height={40} />
             <div>
               <strong>
-                {brand.name} · {folio.count} 个已编号风格
+                {brand.name} · {folio.count} 条素材
               </strong>
               <p>原始提示词与作者来源，一起保留。</p>
             </div>
           </div>
-          <button
-            className="solid-button"
-            disabled={!results.length}
-            onClick={() => choose(results[Math.floor(Math.random() * results.length)])}
-          >
-            <Shuffle />
-            随机看一条
-          </button>
+          {view === "library" && (
+            <button
+              className="solid-button"
+              disabled={!results.length}
+              onClick={() => choose(results[Math.floor(Math.random() * results.length)])}
+            >
+              <Shuffle />
+              随机看一条
+            </button>
+          )}
         </footer>
       </div>
       <Dialog
@@ -496,13 +487,15 @@ export function Atlas() {
           <ol>
             <li>
               <strong>先选用途。</strong>
-              从你要完成的事出发找图；同一条可以用于多个场景。视频还能按形式细选。
+              在「找画风」选择想完成的创作，查看精选方案的原作示例和适用场景。
             </li>
             <li>
-              <strong>记住编号。</strong>输入 016、#16 或“风格16”，就能找到同一条。
+              <strong>换上你的内容。</strong>
+              打开方案，填写主题与要点，复制适配提示词到生图工具。原作和改编稿分别保留。
             </li>
             <li>
-              <strong>复制原文。</strong>打开图片，复制提示词；有【槽位】时，只替换主体。
+              <strong>留下常用画风。</strong>点击爱心收藏方案；「全部素材」仍可按 016、#16
+              或“风格16”查找并复制原始提示词。
             </li>
           </ol>
           <p>提示词和预览图归原作者。每条保留来源链接。收藏保存在当前浏览器。</p>

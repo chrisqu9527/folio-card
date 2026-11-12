@@ -8,3 +8,9 @@ node_modules/
 reconciliation-evidence/
 screenshots/folio-*.png
 screenshots/folio-*.json
+screenshots/discovery-*.png
+screenshots/discovery-*.json
+screenshots/folio-taste-before-source/
+screenshots/folio-taste-*.tar.gz
+screenshots/folio-taste-consistency/
+.taste-skill/chrome-*/
