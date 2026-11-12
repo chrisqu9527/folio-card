@@ -1,0 +1,466 @@
+{
+  "retrievedOn": "2026-11-12",
+  "baselineCount": 680,
+  "baselineCommit": "94a069bcb3626d8d257e5498efec37854684b9c1",
+  "baselineSha256": "5eff4ae13e0ecaa8fde765f64edd18bb653deaf86c0de9e202ce34dd069c1cdc",
+  "scope": "Science comics, knowledge diagrams and reusable narrative character illustration. Ten distinct public X prompts; no minimum-count padding.",
+  "access": "Public HTTP only: public timeline/index discovery, FxTwitter public post JSON, and matching pbs.twimg.com media. No X/Grok account, cookies, OAuth, API key or user browser session.",
+  "collection": {
+    "candidatePostsDiscovered": 234,
+    "originalPostsReviewed": 13,
+    "accepted": 10,
+    "visualReview": "Downloaded original matching previews; inspected 22 images in two contact sheets. Covers are original files, not generated or modified.",
+    "secondaryIndex": "YouMind used only for discovery. Exact text, authors and media verified against public original-post payloads."
+  },
+  "exclusions": [
+    {
+      "tweetId": "2059953881652887652",
+      "reason": "Same main prompt as earlier post 2059848813188378626; kept one."
+    },
+    {
+      "tweetId": "2029546976547590255",
+      "reason": "Similar product-blueprint family; prioritized the more general cutaway/function-flow template."
+    },
+    {
+      "tweetId": "2118289974697312356",
+      "reason": "Decorative ornamental ink treatment; lower priority than explanatory layouts in this refresh."
+    }
+  ],
+  "similarity": {
+    "method": "Lowercase whitespace-normalized 12-character shingles, Jaccard similarity against all 680 existing prompts and earlier candidates. Exact normalized prompt and source URL duplicates additionally rejected by data checks.",
+    "results": [
+      {
+        "tweetId": "2117700589761290462",
+        "chars": 514,
+        "nearestNo": "623",
+        "nearestId": "x-2065106786420711534",
+        "jaccard": 0.013
+      },
+      {
+        "tweetId": "2117925572836008316",
+        "chars": 1248,
+        "nearestNo": "464",
+        "nearestId": "x-2105051745303114040",
+        "jaccard": 0.0067
+      },
+      {
+        "tweetId": "2117811320187715649",
+        "chars": 1356,
+        "nearestNo": "645",
+        "nearestId": "x-2053342755791999091",
+        "jaccard": 0.0027
+      },
+      {
+        "tweetId": "2120011819540500495",
+        "chars": 599,
+        "nearestNo": "213",
+        "nearestId": "handraw-051",
+        "jaccard": 0.0133
+      },
+      {
+        "tweetId": "2119768466315993483",
+        "chars": 3502,
+        "nearestNo": "478",
+        "nearestId": "naik-city-car",
+        "jaccard": 0.0028
+      },
+      {
+        "tweetId": "2119151903963832532",
+        "chars": 4842,
+        "nearestNo": "558",
+        "nearestId": "x-2106957230939808222",
+        "jaccard": 0.012
+      },
+      {
+        "tweetId": "2118537605633442250",
+        "chars": 880,
+        "nearestNo": "candidate",
+        "nearestId": "2119151903963832532",
+        "jaccard": 0.005
+      },
+      {
+        "tweetId": "2119360528048877775",
+        "chars": 1151,
+        "nearestNo": "candidate",
+        "nearestId": "2117700589761290462",
+        "jaccard": 0.01
+      },
+      {
+        "tweetId": "2059848813188378626",
+        "chars": 2518,
+        "nearestNo": "606",
+        "nearestId": "x-2090825188107833774",
+        "jaccard": 0.0003
+      },
+      {
+        "tweetId": "2026095651256181079",
+        "chars": 1213,
+        "nearestNo": "608",
+        "nearestId": "x-2029299086512537753",
+        "jaccard": 0.0381
+      }
+    ]
+  },
+  "additions": [
+    {
+      "no": "681",
+      "id": "x-2117700589761290462",
+      "sourceUrl": "https://x.com/Gdgtify/status/2117700589761290462",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2117700589761290462",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:19.970082+00:00",
+      "publishedAt": "2026-11-03T19:29:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "A short infographic prompt. Not my favorite style but does work well for certain topics: \n\n4 images, 4:5, do this for 4 questions that baffle humanity: Render_Target =  ( Hand_Drawn_Educational_Infographic * 2.0 ) +  ( Sequential_Scale_Of_[$DOMAIN] * 2.0 ) +  ( Winding_Dashed_Path_From_[$ORIGIN]_To_[$EXTREMITY] * 1.8 ) +  ( Accurate_Scientific_Measurements_Text * 1.5 ) +  ( Whimsical_Marker_And_Watercolor_Icons * 1.5 ) +  ( Warm_Cream_Paper_Texture * 1.2 ) +  ( Inspirational_Hand_Lettered_Typography * 1.0 ) -  ( 3D_CGI_Renders / 3.0 ) -  ( Photorealism / 3.0 ) -  ( Jumbled_Out_Of_Order_Data / 2.0 )",
+      "start": 91,
+      "length": 514,
+      "sha256": "d5c37c50c1d563f367128d41511141dbdeadab2c09159a28b7f5aac2a0cd8da2",
+      "rawPath": "skills/folio-style/data/sources-20261112/2117700589761290462.json",
+      "rawSha256": "c3d051632736ec3a165679c8f3114177fd6ab956a8f2abf7642d7c42cdcdb4a2",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2117700589761290462-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWKyWBbXEAAiB9L.jpg?name=orig",
+          "sha256": "8d91e1600536414b69fe1d34115f6a056de8242453cd2f07ccf133a8d23b3c82",
+          "size": 512724
+        },
+        {
+          "path": "/covers/x-2117700589761290462-1.jpg",
+          "url": "https://pbs.twimg.com/media/HWKyV__XEAAhRkU.jpg?name=orig",
+          "sha256": "6edfdede90ecfea76cbc7b3e6b6d580acce7c7333db1cf695b749178d2b1db2e",
+          "size": 541410
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F5YLAAIAAAATMjExODA5MzE3NzMwNzY2MDM0NQgAAwAAAAIAAA"
+    },
+    {
+      "no": "682",
+      "id": "x-2117925572836008316",
+      "sourceUrl": "https://x.com/Gdgtify/status/2117925572836008316",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2117925572836008316",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:19.867117+00:00",
+      "publishedAt": "2026-11-04T10:23:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Asked GPT 2.5 to visualize 4 topics that have people worried. This is a fun infographic style \n\nPrompt: 16:9, 2x2 grid, do this for topics in the news that have people worried TOPIC = \"[TOPIC]\"\n\nclass SemanticEngine:\n    hero = infer_best_visual_hero(TOPIC)\n    core = infer_core_idea(TOPIC)\n    points = infer_key_points(TOPIC, n=\"6..14\")\n    symbols = infer_visual_metaphors(TOPIC)\n    examples = infer_micro_scenes(TOPIC, points)\n\nclass Hero:\n    subject = SemanticEngine.hero\n    view = infer_best_view(subject)\n    treatment = \"detailed black ink + pencil\"\n    placement = \"large central anchor\"\n\nclass DoodleSystem:\n    elements = SemanticEngine.symbols + SemanticEngine.examples\n    styles = [\n        \"tiny sketches\",\n        \"arrows\",\n        \"circles\",\n        \"handwritten callouts\",\n        \"mini diagrams\",\n        \"icon fragments\"\n    ]\n\nclass Index:\n    count = len(SemanticEngine.points)\n    labels = compress_to_short_phrases(SemanticEngine.points)\n    placement = \"right vertical column\"\n\nclass Style:\n    paper = \"warm off-white\"\n    linework = \"black ink\"\n    accents = infer_palette(TOPIC, count=4)\n    typography = \"large brush headline + handwritten notes\"\n\ndef render():\n    \"\"\"\n    Create a dense but readable editorial sketchbook infographic.\n    Hero, doodles, side index, annotations, and accents all adapt to TOPIC.\n    \"\"\"",
+      "start": 104,
+      "length": 1248,
+      "sha256": "ec7539be217843539d414e552a8b0cb4664e9c4ef220c8e0fd790ce3fcd95d10",
+      "rawPath": "skills/folio-style/data/sources-20261112/2117925572836008316.json",
+      "rawSha256": "7b0f15ed7eddd1b20c7183a6a12309ce9af7e689d91382bcb83e9a967183fe88",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge",
+        "opinion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2117925572836008316-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWLDh12XsAAlDyb.jpg?name=orig",
+          "sha256": "8a7e578b1567f238fd42e2fa8b248d00998b46f09b7ee33971d526cf66240a9e",
+          "size": 362918
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F5YLAAIAAAATMjExODA5MzE3NzMwNzY2MDM0NQgAAwAAAAIAAA"
+    },
+    {
+      "no": "683",
+      "id": "x-2117811320187715649",
+      "sourceUrl": "https://x.com/Gdgtify/status/2117811320187715649",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2117811320187715649",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:19.963472+00:00",
+      "publishedAt": "2026-11-04T02:49:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "I am having so much fun with these science posters. They are great for visualizing the news on X and other platforms. \n\n4 images, 4:5, 4 scientific news that were in the news : class Retro_Editorial_Poster:     def __init__(self, topic=\"[$TOPIC]\", org=\"[$ORGANIZATION]\"):         self.canvas = \"Aged, slightly worn vintage poster paper with halftone dot printing artifacts.\"         self.layout = \"Asymmetrical Swiss Grid: Left text rail, top hero image, bottom data panels, bottom right contextual photo.\"      def semantic_asset_generation(self):         # AI AUTO-INFERENCE: Generate specific visuals based on the topic         hero_image = infer_hero_visual(self.topic) # e.g., A galaxy, a microchip, a deep-sea creature         context_photo = infer_exhibition_context(self.topic) # e.g., Silhouettes of people looking at a screen         data_thumbnails = infer_technical_details(self.topic, count=3) # e.g., 3 small B&W radar/x-ray shots         return [hero_image, context_photo, data_thumbnails]      def typography_and_ui(self):         # Establish the text hierarchy         sidebar = f\"Massive vertical black text on cream background reading '{self.topic.upper()}'.\"         main_title = f\"Bold halftone/stipple font reading '{self.topic.upper()}' with orange sub-text.\"         logos = f\"Bottom left features the {self. org} logo and clean sans-serif exhibition details.\"         return [sidebar, main_title, logos]  render_poster_layout(Retro_Editorial_Poster())",
+      "start": 120,
+      "length": 1356,
+      "sha256": "6517b4beda1d03838b09d3eb757da06e1cce5be485448061a7c8e00ba7eb99f8",
+      "rawPath": "skills/folio-style/data/sources-20261112/2117811320187715649.json",
+      "rawSha256": "669e81dd5bf142a41f531a44092f86338b475255cf1eb2dd1c914a290319234a",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge",
+        "announcement"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2117811320187715649-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWKihtaXIAATkBb.jpg?name=orig",
+          "sha256": "c9c2944ecb267b2072755d0b12cdf4486da0fd677f598c085489b8cdde443a08",
+          "size": 529333
+        },
+        {
+          "path": "/covers/x-2117811320187715649-1.jpg",
+          "url": "https://pbs.twimg.com/media/HWKihtYXkAAhcMc.jpg?name=orig",
+          "sha256": "71993c218867c8d43327be4bda579721249a2999129dc21c032eb1e124e48c44",
+          "size": 528762
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F5YLAAIAAAATMjExODA5MzE3NzMwNzY2MDM0NQgAAwAAAAIAAA"
+    },
+    {
+      "no": "684",
+      "id": "x-2120011819540500495",
+      "sourceUrl": "https://x.com/VoxcatAI/status/2120011819540500495",
+      "authorHandle": "VoxcatAI",
+      "tweetId": "2120011819540500495",
+      "authorId": "1133338656725504001",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:20.352468+00:00",
+      "publishedAt": "2026-11-10T04:33:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "日系独立漫画 × 手绘动画电影 × 低饱和赛璐珞。\n\n生活感来自具体的小动作：吃面、倒茶、缝纽扣，让视线和手部围绕同一件事展开，角色就有了自然的日常表演。\n\n提示词👇 替换【角色】即可。\n\n【角色】，保留标志性发型、发色、瞳色、服饰轮廓与核心身份配饰，转译为日系独立漫画与手绘动画电影风格。\n\nJapanese Indie Manga × Hand-drawn Anime Film × Expressive Character Acting × Rough Ink Linework × Muted Cel Coloring。\n\n接近真实人体比例的自然漫画造型，简化而富有表现力的五官，柔和脸部轮廓，真实自然的眼型、小巧鼻子与灵活嘴形。人物表情生动、克制，具有日常生活中自然流露的情绪。\n\n黑色自由手绘墨线，外轮廓粗细自然变化，内部结构线纤细，局部保留速写般的重复线条。头发由大片清晰的发束色块构成，少量细碎发丝自然延伸，服装使用简洁褶皱线与明确色块塑造。\n\n低饱和赛璐珞平涂，少量柔和硬边阴影，暖粉色肤色，头发和服饰按照角色原始配色调整，整体保持温暖、克制的色彩关系，具有轻微纸张纹理与手绘笔触。\n\n4:5 竖版近距离角色插画。人物位于生活化室内空间，采用自然、不刻意的动作与表情。镜头接近人物视线高度，略微俯视桌面，人物身体、手部与日常物品形成自然的前后遮挡关系。根据角色身份自动设计富有叙事感的生活场景和细节。\n\n整体呈现日本独立漫画的自然线条、动画电影般的日常表演、质朴温暖的色彩与亲密的生活氛围，画面干净清晰，手部结构自然准确。右下角极小手写 voxCAT 与青金石蓝小圆点。",
+      "start": 96,
+      "length": 599,
+      "sha256": "3560cd260c9f3bc48389a6a148f44ce992a379cedbd65b90ce1e74a25cb5880c",
+      "rawPath": "skills/folio-style/data/sources-20261112/2120011819540500495.json",
+      "rawSha256": "cbe171f88180baac63df35bc0003b48d30d0ec82d221674e4527dd464070b21f",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "story",
+        "concept"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2120011819540500495-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWsrNz8a8AAnTPv.jpg?name=orig",
+          "sha256": "46c28f7612040940713ab45cf7a80a145319b554cf7221570981fca85342bc9e",
+          "size": 277579
+        },
+        {
+          "path": "/covers/x-2120011819540500495-1.jpg",
+          "url": "https://pbs.twimg.com/media/HWsrNz6aMAAKrHx.jpg?name=orig",
+          "sha256": "0f92c7b8f58801b212aebf5804a0f2656cfe3299263c57a2cf2f09fa90dfd604",
+          "size": 317513
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/VoxcatAI"
+    },
+    {
+      "no": "685",
+      "id": "x-2119768466315993483",
+      "sourceUrl": "https://x.com/Gdgtify/status/2119768466315993483",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2119768466315993483",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:20.319818+00:00",
+      "publishedAt": "2026-11-09T12:26:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "A fun prompt for visualizing books and stories in general.\n\nPrompt: 2x2 grid, 16:9, do this for 4 non-copyrighted folklore stories parents tell their children:  INPUT = {\n    \"topic\": [ANY_TOPIC],\n    \"topic_set\": [OPTIONAL],\n    \"panel_count\": [OPTIONAL],\n    \"visual_context\": [OPTIONAL]\n}\n\nclass UniversalConceptualMiniatureWorldCompiler:\n\n    HARD_CODING = False\n    INFERENCE_MODE = True\n\n    def diagnose_topic(self, topic):\n        return {\n            \"identity\": infer_topic_identity(topic),\n            \"domain\": infer_subject_domain(topic),\n            \"defining_traits\": infer_distinctive_attributes(topic),\n            \"symbolism\": infer_meaningful_visual_associations(topic),\n            \"context\": infer_historical_cultural_or_functional_context(topic)\n        }\n\n    def generate_subject_set(self, topic):\n        return infer_comparable_topics_or_subtopics(\n            topic,\n            count=INPUT[\"panel_count\"],\n            prioritize_visual_diversity=True,\n            preserve_unifying_theme=True\n        )\n\n    def design_metaphor(self, subject):\n        return {\n            \"physical_object\":\n                infer_strongest_metaphorical_artifact(subject),\n\n            \"conceptual_connection\":\n                explain_object_to_subject_relationship(subject),\n\n            \"material\":\n                infer_semantically_relevant_material(subject),\n\n            \"scale\":\n                infer_monumental_object_scale(subject),\n\n            \"form\":\n                preserve_recognizable_symbolic_geometry(subject),\n\n            \"color\":\n                infer_contextual_accent_palette(subject)\n        }\n\n    def generate_miniature_world(self, subject, metaphor):\n        return {\n            \"environment\":\n                infer_topic_relevant_environment(subject),\n\n            \"architecture\":\n                infer_contextual_structures_or_none(subject),\n\n            \"figures\":\n                infer_relevant_miniature_agents(subject),\n\n            \"activities\":\n                infer_meaningful_actions(subject, metaphor),\n\n            \"secondary_objects\":\n                infer_contextual_artifacts(subject),\n\n            \"connections\":\n                integrate_illustrations_with_metaphor(metaphor)\n        }\n\n    def compose_panel(self, subject):\n        metaphor = self. design_metaphor(subject)\n\n        world = self.generate_miniature_world(\n            subject,\n            metaphor\n        )\n\n        return render_mixed_media_diorama(\n            hero=photorealistic_symbolic_object(metaphor),\n            surroundings=fine_monochrome_line_art(world),\n            background=\"clean editorial ivory\",\n            title=generate_readable_subject_label(subject),\n            perspective=infer_best_illustrative_camera(subject),\n            whitespace=optimize_negative_space()\n        )\n\n    def render_final(self):\n        subjects = self.generate_subject_set(INPUT[\"topic\"])\n\n        panels = [\n            self.compose_panel(self.diagnose_topic(subject))\n            for subject in subjects\n        ]\n\n        return render_adaptive_editorial_grid(\n            panels=panels,\n            layout=infer_comparison_layout(panels),\n            constraints=[\n                \"no hard-coded object\",\n                \"no fixed civilizations\",\n                \"no fixed landmarks\",\n                \"no generic miniature activities\",\n                \"every metaphor must communicate its subject\",\n                \"3D objects contrast with fine 2D line art\",\n                \"premium conceptual encyclopedia quality\"\n            ]\n        )",
+      "start": 68,
+      "length": 3502,
+      "sha256": "c1658930581eb05be6f9f853d639217880836afd05ffd5de966263f1e963ef1a",
+      "rawPath": "skills/folio-style/data/sources-20261112/2119768466315993483.json",
+      "rawSha256": "41e8277692c1300c25429fe8ca3f1be20223dce9434cdfb2a7b03b32b7d8f1d1",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "story",
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2119768466315993483-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWpk-5lXkAAb9CR.jpg?name=orig",
+          "sha256": "ad8c7342ecb3e5de85d2d67db0e6a37c0e14ead55dbfd56ae0c2ac80f19775fb",
+          "size": 557230
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F9ULAAIAAAATMjExOTk0NzY0Njc2NDk5ODc3NwgAAwAAAAIAAA"
+    },
+    {
+      "no": "686",
+      "id": "x-2119151903963832532",
+      "sourceUrl": "https://x.com/Gdgtify/status/2119151903963832532",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2119151903963832532",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:20.565622+00:00",
+      "publishedAt": "2026-11-07T19:36:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Another hybrid style. This time I used it for science. \n\nPrompt: 2x2 grid, 16:9, do this for 4 days that changed science \nINPUT: $ SUBJECT\n\nStyle = {\n\n  <semantic_typography>\n\n  MEDIUM:\n  High-contrast graphic typography\n  combined with symbolic visual storytelling.\n\n  LETTERFORMS:\n  Heavy black geometric sans-serif letters,\n  clever counters, altered terminals,\n  object-shaped strokes, modular construction.\n\n  SEMANTIC DESIGN:\n  Every major graphic modification must\n  reference the meaning of $ SUBJECT.\n\n  TYPOGRAPHIC INTEGRATION:\n  Relevant objects, inventions, concepts,\n  tools, motions, or abstract symbols\n  become working parts of the letters.\n\n  VISUAL HIERARCHY:\n  One dominant readable subject title.\n\n  </semantic_typography>\n\n  <impossible_isometric_structure>\n\n  GEOMETRY:\n  Isometric beams, interlocking polygons,\n  Penrose-like structures, continuous ribbons,\n  folded angular forms, perspective paradoxes.\n\n  COLOR:\n  Black, dark charcoal, medium gray,\n  plus selective cyan, orange, magenta,\n  green, or other inferred accents.\n\n  DEPTH:\n  Flat graphic dimensionality,\n  not realistic photographic depth.\n\n  SHADING:\n  Simple planar faces.\n  Crisp geometric boundaries.\n  Minimal shadows.\n\n  EFFECT:\n  Geometrically fascinating.\n  A visual puzzle hidden inside typography.\n\n  </impossible_isometric_structure>\n\n  <expressive_character_illustration>\n\n  MEDIUM:\n  Minimal black-and-white cartoon illustration.\n\n  CHARACTER:\n  An appealing subject-derived figure,\n  object, symbol, or mascot.\n\n  FACIAL LANGUAGE:\n  Simple dot eyes, minimal mouth,\n  exaggerated expression where appropriate.\n\n  BODY LANGUAGE:\n  Funny poses, simplified limbs,\n  expressive silhouettes.\n\n  LINEWORK:\n  Thick ink outlines, occasional\n  rough brush edges, deliberate imperfections.\n\n  COLOR:\n  Primarily black and white.\n\n  </expressive_character_illustration>\n\n  <humorous_editorial_lettering>\n\n  TYPOGRAPHY:\n  Loose hand lettering, informal brush script,\n  large uneven display characters,\n  playful changes in scale and rhythm.\n\n  TEXT ENGINE:\n  Infer a concise line or phrase\n  appropriate to $ SUBJECT.\n\n  TONE:\n  Select from wit, irony, wonder,\n  optimism, sarcasm, confidence,\n  mischief, or thoughtful restraint.\n\n  COMPOSITION:\n  Lettering wraps around, interacts with,\n  or becomes part of the illustration.\n\n  </humorous_editorial_lettering>\n\n  <transformation>\n\n  STEP 1:\n  Identify the subject's central meaning\n  and most recognizable visual identity.\n\n  STEP 2:\n  Convert that identity into a short,\n  bold typographic title.\n\n  STEP 3:\n  Replace selected letter components\n  with meaningful symbolic geometry.\n\n  STEP 4:\n  Construct a clever impossible\n  three-dimensional relationship\n  inside or between the letterforms.\n\n  STEP 5:\n  Extract an expressive character\n  or humorous visual metaphor\n  from the subject's personality.\n\n  STEP 6:\n  Allow the character to interact\n  directly with the typography.\n\n  STEP 7:\n  Introduce one short hand-lettered\n  statement that amplifies the concept.\n\n  STEP 8:\n  Reconcile all elements into\n  one coherent graphic composition.\n\n  </transformation>\n\n  <adaptive_subject_logic>\n\n  IF SUBJECT IS TECHNOLOGICAL:\n  Emphasize mechanical letter structures,\n  geometric logic, clever interface symbols.\n\n  IF SUBJECT IS CULTURAL:\n  Emphasize meaningful identity symbols,\n  expressive lettering, iconic silhouettes.\n\n  IF SUBJECT IS HISTORICAL:\n  Emphasize recognizable motifs,\n  intelligent letter substitutions,\n  period-appropriate personality.\n\n  IF SUBJECT IS SCIENTIFIC:\n  Emphasize geometric structures,\n  dimensional contradictions,\n  symbolic mechanisms.\n\n  IF SUBJECT IS EMOTIONAL:\n  Emphasize the expressive character,\n  humorous visual metaphor,\n  and hand-lettered message.\n\n  IF SUBJECT IS ABSTRACT:\n  Invent a visual metaphor,\n  then convert that metaphor\n  into a readable typographic structure.\n\n  </adaptive_subject_logic>\n\n  <finish>\n\n  Beautifully clean graphic surfaces.\n\n  Predominantly black on warm white.\n\n  Strong lettering with controlled\n  accent colors.\n\n  One immediately understandable\n  visual idea.\n\n  Clever hidden details.\n\n  Expressive cartoon personality.\n\n  Impressive impossible geometry.\n\n  Premium illustration and branding quality.\n\n  </finish>\n\n  <avoid>\n\n  Avoid literal replication of reference subjects.\n\n  Avoid default cats, coffee cups,\n  inventors, or science illustrations.\n\n  Avoid optical illusions that\n  destroy word readability.\n\n  Avoid overly detailed mascots.\n\n  Avoid random decorative symbols.\n\n  Avoid photorealistic rendering.\n\n  Avoid generic corporate templates.\n\n  Avoid disconnected visual elements.\n\n  </avoid>\n\n}\n\nOUTPUT:\n\nA sophisticated and entertaining\ntypographic illustration where $ SUBJECT\nbecomes a bold graphic identity,\na playful visual joke, and an\nimpossible geometric construction.\n\nThe artwork should feel deceptively simple,\nvisually intelligent, and full of personality.",
+      "start": 65,
+      "length": 4842,
+      "sha256": "894d0264989f629df15bbf662be2bee266cbbb6b02827236c68527be46e2a184",
+      "rawPath": "skills/folio-style/data/sources-20261112/2119151903963832532.json",
+      "rawSha256": "a61fc13f1196584e52e94f2c4cd4fa3029480aa45f420b2981562cada0d43b71",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge",
+        "announcement"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2119151903963832532-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWaYOaBWQAAnAT3.jpg?name=orig",
+          "sha256": "a515eeab2c61e686add35d7c5519c650507fc47ba669657532424d3890094f88",
+          "size": 339577
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F8ALAAIAAAATMjExOTI1NzA5NjYwNDg0NDM2MAgAAwAAAAIAAA"
+    },
+    {
+      "no": "687",
+      "id": "x-2118537605633442250",
+      "sourceUrl": "https://x.com/Gdgtify/status/2118537605633442250",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2118537605633442250",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:20.673611+00:00",
+      "publishedAt": "2026-11-06T02:55:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "I aske GPT to visualize 4 days that changed science. still experimenting with some of these styles. \n\nPrompt: 4 images, 9:16, do it for days that changed science: SELECT * FROM Archival_Collage_Engine\nWHERE subject = '[$SUBJECT]' AND metaphor_target = '[$METAPHOR]'\nAND aesthetic_rules = ARRAY[\n    'M5: Colors strictly limited to Duotone (sepia, cream, black ink)',\n    'M5: Texture includes archival paper grain and foxing',\n    'η: High-fidelity photo grain transitioning to crisp ink lines'\n]\nAND spatial_logic = ARRAY[\n    'Region P (Top): Unaltered iconic photograph',\n    'Seam σ: Continuous soft blend, absolutely zero hard edges',\n    'Region K (Bottom): Ink illustration'\n]\nAND topological_carry_M2 = (\n    SELECT geometry_preservation FROM Transformation_DB\n    WHERE rule = 'Deformation must strictly maintain the spacing, perspective, and directional vectors of Region P as they cross into Region K'\n)\nAND NOT IN ('hard_cut_seam', 'unrelated_vector_angles', 'full_color_hues');",
+      "start": 110,
+      "length": 880,
+      "sha256": "32fb0caf51950971c45e49595739caf45a96c82930cd9b849bbe48e20d083d72",
+      "rawPath": "skills/folio-style/data/sources-20261112/2118537605633442250.json",
+      "rawSha256": "fc0c34a38e7a4ef8bedd202d35f61c37f19bf0ffb96e278c40c8f43e2d8ca41a",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2118537605633442250-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWQJOiaW0AEB737.jpg?name=orig",
+          "sha256": "abcccdf589d86b99356c7dc15ca255fcd350fb5236f5c582c9191d3265b1116f",
+          "size": 335427
+        },
+        {
+          "path": "/covers/x-2118537605633442250-1.jpg",
+          "url": "https://pbs.twimg.com/media/HWQJOikWkAAwKgz.jpg?name=orig",
+          "sha256": "43472b54e0568fa7cb2e3e9e79d2a5a7ed0904ee42276b8ec773e5ee735e9cd3",
+          "size": 353754
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F6sLAAIAAAATMjExODU0NzkyNDEzMzIxNjQxMQgAAwAAAAIAAA"
+    },
+    {
+      "no": "688",
+      "id": "x-2119360528048877775",
+      "sourceUrl": "https://x.com/Gdgtify/status/2119360528048877775",
+      "authorHandle": "Gdgtify",
+      "tweetId": "2119360528048877775",
+      "authorId": "2732179914",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:20.224536+00:00",
+      "publishedAt": "2026-11-08T09:25:00.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Another prompt for visualizing theories. I will probably have to add more checks so it can handle complex theories \n\n2 separate images, 4:5, Do this for science theories <instructions>\nInput Variable: [Theorem / Formula]\nPhase 1: Schematic Decomposition\nAnalyze the Notation: Identify the primary visual language of the scientist (Chalk on blackboard? Ink on parchment? Pencil on graph paper?).\nIdentify the \"Structure\": If this theory were a building, what would it look like?\nLogic: Chaos Theory -> Fractal Spire. Thermodynamics -> Engine Block.\nPhase 2: The Dimensional Transition\nThe Base: A flat surface covered in the [Notation Medium] (e.g., a slate blackboard covered in chalk equations).\nThe Extrusion: The chalk lines physically lift off the surface. They begin as white wireframes, then gain opacity, then gain texture.\nThe Climax: At the top of the image, the wireframes have fully solidified into a photorealistic, impossible structure representing the theory.\nThe Observer: A tiny, scale-model figure of the scientist stands on the flat \"2D\" section, looking up in awe at the massive \"3D\" structure they have summoned.\nOutput: High-Angle Isometric, \"Architectural Visualization\" style, stark contrast between sketchy lines and solid mass.\n</instructions>",
+      "start": 117,
+      "length": 1151,
+      "sha256": "89585321157a14b17f8545a943c2be500fe18615ded96de09dd73e0e38f841d0",
+      "rawPath": "skills/folio-style/data/sources-20261112/2119360528048877775.json",
+      "rawSha256": "9c655fb82e20b914bb35203d037e8e0fb6eafbe80118c81216664fad5ccea69e",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "concept",
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2119360528048877775-0.jpg",
+          "url": "https://pbs.twimg.com/media/HWfsxfjWcAA0z-s.jpg?name=orig",
+          "sha256": "8f2c6b4ebedcd0f412ce748cd7d364ca750d52867407796a39409cab9fc6ec53",
+          "size": 525214
+        },
+        {
+          "path": "/covers/x-2119360528048877775-1.jpg",
+          "url": "https://pbs.twimg.com/media/HWfsxfnWAAA0TYy.jpg?name=orig",
+          "sha256": "fde5ab0261a6f36526260a561906319b390ae39d8c7ee4d287ce578d37e75ebb",
+          "size": 497533
+        }
+      ],
+      "discoveryUrl": "https://teapawt.net/Gdgtify?cursor=DAAHCgABHW7C24L%5F%5F9ULAAIAAAATMjExOTk0NzY0Njc2NDk5ODc3NwgAAwAAAAIAAA"
+    },
+    {
+      "no": "689",
+      "id": "x-2059848813188378626",
+      "sourceUrl": "https://x.com/GeekCatX/status/2059848813188378626",
+      "authorHandle": "GeekCatX",
+      "tweetId": "2059848813188378626",
+      "authorId": "1760502863854460928",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:21.032598+00:00",
+      "publishedAt": "2026-05-28T04:06:41.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "GPT Image2 拼豆残片信息图\n\n提示词：\n\n生成一张 16:9 横版信息图海报。\n\n主题：【主题】\n\n必须覆盖的知识点：\n【知识点1】\n【知识点2】\n【知识点3】\n【知识点4】\n【知识点5】\n【知识点6】\n【知识点7】\n【知识点8】\n\n视觉风格定义：\n这是一张“拼豆 / Perler beads / fuse beads / 像素珠阵列”风格的结构性平面信息图海报。画面由大量规则排列的圆形塑料拼豆构成，每一颗拼豆都具有清晰圆形边界、轻微中心凹点、均匀间距、低饱和塑料质感和稳定网格秩序。整体必须保持正视平面构图，像一张由拼豆拼成的公共文化信息图海报，而不是玩具摄影、3D模型、卡通插画或普通像素画。\n\n核心构图：\n将【主题】主体压缩为一个大尺度单色拼豆图像场，而不是完整写实物体、居中插画或图标集合。主体必须从画幅边缘涌入，跨越页面边界，并被出血裁切，像一个更大的拼豆媒介图像残片进入纸面。主体占据主要视觉重量，但不完整呈现；观众必须通过轮廓、方向、缺失区域、拼豆密度和局部纹理重建主题。\n\n主体形态：\n主体外缘呈现低分辨率拼豆台阶、方块断裂、硬切缺口、像素化锯齿轮廓、缺珠断面和被采样后的粗糙边界。禁止平滑剪影，禁止完整图标轮廓，禁止写实细节。主体内部只使用同一主题结构色的不同明度拼豆，形成低对比影像碎片、半调噪声、扫描颗粒、材料残影、档案纹理和局部密度变化。\n\n背景与负空间：\n背景使用高明度浅色拼豆底场，接近未印刷纸面、浅奶白塑料底板或淡灰白拼豆阵列。背景不是装饰底色，而是主动反向切入主体，形成大块空洞、曲折通道、安静文字窗口、阅读停顿区和知识点容器。空白必须像空气，也像刀口；它既提供呼吸感，也切割主体结构。大块浅色底与大块主题结构色必须互相侵入，不能简单上下分区，不能成为普通背景。\n\n色彩系统：\n采用严格的三层功能配色，不允许平均化配色。\n\n第一层：浅色底场  \n面积比例约 60%–70%。功能是呼吸、切割、停顿、承载文字窗口。颜色可为旧纸白、浅米白、冷灰白、淡蓝白或淡暖灰。\n\n第二层：主题结构色  \n面积比例约 25%–35%。功能是构成主体、制造空间压力、表达主题情绪和材料语义。颜色必须根据【主题】选择，例如冷主题可使用深蓝、墨绿、灰紫、石墨色；暖主题可使用赭红、土橙、棕黑、暗金色。结构色内部允许通过拼豆明度差表现颗粒密度和图像残影。\n\n第三层：高对比信息色  \n面积比例约 3%–6%。功能是标题、编号、时间、注释、机构信息、图例、脚注和关键知识点标记。信息色必须少量、锐利、明确，可使用红、黑、亮蓝、荧光橙或高纯度青色。信息色不能扩散为装饰色。\n\n信息图系统：\n将【知识点1】至【知识点8】全部转化为拼豆信息节点，不使用普通图标堆叠解释。每个知识点以以下形式之一呈现：\n- 小型编号标签\n- 微型注释框\n- 拼豆图例块\n- 坐标线\n- 时间刻度\n- 比例条\n- 方向箭头\n- 档案索引编号\n- 局部纹理说明\n- 边缘标记点\n\n信息节点必须沿留白窗口、色场边界、切口节点、主体缺口、负空间通道和底部边缘分散布置。信息节点数量为 8 个，对应 8 个知识点。所有信息节点必须有层级关系：主标题最大，核心概念次级，知识点标签更小，脚注和编号最小。信息节点不能覆盖主体中心，不能破坏大色场结构。\n\n阅读路线：\n构建跳跃式阅读路径：上方小型标记 → 侧向主标题 → 主体边缘知识点 → 负空间注释窗口 → 底部脚注与图例。画面必须同时满足远距离识别和近距离阅读：远看是一个强烈的巨大拼豆图像残片，近看是一个精密、有秩序的知识信息系统。\n\n字体与文字：\n使用窄身现代无衬线字体、瑞士风格无衬线、方正清晰骨架字体或等宽元数据字体。字体笔画均匀，字距克制，层级精确。主标题像公共文化信息坐标，小字像档案元数据索引。文字必须排布在留白窗口、边界节点和底部信息栏中，不得压在主体中央。中文文字必须清晰、短句化、标签化，避免长段落。\n\n主题转译规则：\n不要直接用题材默认图标解释【主题】。必须把主题中的时间、地点、功能、人物关系、数据关系、因果关系或抽象概念转译为：\n- 拼豆色场密度\n- 缺珠区域走向\n- 边缘压力\n- 负空间形状\n- 信息节点位置\n- 编号系统\n- 局部纹理差异\n- 拼豆明度层级\n- 图例色块关系\n\n拼豆材质：\n所有视觉元素都由拼豆构成。拼豆表面为哑光塑料质感，带轻微制造不均、微弱颗粒、细小磨损和低对比表面差异。结构色区域内部可出现半调式拼豆密度变化、扫描输出感、旧纸不均匀感和专色叠印感。信息色拼豆必须边缘锐利、对比清楚、定位准确。\n\n画面气质：\n整体应像一张由拼豆重构的结构性公共文化信息海报。它不是可爱手工图，也不是儿童玩具风，而是克制、理性、现代、档案化、信息密集但秩序清晰的视觉系统。画面要有博物馆展览海报、研究机构信息图、公共文化导视和实验性平面设计的气质。\n\n构图硬性要求：\n- 16:9 横版\n- 正视平面视角\n- 拼豆圆形颗粒清晰可见\n- 主体从画幅边缘进入\n- 主体被页面边界裁切\n- 大块结构色与大块空白互相侵入\n- 外轮廓呈拼豆像素台阶\n- 至少 8 个知识点信息节点\n- 远看有巨大图形冲击\n- 近看有精密信息秩序\n- 空白区域必须参与叙事和切割\n- 信息色只能用于关键文字和标记\n\n禁止内容：\n禁止完整写实物体。\n禁止居中主体插画。\n禁止可爱卡通风。\n禁止普通像素画。\n禁止 3D 玩具摄影。\n禁止景深虚化。\n禁止真实相机拍摄感。\n禁止强投影。\n禁止发光特效。\n禁止金属高光。\n禁止复杂装饰背景。\n禁止图标堆叠式信息图。\n禁止平均分配颜色。\n禁止文字覆盖主体中心。\n禁止无意义信息噪声。\n禁止把知识点变成随机装饰。\n禁止过度拟物化。\n禁止真实照片拼贴。\n禁止渐变炫光。\n禁止赛博霓虹背景。\n禁止柔和插画风。\n禁止水彩、油画、厚涂、3D渲染风。\n\n最终效果：\n画面应呈现为一张高级拼豆风格结构性信息图海报。【主题】不是被直接画出来，而是被压缩成巨大的拼豆色场、像素化珠阵边缘、缺珠空洞、负空间刀口、编号节点、档案注释和颗粒秩序。观众远距离看到强烈的抽象主题冲击，近距离能够沿信息节点阅读完整知识结构。\n\n主题：潘金莲",
+      "start": 26,
+      "length": 2518,
+      "sha256": "dd1c448851e141d51774db22e91dc548766016e9e87846a81bf2fbcb95048b64",
+      "rawPath": "skills/folio-style/data/sources-20261112/2059848813188378626.json",
+      "rawSha256": "6d8dc31e2cc590f3eff64b01dd689aa23c41028483a3f4c64e81adf1936f01f1",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2059848813188378626-0.jpg",
+          "url": "https://pbs.twimg.com/media/HJYNTgzbgAA-9z9.jpg?name=orig",
+          "sha256": "a732abef8b35dfcd43f0a16e03226ab317b126bff24e2f893dd4307fafd0ff64",
+          "size": 609492
+        },
+        {
+          "path": "/covers/x-2059848813188378626-1.jpg",
+          "url": "https://pbs.twimg.com/media/HJYNTgzaMAA9U12.jpg?name=orig",
+          "sha256": "8b22488b4da22a85752a520ba8eb7fadfee6537060eaf68429e8aed1bdb7cf3e",
+          "size": 620025
+        }
+      ],
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=科普"
+    },
+    {
+      "no": "690",
+      "id": "x-2026095651256181079",
+      "sourceUrl": "https://x.com/Aipromptslap/status/2026095651256181079",
+      "authorHandle": "Aipromptslap",
+      "tweetId": "2026095651256181079",
+      "authorId": "559816758",
+      "retrievedOn": "2026-11-12",
+      "retrievedAt": "2026-11-12T11:58:21.253796+00:00",
+      "publishedAt": "2026-02-24T00:43:40.000Z",
+      "sourceField": "tweet.text",
+      "sourceText": "Prompt 16\nCreating  Technical Infographic image \n\n🍌 Nano Banana Pro Image Prompt\n\n💡Simply change [OBJECT NAME]\n\nPrompt ⤵️\n\nCreate a technical infographic of [OBJECT NAME] with a 45-degree isometric 3D perspective showing the device slightly tilted to reveal depth and dimension.\nCombine a realistic photoreal render with black ink technical annotations on pure white background. Include:\nKey component labels with color-coded callout boxes Internal component visibility through transparent/cutaway sections\nMeasurements, dimensions, and precise scale markers Material callouts and quantities \nColor-coded arrows for function/flow: RED (power/battery), BLUE (data/connectivity), ORANGE (thermal/processor), GREEN (sensors/haptics)\nSimple schematics or cross-sectional diagrams where relevant \nPlace “OBJECT NAME” title in a hand-drawn technical box (top-left corner).\nStyle: Black linework (technical pen/architectural), sketched but precise. Object remains clearly visible. Educational museum-exhibit vibe. Clean composition, balanced negative space.\nPerspective: Isometric 3D angle—tilted to show depth, dimension, and internal architecture dramatically. Like a professional product teardown or engineering manual.\nColors: ~10–15% accent density. Black dominant. White background.\nOutput: 1080×1080, ultra-crisp, social-feed optimized.",
+      "start": 125,
+      "length": 1213,
+      "sha256": "2d5ee65fe04c7e3a1c8d7c26684fb3f86978aff93f9b92f01ff1e974aec98713",
+      "rawPath": "skills/folio-style/data/sources-20261112/2026095651256181079.json",
+      "rawSha256": "0c1e8162d1d0e36e0e8e3db7d419ec79e62fb1374335c053b386af7bb3f572d7",
+      "extraction": "Exact contiguous prompt block from tweet.text; only introductory commentary and trailing whitespace omitted. Placeholders, example topic and signature constraints preserved.",
+      "scenarios": [
+        "knowledge",
+        "promotion"
+      ],
+      "covers": [
+        {
+          "path": "/covers/x-2026095651256181079-0.jpg",
+          "url": "https://pbs.twimg.com/media/HB4jNL1XkAAa_CV.jpg?name=orig",
+          "sha256": "31df220bfa168b13c2c74af0f0042b1309637e2ed9f15908ba41aca4d54764f9",
+          "size": 220359
+        },
+        {
+          "path": "/covers/x-2026095651256181079-1.jpg",
+          "url": "https://pbs.twimg.com/media/HB4jNMqXQAAQHJE.jpg?name=orig",
+          "sha256": "ef57adadaaf521da6bc7957ff39c592bedced97969d05121468c884e6e227a3f",
+          "size": 220055
+        }
+      ],
+      "discoveryUrl": "https://youmind.com/gpt-image-2-prompts/explore?q=科普"
+    }
+  ]
+}
