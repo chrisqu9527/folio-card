@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "count": 690,
+  "count": 698,
   "note": "001–106 frozen. 107+ append-only. 163–442 are yang0/handraw-style, credited to yang0. Application scenarios are editorial recommendations; category is primary, scenarios includes other suitable intents. Visual styles are retained in style and tags. Code-rendered videos added from 548 use category code. 2026-10-11 appended 633–636. 2026-10-12 appended 6 entries (648–653). 2026-10-13 appended 654–657.",
   "categories": [
     {
@@ -25389,6 +25389,304 @@
       "covers": [
         "/covers/x-2026095651256181079-0.jpg",
         "/covers/x-2026095651256181079-1.jpg"
+      ]
+    },
+    {
+      "no": "691",
+      "id": "x-2121214243634651281",
+      "title": "角色、机制图与知识清单的三栏科普漫画",
+      "kicker": "科普 · 原理讲解",
+      "excerpt": "左边人物提出问题，中间展示机器或过程，右边归纳步骤与部件，适合一页讲清原理的系列知识漫画。",
+      "style": "黑色马克笔、橙色蜡笔重点与三栏手绘图解",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "科普漫画",
+        "原理图解",
+        "三栏",
+        "角色讲解",
+        "步骤",
+        "机制"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2121214243634651281",
+      "model": "GPT 2.6（作者标注，未独立验证模型名称）",
+      "date": "2026-11-13",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。原帖以太阳能、AI 学习、火山和大脑演示。四幅是不同主题的版式样例，不是同一故事的连续分镜；机制与箭头关系应根据可靠资料核验。",
+      "prompt": "2x2 grid, 16:9, Ai picks subjects: INPUT = [SUBJECT]\n\nV = {\n  GRID        : 3-column vertical magazine layout,\n  CHARACTER   : subject-derived cartoon explainer | mascot | scientist | operator,\n  SYSTEM      : subject-derived machine | process | mechanism | ecosystem,\n  LIST        : inventions | parts | ideas | steps | outputs,\n  LINEWORK    : thick marker strokes + wobbly lines + imperfect circles,\n  TEXT        : quirky hand lettering,\n  ACCENT      : orange crayon | subject-derived warm accent,\n  CONNECTORS  : arrows | dotted lines | circles | callout links,\n  TEXTURE     : stippled dot shading,\n  FORMAT      : infographic | sketchbook page | editorial explainer\n}\n\nC₁  SUBJECT → INFOGRAPHIC DNA (master)\n    infer SUBJECT identity, core mechanisms, symbolic parts, outputs, problems and playful personality; translate it into a hand-drawn explainer system with one expressive character, one central mechanism, and one organized list of subject-specific items.\n    ¬C₁ = generic doodles / random machine / weak subject link / filler labels.\n\nC₂  STRICT 3-COLUMN INFORMATION GRID\n    use [GRID]:\n    LEFT = expressive [CHARACTER];\n    CENTER = messy hand-drawn [SYSTEM];\n    RIGHT = organized [LIST].\n    Keep the page highly structured overall while letting the drawing style remain loose and human.\n    ¬C₂ = scattered layout / no column logic / weak hierarchy / random placement.\n\nC₃  SUBJECT-ADAPTIVE CHARACTER PANEL\n    design a cute slightly grumpy or puzzled cartoon figure representing the SUBJECT or its operator/explainer; pose should suggest thinking, troubleshooting or reacting to the central system. Keep anatomy simple, iconic and charming.\n    ¬C₃ = generic mascot / emotionless figure / over-detailed rendering / unrelated character.\n\nC₄  CENTRAL MACHINE / PROCESS DIAGRAM\n    render the main [SYSTEM] as the visual heart of the page: layered components, imperfect circles, modules, chambers, pipes, moving parts or process nodes, adapted to SUBJECT. The diagram should look complex but remain readable.\n    ¬C₄ = ordinary object drawing / no system logic / decorative clutter / unreadable complexity.\n\nC₅  CONNECTIVE ARROW LOGIC\n    link character, diagram and list using [CONNECTORS]; arrows, dotted paths, circles and callouts must explain real subject relationships such as cause/effect, inputs/outputs, inventions/parts or idea flow.\n    ¬C₅ = meaningless arrows / decorative lines / disconnected columns / fake information flow.\n\nC₆  HANDWRITTEN LABEL SYSTEM\n    fill the right column and key callouts with [TEXT]; wording should be short, playful and subject-specific. Lists can become inventions, components, discoveries, species traits, tools, stages or concepts depending on SUBJECT.\n    ¬C₆ = typed sterile labels / generic bullet list / long paragraphs / tiny unreadable text.\n\nC₇  MARKER + CRAYON VISUAL LANGUAGE\n    draw everything using [LINEWORK]: thick black outlines, shaky contours, imperfect geometry and handmade rhythm. Use [ACCENT] selectively for the most important arrows, focal details, eyes, symbols or key labels only.\n    ¬C₇ = smooth vector polish / many colors / thin precise drafting / digital cleanliness.\n\nC₈  STIPPLED SKETCHBOOK SURFACE\n    white background, black marker structure, stippled dot shading instead of solid fills, minimal tonal rendering, charming notebook/editorial energy. Apply texture consistently so the page feels torn from a quirky sketchbook.\n    ¬C₈ = flat empty white page / heavy solid fills / realistic shading / glossy finish.\n\nη   CHARMING STRUCTURED CHAOS\n    strict infographic organization + loose handmade execution; instantly readable columns, playful subject-specific invention logic, clear connective arrows, bold marker personality, restrained orange emphasis, dense but delightful explainer-page finish.\n\nFORBIDDEN = random machines · generic scientist for every subject · disconnected arrows · typed clean fonts · multicolor palette · realistic rendering · smooth vector perfection · weak grid structure · unreadable labels · decorative filler doodles",
+      "covers": [
+        "/covers/x-2121214243634651281-0.jpg"
+      ]
+    },
+    {
+      "no": "692",
+      "id": "x-2121268853514580443",
+      "title": "用一句要求与一句反问呈现矛盾的漫画",
+      "kicker": "漫画 · 问题引入",
+      "excerpt": "把抽象矛盾化为两个人物或物件，用姿态差异与短对白提出问题，适合知识内容开场、观点卡和互动提问。",
+      "style": "留白纸底、粗马克笔轮廓与单色重点的极简漫画",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "story"
+      ],
+      "tags": [
+        "漫画",
+        "短对白",
+        "拟人",
+        "矛盾",
+        "问题引入",
+        "姿态"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2121268853514580443",
+      "model": "GPT（作者标注，原帖未注明具体版本）",
+      "date": "2026-11-13",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。原帖的四幅是并列议题笑话。这里推荐作为问题引子，不能把讽刺和夸张当作因果解释；新闻与观点应另行查证和区分。",
+      "prompt": "2x2 grid, 16:9, do this for 4 topics that were in the news:  \nINPUT = [SUBJECT]\n\nV = {\n  CONFLICT   : auto | authority vs resistance | expectation vs reality | desire vs restraint,\n  ROLES      : subject-derived opposing forces,\n  CHARACTER  : human | creature | object | machine | metaphor | abstract,\n  HUMOR      : deadpan | dry | defiant | sarcastic | innocent | absurd,\n  DEMAND     : 1–4 words,\n  RESPONSE   : 1–5 words,\n  GESTURES   : subject-specific opposing body language,\n  TOPOLOGY   : confrontation | power imbalance | inner conflict | object rebellion,\n  PALETTE    : off-white + near-black + one subject-derived accent,\n  FORMAT     : square | portrait | landscape\n}\n\nC₁  SEMANTIC CONFLICT ENGINE (master)\n    infer SUBJECT identity, habits, frustrations, pressures, contradictions and recognizable symbols; discover ONE universally understandable tension: FORCE A demands/ expects something, FORCE B resists or contradicts it. Prioritize relatable absurdity.\n    ¬C₁ = generic disagreement / forced conflict / unrelated humor / weak subject specificity.\n\nC₂  ADAPTIVE OPPOSING CHARACTERS\n    personify [ROLES] using subject-appropriate [CHARACTER] forms: authority → commanding entity; resistance → stubborn creature/object/idea; abstract conflicts → opposing visual metaphors. Preserve recognizable identities with minimal anatomy.\n    ¬C₂ = default cats / arbitrary mascots / visually indistinguishable roles / unnecessary characters.\n\nC₃  MICRO-DIALOGUE COMEDY\n    generate [DEMAND] and [RESPONSE] as a two-beat joke: terse instruction → unexpected deadpan refusal, literal interpretation or ironic contradiction. Adapt [HUMOR] to SUBJECT; every word must sharpen the conflict.\n    ¬C₃ = long dialogue / explanatory punchlines / recycled jokes / weak contrast.\n\nC₄  GESTURAL CONFRONTATION\n    stage ONE clear interaction through contrasting [GESTURES]: urgency vs indifference, command vs refusal, pressure vs relaxation, confidence vs stubbornness. Amplify posture and scale before facial detail.\n    ¬C₄ = static characters / redundant gestures / confusing relationships / theatrical clutter.\n\nC₅  MINIMAL EXPRESSIVE ANATOMY\n    use oversized emotional eyes when appropriate, simple brows, tiny mouth marks and strong readable silhouettes. Anthropomorphize objects or abstract ideas only as much as needed for immediate emotional recognition.\n    ¬C₅ = elaborate anatomy / excessive expression lines / realism / overdesigned mascots.\n\nC₆  CONFLICT-DRIVEN TOPOLOGY\n    select [TOPOLOGY]: direct argument → left/right confrontation; power imbalance → large vs tiny; internal conflict → divided figure/inner voices; object rebellion → agent facing resistant object. Preserve spacious framing and one compact speech bubble.\n    ¬C₆ = fixed two-character layout / multiple competing scenes / awkward dialogue placement.\n\nC₇  NAIVE EDITORIAL CARTOON LANGUAGE\n    thick wobbly near-black marker contours, imperfect rounded shapes, sparse flat color, faint paper grain, off-white background and ONE restrained [PALETTE] accent. Casual lowercase hand-lettering with generous spacing; almost zero shading.\n    ¬C₇ = polished corporate vectors / gradients / detailed scenery / multicolor rendering.\n\nC₈  DEADPAN VISUAL ECONOMY\n    compose for [FORMAT] with two clear opposing forces, short dialogue, expressive negative space and minimal subject-specific props. The visual contradiction should remain understandable even with speech text hidden.\n    ¬C₈ = background clutter / unnecessary objects / tiny dialogue / weak character contrast.\n\nη   COMEDIC CONFLICT COHERENCE\n    one subject-specific tension, two instantly readable opposing forces, one terse demand–reply exchange, economical gestures, charming imperfect ink, restrained accent, abundant whitespace, minimalist webcomic clarity.\n\nFORBIDDEN = generic cat defaults · forced arguments · lengthy dialogue · explanatory jokes · stock mascots · decorative props · elaborate backgrounds · excessive facial detail · glossy vectors · photorealism · weak punchline",
+      "covers": [
+        "/covers/x-2121268853514580443-0.jpg"
+      ]
+    },
+    {
+      "no": "693",
+      "id": "x-2121066519845077245",
+      "title": "平涂人物与密集涂鸦场景的知识议题漫画",
+      "kicker": "漫画 · 议题场景",
+      "excerpt": "用清晰的主角、夸张的道具和背景小图标表现一个问题带来的体验，适合科技、生活成本与环境议题的故事配图。",
+      "style": "平涂网络漫画人物、粗糙墨线道具与彩色涂鸦背景",
+      "category": "opinion",
+      "scenarios": [
+        "opinion",
+        "story"
+      ],
+      "tags": [
+        "漫画",
+        "科技议题",
+        "生活场景",
+        "拟人道具",
+        "涂鸦",
+        "人物互动"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2121066519845077245",
+      "model": "GPT 2.6（作者标注，未独立验证模型名称）",
+      "date": "2026-11-13",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。原帖用新闻话题测试画风。画面属于幽默隐喻，不能据此推导电价、就业或气候的真实因果；知识解释须另附依据。",
+      "prompt": "2x2 grid, 16:9, do research, do this for 4 news that keeps people up at night: INPUT = [SUBJECT]\n\nV = {\n  SCENARIO   : infer relatable chaos, obsession or contradiction,\n  CHARACTER  : auto | human | animal | object | mascot | personification,\n  EXPRESSION : deadpan | exhausted | manic | annoyed | overwhelmed,\n  ACTIVITY   : subject-derived absurd action,\n  PROPS      : 2–4 surreal subject-specific objects,\n  SIDEKICK   : auto | comedic creature | animated object | none,\n  DOODLES    : 12–30 tiny thematic icons,\n  PALETTE    : black / white / orange / teal / coral / yellow,\n  CONTRAST   : flat webtoon × scratchy ink chaos,\n  FORMAT     : auto | portrait | square | landscape\n}\n\nC₁  SUBJECT DNA + COMEDIC SCENARIO (master)\n    infer SUBJECT identity, personality, frustrations, habits, recognizable objects and visual contradictions; invent one absurd, relatable situation where the subject's internal state clashes humorously with its surroundings.\n    ¬C₁ = generic office burnout / automatic coffee obsession / unrelated visual jokes.\n\nC₂  CLEAN WEBTOON HERO\n    embody SUBJECT as [CHARACTER], adapting anatomy, outfit, symbols and [EXPRESSION] to its identity; use simplified anime/webtoon proportions, smooth black contours, flat color blocks and minimal shading. Keep the hero visually calm despite the chaos.\n    ¬C₂ = fixed glasses/sweater character / realistic anatomy / scratchy hero rendering / generic mascot.\n\nC₃  DENSE SEMANTIC DOODLE WALL\n    cover the entire background with [DOODLES] derived from SUBJECT: tiny icons, symbolic objects, handwritten fragments, expressive squiggles and recurring motifs. Flat collage density, playful irregularity, limited [PALETTE], almost no empty background.\n    ¬C₃ = generic office icons / empty walls / photorealistic scenery / unrelated doodles.\n\nC₄  SCRATCHY SURREAL MIDGROUND\n    construct [PROPS] as exaggerated metaphors for SUBJECT's behavior, stress, ambition or absurdity; render with aggressive stippling, jittery crosshatching, scratchy contours and noisy ink textures. Everyday objects may mutate into impossible functional hybrids.\n    ¬C₄ = ordinary furniture / realistic props / polished vector surfaces / random surrealism.\n\nC₅  COMEDIC SIDEKICK + PHYSICAL GAG\n    introduce [SIDEKICK] only when it strengthens the narrative; make it perform [ACTIVITY] with exaggerated emotion, physically interacting with the surreal props. Choose species/form from SUBJECT rather than defaulting to cats.\n    ¬C₅ = obligatory orange cat / disconnected mascot / competing protagonists / meaningless action.\n\nC₆  THREE-LAYER COLLISION\n    BACK → dense flat thematic doodle wallpaper;\n    MID → noisy, scratch-ink surreal props + optional sidekick;\n    FRONT → clean flat-color webtoon hero, dominant and sharply readable.\n    Maintain deliberate visual separation through scale, overlap, contour density and contrasting texture.\n    ¬C₆ = uniform rendering / merged layers / noisy protagonist / weak depth hierarchy.\n\nC₇  COLOR + TEXTURE DISSONANCE\n    distribute [PALETTE] across dense background micro-icons and surreal midground; reserve one strong subject-derived color for the foreground hero. Crisp smooth fills clash against coarse ink scratches, with black contours unifying the image.\n    ¬C₇ = muddy colors / full-scene texture / soft painterly shading / inconsistent outlines.\n\nC₈  ADAPTIVE CHAOS COMPOSITION\n    select [FORMAT] from SUBJECT and [SCENARIO]; place the clean hero at the strongest focal point, frame with surreal midground activity and edge-to-edge doodle density. The overall scene feels overstimulating while its central character remains instantly readable.\n    ¬C₈ = fixed treadmill/laptop composition / cluttered focal point / empty background / cropped narrative props.\n\nη   CONTROLLED OVERSTIMULATION\n    sharp webtoon hero × frantic scratch-ink surrealism × densely packed colorful doodle wallpaper; strong layer contrast, subject-specific visual jokes, exaggerated emotional tension, cohesive black outlines, deliberately jarring mixed-media finish.\n\nFORBIDDEN = default creator character · automatic coffee/cats · generic office props · identical layer textures · photorealism · empty wallpaper · unrelated doodles · chaotic focal hierarchy · excessive gradients · weak comedic contrast",
+      "covers": [
+        "/covers/x-2121066519845077245-0.jpg"
+      ]
+    },
+    {
+      "no": "694",
+      "id": "x-2121150573885993247",
+      "title": "把城市微场景与时间线装进字形的图谱",
+      "kicker": "人文 · 城市概览",
+      "excerpt": "远看读出城市名，近看地标与小人物，底部串起时间节点，适合城市史导读、地理专题和文化内容开场。",
+      "style": "立体字形建筑、微缩历史场景与博物馆图谱排版",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "城市史",
+        "地理",
+        "时间线",
+        "地标",
+        "微缩场景",
+        "字形建筑"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2121150573885993247",
+      "model": "GPT 2.6（作者标注，未独立验证模型名称）",
+      "date": "2026-11-13",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。作者明确要求核实里程碑与历史关系，但这不表示样图事实已被核实。用于城市概览与章节开场，不能代替准确地图；地标、坐标和年代应人工查证。",
+      "prompt": "2x2 grid, 16:9, do this for 4 famous ciites: \nINPUT = [SUBJECT]\n\nV = {\n  WORD      : shortest recognizable name,\n  CONTENT   : auto | history | culture | geography | science | concept,\n  WORLD     : auto | architecture | landscape | machinery | ecosystem | diorama,\n  DEPTH     : layered 3D | architectural cutaway | miniature collage,\n  DENSITY   : high detail, controlled hierarchy,\n  TIMELINE  : 3–6 verified milestones | conceptual sequence,\n  OVERLAY   : technical atlas | drafting | cartographic,\n  LAYOUT    : auto | panoramic | stacked | wordscape | 2×2 series,\n  ACCENT    : one subject-derived meaningful color,\n  FORMAT    : auto | portrait | landscape | square\n}\n\nC₁  SEMANTIC + HISTORICAL DNA (master)\n    research/infer SUBJECT identity, canonical name, landmarks, events, people, artifacts, geography, symbols and chronology; rank by recognition × significance × visual potential. Select only factual, subject-specific content.\n    ¬C₁ = invented history / generic landmarks / arbitrary symbolism.\n\nC₂  MONUMENTAL TYPOGRAPHIC ARCHITECTURE\n    construct WORD in gigantic ultra-black condensed grotesk, tight optical spacing; transform glyphs into physical architectural volumes, not image masks. Strokes → structural walls, counters → cavities, spacing → environments, baseline → continuous terrain. Preserve instant word recognition.\n    ¬C₂ = flat photo-filled fonts / distorted lettering / ordinary text beside illustrations.\n\nC₃  ADAPTIVE LETTER-WORLD ENGINE\n    populate glyph interiors with ranked SUBJECT elements: miniature landmarks, events, figures, artifacts, landscapes or mechanisms. Match content to glyph geometry; allow structures to rise, intersect counters, bridge letters and extend into foreground. Adapt [WORLD] × [DEPTH] to subject identity.\n    ¬C₃ = random stock scenery / generic city skylines / disconnected miniatures / inconsistent scale.\n\nC₄  MULTISCALE NARRATIVE HIERARCHY\n    engineer three reading distances: FAR → unmistakable monumental WORD; MID → recognizable historical/conceptual panorama; CLOSE → intricate meaningful micro-scenes. Prioritize word silhouette → iconic structures → supporting elements → tiny figures → annotations.\n    ¬C₄ = uniform visual weight / illegible word / meaningless detail density.\n\nC₅  TECHNICAL ATLAS INTELLIGENCE\n    surround typography with restrained [OVERLAY]: hairline dimensions, axes, grids, arrows, accurate geographic coordinates, construction callouts and subtle registration marks. Annotate only real spatial, structural or historical relationships; lines ≈0.5–1.5px, pale gray.\n    ¬C₅ = fake engineering data / unrelated labels / decorative grids / annotation clutter.\n\nC₆  CHRONOLOGY + CONCEPTUAL SEQUENCING\n    integrate [TIMELINE] along the baseline: verified dates, defining events and concise labels; for timeless/abstract subjects substitute ordered mechanisms, stages or components. Connect milestones to corresponding letter-world scenes.\n    ¬C₆ = fabricated dates / generic placeholder events / disconnected chronology.\n\nC₇  SUBJECT-RESPONSIVE TOPOLOGY\n    infer [LAYOUT]: comparable subjects → balanced 2×2 atlas; long WORD → panoramic; vertical identity → stacked monument; iconic place → continuous architectural wordscape; process → evolving glyph environments; otherwise centered semantic micro-world. Maintain consistent grid and generous breathing room.\n    ¬C₇ = fixed layout / repetitive skylines / cropped letters / crowded composition.\n\nC₈  SWISS MUSEUM–COLLAGE LANGUAGE\n    monumental Swiss typography × historical architectural collage × technical drafting × photographic museum atlas. Warm-white paper, charcoal-black type, mostly monochrome realistic miniatures, ONE [ACCENT] for meaningful identity. Neutral editorial light, subtle grain, crisp hairlines.\n    ¬C₈ = colorful infographic clutter / cartoon rendering / glossy effects / excessive boxes.\n\nη   ARCHITECTURAL + HISTORICAL COHERENCE\n    seamless letter–world integration, believable miniature depth, accurate subject-specific scenes, monumental readability, layered photographic realism, disciplined scale, precise technical labels, museum-grade editorial finish.\n\nFORBIDDEN = generic skylines · photo-clipped fonts · invented milestones · arbitrary landmarks · fake dimensions · unrelated annotations · flat typography · inconsistent perspective · decorative clutter · weak subject recognition",
+      "covers": [
+        "/covers/x-2121150573885993247-0.jpg"
+      ]
+    },
+    {
+      "no": "695",
+      "id": "x-2120534010434814135",
+      "title": "用车牌微缩场景比较地区与年代的公路文化",
+      "kicker": "人文 · 时代对照",
+      "excerpt": "把建筑、车辆、道路与旅人活动放进车牌大小的场景，适合交通文化、地方建筑和不同年代生活方式的比较。",
+      "style": "车牌地形底座与写实微缩公路场景",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge",
+        "concept"
+      ],
+      "tags": [
+        "交通文化",
+        "地方建筑",
+        "年代对照",
+        "微缩场景",
+        "旅人",
+        "地理"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Gdgtify",
+        "name": "Gadgetify",
+        "handle": "Gdgtify",
+        "url": "https://x.com/Gdgtify"
+      },
+      "sourceUrl": "https://x.com/Gdgtify/status/2120534010434814135",
+      "model": "GPT 2.6（作者标注，未独立验证模型名称）",
+      "date": "2026-11-11",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。这是概念性微缩图像，不是真实模型照片或历史记录。国家、年代、车牌样式和建筑用途均应按具体主题核验。",
+      "prompt": "2x2 grid, 16:9, do this for 4 international regions and 4 different decades <instructions>\n\nRole: Roadside Architecture Historian & Miniature Highway Diorama Engineer\nInput: [Country] + optional [Region or Decade]\nPhase 1: Road Culture Discovery Logic\n\nAnalyze the country’s highway culture:\n\nRoadside architecture\n\nVehicle traditions\nRoad signage shapes\nRest-stop culture\nLandscape changes\nTourism routes\nVernacular roadside businesses\nSelect 4 hidden roadside gems using gates:\n\nOne transportation-related structure\n\nOne leisure/tourism structure\nOne utilitarian roadside structure\nOne strange, whimsical, or disappearing vernacular structure\nUse distinct geographic environments where possible\nDerive for each:\n\nBuilding Geometry\n\nRoad Type\nVehicle Archetype\nLandscape\nTraveler Activity\nWeather/Time\nSurface Wear\nPhase 2: Visual Execution\n\nGoal: 2x2 Grid of “License Plates Transformed Into Miniature Roadside Landscapes.”\n\nRules per Panel\n\nContainer: A period-appropriate license plate becomes the entire terrain base.\n\nEmbossing Rule: Raised letters and borders must transform intelligently into:roads\ncurbs\nretaining walls\nparking spaces\nlandscape elevation\n\nArchitecture Rule: Build the selected roadside structure directly onto the plate.\nVehicle Rule: Include 1–2 scale-appropriate vehicles associated with the era.\nCharacter Rule: Include 2–3 travelers performing the derived activity.\nWear Rule: Plate oxidation, paint scratches and grime should correspond to climate.\nProp Rule: Add 5 roadside details.\nLabel: [Roadside Gem | Region | Country | Era].\nCamera & Look\nPhotoreal miniature, 24mm lens across all panels, low cinematic roadside perspective, premium studio lighting resembling natural daylight, shallow DOF, slate-gray seamless background, detailed metal wear, asphalt, concrete and landscaping, no watermark.\n</instructions>",
+      "covers": [
+        "/covers/x-2120534010434814135-0.jpg"
+      ]
+    },
+    {
+      "no": "696",
+      "id": "x-2052314115184398706",
+      "title": "心脏与大脑的解剖结构知识卡",
+      "kicker": "科普 · 结构对照",
+      "excerpt": "用器官剖面、局部功能图、流程和摘要卡组织知识，适合人体科普的结构与功能对照版式参考。",
+      "style": "浅纸底医学插画与分栏注释知识卡",
+      "category": "knowledge",
+      "scenarios": [
+        "knowledge"
+      ],
+      "tags": [
+        "人体科普",
+        "解剖",
+        "结构对照",
+        "功能图",
+        "知识卡",
+        "信息层级"
+      ],
+      "medium": "image",
+      "slots": [],
+      "creator": {
+        "id": "Minahil42298354",
+        "name": "Minahil",
+        "handle": "Minahil42298354",
+        "url": "https://x.com/Minahil42298354"
+      },
+      "sourceUrl": "https://x.com/Minahil42298354/status/2052314115184398706",
+      "model": "Gemini Nano Banana（作者标注，未注明具体版本）",
+      "date": "2026-05-07",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。正文要求心脏与脑部组合比较，原帖配图实际为两张独立器官页，保留这一差异，未重新生成或验证复现。医学结构、功能和风险建议未经专业核验，本条仅供版式与插画参考，不作诊疗依据。",
+      "prompt": "This combination infographic, based on images of the human heart and brain, provides a comparative and complementary look at the body’s most vital organs. Following a consistent and clean illustrative style with detailed callouts and key summary cards, it presents a comprehensive \"Human Anatomy: Heart and Brain\" profile. The central section features a detailed internal cross-section of the heart on the left and a detailed, regionalized map of the brain (Frontal, Parietal, Temporal, and Occipital lobes) on the right. Below the heart, the \"Cardiac Cycle\" and \"Blood Flow Path\" diagrams are presented. To the left, a vertical sequence detailing the brain’s \"Frontal Lobe,\" \"Temporal Lobe,\" and \"Cerebellum\" (with descriptions of functions like memory, motor control, and reasoning) matches the structure of the cardiac information. Above the brain diagram, a revised \"Key Regions & Functions\" list replaces the chambers and valves, and below it, a revised \"Top 5 Brain Functions\" list includesCognition & Thinking, Sensory Processing, and Emotion Regulation. Both columns share common \"Optimization Tips,\" \"Risks & Warnings\" (tailored to each organ's respective risks, such as cardiovascular disease vs. neurodegenerative disease), and \"Quick Summary Cards,\" highlighting the heart as the body's pump and the brain as its control center, emphasizing their integrated nature and critical roles. The entire layout is structured to facilitate a direct side-by-side analysis, making it an exhaustive and cohesive educational tool.",
+      "covers": [
+        "/covers/x-2052314115184398706-0.jpg",
+        "/covers/x-2052314115184398706-1.jpg"
+      ]
+    },
+    {
+      "no": "697",
+      "id": "x-2119332592814067932",
+      "title": "人物在完整场景中表演的平涂知识动画",
+      "kicker": "代码动画 · 场景讲解",
+      "excerpt": "用少量场景图与角色表拆分出动作素材，再按旁白安排走动、指向、口型、标签和镜头，适合故事化知识讲解。",
+      "style": "无描边平涂人物、完整插画场景与代码驱动动作",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "代码动画",
+        "知识讲解",
+        "人物表演",
+        "口型",
+        "动作素材",
+        "场景切换"
+      ],
+      "medium": "video",
+      "use": "template",
+      "slots": [],
+      "creator": {
+        "id": "finnardley",
+        "name": "Finn",
+        "handle": "finnardley",
+        "url": "https://x.com/finnardley"
+      },
+      "sourceUrl": "https://x.com/finnardley/status/2119332592814067932",
+      "model": "Claude Opus + HTML Canvas（作者标注；静态素材与配音另有模型要求）",
+      "date": "2026-11-08",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。保留完整制作模板；封面取原帖视频缩略图，不用旁边的频道截图。样片约 9 分 03 秒，作者称约十分钟。模板包含角色切图、绑定与代码动画，本次只收录并核对原帖与样片形式，未执行该制作流程；其中价格、免费额度、接口和模型能力属于作者说法，未核实。",
+      "prompt": "<inputs>\nAsk me for my topic and my script. If I have no script, write one from my topic.\nAsk which image model I have: GPT Image 2, or any model that takes reference images at 2K-4K, at about $0.03-0.05 an image.\nAsk which voice I have: ElevenLabs, or Kokoro for free.\nBefore generating everything, show me a look test: one plate, one character sheet cut out and rigged, and a 10 s shot with typing, a tag and a character who talks and points. Wait for my OK.\n</inputs>\n\n<look>\nA 1920x1080 animated explainer in the style of the big flat-vector infographic channels.\n- Every line of narration is acted out by cartoon people inside a full illustrated place.\n- All motion is code. There are no AI video generations, just a few still images that code cuts up, rigs and animates.\n\nArt:\n- Flat colour shapes with NO outlines, at most one slightly darker flat shade for form, simple geometric shapes and crisp edges.\n- Muted palette: dusty blue-grey, slate teal, warm beige, navy, soft purple. Salmon-pink skin, big round heads, dot eyes, small bodies.\n- Mood comes from the plate's own light: daylight, a cold blue night, warm indoor lamps.\n\nCode colours:\n- ink #2b2d42, red #d62828, orange #f4a261, gold #f6b93b, green #2fb37a, navy #1f2a48\n- headline tomato #e2552f and purple #5b3fa6\n- grey labels #8a8c9c, white cards #ffffff\n- Font: Montserrat 800-900 (Google Fonts), all caps on cards and signs.\n\nPace:\n- A new place every 3-4 s, about 10 places a minute.\n- Something new arrives every 2 s: a tag, a stamp, a person walking in, a number.\n- Never hold a still over 1 s. Never have a character who doesn't move.\n\nBanned:\n- outlines, glossy UI panels floating over the art, emoji, burned-in subtitles\n- any channel's logo or name, photos of real people\n- facts written on a plain colour card when the place could hold them\n</look>\n\n<art>\nAbout 60 images in all ($2-3).\n\nEvery prompt starts with this style core, word for word:\n\"Flat vector illustration in exactly the same art style as the reference images: NO outlines or line art anywhere, every shape is a flat solid colour fill with at most one slightly darker flat shade for form, simple geometric shapes, crisp clean edges, no gradients, no texture, no painterly lighting. Muted modern palette: dusty blue-grey, slate teal, warm beige, navy, soft purple, salmon-pink skin. No text, no letters, no numbers, no logos.\"\n\nThen add one line that locks the setting (\"The setting is [time, place]: [materials, light sources], nothing from other eras unless asked\"). Feed 3-5 frames of a reference channel in as style references, with their logo cropped off.\n\n1. Hero plates, about 24, one full 16:9 image each, for places you zoom into or come back to.\n   - EMPTY: \"no people, no characters, no animals\".\n   - Straight-on, with an open floor in the middle where characters will stand.\n   - Blank signs, boards, screens and pages that code writes on later.\n2. Quad plates, about 19, giving 76 more places. Pack 4 places into one image:\n   \"The image is a 2x2 grid of FOUR completely separate scenes, each filling exactly one quarter of the image (each quarter is itself a 16:9 picture), divided by perfectly straight thin pure-white gutters, one vertical down the exact centre and one horizontal across the exact centre.\"\n   - Then describe the TOP-LEFT, TOP-RIGHT, BOTTOM-LEFT and BOTTOM-RIGHT scenes.\n   - Split each quad on the brightest white row and column near the centre, walk out while the line stays over 60% white, and trim 6 px more.\n   - Crop each tile to 16:9 at 1920x1080.\n   - Object close-ups make great tiles: a desk, a screen, a document, a plate of food, a vault.\n3. Main characters, 2-3 of them. Write one fixed description per character (age, hair, face, every piece of clothing with colours) and paste it word for word into every sheet.\n   - Base sheet: 6 views. (1) front, neutral, drawn WITHOUT ARMS, only round smooth shoulder sockets where the arms would join; (2) the same armless front with a second emotion; (3) side view walking right; (4) seen from behind; (5) and (6) two poses the script needs.\n   - Expression sheet: 6 armless fronts (hopeful, disgusted, terrified, exhausted, sick, shocked, or whatever the script needs), with the base sheet as a reference.\n   - Pose sheet: 6 full poses with their props (sitting at a desk typing, sleeping, eating, running, signing, falling), with the base sheet as a reference.\n4. Everyone else: role sheets of 4-6 people, each drawn in the exact pose their shot needs; crowd sheets of 8-10 small figures; prop sheets.\n   - Every sheet: \"on a solid flat chroma green background (#00B140) with lots of empty green space between figures; nothing touches, nothing on any character or object is green, full bodies, nothing cut off by the edges\".\n5. Thumbnail art: the same characters with richer saturated cartoon lighting and extreme emotions, the top quarter left free, no text, with the base sheets as references.\n</art>\n\n<rig>\nCutouts:\n- The background is every border-connected pixel with G - max(R,B) over 40 and within 110 of the median green. Key only from the border, or dark clothes leak.\n- Add a 2 px soft alpha band and clamp G to max(R,B) + 6 inside it, which kills the green fringe.\n- Group the pieces by figure and drop specks. Name every sprite, and show me a named contact sheet.\n\nArmless front figures become puppets:\n- Split the head at the neck: the narrowest alpha row under the head.\n- Find both shoulder sockets and the eye boxes.\n- Inpaint the hole under the head from the body's own colours, so a nod never shows a gap.\n- Write everything to rig.js: size, neck, sockets, eye boxes, skin RGB, sleeve RGB.\n- Arms: upper L1 about 0.13 of the figure's height, lower L2 about 0.12, thickness about 0.04. Use sleeve colour to the elbow and skin for the forearm, a 0.82x darker sleeve when the arm is behind the body, and round caps and joins.\n- Hands: mittens in three shapes (mitt, open, fist), plus a point with one finger out.\n- Arm poses: each is a hand target relative to its shoulder, in units of L = L1 + L2, solved by two-bone IK (where there are two signs, the first is the left arm).\n  - down: (∓0.04, 0.97)\n  - rest: (±0.1, 0.9)\n  - hips: (∓0.42, 0.55) with fists\n  - point: right hand to (0.86, -0.32)\n  - present: right hand to (0.75, 0.25), open\n  - shrug: (∓0.62, 0.12), open\n  - up: (∓0.32, -0.9)\n  - hands on head\n  - chin: a fist at the neck\n  - hold: (±0.42, 0.45)\n  - wave: (0.5, -0.75)\n  - stop: (0.55, -0.1)\n  - cheer: (∓0.55, -0.75) with fists\n  - A pose change blends the two targets over 0.3-0.5 s with ease-in-out.\n- Side, back and pose sprites stay whole images. Only the head turns, and a drawing or typing hand jitters ±6 px.\n</rig>\n\n<animation>\nOne HTML canvas where every frame is a pure function of time t: window .seek(t), READY, END, and EV, a list of sound events by name.\n- Hang every shot on the narration: S('exact words', fn) starts a shot 0.08 s before that phrase. Repeated words are looked up by occurrence number.\n- One function per shot, one shots file per chapter.\n\nMotion primitives (Δ = t - start):\n- pop: 0.3 s back-ease overshoot, 1 + 2.9(p-1)^3 + 1.9(p-1)^2.\n- spring in: 1 - e^(-6.5Δ) cos(13Δ).\n- kick on impact: 1 + 0.1 e^(-10Δ) cos(22Δ).\n- shake: x = A e^(-8Δ) sin(61Δ), y = A e^(-8Δ) cos(47Δ).\n- Exits shrink with ease-in over 0.25 s. Things arrive with a spring, a squash or a white puff, never a plain fade.\n\nCamera:\n- camP(plate, zoom, fx, fy) keeps the view inside the plate's edges.\n- Every shot moves from one [zoom, fx, fy] to another with ease-in-out, a 2-4% push or a slow pan, so nothing holds still.\n- Draw the plate and everything on it inside the same camera transform.\n- Keep zoom under 1.33x on quad tiles. Zoom deeper only on hero plates.\n\nTransitions:\n- Push: the old shot slides out left while the new one slides in from the right, 0.24 s ease-in-out, with a whoosh 0.02 s before.\n- Chapter splat: a #f4f1fb blob covers the screen in 0.2 s and clears in 0.2 s. It's a 1,250 px circle, 12 big satellite blobs at golden-angle spacing and 10 small droplets further out, shifted 120 px left on the way in and 140 px right on the way out.\n\nCharacters, alive in every frame:\n- Breathing: scale 1 + 0.009 sin(2.3t).\n- Head nod: 0.025 sin(2.1t) rad, or 0.025 sin(7t) + 0.02 sin(11.3t) while that character's line is spoken.\n- Blink: every 2.7-4.2 s, seeded per figure. For 0.14 s, paint each eye box over in skin colour with a curved lash line.\n- Walk:\n  - Bob |sin| at 2.2% of the figure's height, with a body rock of ±0.035 rad.\n  - Side-view walk sprites slide 1.5 leg lengths per step cycle, so the feet don't skate.\n- Enter on the spring, sometimes with a hop. Fear is a fast shake (sin 70t). Surprise is a jump and an orange \"!\".\n- A soft contact shadow ellipse under every figure. Night shots darken them with brightness(1 - k), so they match the plate.\n- Every character on screen acts on its line: points at the thing being named, presents it, shrugs, cheers, holds its head.\n</animation>\n\n<graphics>\nText only lives on things in the world, typed letter by letter: 28 letters a second (34 for short tags). Each letter starts 1.45x big and 0.7 em to the right and settles in 0.18 s with ease-out.\n\nThe full kit:\n- Board: a white rounded board (radius 20) that drops 420 px on the spring and swings 0.25 rad into place, or stands on a wooden post and swings up from -1 rad.\n  - Soft drop shadow (blur 22, y 8, 22%) and a faint darker strip along its bottom edge.\n  - Lines typed 0.3 s apart.\n- Date card: top left at (70, 70), white, 120 px tall, at least 330 px wide, radius 18. An orange calendar icon, a grey \"DATE:\" at 26 px, the date typed at 44 px weight 900. Pops in over 0.32 s.\n- Place card: the same card with a red map pin and \"PLACE:\".\n- Tag: a 6 px line with a dot at the thing, drawn in 0.2 s, then a rounded pill (the text at 40 px weight 900) pops on its end. Ink, red, gold or orange pills.\n- Number card: a white card with a small grey label and a big red number. Long numbers roll up like a counter with ease-out.\n- Red X: two round 30 px strokes, 0.11 s each, 0.01 s apart, with a soft shadow. One goes over every wrong idea.\n- Stamp: red text in a double rounded border, tilted -0.12 rad. It slams from 2.1x to 1x in 0.14 s, then kicks.\n- Banner: a full-width headline band, 92 px white caps on tomato or purple, rotated -0.02 rad, sliding in from the left over 0.22 s.\n- Speech bubble: white, radius 36, with a tail. Thought cloud: a pill with two small circles.\n- Orange \"?\" that bobs and sways over a puzzled head, and an orange \"!\" pop.\n- White puff and poof clouds, speed lines, light blue sweat drops, coins and bills, a soft vignette, and a colour tint for mood.\n- Write on the plate's own blank boards, screens and pages whenever the place has them. Measure the blank's rectangle on a grid overlay of the plate first.\n</graphics>\n\n<voice>\n- ElevenLabs: a deep, warm US documentary narrator, eleven_v4, stability 0.5, similarity 0.75, style 0, speaker boost, with the timestamps endpoint.\n- About 170-180 words a minute, using the voice's own speed setting (1.0-1.1). Never speed it up with atempo: it sounds chipmunked.\n- Long scripts go in 3 chunks split at chapter breaks, passing the previous and next text so the read stays continuous.\n- Cut pauses over 0.24 s to 0.16 s, leave 0.5 s at chapter breaks, and add a 0.3 s lead-in.\n- Rebuild word times from the alignment into words.js.\n- Run faster-whisper over the result and diff it against the script before building the picture.\n- Free route: Kokoro, then faster-whisper for the word times.\n</voice>\n\n<sound>\n- Music: 2-3 free documentary beds from Pixabay, crossfaded over 3 s at big beats.\n- Duck the music under the voice (30 ms attack, 0.3 s hold, 0.45 s release) and let it swell back up between chapters.\n- SFX from Mixkit, one per event, aligned by their peaks, 6 dB quieter on speech: a typewriter tick on typing, a whoosh on pushes and splats, a pop on tags and cards, a thud on stamps, a hit on every red X, a ding on ticks, plus sounds that fit the scene.\n- Gate: during speech the voice sits 15+ dB over music plus SFX (median of 100 ms frames), and the background is louder than the voice in under 1% of frames.\n- Two-pass loudnorm to -14 LUFS, true peak -1 dB.\n</sound>\n\n<build>\n1. Tools: Python, Playwright with Chromium or Edge, FFmpeg, faster-whisper, OpenCV, Pillow, numpy. Install what's missing and tell me what you installed.\n2. Order:\n   - the look test\n   - the art in batches, with a contact sheet after each\n   - cutouts and rig\n   - voice and word times\n   - shots, chapter by chapter\n3. Check before any full render: a contact sheet per chapter, one frame every 2 s. Fix:\n   - empty or overflowing signs\n   - text over a face\n   - black plate edges\n   - feet floating off the floor\n   - two shots in a row in the same place\n   - any 4 s where nothing new arrives\n4. Render at 30 fps, 4 motion-blur subframes over half a frame, frames piped to libx264 CRF 16-18.\n   - Split long videos across 4-6 parallel browser pages and join the parts.\n   - Scan the result for single-frame jumps and check that each one is a planned cut.\n</build>\n\n<gotchas>\n- Too few places reads as lazy. One plate held for 30 s with cards over it looks cheap. Budget about 10 new places a minute.\n- Some image models ignore \"no arms\". GPT Image 2 follows it.\n- Paste the same character description into every sheet and feed the base sheet back in, or faces and clothes drift.\n- Quad tiles are only about 1920 px wide. Pushing past 1.33x looks soft.\n- Plates with people already drawn in can't be animated. Ask for EMPTY and check before cutting.\n- Text on a card floating over the art looks like a slideshow. Write on the world.\n- Long renders crash. Render in parts you can rerun, and back up the shot files before every big patch.\n</gotchas>\n\n<start>\nAsk me for my topic, my script, my image model and my voice, then make the look test.\n</start>",
+      "covers": [
+        "/covers/x-2119332592814067932-video.jpg"
+      ]
+    },
+    {
+      "no": "698",
+      "id": "x-2120214350418137295",
+      "title": "用会说话的物件讲清商业因果的代码漫画动画",
+      "kicker": "代码动画 · 因果解释",
+      "excerpt": "把数字和抽象概念变成会变化的道具，配合人物动作、场内标注与提问卡，适合解释一个商业或经济事件为何发生。",
+      "style": "深色描边二维卡通、场景内数字与缓慢运镜",
+      "category": "code",
+      "visualCategory": "code",
+      "scenarios": [
+        "knowledge",
+        "story"
+      ],
+      "tags": [
+        "代码动画",
+        "因果解释",
+        "商业科普",
+        "拟人物件",
+        "数字动画",
+        "镜头运动"
+      ],
+      "medium": "video",
+      "use": "template",
+      "slots": [],
+      "creator": {
+        "id": "caesarscales",
+        "name": "caesar",
+        "handle": "caesarscales",
+        "url": "https://x.com/caesarscales"
+      },
+      "sourceUrl": "https://x.com/caesarscales/status/2120214350418137295",
+      "model": "Claude / HTML Canvas（作者标注，未注明具体模型版本）",
+      "date": "2026-11-10",
+      "notes": "FOLIO 收录说明：提示词逐字摘自公开原帖，标题与用途为编辑整理，配图为原帖图片或视频预览，本次未生成新图或新视频。原帖含完整流程与约 15 分钟示例视频，封面为该视频原始缩略图。模板中的商业事件、金额、免费工具和授权说法不视为核实事实；本次未运行流程或证明可直接复现。用于讲解结构参考，不构成投资建议。",
+      "prompt": "<inputs>\nFirst ask me: short or long form?\n- Short: 1080x1920 vertical, 30 fps, 45-70 s, one story, about 130-190 words.\n- Long form: 1920x1080 horizontal, 30 fps, 8-15 min, chaptered, about 150 words per minute.\nThen ask me for my topic, or pitch 3.\n- A good one is a real, current money or business event that looks impossible at first: a giant loses billions in a morning, a market crashes on good news, a company pays to lose. The reveal is a chain of plain causes the viewer can follow.\n- Give each pitch with its first line, the big number, the hidden cause, and a title phrased as a question (\"Why the ___ Just ___\").\nAsk which voice I want:\n- Free, the default: Kokoro, run locally on the CPU.\n- Optional upgrade: ElevenLabs with a stock library voice. Tell me the credit cost before you generate anything, and make one take.\nTell me everything is free: Python, Node with Playwright and a headless browser, FFmpeg, faster-whisper, Pixabay music and Mixkit sound effects. No image, video or 3D model generator is used anywhere. Everything is drawn in code on an HTML canvas.\nThen write the script and the beat list with seconds, and show me both before you build anything.\n</inputs>\n\n<direction>\nA narrated \"why did this just happen\" money explainer in a flat 2D vector cartoon style: simple cartoon people and talking objects acting inside lit, dressed flat sets, one calm storyteller voice, numbers and labels drawn inside the world, black typed-text cards for the big questions, and a camera that slowly pushes on every hold.\n\nSets (2D, drawn in code on an HTML canvas):\n- Build every place from simple flat shapes: rounded rectangles, circles, ellipses, bezier curves. No downloaded art, no AI images.\n- Every shape has a medium dark outline (warm near-black, about 4-5 px at 1080 p) with round joins.\n- Turn every idea into a physical object: a stock index becomes a skyline of bars, a rally becomes a balloon, a bubble is a real glass bubble with the company inside, a loss is a giant chip crushing its owner, a budget is a shopping list.\n- Dress every place: windows, signs, pigeons, clocks, plants, papers, crowds. Never an empty set.\n- Put the facts inside the world: price counters, signs on buildings, labels on boxes, clipboards, calendars, clocks with times.\nPalette and light:\n- Each place gets one mood: night green glow for tech, clean daylight blue for the street, off-white grid paper for charts, deep blue-grey spotlight for the question shots, red trading floors for panic.\n- Light comes from inside the scene: soft radial light pools behind the subject, a spotlight cone, a glowing object. Add a vignette on every shot.\n- Numbers: red with a soft red glow for losses, green for gains, white with a dark outline for names.\n- Finish with a soft glow (screen-blend a blurred highlight pass at about 0.4 opacity).\nPeople and objects:\n- The look, kept simple:\n  - a round skin-tone head with a soft shade on one side, outlined\n  - small dark oval eyes with a white catch-light, simple brows, a tiny nose curve, a small mouth that changes shape\n  - a bean-shaped body in one flat colour (suit, hoodie, uniform, lab coat), thin stick arms and legs, small dark shoe ovals, a soft floor shadow\n  - one marker each so the viewer knows who it is: grey hair and glasses, a cap and badge, a white coat\n- Companies can be talking objects (a fruit, a cloud, a box) with the same eyes and outline, never a real logo.\n- Real public figures appear only as generic cartoon types (an exec in a black jacket), never a likeness.\n- The face set: neutral, grin, smug, worried, shock (white ring eyes, open mouth), sweat drop.\n- Pose-to-pose acting: arms up holding something, hands on hips, pointing, holding a clipboard. Blinks and small breathing keep holds alive.\nCamera and editing:\n- Hold each picture 2-4 s with a slow push-in or slow drift, then a hard cut on a word to the next picture. This style cuts often (about every 2-3 s); it never sits still.\n- One small shake on each impact (a crash, a stamp).\n- Black cards for the big questions: the line types on word by word in a white handwritten font (Caveat), centred, timed to the voice.\n- Long form: open with a 30 s cold open (the shocking fact, the \"nothing was wrong\" beat, the numbers, the big question), then chapter cards on black (\"The Top\", \"Crack One\").\nText:\n- In-world labels use a bold hand-drawn font (Kalam Bold) in caps, white or coloured fill with a thick dark outline.\n- Counters animate: they tick up on the word that says the number.\n- No burned-in subtitles; the words in the world and the black cards do that job.\nBanned:\n- AI images or video, downloaded art, real logos, real likenesses\n- a camera that sits still for more than a second\n- half-cut faces, legs-only frames, empty backgrounds\n- a time-stretched or whispered voice\n- jargon left unexplained\n</direction>\n\n<structure>\nShort (about 60 s):\n0-4 s, HOOK: the shocking number, shown happening (\"lost $400 billion in a single morning\").\n4-12 s, NOTHING WAS WRONG: three quick \"No ___\" beats, one picture each.\n12-25 s, THE DAMAGE: two more numbers, each as an object that breaks (a skyline crumbles, a balloon deflates against a stopwatch).\n25-30 s, THE QUESTION: a black card that types the question.\n30-50 s, THE CAUSE: two or three plain causes, one prop each, joined with \"and\" and \"so\".\n50-60 s, THE TWIST: who actually won, shown, not explained. The last line calls back to the hook.\nLong form (8-15 min):\n-0:30 cold open as above, then \"The short answer is...\" in one line.\nThen 4-6 chapters, each opened by a black chapter card: the setup with one exact number, then each cause as its own small story with one visual metaphor, then the day it broke minute by minute (clocks in the corner), then who won and what happens next.\nEvery 40-60 s, change the location and the colour mood so the eye stays fresh.\n</structure>\n\n<build>\n1. Tools (all free): Python 3, Node with Playwright, FFmpeg, faster-whisper, numpy, plus the fonts Kalam and Caveat Install what's missing and tell me what you installed.\n2. Script:\n   - Tell it the way you'd explain it to a smart friend: plain words, exact numbers, one funny comparison per minute.\n   - Join related sentences with commas, because a voice resets after every full stop and leaves a gap.\n   - Short punchy fragments are fine for the \"No bank failed. No law passed.\" beat.\n   - Show me the word count and the seconds per line.\n3. Voice:\n   - Free route: Kokoro on the CPU, one line per call, joined with short gaps.\n   - Paid route: ElevenLabs, one take, cost stated first.\n   - Only trim silence, never inside a word. Then run faster-whisper on the finished track to get word times.\n4. Characters and objects: draw the cast in code, show me a sheet, then build the scenes.\n5. Shot table: one file that lists every shot with its start and end anchored to a word time, never a typed time. Every animation (counters, crumbles, typing, entrances) is also keyed to a word time.\n6. Scene file: one draw function per shot, plus a camera function (zoom, focus point, small roll, shake) and helpers for outlines, labels, light pools and the vignette.\n7. Exporter: a headless browser page draws every frame on a 1920x1080 (or 1080x1920) canvas and writes JPG frames, skipping frames that already exist so it can resume.\n8. Contact sheet before the full render: a still from the middle of every shot, labelled with time and the line being spoken. I approve or ask for changes.\n9. Sound:\n   - Music: one low, tense-but-curious bed under a free licence, about 20 dB under the voice.\n   - Effects: real Mixkit sounds on the actions (cash-register dings on counters, crumbles on crashes, a typewriter tick on black cards, whooshes on cuts).\n   - Duck music and effects under speech. Normalise to -14 LUFS.\n10. Finish with FFmpeg: the soft glow, the mix, H.264.\n11. Give me a one-click .bat (or .sh) that runs the export and the finish. It must refuse to encode if any frame is missing, and never overwrite an older video.\n12. Upload text:\n   - Title: \"Why [the thing] Just [happened]\".\n   - Thumbnail: the hook frame (the giant object crushing the worried character) with the big red number, no other text.\n</build>\n\n<gotchas>\nScript:\n- Starting with background (dates, names, context) loses people. Line 1 is the shocking number happening.\n- Long form drifts if a chapter has no picture idea. Every paragraph needs a prop before it's written.\nLook:\n- Empty sets read as cheap. Dress every place.\n- Objects that should be held (a chip, a sign) must touch the hands, or they float.\n- Text on signs must fit its board; measure it and shrink it if needed.\n- Labels over a prop get hidden; check every label is readable.\nCamera:\n-  is narrow: re-frame every shot for vertical, don't just crop the horizontal one.\n- A pan that passes over half a building between beats is fine, but every hold must land on a full face or a full object.\nRender:\n- A render that stops early must not be encoded into a short video. Check the frame count first.\nSound:\n- Music only a few dB under the voice makes the narrator hard to hear. Keep it low and measure.\n</gotchas>\n\n<start>\nAsk me short or long form first. Then ask for my topic or pitch 3. Then show me the script (word count and seconds per line) and the beat list before any voice is generated or any scene is drawn.\n</start>",
+      "covers": [
+        "/covers/x-2120214350418137295-video.jpg"
       ]
     }
   ],
